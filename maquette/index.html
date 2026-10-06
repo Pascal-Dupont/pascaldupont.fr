@@ -168,6 +168,10 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 footer nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 footer a { text-decoration: none; }
 footer a:hover { color: var(--texte); }
+.voir { margin-top: .5rem !important; font-size: .85rem !important; }
+.voir a { text-decoration: underline; text-decoration-color: var(--ligne); text-underline-offset: .25em; color: var(--texte); }
+.voir a:hover { text-decoration-color: var(--beret-vif); }
+div.cadre { cursor: default; }
 /* à propos et production */
 .apropos { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: 3.5rem; align-items: start; }
 @media (max-width: 52rem) { .apropos { grid-template-columns: minmax(0, 1fr); gap: 2rem; } }
@@ -176,7 +180,9 @@ footer a:hover { color: var(--texte); }
 .citation { margin: 2rem 0; padding-left: 1.2rem; border-left: 2px solid var(--beret-vif); font-family: var(--display); font-style: italic; font-size: clamp(1.6rem, 3vw, 2.2rem); line-height: 1.2; }
 .production { background: var(--ardoise); border-block: 1px solid var(--ligne); }
 .production h2 { font-size: clamp(2rem, 4.5vw, 3.2rem); margin: .8rem 0 1rem; }
-.production p { max-width: 40rem; color: var(--texte-doux); margin: 0; font-size: 1.1rem; }
+.production p { color: var(--texte-doux); margin: 0; font-size: 1.1rem; }
+.production .question { font-family: var(--display); font-style: italic; color: var(--texte); font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.25; max-width: 32rem; margin-bottom: 2rem; }
+.colonnes-texte { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1.2rem 2.5rem; max-width: 64rem; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .lecture { transition: none; } }
 </style>
 
@@ -225,10 +231,15 @@ footer a:hover { color: var(--texte); }
 
   <section id="en-production" class="production">
     <div class="wrap">
-      <span class="etiquette">En production</span>
-      <h2>La génération OPEX</h2>
-      <p>Un documentaire de 52 minutes sur le stress post-traumatique et sur ce que les blessés transmettent à des jeunes en rupture. Tourné au sein de la Fondation Résilience, avec Lucile au montage.</p>
-      <div class="actions"><a class="bouton contour" href="#apropos">Mon parcours</a></div>
+      <span class="etiquette">En développement · Documentaire, 52 minutes</span>
+      <h2>REVIVRE</h2>
+      <p class="question">Que devient-on quand on ne peut plus être celui qu'on était ?</p>
+      <div class="colonnes-texte">
+        <p>Militaires, gendarmes, policiers, pompiers, soignants : ceux qui servent portent parfois des blessures qui ne se voient pas. Le stress post-traumatique touche bien plus de monde qu'on ne le croit, et il se vit souvent en silence.</p>
+        <p>REVIVRE suit quelques parcours de femmes et d'hommes qui ont fait de leur blessure autre chose qu'une fin. Le film ne raconte ni des exploits ni des défis. Il raconte des combats réels, menés avec lenteur, avec leurs rechutes et leurs relèvements, et ce qu'ils décident d'en faire une fois debout.</p>
+        <p>Le dernier mouvement du film est tourné vers la transmission : ce que ceux qui se sont relevés donnent à des jeunes en rupture, et ce que cela dit du lien entre l'Armée et la Nation.</p>
+        <p>Un documentaire d'auteur, tourné avec les personnes concernées, dans le respect de chacune et sans mise en scène de la douleur.</p>
+      </div>
     </div>
   </section>
 
@@ -456,12 +467,13 @@ footer a:hover { color: var(--texte); }
           <li><span>Voix d'Amazonie, avec Pierre Bayle</span><span>2019-2020</span></li>
           <li><span>Eurosatory, films officiels du show daily</span><span>2022</span></li>
           <li><span>Cycle mémoire du 1er RCP</span><span>depuis 2023</span></li>
-          <li><span>La génération OPEX, 52 minutes</span><span>en production</span></li>
+          <li><span>Administrateur de l'amicale du 1er RCP, audiovisuel</span><span>depuis août 2025</span></li>
+          <li><span>REVIVRE, documentaire de 52 minutes</span><span>en développement</span></li>
         </ul>
       </div>
       <div>
         <h2>Avec Lucile</h2>
-        <p>Lucile m'accompagne sur la recherche de documents et de photographies, et signe une grande partie des montages. Elle a monté le film de présentation de « La génération OPEX », avec la Fondation Résilience.</p>
+        <p>Lucile m'accompagne sur la recherche de documents et de photographies, et signe une grande partie des montages.</p>
         <p>Ensemble, nous animons <a href="#lakelab" style="text-decoration:underline;text-underline-offset:.25em">LAKELAB</a>, notre espace de recherches esthétiques.</p>
       </div>
     </div>
@@ -487,19 +499,25 @@ footer a:hover { color: var(--texte); }
       ['yzubFqyXDmk', 'Voix d\'Amazonie', 'Avec Pierre Bayle · les communautés indigènes d\'Équateur face à l\'extraction minière et pétrolière', '43:45'],
       ['AZERIB9ymiE', 'Hélie de Saint Marc, témoin du siècle', 'Extrait avant-première', '3:26']
     ]},
-    { cle: 'memoire', titre: 'Mémoire et 1er RCP', texte: 'Portraits de vétérans et films pour le 1er régiment de chasseurs parachutistes.', films: [
-      ['MX1rXj52K88', 'Capitaine Raymond Locci', 'Brevet para 12204 · Vosges 1943, Indochine 1946', '1:35:39'],
-      ['uF7zqXfUsjc', 'Commandant Everrard', 'Brevet para 12137 · Indochine 1946', '34:23'],
-      ['14sGggpm58I', 'Jebsheim 80', 'Le 1er RCP et la libération des Vosges et de l\'Alsace', '4:38'],
+    { cle: 'rcp', titre: 'Pour le 1er RCP', texte: 'Films réalisés pour le 1er régiment de chasseurs parachutistes, à voir sur les pages officielles du régiment.', films: [
+      ['RCP1', 'JPO 2025, première partie', 'Journées portes ouvertes du régiment', '', [['Instagram', 'https://www.instagram.com/reel/DKbpGcdso3j/'], ['Facebook', 'https://www.facebook.com/share/v/1HcxhUaZkf/']], 'Reportage'],
+      ['RCP2', 'JPO 2025, deuxième partie', 'Journées portes ouvertes du régiment', '', [['Instagram', 'https://www.instagram.com/reel/DKgzcVEMQqb/'], ['Facebook', 'https://www.facebook.com/share/v/1DgcjCK6wN/']], 'Reportage'],
+      ['RCP3', 'Section robotique et renseignement', 'Film issu du partenariat entre l\'UNAC et le régiment', '', [['Instagram', 'https://www.instagram.com/reel/DJWFjqas4Ez/'], ['Facebook', 'https://www.facebook.com/share/v/14vBqNnAZHc/'], ['X', 'https://x.com/1erRCP/status/1920036721569202623']], 'Présentation'],
+      ['RCP4', 'Les 80 ans de Jebsheim', 'Le 1er RCP et la libération de l\'Alsace', '', [['Instagram', 'https://www.instagram.com/reel/DS0Fuk-DXkT/'], ['Facebook', 'https://www.facebook.com/share/v/1HsNqid6yr/'], ['X', 'https://x.com/1erRCP/status/2005313606834077905']], 'Mémoire'],
+      ['RCP5', 'Histoire du régiment, chapitre 1', 'Les précurseurs', '', [['Instagram', 'https://www.instagram.com/reel/DTN6GFljSIT/'], ['Facebook', 'https://www.facebook.com/share/v/1J7KB5B7Du/'], ['X', 'https://x.com/1erRCP/status/2008948029521580219']], 'Histoire'],
+      ['RCP6', 'Histoire du régiment, chapitre 2', 'La Seconde Guerre mondiale', '', [['Instagram', 'https://www.instagram.com/reel/DVBzyCXjRPe/'], ['Facebook', 'https://www.facebook.com/share/v/19wBeEKT2A/'], ['X', 'https://x.com/1erRCP/status/2025266714775077271']], 'Histoire'],
+      ['RCP7', 'Histoire du régiment, chapitre 3', 'L\'Indochine', '', [['Instagram', 'https://www.instagram.com/reel/DZc5SQ1tEOr/'], ['Facebook', 'https://www.facebook.com/share/v/1Ee79SxYiJ/'], ['X', 'https://x.com/1erRCP/status/2065118320643170619']], 'Histoire'],
+      ['RCP8', 'Histoire du régiment, chapitre 4', 'L\'Algérie · en production', '', [], 'Bientôt'],
+      ['RCP9', 'Camp régimentaire 2025', 'Film court, partenariat Texelis', '', [['Instagram', 'https://www.instagram.com/reel/DTnqKLuDc5q/'], ['Facebook', 'https://fb.watch/K4XCoYoq2P/']], 'Film court'],
+      ['RCP10', 'Thales Onyx', 'Film court, partenariat Thales', '', [['Instagram', 'https://www.instagram.com/reel/DdZMV6Ht0Eu/'], ['Facebook', 'https://www.facebook.com/share/v/1cWDqm3qax/']], 'Film court'],
+      ['RCP11', 'Thales PR4G', 'Film court, partenariat Thales', '', [['Instagram', 'https://www.instagram.com/reel/Ddjk7LEtpA-/'], ['Facebook', 'https://fb.watch/K4XMnJgb3P/']], 'Film court']
+    ], liens: [['1er RCP sur Instagram', 'https://www.instagram.com/1er_rcp/'], ['1er RCP sur Facebook', 'https://www.facebook.com/1erRCP'], ['1er RCP sur X', 'https://x.com/1erRCP']] },
+    { cle: 'memoire', titre: 'Mémoire', texte: 'Portraits de témoins et films de commémoration.', films: [
+      ['MX1rXj52K88', 'Capitaine Raymond Locci', 'Brevet para 12204 · Vosges 1943, Indochine 1946 · réalisé avec l\'amicale du 1er RCP', '1:35:39'],
+      ['uF7zqXfUsjc', 'Commandant Everrard', 'Commande de l\'amicale du 1er RCP, offerte au régiment · Indochine 1946', '34:23', [['YouTube', 'https://www.youtube.com/watch?v=uF7zqXfUsjc'], ['Relais du régiment sur X', 'https://x.com/1erRCP/status/1938606377661874421']]],
       ['hAsRJtDXMSY', '70 ans de Diên Biên Phu au 1er RCP', 'Film de mémoire', '7:00'],
-      ['iyuX_UN7ABY', 'Drakkar, 40e anniversaire', 'Commémoration', '11:23'],
-      ['Nzy9OkVY-zE', '1er RCP, JPO 2025', 'Reportage sur les journées portes ouvertes', '5:33'],
-      ['jbxMCEz5Gpc', 'Section robotique et renseignement', 'Film de présentation du 1er RCP', '1:59'],
-      ['CH1', 'Histoire du 1er RCP, chapitre 1', 'Les précurseurs', '', 'https://www.facebook.com/1erRCP', 'Facebook · Instagram'],
-      ['CH2', 'Histoire du 1er RCP, chapitre 2', 'La Seconde Guerre mondiale', '', 'https://www.facebook.com/1erRCP', 'Facebook · Instagram'],
-      ['CH3', 'Histoire du 1er RCP, chapitre 3', 'L\'Indochine', '', 'https://www.facebook.com/1erRCP', 'Facebook · Instagram'],
-      ['CH4', 'Histoire du 1er RCP, chapitre 4', 'L\'Algérie · en production', '', 'https://www.facebook.com/1erRCP', 'Bientôt']
-    ], liens: [['1er RCP sur Facebook', 'https://www.facebook.com/1erRCP'], ['1er RCP sur Instagram', 'https://www.instagram.com/1er_rcp/']] },
+      ['iyuX_UN7ABY', 'Drakkar, 40e anniversaire', 'Commémoration de l\'attentat', '11:23']
+    ]},
     { cle: 'serval', titre: 'Série Serval', texte: 'Mali, 2013 : dix-huit films montés au rythme des opérations et trois hommages.', films: [
       ['YurOVRWhpz8', 'Combats dans l\'Adrar des Ifhôgas', 'Du 9 février au 1er mars 2013', '13:26'],
       ['0ynsZ42MuU4', 'Forces spéciales et 1er RCP à Tessalit', '8 février 2013', '2:32'],
@@ -543,7 +561,7 @@ footer a:hover { color: var(--texte); }
     ['MX1rXj52K88', 'Capitaine Raymond Locci', 'Vosges 1943, Indochine 1946', '1:35:39', 'Portrait'],
     ['uF7zqXfUsjc', 'Commandant Everrard', 'Indochine 1946, 1er RCP', '34:23', 'Portrait'],
     ['SERVAL', 'Opération Serval', 'Mali 2013 · près de 3 millions de spectateurs', '', 'Série'],
-    ['14sGggpm58I', 'Jebsheim 80', 'Le 1er RCP et la libération de l\'Alsace', '4:38', 'Mémoire'],
+    ['JEB', 'Les 80 ans de Jebsheim', 'Le 1er RCP et la libération de l\'Alsace', '', 'Mémoire', 'https://www.instagram.com/reel/DS0Fuk-DXkT/'],
     ['iJQCmkrEMuU', 'État d\'urgence', 'Premier film LAKELAB', '2:50', 'Film']
   ];
   var SERVAL = [
@@ -580,26 +598,31 @@ footer a:hover { color: var(--texte); }
   }
   function carte(id, titre, sous, duree, type, opts) {
     opts = opts || {};
-    var href = opts.href || (YT + id);
+    var liens = opts.liens;
+    var href = liens && liens.length ? liens[0][1] : (opts.href || (YT + id));
     var ext = href.charAt(0) === '#' ? '' : ' target="_blank" rel="noopener"';
+    var inerte = liens && liens.length === 0;
+    var voir = '';
+    if (liens && liens.length) {
+      voir = '<p class="voir">Voir sur : ' + liens.map(function (l) { return '<a href="' + l[1] + '" target="_blank" rel="noopener">' + l[0] + '</a>'; }).join(' · ') + '</p>';
+    }
     var a = document.createElement('article');
     a.className = 'film';
     a.setAttribute('data-cat', opts.cat || '');
     a.innerHTML =
-      '<a class="cadre" href="' + href + '"' + ext + ' style="--g:' + degrade(id) + '" aria-label="Lire : ' + titre.replace(/"/g, '&quot;') + '">' +
+      (inerte ? '<div class="cadre" style="--g:' + degrade(id) + '">' : '<a class="cadre" href="' + href + '"' + ext + ' style="--g:' + degrade(id) + '" aria-label="Lire : ' + titre.replace(/"/g, '&quot;') + '">') +
       (type ? '<span class="type">' + type + '</span>' : '') +
-      '<span class="lecture"></span>' +
-      (duree ? '<span class="duree">' + duree + '</span>' : '') + '</a>' +
+      (inerte ? '' : '<span class="lecture"></span>') +
+      (duree ? '<span class="duree">' + duree + '</span>' : '') + (inerte ? '</div>' : '</a>') +
       (opts.date ? '<span class="date">' + opts.date + '</span>' : '') +
-      '<h3>' + titre + '</h3>' + (sous ? '<p>' + sous + '</p>' : '');
+      '<h3>' + titre + '</h3>' + (sous ? '<p>' + sous + '</p>' : '') + voir;
     return a;
   }
 
   /* ---- accueil : à la une ---- */
   var une = document.getElementById('grille-une');
   UNE.forEach(function (f) {
-    if (f[0] === 'SERVAL') une.appendChild(carte('SERVAL', f[1], f[2], f[3], f[4], { href: '#serval' }));
-    else une.appendChild(carte(f[0], f[1], f[2], f[3], f[4]));
+    une.appendChild(carte(f[0], f[1], f[2], f[3], f[4], { href: f[5] || (f[0] === 'SERVAL' ? '#serval' : undefined) }));
   });
 
   /* ---- films : filtres et groupes ---- */
@@ -618,7 +641,7 @@ footer a:hover { color: var(--texte); }
     sec.className = 'groupe'; sec.setAttribute('data-groupe', g.cle);
     sec.innerHTML = '<h2>' + g.titre + '</h2><p>' + g.texte + '</p>';
     var grille = document.createElement('div'); grille.className = 'films';
-    g.films.forEach(function (f) { grille.appendChild(carte(f[0], f[1], f[2], f[3], f[5] || '', { cat: g.cle, href: f[4] })); });
+    g.films.forEach(function (f) { grille.appendChild(carte(f[0], f[1], f[2], f[3], f[5] || '', { cat: g.cle, liens: f[4] })); });
     sec.appendChild(grille);
     var liens = (g.liens || []).slice();
     if (g.pageServal) liens.unshift(['Voir toute la série Serval', '#serval']);
