@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
 <style>
 /* Concept : un site de cinéma, sombre et brumeux comme les montagnes de vos plans.
-   Hero typographique, planche-contact de films, bande claire pour les prestations. */
+   Trois vues dans une seule page : Accueil, Films, Série Serval (routage par #ancre). */
 :root {
   --nuit: #0d1217;
   --ardoise: #17202a;
@@ -25,21 +25,14 @@
 }
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body {
-  background: var(--nuit);
-  color: var(--texte);
-  font-family: var(--corps);
-  font-size: 1.0625rem;
-  line-height: 1.6;
-  padding-inline: 0;
-}
+body { background: var(--nuit); color: var(--texte); font-family: var(--corps); font-size: 1.0625rem; line-height: 1.6; }
 a { color: inherit; }
 :focus-visible { outline: 2px solid var(--sable); outline-offset: 3px; }
 .wrap { width: 100%; max-width: 72rem; margin-inline: auto; padding-inline: 1.25rem; }
 h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.1; margin: 0; text-wrap: balance; }
 .etiquette { font-family: var(--mono); font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--sable); }
+[hidden] { display: none !important; }
 
-/* bandeau maquette */
 .note { background: var(--ardoise-2); color: var(--texte-doux); font-size: .85rem; padding-block: .5rem; text-align: center; }
 .note .wrap { padding-block: 0; }
 
@@ -49,10 +42,11 @@ h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.1; ma
 .marque { font-family: var(--display); font-size: 1.35rem; text-decoration: none; letter-spacing: .01em; }
 .menu { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; font-size: .95rem; }
 .menu a { text-decoration: none; color: var(--texte-doux); }
-.menu a:hover { color: var(--texte); }
-.menu a.bouton-petit { color: var(--texte); border: 1px solid var(--texte-doux); padding: .4rem .9rem; border-radius: 2px; }
+.menu a:hover, .menu a[aria-current="page"] { color: var(--texte); }
+.menu a[aria-current="page"] { text-decoration: underline; text-decoration-color: var(--beret-vif); text-underline-offset: .45em; }
+.menu a.bouton-petit { color: var(--texte); border: 1px solid var(--texte-doux); padding: .4rem .9rem; border-radius: 2px; text-decoration: none; }
 .menu a.bouton-petit:hover { background: var(--texte); color: var(--nuit); }
-@media (max-width: 40rem) { .menu { gap: .9rem; font-size: .88rem; } .menu .cache-mobile { display: none; } }
+@media (max-width: 44rem) { .menu { gap: .9rem; font-size: .88rem; } .menu .cache-mobile { display: none; } }
 
 /* hero */
 .hero { position: relative; overflow: hidden; background: linear-gradient(180deg, #131c25 0%, #1b2733 55%, #2a3846 100%); }
@@ -71,10 +65,17 @@ h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.1; ma
 .bouton.contour:hover { background: var(--texte); color: var(--nuit); }
 
 /* sections */
-section { padding-block: clamp(3.5rem, 8vw, 6rem); }
+section { padding-block: clamp(3.5rem, 8vw, 6rem); scroll-margin-top: 4.5rem; }
 .titre-section { display: grid; gap: .8rem; margin-bottom: 2.2rem; }
-.titre-section h2 { font-size: clamp(2rem, 4.5vw, 3.2rem); }
-.titre-section p { margin: 0; max-width: 40rem; color: var(--texte-doux); }
+.titre-section h2, .page-titre h1 { font-size: clamp(2rem, 4.5vw, 3.2rem); }
+.titre-section p { margin: 0; max-width: 42rem; color: var(--texte-doux); }
+.page-titre { padding-block: clamp(2.5rem, 6vw, 4.5rem) 0; }
+.page-titre .wrap { display: grid; gap: 1rem; }
+.page-titre h1 { font-size: clamp(2.4rem, 6vw, 4.4rem); max-width: 18ch; }
+.page-titre p { margin: 0; max-width: 44rem; color: var(--texte-doux); font-size: 1.1rem; }
+.retour-lien { font-size: .9rem; color: var(--texte-doux); text-decoration: none; }
+.retour-lien:hover { color: var(--texte); }
+.dev { border: 1px dashed var(--sable); color: var(--sable); font-size: .85rem; padding: .7rem 1rem; max-width: 44rem; margin-top: .5rem; }
 
 /* films */
 .filtres { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 2rem; }
@@ -82,15 +83,25 @@ section { padding-block: clamp(3.5rem, 8vw, 6rem); }
 .filtre:hover { color: var(--texte); border-color: var(--texte-doux); }
 .filtre[aria-pressed="true"] { background: var(--texte); color: var(--nuit); border-color: var(--texte); }
 .films { display: grid; grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr)); gap: 2rem 1.25rem; }
-.film[hidden] { display: none; }
 .cadre { position: relative; aspect-ratio: 16 / 9; max-width: 100%; background: var(--g, var(--ardoise-2)); border-radius: 2px; overflow: hidden; display: block; text-decoration: none; }
 .cadre::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 45%, rgba(0,0,0,.55)); }
 .lecture { position: absolute; z-index: 1; left: .9rem; bottom: .9rem; width: 2.6rem; height: 2.6rem; border-radius: 50%; border: 1px solid rgba(255,255,255,.7); display: grid; place-items: center; transition: background .2s; }
 .lecture::before { content: ""; margin-left: .15rem; border-style: solid; border-width: .4rem 0 .4rem .65rem; border-color: transparent transparent transparent #fff; }
 .cadre:hover .lecture { background: var(--beret); border-color: var(--beret); }
+.duree { position: absolute; z-index: 1; right: .8rem; bottom: .8rem; font-family: var(--mono); font-size: .72rem; color: rgba(255,255,255,.9); }
 .type { position: absolute; z-index: 1; top: .7rem; right: .8rem; font-family: var(--mono); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.85); }
-.film h3 { font-size: 1.45rem; margin-top: .9rem; }
-.film p { margin: .4rem 0 0; color: var(--texte-doux); font-size: .95rem; }
+.film h3 { font-size: 1.4rem; margin-top: .9rem; }
+.film p { margin: .35rem 0 0; color: var(--texte-doux); font-size: .92rem; }
+.groupe { margin-top: 3.5rem; }
+.groupe:first-of-type { margin-top: 0; }
+.groupe > h2 { font-size: 1.9rem; margin-bottom: .4rem; }
+.groupe > p { margin: 0 0 1.6rem; color: var(--texte-doux); max-width: 42rem; }
+.liens-ext { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.2rem; }
+
+/* références */
+.refs { background: var(--ardoise); border-block: 1px solid var(--ligne); }
+.refs ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem 3rem; font-family: var(--display); font-size: clamp(1.5rem, 3vw, 2.2rem); }
+.refs li { color: var(--texte); }
 
 /* prestations */
 .clair { background: var(--ivoire); color: var(--encre); }
@@ -103,8 +114,24 @@ section { padding-block: clamp(3.5rem, 8vw, 6rem); }
 .prestation p strong { color: var(--encre); font-weight: 600; }
 @media (max-width: 44rem) { .prestation { grid-template-columns: minmax(0, 1fr); } }
 .clair .actions { margin-top: 2rem; }
-.clair .bouton.contour { border-color: var(--encre); color: var(--encre); }
-.clair .bouton.contour:hover { background: var(--encre); color: var(--ivoire); }
+
+/* série Serval */
+.chiffres { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+.chiffre { border-top: 1px solid var(--sable); padding-top: 1rem; }
+.chiffre b { display: block; font-family: var(--display); font-weight: 400; font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1; }
+.chiffre span { display: block; margin-top: .6rem; color: var(--texte-doux); font-size: .92rem; }
+.deux-col { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 3rem; }
+@media (max-width: 52rem) { .deux-col { grid-template-columns: minmax(0, 1fr); gap: 2rem; } }
+.deux-col h2 { font-size: 1.9rem; margin-bottom: 1rem; }
+.deux-col p { margin: 0 0 1rem; color: var(--texte-doux); }
+.presse { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ligne); }
+.presse li { display: flex; justify-content: space-between; gap: 1rem; padding-block: .7rem; border-bottom: 1px solid var(--ligne); }
+.presse span:last-child { font-family: var(--mono); font-size: .78rem; color: var(--texte-doux); white-space: nowrap; align-self: center; }
+.credits { font-family: var(--mono); font-size: .8rem; line-height: 1.8; color: var(--texte-doux); border-left: 2px solid var(--beret); padding-left: 1rem; }
+.chrono .film .date { font-family: var(--mono); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--sable); margin-top: .9rem; display: block; }
+.chrono .film h3 { margin-top: .3rem; font-size: 1.2rem; }
+.hommages { background: var(--ardoise); border-block: 1px solid var(--ligne); }
+.hommages .titre-section p { color: var(--texte-doux); }
 
 /* LAKELAB */
 .lakelab { background: var(--ardoise); border-block: 1px solid var(--ligne); }
@@ -136,31 +163,31 @@ textarea { min-height: 9rem; resize: vertical; }
 @media (max-width: 36rem) { .deux { grid-template-columns: minmax(0, 1fr); } }
 .retour { margin: 0; font-size: .9rem; color: var(--sable); min-height: 1.4em; }
 
-/* pied de page */
 footer { border-top: 1px solid var(--ligne); padding-block: 2rem; color: var(--texte-doux); font-size: .9rem; }
 footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
 footer nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 footer a { text-decoration: none; }
 footer a:hover { color: var(--texte); }
-
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .lecture { transition: none; } }
 </style>
 
-<div class="note"><div class="wrap">Maquette de travail. Les vignettes de films sont des aplats provisoires, vos vraies images les remplaceront.</div></div>
+<div class="note"><div class="wrap">Maquette de travail. Les vignettes sont des aplats provisoires : sur le vrai site, YouTube fournit l'image de chaque film.</div></div>
 
 <header class="entete">
   <div class="wrap">
-    <a class="marque" href="#haut">Pascal Dupont</a>
+    <a class="marque" href="#accueil">Pascal Dupont</a>
     <nav class="menu" aria-label="Navigation principale">
-      <a href="#films">Films</a>
-      <a href="#prestations">Prestations</a>
+      <a href="#films" data-vue="films">Films</a>
+      <a href="#serval" data-vue="serval">Série Serval</a>
+      <a href="#prestations" class="cache-mobile">Prestations</a>
       <a href="#lakelab" class="cache-mobile">LAKELAB</a>
-      <a href="#contact" class="bouton-petit">Demander un devis</a>
+      <a href="#contact" class="bouton-petit">Devis</a>
     </nav>
   </div>
 </header>
 
-<main id="haut">
+<!-- ============ ACCUEIL ============ -->
+<main id="vue-accueil">
   <div class="hero">
     <div class="wrap">
       <span class="etiquette">Auteur-réalisateur · Documentaires</span>
@@ -174,63 +201,30 @@ footer a:hover { color: var(--texte); }
     </div>
   </div>
 
-  <section id="films">
+  <section id="a-la-une">
     <div class="wrap">
       <div class="titre-section">
-        <span class="etiquette">Réalisations</span>
-        <h2>Films</h2>
-        <p>Une sélection de portraits, de documentaires, de films pour des régiments et de clips.</p>
+        <span class="etiquette">À la une</span>
+        <h2>Des films pour garder la trace</h2>
+        <p>Documentaires pour la télévision, portraits de témoins, films de mémoire pour le 1er RCP, et une série de reportages vue près de trois millions de fois.</p>
       </div>
+      <div class="films" id="grille-une"></div>
+      <div class="actions"><a class="bouton contour" href="#films">Tous les films</a></div>
+    </div>
+  </section>
 
-      <div class="filtres" role="group" aria-label="Filtrer les films">
-        <button class="filtre" type="button" data-cat="tous" aria-pressed="true">Tous</button>
-        <button class="filtre" type="button" data-cat="doc" aria-pressed="false">Documentaires et portraits</button>
-        <button class="filtre" type="button" data-cat="inst" aria-pressed="false">Institutionnel</button>
-        <button class="filtre" type="button" data-cat="clip" aria-pressed="false">Clips et créations</button>
+  <section class="refs" id="references">
+    <div class="wrap">
+      <div class="titre-section">
+        <span class="etiquette">Clients et partenaires</span>
+        <h2>Ils m'ont fait confiance</h2>
       </div>
-
-      <div class="films" id="grille">
-        <article class="film" data-cat="doc">
-          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#4d5a52,#161d1a)" aria-label="Lire le film Commandant Everrard"><span class="type">Portrait</span><span class="lecture"></span></a>
-          <h3>Commandant Everrard</h3>
-          <p>Né en 1925 à Grand-Fort-Philippe, réfugié à Nantes après la destruction de Dunkerque.</p>
-        </article>
-        <article class="film" data-cat="doc">
-          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#6d5f4b,#1c1812)" aria-label="Lire le film Capitaine Raymond Locci"><span class="type">Portrait</span><span class="lecture"></span></a>
-          <h3>Capitaine Raymond Locci</h3>
-          <p>Fils d'un coiffeur, un destin d'aventures qui mène des Pyrénées aux combats des Vosges en 1943.</p>
-        </article>
-        <article class="film" data-cat="doc">
-          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#3d4a3a,#0e130e)" aria-label="Lire le film État d'urgence"><span class="type">Film</span><span class="lecture"></span></a>
-          <h3>État d'urgence</h3>
-          <p>Le premier film LAKELAB : urgence du regard, sobriété du montage.</p>
-        </article>
-        <article class="film" data-cat="inst">
-          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#55603f,#171b10)" aria-label="Lire le film Section robotique"><span class="type">Institutionnel</span><span class="lecture"></span></a>
-          <h3>Section robotique</h3>
-          <p>Présentation de la section robotique et renseignement du 1er RCP à l'entraînement.</p>
-        </article>
-        <article class="film" data-cat="inst">
-          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#46606f,#10181e)" aria-label="Lire le film 1er RCP, journées portes ouvertes 2025"><span class="type">Reportage</span><span class="lecture"></span></a>
-          <h3>1er RCP, JPO 2025</h3>
-          <p>Reportage sur les journées portes ouvertes du 1er régiment de chasseurs parachutistes.</p>
-        </article>
-        <article class="film" data-cat="clip">
-          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#5b6b5a,#1f2a25)" aria-label="Lire le film État naturel"><span class="type">Clip</span><span class="lecture"></span></a>
-          <h3>État naturel</h3>
-          <p>Un clip construit sur la seule force des images : lumières naturelles, matières, instants.</p>
-        </article>
-        <article class="film" data-cat="clip">
-          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#3f7f86,#10262b)" aria-label="Lire le film Barbatoro"><span class="type">Clip</span><span class="lecture"></span></a>
-          <h3>Barbatoro</h3>
-          <p>Ma fille au volant d'un cabriolet turquoise dans le parc du Museumotel de Raon-l'Étape.</p>
-        </article>
-        <article class="film" data-cat="clip">
-          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#1f3b73,#0a1020)" aria-label="Lire le film L'œuf ou la poule"><span class="type">Clip</span><span class="lecture"></span></a>
-          <h3>L'œuf ou la poule</h3>
-          <p>Un clip musical rythmé et décalé, fable moderne qui assume son grain de folie.</p>
-        </article>
-      </div>
+      <ul>
+        <li>Fondation Résilience</li>
+        <li>FA3R</li>
+        <li>TDA Armements</li>
+        <li>Optimhome</li>
+      </ul>
     </div>
   </section>
 
@@ -242,9 +236,9 @@ footer a:hover { color: var(--texte); }
         <p>Le regard d'un documentariste au service de vos projets, avec une attention particulière pour la défense et la sécurité.</p>
       </div>
       <div class="prestations">
-        <div class="prestation"><h3>Films institutionnels et documentaires</h3><p>Du repérage à la livraison. <strong>Références : 1er RCP.</strong> Un récit sobre, fidèle à ceux que l'on filme.</p></div>
+        <div class="prestation"><h3>Films institutionnels et documentaires</h3><p>Du repérage à la livraison. <strong>Références : 1er RCP, Europorte.</strong> Un récit sobre, fidèle à ceux que l'on filme.</p></div>
         <div class="prestation"><h3>Portraits filmés</h3><p>Recueillir la parole d'un témoin, d'un chef, d'une équipe, et la mettre en images pour durer.</p></div>
-        <div class="prestation"><h3>Captation d'événements</h3><p>Journées portes ouvertes, cérémonies, exercices : tourner sur le vif et monter vite.</p></div>
+        <div class="prestation"><h3>Captation d'événements</h3><p>Salons, journées portes ouvertes, cérémonies, exercices : tourner sur le vif et monter vite.</p></div>
         <div class="prestation"><h3>Stratégie et communication</h3><p>Définir ce qu'il faut montrer, à qui, et sur quels supports, avant de tourner.</p></div>
         <div class="prestation"><h3>Montage et post-production</h3><p>Montage, étalonnage et sous-titrage de vos propres images.</p></div>
       </div>
@@ -257,7 +251,7 @@ footer a:hover { color: var(--texte); }
       <div>
         <span class="etiquette">Recherches esthétiques</span>
         <h2>LAKELAB</h2>
-        <p>Le laboratoire que je partage avec Lucile : nos recherches d'images, de lumières et de matières, publiées au fil de l'eau sur Instagram et Facebook.</p>
+        <p>Un fablab au bord du lac. Avec Lucile, nous y menons nos recherches : photographie, cinéma, musique, culture. Elles sont publiées au fil de l'eau sur Instagram et Facebook.</p>
         <div class="reseaux">
           <a class="bouton contour" href="https://www.instagram.com/lake.lab/" target="_blank" rel="noopener">Instagram LAKELAB</a>
           <a class="bouton contour" href="https://www.facebook.com/lakelab/" target="_blank" rel="noopener">Facebook LAKELAB</a>
@@ -319,24 +313,280 @@ footer a:hover { color: var(--texte); }
   </section>
 </main>
 
+<!-- ============ FILMS ============ -->
+<main id="vue-films" hidden>
+  <div class="page-titre">
+    <div class="wrap">
+      <span class="etiquette">Réalisations</span>
+      <h1>Films</h1>
+      <p>Documentaires pour la télévision, portraits de témoins, films de mémoire, reportages, films pour entreprises et clips. Chaque vignette ouvre le film sur YouTube.</p>
+    </div>
+  </div>
+  <section>
+    <div class="wrap">
+      <div class="filtres" role="group" aria-label="Filtrer les films" id="filtres-films"></div>
+      <div id="groupes-films"></div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ SÉRIE SERVAL ============ -->
+<main id="vue-serval" hidden>
+  <div class="page-titre">
+    <div class="wrap">
+      <a class="retour-lien" href="#films">← Tous les films</a>
+      <span class="etiquette">Mali · Janvier à avril 2013</span>
+      <h1>Opération Serval, en images</h1>
+      <p>Les images de l'armée française, sélectionnées et montées au rythme des opérations, diffusées dans la presse nationale et internationale.</p>
+      <div class="dev">Note de travail (n'apparaîtra pas sur le site) : cette page attend l'accord de l'ECPAD et de l'officier communication sur les conditions de mise en ligne. Les chiffres et les parutions viennent de votre revue de presse de mars 2013.</div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="chiffres">
+        <div class="chiffre"><b>3 millions</b><span>de spectateurs, ou presque, entre le 15 janvier et le 15 mars 2013</span></div>
+        <div class="chiffre"><b>300 000</b><span>vues en trois semaines pour « Combats dans l'Adrar des Ifhôgas », mis en ligne le 2 mars</span></div>
+        <div class="chiffre"><b>+ 1 000</b><span>abonnés et plus de 1 000 commentaires positifs sur la période</span></div>
+        <div class="chiffre"><b>1 000+</b><span>partages sur Facebook et Twitter</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap deux-col">
+      <div>
+        <h2>Comment ces films ont été faits</h2>
+        <p>À l'époque, le ministère de la Défense ne diffusait pas de films sur les réseaux. Les images étaient fournies à la presse, dont je faisais partie, sous forme de bandes éléments livrées par l'EMA et l'ECPAD.</p>
+        <p>J'en ai tiré des films montés quasiment en temps réel des opérations, avec la société de production Studio Beta Prod 32 et la musique de Mathieu Gauriat. Ils ont accompagné l'accélération de la politique de diffusion du ministère pour faire rayonner nos armes.</p>
+        <p class="credits">Images : EMA / ECPAD<br>Diffusion : ECPAD<br>Réalisation et montage : Pascal Dupont<br>Production : Studio Beta Prod 32<br>Musique : Mathieu Gauriat<br>Sans utilisation commerciale</p>
+      </div>
+      <div>
+        <h2>Repris par la presse</h2>
+        <ul class="presse">
+          <li><span>Le Figaro</span><span>29 janv. et 5 mars</span></li>
+          <li><span>Ouest-France, Lignes de défense</span><span>29 janv.</span></li>
+          <li><span>La Voix du Nord</span><span>29 janv.</span></li>
+          <li><span>Objectif Défense</span><span>23 janv., 2 et 25 mars</span></li>
+          <li><span>Zone Militaire (Opex 360)</span><span>24 janv., 2 et 28 mars</span></li>
+          <li><span>The Aviationist (États-Unis)</span><span>28 janv.</span></li>
+          <li><span>Polska Zbrojna (Pologne)</span><span>7 févr., 4 et 27 mars</span></li>
+          <li><span>Mali Actu</span><span>3 févr., 2 mars</span></li>
+          <li><span>InfosDéfense</span><span>2 mars</span></li>
+          <li><span>Sud Ouest</span><span>18 mars</span></li>
+          <li><span>RP Défense</span><span>25 mars</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="chrono" style="padding-top:0">
+    <div class="wrap">
+      <div class="titre-section">
+        <span class="etiquette">Chronologie</span>
+        <h2>Les films, jour après jour</h2>
+        <p>Dix-huit films, classés dans l'ordre des opérations.</p>
+      </div>
+      <div class="films" id="grille-serval"></div>
+    </div>
+  </section>
+
+  <section class="hommages">
+    <div class="wrap">
+      <div class="titre-section">
+        <span class="etiquette">In memoriam</span>
+        <h2>Hommages</h2>
+        <p>Trois films en hommage à des soldats morts pour la France au Mali.</p>
+      </div>
+      <div class="films chrono" id="grille-hommages"></div>
+    </div>
+  </section>
+</main>
+
 <footer>
   <div class="wrap">
     <span>© <span id="annee">2026</span> Pascal Dupont</span>
-    <nav aria-label="Informations légales"><a href="#">Mentions légales</a><a href="#">Confidentialité</a></nav>
+    <nav aria-label="Informations légales"><a href="#accueil">Mentions légales</a><a href="#accueil">Confidentialité</a></nav>
   </div>
 </footer>
 
 <script>
 (function () {
-  var boutons = document.querySelectorAll('.filtre');
-  var films = document.querySelectorAll('.film');
-  boutons.forEach(function (b) {
-    b.addEventListener('click', function () {
-      var cat = b.getAttribute('data-cat');
-      boutons.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
-      films.forEach(function (f) { f.hidden = !(cat === 'tous' || f.getAttribute('data-cat') === cat); });
-    });
+  var YT = 'https://www.youtube.com/watch?v=';
+
+  /* ---- données : issues de vos playlists YouTube ---- */
+  var GROUPES = [
+    { cle: 'doc', titre: 'Documentaires', texte: 'Des films d\'auteur diffusés ou prêts pour la télévision.', films: [
+      ['c4xGjV6-sNg', 'Chroniques du 93', 'Documentaire · 2010 · 52 min', '52:21'],
+      ['DOIkFS4peF8', 'BAC Paris, La nuit leur appartient', 'Documentaire · 2008 · six parties', '8:54'],
+      ['yzubFqyXDmk', 'Voix d\'Amazonie', 'Avec Pierre Bayle · versions française et espagnole', '43:45'],
+      ['AZERIB9ymiE', 'Hélie de Saint Marc, témoin du siècle', 'Extrait avant-première', '3:26']
+    ]},
+    { cle: 'memoire', titre: 'Mémoire et 1er RCP', texte: 'Portraits de vétérans et films pour le 1er régiment de chasseurs parachutistes.', films: [
+      ['MX1rXj52K88', 'Capitaine Raymond Locci', 'Brevet para 12204 · Vosges 1943, Indochine 1946', '1:35:39'],
+      ['uF7zqXfUsjc', 'Commandant Everrard', 'Brevet para 12137 · Indochine 1946', '34:23'],
+      ['14sGggpm58I', 'Jebsheim 80', 'Le 1er RCP et la libération des Vosges et de l\'Alsace', '4:38'],
+      ['hAsRJtDXMSY', '70 ans de Diên Biên Phu au 1er RCP', 'Film de mémoire', '7:00'],
+      ['iyuX_UN7ABY', 'Drakkar, 40e anniversaire', 'Commémoration', '11:23'],
+      ['Nzy9OkVY-zE', '1er RCP, JPO 2025', 'Reportage sur les journées portes ouvertes', '5:33'],
+      ['jbxMCEz5Gpc', 'Section robotique et renseignement', 'Film de présentation du 1er RCP', '1:59']
+    ], liens: [['Histoire du 1er RCP sur Facebook', 'https://www.facebook.com/1erRCP'], ['… et sur Instagram', 'https://www.instagram.com/1er_rcp/']] },
+    { cle: 'serval', titre: 'Série Serval', texte: 'Mali, 2013 : dix-huit films montés au rythme des opérations et trois hommages.', films: [
+      ['YurOVRWhpz8', 'Combats dans l\'Adrar des Ifhôgas', 'Du 9 février au 1er mars 2013', '13:26'],
+      ['0ynsZ42MuU4', 'Forces spéciales et 1er RCP à Tessalit', '8 février 2013', '2:32'],
+      ['zGDIDGMcbaM', 'La Légion saute sur Tombouctou', 'Version longue · 28 janvier 2013', '6:27']
+    ], pageServal: true },
+    { cle: 'entreprise', titre: 'Entreprises et institutions', texte: 'Films de formation, de présentation et de communication.', films: [
+      ['NFZDGtgBNIk', 'FA3R et Résilience pour Europorte', 'Novembre 2025', '2:33'],
+      ['-6Spc96VcUY', 'Formation Europorte', 'Film de formation', '3:11'],
+      ['Dw4gb7rz2Vo', 'Nos vétérans', 'Promotion Fondation Safran 2026', '1:46'],
+      ['A1yfSvxryKg', 'TDA, mortier tracté rayé de 120 mm', 'Présentation du matériel', '6:00'],
+      ['x0FG7S3E070', 'TDA, systèmes de roquettes à induction', 'Telson et Aculeus', '4:37'],
+      ['uKmk7onujpo', 'Tanguy Dépannages', 'Film d\'entreprise', '2:14'],
+      ['TA-o8ZS0wr8', 'La nouvelle Citroën C4', 'Sur les routes de Pierre-Percée', '1:12'],
+      ['_YsZuKmk1PE', 'International Competitive Intelligence Conference', 'Captation de conférence', '7:05']
+    ]},
+    { cle: 'salon', titre: 'Salons et défense', texte: 'Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon.', films: [
+      ['bhsuc7c241k', 'EDR Show Daily, épisode 1', 'Eurosatory 2022', '5:49'],
+      ['AcNQO-oy2UA', 'EDR Show Daily, épisode 2', 'Eurosatory 2022', '3:49'],
+      ['S3CpTXKa7iA', 'EDR Show Daily, épisode 3', 'Eurosatory 2022', '2:56'],
+      ['4PUFyZn7TV8', 'EDR Show Daily, épisode 4', 'Eurosatory 2022', '2:52'],
+      ['gPRFbBvnD_c', 'Christian Cambon', 'Entrevue · Commission de la Défense du Sénat', '7:26'],
+      ['88Tojjmake4', 'Charles Beaudouin', 'Entrevue · directeur général de COGES', '9:21']
+    ], liens: [['Tous les films Eurosatory 2022', 'https://www.youtube.com/playlist?list=PLpV-5U4pNRWlCMZO7UaqWA7eWqIAEeJV3']] },
+    { cle: 'clip', titre: 'Clips et créations', texte: 'Films libres, clips et expériences, dont les premiers de LAKELAB.', films: [
+      ['iJQCmkrEMuU', 'État d\'urgence', 'Premier film LAKELAB', '2:50'],
+      ['6FrZTiHyWsk', 'État naturel', 'LAKELAB', '4:04'],
+      ['rWCRZ3bxfi8', 'Barbatoro', 'Museumotel', '3:33'],
+      ['nV6w78VdXkI', 'L\'œuf ou la poule ?', 'Museumotel · Pâques 2015', '5:00'],
+      ['LZjgeTSqBXA', 'Jean-Michel Aubry', 'Teaser d\'exposition · Museumotel', '1:08'],
+      ['CbSYRM0fGcU', 'Gipsy Family, SeaStars', 'Clip', '5:41'],
+      ['dwlq_LhiSDc', 'Gipsy Family, Die Electro', 'Clip', '6:06']
+    ]}
+  ];
+  var UNE = [
+    ['c4xGjV6-sNg', 'Chroniques du 93', 'Documentaire · 2010', '52:21', 'Documentaire'],
+    ['MX1rXj52K88', 'Capitaine Raymond Locci', 'Vosges 1943, Indochine 1946', '1:35:39', 'Portrait'],
+    ['uF7zqXfUsjc', 'Commandant Everrard', 'Indochine 1946, 1er RCP', '34:23', 'Portrait'],
+    ['SERVAL', 'Opération Serval', 'Mali 2013 · près de 3 millions de spectateurs', '', 'Série'],
+    ['14sGggpm58I', 'Jebsheim 80', 'Le 1er RCP et la libération de l\'Alsace', '4:38', 'Mémoire'],
+    ['iJQCmkrEMuU', 'État d\'urgence', 'Premier film LAKELAB', '2:50', 'Film']
+  ];
+  var SERVAL = [
+    ['pLcKlKHWYHY', '12 janvier', 'L\'armée française au Mali', '8:03'],
+    ['kPuuU75zw7Y', '13 janvier', 'Les Rafale s\'envolent vers le Mali', '2:02'],
+    ['w1fyoCd3pvY', '14 janvier', 'C-17, Antonov 124 et Mirage F1CR', '3:16'],
+    ['1nsHAeT5_kE', '15 janvier', 'Le ministre de la Défense aux opérations aériennes', '2:02'],
+    ['iLkc71IaTcs', '15 janvier', 'SGTIA au Mali, Sagaie et Rafale', '7:04'],
+    ['V0VSMZOMV10', '16 janvier', 'Montée en puissance', '5:43'],
+    ['FA2aRxFO9Ps', '18 janvier', 'Markala, bloc chirurgical et Mirage 2000', '3:52'],
+    ['AWs06tqScYQ', '19 janvier', 'Hélicoptères Puma et pont aérien', '2:42'],
+    ['9rfgWcye9ME', '21 janvier', 'Région de Sévaré-Mopti', '3:11'],
+    ['jMsHVbO5iFc', '23 janvier', 'SGTIA Mopti, armée tchadienne et BPC Dixmude', '3:54'],
+    ['2S8XpTEGSH0', '27 janvier', 'Gao libérée', '2:20'],
+    ['p5W9PKR6FdU', '28 janvier', 'La Légion saute sur Tombouctou', '1:16'],
+    ['zGDIDGMcbaM', '28 janvier', 'La Légion saute sur Tombouctou, version longue', '6:27'],
+    ['8vFV_OeewSk', '29 janvier', 'Le 17 saute sur Tombouctou', '6:26'],
+    ['btHYEMY4nfA', '28 janvier au 5 février', 'De Bamako à Kidal', '5:52'],
+    ['Pojj5b2P_GM', '30 janvier au 5 février', 'NEDEX, fleuve Niger et Mirage 2000', '10:55'],
+    ['0ynsZ42MuU4', '8 février', 'Forces spéciales et 1er RCP à Tessalit', '2:32'],
+    ['YurOVRWhpz8', '9 février au 1er mars', 'Combats dans l\'Adrar des Ifhôgas', '13:26']
+  ];
+  var HOMMAGES = [
+    ['SZR7eUvBGXc', '2 mars 2013', 'Caporal-chef Cédric Charenton, 1er RCP', '8:40'],
+    ['miAknLoN2Gc', '16 mars 2013', 'Caporal Alexandre van Dooren, 1er RIMa', '1:57'],
+    ['yqJ7XW-rdTw', '29 avril 2013', 'Caporal-chef Stéphane Duval, 1er RPIMa', '1:25']
+  ];
+
+  /* ---- fabrique d'une carte film ---- */
+  function degrade(id) {
+    var s = 0; for (var i = 0; i < id.length; i++) s += id.charCodeAt(i);
+    var h = 190 + (s % 70);
+    return 'linear-gradient(160deg,hsl(' + h + ' 22% 34%),hsl(' + h + ' 26% 10%))';
+  }
+  function carte(id, titre, sous, duree, type, opts) {
+    opts = opts || {};
+    var href = opts.href || (YT + id);
+    var ext = opts.href && opts.href.charAt(0) === '#' ? '' : ' target="_blank" rel="noopener"';
+    var a = document.createElement('article');
+    a.className = 'film';
+    a.setAttribute('data-cat', opts.cat || '');
+    a.innerHTML =
+      '<a class="cadre" href="' + href + '"' + ext + ' style="--g:' + degrade(id) + '" aria-label="Lire : ' + titre.replace(/"/g, '&quot;') + '">' +
+      (type ? '<span class="type">' + type + '</span>' : '') +
+      '<span class="lecture"></span>' +
+      (duree ? '<span class="duree">' + duree + '</span>' : '') + '</a>' +
+      (opts.date ? '<span class="date">' + opts.date + '</span>' : '') +
+      '<h3>' + titre + '</h3>' + (sous ? '<p>' + sous + '</p>' : '');
+    return a;
+  }
+
+  /* ---- accueil : à la une ---- */
+  var une = document.getElementById('grille-une');
+  UNE.forEach(function (f) {
+    if (f[0] === 'SERVAL') une.appendChild(carte('SERVAL', f[1], f[2], f[3], f[4], { href: '#serval' }));
+    else une.appendChild(carte(f[0], f[1], f[2], f[3], f[4]));
   });
+
+  /* ---- films : filtres et groupes ---- */
+  var filtres = document.getElementById('filtres-films');
+  var groupes = document.getElementById('groupes-films');
+  function bouton(cle, texte, actif) {
+    var b = document.createElement('button');
+    b.className = 'filtre'; b.type = 'button'; b.setAttribute('data-cat', cle);
+    b.setAttribute('aria-pressed', actif ? 'true' : 'false'); b.textContent = texte;
+    return b;
+  }
+  filtres.appendChild(bouton('tous', 'Tous', true));
+  GROUPES.forEach(function (g) {
+    filtres.appendChild(bouton(g.cle, g.titre, false));
+    var sec = document.createElement('div');
+    sec.className = 'groupe'; sec.setAttribute('data-groupe', g.cle);
+    sec.innerHTML = '<h2>' + g.titre + '</h2><p>' + g.texte + '</p>';
+    var grille = document.createElement('div'); grille.className = 'films';
+    g.films.forEach(function (f) { grille.appendChild(carte(f[0], f[1], f[2], f[3], '', { cat: g.cle })); });
+    sec.appendChild(grille);
+    var liens = (g.liens || []).slice();
+    if (g.pageServal) liens.unshift(['Voir toute la série Serval', '#serval']);
+    if (liens.length) {
+      var d = document.createElement('div'); d.className = 'liens-ext';
+      liens.forEach(function (l) {
+        var interne = l[1].charAt(0) === '#';
+        d.insertAdjacentHTML('beforeend', '<a class="bouton contour" href="' + l[1] + '"' + (interne ? '' : ' target="_blank" rel="noopener"') + '>' + l[0] + '</a>');
+      });
+      sec.appendChild(d);
+    }
+    groupes.appendChild(sec);
+  });
+  filtres.addEventListener('click', function (e) {
+    var b = e.target.closest('.filtre'); if (!b) return;
+    var cle = b.getAttribute('data-cat');
+    filtres.querySelectorAll('.filtre').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+    groupes.querySelectorAll('.groupe').forEach(function (s) { s.hidden = !(cle === 'tous' || s.getAttribute('data-groupe') === cle); });
+  });
+
+  /* ---- série Serval ---- */
+  var gs = document.getElementById('grille-serval');
+  SERVAL.forEach(function (f) { gs.appendChild(carte(f[0], f[2], '', f[3], '', { date: f[1] })); });
+  var gh = document.getElementById('grille-hommages');
+  HOMMAGES.forEach(function (f) { gh.appendChild(carte(f[0], f[2], '', f[3], '', { date: f[1] })); });
+
+  /* ---- routage par #ancre ---- */
+  var vues = { accueil: document.getElementById('vue-accueil'), films: document.getElementById('vue-films'), serval: document.getElementById('vue-serval') };
+  var liensMenu = document.querySelectorAll('.menu a[data-vue]');
+  function route() {
+    var h = (location.hash || '').replace('#', '');
+    var vue = (h === 'films' || h === 'serval') ? h : 'accueil';
+    Object.keys(vues).forEach(function (k) { vues[k].hidden = (k !== vue); });
+    liensMenu.forEach(function (a) { if (a.getAttribute('data-vue') === vue) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+    var cible = (vue === 'accueil' && h && h !== 'accueil') ? document.getElementById(h) : null;
+    window.requestAnimationFrame(function () {
+      if (cible) cible.scrollIntoView(); else window.scrollTo(0, 0);
+    });
+  }
+  window.addEventListener('hashchange', route);
+  route();
+
   document.getElementById('formulaire').addEventListener('submit', function (e) {
     e.preventDefault();
     document.getElementById('retour').textContent = 'Aperçu : ce formulaire n\'envoie rien. Sur le vrai site, votre message arrivera dans votre boîte mail.';
