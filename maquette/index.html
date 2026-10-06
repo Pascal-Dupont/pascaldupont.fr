@@ -172,6 +172,15 @@ footer a:hover { color: var(--texte); }
 .voir a { text-decoration: underline; text-decoration-color: var(--ligne); text-underline-offset: .25em; color: var(--texte); }
 .voir a:hover { text-decoration-color: var(--beret-vif); }
 div.cadre { cursor: default; }
+.rangees { border-top: 1px solid var(--ligne); }
+.rangee { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: .5rem 3rem; padding-block: 1.5rem; border-bottom: 1px solid var(--ligne); }
+.rangee h3 { font-size: 1.5rem; }
+.rangee p { margin: 0; color: var(--texte-doux); }
+@media (max-width: 44rem) { .rangee { grid-template-columns: minmax(0, 1fr); } }
+.etapes { margin: 0; padding: 0; list-style: none; counter-reset: etape; border-top: 1px solid var(--ligne); }
+.etapes li { counter-increment: etape; padding: 1rem 0 1rem 3rem; border-bottom: 1px solid var(--ligne); position: relative; color: var(--texte-doux); }
+.etapes li::before { content: counter(etape); position: absolute; left: 0; top: .9rem; font-family: var(--display); font-size: 1.6rem; color: var(--sable); }
+.etapes b { color: var(--texte); font-weight: 500; }
 /* à propos et production */
 .apropos { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: 3.5rem; align-items: start; }
 @media (max-width: 52rem) { .apropos { grid-template-columns: minmax(0, 1fr); gap: 2rem; } }
@@ -271,7 +280,7 @@ div.cadre { cursor: default; }
         <div class="prestation"><h3>Stratégie et communication</h3><p>Définir ce qu'il faut montrer, à qui, et sur quels supports, avant de tourner.</p></div>
         <div class="prestation"><h3>Montage et post-production</h3><p>Montage, étalonnage et sous-titrage de vos propres images.</p></div>
       </div>
-      <div class="actions"><a class="bouton plein" href="#contact">Demander un devis</a></div>
+      <div class="actions"><a class="bouton plein" href="#contact">Demander un devis</a><a class="bouton contour" href="#defense">Défense et sécurité</a></div>
     </div>
   </section>
 
@@ -431,6 +440,81 @@ div.cadre { cursor: default; }
   </section>
 </main>
 
+<!-- ============ DÉFENSE ET SÉCURITÉ ============ -->
+<main id="vue-defense" hidden>
+  <div class="page-titre">
+    <div class="wrap">
+      <span class="etiquette">Pour les armées, les industriels et les institutions</span>
+      <h1>Filmer la défense, de l'intérieur.</h1>
+      <p>Ancien combattant de l'infanterie parachutiste et officier de réserve, je connais le terrain, le vocabulaire et les contraintes de la communication de défense. Je réalise des films pour des régiments, des industriels et des salons.</p>
+      <div class="dev">Note de travail (n'apparaîtra pas sur le site) : avant mise en ligne, vérifier les autorisations du régiment pour SRRI, JPO 2025 et Jebsheim 80, et l'accord de Thales, Texelis, TDA et de l'UNAC pour être cités. Faire relire la page par votre officier communication.</div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="chiffres">
+        <div class="chiffre"><b>10 films</b><span>publiés sur les pages officielles du 1er RCP depuis mai 2025</span></div>
+        <div class="chiffre"><b>Depuis 2012</b><span>à Eurosatory, dont les films officiels du show daily de European Defense Review en 2022</span></div>
+        <div class="chiffre"><b>10 jours</b><span>pour tourner et monter seul l'équivalent d'un 52 minutes à Eurosatory 2022</span></div>
+        <div class="chiffre"><b>2 millions</b><span>de vues sur YouTube pour la série consacrée à l'opération Serval</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="titre-section">
+        <span class="etiquette">Ce que je réalise</span>
+        <h2>Cinq formats</h2>
+      </div>
+      <div class="rangees">
+        <div class="rangee"><h3>Films de présentation d'une unité ou d'un matériel</h3><p>La section robotique et renseignement du 1er RCP, des films courts avec Thales et Texelis, des films pour TDA Armements.</p></div>
+        <div class="rangee"><h3>Reportages d'événements et de salons</h3><p>Eurosatory 2012, 2014 et 2022, Milipol 2021, les journées portes ouvertes du 1er RCP. Tourner sur le vif, monter vite, publier le jour même.</p></div>
+        <div class="rangee"><h3>Films de mémoire et d'histoire d'unité</h3><p>L'histoire du 1er RCP en chapitres, de Jebsheim à Diên Biên Phu, des portraits de témoins comme le capitaine Locci et le commandant Everrard.</p></div>
+        <div class="rangee"><h3>Entretiens et analyses</h3><p>Des responsables politiques, des chercheurs et des généraux face caméra, comme Christian Cambon, Nicolas Mazzucchi ou le général Pinard Legry.</p></div>
+        <div class="rangee"><h3>Conseil en communication de défense</h3><p>Définir ce qu'il faut montrer, à qui et sur quels réseaux. En 2013, j'ai conçu la stratégie de production et de diffusion de la série Serval, et Le Figaro m'a sollicité comme consultant sur la communication de défense.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="refs">
+    <div class="wrap deux-col">
+      <div>
+        <h2>Ma méthode</h2>
+        <ol class="etapes">
+          <li><b>Cadrer.</b> Nous fixons l'objectif, le public et les réseaux avant de tourner.</li>
+          <li><b>Tourner.</b> Une équipe légère, discrète. Les visages sont anonymisés lorsque la sécurité l'exige.</li>
+          <li><b>Faire valider.</b> Votre officier communication relit le film avant toute diffusion.</li>
+          <li><b>Diffuser.</b> Un film long pour YouTube, des formats courts pour Instagram, Facebook et X.</li>
+        </ol>
+      </div>
+      <div>
+        <h2>Références</h2>
+        <ul class="presse">
+          <li><span>1er régiment de chasseurs parachutistes</span><span>2025-2026</span></li>
+          <li><span>European Defense Review, Eurosatory</span><span>2022</span></li>
+          <li><span>TDA Armements</span><span></span></li>
+          <li><span>Thales et Texelis, avec le 1er RCP</span><span>2026</span></li>
+          <li><span>UNAC, avec le 1er RCP</span><span>2025</span></li>
+          <li><span>Opération Serval, pour la presse</span><span>2013</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="titre-section">
+        <span class="etiquette">À voir</span>
+        <h2>Quelques films</h2>
+      </div>
+      <div class="films" id="grille-defense"></div>
+      <div class="actions"><a class="bouton plein" href="#contact">Demander un devis</a><a class="bouton contour" href="#films">Tous les films</a></div>
+    </div>
+  </section>
+</main>
+
 <!-- ============ À PROPOS ============ -->
 <main id="vue-apropos" hidden>
   <div class="page-titre">
@@ -466,13 +550,14 @@ div.cadre { cursor: default; }
           <li><span>Série Serval, Mali</span><span>2013</span></li>
           <li><span>Voix d'Amazonie, avec Pierre Bayle</span><span>2019-2020</span></li>
           <li><span>Eurosatory, films officiels du show daily</span><span>2022</span></li>
-          <li><span>Cycle mémoire du 1er RCP</span><span>depuis 2023</span></li>
+          <li><span>Films pour le 1er RCP, sur les pages du régiment</span><span>depuis mai 2025</span></li>
+          <li><span>Histoire du régiment, chapitres 1 à 3</span><span>2026</span></li>
           <li><span>Administrateur de l'amicale du 1er RCP, audiovisuel</span><span>depuis août 2025</span></li>
           <li><span>REVIVRE, documentaire de 52 minutes</span><span>en développement</span></li>
         </ul>
       </div>
       <div>
-        <h2>Avec Lucile</h2>
+        <h2>Avec Lucile Guilloteaux</h2>
         <p>Lucile m'accompagne sur la recherche de documents et de photographies, et signe une grande partie des montages.</p>
         <p>Ensemble, nous animons <a href="#lakelab" style="text-decoration:underline;text-underline-offset:.25em">LAKELAB</a>, notre espace de recherches esthétiques.</p>
       </div>
@@ -483,7 +568,7 @@ div.cadre { cursor: default; }
 <footer>
   <div class="wrap">
     <span>© <span id="annee">2026</span> Pascal Dupont</span>
-    <nav aria-label="Informations légales"><a href="#accueil">Mentions légales</a><a href="#accueil">Confidentialité</a></nav>
+    <nav aria-label="Informations légales"><a href="#defense">Défense et sécurité</a><a href="#accueil">Mentions légales</a><a href="#accueil">Confidentialité</a></nav>
   </div>
 </footer>
 
@@ -533,7 +618,7 @@ div.cadre { cursor: default; }
       ['TA-o8ZS0wr8', 'La nouvelle Citroën C4', 'Sur les routes de Pierre-Percée', '1:12'],
       ['_YsZuKmk1PE', 'International Competitive Intelligence Conference', 'Captation de conférence', '7:05']
     ]},
-    { cle: 'salon', titre: 'Salons et défense', texte: 'Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon. Quatre épisodes, quatre écritures : cinématique, pop-rock avec un plan-séquence de près de deux minutes, électro, puis un retour au cinéma. L\'équivalent d\'un 52 minutes tourné et monté en une dizaine de jours.', films: [
+    { cle: 'salon', titre: 'Salons et défense', texte: 'Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon. Quatre épisodes, quatre écritures : cinématique, pop-rock avec un plan-séquence de près de deux minutes, électro, puis un retour au cinéma. L\'équivalent d\'un 52 minutes tourné et monté en une dizaine de jours. Avec aussi des reportages sur HELPED, le parcours consacré à la réponse aux crises, illustrés en post-production.', films: [
       ['bhsuc7c241k', 'EDR Show Daily, épisode 1', 'Eurosatory 2022', '5:49'],
       ['AcNQO-oy2UA', 'EDR Show Daily, épisode 2', 'Eurosatory 2022', '3:49'],
       ['S3CpTXKa7iA', 'EDR Show Daily, épisode 3', 'Eurosatory 2022', '2:56'],
@@ -662,6 +747,16 @@ div.cadre { cursor: default; }
     groupes.querySelectorAll('.groupe').forEach(function (s) { s.hidden = !(cle === 'tous' || s.getAttribute('data-groupe') === cle); });
   });
 
+  /* ---- défense : sélection de films ---- */
+  function trouver(id) {
+    for (var i = 0; i < GROUPES.length; i++) for (var j = 0; j < GROUPES[i].films.length; j++) if (GROUPES[i].films[j][0] === id) return GROUPES[i].films[j];
+  }
+  var gd = document.getElementById('grille-defense');
+  ['RCP3', 'RCP1', 'RCP9', 'bhsuc7c241k', 'A1yfSvxryKg'].forEach(function (id) {
+    var f = trouver(id); if (f) gd.appendChild(carte(f[0], f[1], f[2], f[3], f[5] || '', { liens: f[4] }));
+  });
+  gd.appendChild(carte('SERVAL', 'Opération Serval', 'Mali 2013 · plus de 2 millions de vues', '', 'Série', { href: '#serval' }));
+
   /* ---- série Serval ---- */
   var gs = document.getElementById('grille-serval');
   SERVAL.forEach(function (f) { gs.appendChild(carte(f[0], f[2], '', f[3], '', { date: f[1] })); });
@@ -669,11 +764,11 @@ div.cadre { cursor: default; }
   HOMMAGES.forEach(function (f) { gh.appendChild(carte(f[0], f[2], '', f[3], '', { date: f[1] })); });
 
   /* ---- routage par #ancre ---- */
-  var vues = { accueil: document.getElementById('vue-accueil'), films: document.getElementById('vue-films'), serval: document.getElementById('vue-serval'), apropos: document.getElementById('vue-apropos') };
+  var vues = { accueil: document.getElementById('vue-accueil'), films: document.getElementById('vue-films'), serval: document.getElementById('vue-serval'), apropos: document.getElementById('vue-apropos'), defense: document.getElementById('vue-defense') };
   var liensMenu = document.querySelectorAll('.menu a[data-vue]');
   function route() {
     var h = (location.hash || '').replace('#', '');
-    var vue = (h === 'films' || h === 'serval' || h === 'apropos') ? h : 'accueil';
+    var vue = (h === 'films' || h === 'serval' || h === 'apropos' || h === 'defense') ? h : 'accueil';
     Object.keys(vues).forEach(function (k) { vues[k].hidden = (k !== vue); });
     liensMenu.forEach(function (a) { if (a.getAttribute('data-vue') === vue) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
     var cible = (vue === 'accueil' && h && h !== 'accueil') ? document.getElementById(h) : null;
