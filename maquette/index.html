@@ -1,0 +1,331 @@
+<title>Pascal Dupont, maquette</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+<style>
+/* Concept : un site de cinéma, sombre et brumeux comme les montagnes de vos plans.
+   Hero typographique, planche-contact de films, bande claire pour les prestations. */
+:root {
+  --nuit: #0d1217;
+  --ardoise: #17202a;
+  --ardoise-2: #223040;
+  --ligne: #2c3a49;
+  --texte: #e8e6e1;
+  --texte-doux: #a9b6c0;
+  --sable: #c8b287;
+  --beret: #a3302f;
+  --beret-vif: #c0403d;
+  --ivoire: #ece8df;
+  --encre: #10161c;
+  --encre-doux: #4a5663;
+  --display: "Newsreader", Georgia, "Times New Roman", serif;
+  --corps: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--nuit);
+  color: var(--texte);
+  font-family: var(--corps);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  padding-inline: 0;
+}
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--sable); outline-offset: 3px; }
+.wrap { width: 100%; max-width: 72rem; margin-inline: auto; padding-inline: 1.25rem; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.1; margin: 0; text-wrap: balance; }
+.etiquette { font-family: var(--mono); font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--sable); }
+
+/* bandeau maquette */
+.note { background: var(--ardoise-2); color: var(--texte-doux); font-size: .85rem; padding-block: .5rem; text-align: center; }
+.note .wrap { padding-block: 0; }
+
+/* en-tête */
+.entete { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: color-mix(in srgb, var(--nuit) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--ligne); }
+.entete .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; padding-block: .85rem; }
+.marque { font-family: var(--display); font-size: 1.35rem; text-decoration: none; letter-spacing: .01em; }
+.menu { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; font-size: .95rem; }
+.menu a { text-decoration: none; color: var(--texte-doux); }
+.menu a:hover { color: var(--texte); }
+.menu a.bouton-petit { color: var(--texte); border: 1px solid var(--texte-doux); padding: .4rem .9rem; border-radius: 2px; }
+.menu a.bouton-petit:hover { background: var(--texte); color: var(--nuit); }
+@media (max-width: 40rem) { .menu { gap: .9rem; font-size: .88rem; } .menu .cache-mobile { display: none; } }
+
+/* hero */
+.hero { position: relative; overflow: hidden; background: linear-gradient(180deg, #131c25 0%, #1b2733 55%, #2a3846 100%); }
+.hero::before, .hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; pointer-events: none; }
+.hero::before { height: 62%; background: #232f3c; clip-path: polygon(0 62%, 14% 34%, 26% 52%, 41% 18%, 55% 46%, 68% 28%, 82% 50%, 100% 30%, 100% 100%, 0 100%); opacity: .75; }
+.hero::after { height: 40%; background: var(--nuit); clip-path: polygon(0 55%, 18% 30%, 33% 52%, 52% 22%, 70% 48%, 86% 28%, 100% 46%, 100% 100%, 0 100%); }
+.hero .wrap { position: relative; z-index: 1; padding-block: clamp(3.5rem, 9vw, 7rem) clamp(7rem, 16vw, 12rem); }
+.hero h1 { font-size: clamp(2.6rem, 7.2vw, 5.6rem); max-width: 15ch; margin-top: 1.1rem; }
+.hero h1 em { font-style: italic; color: var(--sable); }
+.hero p.accroche { max-width: 38rem; margin: 1.6rem 0 0; color: var(--texte-doux); font-size: 1.15rem; }
+.actions { display: flex; flex-wrap: wrap; gap: .9rem; margin-top: 2.2rem; }
+.bouton { display: inline-block; font: 500 .95rem var(--corps); letter-spacing: .04em; text-decoration: none; padding: .9rem 1.5rem; border-radius: 2px; border: 1px solid transparent; cursor: pointer; }
+.bouton.plein { background: var(--beret); color: var(--ivoire); }
+.bouton.plein:hover { background: var(--beret-vif); }
+.bouton.contour { border-color: var(--texte-doux); color: var(--texte); background: transparent; }
+.bouton.contour:hover { background: var(--texte); color: var(--nuit); }
+
+/* sections */
+section { padding-block: clamp(3.5rem, 8vw, 6rem); }
+.titre-section { display: grid; gap: .8rem; margin-bottom: 2.2rem; }
+.titre-section h2 { font-size: clamp(2rem, 4.5vw, 3.2rem); }
+.titre-section p { margin: 0; max-width: 40rem; color: var(--texte-doux); }
+
+/* films */
+.filtres { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 2rem; }
+.filtre { font: 500 .85rem var(--corps); background: transparent; color: var(--texte-doux); border: 1px solid var(--ligne); padding: .5rem 1rem; border-radius: 999px; cursor: pointer; }
+.filtre:hover { color: var(--texte); border-color: var(--texte-doux); }
+.filtre[aria-pressed="true"] { background: var(--texte); color: var(--nuit); border-color: var(--texte); }
+.films { display: grid; grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr)); gap: 2rem 1.25rem; }
+.film[hidden] { display: none; }
+.cadre { position: relative; aspect-ratio: 16 / 9; max-width: 100%; background: var(--g, var(--ardoise-2)); border-radius: 2px; overflow: hidden; display: block; text-decoration: none; }
+.cadre::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 45%, rgba(0,0,0,.55)); }
+.lecture { position: absolute; z-index: 1; left: .9rem; bottom: .9rem; width: 2.6rem; height: 2.6rem; border-radius: 50%; border: 1px solid rgba(255,255,255,.7); display: grid; place-items: center; transition: background .2s; }
+.lecture::before { content: ""; margin-left: .15rem; border-style: solid; border-width: .4rem 0 .4rem .65rem; border-color: transparent transparent transparent #fff; }
+.cadre:hover .lecture { background: var(--beret); border-color: var(--beret); }
+.type { position: absolute; z-index: 1; top: .7rem; right: .8rem; font-family: var(--mono); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.85); }
+.film h3 { font-size: 1.45rem; margin-top: .9rem; }
+.film p { margin: .4rem 0 0; color: var(--texte-doux); font-size: .95rem; }
+
+/* prestations */
+.clair { background: var(--ivoire); color: var(--encre); }
+.clair .etiquette { color: var(--beret); }
+.clair .titre-section p { color: var(--encre-doux); }
+.prestations { border-top: 1px solid var(--encre); }
+.prestation { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: .5rem 3rem; padding-block: 1.5rem; border-bottom: 1px solid #c9c4b8; }
+.prestation h3 { font-size: 1.6rem; }
+.prestation p { margin: 0; color: var(--encre-doux); }
+.prestation p strong { color: var(--encre); font-weight: 600; }
+@media (max-width: 44rem) { .prestation { grid-template-columns: minmax(0, 1fr); } }
+.clair .actions { margin-top: 2rem; }
+.clair .bouton.contour { border-color: var(--encre); color: var(--encre); }
+.clair .bouton.contour:hover { background: var(--encre); color: var(--ivoire); }
+
+/* LAKELAB */
+.lakelab { background: var(--ardoise); border-block: 1px solid var(--ligne); }
+.lakelab .wrap { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 3rem; align-items: center; }
+@media (max-width: 52rem) { .lakelab .wrap { grid-template-columns: minmax(0, 1fr); gap: 2rem; } }
+.lakelab h2 { font-size: clamp(2rem, 4.5vw, 3.2rem); margin-top: .8rem; }
+.lakelab p { color: var(--texte-doux); max-width: 34rem; }
+.reseaux { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.6rem; }
+.planche { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; }
+.planche span { aspect-ratio: 1; background: var(--g); display: block; }
+.planche span:nth-child(2), .planche span:nth-child(4) { transform: translateY(1.2rem); }
+
+/* contact */
+.contact .wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 3.5rem; }
+@media (max-width: 52rem) { .contact .wrap { grid-template-columns: minmax(0, 1fr); gap: 2.5rem; } }
+.coordonnees { margin-top: 2rem; display: grid; gap: 1.1rem; }
+.coordonnees dt { font-family: var(--mono); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--sable); }
+.coordonnees dd { margin: .15rem 0 0; font-size: 1.25rem; user-select: all; overflow-wrap: anywhere; }
+form { display: grid; gap: 1.2rem; }
+.champ { display: grid; gap: .4rem; }
+label { font-size: .85rem; color: var(--texte-doux); }
+input, select, textarea { font: inherit; color: var(--texte); background: var(--ardoise); border: 1px solid var(--ligne); border-radius: 2px; padding: .75rem .9rem; width: 100%; }
+input:focus, select:focus, textarea:focus { border-color: var(--sable); }
+textarea { min-height: 9rem; resize: vertical; }
+.deux { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
+@media (max-width: 36rem) { .deux { grid-template-columns: minmax(0, 1fr); } }
+.retour { margin: 0; font-size: .9rem; color: var(--sable); min-height: 1.4em; }
+
+/* pied de page */
+footer { border-top: 1px solid var(--ligne); padding-block: 2rem; color: var(--texte-doux); font-size: .9rem; }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
+footer nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
+footer a { text-decoration: none; }
+footer a:hover { color: var(--texte); }
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .lecture { transition: none; } }
+</style>
+
+<div class="note"><div class="wrap">Maquette de travail. Les vignettes de films sont des aplats provisoires, vos vraies images les remplaceront.</div></div>
+
+<header class="entete">
+  <div class="wrap">
+    <a class="marque" href="#haut">Pascal Dupont</a>
+    <nav class="menu" aria-label="Navigation principale">
+      <a href="#films">Films</a>
+      <a href="#prestations">Prestations</a>
+      <a href="#lakelab" class="cache-mobile">LAKELAB</a>
+      <a href="#contact" class="bouton-petit">Demander un devis</a>
+    </nav>
+  </div>
+</header>
+
+<main id="haut">
+  <div class="hero">
+    <div class="wrap">
+      <span class="etiquette">Auteur-réalisateur · Documentaires</span>
+      <h1>Filmer ce qui compte, avant qu'il ne <em>s'efface</em>.</h1>
+      <p class="accroche">Portraits, films de mémoire, documentaires. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.</p>
+      <div class="actions">
+        <a class="bouton plein" href="#films">Voir les films</a>
+        <a class="bouton contour" href="#contact">Parler d'un projet</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="films">
+    <div class="wrap">
+      <div class="titre-section">
+        <span class="etiquette">Réalisations</span>
+        <h2>Films</h2>
+        <p>Une sélection de portraits, de documentaires, de films pour des régiments et de clips.</p>
+      </div>
+
+      <div class="filtres" role="group" aria-label="Filtrer les films">
+        <button class="filtre" type="button" data-cat="tous" aria-pressed="true">Tous</button>
+        <button class="filtre" type="button" data-cat="doc" aria-pressed="false">Documentaires et portraits</button>
+        <button class="filtre" type="button" data-cat="inst" aria-pressed="false">Institutionnel</button>
+        <button class="filtre" type="button" data-cat="clip" aria-pressed="false">Clips et créations</button>
+      </div>
+
+      <div class="films" id="grille">
+        <article class="film" data-cat="doc">
+          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#4d5a52,#161d1a)" aria-label="Lire le film Commandant Everrard"><span class="type">Portrait</span><span class="lecture"></span></a>
+          <h3>Commandant Everrard</h3>
+          <p>Né en 1925 à Grand-Fort-Philippe, réfugié à Nantes après la destruction de Dunkerque.</p>
+        </article>
+        <article class="film" data-cat="doc">
+          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#6d5f4b,#1c1812)" aria-label="Lire le film Capitaine Raymond Locci"><span class="type">Portrait</span><span class="lecture"></span></a>
+          <h3>Capitaine Raymond Locci</h3>
+          <p>Fils d'un coiffeur, un destin d'aventures qui mène des Pyrénées aux combats des Vosges en 1943.</p>
+        </article>
+        <article class="film" data-cat="doc">
+          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#3d4a3a,#0e130e)" aria-label="Lire le film État d'urgence"><span class="type">Film</span><span class="lecture"></span></a>
+          <h3>État d'urgence</h3>
+          <p>Le premier film LAKELAB : urgence du regard, sobriété du montage.</p>
+        </article>
+        <article class="film" data-cat="inst">
+          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#55603f,#171b10)" aria-label="Lire le film Section robotique"><span class="type">Institutionnel</span><span class="lecture"></span></a>
+          <h3>Section robotique</h3>
+          <p>Présentation de la section robotique et renseignement du 1er RCP à l'entraînement.</p>
+        </article>
+        <article class="film" data-cat="inst">
+          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#46606f,#10181e)" aria-label="Lire le film 1er RCP, journées portes ouvertes 2025"><span class="type">Reportage</span><span class="lecture"></span></a>
+          <h3>1er RCP, JPO 2025</h3>
+          <p>Reportage sur les journées portes ouvertes du 1er régiment de chasseurs parachutistes.</p>
+        </article>
+        <article class="film" data-cat="clip">
+          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#5b6b5a,#1f2a25)" aria-label="Lire le film État naturel"><span class="type">Clip</span><span class="lecture"></span></a>
+          <h3>État naturel</h3>
+          <p>Un clip construit sur la seule force des images : lumières naturelles, matières, instants.</p>
+        </article>
+        <article class="film" data-cat="clip">
+          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#3f7f86,#10262b)" aria-label="Lire le film Barbatoro"><span class="type">Clip</span><span class="lecture"></span></a>
+          <h3>Barbatoro</h3>
+          <p>Ma fille au volant d'un cabriolet turquoise dans le parc du Museumotel de Raon-l'Étape.</p>
+        </article>
+        <article class="film" data-cat="clip">
+          <a class="cadre" href="#" style="--g:linear-gradient(160deg,#1f3b73,#0a1020)" aria-label="Lire le film L'œuf ou la poule"><span class="type">Clip</span><span class="lecture"></span></a>
+          <h3>L'œuf ou la poule</h3>
+          <p>Un clip musical rythmé et décalé, fable moderne qui assume son grain de folie.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="prestations" class="clair">
+    <div class="wrap">
+      <div class="titre-section">
+        <span class="etiquette">Pour les institutions et les entreprises</span>
+        <h2>Prestations</h2>
+        <p>Le regard d'un documentariste au service de vos projets, avec une attention particulière pour la défense et la sécurité.</p>
+      </div>
+      <div class="prestations">
+        <div class="prestation"><h3>Films institutionnels et documentaires</h3><p>Du repérage à la livraison. <strong>Références : 1er RCP.</strong> Un récit sobre, fidèle à ceux que l'on filme.</p></div>
+        <div class="prestation"><h3>Portraits filmés</h3><p>Recueillir la parole d'un témoin, d'un chef, d'une équipe, et la mettre en images pour durer.</p></div>
+        <div class="prestation"><h3>Captation d'événements</h3><p>Journées portes ouvertes, cérémonies, exercices : tourner sur le vif et monter vite.</p></div>
+        <div class="prestation"><h3>Stratégie et communication</h3><p>Définir ce qu'il faut montrer, à qui, et sur quels supports, avant de tourner.</p></div>
+        <div class="prestation"><h3>Montage et post-production</h3><p>Montage, étalonnage et sous-titrage de vos propres images.</p></div>
+      </div>
+      <div class="actions"><a class="bouton plein" href="#contact">Demander un devis</a></div>
+    </div>
+  </section>
+
+  <section id="lakelab" class="lakelab">
+    <div class="wrap">
+      <div>
+        <span class="etiquette">Recherches esthétiques</span>
+        <h2>LAKELAB</h2>
+        <p>Le laboratoire que je partage avec Lucile : nos recherches d'images, de lumières et de matières, publiées au fil de l'eau sur Instagram et Facebook.</p>
+        <div class="reseaux">
+          <a class="bouton contour" href="#">Instagram</a>
+          <a class="bouton contour" href="#">Facebook</a>
+        </div>
+      </div>
+      <div class="planche" aria-hidden="true">
+        <span style="--g:linear-gradient(160deg,#5b6b5a,#1f2a25)"></span>
+        <span style="--g:linear-gradient(160deg,#6d5f4b,#1c1812)"></span>
+        <span style="--g:linear-gradient(160deg,#3f7f86,#10262b)"></span>
+        <span style="--g:linear-gradient(160deg,#46606f,#10181e)"></span>
+        <span style="--g:linear-gradient(160deg,#3d4a3a,#0e130e)"></span>
+        <span style="--g:linear-gradient(160deg,#4d5a52,#161d1a)"></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div>
+        <span class="etiquette">Contact</span>
+        <h2 style="font-size:clamp(2rem,4.5vw,3.2rem);margin-top:.8rem">Parlons de votre projet</h2>
+        <p style="color:var(--texte-doux);max-width:30rem">Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement.</p>
+        <dl class="coordonnees">
+          <div><dt>Téléphone</dt><dd>06 86 31 15 96</dd></div>
+          <div><dt>E-mail</dt><dd>creationvideo@live.fr</dd></div>
+        </dl>
+      </div>
+      <form id="formulaire" novalidate>
+        <div class="deux">
+          <div class="champ"><label for="nom">Nom et prénom</label><input id="nom" name="nom" autocomplete="name"></div>
+          <div class="champ"><label for="mail">Adresse e-mail</label><input id="mail" name="mail" type="email" autocomplete="email"></div>
+        </div>
+        <div class="champ">
+          <label for="type">Type de projet</label>
+          <select id="type" name="type">
+            <option>Documentaire ou film institutionnel</option>
+            <option>Portrait filmé</option>
+            <option>Captation d'événement</option>
+            <option>Stratégie et communication</option>
+            <option>Montage et post-production</option>
+          </select>
+        </div>
+        <div class="champ"><label for="message">Votre message</label><textarea id="message" name="message"></textarea></div>
+        <div class="actions" style="margin:0"><button class="bouton plein" type="submit">Envoyer</button></div>
+        <p class="retour" id="retour" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="annee">2026</span> Pascal Dupont</span>
+    <nav aria-label="Informations légales"><a href="#">Mentions légales</a><a href="#">Confidentialité</a></nav>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var boutons = document.querySelectorAll('.filtre');
+  var films = document.querySelectorAll('.film');
+  boutons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var cat = b.getAttribute('data-cat');
+      boutons.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      films.forEach(function (f) { f.hidden = !(cat === 'tous' || f.getAttribute('data-cat') === cat); });
+    });
+  });
+  document.getElementById('formulaire').addEventListener('submit', function (e) {
+    e.preventDefault();
+    document.getElementById('retour').textContent = 'Aperçu : ce formulaire n\'envoie rien. Sur le vrai site, votre message arrivera dans votre boîte mail.';
+  });
+  document.getElementById('annee').textContent = new Date().getFullYear();
+})();
+</script>
