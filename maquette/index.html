@@ -123,6 +123,9 @@ section { padding-block: clamp(3.5rem, 8vw, 6rem); }
 .coordonnees { margin-top: 2rem; display: grid; gap: 1.1rem; }
 .coordonnees dt { font-family: var(--mono); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--sable); }
 .coordonnees dd { margin: .15rem 0 0; font-size: 1.25rem; user-select: all; overflow-wrap: anywhere; }
+.coordonnees dd.liens { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; font-size: 1.05rem; user-select: auto; }
+.liens a { text-decoration: underline; text-decoration-color: var(--ligne); text-underline-offset: .3em; }
+.liens a:hover { text-decoration-color: var(--beret-vif); }
 form { display: grid; gap: 1.2rem; }
 .champ { display: grid; gap: .4rem; }
 label { font-size: .85rem; color: var(--texte-doux); }
@@ -166,6 +169,7 @@ footer a:hover { color: var(--texte); }
       <div class="actions">
         <a class="bouton plein" href="#films">Voir les films</a>
         <a class="bouton contour" href="#contact">Parler d'un projet</a>
+        <a class="bouton contour" href="https://www.youtube.com/@PascalDupont" target="_blank" rel="noopener">Chaîne YouTube</a>
       </div>
     </div>
   </div>
@@ -255,8 +259,8 @@ footer a:hover { color: var(--texte); }
         <h2>LAKELAB</h2>
         <p>Le laboratoire que je partage avec Lucile : nos recherches d'images, de lumières et de matières, publiées au fil de l'eau sur Instagram et Facebook.</p>
         <div class="reseaux">
-          <a class="bouton contour" href="#">Instagram</a>
-          <a class="bouton contour" href="#">Facebook</a>
+          <a class="bouton contour" href="https://www.instagram.com/lake.lab/" target="_blank" rel="noopener">Instagram LAKELAB</a>
+          <a class="bouton contour" href="https://www.facebook.com/lakelab/" target="_blank" rel="noopener">Facebook LAKELAB</a>
         </div>
       </div>
       <div class="planche" aria-hidden="true">
@@ -279,6 +283,17 @@ footer a:hover { color: var(--texte); }
         <dl class="coordonnees">
           <div><dt>Téléphone</dt><dd>06 86 31 15 96</dd></div>
           <div><dt>E-mail</dt><dd>creationvideo@live.fr</dd></div>
+          <div>
+            <dt>Me suivre</dt>
+            <dd class="liens">
+              <a href="https://www.youtube.com/@PascalDupont" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://www.linkedin.com/in/pascal-dupont-7932037b/" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://www.instagram.com/pascal_dupont_/" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://www.facebook.com/Pascal.Dupont" target="_blank" rel="noopener">Facebook</a>
+              <a href="https://x.com/PascalDupont" target="_blank" rel="noopener">X</a>
+              <a href="https://www.tiktok.com/@lakelab3" target="_blank" rel="noopener">TikTok</a>
+            </dd>
+          </div>
         </dl>
       </div>
       <form id="formulaire" novalidate>
