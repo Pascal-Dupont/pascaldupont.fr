@@ -1,0 +1,96 @@
+/* Accord entre le thème Kadence et l'ambiance du site (sombre, brumeuse).
+   Les règles du contenu des pages sont dans pd.css (généré depuis la maquette). */
+
+body.pd-site,
+body.pd-site #wrapper,
+body.pd-site .site,
+body.pd-site .content-bg,
+body.pd-site .entry-content-wrap,
+body.pd-site .site-main,
+body.pd-site .content-container {
+	background: var(--nuit) !important;
+	color: var(--texte);
+}
+
+/* Pleine largeur, sans titre de page ni marges Kadence */
+body.pd-site .content-container.site-container { max-width: none; padding: 0; }
+body.pd-site #inner-wrap, body.pd-site #primary, body.pd-site .content-wrap { margin: 0; padding: 0; }
+body.pd-site .entry.single-entry, body.pd-site .entry-content-wrap { padding: 0; box-shadow: none; border-radius: 0; }
+body.pd-site .entry-content { margin: 0; }
+body.pd-site .entry-hero, body.pd-site .entry-header, body.pd-site .page-hero-section { display: none !important; }
+body.pd-site .content-area { margin: 0; }
+body.pd-site .entry-content > .wp-block-html { margin: 0; }
+
+/* En-tête */
+body.pd-site #masthead,
+body.pd-site .site-header .site-header-row-container-inner,
+body.pd-site .site-header-upper-wrap,
+body.pd-site .site-main-header-wrap .site-header-row-container-inner {
+	background: color-mix(in srgb, var(--nuit) 92%, transparent) !important;
+	border-bottom: 1px solid var(--ligne);
+	backdrop-filter: blur(8px);
+}
+body.pd-site .site-branding a.brand,
+body.pd-site .site-branding .site-title,
+body.pd-site .site-title a {
+	font-family: var(--display) !important;
+	font-size: 1.35rem !important;
+	font-weight: 400 !important;
+	letter-spacing: .01em;
+	color: var(--texte) !important;
+	text-decoration: none;
+}
+body.pd-site .site-description { color: var(--texte-doux) !important; font-family: var(--corps); }
+body.pd-site .header-navigation .header-menu-container > ul > li > a,
+body.pd-site .header-navigation ul.menu > li.menu-item > a {
+	font-family: var(--corps);
+	font-size: .95rem;
+	font-weight: 400;
+	color: var(--texte-doux) !important;
+}
+body.pd-site .header-navigation .header-menu-container > ul > li > a:hover,
+body.pd-site .header-navigation .header-menu-container > ul > li.current-menu-item > a,
+body.pd-site .header-navigation ul.menu > li.menu-item > a:hover,
+body.pd-site .header-navigation ul.menu > li.current-menu-item > a {
+	color: var(--texte) !important;
+	text-decoration: underline;
+	text-decoration-color: var(--beret-vif);
+	text-underline-offset: .45em;
+}
+body.pd-site .menu-toggle-open, body.pd-site .menu-toggle-open .menu-toggle-icon { color: var(--texte) !important; }
+body.pd-site #mobile-drawer .drawer-inner,
+body.pd-site #mobile-drawer .drawer-content { background: var(--ardoise) !important; }
+body.pd-site #mobile-drawer a, body.pd-site #mobile-drawer .menu-toggle-close { color: var(--texte) !important; font-family: var(--corps); }
+
+/* Pied de page */
+body.pd-site #colophon,
+body.pd-site .site-footer .site-footer-row-container-inner,
+body.pd-site .site-footer-wrap .site-footer-row-container-inner {
+	background: var(--nuit) !important;
+	border-top: 1px solid var(--ligne);
+	color: var(--texte-doux) !important;
+	font-family: var(--corps);
+	font-size: .9rem;
+}
+body.pd-site #colophon a, body.pd-site .site-footer a { color: var(--texte-doux) !important; text-decoration: none; }
+body.pd-site #colophon a:hover, body.pd-site .site-footer a:hover { color: var(--texte) !important; }
+body.pd-site .footer-navigation ul.menu { gap: 1.2rem; }
+
+/* Bouton « remonter » de Kadence */
+body.pd-site #kt-scroll-up, body.pd-site #kt-scroll-up-reader { background: var(--ardoise-2) !important; color: var(--texte) !important; }
+
+/* Formulaire de contact : champ piège invisible et messages de retour */
+.pd-piege { position: absolute !important; left: -9999px !important; width: 1px; height: 1px; overflow: hidden; }
+.pd-page .pd-consentement { margin: 0; font-size: .85rem; color: var(--texte-doux); }
+.pd-page .pd-consentement label { display: flex; gap: .6rem; align-items: flex-start; }
+.pd-page .pd-consentement input { width: auto; margin-top: .3rem; }
+.pd-page .pd-consentement a { text-decoration: underline; text-underline-offset: .25em; }
+.pd-page .pd-retour-erreur { color: #e8a09d; }
+.pd-page .pd-retour-ok { color: var(--sable); }
+
+/* Vignettes YouTube et pages légales */
+.pd-page .pd-cadre .pd-vignette { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.pd-page .pd-texte-legal { max-width: 46rem; }
+.pd-page .pd-texte-legal h2 { font-size: 1.6rem; margin: 2.2rem 0 .6rem; }
+.pd-page .pd-texte-legal p { margin: 0 0 1rem; color: var(--texte-doux); }
+.pd-page mark { background: transparent; color: var(--sable); border-bottom: 1px dashed var(--sable); }
