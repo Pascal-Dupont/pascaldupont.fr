@@ -168,6 +168,15 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 footer nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 footer a { text-decoration: none; }
 footer a:hover { color: var(--texte); }
+/* à propos et production */
+.apropos { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: 3.5rem; align-items: start; }
+@media (max-width: 52rem) { .apropos { grid-template-columns: minmax(0, 1fr); gap: 2rem; } }
+.portrait { aspect-ratio: 4 / 5; max-width: 100%; background: linear-gradient(160deg, #46606f, #10181e); display: grid; place-items: end start; padding: 1rem; font-family: var(--mono); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.7); }
+.texte-long p { margin: 0 0 1.3rem; font-size: 1.2rem; max-width: 38rem; }
+.citation { margin: 2rem 0; padding-left: 1.2rem; border-left: 2px solid var(--beret-vif); font-family: var(--display); font-style: italic; font-size: clamp(1.6rem, 3vw, 2.2rem); line-height: 1.2; }
+.production { background: var(--ardoise); border-block: 1px solid var(--ligne); }
+.production h2 { font-size: clamp(2rem, 4.5vw, 3.2rem); margin: .8rem 0 1rem; }
+.production p { max-width: 40rem; color: var(--texte-doux); margin: 0; font-size: 1.1rem; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .lecture { transition: none; } }
 </style>
 
@@ -178,7 +187,8 @@ footer a:hover { color: var(--texte); }
     <a class="marque" href="#accueil">Pascal Dupont</a>
     <nav class="menu" aria-label="Navigation principale">
       <a href="#films" data-vue="films">Films</a>
-      <a href="#serval" data-vue="serval">Série Serval</a>
+      <a href="#serval" data-vue="serval" class="cache-mobile">Série Serval</a>
+      <a href="#apropos" data-vue="apropos">À propos</a>
       <a href="#prestations" class="cache-mobile">Prestations</a>
       <a href="#lakelab" class="cache-mobile">LAKELAB</a>
       <a href="#contact" class="bouton-petit">Devis</a>
@@ -190,9 +200,9 @@ footer a:hover { color: var(--texte); }
 <main id="vue-accueil">
   <div class="hero">
     <div class="wrap">
-      <span class="etiquette">Auteur-réalisateur · Documentaires</span>
-      <h1>Filmer ce qui compte, avant qu'il ne <em>s'efface</em>.</h1>
-      <p class="accroche">Portraits, films de mémoire, documentaires. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.</p>
+      <span class="etiquette">Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission</span>
+      <h1>Je filme l'engagement et <em>ce qu'il laisse</em>.</h1>
+      <p class="accroche">Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.</p>
       <div class="actions">
         <a class="bouton plein" href="#films">Voir les films</a>
         <a class="bouton contour" href="#contact">Parler d'un projet</a>
@@ -206,10 +216,19 @@ footer a:hover { color: var(--texte); }
       <div class="titre-section">
         <span class="etiquette">À la une</span>
         <h2>Des films pour garder la trace</h2>
-        <p>Documentaires pour la télévision, portraits de témoins, films de mémoire pour le 1er RCP, et une série de reportages vue près de trois millions de fois.</p>
+        <p>Documentaires pour la télévision, portraits de témoins, films de mémoire pour le 1er RCP, et une série de reportages vus plus de deux millions de fois.</p>
       </div>
       <div class="films" id="grille-une"></div>
       <div class="actions"><a class="bouton contour" href="#films">Tous les films</a></div>
+    </div>
+  </section>
+
+  <section id="en-production" class="production">
+    <div class="wrap">
+      <span class="etiquette">En production</span>
+      <h2>La génération OPEX</h2>
+      <p>Un documentaire de 52 minutes sur le stress post-traumatique et sur ce que les blessés transmettent à des jeunes en rupture. Tourné au sein de la Fondation Résilience, avec Lucile au montage.</p>
+      <div class="actions"><a class="bouton contour" href="#apropos">Mon parcours</a></div>
     </div>
   </section>
 
@@ -223,7 +242,6 @@ footer a:hover { color: var(--texte); }
         <li>Fondation Résilience</li>
         <li>FA3R</li>
         <li>TDA Armements</li>
-        <li>Optimhome</li>
       </ul>
     </div>
   </section>
@@ -338,17 +356,17 @@ footer a:hover { color: var(--texte); }
       <span class="etiquette">Mali · Janvier à avril 2013</span>
       <h1>Opération Serval, en images</h1>
       <p>Les images de l'armée française, sélectionnées et montées au rythme des opérations, diffusées dans la presse nationale et internationale.</p>
-      <div class="dev">Note de travail (n'apparaîtra pas sur le site) : cette page attend l'accord de l'ECPAD et de l'officier communication sur les conditions de mise en ligne. Les chiffres et les parutions viennent de votre revue de presse de mars 2013.</div>
+      <div class="dev">Note de travail (n'apparaîtra pas sur le site) : l'ECPAD a accepté de laisser ces vidéos en ligne ; la page reprend les crédits et la mention « sans utilisation commerciale ». Les vues sont celles de YouTube relevées le 6 octobre 2026 ; les parutions presse viennent de votre revue de mars 2013.</div>
     </div>
   </div>
 
   <section>
     <div class="wrap">
       <div class="chiffres">
-        <div class="chiffre"><b>3 millions</b><span>de spectateurs, ou presque, entre le 15 janvier et le 15 mars 2013</span></div>
-        <div class="chiffre"><b>300 000</b><span>vues en trois semaines pour « Combats dans l'Adrar des Ifhôgas », mis en ligne le 2 mars</span></div>
-        <div class="chiffre"><b>+ 1 000</b><span>abonnés et plus de 1 000 commentaires positifs sur la période</span></div>
-        <div class="chiffre"><b>1 000+</b><span>partages sur Facebook et Twitter</span></div>
+        <div class="chiffre"><b>2 millions</b><span>de vues sur YouTube, pour les dix-huit films de la série</span></div>
+        <div class="chiffre"><b>625 000</b><span>vues pour « Montée en puissance », le film le plus vu</span></div>
+        <div class="chiffre"><b>345 000</b><span>vues pour « Combats dans l'Adrar des Ifhôgas », mis en ligne le 2 mars 2013</span></div>
+        <div class="chiffre"><b>+ 1 000</b><span>abonnés et plus de 1 000 partages sur Facebook et Twitter entre le 15 janvier et le 15 mars 2013</span></div>
       </div>
     </div>
   </section>
@@ -367,7 +385,6 @@ footer a:hover { color: var(--texte); }
           <li><span>Le Figaro</span><span>29 janv. et 5 mars</span></li>
           <li><span>Ouest-France, Lignes de défense</span><span>29 janv.</span></li>
           <li><span>La Voix du Nord</span><span>29 janv.</span></li>
-          <li><span>Objectif Défense</span><span>23 janv., 2 et 25 mars</span></li>
           <li><span>Zone Militaire (Opex 360)</span><span>24 janv., 2 et 28 mars</span></li>
           <li><span>The Aviationist (États-Unis)</span><span>28 janv.</span></li>
           <li><span>Polska Zbrojna (Pologne)</span><span>7 févr., 4 et 27 mars</span></li>
@@ -403,6 +420,54 @@ footer a:hover { color: var(--texte); }
   </section>
 </main>
 
+<!-- ============ À PROPOS ============ -->
+<main id="vue-apropos" hidden>
+  <div class="page-titre">
+    <div class="wrap">
+      <span class="etiquette">Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission</span>
+      <h1>Je filme l'engagement et ce qu'il laisse.</h1>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap apropos">
+      <div class="portrait" role="img" aria-label="Emplacement du portrait de Pascal Dupont"><span>Portrait à ajouter</span></div>
+      <div class="texte-long">
+        <p>Auteur-réalisateur documentaire depuis vingt ans. « Chroniques du 93 » pour France 4, « La nuit leur appartient » pour la centième d'Enquête d'action sur W9, le cycle mémoire du 1er Régiment de Chasseurs Parachutistes. Aujourd'hui, un 52 minutes sur le stress post-traumatique et sur ce que les blessés transmettent à des jeunes en rupture.</p>
+        <p>Ancien combattant de l'infanterie parachutiste, officier de réserve opérationnelle au 1er RCP. C'est ce qui me permet de filmer là où la caméra est d'ordinaire tolérée plutôt qu'attendue : je connais le terrain, le vocabulaire, et le temps qu'il faut pour qu'un homme accepte de parler.</p>
+        <p>Sociétaire de la SCAM. Je travaille avec des maisons de production et des diffuseurs nationaux, du développement à la livraison.</p>
+        <blockquote class="citation">« Qui veut peut, et qui ose gagne. »</blockquote>
+        <div class="actions">
+          <a class="bouton plein" href="#contact">Parler d'un projet</a>
+          <a class="bouton contour" href="https://www.linkedin.com/in/pascal-dupont-7932037b/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="refs">
+    <div class="wrap deux-col">
+      <div>
+        <h2>Repères</h2>
+        <ul class="presse">
+          <li><span>La nuit leur appartient, pour W9</span><span>2008</span></li>
+          <li><span>Chroniques du 93, pour France 4</span><span>2010</span></li>
+          <li><span>Série Serval, Mali</span><span>2013</span></li>
+          <li><span>Voix d'Amazonie, avec Pierre Bayle</span><span>2019-2020</span></li>
+          <li><span>Eurosatory, films officiels du show daily</span><span>2022</span></li>
+          <li><span>Cycle mémoire du 1er RCP</span><span>depuis 2023</span></li>
+          <li><span>La génération OPEX, 52 minutes</span><span>en production</span></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Avec Lucile</h2>
+        <p>Lucile m'accompagne sur la recherche de documents et de photographies, et signe une grande partie des montages. Elle a monté le film de présentation de « La génération OPEX », avec la Fondation Résilience.</p>
+        <p>Ensemble, nous animons <a href="#lakelab" style="text-decoration:underline;text-underline-offset:.25em">LAKELAB</a>, notre espace de recherches esthétiques.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
 <footer>
   <div class="wrap">
     <span>© <span id="annee">2026</span> Pascal Dupont</span>
@@ -417,9 +482,9 @@ footer a:hover { color: var(--texte); }
   /* ---- données : issues de vos playlists YouTube ---- */
   var GROUPES = [
     { cle: 'doc', titre: 'Documentaires', texte: 'Des films d\'auteur diffusés ou prêts pour la télévision.', films: [
-      ['c4xGjV6-sNg', 'Chroniques du 93', 'Documentaire · 2010 · 52 min', '52:21'],
-      ['DOIkFS4peF8', 'BAC Paris, La nuit leur appartient', 'Documentaire · 2008 · six parties', '8:54'],
-      ['yzubFqyXDmk', 'Voix d\'Amazonie', 'Avec Pierre Bayle · versions française et espagnole', '43:45'],
+      ['c4xGjV6-sNg', 'Chroniques du 93', 'Pour France 4 · 2010 · immersion dans la CSI 93, en Seine-Saint-Denis', '52:21'],
+      ['DOIkFS4peF8', 'BAC Paris, La nuit leur appartient', 'Pour la centième d\'Enquête d\'action, sur W9 · 2008', '8:54'],
+      ['yzubFqyXDmk', 'Voix d\'Amazonie', 'Avec Pierre Bayle · les communautés indigènes d\'Équateur face à l\'extraction minière et pétrolière', '43:45'],
       ['AZERIB9ymiE', 'Hélie de Saint Marc, témoin du siècle', 'Extrait avant-première', '3:26']
     ]},
     { cle: 'memoire', titre: 'Mémoire et 1er RCP', texte: 'Portraits de vétérans et films pour le 1er régiment de chasseurs parachutistes.', films: [
@@ -429,8 +494,12 @@ footer a:hover { color: var(--texte); }
       ['hAsRJtDXMSY', '70 ans de Diên Biên Phu au 1er RCP', 'Film de mémoire', '7:00'],
       ['iyuX_UN7ABY', 'Drakkar, 40e anniversaire', 'Commémoration', '11:23'],
       ['Nzy9OkVY-zE', '1er RCP, JPO 2025', 'Reportage sur les journées portes ouvertes', '5:33'],
-      ['jbxMCEz5Gpc', 'Section robotique et renseignement', 'Film de présentation du 1er RCP', '1:59']
-    ], liens: [['Histoire du 1er RCP sur Facebook', 'https://www.facebook.com/1erRCP'], ['… et sur Instagram', 'https://www.instagram.com/1er_rcp/']] },
+      ['jbxMCEz5Gpc', 'Section robotique et renseignement', 'Film de présentation du 1er RCP', '1:59'],
+      ['CH1', 'Histoire du 1er RCP, chapitre 1', 'Les précurseurs', '', 'https://www.facebook.com/1erRCP', 'Facebook · Instagram'],
+      ['CH2', 'Histoire du 1er RCP, chapitre 2', 'La Seconde Guerre mondiale', '', 'https://www.facebook.com/1erRCP', 'Facebook · Instagram'],
+      ['CH3', 'Histoire du 1er RCP, chapitre 3', 'L\'Indochine', '', 'https://www.facebook.com/1erRCP', 'Facebook · Instagram'],
+      ['CH4', 'Histoire du 1er RCP, chapitre 4', 'L\'Algérie · en production', '', 'https://www.facebook.com/1erRCP', 'Bientôt']
+    ], liens: [['1er RCP sur Facebook', 'https://www.facebook.com/1erRCP'], ['1er RCP sur Instagram', 'https://www.instagram.com/1er_rcp/']] },
     { cle: 'serval', titre: 'Série Serval', texte: 'Mali, 2013 : dix-huit films montés au rythme des opérations et trois hommages.', films: [
       ['YurOVRWhpz8', 'Combats dans l\'Adrar des Ifhôgas', 'Du 9 février au 1er mars 2013', '13:26'],
       ['0ynsZ42MuU4', 'Forces spéciales et 1er RCP à Tessalit', '8 février 2013', '2:32'],
@@ -446,7 +515,7 @@ footer a:hover { color: var(--texte); }
       ['TA-o8ZS0wr8', 'La nouvelle Citroën C4', 'Sur les routes de Pierre-Percée', '1:12'],
       ['_YsZuKmk1PE', 'International Competitive Intelligence Conference', 'Captation de conférence', '7:05']
     ]},
-    { cle: 'salon', titre: 'Salons et défense', texte: 'Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon.', films: [
+    { cle: 'salon', titre: 'Salons et défense', texte: 'Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon. Quatre épisodes, quatre écritures : cinématique, pop-rock avec un plan-séquence de près de deux minutes, électro, puis un retour au cinéma. L\'équivalent d\'un 52 minutes tourné et monté en une dizaine de jours.', films: [
       ['bhsuc7c241k', 'EDR Show Daily, épisode 1', 'Eurosatory 2022', '5:49'],
       ['AcNQO-oy2UA', 'EDR Show Daily, épisode 2', 'Eurosatory 2022', '3:49'],
       ['S3CpTXKa7iA', 'EDR Show Daily, épisode 3', 'Eurosatory 2022', '2:56'],
@@ -454,6 +523,11 @@ footer a:hover { color: var(--texte); }
       ['gPRFbBvnD_c', 'Christian Cambon', 'Entrevue · Commission de la Défense du Sénat', '7:26'],
       ['88Tojjmake4', 'Charles Beaudouin', 'Entrevue · directeur général de COGES', '9:21']
     ], liens: [['Tous les films Eurosatory 2022', 'https://www.youtube.com/playlist?list=PLpV-5U4pNRWlCMZO7UaqWA7eWqIAEeJV3']] },
+    { cle: 'entretien', titre: 'Entretiens', texte: 'Des experts, des chercheurs et des généraux face caméra.', films: [
+      ['2YGZr_pob0c', 'Méditerranée orientale, du gaz dans l\'eau', 'Entretien avec Nicolas Mazzucchi, Fondation pour la recherche stratégique · pour ExMergere', '19:41'],
+      ['QUhc5drglAs', 'Guerre en milieu urbain', 'Entretien avec Pierre Santoni, co-auteur de « L\'ultime champ de bataille »', '17:09'],
+      ['J-EwxwK9gIQ', 'Armée française, seuil critique ?', 'Entretien avec le général Pinard Legry, président de l\'ASAF', '14:20']
+    ]},
     { cle: 'clip', titre: 'Clips et créations', texte: 'Films libres, clips et expériences, dont les premiers de LAKELAB.', films: [
       ['iJQCmkrEMuU', 'État d\'urgence', 'Premier film LAKELAB', '2:50'],
       ['6FrZTiHyWsk', 'État naturel', 'LAKELAB', '4:04'],
@@ -507,7 +581,7 @@ footer a:hover { color: var(--texte); }
   function carte(id, titre, sous, duree, type, opts) {
     opts = opts || {};
     var href = opts.href || (YT + id);
-    var ext = opts.href && opts.href.charAt(0) === '#' ? '' : ' target="_blank" rel="noopener"';
+    var ext = href.charAt(0) === '#' ? '' : ' target="_blank" rel="noopener"';
     var a = document.createElement('article');
     a.className = 'film';
     a.setAttribute('data-cat', opts.cat || '');
@@ -544,7 +618,7 @@ footer a:hover { color: var(--texte); }
     sec.className = 'groupe'; sec.setAttribute('data-groupe', g.cle);
     sec.innerHTML = '<h2>' + g.titre + '</h2><p>' + g.texte + '</p>';
     var grille = document.createElement('div'); grille.className = 'films';
-    g.films.forEach(function (f) { grille.appendChild(carte(f[0], f[1], f[2], f[3], '', { cat: g.cle })); });
+    g.films.forEach(function (f) { grille.appendChild(carte(f[0], f[1], f[2], f[3], f[5] || '', { cat: g.cle, href: f[4] })); });
     sec.appendChild(grille);
     var liens = (g.liens || []).slice();
     if (g.pageServal) liens.unshift(['Voir toute la série Serval', '#serval']);
@@ -572,11 +646,11 @@ footer a:hover { color: var(--texte); }
   HOMMAGES.forEach(function (f) { gh.appendChild(carte(f[0], f[2], '', f[3], '', { date: f[1] })); });
 
   /* ---- routage par #ancre ---- */
-  var vues = { accueil: document.getElementById('vue-accueil'), films: document.getElementById('vue-films'), serval: document.getElementById('vue-serval') };
+  var vues = { accueil: document.getElementById('vue-accueil'), films: document.getElementById('vue-films'), serval: document.getElementById('vue-serval'), apropos: document.getElementById('vue-apropos') };
   var liensMenu = document.querySelectorAll('.menu a[data-vue]');
   function route() {
     var h = (location.hash || '').replace('#', '');
-    var vue = (h === 'films' || h === 'serval') ? h : 'accueil';
+    var vue = (h === 'films' || h === 'serval' || h === 'apropos') ? h : 'accueil';
     Object.keys(vues).forEach(function (k) { vues[k].hidden = (k !== vue); });
     liensMenu.forEach(function (a) { if (a.getAttribute('data-vue') === vue) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
     var cible = (vue === 'accueil' && h && h !== 'accueil') ? document.getElementById(h) : null;
