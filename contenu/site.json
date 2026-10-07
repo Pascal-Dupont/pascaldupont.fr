@@ -388,8 +388,8 @@
    },
    "chiffres": [
     {
-     "valeur": "10 films",
-     "texte": "publiés sur les pages officielles du 1er RCP depuis mai 2025"
+     "valeur": "≈ 900 000",
+     "texte": "vues cumulées sur Instagram, Facebook et X pour les 10 films publiés sur les pages du 1er RCP depuis mai 2025 (relevé du 7 octobre 2026)"
     },
     {
      "valeur": "Depuis 2012",
@@ -463,11 +463,11 @@
       "2022"
      ],
      [
-      "TDA Armements",
+      "TDA Armements (aujourd'hui Thales)",
       ""
      ],
      [
-      "Thales et Texelis, avec le 1er RCP",
+      "Thales et Texelis (aujourd'hui KNDS France), avec le 1er RCP",
       "2026"
      ],
      [
@@ -546,9 +546,9 @@
     {
      "titre": "Éditeur du site",
      "lignes": [
-      "Pascal Dupont, auteur-réalisateur.",
-      "Statut et numéro SIRET : [à compléter]",
-      "Adresse : [à compléter]",
+      "Pascal Dupont, auteur-réalisateur, micro-entrepreneur.",
+      "SIRET : 793 930 298 00021",
+      "Adresse : 4 allée des Anciens d'AFN, 88110 Vexaincourt",
       "Téléphone : 06 86 31 15 96",
       "E-mail : creationvideo@live.fr",
       "Directeur de la publication : Pascal Dupont."
@@ -620,7 +620,7 @@
      ]
     }
    ],
-   "a_relire": true
+   "a_relire": false
   }
  },
  "films": {

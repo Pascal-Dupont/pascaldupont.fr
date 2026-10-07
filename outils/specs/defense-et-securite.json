@@ -294,7 +294,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "10 films",
+            "content": "≈ 900 000",
             "htmlTag": "p",
             "fontSize": [
              2.8,
@@ -324,7 +324,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "publiés sur les pages officielles du 1er RCP depuis mai 2025",
+            "content": "vues cumulées sur Instagram, Facebook et X pour les 10 films publiés sur les pages du 1er RCP depuis mai 2025 (relevé du 7 octobre 2026)",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1796,7 +1796,7 @@
              {
               "cells": [
                {
-                "content": "TDA Armements",
+                "content": "TDA Armements (aujourd'hui Thales)",
                 "tag": "td"
                },
                {
@@ -1808,7 +1808,7 @@
              {
               "cells": [
                {
-                "content": "Thales et Texelis, avec le 1er RCP",
+                "content": "Thales et Texelis (aujourd'hui KNDS France), avec le 1er RCP",
                 "tag": "td"
                },
                {

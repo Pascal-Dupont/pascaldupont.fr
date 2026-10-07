@@ -155,33 +155,6 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Texte à faire relire avant la mise en ligne.",
-            "htmlTag": "p",
-            "fontSize": [
-             0.95,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.6,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "color": "palette5",
-            "margin": [
-             0,
-             "",
-             24,
-             ""
-            ],
-            "marginType": "px"
-           }
-          },
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
             "content": "Responsable du traitement",
             "level": 2,
             "typography": "Newsreader",
