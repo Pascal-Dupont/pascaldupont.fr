@@ -1,0 +1,497 @@
+{
+ "titre": "Politique de confidentialité",
+ "slug": "confidentialite",
+ "meta": {
+  "_kad_post_layout": "fullwidth",
+  "_kad_post_content_style": "unboxed",
+  "_kad_post_vertical_padding": "hide",
+  "_kad_post_title": "hide",
+  "_kad_post_feature": "hide",
+  "_pd_page": "confidentialite"
+ },
+ "blocs": [
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-confidentialite-3-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     88,
+     "",
+     88,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     48,
+     "",
+     48,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-confidentialite-4-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-confidentialite-2-r",
+        "kbVersion": 2,
+        "columns": 1,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "maxWidth": 46,
+        "maxWidthUnit": "rem"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-confidentialite-1-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Vos données",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Politique de confidentialité",
+            "level": 1,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             3.6,
+             3,
+             2.4
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             32,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Texte à faire relire avant la mise en ligne.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             24,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Responsable du traitement",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.6,
+             1.5,
+             1.35
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Pascal Dupont, joignable à l'adresse creationvideo@live.fr.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.6rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Données collectées",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.6,
+             1.5,
+             1.35
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Le formulaire de contact recueille votre nom, votre adresse e-mail, le type de projet et votre message. Elles servent uniquement à répondre à votre demande. Elles ne sont ni vendues ni transmises à des tiers.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.6rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Conservation",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.6,
+             1.5,
+             1.35
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Les messages sont conservés trois ans après le dernier échange, puis supprimés.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.6rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Cookies et services tiers",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.6,
+             1.5,
+             1.35
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Ce site n'utilise ni statistiques ni publicité, et ne dépose pas de cookie de suivi. Les vignettes des films sont chargées depuis les serveurs de YouTube (Google) : votre adresse IP leur est alors transmise. Les liens vers YouTube, Instagram, Facebook et X ouvrent ces services, qui appliquent leurs propres règles.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.6rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Vos droits",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.6,
+             1.5,
+             1.35
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Vous pouvez demander l'accès à vos données, leur rectification, leur effacement ou vous opposer à leur traitement, en écrivant à creationvideo@live.fr. En cas de difficulté, vous pouvez saisir la CNIL (cnil.fr).",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.6rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Hébergement",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.6,
+             1.5,
+             1.35
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Le site est hébergé par OVH SAS, 2 rue Kellermann, 59100 Roubaix, France.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.6rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

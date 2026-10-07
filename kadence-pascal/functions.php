@@ -2,42 +2,34 @@
 /**
  * Thème enfant de Kadence pour pascaldupont.fr
  *
- * - charge les styles et les polices du site (aucune requête vers Google) ;
+ * - applique les réglages Kadence du site (couleurs, polices, en-tête, pied de page) à l'activation ;
+ * - charge les polices embarquées, sur le site et dans l'éditeur (aucune requête vers Google) ;
  * - fournit le formulaire de contact [pd_formulaire], sans extension ;
- * - à la première visite de l'administration après l'import des pages, règle la
- *   page d'accueil, le titre du site et les menus.
+ * - après l'import des pages, règle la page d'accueil et les menus.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'PD_VERSION', '1.0.0' );
+define( 'PD_VERSION', '2.0.0' );
+
+require get_stylesheet_directory() . '/inc/entete-pied.php';
+require get_stylesheet_directory() . '/inc/reglages-kadence.php';
 
 /* ------------------------------------------------------------------ */
-/* Styles, scripts et polices                                          */
+/* Polices et compléments de style (site public et éditeur de blocs)   */
 /* ------------------------------------------------------------------ */
 
 add_action(
-	'wp_enqueue_scripts',
+	'enqueue_block_assets',
 	function () {
 		$dir = get_stylesheet_directory();
 		$uri = get_stylesheet_directory_uri();
-		foreach ( array( 'fonts', 'pd', 'pd-kadence' ) as $nom ) {
+		foreach ( array( 'fonts', 'site' ) as $nom ) {
 			$fichier = $dir . '/assets/' . $nom . '.css';
 			wp_enqueue_style( 'pd-' . $nom, $uri . '/assets/' . $nom . '.css', array(), file_exists( $fichier ) ? filemtime( $fichier ) : PD_VERSION );
 		}
-		$js = $dir . '/assets/pd.js';
-		wp_enqueue_script( 'pd-js', $uri . '/assets/pd.js', array(), file_exists( $js ) ? filemtime( $js ) : PD_VERSION, true );
-	},
-	30
-);
-
-add_filter(
-	'body_class',
-	function ( $classes ) {
-		$classes[] = 'pd-site';
-		return $classes;
 	}
 );
 
@@ -53,7 +45,7 @@ add_action(
 );
 
 /* ------------------------------------------------------------------ */
-/* Formulaire de contact                                               */
+/* Formulaire de contact [pd_formulaire]                               */
 /* ------------------------------------------------------------------ */
 
 function pd_types_de_projet() {
@@ -74,12 +66,12 @@ function pd_jeton( $t ) {
 add_shortcode(
 	'pd_formulaire',
 	function () {
-		$etat    = isset( $_GET['envoi'] ) ? sanitize_key( wp_unslash( $_GET['envoi'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification
+		$etat     = isset( $_GET['envoi'] ) ? sanitize_key( wp_unslash( $_GET['envoi'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification
 		$messages = array(
 			'ok'      => array( 'ok', 'Merci, votre message est bien parti. Je vous réponds personnellement.' ),
 			'erreur'  => array( 'erreur', 'Le formulaire n\'a pas pu être envoyé. Vérifiez les champs et réessayez.' ),
 			'attente' => array( 'erreur', 'Un message vient d\'être envoyé depuis votre connexion. Patientez une minute avant d\'en envoyer un autre.' ),
-			'echec'   => array( 'erreur', 'Le message n\'a pas pu être remis. Écrivez-moi directement par e-mail.' ),
+			'echec'   => array( 'erreur', 'Le message n\'a pas pu être remis. Écrivez-moi directement à creationvideo@live.fr.' ),
 		);
 		$t = time();
 
@@ -91,20 +83,21 @@ add_shortcode(
 			<input type="hidden" name="pd_s" value="<?php echo esc_attr( pd_jeton( $t ) ); ?>">
 			<p class="pd-piege" aria-hidden="true"><label>Ne pas remplir<input type="text" name="pd_site" tabindex="-1" autocomplete="off"></label></p>
 			<div class="pd-deux">
-				<div class="pd-champ"><label for="pd-nom">Nom et prénom</label><input id="pd-nom" name="pd_nom" autocomplete="name" required maxlength="120"></div>
-				<div class="pd-champ"><label for="pd-mail">Adresse e-mail</label><input id="pd-mail" name="pd_mail" type="email" autocomplete="email" required maxlength="160"></div>
+				<p class="pd-champ"><label for="pd-nom">Nom et prénom</label><input id="pd-nom" name="pd_nom" autocomplete="name" required maxlength="120"></p>
+				<p class="pd-champ"><label for="pd-mail">Adresse e-mail</label><input id="pd-mail" name="pd_mail" type="email" autocomplete="email" required maxlength="160"></p>
 			</div>
-			<div class="pd-champ">
+			<p class="pd-champ">
 				<label for="pd-type">Type de projet</label>
-				<select id="pd-type" name="pd_type">
+				<select id="pd-type" name="pd_type" required>
+					<option value="">Choisissez…</option>
 					<?php foreach ( pd_types_de_projet() as $type ) : ?>
 						<option><?php echo esc_html( $type ); ?></option>
 					<?php endforeach; ?>
 				</select>
-			</div>
-			<div class="pd-champ"><label for="pd-message">Votre message</label><textarea id="pd-message" name="pd_message" required minlength="10" maxlength="5000"></textarea></div>
+			</p>
+			<p class="pd-champ"><label for="pd-message">Votre message</label><textarea id="pd-message" name="pd_message" required maxlength="5000" rows="7"></textarea></p>
 			<p class="pd-consentement"><label><input type="checkbox" name="pd_consent" value="1" required> J'accepte que ces informations servent à répondre à ma demande (voir la <a href="<?php echo esc_url( home_url( '/confidentialite/' ) ); ?>">politique de confidentialité</a>).</label></p>
-			<div class="pd-actions" style="margin:0"><button class="pd-bouton pd-plein" type="submit">Envoyer</button></div>
+			<p class="pd-envoi"><button class="pd-bouton" type="submit">Envoyer</button></p>
 			<?php if ( isset( $messages[ $etat ] ) ) : ?>
 				<p class="pd-retour pd-retour-<?php echo esc_attr( $messages[ $etat ][0] ); ?>" role="status"><?php echo esc_html( $messages[ $etat ][1] ); ?></p>
 			<?php endif; ?>
@@ -130,8 +123,8 @@ function pd_traiter_contact() {
 	}
 
 	// Jeton signé avec l'heure d'affichage : ni trop rapide (robot), ni trop ancien.
-	$t = isset( $_POST['pd_t'] ) ? (int) $_POST['pd_t'] : 0; // phpcs:ignore WordPress.Security.NonceVerification
-	$s = isset( $_POST['pd_s'] ) ? (string) wp_unslash( $_POST['pd_s'] ) : ''; // phpcs:ignore WordPress.Security
+	$t   = isset( $_POST['pd_t'] ) ? (int) $_POST['pd_t'] : 0; // phpcs:ignore WordPress.Security.NonceVerification
+	$s   = isset( $_POST['pd_s'] ) ? (string) wp_unslash( $_POST['pd_s'] ) : ''; // phpcs:ignore WordPress.Security
 	$age = time() - $t;
 	if ( ! hash_equals( pd_jeton( $t ), $s ) || $age < 3 || $age > 7 * DAY_IN_SECONDS ) {
 		pd_redirige( 'erreur' );
@@ -150,7 +143,7 @@ function pd_traiter_contact() {
 	$message = isset( $_POST['pd_message'] ) ? sanitize_textarea_field( wp_unslash( $_POST['pd_message'] ) ) : ''; // phpcs:ignore WordPress.Security
 	$accord  = ! empty( $_POST['pd_consent'] ); // phpcs:ignore WordPress.Security.NonceVerification
 
-	if ( strlen( $nom ) < 2 || ! is_email( $mail ) || strlen( $message ) < 10 || ! $accord || ! in_array( $type, pd_types_de_projet(), true ) ) {
+	if ( '' === trim( $nom ) || ! is_email( $mail ) || '' === trim( $message ) || ! $accord || ! in_array( $type, pd_types_de_projet(), true ) ) {
 		pd_redirige( 'erreur' );
 	}
 
@@ -170,6 +163,25 @@ add_action( 'admin_post_pd_contact', 'pd_traiter_contact' );
 /* ------------------------------------------------------------------ */
 /* Réglages automatiques après l'import des pages                      */
 /* ------------------------------------------------------------------ */
+
+// Repère interne de chaque page du site (accueil, films…), exporté avec les pages.
+add_action(
+	'init',
+	function () {
+		register_post_meta(
+			'page',
+			'_pd_page',
+			array(
+				'type'          => 'string',
+				'single'        => true,
+				'show_in_rest'  => true,
+				'auth_callback' => function () {
+					return current_user_can( 'edit_pages' );
+				},
+			)
+		);
+	}
+);
 
 function pd_page_par_cle( $cle ) {
 	$ids = get_posts(
@@ -195,32 +207,81 @@ function pd_creer_menu( $nom, $elements ) {
 		return 0;
 	}
 	foreach ( $elements as $element ) {
-		if ( ! empty( $element['page'] ) ) {
-			wp_update_nav_menu_item(
-				$menu_id,
-				0,
-				array(
-					'menu-item-title'     => $element['titre'],
-					'menu-item-object'    => 'page',
-					'menu-item-object-id' => $element['page'],
-					'menu-item-type'      => 'post_type',
-					'menu-item-status'    => 'publish',
-				)
-			);
-		} else {
-			wp_update_nav_menu_item(
-				$menu_id,
-				0,
-				array(
-					'menu-item-title'  => $element['titre'],
-					'menu-item-url'    => $element['url'],
-					'menu-item-type'   => 'custom',
-					'menu-item-status' => 'publish',
-				)
-			);
+		if ( empty( $element['page'] ) ) {
+			continue;
 		}
+		wp_update_nav_menu_item(
+			$menu_id,
+			0,
+			array(
+				'menu-item-title'     => $element['titre'],
+				'menu-item-object'    => 'page',
+				'menu-item-object-id' => $element['page'],
+				'menu-item-type'      => 'post_type',
+				'menu-item-status'    => 'publish',
+			)
+		);
 	}
 	return (int) $menu_id;
+}
+
+function pd_installer_site() {
+	$cles = array( 'accueil', 'films', 'serie-serval', 'a-propos', 'defense-et-securite', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
+	$p    = array();
+	foreach ( $cles as $cle ) {
+		$p[ $cle ] = pd_page_par_cle( $cle );
+	}
+	if ( in_array( 0, $p, true ) ) {
+		return false; // toutes les pages ne sont pas encore importées
+	}
+
+	// Sécurité : si l'importeur a réécrit les liens d'ancre (#films-…) en /#films-…, les remettre
+	// tels que Kadence les écrit, sinon le bloc d'onglets est signalé comme modifié dans l'éditeur.
+	foreach ( $p as $id ) {
+		$contenu = get_post_field( 'post_content', $id, 'raw' );
+		if ( false !== strpos( $contenu, 'href="/#' ) ) {
+			wp_update_post( array( 'ID' => $id, 'post_content' => wp_slash( str_replace( 'href="/#', 'href="#', $contenu ) ) ) );
+		}
+	}
+
+	update_option( 'show_on_front', 'page' );
+	update_option( 'page_on_front', $p['accueil'] );
+	update_option( 'page_for_posts', 0 );
+	update_option( 'blogname', 'Pascal Dupont' );
+	update_option( 'blogdescription', 'Auteur-réalisateur documentaire' );
+	if ( ! get_option( 'permalink_structure' ) ) {
+		update_option( 'permalink_structure', '/%postname%/' );
+	}
+
+	$principal = pd_creer_menu(
+		'Menu principal',
+		array(
+			array( 'titre' => 'Films', 'page' => $p['films'] ),
+			array( 'titre' => 'Série Serval', 'page' => $p['serie-serval'] ),
+			array( 'titre' => 'À propos', 'page' => $p['a-propos'] ),
+			array( 'titre' => 'LAKELAB', 'page' => $p['lakelab'] ),
+			array( 'titre' => 'Devis et contact', 'page' => $p['contact'] ),
+		)
+	);
+	$pied = pd_creer_menu(
+		'Pied de page',
+		array(
+			array( 'titre' => 'Défense et sécurité', 'page' => $p['defense-et-securite'] ),
+			array( 'titre' => 'Mentions légales', 'page' => $p['mentions-legales'] ),
+			array( 'titre' => 'Confidentialité', 'page' => $p['confidentialite'] ),
+		)
+	);
+	$lieux = get_theme_mod( 'nav_menu_locations', array() );
+	if ( $principal ) {
+		$lieux['primary'] = $principal;
+		$lieux['mobile']  = $principal;
+	}
+	if ( $pied ) {
+		$lieux['footer'] = $pied;
+	}
+	set_theme_mod( 'nav_menu_locations', $lieux );
+	flush_rewrite_rules( false );
+	return true;
 }
 
 add_action(
@@ -229,55 +290,10 @@ add_action(
 		if ( '1' === get_option( 'pd_installe' ) || ! current_user_can( 'manage_options' ) ) {
 			return;
 		}
-		$cles = array( 'accueil', 'films', 'serie-serval', 'a-propos', 'defense-et-securite', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
-		$p    = array();
-		foreach ( $cles as $cle ) {
-			$p[ $cle ] = pd_page_par_cle( $cle );
+		if ( pd_installer_site() ) {
+			update_option( 'pd_installe', '1' );
+			set_transient( 'pd_avis', 1, 5 * MINUTE_IN_SECONDS );
 		}
-		if ( ! $p['accueil'] || ! $p['films'] ) {
-			return; // les pages ne sont pas encore importées
-		}
-
-		update_option( 'show_on_front', 'page' );
-		update_option( 'page_on_front', $p['accueil'] );
-		update_option( 'page_for_posts', 0 );
-		update_option( 'blogname', 'Pascal Dupont' );
-		update_option( 'blogdescription', 'Auteur-réalisateur documentaire' );
-		if ( ! get_option( 'permalink_structure' ) ) {
-			update_option( 'permalink_structure', '/%postname%/' );
-		}
-
-		$principal = pd_creer_menu(
-			'Menu principal',
-			array(
-				array( 'titre' => 'Films', 'page' => $p['films'] ),
-				array( 'titre' => 'Série Serval', 'page' => $p['serie-serval'] ),
-				array( 'titre' => 'À propos', 'page' => $p['a-propos'] ),
-				array( 'titre' => 'LAKELAB', 'page' => $p['lakelab'] ),
-				array( 'titre' => 'Devis et contact', 'page' => $p['contact'] ),
-			)
-		);
-		$pied = pd_creer_menu(
-			'Pied de page',
-			array(
-				array( 'titre' => 'Défense et sécurité', 'page' => $p['defense-et-securite'] ),
-				array( 'titre' => 'Mentions légales', 'page' => $p['mentions-legales'] ),
-				array( 'titre' => 'Confidentialité', 'page' => $p['confidentialite'] ),
-			)
-		);
-		$lieux = get_theme_mod( 'nav_menu_locations', array() );
-		if ( $principal ) {
-			$lieux['primary'] = $principal;
-			$lieux['mobile']  = $principal;
-		}
-		if ( $pied ) {
-			$lieux['footer'] = $pied;
-		}
-		set_theme_mod( 'nav_menu_locations', $lieux );
-
-		flush_rewrite_rules( false );
-		update_option( 'pd_installe', '1' );
-		set_transient( 'pd_avis', 1, 5 * MINUTE_IN_SECONDS );
 	}
 );
 

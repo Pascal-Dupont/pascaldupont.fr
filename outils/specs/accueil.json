@@ -1,0 +1,4205 @@
+{
+ "titre": "Accueil",
+ "slug": "accueil",
+ "meta": {
+  "_kad_post_layout": "fullwidth",
+  "_kad_post_content_style": "unboxed",
+  "_kad_post_vertical_padding": "hide",
+  "_kad_post_title": "hide",
+  "_kad_post_feature": "hide",
+  "_pd_page": "accueil"
+ },
+ "blocs": [
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-accueil-5-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     120,
+     "",
+     200,
+     ""
+    ],
+    "tabletPadding": [
+     96,
+     "",
+     168,
+     ""
+    ],
+    "mobilePadding": [
+     72,
+     "",
+     136,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "className": "pd-hero",
+    "backgroundSettingTab": "gradient",
+    "gradient": "linear-gradient(180deg,#131c25 0%,#1b2733 55%,#2a3846 100%)"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-accueil-6-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         20,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Je filme l'engagement et <mark class=\"kt-highlight\">ce qu'il laisse</mark>.",
+        "level": 1,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         5.4,
+         4,
+         2.7
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.05,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         28,
+         ""
+        ],
+        "marginType": "px",
+        "markColor": "palette5",
+        "markFontStyle": "italic",
+        "maxWidth": [
+         880,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.15,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         608,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedbtn",
+       "attributes": {
+        "uniqueID": "pd-accueil-1-g",
+        "hAlign": "left",
+        "gap": [
+         0.9,
+         "",
+         ""
+        ],
+        "gapUnit": "rem",
+        "margin": [
+         36,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/singlebtn",
+         "attributes": {
+          "uniqueID": "pd-accueil-2-b",
+          "text": "Voir les films",
+          "link": "/films/",
+          "borderRadius": [
+           2,
+           2,
+           2,
+           2
+          ],
+          "borderRadiusUnit": "px",
+          "padding": [
+           0.9,
+           1.5,
+           0.9,
+           1.5
+          ],
+          "paddingUnit": "rem",
+          "typography": [
+           {
+            "size": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "lineHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "lineType": "",
+            "letterSpacing": [
+             0.04,
+             "",
+             ""
+            ],
+            "letterType": "em",
+            "textTransform": "",
+            "family": "",
+            "google": false,
+            "style": "",
+            "weight": "500",
+            "variant": "",
+            "subset": "",
+            "loadGoogle": false
+           }
+          ],
+          "color": "#ece8df",
+          "background": "palette1",
+          "colorHover": "#ece8df",
+          "backgroundHover": "palette2",
+          "borderStyle": [
+           {
+            "top": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "right": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "left": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "borderHoverStyle": [
+           {
+            "top": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "right": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "left": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ]
+         }
+        },
+        {
+         "name": "kadence/singlebtn",
+         "attributes": {
+          "uniqueID": "pd-accueil-3-b",
+          "text": "Parler d'un projet",
+          "link": "/contact/",
+          "borderRadius": [
+           2,
+           2,
+           2,
+           2
+          ],
+          "borderRadiusUnit": "px",
+          "padding": [
+           0.9,
+           1.5,
+           0.9,
+           1.5
+          ],
+          "paddingUnit": "rem",
+          "typography": [
+           {
+            "size": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "lineHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "lineType": "",
+            "letterSpacing": [
+             0.04,
+             "",
+             ""
+            ],
+            "letterType": "em",
+            "textTransform": "",
+            "family": "",
+            "google": false,
+            "style": "",
+            "weight": "500",
+            "variant": "",
+            "subset": "",
+            "loadGoogle": false
+           }
+          ],
+          "inheritStyles": "outline",
+          "color": "palette3",
+          "background": "transparent",
+          "colorHover": "palette9",
+          "backgroundHover": "palette3",
+          "borderStyle": [
+           {
+            "top": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "right": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "left": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "borderHoverStyle": [
+           {
+            "top": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "right": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "left": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ]
+         }
+        },
+        {
+         "name": "kadence/singlebtn",
+         "attributes": {
+          "uniqueID": "pd-accueil-4-b",
+          "text": "Chaîne YouTube",
+          "link": "https://www.youtube.com/@PascalDupont",
+          "borderRadius": [
+           2,
+           2,
+           2,
+           2
+          ],
+          "borderRadiusUnit": "px",
+          "padding": [
+           0.9,
+           1.5,
+           0.9,
+           1.5
+          ],
+          "paddingUnit": "rem",
+          "typography": [
+           {
+            "size": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "lineHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "lineType": "",
+            "letterSpacing": [
+             0.04,
+             "",
+             ""
+            ],
+            "letterType": "em",
+            "textTransform": "",
+            "family": "",
+            "google": false,
+            "style": "",
+            "weight": "500",
+            "variant": "",
+            "subset": "",
+            "loadGoogle": false
+           }
+          ],
+          "inheritStyles": "outline",
+          "color": "palette3",
+          "background": "transparent",
+          "colorHover": "palette9",
+          "backgroundHover": "palette3",
+          "borderStyle": [
+           {
+            "top": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "right": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "left": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "borderHoverStyle": [
+           {
+            "top": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "right": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "left": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "target": "_blank"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-accueil-16-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "a-la-une"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-accueil-17-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "À la une",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Des films pour garder la trace",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Documentaires pour la télévision, portraits de témoins, films de mémoire pour le 1er RCP, et une série de reportages vus plus de deux millions de fois.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0625,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         40,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         672,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-13-r",
+        "kbVersion": 2,
+        "columns": 3,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "tabletLayout": "two-grid",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         24,
+         20,
+         16
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         40,
+         32,
+         28
+        ],
+        "rowGutterType": "px",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-7-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/c4xGjV6-sNg/hqdefault.jpg",
+            "alt": "Vignette du film « Chroniques du 93 »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
+            "linkTarget": true,
+            "linkTitle": "Voir « Chroniques du 93 » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Chroniques du 93",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Documentaire · 2010 · 52 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-8-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/MX1rXj52K88/hqdefault.jpg",
+            "alt": "Vignette du film « Capitaine Raymond Locci »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=MX1rXj52K88",
+            "linkTarget": true,
+            "linkTitle": "Voir « Capitaine Raymond Locci » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Capitaine Raymond Locci",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Vosges 1943, Indochine 1946 · 1 h 36",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-9-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/uF7zqXfUsjc/hqdefault.jpg",
+            "alt": "Vignette du film « Commandant Everrard »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=uF7zqXfUsjc",
+            "linkTarget": true,
+            "linkTitle": "Voir « Commandant Everrard » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Commandant Everrard",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Indochine 1946, 1er RCP · 34 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-10-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "core/cover",
+           "attributes": {
+            "customGradient": "linear-gradient(160deg,hsl(231 22% 34%),hsl(231 26% 10%))",
+            "dimRatio": 100,
+            "isDark": true,
+            "contentPosition": "bottom left",
+            "minHeight": 120,
+            "minHeightUnit": "px",
+            "style": {
+             "dimensions": {
+              "aspectRatio": "16/9"
+             },
+             "border": {
+              "radius": "2px"
+             },
+             "spacing": {
+              "margin": {
+               "bottom": "14px"
+              },
+              "padding": {
+               "top": "12px",
+               "right": "14px",
+               "bottom": "12px",
+               "left": "14px"
+              }
+             }
+            },
+            "className": "pd-vignette-vide"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/advancedheading",
+             "attributes": {
+              "content": "Série",
+              "htmlTag": "p",
+              "fontSize": [
+               0.7,
+               "",
+               ""
+              ],
+              "sizeType": "rem",
+              "fontHeight": [
+               1.6,
+               "",
+               ""
+              ],
+              "fontHeightType": "",
+              "color": "palette3",
+              "margin": [
+               0,
+               "",
+               0,
+               ""
+              ],
+              "marginType": "px",
+              "typography": "IBM Plex Mono",
+              "googleFont": false,
+              "fontWeight": "500"
+             }
+            }
+           ]
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Opération Serval",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "link": "/serie-serval/",
+            "linkTarget": false,
+            "linkStyle": "hover_underline",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Mali 2013 · plus de 2 millions de vues",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "<a href=\"/serie-serval/\">Voir la série</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.85,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-11-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "core/cover",
+           "attributes": {
+            "customGradient": "linear-gradient(160deg,hsl(191 22% 34%),hsl(191 26% 10%))",
+            "dimRatio": 100,
+            "isDark": true,
+            "contentPosition": "bottom left",
+            "minHeight": 120,
+            "minHeightUnit": "px",
+            "style": {
+             "dimensions": {
+              "aspectRatio": "16/9"
+             },
+             "border": {
+              "radius": "2px"
+             },
+             "spacing": {
+              "margin": {
+               "bottom": "14px"
+              },
+              "padding": {
+               "top": "12px",
+               "right": "14px",
+               "bottom": "12px",
+               "left": "14px"
+              }
+             }
+            },
+            "className": "pd-vignette-vide"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/advancedheading",
+             "attributes": {
+              "content": "Mémoire",
+              "htmlTag": "p",
+              "fontSize": [
+               0.7,
+               "",
+               ""
+              ],
+              "sizeType": "rem",
+              "fontHeight": [
+               1.6,
+               "",
+               ""
+              ],
+              "fontHeightType": "",
+              "color": "palette3",
+              "margin": [
+               0,
+               "",
+               0,
+               ""
+              ],
+              "marginType": "px",
+              "typography": "IBM Plex Mono",
+              "googleFont": false,
+              "fontWeight": "500"
+             }
+            }
+           ]
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Les 80 ans de Jebsheim",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "link": "https://www.instagram.com/reel/DS0Fuk-DXkT/",
+            "linkTarget": true,
+            "linkStyle": "hover_underline",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le 1er RCP et la libération de l'Alsace",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DS0Fuk-DXkT/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1HsNqid6yr/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2005313606834077905\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.85,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-12-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/iJQCmkrEMuU/hqdefault.jpg",
+            "alt": "Vignette du film « État d'urgence »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=iJQCmkrEMuU",
+            "linkTarget": true,
+            "linkTitle": "Voir « État d'urgence » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "État d'urgence",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Premier film LAKELAB · 3 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/advancedbtn",
+       "attributes": {
+        "uniqueID": "pd-accueil-14-g",
+        "hAlign": "left",
+        "gap": [
+         0.9,
+         "",
+         ""
+        ],
+        "gapUnit": "rem",
+        "margin": [
+         40,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/singlebtn",
+         "attributes": {
+          "uniqueID": "pd-accueil-15-b",
+          "text": "Tous les films",
+          "link": "/films/",
+          "borderRadius": [
+           2,
+           2,
+           2,
+           2
+          ],
+          "borderRadiusUnit": "px",
+          "padding": [
+           0.9,
+           1.5,
+           0.9,
+           1.5
+          ],
+          "paddingUnit": "rem",
+          "typography": [
+           {
+            "size": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "lineHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "lineType": "",
+            "letterSpacing": [
+             0.04,
+             "",
+             ""
+            ],
+            "letterType": "em",
+            "textTransform": "",
+            "family": "",
+            "google": false,
+            "style": "",
+            "weight": "500",
+            "variant": "",
+            "subset": "",
+            "loadGoogle": false
+           }
+          ],
+          "inheritStyles": "outline",
+          "color": "palette3",
+          "background": "transparent",
+          "colorHover": "palette9",
+          "backgroundHover": "palette3",
+          "borderStyle": [
+           {
+            "top": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "right": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "left": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "borderHoverStyle": [
+           {
+            "top": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "right": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "left": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-accueil-21-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette8",
+    "textColor": "palette3",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "revivre",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-accueil-22-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "En développement · Documentaire, 52 minutes",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "REVIVRE",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Que devient-on quand on ne peut plus être celui qu'on était ?",
+        "htmlTag": "p",
+        "fontSize": [
+         1.9,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.25,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         32,
+         ""
+        ],
+        "marginType": "px",
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontStyle": "italic",
+        "maxWidth": [
+         640,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-20-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         40,
+         32,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         0
+        ],
+        "rowGutterType": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-18-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Militaires, gendarmes, policiers, pompiers, soignants : ceux qui servent portent parfois des blessures qui ne se voient pas. Le stress post-traumatique touche bien plus de monde qu'on ne le croit, et il se vit souvent en silence.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "REVIVRE suit quelques parcours de femmes et d'hommes qui ont fait de leur blessure autre chose qu'une fin. Le film ne raconte ni des exploits ni des défis. Il raconte des combats réels, menés avec lenteur, avec leurs rechutes et leurs relèvements, et ce qu'ils décident d'en faire une fois debout.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-19-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Le dernier mouvement du film est tourné vers la transmission : ce que ceux qui se sont relevés donnent à des jeunes en rupture, et ce que cela dit du lien entre l'Armée et la Nation.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Un documentaire d'auteur, tourné avec les personnes concernées, dans le respect de chacune et sans mise en scène de la douleur.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-accueil-27-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     80,
+     "",
+     80,
+     ""
+    ],
+    "tabletPadding": [
+     64,
+     "",
+     64,
+     ""
+    ],
+    "mobilePadding": [
+     48,
+     "",
+     48,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-accueil-28-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Clients et partenaires",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Ils m'ont fait confiance",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         32,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-26-r",
+        "kbVersion": 2,
+        "columns": 3,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         16
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         16,
+         16,
+         12
+        ],
+        "rowGutterType": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-23-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Fondation Résilience",
+            "htmlTag": "p",
+            "fontSize": [
+             2,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-24-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "FA3R",
+            "htmlTag": "p",
+            "fontSize": [
+             2,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-25-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "TDA Armements",
+            "htmlTag": "p",
+            "fontSize": [
+             2,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-accueil-47-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "#ece8df",
+    "textColor": "#10161c",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "prestations"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-accueil-48-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Pour les institutions et les entreprises",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette1",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Prestations",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "#10161c",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Le regard d'un documentariste au service de vos projets, avec une attention particulière pour la défense et la sécurité.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0625,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "#4a5663",
+        "margin": [
+         0,
+         "",
+         40,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         672,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-31-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "left-forty",
+        "mobileLayout": "row",
+        "padding": [
+         24,
+         0,
+         24,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         8
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         8,
+         8,
+         8
+        ],
+        "rowGutterType": "px",
+        "borderStyle": [
+         {
+          "top": [
+           "#10161c",
+           "solid",
+           1
+          ],
+          "right": [
+           "",
+           "",
+           ""
+          ],
+          "bottom": [
+           "#c9c4b8",
+           "solid",
+           1
+          ],
+          "left": [
+           "",
+           "",
+           ""
+          ],
+          "unit": "px"
+         }
+        ]
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-29-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Films institutionnels et documentaires",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.6,
+             1.45,
+             1.3
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-30-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Du repérage à la livraison. Références : 1er RCP, Europorte. Un récit sobre, fidèle à ceux que l'on filme.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-34-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "left-forty",
+        "mobileLayout": "row",
+        "padding": [
+         24,
+         0,
+         24,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         8
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         8,
+         8,
+         8
+        ],
+        "rowGutterType": "px",
+        "borderStyle": [
+         {
+          "top": [
+           "",
+           "",
+           ""
+          ],
+          "right": [
+           "",
+           "",
+           ""
+          ],
+          "bottom": [
+           "#c9c4b8",
+           "solid",
+           1
+          ],
+          "left": [
+           "",
+           "",
+           ""
+          ],
+          "unit": "px"
+         }
+        ]
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-32-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Portraits filmés",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.6,
+             1.45,
+             1.3
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-33-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Recueillir la parole d'un témoin, d'un chef, d'une équipe, et la mettre en images pour durer.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-37-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "left-forty",
+        "mobileLayout": "row",
+        "padding": [
+         24,
+         0,
+         24,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         8
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         8,
+         8,
+         8
+        ],
+        "rowGutterType": "px",
+        "borderStyle": [
+         {
+          "top": [
+           "",
+           "",
+           ""
+          ],
+          "right": [
+           "",
+           "",
+           ""
+          ],
+          "bottom": [
+           "#c9c4b8",
+           "solid",
+           1
+          ],
+          "left": [
+           "",
+           "",
+           ""
+          ],
+          "unit": "px"
+         }
+        ]
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-35-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Captation d'événements",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.6,
+             1.45,
+             1.3
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-36-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Salons, journées portes ouvertes, cérémonies, exercices : tourner sur le vif et monter vite.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-40-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "left-forty",
+        "mobileLayout": "row",
+        "padding": [
+         24,
+         0,
+         24,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         8
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         8,
+         8,
+         8
+        ],
+        "rowGutterType": "px",
+        "borderStyle": [
+         {
+          "top": [
+           "",
+           "",
+           ""
+          ],
+          "right": [
+           "",
+           "",
+           ""
+          ],
+          "bottom": [
+           "#c9c4b8",
+           "solid",
+           1
+          ],
+          "left": [
+           "",
+           "",
+           ""
+          ],
+          "unit": "px"
+         }
+        ]
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-38-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Stratégie et communication",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.6,
+             1.45,
+             1.3
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-39-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Définir ce qu'il faut montrer, à qui, et sur quels supports, avant de tourner.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-43-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "left-forty",
+        "mobileLayout": "row",
+        "padding": [
+         24,
+         0,
+         24,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         8
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         8,
+         8,
+         8
+        ],
+        "rowGutterType": "px",
+        "borderStyle": [
+         {
+          "top": [
+           "",
+           "",
+           ""
+          ],
+          "right": [
+           "",
+           "",
+           ""
+          ],
+          "bottom": [
+           "#c9c4b8",
+           "solid",
+           1
+          ],
+          "left": [
+           "",
+           "",
+           ""
+          ],
+          "unit": "px"
+         }
+        ]
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-41-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Montage et post-production",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.6,
+             1.45,
+             1.3
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-42-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Montage, étalonnage et sous-titrage de vos propres images.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/advancedbtn",
+       "attributes": {
+        "uniqueID": "pd-accueil-44-g",
+        "hAlign": "left",
+        "gap": [
+         0.9,
+         "",
+         ""
+        ],
+        "gapUnit": "rem",
+        "margin": [
+         40,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/singlebtn",
+         "attributes": {
+          "uniqueID": "pd-accueil-45-b",
+          "text": "Demander un devis",
+          "link": "/contact/",
+          "borderRadius": [
+           2,
+           2,
+           2,
+           2
+          ],
+          "borderRadiusUnit": "px",
+          "padding": [
+           0.9,
+           1.5,
+           0.9,
+           1.5
+          ],
+          "paddingUnit": "rem",
+          "typography": [
+           {
+            "size": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "lineHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "lineType": "",
+            "letterSpacing": [
+             0.04,
+             "",
+             ""
+            ],
+            "letterType": "em",
+            "textTransform": "",
+            "family": "",
+            "google": false,
+            "style": "",
+            "weight": "500",
+            "variant": "",
+            "subset": "",
+            "loadGoogle": false
+           }
+          ],
+          "color": "#ece8df",
+          "background": "palette1",
+          "colorHover": "#ece8df",
+          "backgroundHover": "palette2",
+          "borderStyle": [
+           {
+            "top": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "right": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "left": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "borderHoverStyle": [
+           {
+            "top": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "right": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "left": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ]
+         }
+        },
+        {
+         "name": "kadence/singlebtn",
+         "attributes": {
+          "uniqueID": "pd-accueil-46-b",
+          "text": "Défense et sécurité",
+          "link": "/defense-et-securite/",
+          "borderRadius": [
+           2,
+           2,
+           2,
+           2
+          ],
+          "borderRadiusUnit": "px",
+          "padding": [
+           0.9,
+           1.5,
+           0.9,
+           1.5
+          ],
+          "paddingUnit": "rem",
+          "typography": [
+           {
+            "size": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "lineHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "lineType": "",
+            "letterSpacing": [
+             0.04,
+             "",
+             ""
+            ],
+            "letterType": "em",
+            "textTransform": "",
+            "family": "",
+            "google": false,
+            "style": "",
+            "weight": "500",
+            "variant": "",
+            "subset": "",
+            "loadGoogle": false
+           }
+          ],
+          "inheritStyles": "outline",
+          "color": "#10161c",
+          "background": "transparent",
+          "colorHover": "#ece8df",
+          "backgroundHover": "#10161c",
+          "borderStyle": [
+           {
+            "top": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "right": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "left": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "borderHoverStyle": [
+           {
+            "top": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "right": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "left": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-accueil-57-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette8",
+    "textColor": "palette3",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "lakelab",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-accueil-58-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-56-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         40,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         40
+        ],
+        "rowGutterType": "px",
+        "verticalAlignment": "middle"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-53-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Recherches esthétiques",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "LAKELAB",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             3.2,
+             2.6,
+             2.1
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Un fablab au bord du lac. Avec Lucile, nous y menons nos recherches : photographie, cinéma, musique, culture. Elles sont publiées au fil de l'eau sur Instagram et Facebook.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "maxWidth": [
+             544,
+             "",
+             ""
+            ],
+            "maxWidthType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedbtn",
+           "attributes": {
+            "uniqueID": "pd-accueil-51-g",
+            "hAlign": "left",
+            "gap": [
+             0.9,
+             "",
+             ""
+            ],
+            "gapUnit": "rem",
+            "margin": [
+             28,
+             "",
+             0,
+             ""
+            ],
+            "marginUnit": "px"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-accueil-52-b",
+              "text": "Découvrir LAKELAB",
+              "link": "/lakelab/",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.9,
+               1.5,
+               0.9,
+               1.5
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.95,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "inheritStyles": "outline",
+              "color": "palette3",
+              "background": "transparent",
+              "colorHover": "palette9",
+              "backgroundHover": "palette3",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ]
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-55-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/rowlayout",
+           "attributes": {
+            "uniqueID": "pd-accueil-54-r",
+            "kbVersion": 2,
+            "columns": 2,
+            "colLayout": "equal",
+            "mobileLayout": "row",
+            "padding": [
+             0,
+             0,
+             0,
+             0
+            ],
+            "paddingUnit": "px",
+            "columnGutter": "custom",
+            "tabletGutter": "custom",
+            "mobileGutter": "custom",
+            "customGutter": [
+             20,
+             20,
+             16
+            ],
+            "gutterType": "px",
+            "collapseGutter": "custom",
+            "tabletRowGutter": "custom",
+            "mobileRowGutter": "custom",
+            "customRowGutter": [
+             28,
+             28,
+             24
+            ],
+            "rowGutterType": "px"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/column",
+             "attributes": {
+              "uniqueID": "pd-accueil-49-c",
+              "kbVersion": 2,
+              "borderWidth": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "htmlTag": "article",
+              "className": "pd-carte"
+             },
+             "innerBlocks": [
+              {
+               "name": "kadence/image",
+               "attributes": {
+                "url": "https://i.ytimg.com/vi/iJQCmkrEMuU/hqdefault.jpg",
+                "alt": "Vignette du film « État d'urgence »",
+                "useRatio": true,
+                "ratio": "land169",
+                "link": "https://www.youtube.com/watch?v=iJQCmkrEMuU",
+                "linkTarget": true,
+                "linkTitle": "Voir « État d'urgence » sur YouTube (nouvel onglet)",
+                "borderRadius": [
+                 2,
+                 2,
+                 2,
+                 2
+                ],
+                "borderRadiusUnit": "px",
+                "marginDesktop": [
+                 0,
+                 0,
+                 14,
+                 0
+                ],
+                "marginUnit": "px"
+               }
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "État d'urgence",
+                "level": 3,
+                "typography": "Newsreader",
+                "googleFont": false,
+                "fontWeight": "400",
+                "fontSize": [
+                 1.35,
+                 1.3,
+                 1.25
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "color": "palette3",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Premier film LAKELAB · 3 min",
+                "htmlTag": "p",
+                "fontSize": [
+                 0.92,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "color": "palette4",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
+              }
+             ]
+            },
+            {
+             "name": "kadence/column",
+             "attributes": {
+              "uniqueID": "pd-accueil-50-c",
+              "kbVersion": 2,
+              "borderWidth": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "htmlTag": "article",
+              "className": "pd-carte"
+             },
+             "innerBlocks": [
+              {
+               "name": "kadence/image",
+               "attributes": {
+                "url": "https://i.ytimg.com/vi/6FrZTiHyWsk/hqdefault.jpg",
+                "alt": "Vignette du film « État naturel »",
+                "useRatio": true,
+                "ratio": "land169",
+                "link": "https://www.youtube.com/watch?v=6FrZTiHyWsk",
+                "linkTarget": true,
+                "linkTitle": "Voir « État naturel » sur YouTube (nouvel onglet)",
+                "borderRadius": [
+                 2,
+                 2,
+                 2,
+                 2
+                ],
+                "borderRadiusUnit": "px",
+                "marginDesktop": [
+                 0,
+                 0,
+                 14,
+                 0
+                ],
+                "marginUnit": "px"
+               }
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "État naturel",
+                "level": 3,
+                "typography": "Newsreader",
+                "googleFont": false,
+                "fontWeight": "400",
+                "fontSize": [
+                 1.35,
+                 1.3,
+                 1.25
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "color": "palette3",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "LAKELAB · 4 min",
+                "htmlTag": "p",
+                "fontSize": [
+                 0.92,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "color": "palette4",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-accueil-61-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-accueil-62-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Contact",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Parlons de votre projet",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0625,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         8,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         672,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedbtn",
+       "attributes": {
+        "uniqueID": "pd-accueil-59-g",
+        "hAlign": "left",
+        "gap": [
+         0.9,
+         "",
+         ""
+        ],
+        "gapUnit": "rem",
+        "margin": [
+         24,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/singlebtn",
+         "attributes": {
+          "uniqueID": "pd-accueil-60-b",
+          "text": "Demander un devis",
+          "link": "/contact/",
+          "borderRadius": [
+           2,
+           2,
+           2,
+           2
+          ],
+          "borderRadiusUnit": "px",
+          "padding": [
+           0.9,
+           1.5,
+           0.9,
+           1.5
+          ],
+          "paddingUnit": "rem",
+          "typography": [
+           {
+            "size": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "lineHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "lineType": "",
+            "letterSpacing": [
+             0.04,
+             "",
+             ""
+            ],
+            "letterType": "em",
+            "textTransform": "",
+            "family": "",
+            "google": false,
+            "style": "",
+            "weight": "500",
+            "variant": "",
+            "subset": "",
+            "loadGoogle": false
+           }
+          ],
+          "color": "#ece8df",
+          "background": "palette1",
+          "colorHover": "#ece8df",
+          "backgroundHover": "palette2",
+          "borderStyle": [
+           {
+            "top": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "right": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "left": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "borderHoverStyle": [
+           {
+            "top": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "right": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "left": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

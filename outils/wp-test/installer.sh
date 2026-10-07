@@ -14,7 +14,7 @@ define( 'WP_HOME', 'http://127.0.0.1:$PORT' ); define( 'WP_SITEURL', 'http://127
 define( 'AUTH_KEY', 'test1' ); define( 'SECURE_AUTH_KEY', 'test2' ); define( 'LOGGED_IN_KEY', 'test3' ); define( 'NONCE_KEY', 'test4' );
 define( 'AUTH_SALT', 'test5' ); define( 'SECURE_AUTH_SALT', 'test6' ); define( 'LOGGED_IN_SALT', 'test7' ); define( 'NONCE_SALT', 'test8' );
 define( 'WP_DEBUG', true ); define( 'WP_DEBUG_LOG', true ); define( 'WP_DEBUG_DISPLAY', false );
-define( 'AUTOMATIC_UPDATER_DISABLED', true ); define( 'WP_AUTO_UPDATE_CORE', false ); define( 'DISALLOW_FILE_MODS', false );
+define( 'AUTOMATIC_UPDATER_DISABLED', true ); define( 'DISABLE_WP_CRON', true ); define( 'WP_AUTO_UPDATE_CORE', false ); define( 'DISALLOW_FILE_MODS', false );
 \$table_prefix = 'wp_';
 if ( ! defined( 'ABSPATH' ) ) { define( 'ABSPATH', __DIR__ . '/' ); }
 require_once ABSPATH . 'wp-settings.php';

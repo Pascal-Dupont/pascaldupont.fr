@@ -1,0 +1,878 @@
+{
+ "titre": "LAKELAB",
+ "slug": "lakelab",
+ "meta": {
+  "_kad_post_layout": "fullwidth",
+  "_kad_post_content_style": "unboxed",
+  "_kad_post_vertical_padding": "hide",
+  "_kad_post_title": "hide",
+  "_kad_post_feature": "hide",
+  "_pd_page": "lakelab"
+ },
+ "blocs": [
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-lakelab-1-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     88,
+     "",
+     56,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     48,
+     ""
+    ],
+    "mobilePadding": [
+     48,
+     "",
+     32,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-lakelab-2-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Recherches esthétiques",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "LAKELAB",
+        "level": 1,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         4.4,
+         3.4,
+         2.6
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         20,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         880,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.15,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         720,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-lakelab-6-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     16,
+     "",
+     64,
+     ""
+    ],
+    "tabletPadding": [
+     16,
+     "",
+     48,
+     ""
+    ],
+    "mobilePadding": [
+     8,
+     "",
+     40,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-lakelab-7-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Où nous suivre",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         1.9,
+         1.75,
+         1.6
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         12,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Nos recherches sont publiées au fil de l'eau sur Instagram et Facebook.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0625,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedbtn",
+       "attributes": {
+        "uniqueID": "pd-lakelab-3-g",
+        "hAlign": "left",
+        "gap": [
+         0.9,
+         "",
+         ""
+        ],
+        "gapUnit": "rem",
+        "margin": [
+         24,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/singlebtn",
+         "attributes": {
+          "uniqueID": "pd-lakelab-4-b",
+          "text": "Instagram LAKELAB",
+          "link": "https://www.instagram.com/lake.lab/",
+          "borderRadius": [
+           2,
+           2,
+           2,
+           2
+          ],
+          "borderRadiusUnit": "px",
+          "padding": [
+           0.9,
+           1.5,
+           0.9,
+           1.5
+          ],
+          "paddingUnit": "rem",
+          "typography": [
+           {
+            "size": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "lineHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "lineType": "",
+            "letterSpacing": [
+             0.04,
+             "",
+             ""
+            ],
+            "letterType": "em",
+            "textTransform": "",
+            "family": "",
+            "google": false,
+            "style": "",
+            "weight": "500",
+            "variant": "",
+            "subset": "",
+            "loadGoogle": false
+           }
+          ],
+          "inheritStyles": "outline",
+          "color": "palette3",
+          "background": "transparent",
+          "colorHover": "palette9",
+          "backgroundHover": "palette3",
+          "borderStyle": [
+           {
+            "top": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "right": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "left": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "borderHoverStyle": [
+           {
+            "top": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "right": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "left": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "target": "_blank"
+         }
+        },
+        {
+         "name": "kadence/singlebtn",
+         "attributes": {
+          "uniqueID": "pd-lakelab-5-b",
+          "text": "Facebook LAKELAB",
+          "link": "https://www.facebook.com/lakelab/",
+          "borderRadius": [
+           2,
+           2,
+           2,
+           2
+          ],
+          "borderRadiusUnit": "px",
+          "padding": [
+           0.9,
+           1.5,
+           0.9,
+           1.5
+          ],
+          "paddingUnit": "rem",
+          "typography": [
+           {
+            "size": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "lineHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "lineType": "",
+            "letterSpacing": [
+             0.04,
+             "",
+             ""
+            ],
+            "letterType": "em",
+            "textTransform": "",
+            "family": "",
+            "google": false,
+            "style": "",
+            "weight": "500",
+            "variant": "",
+            "subset": "",
+            "loadGoogle": false
+           }
+          ],
+          "inheritStyles": "outline",
+          "color": "palette3",
+          "background": "transparent",
+          "colorHover": "palette9",
+          "backgroundHover": "palette3",
+          "borderStyle": [
+           {
+            "top": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "right": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "left": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "borderHoverStyle": [
+           {
+            "top": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "right": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "left": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "target": "_blank"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-lakelab-12-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette8",
+    "textColor": "palette3",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-lakelab-13-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Les premiers films LAKELAB",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         1.9,
+         1.75,
+         1.6
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         28,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-lakelab-11-r",
+        "kbVersion": 2,
+        "columns": 3,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "tabletLayout": "two-grid",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         24,
+         20,
+         16
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         40,
+         32,
+         28
+        ],
+        "rowGutterType": "px",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-lakelab-8-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/iJQCmkrEMuU/hqdefault.jpg",
+            "alt": "Vignette du film « État d'urgence »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=iJQCmkrEMuU",
+            "linkTarget": true,
+            "linkTitle": "Voir « État d'urgence » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "État d'urgence",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Premier film LAKELAB · 3 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-lakelab-9-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/6FrZTiHyWsk/hqdefault.jpg",
+            "alt": "Vignette du film « État naturel »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=6FrZTiHyWsk",
+            "linkTarget": true,
+            "linkTitle": "Voir « État naturel » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "État naturel",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "LAKELAB · 4 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-lakelab-10-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

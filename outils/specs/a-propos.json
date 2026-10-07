@@ -1,0 +1,1033 @@
+{
+ "titre": "À propos",
+ "slug": "a-propos",
+ "meta": {
+  "_kad_post_layout": "fullwidth",
+  "_kad_post_content_style": "unboxed",
+  "_kad_post_vertical_padding": "hide",
+  "_kad_post_title": "hide",
+  "_kad_post_feature": "hide",
+  "_pd_page": "a-propos"
+ },
+ "blocs": [
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-apropos-1-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     88,
+     "",
+     56,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     48,
+     ""
+    ],
+    "mobilePadding": [
+     48,
+     "",
+     32,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-apropos-2-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Je filme l'engagement et ce qu'il laisse.",
+        "level": 1,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         4.4,
+         3.4,
+         2.6
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         20,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         880,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-apropos-9-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     24,
+     "",
+     24,
+     ""
+    ],
+    "tabletPadding": [
+     16,
+     "",
+     16,
+     ""
+    ],
+    "mobilePadding": [
+     8,
+     "",
+     8,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-apropos-10-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-apropos-8-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "left-forty",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         56,
+         40,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         32
+        ],
+        "rowGutterType": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-3-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "core/cover",
+           "attributes": {
+            "customGradient": "linear-gradient(160deg,#46606f,#10181e)",
+            "dimRatio": 100,
+            "isDark": true,
+            "contentPosition": "bottom left",
+            "minHeight": 320,
+            "minHeightUnit": "px",
+            "className": "pd-portrait",
+            "style": {
+             "dimensions": {
+              "aspectRatio": "4/5"
+             },
+             "spacing": {
+              "padding": {
+               "top": "16px",
+               "right": "16px",
+               "bottom": "16px",
+               "left": "16px"
+              }
+             }
+            }
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/advancedheading",
+             "attributes": {
+              "content": "Portrait à ajouter",
+              "htmlTag": "p",
+              "fontSize": [
+               0.72,
+               "",
+               ""
+              ],
+              "sizeType": "rem",
+              "fontHeight": [
+               1.6,
+               "",
+               ""
+              ],
+              "fontHeightType": "",
+              "color": "palette3",
+              "margin": [
+               0,
+               "",
+               0,
+               ""
+              ],
+              "marginType": "px",
+              "typography": "IBM Plex Mono",
+              "googleFont": false,
+              "fontWeight": "500"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-7-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Auteur-réalisateur documentaire depuis vingt ans. « Chroniques du 93 » pour France 4, « La nuit leur appartient » pour la centième d'Enquête d'action sur W9, le cycle mémoire du 1er Régiment de Chasseurs Parachutistes. Aujourd'hui, un 52 minutes sur le stress post-traumatique et sur ce que les blessés transmettent à des jeunes en rupture.",
+            "style": {
+             "typography": {
+              "fontSize": "1.2rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.3rem"
+              }
+             },
+             "color": {
+              "text": "#e8e6e1"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Ancien combattant de l'infanterie parachutiste, officier de réserve opérationnelle au 1er RCP. C'est ce qui me permet de filmer là où la caméra est d'ordinaire tolérée plutôt qu'attendue : je connais le terrain, le vocabulaire, et le temps qu'il faut pour qu'un homme accepte de parler.",
+            "style": {
+             "typography": {
+              "fontSize": "1.2rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.3rem"
+              }
+             },
+             "color": {
+              "text": "#e8e6e1"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Sociétaire de la SCAM. Je travaille avec des maisons de production et des diffuseurs nationaux, du développement à la livraison.",
+            "style": {
+             "typography": {
+              "fontSize": "1.2rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.3rem"
+              }
+             },
+             "color": {
+              "text": "#e8e6e1"
+             }
+            }
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "« Qui veut peut, et qui ose gagne. »",
+            "htmlTag": "p",
+            "fontSize": [
+             2,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             16,
+             "",
+             32,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontStyle": "italic",
+            "borderStyle": [
+             {
+              "top": [
+               "",
+               "",
+               ""
+              ],
+              "right": [
+               "",
+               "",
+               ""
+              ],
+              "bottom": [
+               "",
+               "",
+               ""
+              ],
+              "left": [
+               "#c0403d",
+               "solid",
+               2
+              ],
+              "unit": "px"
+             }
+            ],
+            "padding": [
+             0,
+             0,
+             0,
+             20
+            ],
+            "paddingType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedbtn",
+           "attributes": {
+            "uniqueID": "pd-apropos-4-g",
+            "hAlign": "left",
+            "gap": [
+             0.9,
+             "",
+             ""
+            ],
+            "gapUnit": "rem",
+            "margin": [
+             8,
+             "",
+             0,
+             ""
+            ],
+            "marginUnit": "px"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-apropos-5-b",
+              "text": "Parler d'un projet",
+              "link": "/contact/",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.9,
+               1.5,
+               0.9,
+               1.5
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.95,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "color": "#ece8df",
+              "background": "palette1",
+              "colorHover": "#ece8df",
+              "backgroundHover": "palette2",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ]
+             }
+            },
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-apropos-6-b",
+              "text": "LinkedIn",
+              "link": "https://www.linkedin.com/in/pascal-dupont-7932037b/",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.9,
+               1.5,
+               0.9,
+               1.5
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.95,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "inheritStyles": "outline",
+              "color": "palette3",
+              "background": "transparent",
+              "colorHover": "palette9",
+              "backgroundHover": "palette3",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "target": "_blank"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-apropos-14-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette8",
+    "textColor": "palette3",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-apropos-15-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-apropos-13-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         40,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         40
+        ],
+        "rowGutterType": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-11-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Repères",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.9,
+             1.75,
+             1.6
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "core/table",
+           "attributes": {
+            "body": [
+             {
+              "cells": [
+               {
+                "content": "La nuit leur appartient, pour W9",
+                "tag": "td"
+               },
+               {
+                "content": "2008",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Chroniques du 93, pour France 4",
+                "tag": "td"
+               },
+               {
+                "content": "2010",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Série Serval, Mali",
+                "tag": "td"
+               },
+               {
+                "content": "2013",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Voix d'Amazonie, avec Pierre Bayle",
+                "tag": "td"
+               },
+               {
+                "content": "2019-2020",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Eurosatory, films officiels du show daily",
+                "tag": "td"
+               },
+               {
+                "content": "2022",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Films pour le 1er RCP, sur les pages du régiment",
+                "tag": "td"
+               },
+               {
+                "content": "depuis mai 2025",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Histoire du régiment, chapitres 1 à 3",
+                "tag": "td"
+               },
+               {
+                "content": "2026",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Administrateur de l'amicale du 1er RCP, audiovisuel",
+                "tag": "td"
+               },
+               {
+                "content": "depuis août 2025",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "REVIVRE, documentaire de 52 minutes",
+                "tag": "td"
+               },
+               {
+                "content": "en développement",
+                "tag": "td"
+               }
+              ]
+             }
+            ],
+            "hasFixedLayout": false,
+            "className": "pd-liste"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-12-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Avec Lucile Guilloteaux",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.9,
+             1.75,
+             1.6
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Lucile m'accompagne sur la recherche de documents et de photographies, et signe une grande partie des montages.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Ensemble, nous animons <a href=\"/lakelab/\">LAKELAB</a>, notre espace de recherches esthétiques.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

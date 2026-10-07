@@ -123,6 +123,12 @@ async function capture(cible, sortie, largeur) {
   const p = await b.newPage({ viewport: { width: parseInt(largeur || '1280', 10), height: 900 } });
   const erreurs = [];
   p.on('pageerror', (e) => erreurs.push(e.message));
+  // Vignettes YouTube : le serveur de test n'y a pas accès ; une image de remplacement (4/3 à bandes noires,
+  // comme les vraies hqdefault) permet de juger la mise en page.
+  await p.route(/i\.ytimg\.com/, (route) => route.fulfill({ status: 200, contentType: 'image/svg+xml', body:
+    '<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360"><rect width="480" height="360" fill="#000"/>' +
+    '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b6b5a"/><stop offset="1" stop-color="#1f2a25"/></linearGradient></defs>' +
+    '<rect y="45" width="480" height="270" fill="url(#g)"/><text x="240" y="190" font-family="sans-serif" font-size="22" fill="#e8e6e1" text-anchor="middle">vignette YouTube</text></svg>' }));
   const url = /^https?:/.test(cible) ? cible : BASE + '/' + (cible === 'accueil' ? '' : cible.replace(/^\/|\/$/g, '') + '/');
   const r = await p.goto(url, { waitUntil: 'networkidle' }).catch(() => p.goto(url));
   await p.waitForTimeout(500);
