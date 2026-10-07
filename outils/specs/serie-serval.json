@@ -324,12 +324,12 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "2 millions",
+            "content": "2 millions",
             "htmlTag": "p",
             "fontSize": [
-             3.2,
-             "",
-             ""
+             2.8,
+             2.6,
+             2.4
             ],
             "sizeType": "rem",
             "fontHeight": [
@@ -431,9 +431,9 @@
             "content": "625 000",
             "htmlTag": "p",
             "fontSize": [
-             3.2,
-             "",
-             ""
+             2.8,
+             2.6,
+             2.4
             ],
             "sizeType": "rem",
             "fontHeight": [
@@ -458,7 +458,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "vues pour « Montée en puissance », le film le plus vu",
+            "content": "vues pour « Montée en puissance », le film le plus vu",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -535,9 +535,9 @@
             "content": "345 000",
             "htmlTag": "p",
             "fontSize": [
-             3.2,
-             "",
-             ""
+             2.8,
+             2.6,
+             2.4
             ],
             "sizeType": "rem",
             "fontHeight": [
@@ -562,7 +562,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "vues pour « Combats dans l'Adrar des Ifhôgas », mis en ligne le 2 mars 2013",
+            "content": "vues pour « Combats dans l'Adrar des Ifhôgas », mis en ligne le 2 mars 2013",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -639,9 +639,9 @@
             "content": "+ 1 000",
             "htmlTag": "p",
             "fontSize": [
-             3.2,
-             "",
-             ""
+             2.8,
+             2.6,
+             2.4
             ],
             "sizeType": "rem",
             "fontHeight": [
@@ -868,7 +868,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Images : EMA / ECPAD<br>Diffusion : ECPAD<br>Réalisation et montage : Pascal Dupont<br>Production : Studio Beta Prod 32<br>Musique : Mathieu Gauriat<br>Sans utilisation commerciale",
+            "content": "Images : EMA / ECPAD<br>Diffusion : ECPAD<br>Réalisation et montage : Pascal Dupont<br>Production : Studio Beta Prod 32<br>Musique : Mathieu Gauriat<br>Sans utilisation commerciale",
             "htmlTag": "p",
             "fontSize": [
              0.8,
@@ -1402,7 +1402,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "8 min",
+            "content": "8 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1535,7 +1535,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "2 min",
+            "content": "2 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1668,7 +1668,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "3 min",
+            "content": "3 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1801,7 +1801,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "2 min",
+            "content": "2 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1934,7 +1934,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "7 min",
+            "content": "7 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2067,7 +2067,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "6 min",
+            "content": "6 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2200,7 +2200,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "4 min",
+            "content": "4 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2333,7 +2333,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "3 min",
+            "content": "3 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2466,7 +2466,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "3 min",
+            "content": "3 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2599,7 +2599,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "4 min",
+            "content": "4 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2732,7 +2732,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "2 min",
+            "content": "2 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2865,7 +2865,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "1 min",
+            "content": "1 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2998,7 +2998,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "6 min",
+            "content": "6 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -3131,7 +3131,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "6 min",
+            "content": "6 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -3264,7 +3264,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "6 min",
+            "content": "6 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -3397,7 +3397,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "11 min",
+            "content": "11 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -3500,7 +3500,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Forces spéciales et 1er RCP à Tessalit",
+            "content": "Forces spéciales et 1er RCP à Tessalit",
             "level": 3,
             "typography": "Newsreader",
             "googleFont": false,
@@ -3530,7 +3530,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "3 min",
+            "content": "3 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -3663,7 +3663,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "13 min",
+            "content": "13 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -3983,7 +3983,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Caporal-chef Cédric Charenton, 1er RCP",
+            "content": "Caporal-chef Cédric Charenton, 1er RCP",
             "level": 3,
             "typography": "Newsreader",
             "googleFont": false,
@@ -4013,7 +4013,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "9 min",
+            "content": "9 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -4146,7 +4146,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "2 min",
+            "content": "2 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -4279,7 +4279,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "1 min",
+            "content": "1 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -4311,5 +4311,6 @@
     }
    ]
   }
- ]
+ ],
+ "excerpt": "Les images de l'armée française, sélectionnées et montées au rythme des opérations, diffusées dans la presse nationale et internationale."
 }

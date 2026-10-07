@@ -87,6 +87,7 @@ async function construire(fichier) {
     wp.data.dispatch('core/block-editor').resetBlocks(blocs);
     const modif = { title: spec.titre, slug: spec.slug, status: 'publish' };
     if (spec.meta) modif.meta = spec.meta;
+    if (spec.excerpt) modif.excerpt = spec.excerpt;
     if (spec.template !== undefined) modif.template = spec.template;
     wp.data.dispatch('core/editor').editPost(modif);
     return Array.from(manquants);

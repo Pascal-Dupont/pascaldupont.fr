@@ -207,20 +207,33 @@ function pd_creer_menu( $nom, $elements ) {
 		return 0;
 	}
 	foreach ( $elements as $element ) {
-		if ( empty( $element['page'] ) ) {
-			continue;
+		$classes = isset( $element['classes'] ) ? $element['classes'] : '';
+		if ( ! empty( $element['page'] ) ) {
+			wp_update_nav_menu_item(
+				$menu_id,
+				0,
+				array(
+					'menu-item-title'     => $element['titre'],
+					'menu-item-object'    => 'page',
+					'menu-item-object-id' => $element['page'],
+					'menu-item-type'      => 'post_type',
+					'menu-item-status'    => 'publish',
+					'menu-item-classes'   => $classes,
+				)
+			);
+		} elseif ( ! empty( $element['url'] ) ) {
+			wp_update_nav_menu_item(
+				$menu_id,
+				0,
+				array(
+					'menu-item-title'   => $element['titre'],
+					'menu-item-url'     => home_url( $element['url'] ),
+					'menu-item-type'    => 'custom',
+					'menu-item-status'  => 'publish',
+					'menu-item-classes' => $classes,
+				)
+			);
 		}
-		wp_update_nav_menu_item(
-			$menu_id,
-			0,
-			array(
-				'menu-item-title'     => $element['titre'],
-				'menu-item-object'    => 'page',
-				'menu-item-object-id' => $element['page'],
-				'menu-item-type'      => 'post_type',
-				'menu-item-status'    => 'publish',
-			)
-		);
 	}
 	return (int) $menu_id;
 }
@@ -259,8 +272,9 @@ function pd_installer_site() {
 			array( 'titre' => 'Films', 'page' => $p['films'] ),
 			array( 'titre' => 'Série Serval', 'page' => $p['serie-serval'] ),
 			array( 'titre' => 'À propos', 'page' => $p['a-propos'] ),
+			array( 'titre' => 'Prestations', 'url' => '/#prestations', 'classes' => 'pd-ancre' ),
 			array( 'titre' => 'LAKELAB', 'page' => $p['lakelab'] ),
-			array( 'titre' => 'Devis et contact', 'page' => $p['contact'] ),
+			array( 'titre' => 'Devis', 'page' => $p['contact'], 'classes' => 'pd-menu-devis' ),
 		)
 	);
 	$pied = pd_creer_menu(
@@ -304,5 +318,71 @@ add_action(
 			delete_transient( 'pd_avis' );
 			echo '<div class="notice notice-success is-dismissible"><p><strong>Pascal Dupont :</strong> la page d\'accueil, le titre du site et les menus sont réglés. Il reste à vérifier le site.</p></div>';
 		}
+	}
+);
+
+
+/* ------------------------------------------------------------------ */
+/* Référencement : description et aperçu de partage                    */
+/* ------------------------------------------------------------------ */
+
+// Chaque page peut porter un « extrait » (Réglages de la page) : il sert de description.
+add_action(
+	'init',
+	function () {
+		add_post_type_support( 'page', 'excerpt' );
+	}
+);
+
+add_action(
+	'wp_head',
+	function () {
+		if ( ! is_singular( 'page' ) ) {
+			return;
+		}
+		$description = trim( wp_strip_all_tags( get_post_field( 'post_excerpt', get_queried_object_id() ) ) );
+		if ( '' === $description ) {
+			return;
+		}
+		printf( '<meta name="description" content="%s">' . "\n", esc_attr( $description ) );
+		printf( '<meta property="og:type" content="website">' . "\n" );
+		printf( '<meta property="og:title" content="%s">' . "\n", esc_attr( wp_get_document_title() ) );
+		printf( '<meta property="og:description" content="%s">' . "\n", esc_attr( $description ) );
+		printf( '<meta property="og:url" content="%s">' . "\n", esc_url( get_permalink() ) );
+		printf( '<meta property="og:locale" content="fr_FR">' . "\n" );
+	},
+	2
+);
+
+/* ------------------------------------------------------------------ */
+/* Interface du thème en français (textes que Kadence laisse en anglais) */
+/* ------------------------------------------------------------------ */
+
+add_filter(
+	'gettext_kadence',
+	function ( $traduit, $texte ) {
+		static $fr = array(
+			'Skip to content' => 'Aller au contenu',
+			'Open menu'       => 'Ouvrir le menu',
+			'Close menu'      => 'Fermer le menu',
+			'Toggle Menu'     => 'Menu',
+			'Scroll to top'   => 'Revenir en haut',
+			'Primary'         => 'Menu principal',
+			'Footer'          => 'Pied de page',
+		);
+		return isset( $fr[ $texte ] ) ? $fr[ $texte ] : $traduit;
+	},
+	10,
+	2
+);
+
+// Un lien d'ancre vers l'accueil (Prestations) ne doit pas passer pour « page courante » sur l'accueil.
+add_filter(
+	'nav_menu_css_class',
+	function ( $classes ) {
+		if ( in_array( 'pd-ancre', $classes, true ) ) {
+			$classes = array_diff( $classes, array( 'current-menu-item', 'current_page_item', 'current-menu-ancestor', 'current-menu-parent', 'current_page_parent' ) );
+		}
+		return $classes;
 	}
 );

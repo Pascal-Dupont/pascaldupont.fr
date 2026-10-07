@@ -183,7 +183,7 @@
         "uniqueID": "pd-apropos-8-r",
         "kbVersion": 2,
         "columns": 2,
-        "colLayout": "left-forty",
+        "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
          0,
@@ -209,7 +209,9 @@
          0,
          32
         ],
-        "rowGutterType": "px"
+        "rowGutterType": "px",
+        "firstColumnWidth": 36,
+        "secondColumnWidth": 64
        },
        "innerBlocks": [
         {
@@ -300,7 +302,7 @@
           {
            "name": "core/paragraph",
            "attributes": {
-            "content": "Auteur-réalisateur documentaire depuis vingt ans. « Chroniques du 93 » pour France 4, « La nuit leur appartient » pour la centième d'Enquête d'action sur W9, le cycle mémoire du 1er Régiment de Chasseurs Parachutistes. Aujourd'hui, un 52 minutes sur le stress post-traumatique et sur ce que les blessés transmettent à des jeunes en rupture.",
+            "content": "Auteur-réalisateur documentaire depuis vingt ans. « Chroniques du 93 » pour France 4, « La nuit leur appartient » pour la centième d'Enquête d'action sur W9, le cycle mémoire du 1er Régiment de Chasseurs Parachutistes. Aujourd'hui, un 52 minutes sur le stress post-traumatique et sur ce que les blessés transmettent à des jeunes en rupture.",
             "style": {
              "typography": {
               "fontSize": "1.2rem",
@@ -321,7 +323,7 @@
           {
            "name": "core/paragraph",
            "attributes": {
-            "content": "Ancien combattant de l'infanterie parachutiste, officier de réserve opérationnelle au 1er RCP. C'est ce qui me permet de filmer là où la caméra est d'ordinaire tolérée plutôt qu'attendue : je connais le terrain, le vocabulaire, et le temps qu'il faut pour qu'un homme accepte de parler.",
+            "content": "Ancien combattant de l'infanterie parachutiste, officier de réserve opérationnelle au 1er RCP. C'est ce qui me permet de filmer là où la caméra est d'ordinaire tolérée plutôt qu'attendue : je connais le terrain, le vocabulaire, et le temps qu'il faut pour qu'un homme accepte de parler.",
             "style": {
              "typography": {
               "fontSize": "1.2rem",
@@ -363,7 +365,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "« Qui veut peut, et qui ose gagne. »",
+            "content": "« Qui veut peut, et qui ose gagne. »",
             "htmlTag": "p",
             "fontSize": [
              2,
@@ -435,10 +437,26 @@
             ],
             "gapUnit": "rem",
             "margin": [
-             8,
-             "",
-             0,
-             ""
+             {
+              "desk": [
+               8,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
             ],
             "marginUnit": "px"
            },
@@ -1029,5 +1047,6 @@
     }
    ]
   }
- ]
+ ],
+ "excerpt": "Auteur-réalisateur documentaire depuis vingt ans. Défense, mémoire combattante et transmission."
 }

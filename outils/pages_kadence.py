@@ -39,6 +39,27 @@ META_PAGE = {'_kad_post_layout': 'fullwidth', '_kad_post_content_style': 'unboxe
              '_kad_post_vertical_padding': 'hide', '_kad_post_title': 'hide', '_kad_post_feature': 'hide'}
 
 
+NBSP = '\u00a0'
+
+
+def fr(t):
+    """Typographie française : espaces insécables avant : ; ? ! », après «, entre un nombre et son unité, et dans « 1er RCP »."""
+    if not isinstance(t, str):
+        return t
+    morceaux = re.split(r'(<[^>]*>)', t)
+    sortie = []
+    for m in morceaux:
+        if m.startswith('<'):
+            sortie.append(m)
+            continue
+        m = re.sub(r' ([:;?!»])', NBSP + r'\1', m)
+        m = re.sub(r'« ', '«' + NBSP, m)
+        m = re.sub(r'(\d) (?=(?:min|minutes|h|ans|jours|films|millions|vues)\b)', r'\1' + NBSP, m)
+        m = re.sub(r'\b1er (?=RCP)', '1er' + NBSP, m)
+        sortie.append(m)
+    return ''.join(sortie)
+
+
 class Page:
     """Fabrique de blocs pour une page : numérote les uniqueID."""
 
@@ -91,13 +112,13 @@ class Page:
 
     def surtitre(self, texte, couleur=SABLE, marge_bas=16):
         return {'name': 'kadence/advancedheading', 'attributes': {
-            'content': texte, 'htmlTag': 'p', 'typography': MONO, 'googleFont': False, 'fontWeight': '500',
+            'content': fr(texte), 'htmlTag': 'p', 'typography': MONO, 'googleFont': False, 'fontWeight': '500',
             'fontSize': [0.75, '', ''], 'sizeType': 'rem', 'fontHeight': [1.5, '', ''], 'fontHeightType': '',
             'letterSpacing': 0.14, 'letterSpacingType': 'em', 'textTransform': 'uppercase',
             'color': couleur, 'margin': [0, '', marge_bas, ''], 'marginType': 'px'}}
 
     def titre(self, texte, niveau=2, taille=(3.2, 2.6, 2.1), couleur=TEXTE, marge_bas=20, accent=None, largeur=None, interligne=1.1, lien=None):
-        a = {'content': texte, 'level': niveau, 'typography': SERIF, 'googleFont': False, 'fontWeight': '400',
+        a = {'content': fr(texte), 'level': niveau, 'typography': SERIF, 'googleFont': False, 'fontWeight': '400',
              'fontSize': list(taille), 'sizeType': 'rem', 'fontHeight': [interligne, '', ''], 'fontHeightType': '',
              'color': couleur, 'margin': [0, '', marge_bas, ''], 'marginType': 'px'}
         if accent:
@@ -109,9 +130,9 @@ class Page:
         return {'name': 'kadence/advancedheading', 'attributes': a}
 
     def ligne(self, texte, taille=1.1, couleur=DOUX, marge_bas=16, largeur=None, police=None, italique=False, interligne=1.6,
-              liens=None, graisse=None):
+              liens=None, graisse=None, classe=None):
         """Texte court stylé (advancedheading en <p>) : accroches, lignes de liens."""
-        a = {'content': texte, 'htmlTag': 'p', 'fontSize': [taille, '', ''], 'sizeType': 'rem',
+        a = {'content': fr(texte), 'htmlTag': 'p', 'fontSize': list(taille) if isinstance(taille, tuple) else [taille, '', ''], 'sizeType': 'rem',
              'fontHeight': [interligne, '', ''], 'fontHeightType': '', 'color': couleur, 'margin': [0, '', marge_bas, ''], 'marginType': 'px'}
         if police:
             a.update({'typography': police, 'googleFont': False, 'fontWeight': graisse or '400'})
@@ -123,13 +144,15 @@ class Page:
             a.update({'maxWidth': [largeur, '', ''], 'maxWidthType': 'px'})
         if liens:
             a.update({'linkColor': liens[0], 'linkHoverColor': liens[1], 'linkStyle': 'underline'})
+        if classe:
+            a['className'] = classe
         return {'name': 'kadence/advancedheading', 'attributes': a}
 
     def paragraphe(self, texte, couleur=None, taille='1.0625rem', marge_bas='1.1rem', classe=None):
         style = {'typography': {'fontSize': taille, 'lineHeight': '1.65'}, 'spacing': {'margin': {'top': '0', 'bottom': marge_bas}}}
         if couleur:
             style['color'] = {'text': HEX.get(couleur, couleur)}
-        a = {'content': texte, 'style': style}
+        a = {'content': fr(texte), 'style': style}
         if classe:
             a['className'] = classe
         return {'name': 'core/paragraph', 'attributes': a}
@@ -146,7 +169,7 @@ class Page:
         typo = [{'size': [0.85 if petit else 0.95, '', ''], 'sizeType': 'rem', 'lineHeight': [1.2, '', ''], 'lineType': '',
                  'letterSpacing': [0.04, '', ''], 'letterType': 'em', 'textTransform': '', 'family': '', 'google': False,
                  'style': '', 'weight': '500', 'variant': '', 'subset': '', 'loadGoogle': False}]
-        a = {'uniqueID': self.uid('b'), 'text': texte, 'link': url, 'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px',
+        a = {'uniqueID': self.uid('b'), 'text': fr(texte), 'link': url, 'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px',
              'padding': [0.5, 1, 0.5, 1] if petit else [0.9, 1.5, 0.9, 1.5], 'paddingUnit': 'rem', 'typography': typo}
         if style == 'plein':
             a.update({'color': IVOIRE, 'background': BERET, 'colorHover': IVOIRE, 'backgroundHover': BERET_VIF,
@@ -161,10 +184,10 @@ class Page:
             a['target'] = '_blank'
         return {'name': 'kadence/singlebtn', 'attributes': a}
 
-    def boutons(self, liste, marge_haut=8, petit=False):
+    def boutons(self, liste, marge_haut=8, petit=False, **extra):
         return {'name': 'kadence/advancedbtn', 'attributes': {
             'uniqueID': self.uid('g'), 'hAlign': 'left', 'gap': [0.9 if not petit else 0.5, '', ''], 'gapUnit': 'rem',
-            'margin': [marge_haut, '', 0, ''], 'marginUnit': 'px'},
+            'margin': [{'desk': [marge_haut, '', 0, ''], 'tablet': ['', '', '', ''], 'mobile': ['', '', '', '']}], 'marginUnit': 'px', **extra},
             'innerBlocks': [self.bouton(b['texte'], b['url'], b.get('style', 'plein'), petit) for b in liste]}
 
     # ------------------------------------------------------------ éléments composés
@@ -226,9 +249,11 @@ class Page:
                 'contentPosition': 'bottom left', 'minHeight': 120, 'minHeightUnit': 'px',
                 'style': {'dimensions': {'aspectRatio': '16/9'}, 'border': {'radius': '2px'}, 'spacing': {'margin': {'bottom': '14px'}, 'padding': {'top': '12px', 'right': '14px', 'bottom': '12px', 'left': '14px'}}},
                 'className': 'pd-vignette-vide'},
-                'innerBlocks': [self.ligne(etiquette or f.get('etiquette') or 'Film', 0.7, TEXTE, 0, police=MONO, graisse='500')]})
+                'innerBlocks': []})
         if date:
             enfants.append(self.surtitre(date, marge_bas=6))
+        elif etiquette or f.get('etiquette'):
+            enfants.append(self.surtitre(etiquette or f.get('etiquette'), marge_bas=6))
         lien_titre = liens[0]['url'] if (liens and not yt) else None
         enfants.append(self.titre(f['titre'], 3, taille=(1.35, 1.3, 1.25), marge_bas=6, interligne=1.2, lien=lien_titre))
         desc = ' · '.join(x for x in [f.get('description', ''), self.duree(f.get('duree', ''))] if x)
@@ -249,7 +274,7 @@ class Page:
         cols = []
         for c in liste:
             cols.append(self.colonne([
-                self.ligne(c['valeur'], 3.2, TEXTE, 10, police=SERIF, interligne=1),
+                self.ligne(c['valeur'], (2.8, 2.6, 2.4), TEXTE, 10, police=SERIF, interligne=1),
                 self.ligne(c['texte'], 0.92, DOUX, 0, interligne=1.5),
             ], borderStyle=[{'top': [HEX[SABLE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}],
                 padding=[16, 0, 0, 0], paddingType='px'))
@@ -267,7 +292,7 @@ class Page:
             rangs.append(self.rangee([
                 self.colonne([self.titre(l['titre'], 3, taille=(1.6, 1.45, 1.3), couleur=ENCRE if clair else TEXTE, marge_bas=0, interligne=1.2)]),
                 self.colonne([self.ligne(l['texte'], 1.0625, ENCRE_DOUX if clair else DOUX, 0, interligne=1.6)]),
-            ], layout='left-forty', mobile='row', gouttiere=[48, 32, 8], gouttiere_v=[8, 8, 8], borderStyle=[bord],
+            ], layout='equal', firstColumnWidth=40, secondColumnWidth=60, mobile='row', gouttiere=[48, 32, 8], gouttiere_v=[8, 8, 8], borderStyle=[bord],
                 padding=[24, 0, 24, 0], paddingUnit='px'))
         return rangs
 
@@ -298,7 +323,7 @@ def page_accueil():
         P.titre(h['titre'] + '<mark class="kt-highlight">' + h['titre_accent'] + '</mark>' + h['titre_fin'], 1, taille=(5.4, 4, 2.7),
                 accent=SABLE, largeur=880, interligne=1.05, marge_bas=28),
         P.ligne(h['texte'], 1.15, DOUX, 0, largeur=608),
-        P.boutons(h['boutons'], marge_haut=36),
+        P.boutons(h['boutons'], marge_haut=36, orientation=['', '', 'column']),
     ], padding=(120, 96, 72), padding_bas=(200, 168, 136), classe='pd-hero',
         fond_attr={'backgroundSettingTab': 'gradient', 'gradient': 'linear-gradient(180deg,#131c25 0%,#1b2733 55%,#2a3846 100%)'})
 
@@ -317,30 +342,30 @@ def page_accueil():
         elif u['id'] == 'JEB':
             f = dict(fid['RCP4'])
             f['description'] = u['description']
-            cartes.append(P.carte(f))
+            cartes.append(P.carte(f, etiquette=u['etiquette']))
         else:
             f = dict(fid.get(u['id'], {}))
             f.update({'id': u['id'], 'titre': u['titre'], 'description': u['description'], 'duree': u['duree']})
             if u['id'] == 'uF7zqXfUsjc':  # Everrard : vignette YouTube à la une
                 f.pop('liens', None)
-            cartes.append(P.carte(f))
+            cartes.append(P.carte(f, etiquette=u['etiquette']))
     a_la_une = P.section(P.entete_section(une['surtitre'], une['titre'], une['texte']) + [P.grille(cartes, 3), P.boutons([une['bouton']], marge_haut=40)],
-                         ancre='a-la-une')
+                         ancre='a-la-une', padding=(40, 32, 24), padding_bas=(96, 72, 56))
 
     r = c['revivre']
     moitie = len(r['paragraphes']) // 2
     revivre = P.section([
         P.surtitre(r['surtitre']),
         P.titre(r['titre'], 2, taille=(3.2, 2.6, 2.1), marge_bas=16),
-        P.ligne(r['question'], 1.9, TEXTE, 32, police=SERIF, italique=True, largeur=640, interligne=1.25),
+        P.ligne(r['question'], (1.9, 1.7, 1.45), TEXTE, 32, police=SERIF, italique=True, largeur=640, interligne=1.25, classe='pd-equilibre'),
         P.rangee([P.colonne([P.paragraphe(t, DOUX) for t in r['paragraphes'][:moitie]]),
                   P.colonne([P.paragraphe(t, DOUX) for t in r['paragraphes'][moitie:]])], gouttiere=[40, 32, 0], gouttiere_v=[0, 0, 0]),
     ], fond=ARDOISE, ancre='revivre',
         bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
 
     ref = c['references']
-    noms = P.rangee([P.colonne([P.ligne(n, 2, TEXTE, 0, police=SERIF, interligne=1.2)]) for n in ref['noms']],
-                    gouttiere=[48, 32, 16], gouttiere_v=[16, 16, 12], layout='equal', mobile='row')
+    noms = {'name': 'core/list', 'attributes': {'className': 'pd-noms'},
+            'innerBlocks': [{'name': 'core/list-item', 'attributes': {'content': n}} for n in ref['noms']]}
     references = P.section(P.entete_section(ref['surtitre'], ref['titre'], marge_bas=32) + [noms], padding=(80, 64, 48))
 
     pr = c['prestations']
@@ -349,16 +374,20 @@ def page_accueil():
                             fond=IVOIRE, texte=ENCRE, ancre='prestations')
 
     lk = c['lakelab']
-    lakelab_films = [P.carte(fid[i]) for i in ['iJQCmkrEMuU', '6FrZTiHyWsk']]
+    reseaux_lk = [{'texte': r['reseau'], 'url': r['url'], 'style': 'contour'} for r in SITE['identite']['reseaux_lakelab']]
     lakelab = P.section([P.rangee([
         P.colonne([P.surtitre(lk['surtitre']), P.titre(lk['titre'], 2, marge_bas=16), P.ligne(lk['texte'], 1.0625, DOUX, 0, largeur=544),
-                   P.boutons([lk['bouton']], marge_haut=28)]),
-        P.colonne([P.rangee(lakelab_films, layout='equal', mobile='row', gouttiere=[20, 20, 16], gouttiere_v=[28, 28, 24])]),
-    ], layout='equal', gouttiere=[48, 40, 0], gouttiere_v=[0, 0, 40], verticalAlignment='middle')], fond=ARDOISE, ancre='lakelab',
+                   P.boutons([lk['bouton']] + reseaux_lk, marge_haut=28, petit=True)]),
+        P.colonne([P.carte(fid['6FrZTiHyWsk'], etiquette='LAKELAB')]),
+    ], layout='equal', tabletLayout='row', gouttiere=[48, 40, 0], gouttiere_v=[0, 24, 40], verticalAlignment='middle')], fond=ARDOISE, ancre='lakelab',
         bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
 
     ct = c['contact']
-    contact = P.section(P.entete_section(ct['surtitre'], ct['titre'], ct['texte'], marge_bas=8) + [P.boutons([ct['bouton']], marge_haut=24)])
+    ident = SITE['identite']
+    contact = P.section([P.rangee([
+        P.colonne(P.entete_section(ct['surtitre'], ct['titre'], ct['texte'], marge_bas=8) + [P.boutons([ct['bouton']], marge_haut=32)]),
+        P.colonne(P.coordonnee('Téléphone', ident['telephone']) + P.coordonnee('E-mail', ident['email'])),
+    ], layout='equal', gouttiere=[56, 40, 0], gouttiere_v=[0, 0, 32])])
     return c['titre'], [hero, a_la_une, revivre, references, prestations, lakelab, contact]
 
 
@@ -434,7 +463,7 @@ def page_apropos():
     citation['attributes'].update({'borderStyle': [{'top': ['', '', ''], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': [HEX[BERET_VIF], 'solid', 2], 'unit': 'px'}],
                                    'padding': [0, 0, 0, 20], 'paddingType': 'px', 'margin': [16, '', 32, ''], 'marginType': 'px'})
     bloc = P.section([P.rangee([P.colonne([portrait]), P.colonne(texte + [citation, P.boutons(c['boutons'])])],
-                               layout='left-forty', gouttiere=[56, 40, 0], gouttiere_v=[0, 0, 32])], padding=(24, 16, 8))
+                               layout='equal', firstColumnWidth=36, secondColumnWidth=64, gouttiere=[56, 40, 0], gouttiere_v=[0, 0, 32])], padding=(24, 16, 8))
     rep, lu = c['reperes'], c['lucile']
     lucile_p = [P.paragraphe(lu['paragraphes'][0], DOUX),
                 P.paragraphe(lu['paragraphes'][1].replace('LAKELAB', '<a href="%s">%s</a>' % (lu['lien']['url'], lu['lien']['texte']), 1), DOUX)]
@@ -533,6 +562,8 @@ def ecrire_specs():
         meta = dict(META_PAGE)
         meta['_pd_page'] = slug
         spec = {'titre': titre, 'slug': slug, 'meta': meta, 'blocs': blocs}
+        if slug in SITE.get('descriptions', {}):
+            spec['excerpt'] = SITE['descriptions'][slug]
         (SPECS / (slug + '.json')).write_text(json.dumps(spec, ensure_ascii=False, indent=1), encoding='utf-8')
     return list(PAGES)
 

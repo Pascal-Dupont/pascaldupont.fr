@@ -129,7 +129,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général.",
+        "content": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général.",
         "htmlTag": "p",
         "fontSize": [
          1.15,
@@ -279,10 +279,26 @@
         ],
         "gapUnit": "rem",
         "margin": [
-         24,
-         "",
-         0,
-         ""
+         {
+          "desk": [
+           24,
+           "",
+           0,
+           ""
+          ],
+          "tablet": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "mobile": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         }
         ],
         "marginUnit": "px"
        },
@@ -728,7 +744,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Premier film LAKELAB · 3 min",
+            "content": "Premier film LAKELAB · 3 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -828,7 +844,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "LAKELAB · 4 min",
+            "content": "LAKELAB · 4 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -874,5 +890,6 @@
     }
    ]
   }
- ]
+ ],
+ "excerpt": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général."
 }

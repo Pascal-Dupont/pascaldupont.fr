@@ -365,7 +365,7 @@
           {
            "name": "core/paragraph",
            "attributes": {
-            "content": "Ce site n'utilise ni statistiques ni publicité, et ne dépose pas de cookie de suivi. Les vignettes des films sont chargées depuis les serveurs de YouTube (Google) : votre adresse IP leur est alors transmise. Les liens vers YouTube, Instagram, Facebook et X ouvrent ces services, qui appliquent leurs propres règles.",
+            "content": "Ce site n'utilise ni statistiques ni publicité, et ne dépose pas de cookie de suivi. Les vignettes des films sont chargées depuis les serveurs de YouTube (Google) : votre adresse IP leur est alors transmise. Les liens vers YouTube, Instagram, Facebook et X ouvrent ces services, qui appliquent leurs propres règles.",
             "style": {
              "typography": {
               "fontSize": "1.0625rem",

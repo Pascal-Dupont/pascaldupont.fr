@@ -107,7 +107,7 @@
     "lignes": [
      {
       "titre": "Films institutionnels et documentaires",
-      "texte": "Du repérage à la livraison. Références : 1er RCP, Europorte. Un récit sobre, fidèle à ceux que l'on filme."
+      "texte": "Du repérage à la livraison. <strong>Références : 1er RCP, Europorte.</strong> Un récit sobre, fidèle à ceux que l'on filme."
      },
      {
       "titre": "Portraits filmés",
@@ -142,7 +142,7 @@
    "lakelab": {
     "surtitre": "Recherches esthétiques",
     "titre": "LAKELAB",
-    "texte": "Un fablab au bord du lac. Avec Lucile, nous y menons nos recherches : photographie, cinéma, musique, culture. Elles sont publiées au fil de l'eau sur Instagram et Facebook.",
+    "texte": "Un FabLab au bord du lac. Avec Lucile, nous y menons nos recherches : photographie, cinéma, musique, culture. Elles sont publiées au fil de l'eau sur Instagram et Facebook.",
     "bouton": {
      "texte": "Découvrir LAKELAB",
      "url": "/lakelab/",
@@ -158,7 +158,34 @@
      "url": "/contact/",
      "style": "plein"
     }
-   }
+   },
+   "menu": [
+    {
+     "titre": "Films",
+     "url": "/films/"
+    },
+    {
+     "titre": "Série Serval",
+     "url": "/serie-serval/"
+    },
+    {
+     "titre": "À propos",
+     "url": "/a-propos/"
+    },
+    {
+     "titre": "Prestations",
+     "url": "/#prestations"
+    },
+    {
+     "titre": "LAKELAB",
+     "url": "/lakelab/"
+    },
+    {
+     "titre": "Devis",
+     "url": "/contact/",
+     "classe": "pd-menu-devis"
+    }
+   ]
   },
   "films": {
    "titre": "Films",
@@ -1145,7 +1172,7 @@
    {
     "id": "c4xGjV6-sNg",
     "titre": "Chroniques du 93",
-    "description": "Documentaire · 2010",
+    "description": "2010",
     "duree": "52:21",
     "etiquette": "Documentaire",
     "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg"
@@ -1342,5 +1369,14 @@
     "youtube": "https://www.youtube.com/watch?v=yqJ7XW-rdTw"
    }
   ]
+ },
+ "descriptions": {
+  "accueil": "Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.",
+  "films": "Documentaires pour la télévision, portraits de témoins, films de mémoire, reportages, films pour entreprises et clips. Chaque vignette ouvre le film.",
+  "serie-serval": "Les images de l'armée française, sélectionnées et montées au rythme des opérations, diffusées dans la presse nationale et internationale.",
+  "a-propos": "Auteur-réalisateur documentaire depuis vingt ans. Défense, mémoire combattante et transmission.",
+  "defense-et-securite": "Ancien combattant de l'infanterie parachutiste et officier de réserve, je connais le terrain, le vocabulaire et les contraintes de la communication de défense. Je réalise des films pour des régiments, des industriels et des salons.",
+  "lakelab": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général.",
+  "contact": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement."
  }
 }

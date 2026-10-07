@@ -176,12 +176,33 @@
         ],
         "gapUnit": "rem",
         "margin": [
-         36,
-         "",
-         0,
-         ""
+         {
+          "desk": [
+           36,
+           "",
+           0,
+           ""
+          ],
+          "tablet": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "mobile": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         }
         ],
-        "marginUnit": "px"
+        "marginUnit": "px",
+        "orientation": [
+         "",
+         "",
+         "column"
+        ]
        },
        "innerBlocks": [
         {
@@ -523,19 +544,19 @@
     "bgColor": "palette9",
     "textColor": "palette3",
     "padding": [
-     96,
+     40,
      "",
      96,
      ""
     ],
     "tabletPadding": [
-     72,
+     32,
      "",
      72,
      ""
     ],
     "mobilePadding": [
-     56,
+     24,
      "",
      56,
      ""
@@ -625,7 +646,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Documentaires pour la télévision, portraits de témoins, films de mémoire pour le 1er RCP, et une série de reportages vus plus de deux millions de fois.",
+        "content": "Documentaires pour la télévision, portraits de témoins, films de mémoire pour le 1er RCP, et une série de reportages vus plus de deux millions de fois.",
         "htmlTag": "p",
         "fontSize": [
          1.0625,
@@ -742,6 +763,39 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
+            "content": "Documentaire",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
             "content": "Chroniques du 93",
             "level": 3,
             "typography": "Newsreader",
@@ -772,7 +826,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Documentaire · 2010 · 52 min",
+            "content": "2010 · 52 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -842,6 +896,39 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
+            "content": "Portrait",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
             "content": "Capitaine Raymond Locci",
             "level": 3,
             "typography": "Newsreader",
@@ -872,7 +959,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Vosges 1943, Indochine 1946 · 1 h 36",
+            "content": "Vosges 1943, Indochine 1946 · 1 h 36",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -942,6 +1029,39 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
+            "content": "Portrait",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
             "content": "Commandant Everrard",
             "level": 3,
             "typography": "Newsreader",
@@ -972,7 +1092,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Indochine 1946, 1er RCP · 34 min",
+            "content": "Indochine 1946, 1er RCP · 34 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1043,38 +1163,40 @@
             },
             "className": "pd-vignette-vide"
            },
-           "innerBlocks": [
-            {
-             "name": "kadence/advancedheading",
-             "attributes": {
-              "content": "Série",
-              "htmlTag": "p",
-              "fontSize": [
-               0.7,
-               "",
-               ""
-              ],
-              "sizeType": "rem",
-              "fontHeight": [
-               1.6,
-               "",
-               ""
-              ],
-              "fontHeightType": "",
-              "color": "palette3",
-              "margin": [
-               0,
-               "",
-               0,
-               ""
-              ],
-              "marginType": "px",
-              "typography": "IBM Plex Mono",
-              "googleFont": false,
-              "fontWeight": "500"
-             }
-            }
-           ]
+           "innerBlocks": []
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Série",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -1114,7 +1236,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Mali 2013 · plus de 2 millions de vues",
+            "content": "Mali 2013 · plus de 2 millions de vues",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1215,43 +1337,45 @@
             },
             "className": "pd-vignette-vide"
            },
-           "innerBlocks": [
-            {
-             "name": "kadence/advancedheading",
-             "attributes": {
-              "content": "Mémoire",
-              "htmlTag": "p",
-              "fontSize": [
-               0.7,
-               "",
-               ""
-              ],
-              "sizeType": "rem",
-              "fontHeight": [
-               1.6,
-               "",
-               ""
-              ],
-              "fontHeightType": "",
-              "color": "palette3",
-              "margin": [
-               0,
-               "",
-               0,
-               ""
-              ],
-              "marginType": "px",
-              "typography": "IBM Plex Mono",
-              "googleFont": false,
-              "fontWeight": "500"
-             }
-            }
-           ]
+           "innerBlocks": []
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Les 80 ans de Jebsheim",
+            "content": "Mémoire",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Les 80 ans de Jebsheim",
             "level": 3,
             "typography": "Newsreader",
             "googleFont": false,
@@ -1286,7 +1410,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Le 1er RCP et la libération de l'Alsace",
+            "content": "Le 1er RCP et la libération de l'Alsace",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1313,7 +1437,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DS0Fuk-DXkT/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1HsNqid6yr/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2005313606834077905\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
+            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DS0Fuk-DXkT/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1HsNqid6yr/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2005313606834077905\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
             "htmlTag": "p",
             "fontSize": [
              0.85,
@@ -1386,6 +1510,39 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
+            "content": "Film",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
             "content": "État d'urgence",
             "level": 3,
             "typography": "Newsreader",
@@ -1416,7 +1573,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Premier film LAKELAB · 3 min",
+            "content": "Premier film LAKELAB · 3 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1456,10 +1613,26 @@
         ],
         "gapUnit": "rem",
         "margin": [
-         40,
-         "",
-         0,
-         ""
+         {
+          "desk": [
+           40,
+           "",
+           0,
+           ""
+          ],
+          "tablet": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "mobile": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         }
         ],
         "marginUnit": "px"
        },
@@ -1653,7 +1826,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "En développement · Documentaire, 52 minutes",
+        "content": "En développement · Documentaire, 52 minutes",
         "htmlTag": "p",
         "typography": "IBM Plex Mono",
         "googleFont": false,
@@ -1716,12 +1889,12 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Que devient-on quand on ne peut plus être celui qu'on était ?",
+        "content": "Que devient-on quand on ne peut plus être celui qu'on était ?",
         "htmlTag": "p",
         "fontSize": [
          1.9,
-         "",
-         ""
+         1.7,
+         1.45
         ],
         "sizeType": "rem",
         "fontHeight": [
@@ -1747,7 +1920,8 @@
          "",
          ""
         ],
-        "maxWidthType": "px"
+        "maxWidthType": "px",
+        "className": "pd-equilibre"
        }
       },
       {
@@ -1801,7 +1975,7 @@
           {
            "name": "core/paragraph",
            "attributes": {
-            "content": "Militaires, gendarmes, policiers, pompiers, soignants : ceux qui servent portent parfois des blessures qui ne se voient pas. Le stress post-traumatique touche bien plus de monde qu'on ne le croit, et il se vit souvent en silence.",
+            "content": "Militaires, gendarmes, policiers, pompiers, soignants : ceux qui servent portent parfois des blessures qui ne se voient pas. Le stress post-traumatique touche bien plus de monde qu'on ne le croit, et il se vit souvent en silence.",
             "style": {
              "typography": {
               "fontSize": "1.0625rem",
@@ -1858,7 +2032,7 @@
           {
            "name": "core/paragraph",
            "attributes": {
-            "content": "Le dernier mouvement du film est tourné vers la transmission : ce que ceux qui se sont relevés donnent à des jeunes en rupture, et ce que cela dit du lien entre l'Armée et la Nation.",
+            "content": "Le dernier mouvement du film est tourné vers la transmission : ce que ceux qui se sont relevés donnent à des jeunes en rupture, et ce que cela dit du lien entre l'Armée et la Nation.",
             "style": {
              "typography": {
               "fontSize": "1.0625rem",
@@ -1908,7 +2082,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-27-s",
+    "uniqueID": "pd-accueil-23-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -1942,7 +2116,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-28-c",
+      "uniqueID": "pd-accueil-24-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -2016,174 +2190,28 @@
        }
       },
       {
-       "name": "kadence/rowlayout",
+       "name": "core/list",
        "attributes": {
-        "uniqueID": "pd-accueil-26-r",
-        "kbVersion": 2,
-        "columns": 3,
-        "colLayout": "equal",
-        "mobileLayout": "row",
-        "padding": [
-         0,
-         0,
-         0,
-         0
-        ],
-        "paddingUnit": "px",
-        "columnGutter": "custom",
-        "tabletGutter": "custom",
-        "mobileGutter": "custom",
-        "customGutter": [
-         48,
-         32,
-         16
-        ],
-        "gutterType": "px",
-        "collapseGutter": "custom",
-        "tabletRowGutter": "custom",
-        "mobileRowGutter": "custom",
-        "customRowGutter": [
-         16,
-         16,
-         12
-        ],
-        "rowGutterType": "px"
+        "className": "pd-noms"
        },
        "innerBlocks": [
         {
-         "name": "kadence/column",
+         "name": "core/list-item",
          "attributes": {
-          "uniqueID": "pd-accueil-23-c",
-          "kbVersion": 2,
-          "borderWidth": [
-           "",
-           "",
-           "",
-           ""
-          ]
-         },
-         "innerBlocks": [
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "Fondation Résilience",
-            "htmlTag": "p",
-            "fontSize": [
-             2,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.2,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "color": "palette3",
-            "margin": [
-             0,
-             "",
-             0,
-             ""
-            ],
-            "marginType": "px",
-            "typography": "Newsreader",
-            "googleFont": false,
-            "fontWeight": "400"
-           }
-          }
-         ]
+          "content": "Fondation Résilience"
+         }
         },
         {
-         "name": "kadence/column",
+         "name": "core/list-item",
          "attributes": {
-          "uniqueID": "pd-accueil-24-c",
-          "kbVersion": 2,
-          "borderWidth": [
-           "",
-           "",
-           "",
-           ""
-          ]
-         },
-         "innerBlocks": [
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "FA3R",
-            "htmlTag": "p",
-            "fontSize": [
-             2,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.2,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "color": "palette3",
-            "margin": [
-             0,
-             "",
-             0,
-             ""
-            ],
-            "marginType": "px",
-            "typography": "Newsreader",
-            "googleFont": false,
-            "fontWeight": "400"
-           }
-          }
-         ]
+          "content": "FA3R"
+         }
         },
         {
-         "name": "kadence/column",
+         "name": "core/list-item",
          "attributes": {
-          "uniqueID": "pd-accueil-25-c",
-          "kbVersion": 2,
-          "borderWidth": [
-           "",
-           "",
-           "",
-           ""
-          ]
-         },
-         "innerBlocks": [
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "TDA Armements",
-            "htmlTag": "p",
-            "fontSize": [
-             2,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.2,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "color": "palette3",
-            "margin": [
-             0,
-             "",
-             0,
-             ""
-            ],
-            "marginType": "px",
-            "typography": "Newsreader",
-            "googleFont": false,
-            "fontWeight": "400"
-           }
-          }
-         ]
+          "content": "TDA Armements"
+         }
         }
        ]
       }
@@ -2194,7 +2222,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-47-s",
+    "uniqueID": "pd-accueil-43-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -2229,7 +2257,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-48-c",
+      "uniqueID": "pd-accueil-44-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -2338,10 +2366,10 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-31-r",
+        "uniqueID": "pd-accueil-27-r",
         "kbVersion": 2,
         "columns": 2,
-        "colLayout": "left-forty",
+        "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
          24,
@@ -2368,6 +2396,8 @@
          8
         ],
         "rowGutterType": "px",
+        "firstColumnWidth": 40,
+        "secondColumnWidth": 60,
         "borderStyle": [
          {
           "top": [
@@ -2398,7 +2428,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-29-c",
+          "uniqueID": "pd-accueil-25-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2443,7 +2473,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-30-c",
+          "uniqueID": "pd-accueil-26-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2456,7 +2486,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Du repérage à la livraison. Références : 1er RCP, Europorte. Un récit sobre, fidèle à ceux que l'on filme.",
+            "content": "Du repérage à la livraison. <strong>Références : 1er RCP, Europorte.</strong> Un récit sobre, fidèle à ceux que l'on filme.",
             "htmlTag": "p",
             "fontSize": [
              1.0625,
@@ -2487,10 +2517,10 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-34-r",
+        "uniqueID": "pd-accueil-30-r",
         "kbVersion": 2,
         "columns": 2,
-        "colLayout": "left-forty",
+        "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
          24,
@@ -2517,6 +2547,8 @@
          8
         ],
         "rowGutterType": "px",
+        "firstColumnWidth": 40,
+        "secondColumnWidth": 60,
         "borderStyle": [
          {
           "top": [
@@ -2547,7 +2579,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-32-c",
+          "uniqueID": "pd-accueil-28-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2592,7 +2624,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-33-c",
+          "uniqueID": "pd-accueil-29-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2636,10 +2668,10 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-37-r",
+        "uniqueID": "pd-accueil-33-r",
         "kbVersion": 2,
         "columns": 2,
-        "colLayout": "left-forty",
+        "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
          24,
@@ -2666,6 +2698,8 @@
          8
         ],
         "rowGutterType": "px",
+        "firstColumnWidth": 40,
+        "secondColumnWidth": 60,
         "borderStyle": [
          {
           "top": [
@@ -2696,7 +2730,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-35-c",
+          "uniqueID": "pd-accueil-31-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2741,7 +2775,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-36-c",
+          "uniqueID": "pd-accueil-32-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2754,7 +2788,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Salons, journées portes ouvertes, cérémonies, exercices : tourner sur le vif et monter vite.",
+            "content": "Salons, journées portes ouvertes, cérémonies, exercices : tourner sur le vif et monter vite.",
             "htmlTag": "p",
             "fontSize": [
              1.0625,
@@ -2785,10 +2819,10 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-40-r",
+        "uniqueID": "pd-accueil-36-r",
         "kbVersion": 2,
         "columns": 2,
-        "colLayout": "left-forty",
+        "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
          24,
@@ -2815,6 +2849,8 @@
          8
         ],
         "rowGutterType": "px",
+        "firstColumnWidth": 40,
+        "secondColumnWidth": 60,
         "borderStyle": [
          {
           "top": [
@@ -2845,7 +2881,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-38-c",
+          "uniqueID": "pd-accueil-34-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2890,7 +2926,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-39-c",
+          "uniqueID": "pd-accueil-35-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2934,10 +2970,10 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-43-r",
+        "uniqueID": "pd-accueil-39-r",
         "kbVersion": 2,
         "columns": 2,
-        "colLayout": "left-forty",
+        "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
          24,
@@ -2964,6 +3000,8 @@
          8
         ],
         "rowGutterType": "px",
+        "firstColumnWidth": 40,
+        "secondColumnWidth": 60,
         "borderStyle": [
          {
           "top": [
@@ -2994,7 +3032,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-41-c",
+          "uniqueID": "pd-accueil-37-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3039,7 +3077,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-42-c",
+          "uniqueID": "pd-accueil-38-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3083,7 +3121,7 @@
       {
        "name": "kadence/advancedbtn",
        "attributes": {
-        "uniqueID": "pd-accueil-44-g",
+        "uniqueID": "pd-accueil-40-g",
         "hAlign": "left",
         "gap": [
          0.9,
@@ -3092,10 +3130,26 @@
         ],
         "gapUnit": "rem",
         "margin": [
-         40,
-         "",
-         0,
-         ""
+         {
+          "desk": [
+           40,
+           "",
+           0,
+           ""
+          ],
+          "tablet": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "mobile": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         }
         ],
         "marginUnit": "px"
        },
@@ -3103,7 +3157,7 @@
         {
          "name": "kadence/singlebtn",
          "attributes": {
-          "uniqueID": "pd-accueil-45-b",
+          "uniqueID": "pd-accueil-41-b",
           "text": "Demander un devis",
           "link": "/contact/",
           "borderRadius": [
@@ -3209,7 +3263,7 @@
         {
          "name": "kadence/singlebtn",
          "attributes": {
-          "uniqueID": "pd-accueil-46-b",
+          "uniqueID": "pd-accueil-42-b",
           "text": "Défense et sécurité",
           "link": "/defense-et-securite/",
           "borderRadius": [
@@ -3322,7 +3376,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-57-s",
+    "uniqueID": "pd-accueil-53-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -3382,7 +3436,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-58-c",
+      "uniqueID": "pd-accueil-54-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -3395,7 +3449,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-56-r",
+        "uniqueID": "pd-accueil-52-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -3421,17 +3475,18 @@
         "mobileRowGutter": "custom",
         "customRowGutter": [
          0,
-         0,
+         24,
          40
         ],
         "rowGutterType": "px",
+        "tabletLayout": "row",
         "verticalAlignment": "middle"
        },
        "innerBlocks": [
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-53-c",
+          "uniqueID": "pd-accueil-49-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3507,7 +3562,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Un fablab au bord du lac. Avec Lucile, nous y menons nos recherches : photographie, cinéma, musique, culture. Elles sont publiées au fil de l'eau sur Instagram et Facebook.",
+            "content": "Un FabLab au bord du lac. Avec Lucile, nous y menons nos recherches : photographie, cinéma, musique, culture. Elles sont publiées au fil de l'eau sur Instagram et Facebook.",
             "htmlTag": "p",
             "fontSize": [
              1.0625,
@@ -3540,19 +3595,35 @@
           {
            "name": "kadence/advancedbtn",
            "attributes": {
-            "uniqueID": "pd-accueil-51-g",
+            "uniqueID": "pd-accueil-45-g",
             "hAlign": "left",
             "gap": [
-             0.9,
+             0.5,
              "",
              ""
             ],
             "gapUnit": "rem",
             "margin": [
-             28,
-             "",
-             0,
-             ""
+             {
+              "desk": [
+               28,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
             ],
             "marginUnit": "px"
            },
@@ -3560,7 +3631,7 @@
             {
              "name": "kadence/singlebtn",
              "attributes": {
-              "uniqueID": "pd-accueil-52-b",
+              "uniqueID": "pd-accueil-46-b",
               "text": "Découvrir LAKELAB",
               "link": "/lakelab/",
               "borderRadius": [
@@ -3571,16 +3642,16 @@
               ],
               "borderRadiusUnit": "px",
               "padding": [
-               0.9,
-               1.5,
-               0.9,
-               1.5
+               0.5,
+               1,
+               0.5,
+               1
               ],
               "paddingUnit": "rem",
               "typography": [
                {
                 "size": [
-                 0.95,
+                 0.85,
                  "",
                  ""
                 ],
@@ -3663,6 +3734,222 @@
                }
               ]
              }
+            },
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-accueil-47-b",
+              "text": "Instagram LAKELAB",
+              "link": "https://www.instagram.com/lake.lab/",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.5,
+               1,
+               0.5,
+               1
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.85,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "inheritStyles": "outline",
+              "color": "palette3",
+              "background": "transparent",
+              "colorHover": "palette9",
+              "backgroundHover": "palette3",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "target": "_blank"
+             }
+            },
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-accueil-48-b",
+              "text": "Facebook LAKELAB",
+              "link": "https://www.facebook.com/lakelab/",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.5,
+               1,
+               0.5,
+               1
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.85,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "inheritStyles": "outline",
+              "color": "palette3",
+              "background": "transparent",
+              "colorHover": "palette9",
+              "backgroundHover": "palette3",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "target": "_blank"
+             }
             }
            ]
           }
@@ -3671,7 +3958,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-55-c",
+          "uniqueID": "pd-accueil-51-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3682,239 +3969,135 @@
          },
          "innerBlocks": [
           {
-           "name": "kadence/rowlayout",
+           "name": "kadence/column",
            "attributes": {
-            "uniqueID": "pd-accueil-54-r",
+            "uniqueID": "pd-accueil-50-c",
             "kbVersion": 2,
-            "columns": 2,
-            "colLayout": "equal",
-            "mobileLayout": "row",
-            "padding": [
-             0,
-             0,
-             0,
-             0
+            "borderWidth": [
+             "",
+             "",
+             "",
+             ""
             ],
-            "paddingUnit": "px",
-            "columnGutter": "custom",
-            "tabletGutter": "custom",
-            "mobileGutter": "custom",
-            "customGutter": [
-             20,
-             20,
-             16
-            ],
-            "gutterType": "px",
-            "collapseGutter": "custom",
-            "tabletRowGutter": "custom",
-            "mobileRowGutter": "custom",
-            "customRowGutter": [
-             28,
-             28,
-             24
-            ],
-            "rowGutterType": "px"
+            "htmlTag": "article",
+            "className": "pd-carte"
            },
            "innerBlocks": [
             {
-             "name": "kadence/column",
+             "name": "kadence/image",
              "attributes": {
-              "uniqueID": "pd-accueil-49-c",
-              "kbVersion": 2,
-              "borderWidth": [
-               "",
-               "",
-               "",
-               ""
+              "url": "https://i.ytimg.com/vi/6FrZTiHyWsk/hqdefault.jpg",
+              "alt": "Vignette du film « État naturel »",
+              "useRatio": true,
+              "ratio": "land169",
+              "link": "https://www.youtube.com/watch?v=6FrZTiHyWsk",
+              "linkTarget": true,
+              "linkTitle": "Voir « État naturel » sur YouTube (nouvel onglet)",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
               ],
-              "htmlTag": "article",
-              "className": "pd-carte"
-             },
-             "innerBlocks": [
-              {
-               "name": "kadence/image",
-               "attributes": {
-                "url": "https://i.ytimg.com/vi/iJQCmkrEMuU/hqdefault.jpg",
-                "alt": "Vignette du film « État d'urgence »",
-                "useRatio": true,
-                "ratio": "land169",
-                "link": "https://www.youtube.com/watch?v=iJQCmkrEMuU",
-                "linkTarget": true,
-                "linkTitle": "Voir « État d'urgence » sur YouTube (nouvel onglet)",
-                "borderRadius": [
-                 2,
-                 2,
-                 2,
-                 2
-                ],
-                "borderRadiusUnit": "px",
-                "marginDesktop": [
-                 0,
-                 0,
-                 14,
-                 0
-                ],
-                "marginUnit": "px"
-               }
-              },
-              {
-               "name": "kadence/advancedheading",
-               "attributes": {
-                "content": "État d'urgence",
-                "level": 3,
-                "typography": "Newsreader",
-                "googleFont": false,
-                "fontWeight": "400",
-                "fontSize": [
-                 1.35,
-                 1.3,
-                 1.25
-                ],
-                "sizeType": "rem",
-                "fontHeight": [
-                 1.2,
-                 "",
-                 ""
-                ],
-                "fontHeightType": "",
-                "color": "palette3",
-                "margin": [
-                 0,
-                 "",
-                 6,
-                 ""
-                ],
-                "marginType": "px"
-               }
-              },
-              {
-               "name": "kadence/advancedheading",
-               "attributes": {
-                "content": "Premier film LAKELAB · 3 min",
-                "htmlTag": "p",
-                "fontSize": [
-                 0.92,
-                 "",
-                 ""
-                ],
-                "sizeType": "rem",
-                "fontHeight": [
-                 1.5,
-                 "",
-                 ""
-                ],
-                "fontHeightType": "",
-                "color": "palette4",
-                "margin": [
-                 0,
-                 "",
-                 6,
-                 ""
-                ],
-                "marginType": "px"
-               }
-              }
-             ]
+              "borderRadiusUnit": "px",
+              "marginDesktop": [
+               0,
+               0,
+               14,
+               0
+              ],
+              "marginUnit": "px"
+             }
             },
             {
-             "name": "kadence/column",
+             "name": "kadence/advancedheading",
              "attributes": {
-              "uniqueID": "pd-accueil-50-c",
-              "kbVersion": 2,
-              "borderWidth": [
-               "",
-               "",
+              "content": "LAKELAB",
+              "htmlTag": "p",
+              "typography": "IBM Plex Mono",
+              "googleFont": false,
+              "fontWeight": "500",
+              "fontSize": [
+               0.75,
                "",
                ""
               ],
-              "htmlTag": "article",
-              "className": "pd-carte"
-             },
-             "innerBlocks": [
-              {
-               "name": "kadence/image",
-               "attributes": {
-                "url": "https://i.ytimg.com/vi/6FrZTiHyWsk/hqdefault.jpg",
-                "alt": "Vignette du film « État naturel »",
-                "useRatio": true,
-                "ratio": "land169",
-                "link": "https://www.youtube.com/watch?v=6FrZTiHyWsk",
-                "linkTarget": true,
-                "linkTitle": "Voir « État naturel » sur YouTube (nouvel onglet)",
-                "borderRadius": [
-                 2,
-                 2,
-                 2,
-                 2
-                ],
-                "borderRadiusUnit": "px",
-                "marginDesktop": [
-                 0,
-                 0,
-                 14,
-                 0
-                ],
-                "marginUnit": "px"
-               }
-              },
-              {
-               "name": "kadence/advancedheading",
-               "attributes": {
-                "content": "État naturel",
-                "level": 3,
-                "typography": "Newsreader",
-                "googleFont": false,
-                "fontWeight": "400",
-                "fontSize": [
-                 1.35,
-                 1.3,
-                 1.25
-                ],
-                "sizeType": "rem",
-                "fontHeight": [
-                 1.2,
-                 "",
-                 ""
-                ],
-                "fontHeightType": "",
-                "color": "palette3",
-                "margin": [
-                 0,
-                 "",
-                 6,
-                 ""
-                ],
-                "marginType": "px"
-               }
-              },
-              {
-               "name": "kadence/advancedheading",
-               "attributes": {
-                "content": "LAKELAB · 4 min",
-                "htmlTag": "p",
-                "fontSize": [
-                 0.92,
-                 "",
-                 ""
-                ],
-                "sizeType": "rem",
-                "fontHeight": [
-                 1.5,
-                 "",
-                 ""
-                ],
-                "fontHeightType": "",
-                "color": "palette4",
-                "margin": [
-                 0,
-                 "",
-                 6,
-                 ""
-                ],
-                "marginType": "px"
-               }
-              }
-             ]
+              "sizeType": "rem",
+              "fontHeight": [
+               1.5,
+               "",
+               ""
+              ],
+              "fontHeightType": "",
+              "letterSpacing": 0.14,
+              "letterSpacingType": "em",
+              "textTransform": "uppercase",
+              "color": "palette5",
+              "margin": [
+               0,
+               "",
+               6,
+               ""
+              ],
+              "marginType": "px"
+             }
+            },
+            {
+             "name": "kadence/advancedheading",
+             "attributes": {
+              "content": "État naturel",
+              "level": 3,
+              "typography": "Newsreader",
+              "googleFont": false,
+              "fontWeight": "400",
+              "fontSize": [
+               1.35,
+               1.3,
+               1.25
+              ],
+              "sizeType": "rem",
+              "fontHeight": [
+               1.2,
+               "",
+               ""
+              ],
+              "fontHeightType": "",
+              "color": "palette3",
+              "margin": [
+               0,
+               "",
+               6,
+               ""
+              ],
+              "marginType": "px"
+             }
+            },
+            {
+             "name": "kadence/advancedheading",
+             "attributes": {
+              "content": "LAKELAB · 4 min",
+              "htmlTag": "p",
+              "fontSize": [
+               0.92,
+               "",
+               ""
+              ],
+              "sizeType": "rem",
+              "fontHeight": [
+               1.5,
+               "",
+               ""
+              ],
+              "fontHeightType": "",
+              "color": "palette4",
+              "margin": [
+               0,
+               "",
+               6,
+               ""
+              ],
+              "marginType": "px"
+             }
             }
            ]
           }
@@ -3929,7 +4112,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-61-s",
+    "uniqueID": "pd-accueil-60-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -3963,7 +4146,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-62-c",
+      "uniqueID": "pd-accueil-61-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -3974,226 +4157,429 @@
      },
      "innerBlocks": [
       {
-       "name": "kadence/advancedheading",
+       "name": "kadence/rowlayout",
        "attributes": {
-        "content": "Contact",
-        "htmlTag": "p",
-        "typography": "IBM Plex Mono",
-        "googleFont": false,
-        "fontWeight": "500",
-        "fontSize": [
-         0.75,
-         "",
-         ""
-        ],
-        "sizeType": "rem",
-        "fontHeight": [
-         1.5,
-         "",
-         ""
-        ],
-        "fontHeightType": "",
-        "letterSpacing": 0.14,
-        "letterSpacingType": "em",
-        "textTransform": "uppercase",
-        "color": "palette5",
-        "margin": [
+        "uniqueID": "pd-accueil-59-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
          0,
-         "",
-         16,
-         ""
-        ],
-        "marginType": "px"
-       }
-      },
-      {
-       "name": "kadence/advancedheading",
-       "attributes": {
-        "content": "Parlons de votre projet",
-        "level": 2,
-        "typography": "Newsreader",
-        "googleFont": false,
-        "fontWeight": "400",
-        "fontSize": [
-         3.2,
-         2.6,
-         2.1
-        ],
-        "sizeType": "rem",
-        "fontHeight": [
-         1.1,
-         "",
-         ""
-        ],
-        "fontHeightType": "",
-        "color": "palette3",
-        "margin": [
          0,
-         "",
-         16,
-         ""
-        ],
-        "marginType": "px"
-       }
-      },
-      {
-       "name": "kadence/advancedheading",
-       "attributes": {
-        "content": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement.",
-        "htmlTag": "p",
-        "fontSize": [
-         1.0625,
-         "",
-         ""
-        ],
-        "sizeType": "rem",
-        "fontHeight": [
-         1.6,
-         "",
-         ""
-        ],
-        "fontHeightType": "",
-        "color": "palette4",
-        "margin": [
          0,
-         "",
-         8,
-         ""
+         0
         ],
-        "marginType": "px",
-        "maxWidth": [
-         672,
-         "",
-         ""
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         56,
+         40,
+         0
         ],
-        "maxWidthType": "px"
-       }
-      },
-      {
-       "name": "kadence/advancedbtn",
-       "attributes": {
-        "uniqueID": "pd-accueil-59-g",
-        "hAlign": "left",
-        "gap": [
-         0.9,
-         "",
-         ""
-        ],
-        "gapUnit": "rem",
-        "margin": [
-         24,
-         "",
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
          0,
-         ""
+         0,
+         32
         ],
-        "marginUnit": "px"
+        "rowGutterType": "px"
        },
        "innerBlocks": [
         {
-         "name": "kadence/singlebtn",
+         "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-60-b",
-          "text": "Demander un devis",
-          "link": "/contact/",
-          "borderRadius": [
-           2,
-           2,
-           2,
-           2
-          ],
-          "borderRadiusUnit": "px",
-          "padding": [
-           0.9,
-           1.5,
-           0.9,
-           1.5
-          ],
-          "paddingUnit": "rem",
-          "typography": [
-           {
-            "size": [
-             0.95,
+          "uniqueID": "pd-accueil-57-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Contact",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
              "",
              ""
             ],
             "sizeType": "rem",
-            "lineHeight": [
-             1.2,
+            "fontHeight": [
+             1.5,
              "",
              ""
             ],
-            "lineType": "",
-            "letterSpacing": [
-             0.04,
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Parlons de votre projet",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             3.2,
+             2.6,
+             2.1
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
              "",
              ""
             ],
-            "letterType": "em",
-            "textTransform": "",
-            "family": "",
-            "google": false,
-            "style": "",
-            "weight": "500",
-            "variant": "",
-            "subset": "",
-            "loadGoogle": false
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px"
            }
-          ],
-          "color": "#ece8df",
-          "background": "palette1",
-          "colorHover": "#ece8df",
-          "backgroundHover": "palette2",
-          "borderStyle": [
-           {
-            "top": [
-             "#a3302f",
-             "solid",
-             1
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
             ],
-            "right": [
-             "#a3302f",
-             "solid",
-             1
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
             ],
-            "bottom": [
-             "#a3302f",
-             "solid",
-             1
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
             ],
-            "left": [
-             "#a3302f",
-             "solid",
-             1
+            "marginType": "px",
+            "maxWidth": [
+             672,
+             "",
+             ""
             ],
-            "unit": "px"
+            "maxWidthType": "px"
            }
-          ],
-          "borderHoverStyle": [
-           {
-            "top": [
-             "#c0403d",
-             "solid",
-             1
+          },
+          {
+           "name": "kadence/advancedbtn",
+           "attributes": {
+            "uniqueID": "pd-accueil-55-g",
+            "hAlign": "left",
+            "gap": [
+             0.9,
+             "",
+             ""
             ],
-            "right": [
-             "#c0403d",
-             "solid",
-             1
+            "gapUnit": "rem",
+            "margin": [
+             {
+              "desk": [
+               32,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
             ],
-            "bottom": [
-             "#c0403d",
-             "solid",
-             1
-            ],
-            "left": [
-             "#c0403d",
-             "solid",
-             1
-            ],
-            "unit": "px"
-           }
+            "marginUnit": "px"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-accueil-56-b",
+              "text": "Demander un devis",
+              "link": "/contact/",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.9,
+               1.5,
+               0.9,
+               1.5
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.95,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "color": "#ece8df",
+              "background": "palette1",
+              "colorHover": "#ece8df",
+              "backgroundHover": "palette2",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ]
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-58-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
           ]
-         }
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Téléphone",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "06 86 31 15 96",
+            "htmlTag": "p",
+            "fontSize": [
+             1.25,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             18,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "E-mail",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "creationvideo@live.fr",
+            "htmlTag": "p",
+            "fontSize": [
+             1.25,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             18,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
         }
        ]
       }
@@ -4201,5 +4587,6 @@
     }
    ]
   }
- ]
+ ],
+ "excerpt": "Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité."
 }

@@ -171,7 +171,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement.",
+            "content": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement.",
             "htmlTag": "p",
             "fontSize": [
              1.1,
@@ -414,5 +414,6 @@
     }
    ]
   }
- ]
+ ],
+ "excerpt": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement."
 }

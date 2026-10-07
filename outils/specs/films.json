@@ -519,7 +519,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Pour France 4 · 2010 · immersion dans la CSI 93, en Seine-Saint-Denis · 52 min",
+                "content": "Pour France 4 · 2010 · immersion dans la CSI 93, en Seine-Saint-Denis · 52 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -619,7 +619,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Pour la centième d'Enquête d'action, sur W9 · 2008 · 9 min",
+                "content": "Pour la centième d'Enquête d'action, sur W9 · 2008 · 9 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -719,7 +719,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Avec Pierre Bayle · les communautés indigènes d'Équateur face à l'extraction minière et pétrolière · 44 min",
+                "content": "Avec Pierre Bayle · les communautés indigènes d'Équateur face à l'extraction minière et pétrolière · 44 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -819,7 +819,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Extrait avant-première · 3 min",
+                "content": "Extrait avant-première · 3 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -977,38 +977,40 @@
                 },
                 "className": "pd-vignette-vide"
                },
-               "innerBlocks": [
-                {
-                 "name": "kadence/advancedheading",
-                 "attributes": {
-                  "content": "Reportage",
-                  "htmlTag": "p",
-                  "fontSize": [
-                   0.7,
-                   "",
-                   ""
-                  ],
-                  "sizeType": "rem",
-                  "fontHeight": [
-                   1.6,
-                   "",
-                   ""
-                  ],
-                  "fontHeightType": "",
-                  "color": "palette3",
-                  "margin": [
-                   0,
-                   "",
-                   0,
-                   ""
-                  ],
-                  "marginType": "px",
-                  "typography": "IBM Plex Mono",
-                  "googleFont": false,
-                  "fontWeight": "500"
-                 }
-                }
-               ]
+               "innerBlocks": []
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Reportage",
+                "htmlTag": "p",
+                "typography": "IBM Plex Mono",
+                "googleFont": false,
+                "fontWeight": "500",
+                "fontSize": [
+                 0.75,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "letterSpacing": 0.14,
+                "letterSpacingType": "em",
+                "textTransform": "uppercase",
+                "color": "palette5",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
               },
               {
                "name": "kadence/advancedheading",
@@ -1075,7 +1077,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DKbpGcdso3j/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1HcxhUaZkf/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
+                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DKbpGcdso3j/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1HcxhUaZkf/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
                 "htmlTag": "p",
                 "fontSize": [
                  0.85,
@@ -1149,38 +1151,40 @@
                 },
                 "className": "pd-vignette-vide"
                },
-               "innerBlocks": [
-                {
-                 "name": "kadence/advancedheading",
-                 "attributes": {
-                  "content": "Reportage",
-                  "htmlTag": "p",
-                  "fontSize": [
-                   0.7,
-                   "",
-                   ""
-                  ],
-                  "sizeType": "rem",
-                  "fontHeight": [
-                   1.6,
-                   "",
-                   ""
-                  ],
-                  "fontHeightType": "",
-                  "color": "palette3",
-                  "margin": [
-                   0,
-                   "",
-                   0,
-                   ""
-                  ],
-                  "marginType": "px",
-                  "typography": "IBM Plex Mono",
-                  "googleFont": false,
-                  "fontWeight": "500"
-                 }
-                }
-               ]
+               "innerBlocks": []
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Reportage",
+                "htmlTag": "p",
+                "typography": "IBM Plex Mono",
+                "googleFont": false,
+                "fontWeight": "500",
+                "fontSize": [
+                 0.75,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "letterSpacing": 0.14,
+                "letterSpacingType": "em",
+                "textTransform": "uppercase",
+                "color": "palette5",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
               },
               {
                "name": "kadence/advancedheading",
@@ -1247,7 +1251,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DKgzcVEMQqb/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1DgcjCK6wN/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
+                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DKgzcVEMQqb/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1DgcjCK6wN/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
                 "htmlTag": "p",
                 "fontSize": [
                  0.85,
@@ -1321,38 +1325,40 @@
                 },
                 "className": "pd-vignette-vide"
                },
-               "innerBlocks": [
-                {
-                 "name": "kadence/advancedheading",
-                 "attributes": {
-                  "content": "Présentation",
-                  "htmlTag": "p",
-                  "fontSize": [
-                   0.7,
-                   "",
-                   ""
-                  ],
-                  "sizeType": "rem",
-                  "fontHeight": [
-                   1.6,
-                   "",
-                   ""
-                  ],
-                  "fontHeightType": "",
-                  "color": "palette3",
-                  "margin": [
-                   0,
-                   "",
-                   0,
-                   ""
-                  ],
-                  "marginType": "px",
-                  "typography": "IBM Plex Mono",
-                  "googleFont": false,
-                  "fontWeight": "500"
-                 }
-                }
-               ]
+               "innerBlocks": []
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Présentation",
+                "htmlTag": "p",
+                "typography": "IBM Plex Mono",
+                "googleFont": false,
+                "fontWeight": "500",
+                "fontSize": [
+                 0.75,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "letterSpacing": 0.14,
+                "letterSpacingType": "em",
+                "textTransform": "uppercase",
+                "color": "palette5",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
               },
               {
                "name": "kadence/advancedheading",
@@ -1419,7 +1425,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DJWFjqas4Ez/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/14vBqNnAZHc/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/1920036721569202623\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
+                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DJWFjqas4Ez/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/14vBqNnAZHc/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/1920036721569202623\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
                 "htmlTag": "p",
                 "fontSize": [
                  0.85,
@@ -1493,43 +1499,45 @@
                 },
                 "className": "pd-vignette-vide"
                },
-               "innerBlocks": [
-                {
-                 "name": "kadence/advancedheading",
-                 "attributes": {
-                  "content": "Mémoire",
-                  "htmlTag": "p",
-                  "fontSize": [
-                   0.7,
-                   "",
-                   ""
-                  ],
-                  "sizeType": "rem",
-                  "fontHeight": [
-                   1.6,
-                   "",
-                   ""
-                  ],
-                  "fontHeightType": "",
-                  "color": "palette3",
-                  "margin": [
-                   0,
-                   "",
-                   0,
-                   ""
-                  ],
-                  "marginType": "px",
-                  "typography": "IBM Plex Mono",
-                  "googleFont": false,
-                  "fontWeight": "500"
-                 }
-                }
-               ]
+               "innerBlocks": []
               },
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Les 80 ans de Jebsheim",
+                "content": "Mémoire",
+                "htmlTag": "p",
+                "typography": "IBM Plex Mono",
+                "googleFont": false,
+                "fontWeight": "500",
+                "fontSize": [
+                 0.75,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "letterSpacing": 0.14,
+                "letterSpacingType": "em",
+                "textTransform": "uppercase",
+                "color": "palette5",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Les 80 ans de Jebsheim",
                 "level": 3,
                 "typography": "Newsreader",
                 "googleFont": false,
@@ -1564,7 +1572,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Le 1er RCP et la libération de l'Alsace",
+                "content": "Le 1er RCP et la libération de l'Alsace",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -1591,7 +1599,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DS0Fuk-DXkT/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1HsNqid6yr/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2005313606834077905\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
+                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DS0Fuk-DXkT/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1HsNqid6yr/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2005313606834077905\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
                 "htmlTag": "p",
                 "fontSize": [
                  0.85,
@@ -1665,38 +1673,40 @@
                 },
                 "className": "pd-vignette-vide"
                },
-               "innerBlocks": [
-                {
-                 "name": "kadence/advancedheading",
-                 "attributes": {
-                  "content": "Histoire",
-                  "htmlTag": "p",
-                  "fontSize": [
-                   0.7,
-                   "",
-                   ""
-                  ],
-                  "sizeType": "rem",
-                  "fontHeight": [
-                   1.6,
-                   "",
-                   ""
-                  ],
-                  "fontHeightType": "",
-                  "color": "palette3",
-                  "margin": [
-                   0,
-                   "",
-                   0,
-                   ""
-                  ],
-                  "marginType": "px",
-                  "typography": "IBM Plex Mono",
-                  "googleFont": false,
-                  "fontWeight": "500"
-                 }
-                }
-               ]
+               "innerBlocks": []
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Histoire",
+                "htmlTag": "p",
+                "typography": "IBM Plex Mono",
+                "googleFont": false,
+                "fontWeight": "500",
+                "fontSize": [
+                 0.75,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "letterSpacing": 0.14,
+                "letterSpacingType": "em",
+                "textTransform": "uppercase",
+                "color": "palette5",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
               },
               {
                "name": "kadence/advancedheading",
@@ -1763,7 +1773,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DTN6GFljSIT/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1J7KB5B7Du/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2008948029521580219\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
+                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DTN6GFljSIT/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1J7KB5B7Du/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2008948029521580219\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
                 "htmlTag": "p",
                 "fontSize": [
                  0.85,
@@ -1837,38 +1847,40 @@
                 },
                 "className": "pd-vignette-vide"
                },
-               "innerBlocks": [
-                {
-                 "name": "kadence/advancedheading",
-                 "attributes": {
-                  "content": "Histoire",
-                  "htmlTag": "p",
-                  "fontSize": [
-                   0.7,
-                   "",
-                   ""
-                  ],
-                  "sizeType": "rem",
-                  "fontHeight": [
-                   1.6,
-                   "",
-                   ""
-                  ],
-                  "fontHeightType": "",
-                  "color": "palette3",
-                  "margin": [
-                   0,
-                   "",
-                   0,
-                   ""
-                  ],
-                  "marginType": "px",
-                  "typography": "IBM Plex Mono",
-                  "googleFont": false,
-                  "fontWeight": "500"
-                 }
-                }
-               ]
+               "innerBlocks": []
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Histoire",
+                "htmlTag": "p",
+                "typography": "IBM Plex Mono",
+                "googleFont": false,
+                "fontWeight": "500",
+                "fontSize": [
+                 0.75,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "letterSpacing": 0.14,
+                "letterSpacingType": "em",
+                "textTransform": "uppercase",
+                "color": "palette5",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
               },
               {
                "name": "kadence/advancedheading",
@@ -1935,7 +1947,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DVBzyCXjRPe/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/19wBeEKT2A/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2025266714775077271\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
+                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DVBzyCXjRPe/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/19wBeEKT2A/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2025266714775077271\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
                 "htmlTag": "p",
                 "fontSize": [
                  0.85,
@@ -2009,38 +2021,40 @@
                 },
                 "className": "pd-vignette-vide"
                },
-               "innerBlocks": [
-                {
-                 "name": "kadence/advancedheading",
-                 "attributes": {
-                  "content": "Histoire",
-                  "htmlTag": "p",
-                  "fontSize": [
-                   0.7,
-                   "",
-                   ""
-                  ],
-                  "sizeType": "rem",
-                  "fontHeight": [
-                   1.6,
-                   "",
-                   ""
-                  ],
-                  "fontHeightType": "",
-                  "color": "palette3",
-                  "margin": [
-                   0,
-                   "",
-                   0,
-                   ""
-                  ],
-                  "marginType": "px",
-                  "typography": "IBM Plex Mono",
-                  "googleFont": false,
-                  "fontWeight": "500"
-                 }
-                }
-               ]
+               "innerBlocks": []
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Histoire",
+                "htmlTag": "p",
+                "typography": "IBM Plex Mono",
+                "googleFont": false,
+                "fontWeight": "500",
+                "fontSize": [
+                 0.75,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "letterSpacing": 0.14,
+                "letterSpacingType": "em",
+                "textTransform": "uppercase",
+                "color": "palette5",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
               },
               {
                "name": "kadence/advancedheading",
@@ -2107,7 +2121,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DZc5SQ1tEOr/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1Ee79SxYiJ/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2065118320643170619\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
+                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DZc5SQ1tEOr/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1Ee79SxYiJ/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2065118320643170619\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
                 "htmlTag": "p",
                 "fontSize": [
                  0.85,
@@ -2181,38 +2195,40 @@
                 },
                 "className": "pd-vignette-vide"
                },
-               "innerBlocks": [
-                {
-                 "name": "kadence/advancedheading",
-                 "attributes": {
-                  "content": "Bientôt",
-                  "htmlTag": "p",
-                  "fontSize": [
-                   0.7,
-                   "",
-                   ""
-                  ],
-                  "sizeType": "rem",
-                  "fontHeight": [
-                   1.6,
-                   "",
-                   ""
-                  ],
-                  "fontHeightType": "",
-                  "color": "palette3",
-                  "margin": [
-                   0,
-                   "",
-                   0,
-                   ""
-                  ],
-                  "marginType": "px",
-                  "typography": "IBM Plex Mono",
-                  "googleFont": false,
-                  "fontWeight": "500"
-                 }
-                }
-               ]
+               "innerBlocks": []
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Bientôt",
+                "htmlTag": "p",
+                "typography": "IBM Plex Mono",
+                "googleFont": false,
+                "fontWeight": "500",
+                "fontSize": [
+                 0.75,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "letterSpacing": 0.14,
+                "letterSpacingType": "em",
+                "textTransform": "uppercase",
+                "color": "palette5",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
               },
               {
                "name": "kadence/advancedheading",
@@ -2318,38 +2334,40 @@
                 },
                 "className": "pd-vignette-vide"
                },
-               "innerBlocks": [
-                {
-                 "name": "kadence/advancedheading",
-                 "attributes": {
-                  "content": "Film court",
-                  "htmlTag": "p",
-                  "fontSize": [
-                   0.7,
-                   "",
-                   ""
-                  ],
-                  "sizeType": "rem",
-                  "fontHeight": [
-                   1.6,
-                   "",
-                   ""
-                  ],
-                  "fontHeightType": "",
-                  "color": "palette3",
-                  "margin": [
-                   0,
-                   "",
-                   0,
-                   ""
-                  ],
-                  "marginType": "px",
-                  "typography": "IBM Plex Mono",
-                  "googleFont": false,
-                  "fontWeight": "500"
-                 }
-                }
-               ]
+               "innerBlocks": []
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Film court",
+                "htmlTag": "p",
+                "typography": "IBM Plex Mono",
+                "googleFont": false,
+                "fontWeight": "500",
+                "fontSize": [
+                 0.75,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "letterSpacing": 0.14,
+                "letterSpacingType": "em",
+                "textTransform": "uppercase",
+                "color": "palette5",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
               },
               {
                "name": "kadence/advancedheading",
@@ -2416,7 +2434,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DTnqKLuDc5q/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://fb.watch/K4XCoYoq2P/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
+                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DTnqKLuDc5q/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://fb.watch/K4XCoYoq2P/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
                 "htmlTag": "p",
                 "fontSize": [
                  0.85,
@@ -2490,38 +2508,40 @@
                 },
                 "className": "pd-vignette-vide"
                },
-               "innerBlocks": [
-                {
-                 "name": "kadence/advancedheading",
-                 "attributes": {
-                  "content": "Film court",
-                  "htmlTag": "p",
-                  "fontSize": [
-                   0.7,
-                   "",
-                   ""
-                  ],
-                  "sizeType": "rem",
-                  "fontHeight": [
-                   1.6,
-                   "",
-                   ""
-                  ],
-                  "fontHeightType": "",
-                  "color": "palette3",
-                  "margin": [
-                   0,
-                   "",
-                   0,
-                   ""
-                  ],
-                  "marginType": "px",
-                  "typography": "IBM Plex Mono",
-                  "googleFont": false,
-                  "fontWeight": "500"
-                 }
-                }
-               ]
+               "innerBlocks": []
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Film court",
+                "htmlTag": "p",
+                "typography": "IBM Plex Mono",
+                "googleFont": false,
+                "fontWeight": "500",
+                "fontSize": [
+                 0.75,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "letterSpacing": 0.14,
+                "letterSpacingType": "em",
+                "textTransform": "uppercase",
+                "color": "palette5",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
               },
               {
                "name": "kadence/advancedheading",
@@ -2588,7 +2608,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DdZMV6Ht0Eu/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1cWDqm3qax/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
+                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DdZMV6Ht0Eu/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1cWDqm3qax/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
                 "htmlTag": "p",
                 "fontSize": [
                  0.85,
@@ -2662,38 +2682,40 @@
                 },
                 "className": "pd-vignette-vide"
                },
-               "innerBlocks": [
-                {
-                 "name": "kadence/advancedheading",
-                 "attributes": {
-                  "content": "Film court",
-                  "htmlTag": "p",
-                  "fontSize": [
-                   0.7,
-                   "",
-                   ""
-                  ],
-                  "sizeType": "rem",
-                  "fontHeight": [
-                   1.6,
-                   "",
-                   ""
-                  ],
-                  "fontHeightType": "",
-                  "color": "palette3",
-                  "margin": [
-                   0,
-                   "",
-                   0,
-                   ""
-                  ],
-                  "marginType": "px",
-                  "typography": "IBM Plex Mono",
-                  "googleFont": false,
-                  "fontWeight": "500"
-                 }
-                }
-               ]
+               "innerBlocks": []
+              },
+              {
+               "name": "kadence/advancedheading",
+               "attributes": {
+                "content": "Film court",
+                "htmlTag": "p",
+                "typography": "IBM Plex Mono",
+                "googleFont": false,
+                "fontWeight": "500",
+                "fontSize": [
+                 0.75,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "fontHeight": [
+                 1.5,
+                 "",
+                 ""
+                ],
+                "fontHeightType": "",
+                "letterSpacing": 0.14,
+                "letterSpacingType": "em",
+                "textTransform": "uppercase",
+                "color": "palette5",
+                "margin": [
+                 0,
+                 "",
+                 6,
+                 ""
+                ],
+                "marginType": "px"
+               }
               },
               {
                "name": "kadence/advancedheading",
@@ -2760,7 +2782,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/Ddjk7LEtpA-/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://fb.watch/K4XMnJgb3P/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
+                "content": "Voir sur : <a href=\"https://www.instagram.com/reel/Ddjk7LEtpA-/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://fb.watch/K4XMnJgb3P/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
                 "htmlTag": "p",
                 "fontSize": [
                  0.85,
@@ -2803,10 +2825,26 @@
             ],
             "gapUnit": "rem",
             "margin": [
-             36,
-             "",
-             0,
-             ""
+             {
+              "desk": [
+               36,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
             ],
             "marginUnit": "px"
            },
@@ -2815,7 +2853,7 @@
              "name": "kadence/singlebtn",
              "attributes": {
               "uniqueID": "pd-films-22-b",
-              "text": "1er RCP sur Instagram",
+              "text": "1er RCP sur Instagram",
               "link": "https://www.instagram.com/1er_rcp/",
               "borderRadius": [
                2,
@@ -2923,7 +2961,7 @@
              "name": "kadence/singlebtn",
              "attributes": {
               "uniqueID": "pd-films-23-b",
-              "text": "1er RCP sur Facebook",
+              "text": "1er RCP sur Facebook",
               "link": "https://www.facebook.com/1erRCP",
               "borderRadius": [
                2,
@@ -3031,7 +3069,7 @@
              "name": "kadence/singlebtn",
              "attributes": {
               "uniqueID": "pd-films-24-b",
-              "text": "1er RCP sur X",
+              "text": "1er RCP sur X",
               "link": "https://x.com/1erRCP",
               "borderRadius": [
                2,
@@ -3296,7 +3334,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Brevet para 12204 · réalisé avec l'amicale du 1er RCP · septembre 2025 · plus de 33 000 vues · 1 h 36",
+                "content": "Brevet para 12204 · réalisé avec l'amicale du 1er RCP · septembre 2025 · plus de 33 000 vues · 1 h 36",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -3396,7 +3434,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Commande de l'amicale du 1er RCP, offerte au régiment · juin 2025 · plus de 40 000 vues · 34 min",
+                "content": "Commande de l'amicale du 1er RCP, offerte au régiment · juin 2025 · plus de 40 000 vues · 34 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -3423,7 +3461,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Voir sur : <a href=\"https://x.com/1erRCP/status/1938606377661874421\" target=\"_blank\" rel=\"noreferrer noopener\">Relais du régiment sur X</a>",
+                "content": "Voir sur : <a href=\"https://x.com/1erRCP/status/1938606377661874421\" target=\"_blank\" rel=\"noreferrer noopener\">Relais du régiment sur X</a>",
                 "htmlTag": "p",
                 "fontSize": [
                  0.85,
@@ -3496,7 +3534,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "70 ans de Diên Biên Phu au 1er RCP",
+                "content": "70 ans de Diên Biên Phu au 1er RCP",
                 "level": 3,
                 "typography": "Newsreader",
                 "googleFont": false,
@@ -3526,7 +3564,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Film de mémoire · 7 min",
+                "content": "Film de mémoire · 7 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -3626,7 +3664,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Commémoration de l'attentat · 11 min",
+                "content": "Commémoration de l'attentat · 11 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -3666,7 +3704,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Mali, 2013 : dix-huit films montés au rythme des opérations et trois hommages.",
+            "content": "Mali, 2013 : dix-huit films montés au rythme des opérations et trois hommages.",
             "htmlTag": "p",
             "fontSize": [
              1.0625,
@@ -3813,7 +3851,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Du 9 février au 1er mars 2013 · 13 min",
+                "content": "Du 9 février au 1er mars 2013 · 13 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -3883,7 +3921,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Forces spéciales et 1er RCP à Tessalit",
+                "content": "Forces spéciales et 1er RCP à Tessalit",
                 "level": 3,
                 "typography": "Newsreader",
                 "googleFont": false,
@@ -3913,7 +3951,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "8 février 2013 · 3 min",
+                "content": "8 février 2013 · 3 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -4013,7 +4051,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Version longue · 28 janvier 2013 · 6 min",
+                "content": "Version longue · 28 janvier 2013 · 6 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -4067,10 +4105,26 @@
             ],
             "gapUnit": "rem",
             "margin": [
-             36,
-             "",
-             0,
-             ""
+             {
+              "desk": [
+               36,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
             ],
             "marginUnit": "px"
            },
@@ -4343,7 +4397,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Novembre 2025 · 3 min",
+                "content": "Novembre 2025 · 3 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -4443,7 +4497,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Film de formation · 3 min",
+                "content": "Film de formation · 3 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -4543,7 +4597,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Promotion Fondation Safran 2026 · 2 min",
+                "content": "Promotion Fondation Safran 2026 · 2 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -4643,7 +4697,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Présentation du matériel · 6 min",
+                "content": "Présentation du matériel · 6 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -4743,7 +4797,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Telson et Aculeus · 5 min",
+                "content": "Telson et Aculeus · 5 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -4843,7 +4897,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Film d'entreprise · 2 min",
+                "content": "Film d'entreprise · 2 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -4943,7 +4997,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Sur les routes de Pierre-Percée · 1 min",
+                "content": "Sur les routes de Pierre-Percée · 1 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -5043,7 +5097,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Captation de conférence · 7 min",
+                "content": "Captation de conférence · 7 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -5083,7 +5137,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon. Quatre épisodes, quatre écritures : cinématique, pop-rock avec un plan-séquence de près de deux minutes, électro, puis un retour au cinéma. L'équivalent d'un 52 minutes tourné et monté en une dizaine de jours. Avec aussi des reportages sur HELPED, le parcours consacré à la réponse aux crises, illustrés en post-production.",
+            "content": "Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon. Quatre épisodes, quatre écritures : cinématique, pop-rock avec un plan-séquence de près de deux minutes, électro, puis un retour au cinéma. L'équivalent d'un 52 minutes tourné et monté en une dizaine de jours. Avec aussi des reportages sur HELPED, le parcours consacré à la réponse aux crises, illustrés en post-production.",
             "htmlTag": "p",
             "fontSize": [
              1.0625,
@@ -5230,7 +5284,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Eurosatory 2022 · 6 min",
+                "content": "Eurosatory 2022 · 6 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -5330,7 +5384,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Eurosatory 2022 · 4 min",
+                "content": "Eurosatory 2022 · 4 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -5430,7 +5484,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Eurosatory 2022 · 3 min",
+                "content": "Eurosatory 2022 · 3 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -5530,7 +5584,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Eurosatory 2022 · 3 min",
+                "content": "Eurosatory 2022 · 3 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -5630,7 +5684,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Entrevue · Commission de la Défense du Sénat · 7 min",
+                "content": "Entrevue · Commission de la Défense du Sénat · 7 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -5730,7 +5784,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Entrevue · directeur général de COGES · 9 min",
+                "content": "Entrevue · directeur général de COGES · 9 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -5770,10 +5824,26 @@
             ],
             "gapUnit": "rem",
             "margin": [
-             36,
-             "",
-             0,
-             ""
+             {
+              "desk": [
+               36,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
             ],
             "marginUnit": "px"
            },
@@ -6047,7 +6117,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Entretien avec Nicolas Mazzucchi, Fondation pour la recherche stratégique · pour ExMergere · 20 min",
+                "content": "Entretien avec Nicolas Mazzucchi, Fondation pour la recherche stratégique · pour ExMergere · 20 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -6147,7 +6217,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Entretien avec Pierre Santoni, co-auteur de « L'ultime champ de bataille » · 17 min",
+                "content": "Entretien avec Pierre Santoni, co-auteur de « L'ultime champ de bataille » · 17 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -6217,7 +6287,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Armée française, seuil critique ?",
+                "content": "Armée française, seuil critique ?",
                 "level": 3,
                 "typography": "Newsreader",
                 "googleFont": false,
@@ -6247,7 +6317,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Entretien avec le général Pinard Legry, président de l'ASAF · 14 min",
+                "content": "Entretien avec le général Pinard Legry, président de l'ASAF · 14 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -6448,7 +6518,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Premier film LAKELAB · 3 min",
+                "content": "Premier film LAKELAB · 3 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -6548,7 +6618,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "LAKELAB · 4 min",
+                "content": "LAKELAB · 4 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -6648,7 +6718,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Museumotel · 4 min",
+                "content": "Museumotel · 4 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -6718,7 +6788,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "L'œuf ou la poule ?",
+                "content": "L'œuf ou la poule ?",
                 "level": 3,
                 "typography": "Newsreader",
                 "googleFont": false,
@@ -6748,7 +6818,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Museumotel · Pâques 2015 · 5 min",
+                "content": "Museumotel · Pâques 2015 · 5 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -6848,7 +6918,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Teaser d'exposition · Museumotel · 1 min",
+                "content": "Teaser d'exposition · Museumotel · 1 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -6948,7 +7018,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Clip · 6 min",
+                "content": "Clip · 6 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -7048,7 +7118,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Clip · 6 min",
+                "content": "Clip · 6 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -7084,5 +7154,6 @@
     }
    ]
   }
- ]
+ ],
+ "excerpt": "Documentaires pour la télévision, portraits de témoins, films de mémoire, reportages, films pour entreprises et clips. Chaque vignette ouvre le film."
 }

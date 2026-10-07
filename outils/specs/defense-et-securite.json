@@ -294,12 +294,12 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "10 films",
+            "content": "10 films",
             "htmlTag": "p",
             "fontSize": [
-             3.2,
-             "",
-             ""
+             2.8,
+             2.6,
+             2.4
             ],
             "sizeType": "rem",
             "fontHeight": [
@@ -324,7 +324,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "publiés sur les pages officielles du 1er RCP depuis mai 2025",
+            "content": "publiés sur les pages officielles du 1er RCP depuis mai 2025",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -401,9 +401,9 @@
             "content": "Depuis 2012",
             "htmlTag": "p",
             "fontSize": [
-             3.2,
-             "",
-             ""
+             2.8,
+             2.6,
+             2.4
             ],
             "sizeType": "rem",
             "fontHeight": [
@@ -502,12 +502,12 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "10 jours",
+            "content": "10 jours",
             "htmlTag": "p",
             "fontSize": [
-             3.2,
-             "",
-             ""
+             2.8,
+             2.6,
+             2.4
             ],
             "sizeType": "rem",
             "fontHeight": [
@@ -532,7 +532,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "pour tourner et monter seul l'équivalent d'un 52 minutes à Eurosatory 2022",
+            "content": "pour tourner et monter seul l'équivalent d'un 52 minutes à Eurosatory 2022",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -606,12 +606,12 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "2 millions",
+            "content": "2 millions",
             "htmlTag": "p",
             "fontSize": [
-             3.2,
-             "",
-             ""
+             2.8,
+             2.6,
+             2.4
             ],
             "sizeType": "rem",
             "fontHeight": [
@@ -784,7 +784,7 @@
         "uniqueID": "pd-defense-12-r",
         "kbVersion": 2,
         "columns": 2,
-        "colLayout": "left-forty",
+        "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
          24,
@@ -811,6 +811,8 @@
          8
         ],
         "rowGutterType": "px",
+        "firstColumnWidth": 40,
+        "secondColumnWidth": 60,
         "borderStyle": [
          {
           "top": [
@@ -899,7 +901,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "La section robotique et renseignement du 1er RCP, des films courts avec Thales et Texelis, des films pour TDA Armements.",
+            "content": "La section robotique et renseignement du 1er RCP, des films courts avec Thales et Texelis, des films pour TDA Armements.",
             "htmlTag": "p",
             "fontSize": [
              1.0625,
@@ -933,7 +935,7 @@
         "uniqueID": "pd-defense-15-r",
         "kbVersion": 2,
         "columns": 2,
-        "colLayout": "left-forty",
+        "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
          24,
@@ -960,6 +962,8 @@
          8
         ],
         "rowGutterType": "px",
+        "firstColumnWidth": 40,
+        "secondColumnWidth": 60,
         "borderStyle": [
          {
           "top": [
@@ -1048,7 +1052,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Eurosatory 2012, 2014 et 2022, Milipol 2021, les journées portes ouvertes du 1er RCP. Tourner sur le vif, monter vite, publier le jour même.",
+            "content": "Eurosatory 2012, 2014 et 2022, Milipol 2021, les journées portes ouvertes du 1er RCP. Tourner sur le vif, monter vite, publier le jour même.",
             "htmlTag": "p",
             "fontSize": [
              1.0625,
@@ -1082,7 +1086,7 @@
         "uniqueID": "pd-defense-18-r",
         "kbVersion": 2,
         "columns": 2,
-        "colLayout": "left-forty",
+        "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
          24,
@@ -1109,6 +1113,8 @@
          8
         ],
         "rowGutterType": "px",
+        "firstColumnWidth": 40,
+        "secondColumnWidth": 60,
         "borderStyle": [
          {
           "top": [
@@ -1197,7 +1203,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "L'histoire du 1er RCP en chapitres, de Jebsheim à Diên Biên Phu, des portraits de témoins comme le capitaine Locci et le commandant Everrard.",
+            "content": "L'histoire du 1er RCP en chapitres, de Jebsheim à Diên Biên Phu, des portraits de témoins comme le capitaine Locci et le commandant Everrard.",
             "htmlTag": "p",
             "fontSize": [
              1.0625,
@@ -1231,7 +1237,7 @@
         "uniqueID": "pd-defense-21-r",
         "kbVersion": 2,
         "columns": 2,
-        "colLayout": "left-forty",
+        "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
          24,
@@ -1258,6 +1264,8 @@
          8
         ],
         "rowGutterType": "px",
+        "firstColumnWidth": 40,
+        "secondColumnWidth": 60,
         "borderStyle": [
          {
           "top": [
@@ -1380,7 +1388,7 @@
         "uniqueID": "pd-defense-24-r",
         "kbVersion": 2,
         "columns": 2,
-        "colLayout": "left-forty",
+        "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
          24,
@@ -1407,6 +1415,8 @@
          8
         ],
         "rowGutterType": "px",
+        "firstColumnWidth": 40,
+        "secondColumnWidth": 60,
         "borderStyle": [
          {
           "top": [
@@ -2042,38 +2052,40 @@
             },
             "className": "pd-vignette-vide"
            },
-           "innerBlocks": [
-            {
-             "name": "kadence/advancedheading",
-             "attributes": {
-              "content": "Présentation",
-              "htmlTag": "p",
-              "fontSize": [
-               0.7,
-               "",
-               ""
-              ],
-              "sizeType": "rem",
-              "fontHeight": [
-               1.6,
-               "",
-               ""
-              ],
-              "fontHeightType": "",
-              "color": "palette3",
-              "margin": [
-               0,
-               "",
-               0,
-               ""
-              ],
-              "marginType": "px",
-              "typography": "IBM Plex Mono",
-              "googleFont": false,
-              "fontWeight": "500"
-             }
-            }
-           ]
+           "innerBlocks": []
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Présentation",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -2140,7 +2152,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DJWFjqas4Ez/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/14vBqNnAZHc/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/1920036721569202623\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
+            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DJWFjqas4Ez/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/14vBqNnAZHc/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/1920036721569202623\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
             "htmlTag": "p",
             "fontSize": [
              0.85,
@@ -2214,38 +2226,40 @@
             },
             "className": "pd-vignette-vide"
            },
-           "innerBlocks": [
-            {
-             "name": "kadence/advancedheading",
-             "attributes": {
-              "content": "Reportage",
-              "htmlTag": "p",
-              "fontSize": [
-               0.7,
-               "",
-               ""
-              ],
-              "sizeType": "rem",
-              "fontHeight": [
-               1.6,
-               "",
-               ""
-              ],
-              "fontHeightType": "",
-              "color": "palette3",
-              "margin": [
-               0,
-               "",
-               0,
-               ""
-              ],
-              "marginType": "px",
-              "typography": "IBM Plex Mono",
-              "googleFont": false,
-              "fontWeight": "500"
-             }
-            }
-           ]
+           "innerBlocks": []
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Reportage",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -2312,7 +2326,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DKbpGcdso3j/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1HcxhUaZkf/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
+            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DKbpGcdso3j/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1HcxhUaZkf/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
             "htmlTag": "p",
             "fontSize": [
              0.85,
@@ -2386,38 +2400,40 @@
             },
             "className": "pd-vignette-vide"
            },
-           "innerBlocks": [
-            {
-             "name": "kadence/advancedheading",
-             "attributes": {
-              "content": "Film court",
-              "htmlTag": "p",
-              "fontSize": [
-               0.7,
-               "",
-               ""
-              ],
-              "sizeType": "rem",
-              "fontHeight": [
-               1.6,
-               "",
-               ""
-              ],
-              "fontHeightType": "",
-              "color": "palette3",
-              "margin": [
-               0,
-               "",
-               0,
-               ""
-              ],
-              "marginType": "px",
-              "typography": "IBM Plex Mono",
-              "googleFont": false,
-              "fontWeight": "500"
-             }
-            }
-           ]
+           "innerBlocks": []
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Film court",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -2484,7 +2500,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DTnqKLuDc5q/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://fb.watch/K4XCoYoq2P/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
+            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DTnqKLuDc5q/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://fb.watch/K4XCoYoq2P/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
             "htmlTag": "p",
             "fontSize": [
              0.85,
@@ -2587,7 +2603,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Eurosatory 2022 · 6 min",
+            "content": "Eurosatory 2022 · 6 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2687,7 +2703,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Présentation du matériel · 6 min",
+            "content": "Présentation du matériel · 6 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2758,38 +2774,40 @@
             },
             "className": "pd-vignette-vide"
            },
-           "innerBlocks": [
-            {
-             "name": "kadence/advancedheading",
-             "attributes": {
-              "content": "Série",
-              "htmlTag": "p",
-              "fontSize": [
-               0.7,
-               "",
-               ""
-              ],
-              "sizeType": "rem",
-              "fontHeight": [
-               1.6,
-               "",
-               ""
-              ],
-              "fontHeightType": "",
-              "color": "palette3",
-              "margin": [
-               0,
-               "",
-               0,
-               ""
-              ],
-              "marginType": "px",
-              "typography": "IBM Plex Mono",
-              "googleFont": false,
-              "fontWeight": "500"
-             }
-            }
-           ]
+           "innerBlocks": []
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Série",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -2829,7 +2847,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Mali 2013 · plus de 2 millions de vues",
+            "content": "Mali 2013 · plus de 2 millions de vues",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2899,10 +2917,26 @@
         ],
         "gapUnit": "rem",
         "margin": [
-         40,
-         "",
-         0,
-         ""
+         {
+          "desk": [
+           40,
+           "",
+           0,
+           ""
+          ],
+          "tablet": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "mobile": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         }
         ],
         "marginUnit": "px"
        },
@@ -3126,5 +3160,6 @@
     }
    ]
   }
- ]
+ ],
+ "excerpt": "Ancien combattant de l'infanterie parachutiste et officier de réserve, je connais le terrain, le vocabulaire et les contraintes de la communication de défense. Je réalise des films pour des régiments, des industriels et des salons."
 }

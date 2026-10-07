@@ -10,8 +10,8 @@
 .pd-hero { position: relative; overflow: hidden; }
 .pd-hero::before,
 .pd-hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; pointer-events: none; z-index: 0; }
-.pd-hero::before { height: 62%; background: #232f3c; opacity: .75; clip-path: polygon(0 62%, 14% 34%, 26% 52%, 41% 18%, 55% 46%, 68% 28%, 82% 50%, 100% 30%, 100% 100%, 0 100%); }
-.pd-hero::after { height: 40%; background: #0d1217; clip-path: polygon(0 55%, 18% 30%, 33% 52%, 52% 22%, 70% 48%, 86% 28%, 100% 46%, 100% 100%, 0 100%); }
+.pd-hero::before { display: block; bottom: -1px; height: 62%; background: #232f3c; opacity: .75; clip-path: polygon(0 62%, 14% 34%, 26% 52%, 41% 18%, 55% 46%, 68% 28%, 82% 50%, 100% 30%, 100% 100%, 0 100%); }
+.pd-hero::after { bottom: -1px; height: 40%; background: #0d1217; clip-path: polygon(0 55%, 18% 30%, 33% 52%, 52% 22%, 70% 48%, 86% 28%, 100% 46%, 100% 100%, 0 100%); }
 .pd-hero > .kt-row-column-wrap { position: relative; z-index: 1; }
 
 /* Cartes de films : léger zoom de la vignette au survol (classe pd-carte sur la colonne) */
@@ -66,3 +66,37 @@ ol.pd-etapes li strong { color: #e8e6e1; font-weight: 500; }
 
 /* Repère « à compléter » des pages légales */
 mark:not(.kt-highlight) { background: transparent; color: #c8b287; border-bottom: 1px dashed #c8b287; }
+
+/* Titres équilibrés ; l'accent du titre d'accueil ne se coupe pas */
+.entry-content :is(h1, h2, h3), .pd-equilibre { text-wrap: balance; }
+.pd-hero h1 mark.kt-highlight { white-space: nowrap; }
+@media (max-width: 767px) {
+	.pd-hero::before { height: 50%; }
+	.pd-hero::after { height: 30%; }
+}
+
+/* Noms de clients (liste pd-noms) */
+ul.pd-noms { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem 3rem; font-family: "Newsreader", Georgia, serif; font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.2; color: #e8e6e1; }
+ul.pd-noms li { margin: 0; }
+
+/* Menu : « Devis » en bouton à contour, comme dans la maquette */
+@media (min-width: 1025px) {
+	#site-navigation .primary-menu-container > ul > li.pd-menu-devis > a {
+		border: 1px solid #a9b6c0; border-radius: 2px; padding: .4rem .9rem; margin-left: .6rem; color: #e8e6e1 !important;
+	}
+	#site-navigation .primary-menu-container > ul > li.pd-menu-devis > a:hover { background: #e8e6e1; color: #0d1217 !important; text-decoration: none; }
+}
+
+/* Flou derrière la rangée de l'en-tête uniquement (jamais sur #masthead : il casserait le collant) */
+.site-main-header-wrap .site-header-row-container-inner { -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+
+/* Tableaux de listes : le style natif de WordPress (bordures sur chaque cellule) est remplacé */
+.wp-block-table.pd-liste table { border: 0; }
+.wp-block-table.pd-liste td, .wp-block-table.pd-liste th { border: 0; border-bottom: 1px solid #2c3a49; background: transparent; padding: .7rem 0; }
+.wp-block-table.pd-liste tr:first-child td { border-top: 1px solid #2c3a49; }
+.wp-block-table.pd-liste td + td { border-left: 0; }
+.wp-block-table.pd-liste { margin: 0; }
+
+/* Listes : aucun retrait ni puce hérités du thème */
+.entry-content ul.pd-noms, .entry-content ol.pd-etapes, ul.wp-block-list.pd-noms, ol.wp-block-list.pd-etapes { padding-left: 0; margin-left: 0; margin-bottom: 0; }
+.entry-content ol.pd-etapes li { padding-left: 3rem; }
