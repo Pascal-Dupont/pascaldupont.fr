@@ -144,7 +144,7 @@ Pour styler le formulaire, **ne pas cibler `…64-cpt-id`**, car cet identifiant
  "titre": "Réf formulaire – contact", "slug": "ref-formulaire-contact",
  "meta": {
   "_kad_form_actions": ["email"],
-  "_kad_form_email": {"emailTo": "creationvideo@live.fr", "subject": "[pascaldupont.fr] {type_projet} : {nom}", "fromEmail": "", "fromName": "", "replyTo": "email_field", "cc": "", "bcc": "", "html": true},
+  "_kad_form_email": {"emailTo": "contact@pascaldupont.fr", "subject": "[pascaldupont.fr] {type_projet} : {nom}", "fromEmail": "", "fromName": "", "replyTo": "email_field", "cc": "", "bcc": "", "html": true},
   "_kad_form_messages": {"success": "Merci, votre message est bien parti. Je vous réponds personnellement.", "error": "Le formulaire n'a pas pu être envoyé. Vérifiez les champs et réessayez.", "required": "", "invalid": "", "recaptchaerror": "Vérification anti-spam échouée, rechargez la page.", "preError": "Merci de corriger les erreurs ci-dessous."},
   "_kad_form_description": "Formulaire de contact (référence)",
   "_kad_form_browserValidation": true
@@ -279,7 +279,7 @@ Sur le vrai site, le paquet de langue français de Kadence Blocks pourrait en tr
 Données envoyées : `nom=Jeanne Essai`, `email=jeanne.essai@exemple.test`, `type_projet=Captation d'événement`, `message=Ok`, `consentement=accept`. **E**
 
 ```
-to:      creationvideo@live.fr
+to:      contact@pascaldupont.fr
 subject: [pascaldupont.fr] Captation d'événement : Jeanne Essai
 headers: Content-Type: text/html; charset=UTF-8
          Reply-To: <jeanne.essai@exemple.test>
@@ -323,7 +323,7 @@ Captcha (essai : formulaire #74 `ref-formulaire-captcha`, page `ref-formulaire-0
 
 - **« Pages » n'exporte pas les `kadence_form`** : l'export des pages contenait 35 pages et 0 formulaire. **E**
 - **« Tout le contenu »** les inclut (2 `kadence_form`), car `can_export: true`. Il existe aussi un choix « Forms » propre au type. **E** pour l'export, **C** pour le bouton radio.
-- Les méta `_kad_form_*` sont écrites **sérialisées en PHP**, par exemple `a:8:{s:7:"emailTo";s:21:"creationvideo@live.fr";…;s:4:"html";b:1;}`. **E**
+- Les méta `_kad_form_*` sont écrites **sérialisées en PHP**, par exemple `a:8:{s:7:"emailTo";s:21:"contact@pascaldupont.fr";…;s:4:"html";b:1;}`. **E**
 
 Conclusion : avec `kadence/advanced-form`, il faut exporter et importer **la page et le `kadence_form`**.
 
@@ -369,7 +369,7 @@ def php_serialize(v):
 
 # item <wp:post_type>kadence_form</wp:post_type>, <wp:post_id>9100</wp:post_id>, <wp:status>publish</wp:status>, avec :
 meta('_kad_form_actions', php_serialize(["email"]))
-meta('_kad_form_email', php_serialize({"emailTo": "creationvideo@live.fr", "subject": "[pascaldupont.fr] {type_projet} : {nom}",
+meta('_kad_form_email', php_serialize({"emailTo": "contact@pascaldupont.fr", "subject": "[pascaldupont.fr] {type_projet} : {nom}",
      "fromEmail": "", "fromName": "", "replyTo": "email_field", "cc": "", "bcc": "", "html": True}))
 meta('_kad_form_messages', php_serialize({"success": "Merci, votre message est bien parti. Je vous réponds personnellement.", "error": "…",
      "required": "", "invalid": "", "recaptchaerror": "…", "preError": "Merci de corriger les erreurs ci-dessous."}))
@@ -394,7 +394,7 @@ Essais du shortcode : page `ref-formulaire-04-maison` (spec `core/shortcode` `"t
 | Type hors liste | `?envoi=erreur` |
 | Message de 2 caractères | `?envoi=erreur` |
 
-Courrier capturé : `to: creationvideo@live.fr`, `subject: [pascaldupont.fr] Captation d'événement : Jeanne Essai`, `Content-Type: text/plain`, `Reply-To: Jeanne Essai <jeanne.essai@exemple.test>`. Le corps contient le nom, l'e-mail, le type et le message.
+Courrier capturé : `to: contact@pascaldupont.fr`, `subject: [pascaldupont.fr] Captation d'événement : Jeanne Essai`, `Content-Type: text/plain`, `Reply-To: Jeanne Essai <jeanne.essai@exemple.test>`. Le corps contient le nom, l'e-mail, le type et le message.
 
 Pourquoi le garder :
 1. Seul à cumuler pot de miel, délai minimal signé, limite d'envois et contrôle de la liste côté serveur. Kadence gratuit n'a **rien de cela** sur le formulaire avancé.
@@ -442,7 +442,7 @@ Page `ref-formulaire-01-ancien` (#62), construite avec `editeur.js`, valide apr�
 
 Essais d'envoi (Playwright et ligne de commande) **E** :
 - **Champs vides** : messages en français par champ, sous le titre « Merci de corriger les erreurs ci-dessous. ».
-- **Envoi valide** : « Merci… ». Le courrier part vers `creationvideo@live.fr`, avec pour sujet `[pascaldupont.fr] Captation d'événement : Jeanne Essai` et l'en-tête `Reply-To: <jeanne.essai@exemple.test>`. Le corps est en HTML ; le `<b>` saisi dans le message est retiré.
+- **Envoi valide** : « Merci… ». Le courrier part vers `contact@pascaldupont.fr`, avec pour sujet `[pascaldupont.fr] Captation d'événement : Jeanne Essai` et l'en-tête `Reply-To: <jeanne.essai@exemple.test>`. Le corps est en HTML ; le `<b>` saisi dans le message est retiré.
 - **Pas de serveur de courrier** : succès affiché quand même.
 - **Valeur hors liste et message « Ok »** : acceptés.
 
@@ -454,7 +454,7 @@ Spec générée par `gen-ancien.py`. Extrait de l'attribut principal. **Attentio
   "fields": [ {"label": "Nom et prénom", "type": "text", "required": true, "auto": "name", "width": ["50","",""], "requiredMessage": "Indiquez votre nom.", "showLabel": true, "placeholder": "", "default": "", "description": "", "rows": 4, "options": [{"value": "", "label": ""}], "multiSelect": false, "inline": false, "showLink": false, "min": "", "max": "", "errorMessage": "", "slug": "", "ariaLabel": ""},
               "… e-mail, select (6 options + placeholder \"Choisissez…\"), textarea (rows 8) …",
               {"label": "J'accepte que ces informations servent à répondre à ma demande.", "type": "accept", "required": true, "showLink": true, "placeholder": "Voir la politique de confidentialité", "default": "/confidentialite/", "requiredMessage": "Cochez la case pour accepter.", "…": "autres clés comme ci-dessus"} ],
-  "email": [{"emailTo": "creationvideo@live.fr", "subject": "[pascaldupont.fr] {field_3} : {field_1}", "fromEmail": "", "fromName": "", "replyTo": "email_field", "cc": "", "bcc": "", "html": true}],
+  "email": [{"emailTo": "contact@pascaldupont.fr", "subject": "[pascaldupont.fr] {field_3} : {field_1}", "fromEmail": "", "fromName": "", "replyTo": "email_field", "cc": "", "bcc": "", "html": true}],
   "messages": [{"success": "Merci, votre message est bien parti. Je vous réponds personnellement.", "error": "…", "required": "Ce champ est obligatoire.", "invalid": "Valeur non valide.", "recaptchaerror": "…", "preError": "Merci de corriger les erreurs ci-dessous."}],
   "submit": [{"label": "Envoyer", "…": "toutes les autres clés de submit[0] de block.json"}],
   "honeyPot": true }}
@@ -529,7 +529,7 @@ Relecture critique de la fiche, faite par un second agent sur le même WordPress
 
 | Essai | Résultat |
 |---|---|
-| Ligne de commande (`mail-cli.php`), données du § 5 | Identique au § 5 : `to` `creationvideo@live.fr`, sujet `[pascaldupont.fr] Captation d'événement : Jeanne Essai`, `Reply-To: <jeanne.essai@exemple.test>`, HTML 7,5 ko avec « Accept » et « Sent from Pascal Dupont » ; `wp_mail` échoue mais la réponse dit succès |
+| Ligne de commande (`mail-cli.php`), données du § 5 | Identique au § 5 : `to` `contact@pascaldupont.fr`, sujet `[pascaldupont.fr] Captation d'événement : Jeanne Essai`, `Reply-To: <jeanne.essai@exemple.test>`, HTML 7,5 ko avec « Accept » et « Sent from Pascal Dupont » ; `wp_mail` échoue mais la réponse dit succès |
 | Valeur hors liste (`Valeur inventée`, message « x ») | Acceptée, e-mail préparé |
 | Liste vide | « Submission Failed » / « Missing a required field », `fieldErrors` sur `type_projet` |
 | Navigateur, formulaire complet | « Merci, votre message est bien parti… » |

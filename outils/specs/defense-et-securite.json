@@ -671,6 +671,743 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
+    "uniqueID": "pd-defense-34-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     0,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     0,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     0,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-defense-35-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Industrie de défense",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Filmer les matériels et ceux qui les servent",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Des films de présentation tournés en conditions réelles, au plus près des utilisateurs : la série réalisée pour TDA Armements (aujourd'hui Thales) et le reportage d'Arquus à Milipol 2021.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0625,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         32,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         672,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-defense-31-r",
+        "kbVersion": 2,
+        "columns": 4,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "tabletLayout": "two-grid",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         24,
+         20,
+         16
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         40,
+         32,
+         28
+        ],
+        "rowGutterType": "px",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-27-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/QMFdHoR7FxM/hqdefault.jpg",
+            "alt": "Vignette du film « Arquus à Milipol 2021 »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=QMFdHoR7FxM",
+            "linkTarget": true,
+            "linkTitle": "Voir « Arquus à Milipol 2021 » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Arquus à Milipol 2021",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Reportage pour OPS TV, tourné en 4K · 1 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-28-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/A1yfSvxryKg/hqdefault.jpg",
+            "alt": "Vignette du film « TDA, mortier tracté rayé de 120 mm »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=A1yfSvxryKg",
+            "linkTarget": true,
+            "linkTitle": "Voir « TDA, mortier tracté rayé de 120 mm » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "TDA, mortier tracté rayé de 120 mm",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Présentation du matériel · 6 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-29-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/bNW6-rmkwSk/hqdefault.jpg",
+            "alt": "Vignette du film « TDA, mortier de 120 mm sur le terrain »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=bNW6-rmkwSk",
+            "linkTarget": true,
+            "linkTitle": "Voir « TDA, mortier de 120 mm sur le terrain » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "TDA, mortier de 120 mm sur le terrain",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "En manœuvre, avec l'artillerie · 4 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-30-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/x0FG7S3E070/hqdefault.jpg",
+            "alt": "Vignette du film « TDA, systèmes de roquettes à induction »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=x0FG7S3E070",
+            "linkTarget": true,
+            "linkTitle": "Voir « TDA, systèmes de roquettes à induction » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "TDA, systèmes de roquettes à induction",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Telson et Aculeus · 5 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/advancedbtn",
+       "attributes": {
+        "uniqueID": "pd-defense-32-g",
+        "hAlign": "left",
+        "gap": [
+         0.9,
+         "",
+         ""
+        ],
+        "gapUnit": "rem",
+        "margin": [
+         {
+          "desk": [
+           36,
+           "",
+           0,
+           ""
+          ],
+          "tablet": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "mobile": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         }
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/singlebtn",
+         "attributes": {
+          "uniqueID": "pd-defense-33-b",
+          "text": "Tous les films de défense",
+          "link": "/films/#films-defense",
+          "borderRadius": [
+           2,
+           2,
+           2,
+           2
+          ],
+          "borderRadiusUnit": "px",
+          "padding": [
+           0.9,
+           1.5,
+           0.9,
+           1.5
+          ],
+          "paddingUnit": "rem",
+          "typography": [
+           {
+            "size": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "lineHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "lineType": "",
+            "letterSpacing": [
+             0.04,
+             "",
+             ""
+            ],
+            "letterType": "em",
+            "textTransform": "",
+            "family": "",
+            "google": false,
+            "style": "",
+            "weight": "500",
+            "variant": "",
+            "subset": "",
+            "loadGoogle": false
+           }
+          ],
+          "inheritStyles": "outline",
+          "color": "palette3",
+          "background": "transparent",
+          "colorHover": "palette9",
+          "backgroundHover": "palette3",
+          "borderStyle": [
+           {
+            "top": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "right": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "left": [
+             "#a9b6c0",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "borderHoverStyle": [
+           {
+            "top": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "right": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "left": [
+             "#e8e6e1",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
     "uniqueID": "pd-defense-25-s",
     "kbVersion": 2,
     "columns": 1,
@@ -901,7 +1638,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "La section robotique et renseignement du 1er RCP, des films courts avec Thales et Texelis, des films pour TDA Armements.",
+            "content": "La section robotique et renseignement du 1er RCP, des films courts avec Thales et Texelis, la série pour TDA Armements, Arquus à Milipol 2021.",
             "htmlTag": "p",
             "fontSize": [
              1.0625,
@@ -1540,7 +2277,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-defense-30-s",
+    "uniqueID": "pd-defense-39-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -1599,7 +2336,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-defense-31-c",
+      "uniqueID": "pd-defense-40-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -1612,7 +2349,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-defense-29-r",
+        "uniqueID": "pd-defense-38-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -1647,7 +2384,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-27-c",
+          "uniqueID": "pd-defense-36-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1725,7 +2462,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-28-c",
+          "uniqueID": "pd-defense-37-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1857,7 +2594,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-defense-42-s",
+    "uniqueID": "pd-defense-51-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -1891,7 +2628,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-defense-43-c",
+      "uniqueID": "pd-defense-52-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -1967,7 +2704,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-defense-38-r",
+        "uniqueID": "pd-defense-47-r",
         "kbVersion": 2,
         "columns": 3,
         "colLayout": "equal",
@@ -2010,7 +2747,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-32-c",
+          "uniqueID": "pd-defense-41-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2184,7 +2921,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-33-c",
+          "uniqueID": "pd-defense-42-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2358,7 +3095,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-34-c",
+          "uniqueID": "pd-defense-43-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2532,7 +3269,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-35-c",
+          "uniqueID": "pd-defense-44-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2632,7 +3369,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-36-c",
+          "uniqueID": "pd-defense-45-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2647,13 +3384,13 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "https://i.ytimg.com/vi/A1yfSvxryKg/hqdefault.jpg",
-            "alt": "Vignette du film « TDA, mortier tracté rayé de 120 mm »",
+            "url": "https://i.ytimg.com/vi/MX1rXj52K88/hqdefault.jpg",
+            "alt": "Vignette du film « Capitaine Raymond Locci »",
             "useRatio": true,
             "ratio": "land169",
-            "link": "https://www.youtube.com/watch?v=A1yfSvxryKg",
+            "link": "https://www.youtube.com/watch?v=MX1rXj52K88",
             "linkTarget": true,
-            "linkTitle": "Voir « TDA, mortier tracté rayé de 120 mm » sur YouTube (nouvel onglet)",
+            "linkTitle": "Voir « Capitaine Raymond Locci » sur YouTube (nouvel onglet)",
             "borderRadius": [
              2,
              2,
@@ -2673,7 +3410,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "TDA, mortier tracté rayé de 120 mm",
+            "content": "Capitaine Raymond Locci",
             "level": 3,
             "typography": "Newsreader",
             "googleFont": false,
@@ -2703,7 +3440,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Présentation du matériel · 6 min",
+            "content": "Brevet para 12204 · réalisé avec l'amicale du 1er RCP · septembre 2025 · plus de 33 000 vues · 1 h 36",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2732,7 +3469,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-37-c",
+          "uniqueID": "pd-defense-46-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2745,74 +3482,35 @@
          },
          "innerBlocks": [
           {
-           "name": "core/cover",
+           "name": "kadence/image",
            "attributes": {
-            "customGradient": "linear-gradient(160deg,hsl(231 22% 34%),hsl(231 26% 10%))",
-            "dimRatio": 100,
-            "isDark": true,
-            "contentPosition": "bottom left",
-            "minHeight": 120,
-            "minHeightUnit": "px",
-            "style": {
-             "dimensions": {
-              "aspectRatio": "16/9"
-             },
-             "border": {
-              "radius": "2px"
-             },
-             "spacing": {
-              "margin": {
-               "bottom": "14px"
-              },
-              "padding": {
-               "top": "12px",
-               "right": "14px",
-               "bottom": "12px",
-               "left": "14px"
-              }
-             }
-            },
-            "className": "pd-vignette-vide"
-           },
-           "innerBlocks": []
-          },
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "Série",
-            "htmlTag": "p",
-            "typography": "IBM Plex Mono",
-            "googleFont": false,
-            "fontWeight": "500",
-            "fontSize": [
-             0.75,
-             "",
-             ""
+            "url": "https://i.ytimg.com/vi/NFZDGtgBNIk/hqdefault.jpg",
+            "alt": "Vignette du film « FA3R et Résilience pour Europorte »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=NFZDGtgBNIk",
+            "linkTarget": true,
+            "linkTitle": "Voir « FA3R et Résilience pour Europorte » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
             ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.5,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "letterSpacing": 0.14,
-            "letterSpacingType": "em",
-            "textTransform": "uppercase",
-            "color": "palette5",
-            "margin": [
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
              0,
-             "",
-             6,
-             ""
+             0,
+             14,
+             0
             ],
-            "marginType": "px"
+            "marginUnit": "px"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Opération Serval",
+            "content": "FA3R et Résilience pour Europorte",
             "level": 3,
             "typography": "Newsreader",
             "googleFont": false,
@@ -2836,18 +3534,13 @@
              6,
              ""
             ],
-            "marginType": "px",
-            "link": "/serie-serval/",
-            "linkTarget": false,
-            "linkStyle": "hover_underline",
-            "linkColor": "palette3",
-            "linkHoverColor": "palette2"
+            "marginType": "px"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Mali 2013 · plus de 2 millions de vues",
+            "content": "Novembre 2025 · 3 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -2870,36 +3563,6 @@
             ],
             "marginType": "px"
            }
-          },
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "<a href=\"/serie-serval/\">Voir la série</a>",
-            "htmlTag": "p",
-            "fontSize": [
-             0.85,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.5,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "color": "palette4",
-            "margin": [
-             0,
-             "",
-             0,
-             ""
-            ],
-            "marginType": "px",
-            "linkColor": "palette3",
-            "linkHoverColor": "palette2",
-            "linkStyle": "underline"
-           }
           }
          ]
         }
@@ -2908,7 +3571,7 @@
       {
        "name": "kadence/advancedbtn",
        "attributes": {
-        "uniqueID": "pd-defense-39-g",
+        "uniqueID": "pd-defense-48-g",
         "hAlign": "left",
         "gap": [
          0.9,
@@ -2944,7 +3607,7 @@
         {
          "name": "kadence/singlebtn",
          "attributes": {
-          "uniqueID": "pd-defense-40-b",
+          "uniqueID": "pd-defense-49-b",
           "text": "Demander un devis",
           "link": "/contact/",
           "borderRadius": [
@@ -3050,7 +3713,7 @@
         {
          "name": "kadence/singlebtn",
          "attributes": {
-          "uniqueID": "pd-defense-41-b",
+          "uniqueID": "pd-defense-50-b",
           "text": "Tous les films",
           "link": "/films/",
           "borderRadius": [
@@ -3153,6 +3816,1000 @@
            }
           ]
          }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-defense-61-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette8",
+    "textColor": "palette3",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "serval",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "",
+       "",
+       ""
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-defense-62-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Opération Serval · Mali, janvier à avril 2013",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Une série vue plus de deux millions de fois",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Les images de l'armée française, sélectionnées et montées au rythme des opérations, diffusées dans la presse nationale et internationale.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0625,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         32,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         672,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-defense-57-r",
+        "kbVersion": 2,
+        "columns": 4,
+        "colLayout": "equal",
+        "mobileLayout": "two-grid",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "tabletLayout": "two-grid",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         24,
+         20,
+         16
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         36,
+         28,
+         24
+        ],
+        "rowGutterType": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-53-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "borderStyle": [
+           {
+            "top": [
+             "#c8b287",
+             "solid",
+             1
+            ],
+            "right": [
+             "",
+             "",
+             ""
+            ],
+            "bottom": [
+             "",
+             "",
+             ""
+            ],
+            "left": [
+             "",
+             "",
+             ""
+            ],
+            "unit": "px"
+           }
+          ],
+          "padding": [
+           16,
+           0,
+           0,
+           0
+          ],
+          "paddingType": "px"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "2 millions",
+            "htmlTag": "p",
+            "fontSize": [
+             2.8,
+             2.6,
+             2.4
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "de vues sur YouTube, pour les dix-huit films de la série",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-54-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "borderStyle": [
+           {
+            "top": [
+             "#c8b287",
+             "solid",
+             1
+            ],
+            "right": [
+             "",
+             "",
+             ""
+            ],
+            "bottom": [
+             "",
+             "",
+             ""
+            ],
+            "left": [
+             "",
+             "",
+             ""
+            ],
+            "unit": "px"
+           }
+          ],
+          "padding": [
+           16,
+           0,
+           0,
+           0
+          ],
+          "paddingType": "px"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "625 000",
+            "htmlTag": "p",
+            "fontSize": [
+             2.8,
+             2.6,
+             2.4
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "vues pour « Montée en puissance », le film le plus vu",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-55-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "borderStyle": [
+           {
+            "top": [
+             "#c8b287",
+             "solid",
+             1
+            ],
+            "right": [
+             "",
+             "",
+             ""
+            ],
+            "bottom": [
+             "",
+             "",
+             ""
+            ],
+            "left": [
+             "",
+             "",
+             ""
+            ],
+            "unit": "px"
+           }
+          ],
+          "padding": [
+           16,
+           0,
+           0,
+           0
+          ],
+          "paddingType": "px"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "345 000",
+            "htmlTag": "p",
+            "fontSize": [
+             2.8,
+             2.6,
+             2.4
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "vues pour « Combats dans l'Adrar des Ifhôgas », mis en ligne le 2 mars 2013",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-56-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "borderStyle": [
+           {
+            "top": [
+             "#c8b287",
+             "solid",
+             1
+            ],
+            "right": [
+             "",
+             "",
+             ""
+            ],
+            "bottom": [
+             "",
+             "",
+             ""
+            ],
+            "left": [
+             "",
+             "",
+             ""
+            ],
+            "unit": "px"
+           }
+          ],
+          "padding": [
+           16,
+           0,
+           0,
+           0
+          ],
+          "paddingType": "px"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "+ 1 000",
+            "htmlTag": "p",
+            "fontSize": [
+             2.8,
+             2.6,
+             2.4
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "abonnés et plus de 1 000 partages sur Facebook et Twitter entre le 15 janvier et le 15 mars 2013",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-defense-60-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         40,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         40
+        ],
+        "rowGutterType": "px",
+        "margin": [
+         56,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-58-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Comment ces films ont été faits",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.9,
+             1.75,
+             1.6
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "À l'époque, le ministère de la Défense ne diffusait pas de films sur les réseaux. Les images étaient fournies à la presse, dont je faisais partie, sous forme de bandes éléments livrées par l'EMA et l'ECPAD.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "J'en ai tiré, de ma propre initiative et en urgence opérationnelle, des films montés quasiment en temps réel des opérations, avec la société de production Studio Beta Prod 32 et la musique de Mathieu Gauriat. Ils ont accompagné l'accélération de la politique de diffusion du ministère pour faire rayonner nos armes.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Images : EMA / ECPAD<br>Diffusion : ECPAD<br>Réalisation et montage : Pascal Dupont<br>Production : Studio Beta Prod 32<br>Musique : Mathieu Gauriat<br>Sans utilisation commerciale",
+            "htmlTag": "p",
+            "fontSize": [
+             0.8,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.8,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "400",
+            "borderStyle": [
+             {
+              "top": [
+               "",
+               "",
+               ""
+              ],
+              "right": [
+               "",
+               "",
+               ""
+              ],
+              "bottom": [
+               "",
+               "",
+               ""
+              ],
+              "left": [
+               "#a3302f",
+               "solid",
+               2
+              ],
+              "unit": "px"
+             }
+            ],
+            "padding": [
+             0,
+             0,
+             0,
+             16
+            ],
+            "paddingType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-59-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Repris par la presse",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.9,
+             1.75,
+             1.6
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "core/table",
+           "attributes": {
+            "body": [
+             {
+              "cells": [
+               {
+                "content": "Le Figaro",
+                "tag": "td"
+               },
+               {
+                "content": "29 janv. et 5 mars",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Ouest-France, Lignes de défense",
+                "tag": "td"
+               },
+               {
+                "content": "29 janv.",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "La Voix du Nord",
+                "tag": "td"
+               },
+               {
+                "content": "29 janv.",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Zone Militaire (Opex 360)",
+                "tag": "td"
+               },
+               {
+                "content": "24 janv., 2 et 28 mars",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "The Aviationist (États-Unis)",
+                "tag": "td"
+               },
+               {
+                "content": "28 janv.",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Polska Zbrojna (Pologne)",
+                "tag": "td"
+               },
+               {
+                "content": "7 févr., 4 et 27 mars",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Mali Actu",
+                "tag": "td"
+               },
+               {
+                "content": "3 févr., 2 mars",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "InfosDéfense",
+                "tag": "td"
+               },
+               {
+                "content": "2 mars",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Sud Ouest",
+                "tag": "td"
+               },
+               {
+                "content": "18 mars",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "RP Défense",
+                "tag": "td"
+               },
+               {
+                "content": "25 mars",
+                "tag": "td"
+               }
+              ]
+             }
+            ],
+            "hasFixedLayout": false,
+            "className": "pd-liste"
+           }
+          }
+         ]
         }
        ]
       }

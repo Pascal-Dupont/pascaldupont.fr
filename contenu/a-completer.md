@@ -27,3 +27,11 @@
 ## Limites connues
 - L'envoi du formulaire de contact n'a pas pu être testé jusqu'au courriel (pas de serveur de messagerie dans le banc d'essai). À essayer dès l'installation ; si le courriel n'arrive pas, installer l'extension gratuite « WP Mail SMTP ».
 - Les vignettes YouTube ne se chargent que sur le vrai site (le banc d'essai n'y avait pas accès).
+
+## Mise à jour du 8 octobre 2026
+- [ ] Film « La musique » : titre exact, année, lien YouTube (ou autre) et deux lignes de présentation, pour le mettre en avant.
+- [ ] « Institut IE » : confirmer le nom exact, l'année et le lien du film pour la page Entreprises.
+- [ ] Documentaires : chiffres et faits pour les textes (La nuit leur appartient : audience, distinctions, « succès à plus d'un titre » ; Chroniques du 93 ; Voix d'Amazonie).
+- [ ] Série TDA : confirmer l'ordre et les titres des films ; accord de TDA/Thales pour la citer (en cours, via le général Barrera).
+- [ ] Série Serval : films en privé ; le contenu (chiffres, fabrication, presse) est dans la page Défense. Miniatures d'audience : en attente de l'accord de l'ECPAD.
+- [ ] Arquus : accord éventuel pour citer Arquus comme client (le film de Milipol 2021 est visible).

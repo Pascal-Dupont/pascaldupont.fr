@@ -1,1382 +1,1672 @@
 {
- "_note": "Source unique des textes du site. Le générateur outils/pages_kadence.py lit ce fichier. Les textes viennent de la maquette validée par Pascal Dupont (octobre 2026).",
- "identite": {
-  "nom": "Pascal Dupont",
-  "slogan": "Auteur-réalisateur documentaire",
-  "telephone": "06 86 31 15 96",
-  "email": "creationvideo@live.fr",
-  "reseaux_personnels": [
-   {
-    "reseau": "YouTube",
-    "url": "https://www.youtube.com/@PascalDupont"
-   },
-   {
-    "reseau": "LinkedIn",
-    "url": "https://www.linkedin.com/in/pascal-dupont-7932037b/"
-   },
-   {
-    "reseau": "Instagram",
-    "url": "https://www.instagram.com/pascal_dupont_/"
-   },
-   {
-    "reseau": "Facebook",
-    "url": "https://www.facebook.com/Pascal.Dupont"
-   },
-   {
-    "reseau": "X",
-    "url": "https://x.com/PascalDupont"
-   },
-   {
-    "reseau": "TikTok",
-    "url": "https://www.tiktok.com/@lakelab3"
-   }
-  ],
-  "reseaux_lakelab": [
-   {
-    "reseau": "Instagram LAKELAB",
-    "url": "https://www.instagram.com/lake.lab/"
-   },
-   {
-    "reseau": "Facebook LAKELAB",
-    "url": "https://www.facebook.com/lakelab/"
-   }
-  ]
- },
- "pages": {
-  "accueil": {
-   "titre": "Accueil",
-   "hero": {
-    "surtitre": "Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission",
-    "titre": "Je filme l'engagement et ",
-    "titre_accent": "ce qu'il laisse",
-    "titre_fin": ".",
-    "texte": "Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.",
-    "boutons": [
-     {
-      "texte": "Voir les films",
-      "url": "/films/",
-      "style": "plein"
-     },
-     {
-      "texte": "Parler d'un projet",
-      "url": "/contact/",
-      "style": "contour"
-     },
-     {
-      "texte": "Chaîne YouTube",
-      "url": "https://www.youtube.com/@PascalDupont",
-      "style": "contour"
-     }
-    ]
-   },
-   "a_la_une": {
-    "surtitre": "À la une",
-    "titre": "Des films pour garder la trace",
-    "texte": "Documentaires pour la télévision, portraits de témoins, films de mémoire pour le 1er RCP, et une série de reportages vus plus de deux millions de fois.",
-    "bouton": {
-     "texte": "Tous les films",
-     "url": "/films/",
-     "style": "contour"
-    }
-   },
-   "revivre": {
-    "surtitre": "En développement · Documentaire, 52 minutes",
-    "titre": "REVIVRE",
-    "question": "Que devient-on quand on ne peut plus être celui qu'on était ?",
-    "paragraphes": [
-     "Militaires, gendarmes, policiers, pompiers, soignants : ceux qui servent portent parfois des blessures qui ne se voient pas. Le stress post-traumatique touche bien plus de monde qu'on ne le croit, et il se vit souvent en silence.",
-     "REVIVRE suit quelques parcours de femmes et d'hommes qui ont fait de leur blessure autre chose qu'une fin. Le film ne raconte ni des exploits ni des défis. Il raconte des combats réels, menés avec lenteur, avec leurs rechutes et leurs relèvements, et ce qu'ils décident d'en faire une fois debout.",
-     "Le dernier mouvement du film est tourné vers la transmission : ce que ceux qui se sont relevés donnent à des jeunes en rupture, et ce que cela dit du lien entre l'Armée et la Nation.",
-     "Un documentaire d'auteur, tourné avec les personnes concernées, dans le respect de chacune et sans mise en scène de la douleur."
-    ]
-   },
-   "references": {
-    "surtitre": "Clients et partenaires",
-    "titre": "Ils m'ont fait confiance",
-    "noms": [
-     "Fondation Résilience",
-     "FA3R",
-     "TDA Armements"
-    ]
-   },
-   "prestations": {
-    "ancre": "prestations",
-    "surtitre": "Pour les institutions et les entreprises",
-    "titre": "Prestations",
-    "texte": "Le regard d'un documentariste au service de vos projets, avec une attention particulière pour la défense et la sécurité.",
-    "lignes": [
-     {
-      "titre": "Films institutionnels et documentaires",
-      "texte": "Du repérage à la livraison. <strong>Références : 1er RCP, Europorte.</strong> Un récit sobre, fidèle à ceux que l'on filme."
-     },
-     {
-      "titre": "Portraits filmés",
-      "texte": "Recueillir la parole d'un témoin, d'un chef, d'une équipe, et la mettre en images pour durer."
-     },
-     {
-      "titre": "Captation d'événements",
-      "texte": "Salons, journées portes ouvertes, cérémonies, exercices : tourner sur le vif et monter vite."
-     },
-     {
-      "titre": "Stratégie et communication",
-      "texte": "Définir ce qu'il faut montrer, à qui, et sur quels supports, avant de tourner."
-     },
-     {
-      "titre": "Montage et post-production",
-      "texte": "Montage, étalonnage et sous-titrage de vos propres images."
-     }
+  "_note": "Source unique des textes du site. Le générateur outils/pages_kadence.py lit ce fichier. Les textes viennent de la maquette validée par Pascal Dupont (octobre 2026).",
+  "identite": {
+    "nom": "Pascal Dupont",
+    "slogan": "Auteur-réalisateur documentaire",
+    "telephone": "06 86 31 15 96",
+    "email": "contact@pascaldupont.fr",
+    "reseaux_personnels": [
+      {
+        "reseau": "YouTube",
+        "url": "https://www.youtube.com/@PascalDupont"
+      },
+      {
+        "reseau": "LinkedIn",
+        "url": "https://www.linkedin.com/in/pascal-dupont-7932037b/"
+      },
+      {
+        "reseau": "Instagram",
+        "url": "https://www.instagram.com/pascal_dupont_/"
+      },
+      {
+        "reseau": "Facebook",
+        "url": "https://www.facebook.com/Pascal.Dupont"
+      },
+      {
+        "reseau": "X",
+        "url": "https://x.com/PascalDupont"
+      },
+      {
+        "reseau": "TikTok",
+        "url": "https://www.tiktok.com/@lakelab3"
+      }
     ],
-    "boutons": [
-     {
-      "texte": "Demander un devis",
-      "url": "/contact/",
-      "style": "plein"
-     },
-     {
-      "texte": "Défense et sécurité",
-      "url": "/defense-et-securite/",
-      "style": "contour-sombre"
-     }
+    "reseaux_lakelab": [
+      {
+        "reseau": "Instagram LAKELAB",
+        "url": "https://www.instagram.com/lake.lab/"
+      },
+      {
+        "reseau": "Facebook LAKELAB",
+        "url": "https://www.facebook.com/lakelab/"
+      }
     ]
-   },
-   "lakelab": {
-    "surtitre": "Recherches esthétiques",
-    "titre": "LAKELAB",
-    "texte": "Un FabLab au bord du lac. Avec Lucile, nous y menons nos recherches : photographie, cinéma, musique, culture. Elles sont publiées au fil de l'eau sur Instagram et Facebook.",
-    "bouton": {
-     "texte": "Découvrir LAKELAB",
-     "url": "/lakelab/",
-     "style": "contour"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Accueil",
+      "hero": {
+        "surtitre": "Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission",
+        "titre": "Je filme l'engagement et ",
+        "titre_accent": "ce qu'il laisse",
+        "titre_fin": ".",
+        "texte": "Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.",
+        "boutons": [
+          {
+            "texte": "Voir les films",
+            "url": "/films/",
+            "style": "plein"
+          },
+          {
+            "texte": "Parler d'un projet",
+            "url": "/contact/",
+            "style": "contour"
+          },
+          {
+            "texte": "Chaîne YouTube",
+            "url": "https://www.youtube.com/@PascalDupont",
+            "style": "contour"
+          }
+        ]
+      },
+      "a_la_une": {
+        "surtitre": "À la une",
+        "titre": "Des films pour garder la trace",
+        "texte": "Documentaires pour la télévision, portraits de témoins, films de mémoire pour le 1er RCP et films pour l'industrie de défense.",
+        "bouton": {
+          "texte": "Tous les films",
+          "url": "/films/",
+          "style": "contour"
+        }
+      },
+      "revivre": {
+        "surtitre": "En développement · Documentaire, 52 minutes",
+        "titre": "REVIVRE",
+        "question": "Que devient-on quand on ne peut plus être celui qu'on était ?",
+        "paragraphes": [
+          "Militaires, gendarmes, policiers, pompiers, soignants : ceux qui servent portent parfois des blessures qui ne se voient pas. Le stress post-traumatique touche bien plus de monde qu'on ne le croit, et il se vit souvent en silence.",
+          "REVIVRE suit quelques parcours de femmes et d'hommes qui ont fait de leur blessure autre chose qu'une fin. Le film ne raconte ni des exploits ni des défis. Il raconte des combats réels, menés avec lenteur, avec leurs rechutes et leurs relèvements, et ce qu'ils décident d'en faire une fois debout.",
+          "Le dernier mouvement du film est tourné vers la transmission : ce que ceux qui se sont relevés donnent à des jeunes en rupture, et ce que cela dit du lien entre l'Armée et la Nation.",
+          "Un documentaire d'auteur, tourné avec les personnes concernées, dans le respect de chacune et sans mise en scène de la douleur."
+        ]
+      },
+      "references": {
+        "surtitre": "Clients et partenaires",
+        "titre": "Ils m'ont fait confiance",
+        "noms": [
+          "Fondation Résilience",
+          "FA3R",
+          "TDA Armements"
+        ]
+      },
+      "prestations": {
+        "ancre": "prestations",
+        "surtitre": "Pour les institutions et les entreprises",
+        "titre": "Prestations",
+        "texte": "Le regard d'un documentariste au service de vos projets, avec une attention particulière pour la défense et la sécurité.",
+        "lignes": [
+          {
+            "titre": "Films institutionnels et documentaires",
+            "texte": "Du repérage à la livraison. <strong>Références : 1er RCP, Europorte.</strong> Un récit sobre, fidèle à ceux que l'on filme."
+          },
+          {
+            "titre": "Portraits filmés",
+            "texte": "Recueillir la parole d'un témoin, d'un chef, d'une équipe, et la mettre en images pour durer."
+          },
+          {
+            "titre": "Captation d'événements",
+            "texte": "Salons, journées portes ouvertes, cérémonies, exercices : tourner sur le vif et monter vite."
+          },
+          {
+            "titre": "Stratégie et communication",
+            "texte": "Définir ce qu'il faut montrer, à qui, et sur quels supports, avant de tourner."
+          },
+          {
+            "titre": "Montage et post-production",
+            "texte": "Montage, étalonnage et sous-titrage de vos propres images."
+          }
+        ],
+        "boutons": [
+          {
+            "texte": "Demander un devis",
+            "url": "/contact/",
+            "style": "plein"
+          },
+          {
+            "texte": "Défense et sécurité",
+            "url": "/defense-et-securite/",
+            "style": "contour-sombre"
+          }
+        ]
+      },
+      "lakelab": {
+        "surtitre": "Recherches esthétiques",
+        "titre": "LAKELAB",
+        "texte": "Un FabLab au bord du lac. Avec Lucile, nous y menons nos recherches : photographie, cinéma, musique, culture. Elles sont publiées au fil de l'eau sur Instagram et Facebook.",
+        "bouton": {
+          "texte": "Découvrir LAKELAB",
+          "url": "/lakelab/",
+          "style": "contour"
+        }
+      },
+      "contact": {
+        "surtitre": "Contact",
+        "titre": "Parlons de votre projet",
+        "texte": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement.",
+        "bouton": {
+          "texte": "Demander un devis",
+          "url": "/contact/",
+          "style": "plein"
+        }
+      },
+      "menu": [
+        {
+          "titre": "Films",
+          "url": "/films/"
+        },
+        {
+          "titre": "Défense et sécurité",
+          "url": "/defense-et-securite/"
+        },
+        {
+          "titre": "À propos",
+          "url": "/a-propos/"
+        },
+        {
+          "titre": "Prestations",
+          "url": "/#prestations"
+        },
+        {
+          "titre": "LAKELAB",
+          "url": "/lakelab/"
+        },
+        {
+          "titre": "Devis",
+          "url": "/contact/",
+          "classe": "pd-menu-devis"
+        }
+      ]
+    },
+    "films": {
+      "titre": "Films",
+      "entete": {
+        "surtitre": "Réalisations",
+        "titre": "Films",
+        "texte": "Documentaires pour la télévision, films de défense, mémoire combattante, films d'entreprise et créations. Chaque vignette ouvre le film."
+      }
+    },
+    "a-propos": {
+      "titre": "À propos",
+      "entete": {
+        "surtitre": "Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission",
+        "titre": "Je filme l'engagement et ce qu'il laisse."
+      },
+      "portrait": {
+        "texte_provisoire": "Portrait à ajouter"
+      },
+      "paragraphes": [
+        "Auteur-réalisateur documentaire depuis vingt ans. « Chroniques du 93 » pour France 4, « La nuit leur appartient » pour la centième d'Enquête d'action sur W9, le cycle mémoire du 1er Régiment de Chasseurs Parachutistes. Aujourd'hui, un 52 minutes sur le stress post-traumatique et sur ce que les blessés transmettent à des jeunes en rupture.",
+        "Ancien combattant de l'infanterie parachutiste, officier de réserve opérationnelle au 1er RCP. C'est ce qui me permet de filmer là où la caméra est d'ordinaire tolérée plutôt qu'attendue : je connais le terrain, le vocabulaire, et le temps qu'il faut pour qu'un homme accepte de parler.",
+        "Sociétaire de la SCAM. Je travaille avec des maisons de production et des diffuseurs nationaux, du développement à la livraison."
+      ],
+      "citation": "« Qui veut peut, et qui ose gagne. »",
+      "boutons": [
+        {
+          "texte": "Parler d'un projet",
+          "url": "/contact/",
+          "style": "plein"
+        },
+        {
+          "texte": "LinkedIn",
+          "url": "https://www.linkedin.com/in/pascal-dupont-7932037b/",
+          "style": "contour"
+        }
+      ],
+      "reperes": {
+        "titre": "Repères",
+        "lignes": [
+          [
+            "La nuit leur appartient, pour W9",
+            "2008"
+          ],
+          [
+            "Chroniques du 93, pour France 4",
+            "2010"
+          ],
+          [
+            "Série Serval, Mali",
+            "2013"
+          ],
+          [
+            "Voix d'Amazonie, avec Pierre Bayle",
+            "2019-2020"
+          ],
+          [
+            "Eurosatory, films officiels du show daily",
+            "2022"
+          ],
+          [
+            "Films pour le 1er RCP, sur les pages du régiment",
+            "depuis mai 2025"
+          ],
+          [
+            "Histoire du régiment, chapitres 1 à 3",
+            "2026"
+          ],
+          [
+            "Administrateur de l'amicale du 1er RCP, audiovisuel",
+            "depuis août 2025"
+          ],
+          [
+            "REVIVRE, documentaire de 52 minutes",
+            "en développement"
+          ]
+        ]
+      },
+      "lucile": {
+        "titre": "Avec Lucile Guilloteaux",
+        "paragraphes": [
+          "Lucile m'accompagne sur la recherche de documents et de photographies, et signe une grande partie des montages.",
+          "Ensemble, nous animons LAKELAB, notre espace de recherches esthétiques."
+        ],
+        "lien": {
+          "texte": "LAKELAB",
+          "url": "/lakelab/"
+        }
+      }
+    },
+    "defense-et-securite": {
+      "titre": "Défense et sécurité",
+      "entete": {
+        "surtitre": "Pour les armées, les industriels et les institutions",
+        "titre": "Filmer la défense, de l'intérieur.",
+        "texte": "Ancien combattant de l'infanterie parachutiste et officier de réserve, je connais le terrain, le vocabulaire et les contraintes de la communication de défense. Je réalise des films pour des régiments, des industriels et des salons."
+      },
+      "chiffres": [
+        {
+          "valeur": "≈ 900 000",
+          "texte": "vues cumulées sur Instagram, Facebook et X pour les 10 films publiés sur les pages du 1er RCP depuis mai 2025 (relevé du 7 octobre 2026)"
+        },
+        {
+          "valeur": "Depuis 2012",
+          "texte": "à Eurosatory, dont les films officiels du show daily de European Defense Review en 2022"
+        },
+        {
+          "valeur": "10 jours",
+          "texte": "pour tourner et monter seul l'équivalent d'un 52 minutes à Eurosatory 2022"
+        },
+        {
+          "valeur": "2 millions",
+          "texte": "de vues sur YouTube pour la série consacrée à l'opération Serval"
+        }
+      ],
+      "formats": {
+        "surtitre": "Ce que je réalise",
+        "titre": "Cinq formats",
+        "lignes": [
+          {
+            "titre": "Films de présentation d'une unité ou d'un matériel",
+            "texte": "La section robotique et renseignement du 1er RCP, des films courts avec Thales et Texelis, la série pour TDA Armements, Arquus à Milipol 2021."
+          },
+          {
+            "titre": "Reportages d'événements et de salons",
+            "texte": "Eurosatory 2012, 2014 et 2022, Milipol 2021, les journées portes ouvertes du 1er RCP. Tourner sur le vif, monter vite, publier le jour même."
+          },
+          {
+            "titre": "Films de mémoire et d'histoire d'unité",
+            "texte": "L'histoire du 1er RCP en chapitres, de Jebsheim à Diên Biên Phu, des portraits de témoins comme le capitaine Locci et le commandant Everrard."
+          },
+          {
+            "titre": "Entretiens et analyses",
+            "texte": "Des responsables politiques, des chercheurs et des généraux face caméra, comme Christian Cambon, Nicolas Mazzucchi ou le général Pinard Legry."
+          },
+          {
+            "titre": "Conseil en communication de défense",
+            "texte": "Définir ce qu'il faut montrer, à qui et sur quels réseaux. En 2013, en pleine opération Serval, j'ai monté et diffusé de ma propre initiative des films que la presse a largement repris. Déjà connu pour la communication de défense, j'ai été sollicité par Le Figaro comme consultant."
+          }
+        ]
+      },
+      "methode": {
+        "titre": "Ma méthode",
+        "etapes": [
+          [
+            "Cadrer.",
+            "Nous fixons l'objectif, le public et les réseaux avant de tourner."
+          ],
+          [
+            "Tourner.",
+            "Une équipe légère, discrète. Les visages sont anonymisés lorsque la sécurité l'exige."
+          ],
+          [
+            "Faire valider.",
+            "Votre officier communication relit le film avant toute diffusion."
+          ],
+          [
+            "Diffuser.",
+            "Un film long pour YouTube, des formats courts pour Instagram, Facebook et X."
+          ]
+        ]
+      },
+      "references": {
+        "titre": "Références",
+        "lignes": [
+          [
+            "1er régiment de chasseurs parachutistes",
+            "2025-2026"
+          ],
+          [
+            "European Defense Review, Eurosatory",
+            "2022"
+          ],
+          [
+            "TDA Armements (aujourd'hui Thales)",
+            ""
+          ],
+          [
+            "Thales et Texelis (aujourd'hui KNDS France), avec le 1er RCP",
+            "2026"
+          ],
+          [
+            "UNAC, avec le 1er RCP",
+            "2025"
+          ],
+          [
+            "Opération Serval, pour la presse",
+            "2013"
+          ]
+        ]
+      },
+      "selection": {
+        "surtitre": "À voir",
+        "titre": "Quelques films",
+        "films": [
+          "RCP3",
+          "RCP1",
+          "RCP9",
+          "bhsuc7c241k",
+          "MX1rXj52K88",
+          "NFZDGtgBNIk"
+        ],
+        "boutons": [
+          {
+            "texte": "Demander un devis",
+            "url": "/contact/",
+            "style": "plein"
+          },
+          {
+            "texte": "Tous les films",
+            "url": "/films/",
+            "style": "contour"
+          }
+        ]
+      },
+      "industrie": {
+        "surtitre": "Industrie de défense",
+        "titre": "Filmer les matériels et ceux qui les servent",
+        "texte": "Des films de présentation tournés en conditions réelles, au plus près des utilisateurs : la série réalisée pour TDA Armements (aujourd'hui Thales) et le reportage d'Arquus à Milipol 2021.",
+        "films": [
+          "QMFdHoR7FxM",
+          "A1yfSvxryKg",
+          "bNW6-rmkwSk",
+          "x0FG7S3E070"
+        ],
+        "boutons": [
+          {
+            "texte": "Tous les films de défense",
+            "url": "/films/#films-defense",
+            "style": "contour"
+          }
+        ]
+      },
+      "serval": {
+        "surtitre": "Opération Serval · Mali, janvier à avril 2013",
+        "titre": "Une série vue plus de deux millions de fois",
+        "texte": "Les images de l'armée française, sélectionnées et montées au rythme des opérations, diffusées dans la presse nationale et internationale.",
+        "chiffres": [
+          {
+            "valeur": "2 millions",
+            "texte": "de vues sur YouTube, pour les dix-huit films de la série"
+          },
+          {
+            "valeur": "625 000",
+            "texte": "vues pour « Montée en puissance », le film le plus vu"
+          },
+          {
+            "valeur": "345 000",
+            "texte": "vues pour « Combats dans l'Adrar des Ifhôgas », mis en ligne le 2 mars 2013"
+          },
+          {
+            "valeur": "+ 1 000",
+            "texte": "abonnés et plus de 1 000 partages sur Facebook et Twitter entre le 15 janvier et le 15 mars 2013"
+          }
+        ],
+        "fabrication": {
+          "titre": "Comment ces films ont été faits",
+          "paragraphes": [
+            "À l'époque, le ministère de la Défense ne diffusait pas de films sur les réseaux. Les images étaient fournies à la presse, dont je faisais partie, sous forme de bandes éléments livrées par l'EMA et l'ECPAD.",
+            "J'en ai tiré, de ma propre initiative et en urgence opérationnelle, des films montés quasiment en temps réel des opérations, avec la société de production Studio Beta Prod 32 et la musique de Mathieu Gauriat. Ils ont accompagné l'accélération de la politique de diffusion du ministère pour faire rayonner nos armes."
+          ],
+          "credits": [
+            "Images : EMA / ECPAD",
+            "Diffusion : ECPAD",
+            "Réalisation et montage : Pascal Dupont",
+            "Production : Studio Beta Prod 32",
+            "Musique : Mathieu Gauriat",
+            "Sans utilisation commerciale"
+          ]
+        },
+        "presse": {
+          "titre": "Repris par la presse",
+          "lignes": [
+            [
+              "Le Figaro",
+              "29 janv. et 5 mars"
+            ],
+            [
+              "Ouest-France, Lignes de défense",
+              "29 janv."
+            ],
+            [
+              "La Voix du Nord",
+              "29 janv."
+            ],
+            [
+              "Zone Militaire (Opex 360)",
+              "24 janv., 2 et 28 mars"
+            ],
+            [
+              "The Aviationist (États-Unis)",
+              "28 janv."
+            ],
+            [
+              "Polska Zbrojna (Pologne)",
+              "7 févr., 4 et 27 mars"
+            ],
+            [
+              "Mali Actu",
+              "3 févr., 2 mars"
+            ],
+            [
+              "InfosDéfense",
+              "2 mars"
+            ],
+            [
+              "Sud Ouest",
+              "18 mars"
+            ],
+            [
+              "RP Défense",
+              "25 mars"
+            ]
+          ]
+        }
+      }
+    },
+    "lakelab": {
+      "titre": "LAKELAB",
+      "entete": {
+        "surtitre": "Recherches esthétiques",
+        "titre": "LAKELAB",
+        "texte": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général."
+      },
+      "suivre": {
+        "titre": "Où nous suivre",
+        "texte": "Nos recherches sont publiées au fil de l'eau sur Instagram et Facebook."
+      },
+      "films": {
+        "titre": "Les premiers films LAKELAB",
+        "ids": [
+          "iJQCmkrEMuU",
+          "6FrZTiHyWsk"
+        ]
+      }
+    },
+    "contact": {
+      "titre": "Devis et contact",
+      "entete": {
+        "surtitre": "Contact",
+        "titre": "Parlons de votre projet",
+        "texte": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement."
+      },
+      "types_projet": [
+        "Documentaire ou film institutionnel",
+        "Portrait filmé",
+        "Captation d'événement",
+        "Stratégie et communication",
+        "Montage et post-production",
+        "Autre demande"
+      ]
+    },
+    "mentions-legales": {
+      "titre": "Mentions légales",
+      "sections": [
+        {
+          "titre": "Éditeur du site",
+          "lignes": [
+            "Pascal Dupont, auteur-réalisateur, micro-entrepreneur.",
+            "SIRET : 793 930 298 00021",
+            "Adresse : 4 allée des Anciens d'AFN, 88110 Vexaincourt",
+            "Téléphone : 06 86 31 15 96",
+            "E-mail : contact@pascaldupont.fr",
+            "Directeur de la publication : Pascal Dupont."
+          ]
+        },
+        {
+          "titre": "Hébergeur",
+          "lignes": [
+            "OVH SAS, 2 rue Kellermann, 59100 Roubaix, France."
+          ]
+        },
+        {
+          "titre": "Propriété intellectuelle",
+          "lignes": [
+            "Les textes, films et photographies de ce site sont la propriété de Pascal Dupont, sauf mention contraire. Les images de l'opération Serval proviennent de l'EMA et sont diffusées par l'ECPAD, sans utilisation commerciale. Toute reproduction sans accord est interdite."
+          ]
+        },
+        {
+          "titre": "Liens et contenus tiers",
+          "lignes": [
+            "Les films sont hébergés sur YouTube, Instagram, Facebook et X. Ces services sont responsables de leurs propres contenus et de leurs conditions d'utilisation."
+          ]
+        },
+        {
+          "titre": "Crédits",
+          "lignes": [
+            "Thème Kadence et extension Kadence Blocks. Polices Newsreader, Hanken Grotesk et IBM Plex Mono, sous licence SIL OFL."
+          ]
+        }
+      ]
+    },
+    "confidentialite": {
+      "titre": "Politique de confidentialité",
+      "sections": [
+        {
+          "titre": "Responsable du traitement",
+          "lignes": [
+            "Pascal Dupont, joignable à l'adresse contact@pascaldupont.fr."
+          ]
+        },
+        {
+          "titre": "Données collectées",
+          "lignes": [
+            "Le formulaire de contact recueille votre nom, votre adresse e-mail, le type de projet et votre message. Elles servent uniquement à répondre à votre demande. Elles ne sont ni vendues ni transmises à des tiers."
+          ]
+        },
+        {
+          "titre": "Conservation",
+          "lignes": [
+            "Les messages sont conservés trois ans après le dernier échange, puis supprimés."
+          ]
+        },
+        {
+          "titre": "Cookies et services tiers",
+          "lignes": [
+            "Ce site n'utilise ni statistiques ni publicité, et ne dépose pas de cookie de suivi. Les vignettes des films sont chargées depuis les serveurs de YouTube (Google) : votre adresse IP leur est alors transmise. Les liens vers YouTube, Instagram, Facebook et X ouvrent ces services, qui appliquent leurs propres règles."
+          ]
+        },
+        {
+          "titre": "Vos droits",
+          "lignes": [
+            "Vous pouvez demander l'accès à vos données, leur rectification, leur effacement ou vous opposer à leur traitement, en écrivant à contact@pascaldupont.fr. En cas de difficulté, vous pouvez saisir la CNIL (cnil.fr)."
+          ]
+        },
+        {
+          "titre": "Hébergement",
+          "lignes": [
+            "Le site est hébergé par OVH SAS, 2 rue Kellermann, 59100 Roubaix, France."
+          ]
+        }
+      ],
+      "a_relire": false
     }
-   },
-   "contact": {
-    "surtitre": "Contact",
-    "titre": "Parlons de votre projet",
-    "texte": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement.",
-    "bouton": {
-     "texte": "Demander un devis",
-     "url": "/contact/",
-     "style": "plein"
-    }
-   },
-   "menu": [
-    {
-     "titre": "Films",
-     "url": "/films/"
-    },
-    {
-     "titre": "Série Serval",
-     "url": "/serie-serval/"
-    },
-    {
-     "titre": "À propos",
-     "url": "/a-propos/"
-    },
-    {
-     "titre": "Prestations",
-     "url": "/#prestations"
-    },
-    {
-     "titre": "LAKELAB",
-     "url": "/lakelab/"
-    },
-    {
-     "titre": "Devis",
-     "url": "/contact/",
-     "classe": "pd-menu-devis"
-    }
-   ]
   },
   "films": {
-   "titre": "Films",
-   "entete": {
-    "surtitre": "Réalisations",
-    "titre": "Films",
-    "texte": "Documentaires pour la télévision, portraits de témoins, films de mémoire, reportages, films pour entreprises et clips. Chaque vignette ouvre le film."
-   },
-   "lien_serie": {
-    "texte": "Voir toute la série Serval",
-    "url": "/serie-serval/"
-   }
-  },
-  "serie-serval": {
-   "titre": "Série Serval",
-   "entete": {
-    "retour": {
-     "texte": "← Tous les films",
-     "url": "/films/"
-    },
-    "surtitre": "Mali · Janvier à avril 2013",
-    "titre": "Opération Serval, en images",
-    "texte": "Les images de l'armée française, sélectionnées et montées au rythme des opérations, diffusées dans la presse nationale et internationale."
-   },
-   "chiffres": [
-    {
-     "valeur": "2 millions",
-     "texte": "de vues sur YouTube, pour les dix-huit films de la série"
-    },
-    {
-     "valeur": "625 000",
-     "texte": "vues pour « Montée en puissance », le film le plus vu"
-    },
-    {
-     "valeur": "345 000",
-     "texte": "vues pour « Combats dans l'Adrar des Ifhôgas », mis en ligne le 2 mars 2013"
-    },
-    {
-     "valeur": "+ 1 000",
-     "texte": "abonnés et plus de 1 000 partages sur Facebook et Twitter entre le 15 janvier et le 15 mars 2013"
-    }
-   ],
-   "fabrication": {
-    "titre": "Comment ces films ont été faits",
-    "paragraphes": [
-     "À l'époque, le ministère de la Défense ne diffusait pas de films sur les réseaux. Les images étaient fournies à la presse, dont je faisais partie, sous forme de bandes éléments livrées par l'EMA et l'ECPAD.",
-     "J'en ai tiré, de ma propre initiative et en urgence opérationnelle, des films montés quasiment en temps réel des opérations, avec la société de production Studio Beta Prod 32 et la musique de Mathieu Gauriat. Ils ont accompagné l'accélération de la politique de diffusion du ministère pour faire rayonner nos armes."
+    "groupes": [
+      {
+        "cle": "doc",
+        "titre": "Documentaires",
+        "texte": "Des films d'auteur diffusés ou prêts pour la télévision.",
+        "films": [
+          {
+            "id": "c4xGjV6-sNg",
+            "titre": "Chroniques du 93",
+            "description": "Pour France 4 · 2010 · immersion dans la CSI 93, en Seine-Saint-Denis",
+            "duree": "52:21",
+            "youtube": "https://www.youtube.com/watch?v=c4xGjV6-sNg"
+          },
+          {
+            "id": "DOIkFS4peF8",
+            "titre": "La nuit leur appartient, BAC Paris",
+            "description": "Pour la centième d'Enquête d'action, sur W9 · 2008 · partie 1 sur 6",
+            "duree": "8:54",
+            "youtube": "https://www.youtube.com/watch?v=DOIkFS4peF8"
+          },
+          {
+            "id": "yzubFqyXDmk",
+            "titre": "Voix d'Amazonie",
+            "description": "Avec Pierre Bayle · les communautés indigènes d'Équateur face à l'extraction minière et pétrolière",
+            "duree": "43:45",
+            "youtube": "https://www.youtube.com/watch?v=yzubFqyXDmk"
+          },
+          {
+            "id": "AZERIB9ymiE",
+            "titre": "Hélie de Saint Marc, témoin du siècle",
+            "description": "Extrait avant-première",
+            "duree": "3:26",
+            "youtube": "https://www.youtube.com/watch?v=AZERIB9ymiE"
+          }
+        ],
+        "liens": [],
+        "lienSerie": false
+      },
+      {
+        "cle": "defense",
+        "titre": "Défense et industrie",
+        "texte": "Films de présentation de matériels et reportages de salon pour les industriels de la défense : Arquus à Milipol 2021, TDA Armements (aujourd'hui Thales).",
+        "films": [
+          {
+            "id": "QMFdHoR7FxM",
+            "titre": "Arquus à Milipol 2021",
+            "description": "Reportage pour OPS TV, tourné en 4K",
+            "duree": "1:16",
+            "youtube": "https://www.youtube.com/watch?v=QMFdHoR7FxM"
+          },
+          {
+            "id": "A1yfSvxryKg",
+            "titre": "TDA, mortier tracté rayé de 120 mm",
+            "description": "Présentation du matériel",
+            "duree": "6:00",
+            "youtube": "https://www.youtube.com/watch?v=A1yfSvxryKg"
+          },
+          {
+            "id": "bNW6-rmkwSk",
+            "titre": "TDA, mortier de 120 mm sur le terrain",
+            "description": "En manœuvre, avec l'artillerie",
+            "duree": "3:32",
+            "youtube": "https://www.youtube.com/watch?v=bNW6-rmkwSk"
+          },
+          {
+            "id": "QxnCk8AzNmE",
+            "titre": "TDA, mortier de 120 mm avec le 68e RAA",
+            "description": "En manœuvre",
+            "duree": "1:19",
+            "youtube": "https://www.youtube.com/watch?v=QxnCk8AzNmE"
+          },
+          {
+            "id": "x0FG7S3E070",
+            "titre": "TDA, systèmes de roquettes à induction",
+            "description": "Telson et Aculeus",
+            "duree": "4:37",
+            "youtube": "https://www.youtube.com/watch?v=x0FG7S3E070"
+          },
+          {
+            "id": "QdW01BdD24k",
+            "titre": "TDA, roquettes à induction sur Tigre",
+            "description": "Chargement, avec le 1er RHC, à Suippes",
+            "duree": "1:34",
+            "youtube": "https://www.youtube.com/watch?v=QdW01BdD24k"
+          }
+        ],
+        "liens": [],
+        "lienSerie": false
+      },
+      {
+        "cle": "rcp",
+        "titre": "Pour le 1er RCP",
+        "texte": "Films réalisés pour le 1er régiment de chasseurs parachutistes, à voir sur les pages officielles du régiment.",
+        "films": [
+          {
+            "id": "RCP1",
+            "titre": "JPO 2025, première partie",
+            "description": "Journées portes ouvertes du régiment",
+            "duree": "",
+            "liens": [
+              {
+                "reseau": "Instagram",
+                "url": "https://www.instagram.com/reel/DKbpGcdso3j/"
+              },
+              {
+                "reseau": "Facebook",
+                "url": "https://www.facebook.com/share/v/1HcxhUaZkf/"
+              }
+            ],
+            "etiquette": "Reportage"
+          },
+          {
+            "id": "RCP2",
+            "titre": "JPO 2025, deuxième partie",
+            "description": "Journées portes ouvertes du régiment",
+            "duree": "",
+            "liens": [
+              {
+                "reseau": "Instagram",
+                "url": "https://www.instagram.com/reel/DKgzcVEMQqb/"
+              },
+              {
+                "reseau": "Facebook",
+                "url": "https://www.facebook.com/share/v/1DgcjCK6wN/"
+              }
+            ],
+            "etiquette": "Reportage"
+          },
+          {
+            "id": "RCP3",
+            "titre": "Section robotique et renseignement",
+            "description": "Film issu du partenariat entre l'UNAC et le régiment",
+            "duree": "",
+            "liens": [
+              {
+                "reseau": "Instagram",
+                "url": "https://www.instagram.com/reel/DJWFjqas4Ez/"
+              },
+              {
+                "reseau": "Facebook",
+                "url": "https://www.facebook.com/share/v/14vBqNnAZHc/"
+              },
+              {
+                "reseau": "X",
+                "url": "https://x.com/1erRCP/status/1920036721569202623"
+              }
+            ],
+            "etiquette": "Présentation"
+          },
+          {
+            "id": "RCP4",
+            "titre": "Les 80 ans de Jebsheim",
+            "description": "Le 1er RCP et la libération de l'Alsace",
+            "duree": "",
+            "liens": [
+              {
+                "reseau": "Instagram",
+                "url": "https://www.instagram.com/reel/DS0Fuk-DXkT/"
+              },
+              {
+                "reseau": "Facebook",
+                "url": "https://www.facebook.com/share/v/1HsNqid6yr/"
+              },
+              {
+                "reseau": "X",
+                "url": "https://x.com/1erRCP/status/2005313606834077905"
+              }
+            ],
+            "etiquette": "Mémoire"
+          },
+          {
+            "id": "RCP5",
+            "titre": "Histoire du régiment, chapitre 1",
+            "description": "Les précurseurs",
+            "duree": "",
+            "liens": [
+              {
+                "reseau": "Instagram",
+                "url": "https://www.instagram.com/reel/DTN6GFljSIT/"
+              },
+              {
+                "reseau": "Facebook",
+                "url": "https://www.facebook.com/share/v/1J7KB5B7Du/"
+              },
+              {
+                "reseau": "X",
+                "url": "https://x.com/1erRCP/status/2008948029521580219"
+              }
+            ],
+            "etiquette": "Histoire"
+          },
+          {
+            "id": "RCP6",
+            "titre": "Histoire du régiment, chapitre 2",
+            "description": "La Seconde Guerre mondiale",
+            "duree": "",
+            "liens": [
+              {
+                "reseau": "Instagram",
+                "url": "https://www.instagram.com/reel/DVBzyCXjRPe/"
+              },
+              {
+                "reseau": "Facebook",
+                "url": "https://www.facebook.com/share/v/19wBeEKT2A/"
+              },
+              {
+                "reseau": "X",
+                "url": "https://x.com/1erRCP/status/2025266714775077271"
+              }
+            ],
+            "etiquette": "Histoire"
+          },
+          {
+            "id": "RCP7",
+            "titre": "Histoire du régiment, chapitre 3",
+            "description": "L'Indochine",
+            "duree": "",
+            "liens": [
+              {
+                "reseau": "Instagram",
+                "url": "https://www.instagram.com/reel/DZc5SQ1tEOr/"
+              },
+              {
+                "reseau": "Facebook",
+                "url": "https://www.facebook.com/share/v/1Ee79SxYiJ/"
+              },
+              {
+                "reseau": "X",
+                "url": "https://x.com/1erRCP/status/2065118320643170619"
+              }
+            ],
+            "etiquette": "Histoire"
+          },
+          {
+            "id": "RCP8",
+            "titre": "Histoire du régiment, chapitre 4",
+            "description": "L'Algérie · en production",
+            "duree": "",
+            "liens": [],
+            "etiquette": "Bientôt"
+          },
+          {
+            "id": "RCP9",
+            "titre": "Camp régimentaire 2025",
+            "description": "Film court, partenariat Texelis",
+            "duree": "",
+            "liens": [
+              {
+                "reseau": "Instagram",
+                "url": "https://www.instagram.com/reel/DTnqKLuDc5q/"
+              },
+              {
+                "reseau": "Facebook",
+                "url": "https://fb.watch/K4XCoYoq2P/"
+              }
+            ],
+            "etiquette": "Film court"
+          },
+          {
+            "id": "RCP10",
+            "titre": "Thales Onyx",
+            "description": "Film court, partenariat Thales",
+            "duree": "",
+            "liens": [
+              {
+                "reseau": "Instagram",
+                "url": "https://www.instagram.com/reel/DdZMV6Ht0Eu/"
+              },
+              {
+                "reseau": "Facebook",
+                "url": "https://www.facebook.com/share/v/1cWDqm3qax/"
+              }
+            ],
+            "etiquette": "Film court"
+          },
+          {
+            "id": "RCP11",
+            "titre": "Thales PR4G",
+            "description": "Film court, partenariat Thales",
+            "duree": "",
+            "liens": [
+              {
+                "reseau": "Instagram",
+                "url": "https://www.instagram.com/reel/Ddjk7LEtpA-/"
+              },
+              {
+                "reseau": "Facebook",
+                "url": "https://fb.watch/K4XMnJgb3P/"
+              }
+            ],
+            "etiquette": "Film court"
+          }
+        ],
+        "liens": [
+          {
+            "texte": "1er RCP sur Instagram",
+            "url": "https://www.instagram.com/1er_rcp/"
+          },
+          {
+            "texte": "1er RCP sur Facebook",
+            "url": "https://www.facebook.com/1erRCP"
+          },
+          {
+            "texte": "1er RCP sur X",
+            "url": "https://x.com/1erRCP"
+          }
+        ],
+        "lienSerie": false
+      },
+      {
+        "cle": "memoire",
+        "titre": "Mémoire",
+        "texte": "Portraits de témoins et films de commémoration.",
+        "films": [
+          {
+            "id": "MX1rXj52K88",
+            "titre": "Capitaine Raymond Locci",
+            "description": "Brevet para 12204 · réalisé avec l'amicale du 1er RCP · septembre 2025 · plus de 33 000 vues",
+            "duree": "1:35:39",
+            "youtube": "https://www.youtube.com/watch?v=MX1rXj52K88"
+          },
+          {
+            "id": "uF7zqXfUsjc",
+            "titre": "Commandant Everrard",
+            "description": "Commande de l'amicale du 1er RCP, offerte au régiment · juin 2025 · plus de 40 000 vues",
+            "duree": "34:23",
+            "liens": [
+              {
+                "reseau": "YouTube",
+                "url": "https://www.youtube.com/watch?v=uF7zqXfUsjc"
+              },
+              {
+                "reseau": "Relais du régiment sur X",
+                "url": "https://x.com/1erRCP/status/1938606377661874421"
+              }
+            ]
+          },
+          {
+            "id": "hAsRJtDXMSY",
+            "titre": "70 ans de Diên Biên Phu au 1er RCP",
+            "description": "Film de mémoire",
+            "duree": "7:00",
+            "youtube": "https://www.youtube.com/watch?v=hAsRJtDXMSY"
+          },
+          {
+            "id": "iyuX_UN7ABY",
+            "titre": "Drakkar, 40e anniversaire",
+            "description": "Commémoration de l'attentat",
+            "duree": "11:23",
+            "youtube": "https://www.youtube.com/watch?v=iyuX_UN7ABY"
+          }
+        ],
+        "liens": [],
+        "lienSerie": false
+      },
+      {
+        "cle": "entreprise",
+        "titre": "Entreprises et institutions",
+        "texte": "Pour la Fondation Résilience et FA3R, la Fondation Safran, Europorte : des films de formation, de présentation et de communication.",
+        "films": [
+          {
+            "id": "NFZDGtgBNIk",
+            "titre": "FA3R et Résilience pour Europorte",
+            "description": "Novembre 2025",
+            "duree": "2:33",
+            "youtube": "https://www.youtube.com/watch?v=NFZDGtgBNIk"
+          },
+          {
+            "id": "Dw4gb7rz2Vo",
+            "titre": "Nos vétérans",
+            "description": "Promotion Fondation Safran 2026",
+            "duree": "1:46",
+            "youtube": "https://www.youtube.com/watch?v=Dw4gb7rz2Vo"
+          },
+          {
+            "id": "-6Spc96VcUY",
+            "titre": "Formation Europorte",
+            "description": "Film de formation",
+            "duree": "3:11",
+            "youtube": "https://www.youtube.com/watch?v=-6Spc96VcUY"
+          },
+          {
+            "id": "TA-o8ZS0wr8",
+            "titre": "La nouvelle Citroën C4",
+            "description": "Sur les routes de Pierre-Percée",
+            "duree": "1:12",
+            "youtube": "https://www.youtube.com/watch?v=TA-o8ZS0wr8"
+          },
+          {
+            "id": "_YsZuKmk1PE",
+            "titre": "International Competitive Intelligence Conference",
+            "description": "Captation de conférence",
+            "duree": "7:05",
+            "youtube": "https://www.youtube.com/watch?v=_YsZuKmk1PE"
+          }
+        ],
+        "liens": [],
+        "lienSerie": false
+      },
+      {
+        "cle": "salon",
+        "titre": "Salons et défense",
+        "texte": "Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon. Quatre épisodes, quatre écritures : cinématique, pop-rock avec un plan-séquence de près de deux minutes, électro, puis un retour au cinéma. L'équivalent d'un 52 minutes tourné et monté en une dizaine de jours. Avec aussi des reportages sur HELPED, le parcours consacré à la réponse aux crises, illustrés en post-production.",
+        "films": [
+          {
+            "id": "bhsuc7c241k",
+            "titre": "EDR Show Daily, épisode 1",
+            "description": "Eurosatory 2022",
+            "duree": "5:49",
+            "youtube": "https://www.youtube.com/watch?v=bhsuc7c241k"
+          },
+          {
+            "id": "AcNQO-oy2UA",
+            "titre": "EDR Show Daily, épisode 2",
+            "description": "Eurosatory 2022",
+            "duree": "3:49",
+            "youtube": "https://www.youtube.com/watch?v=AcNQO-oy2UA"
+          },
+          {
+            "id": "S3CpTXKa7iA",
+            "titre": "EDR Show Daily, épisode 3",
+            "description": "Eurosatory 2022",
+            "duree": "2:56",
+            "youtube": "https://www.youtube.com/watch?v=S3CpTXKa7iA"
+          },
+          {
+            "id": "4PUFyZn7TV8",
+            "titre": "EDR Show Daily, épisode 4",
+            "description": "Eurosatory 2022",
+            "duree": "2:52",
+            "youtube": "https://www.youtube.com/watch?v=4PUFyZn7TV8"
+          },
+          {
+            "id": "gPRFbBvnD_c",
+            "titre": "Christian Cambon",
+            "description": "Entrevue · Commission de la Défense du Sénat",
+            "duree": "7:26",
+            "youtube": "https://www.youtube.com/watch?v=gPRFbBvnD_c"
+          },
+          {
+            "id": "88Tojjmake4",
+            "titre": "Charles Beaudouin",
+            "description": "Entrevue · directeur général de COGES",
+            "duree": "9:21",
+            "youtube": "https://www.youtube.com/watch?v=88Tojjmake4"
+          }
+        ],
+        "liens": [
+          {
+            "texte": "Tous les films Eurosatory 2022",
+            "url": "https://www.youtube.com/playlist?list=PLpV-5U4pNRWlCMZO7UaqWA7eWqIAEeJV3"
+          }
+        ],
+        "lienSerie": false
+      },
+      {
+        "cle": "entretien",
+        "titre": "Entretiens",
+        "texte": "Des experts, des chercheurs et des généraux face caméra.",
+        "films": [
+          {
+            "id": "2YGZr_pob0c",
+            "titre": "Méditerranée orientale, du gaz dans l'eau",
+            "description": "Entretien avec Nicolas Mazzucchi, Fondation pour la recherche stratégique · pour ExMergere",
+            "duree": "19:41",
+            "youtube": "https://www.youtube.com/watch?v=2YGZr_pob0c"
+          },
+          {
+            "id": "QUhc5drglAs",
+            "titre": "Guerre en milieu urbain",
+            "description": "Entretien avec Pierre Santoni, co-auteur de « L'ultime champ de bataille »",
+            "duree": "17:09",
+            "youtube": "https://www.youtube.com/watch?v=QUhc5drglAs"
+          },
+          {
+            "id": "J-EwxwK9gIQ",
+            "titre": "Armée française, seuil critique ?",
+            "description": "Entretien avec le général Pinard Legry, président de l'ASAF",
+            "duree": "14:20",
+            "youtube": "https://www.youtube.com/watch?v=J-EwxwK9gIQ"
+          }
+        ],
+        "liens": [],
+        "lienSerie": false
+      },
+      {
+        "cle": "clip",
+        "titre": "Clips et créations",
+        "texte": "Films libres, clips et expériences, dont les premiers de LAKELAB.",
+        "films": [
+          {
+            "id": "iJQCmkrEMuU",
+            "titre": "État d'urgence",
+            "description": "Premier film LAKELAB",
+            "duree": "2:50",
+            "youtube": "https://www.youtube.com/watch?v=iJQCmkrEMuU"
+          },
+          {
+            "id": "6FrZTiHyWsk",
+            "titre": "État naturel",
+            "description": "LAKELAB",
+            "duree": "4:04",
+            "youtube": "https://www.youtube.com/watch?v=6FrZTiHyWsk"
+          },
+          {
+            "id": "rWCRZ3bxfi8",
+            "titre": "Barbatoro",
+            "description": "Museumotel",
+            "duree": "3:33",
+            "youtube": "https://www.youtube.com/watch?v=rWCRZ3bxfi8"
+          },
+          {
+            "id": "nV6w78VdXkI",
+            "titre": "L'œuf ou la poule ?",
+            "description": "Museumotel · Pâques 2015",
+            "duree": "5:00",
+            "youtube": "https://www.youtube.com/watch?v=nV6w78VdXkI"
+          },
+          {
+            "id": "LZjgeTSqBXA",
+            "titre": "Jean-Michel Aubry",
+            "description": "Teaser d'exposition · Museumotel",
+            "duree": "1:08",
+            "youtube": "https://www.youtube.com/watch?v=LZjgeTSqBXA"
+          },
+          {
+            "id": "CbSYRM0fGcU",
+            "titre": "Gipsy Family, SeaStars",
+            "description": "Clip",
+            "duree": "5:41",
+            "youtube": "https://www.youtube.com/watch?v=CbSYRM0fGcU"
+          },
+          {
+            "id": "dwlq_LhiSDc",
+            "titre": "Gipsy Family, Die Electro",
+            "description": "Clip",
+            "duree": "6:06",
+            "youtube": "https://www.youtube.com/watch?v=dwlq_LhiSDc"
+          }
+        ],
+        "liens": [],
+        "lienSerie": false
+      }
     ],
-    "credits": [
-     "Images : EMA / ECPAD",
-     "Diffusion : ECPAD",
-     "Réalisation et montage : Pascal Dupont",
-     "Production : Studio Beta Prod 32",
-     "Musique : Mathieu Gauriat",
-     "Sans utilisation commerciale"
-    ]
-   },
-   "presse": {
-    "titre": "Repris par la presse",
-    "lignes": [
-     [
-      "Le Figaro",
-      "29 janv. et 5 mars"
-     ],
-     [
-      "Ouest-France, Lignes de défense",
-      "29 janv."
-     ],
-     [
-      "La Voix du Nord",
-      "29 janv."
-     ],
-     [
-      "Zone Militaire (Opex 360)",
-      "24 janv., 2 et 28 mars"
-     ],
-     [
-      "The Aviationist (États-Unis)",
-      "28 janv."
-     ],
-     [
-      "Polska Zbrojna (Pologne)",
-      "7 févr., 4 et 27 mars"
-     ],
-     [
-      "Mali Actu",
-      "3 févr., 2 mars"
-     ],
-     [
-      "InfosDéfense",
-      "2 mars"
-     ],
-     [
-      "Sud Ouest",
-      "18 mars"
-     ],
-     [
-      "RP Défense",
-      "25 mars"
-     ]
-    ]
-   },
-   "chronologie": {
-    "surtitre": "Chronologie",
-    "titre": "Les films, jour après jour",
-    "texte": "Dix-huit films, classés dans l'ordre des opérations."
-   },
-   "hommages": {
-    "surtitre": "In memoriam",
-    "titre": "Hommages",
-    "texte": "Trois films en hommage à des soldats morts pour la France au Mali."
-   }
-  },
-  "a-propos": {
-   "titre": "À propos",
-   "entete": {
-    "surtitre": "Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission",
-    "titre": "Je filme l'engagement et ce qu'il laisse."
-   },
-   "portrait": {
-    "texte_provisoire": "Portrait à ajouter"
-   },
-   "paragraphes": [
-    "Auteur-réalisateur documentaire depuis vingt ans. « Chroniques du 93 » pour France 4, « La nuit leur appartient » pour la centième d'Enquête d'action sur W9, le cycle mémoire du 1er Régiment de Chasseurs Parachutistes. Aujourd'hui, un 52 minutes sur le stress post-traumatique et sur ce que les blessés transmettent à des jeunes en rupture.",
-    "Ancien combattant de l'infanterie parachutiste, officier de réserve opérationnelle au 1er RCP. C'est ce qui me permet de filmer là où la caméra est d'ordinaire tolérée plutôt qu'attendue : je connais le terrain, le vocabulaire, et le temps qu'il faut pour qu'un homme accepte de parler.",
-    "Sociétaire de la SCAM. Je travaille avec des maisons de production et des diffuseurs nationaux, du développement à la livraison."
-   ],
-   "citation": "« Qui veut peut, et qui ose gagne. »",
-   "boutons": [
-    {
-     "texte": "Parler d'un projet",
-     "url": "/contact/",
-     "style": "plein"
-    },
-    {
-     "texte": "LinkedIn",
-     "url": "https://www.linkedin.com/in/pascal-dupont-7932037b/",
-     "style": "contour"
-    }
-   ],
-   "reperes": {
-    "titre": "Repères",
-    "lignes": [
-     [
-      "La nuit leur appartient, pour W9",
-      "2008"
-     ],
-     [
-      "Chroniques du 93, pour France 4",
-      "2010"
-     ],
-     [
-      "Série Serval, Mali",
-      "2013"
-     ],
-     [
-      "Voix d'Amazonie, avec Pierre Bayle",
-      "2019-2020"
-     ],
-     [
-      "Eurosatory, films officiels du show daily",
-      "2022"
-     ],
-     [
-      "Films pour le 1er RCP, sur les pages du régiment",
-      "depuis mai 2025"
-     ],
-     [
-      "Histoire du régiment, chapitres 1 à 3",
-      "2026"
-     ],
-     [
-      "Administrateur de l'amicale du 1er RCP, audiovisuel",
-      "depuis août 2025"
-     ],
-     [
-      "REVIVRE, documentaire de 52 minutes",
-      "en développement"
-     ]
-    ]
-   },
-   "lucile": {
-    "titre": "Avec Lucile Guilloteaux",
-    "paragraphes": [
-     "Lucile m'accompagne sur la recherche de documents et de photographies, et signe une grande partie des montages.",
-     "Ensemble, nous animons LAKELAB, notre espace de recherches esthétiques."
+    "une": [
+      {
+        "id": "c4xGjV6-sNg",
+        "titre": "Chroniques du 93",
+        "description": "France 4 · 2010",
+        "duree": "52:21",
+        "etiquette": "Documentaire",
+        "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg"
+      },
+      {
+        "id": "DOIkFS4peF8",
+        "titre": "La nuit leur appartient",
+        "description": "BAC Paris · la centième d'Enquête d'action, W9 · 2008",
+        "duree": "8:54",
+        "etiquette": "Documentaire",
+        "url": "https://www.youtube.com/watch?v=DOIkFS4peF8"
+      },
+      {
+        "id": "yzubFqyXDmk",
+        "titre": "Voix d'Amazonie",
+        "description": "Avec Pierre Bayle",
+        "duree": "43:45",
+        "etiquette": "Documentaire",
+        "url": "https://www.youtube.com/watch?v=yzubFqyXDmk"
+      },
+      {
+        "id": "MX1rXj52K88",
+        "titre": "Capitaine Raymond Locci",
+        "description": "Vosges 1943, Indochine 1946",
+        "duree": "1:35:39",
+        "etiquette": "Portrait",
+        "url": "https://www.youtube.com/watch?v=MX1rXj52K88"
+      },
+      {
+        "id": "QMFdHoR7FxM",
+        "titre": "Arquus à Milipol 2021",
+        "description": "Reportage pour OPS TV",
+        "duree": "1:16",
+        "etiquette": "Défense",
+        "url": "https://www.youtube.com/watch?v=QMFdHoR7FxM"
+      },
+      {
+        "id": "A1yfSvxryKg",
+        "titre": "TDA, mortier tracté rayé de 120 mm",
+        "description": "Présentation du matériel",
+        "duree": "6:00",
+        "etiquette": "Défense",
+        "url": "https://www.youtube.com/watch?v=A1yfSvxryKg"
+      }
     ],
-    "lien": {
-     "texte": "LAKELAB",
-     "url": "/lakelab/"
-    }
-   }
-  },
-  "defense-et-securite": {
-   "titre": "Défense et sécurité",
-   "entete": {
-    "surtitre": "Pour les armées, les industriels et les institutions",
-    "titre": "Filmer la défense, de l'intérieur.",
-    "texte": "Ancien combattant de l'infanterie parachutiste et officier de réserve, je connais le terrain, le vocabulaire et les contraintes de la communication de défense. Je réalise des films pour des régiments, des industriels et des salons."
-   },
-   "chiffres": [
-    {
-     "valeur": "≈ 900 000",
-     "texte": "vues cumulées sur Instagram, Facebook et X pour les 10 films publiés sur les pages du 1er RCP depuis mai 2025 (relevé du 7 octobre 2026)"
-    },
-    {
-     "valeur": "Depuis 2012",
-     "texte": "à Eurosatory, dont les films officiels du show daily de European Defense Review en 2022"
-    },
-    {
-     "valeur": "10 jours",
-     "texte": "pour tourner et monter seul l'équivalent d'un 52 minutes à Eurosatory 2022"
-    },
-    {
-     "valeur": "2 millions",
-     "texte": "de vues sur YouTube pour la série consacrée à l'opération Serval"
-    }
-   ],
-   "formats": {
-    "surtitre": "Ce que je réalise",
-    "titre": "Cinq formats",
-    "lignes": [
-     {
-      "titre": "Films de présentation d'une unité ou d'un matériel",
-      "texte": "La section robotique et renseignement du 1er RCP, des films courts avec Thales et Texelis, des films pour TDA Armements."
-     },
-     {
-      "titre": "Reportages d'événements et de salons",
-      "texte": "Eurosatory 2012, 2014 et 2022, Milipol 2021, les journées portes ouvertes du 1er RCP. Tourner sur le vif, monter vite, publier le jour même."
-     },
-     {
-      "titre": "Films de mémoire et d'histoire d'unité",
-      "texte": "L'histoire du 1er RCP en chapitres, de Jebsheim à Diên Biên Phu, des portraits de témoins comme le capitaine Locci et le commandant Everrard."
-     },
-     {
-      "titre": "Entretiens et analyses",
-      "texte": "Des responsables politiques, des chercheurs et des généraux face caméra, comme Christian Cambon, Nicolas Mazzucchi ou le général Pinard Legry."
-     },
-     {
-      "titre": "Conseil en communication de défense",
-      "texte": "Définir ce qu'il faut montrer, à qui et sur quels réseaux. En 2013, en pleine opération Serval, j'ai monté et diffusé de ma propre initiative des films que la presse a largement repris. Déjà connu pour la communication de défense, j'ai été sollicité par Le Figaro comme consultant."
-     }
-    ]
-   },
-   "methode": {
-    "titre": "Ma méthode",
-    "etapes": [
-     [
-      "Cadrer.",
-      "Nous fixons l'objectif, le public et les réseaux avant de tourner."
-     ],
-     [
-      "Tourner.",
-      "Une équipe légère, discrète. Les visages sont anonymisés lorsque la sécurité l'exige."
-     ],
-     [
-      "Faire valider.",
-      "Votre officier communication relit le film avant toute diffusion."
-     ],
-     [
-      "Diffuser.",
-      "Un film long pour YouTube, des formats courts pour Instagram, Facebook et X."
-     ]
-    ]
-   },
-   "references": {
-    "titre": "Références",
-    "lignes": [
-     [
-      "1er régiment de chasseurs parachutistes",
-      "2025-2026"
-     ],
-     [
-      "European Defense Review, Eurosatory",
-      "2022"
-     ],
-     [
-      "TDA Armements (aujourd'hui Thales)",
-      ""
-     ],
-     [
-      "Thales et Texelis (aujourd'hui KNDS France), avec le 1er RCP",
-      "2026"
-     ],
-     [
-      "UNAC, avec le 1er RCP",
-      "2025"
-     ],
-     [
-      "Opération Serval, pour la presse",
-      "2013"
-     ]
-    ]
-   },
-   "selection": {
-    "surtitre": "À voir",
-    "titre": "Quelques films",
-    "films": [
-     "RCP3",
-     "RCP1",
-     "RCP9",
-     "bhsuc7c241k",
-     "A1yfSvxryKg",
-     "SERVAL"
+    "serval": [
+      {
+        "id": "pLcKlKHWYHY",
+        "date": "12 janvier",
+        "titre": "L'armée française au Mali",
+        "duree": "8:03",
+        "youtube": "https://www.youtube.com/watch?v=pLcKlKHWYHY"
+      },
+      {
+        "id": "kPuuU75zw7Y",
+        "date": "13 janvier",
+        "titre": "Les Rafale s'envolent vers le Mali",
+        "duree": "2:02",
+        "youtube": "https://www.youtube.com/watch?v=kPuuU75zw7Y"
+      },
+      {
+        "id": "w1fyoCd3pvY",
+        "date": "14 janvier",
+        "titre": "C-17, Antonov 124 et Mirage F1CR",
+        "duree": "3:16",
+        "youtube": "https://www.youtube.com/watch?v=w1fyoCd3pvY"
+      },
+      {
+        "id": "1nsHAeT5_kE",
+        "date": "15 janvier",
+        "titre": "Le ministre de la Défense aux opérations aériennes",
+        "duree": "2:02",
+        "youtube": "https://www.youtube.com/watch?v=1nsHAeT5_kE"
+      },
+      {
+        "id": "iLkc71IaTcs",
+        "date": "15 janvier",
+        "titre": "SGTIA au Mali, Sagaie et Rafale",
+        "duree": "7:04",
+        "youtube": "https://www.youtube.com/watch?v=iLkc71IaTcs"
+      },
+      {
+        "id": "V0VSMZOMV10",
+        "date": "16 janvier",
+        "titre": "Montée en puissance",
+        "duree": "5:43",
+        "youtube": "https://www.youtube.com/watch?v=V0VSMZOMV10"
+      },
+      {
+        "id": "FA2aRxFO9Ps",
+        "date": "18 janvier",
+        "titre": "Markala, bloc chirurgical et Mirage 2000",
+        "duree": "3:52",
+        "youtube": "https://www.youtube.com/watch?v=FA2aRxFO9Ps"
+      },
+      {
+        "id": "AWs06tqScYQ",
+        "date": "19 janvier",
+        "titre": "Hélicoptères Puma et pont aérien",
+        "duree": "2:42",
+        "youtube": "https://www.youtube.com/watch?v=AWs06tqScYQ"
+      },
+      {
+        "id": "9rfgWcye9ME",
+        "date": "21 janvier",
+        "titre": "Région de Sévaré-Mopti",
+        "duree": "3:11",
+        "youtube": "https://www.youtube.com/watch?v=9rfgWcye9ME"
+      },
+      {
+        "id": "jMsHVbO5iFc",
+        "date": "23 janvier",
+        "titre": "SGTIA Mopti, armée tchadienne et BPC Dixmude",
+        "duree": "3:54",
+        "youtube": "https://www.youtube.com/watch?v=jMsHVbO5iFc"
+      },
+      {
+        "id": "2S8XpTEGSH0",
+        "date": "27 janvier",
+        "titre": "Gao libérée",
+        "duree": "2:20",
+        "youtube": "https://www.youtube.com/watch?v=2S8XpTEGSH0"
+      },
+      {
+        "id": "p5W9PKR6FdU",
+        "date": "28 janvier",
+        "titre": "La Légion saute sur Tombouctou",
+        "duree": "1:16",
+        "youtube": "https://www.youtube.com/watch?v=p5W9PKR6FdU"
+      },
+      {
+        "id": "zGDIDGMcbaM",
+        "date": "28 janvier",
+        "titre": "La Légion saute sur Tombouctou, version longue",
+        "duree": "6:27",
+        "youtube": "https://www.youtube.com/watch?v=zGDIDGMcbaM"
+      },
+      {
+        "id": "8vFV_OeewSk",
+        "date": "29 janvier",
+        "titre": "Le 17 saute sur Tombouctou",
+        "duree": "6:26",
+        "youtube": "https://www.youtube.com/watch?v=8vFV_OeewSk"
+      },
+      {
+        "id": "btHYEMY4nfA",
+        "date": "28 janvier au 5 février",
+        "titre": "De Bamako à Kidal",
+        "duree": "5:52",
+        "youtube": "https://www.youtube.com/watch?v=btHYEMY4nfA"
+      },
+      {
+        "id": "Pojj5b2P_GM",
+        "date": "30 janvier au 5 février",
+        "titre": "NEDEX, fleuve Niger et Mirage 2000",
+        "duree": "10:55",
+        "youtube": "https://www.youtube.com/watch?v=Pojj5b2P_GM"
+      },
+      {
+        "id": "0ynsZ42MuU4",
+        "date": "8 février",
+        "titre": "Forces spéciales et 1er RCP à Tessalit",
+        "duree": "2:32",
+        "youtube": "https://www.youtube.com/watch?v=0ynsZ42MuU4"
+      },
+      {
+        "id": "YurOVRWhpz8",
+        "date": "9 février au 1er mars",
+        "titre": "Combats dans l'Adrar des Ifhôgas",
+        "duree": "13:26",
+        "youtube": "https://www.youtube.com/watch?v=YurOVRWhpz8"
+      }
     ],
-    "boutons": [
-     {
-      "texte": "Demander un devis",
-      "url": "/contact/",
-      "style": "plein"
-     },
-     {
-      "texte": "Tous les films",
-      "url": "/films/",
-      "style": "contour"
-     }
-    ]
-   }
-  },
-  "lakelab": {
-   "titre": "LAKELAB",
-   "entete": {
-    "surtitre": "Recherches esthétiques",
-    "titre": "LAKELAB",
-    "texte": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général."
-   },
-   "suivre": {
-    "titre": "Où nous suivre",
-    "texte": "Nos recherches sont publiées au fil de l'eau sur Instagram et Facebook."
-   },
-   "films": {
-    "titre": "Les premiers films LAKELAB",
-    "ids": [
-     "iJQCmkrEMuU",
-     "6FrZTiHyWsk"
-    ]
-   }
-  },
-  "contact": {
-   "titre": "Devis et contact",
-   "entete": {
-    "surtitre": "Contact",
-    "titre": "Parlons de votre projet",
-    "texte": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement."
-   },
-   "types_projet": [
-    "Documentaire ou film institutionnel",
-    "Portrait filmé",
-    "Captation d'événement",
-    "Stratégie et communication",
-    "Montage et post-production",
-    "Autre demande"
-   ]
-  },
-  "mentions-legales": {
-   "titre": "Mentions légales",
-   "sections": [
-    {
-     "titre": "Éditeur du site",
-     "lignes": [
-      "Pascal Dupont, auteur-réalisateur, micro-entrepreneur.",
-      "SIRET : 793 930 298 00021",
-      "Adresse : 4 allée des Anciens d'AFN, 88110 Vexaincourt",
-      "Téléphone : 06 86 31 15 96",
-      "E-mail : creationvideo@live.fr",
-      "Directeur de la publication : Pascal Dupont."
-     ]
-    },
-    {
-     "titre": "Hébergeur",
-     "lignes": [
-      "OVH SAS, 2 rue Kellermann, 59100 Roubaix, France."
-     ]
-    },
-    {
-     "titre": "Propriété intellectuelle",
-     "lignes": [
-      "Les textes, films et photographies de ce site sont la propriété de Pascal Dupont, sauf mention contraire. Les images de l'opération Serval proviennent de l'EMA et sont diffusées par l'ECPAD, sans utilisation commerciale. Toute reproduction sans accord est interdite."
-     ]
-    },
-    {
-     "titre": "Liens et contenus tiers",
-     "lignes": [
-      "Les films sont hébergés sur YouTube, Instagram, Facebook et X. Ces services sont responsables de leurs propres contenus et de leurs conditions d'utilisation."
-     ]
-    },
-    {
-     "titre": "Crédits",
-     "lignes": [
-      "Thème Kadence et extension Kadence Blocks. Polices Newsreader, Hanken Grotesk et IBM Plex Mono, sous licence SIL OFL."
-     ]
-    }
-   ]
-  },
-  "confidentialite": {
-   "titre": "Politique de confidentialité",
-   "sections": [
-    {
-     "titre": "Responsable du traitement",
-     "lignes": [
-      "Pascal Dupont, joignable à l'adresse creationvideo@live.fr."
-     ]
-    },
-    {
-     "titre": "Données collectées",
-     "lignes": [
-      "Le formulaire de contact recueille votre nom, votre adresse e-mail, le type de projet et votre message. Elles servent uniquement à répondre à votre demande. Elles ne sont ni vendues ni transmises à des tiers."
-     ]
-    },
-    {
-     "titre": "Conservation",
-     "lignes": [
-      "Les messages sont conservés trois ans après le dernier échange, puis supprimés."
-     ]
-    },
-    {
-     "titre": "Cookies et services tiers",
-     "lignes": [
-      "Ce site n'utilise ni statistiques ni publicité, et ne dépose pas de cookie de suivi. Les vignettes des films sont chargées depuis les serveurs de YouTube (Google) : votre adresse IP leur est alors transmise. Les liens vers YouTube, Instagram, Facebook et X ouvrent ces services, qui appliquent leurs propres règles."
-     ]
-    },
-    {
-     "titre": "Vos droits",
-     "lignes": [
-      "Vous pouvez demander l'accès à vos données, leur rectification, leur effacement ou vous opposer à leur traitement, en écrivant à creationvideo@live.fr. En cas de difficulté, vous pouvez saisir la CNIL (cnil.fr)."
-     ]
-    },
-    {
-     "titre": "Hébergement",
-     "lignes": [
-      "Le site est hébergé par OVH SAS, 2 rue Kellermann, 59100 Roubaix, France."
-     ]
-    }
-   ],
-   "a_relire": false
-  }
- },
- "films": {
-  "groupes": [
-   {
-    "cle": "doc",
-    "titre": "Documentaires",
-    "texte": "Des films d'auteur diffusés ou prêts pour la télévision.",
-    "films": [
-     {
-      "id": "c4xGjV6-sNg",
-      "titre": "Chroniques du 93",
-      "description": "Pour France 4 · 2010 · immersion dans la CSI 93, en Seine-Saint-Denis",
-      "duree": "52:21",
-      "youtube": "https://www.youtube.com/watch?v=c4xGjV6-sNg"
-     },
-     {
-      "id": "DOIkFS4peF8",
-      "titre": "BAC Paris, La nuit leur appartient",
-      "description": "Pour la centième d'Enquête d'action, sur W9 · 2008",
-      "duree": "8:54",
-      "youtube": "https://www.youtube.com/watch?v=DOIkFS4peF8"
-     },
-     {
-      "id": "yzubFqyXDmk",
-      "titre": "Voix d'Amazonie",
-      "description": "Avec Pierre Bayle · les communautés indigènes d'Équateur face à l'extraction minière et pétrolière",
-      "duree": "43:45",
-      "youtube": "https://www.youtube.com/watch?v=yzubFqyXDmk"
-     },
-     {
-      "id": "AZERIB9ymiE",
-      "titre": "Hélie de Saint Marc, témoin du siècle",
-      "description": "Extrait avant-première",
-      "duree": "3:26",
-      "youtube": "https://www.youtube.com/watch?v=AZERIB9ymiE"
-     }
+    "hommages": [
+      {
+        "id": "SZR7eUvBGXc",
+        "date": "2 mars 2013",
+        "titre": "Caporal-chef Cédric Charenton, 1er RCP",
+        "duree": "8:40",
+        "youtube": "https://www.youtube.com/watch?v=SZR7eUvBGXc"
+      },
+      {
+        "id": "miAknLoN2Gc",
+        "date": "16 mars 2013",
+        "titre": "Caporal Alexandre van Dooren, 1er RIMa",
+        "duree": "1:57",
+        "youtube": "https://www.youtube.com/watch?v=miAknLoN2Gc"
+      },
+      {
+        "id": "yqJ7XW-rdTw",
+        "date": "29 avril 2013",
+        "titre": "Caporal-chef Stéphane Duval, 1er RPIMa",
+        "duree": "1:25",
+        "youtube": "https://www.youtube.com/watch?v=yqJ7XW-rdTw"
+      }
     ],
-    "liens": [],
-    "lienSerie": false
-   },
-   {
-    "cle": "rcp",
-    "titre": "Pour le 1er RCP",
-    "texte": "Films réalisés pour le 1er régiment de chasseurs parachutistes, à voir sur les pages officielles du régiment.",
-    "films": [
-     {
-      "id": "RCP1",
-      "titre": "JPO 2025, première partie",
-      "description": "Journées portes ouvertes du régiment",
-      "duree": "",
-      "liens": [
-       {
-        "reseau": "Instagram",
-        "url": "https://www.instagram.com/reel/DKbpGcdso3j/"
-       },
-       {
-        "reseau": "Facebook",
-        "url": "https://www.facebook.com/share/v/1HcxhUaZkf/"
-       }
-      ],
-      "etiquette": "Reportage"
-     },
-     {
-      "id": "RCP2",
-      "titre": "JPO 2025, deuxième partie",
-      "description": "Journées portes ouvertes du régiment",
-      "duree": "",
-      "liens": [
-       {
-        "reseau": "Instagram",
-        "url": "https://www.instagram.com/reel/DKgzcVEMQqb/"
-       },
-       {
-        "reseau": "Facebook",
-        "url": "https://www.facebook.com/share/v/1DgcjCK6wN/"
-       }
-      ],
-      "etiquette": "Reportage"
-     },
-     {
-      "id": "RCP3",
-      "titre": "Section robotique et renseignement",
-      "description": "Film issu du partenariat entre l'UNAC et le régiment",
-      "duree": "",
-      "liens": [
-       {
-        "reseau": "Instagram",
-        "url": "https://www.instagram.com/reel/DJWFjqas4Ez/"
-       },
-       {
-        "reseau": "Facebook",
-        "url": "https://www.facebook.com/share/v/14vBqNnAZHc/"
-       },
-       {
-        "reseau": "X",
-        "url": "https://x.com/1erRCP/status/1920036721569202623"
-       }
-      ],
-      "etiquette": "Présentation"
-     },
-     {
-      "id": "RCP4",
-      "titre": "Les 80 ans de Jebsheim",
-      "description": "Le 1er RCP et la libération de l'Alsace",
-      "duree": "",
-      "liens": [
-       {
-        "reseau": "Instagram",
-        "url": "https://www.instagram.com/reel/DS0Fuk-DXkT/"
-       },
-       {
-        "reseau": "Facebook",
-        "url": "https://www.facebook.com/share/v/1HsNqid6yr/"
-       },
-       {
-        "reseau": "X",
-        "url": "https://x.com/1erRCP/status/2005313606834077905"
-       }
-      ],
-      "etiquette": "Mémoire"
-     },
-     {
-      "id": "RCP5",
-      "titre": "Histoire du régiment, chapitre 1",
-      "description": "Les précurseurs",
-      "duree": "",
-      "liens": [
-       {
-        "reseau": "Instagram",
-        "url": "https://www.instagram.com/reel/DTN6GFljSIT/"
-       },
-       {
-        "reseau": "Facebook",
-        "url": "https://www.facebook.com/share/v/1J7KB5B7Du/"
-       },
-       {
-        "reseau": "X",
-        "url": "https://x.com/1erRCP/status/2008948029521580219"
-       }
-      ],
-      "etiquette": "Histoire"
-     },
-     {
-      "id": "RCP6",
-      "titre": "Histoire du régiment, chapitre 2",
-      "description": "La Seconde Guerre mondiale",
-      "duree": "",
-      "liens": [
-       {
-        "reseau": "Instagram",
-        "url": "https://www.instagram.com/reel/DVBzyCXjRPe/"
-       },
-       {
-        "reseau": "Facebook",
-        "url": "https://www.facebook.com/share/v/19wBeEKT2A/"
-       },
-       {
-        "reseau": "X",
-        "url": "https://x.com/1erRCP/status/2025266714775077271"
-       }
-      ],
-      "etiquette": "Histoire"
-     },
-     {
-      "id": "RCP7",
-      "titre": "Histoire du régiment, chapitre 3",
-      "description": "L'Indochine",
-      "duree": "",
-      "liens": [
-       {
-        "reseau": "Instagram",
-        "url": "https://www.instagram.com/reel/DZc5SQ1tEOr/"
-       },
-       {
-        "reseau": "Facebook",
-        "url": "https://www.facebook.com/share/v/1Ee79SxYiJ/"
-       },
-       {
-        "reseau": "X",
-        "url": "https://x.com/1erRCP/status/2065118320643170619"
-       }
-      ],
-      "etiquette": "Histoire"
-     },
-     {
-      "id": "RCP8",
-      "titre": "Histoire du régiment, chapitre 4",
-      "description": "L'Algérie · en production",
-      "duree": "",
-      "liens": [],
-      "etiquette": "Bientôt"
-     },
-     {
-      "id": "RCP9",
-      "titre": "Camp régimentaire 2025",
-      "description": "Film court, partenariat Texelis",
-      "duree": "",
-      "liens": [
-       {
-        "reseau": "Instagram",
-        "url": "https://www.instagram.com/reel/DTnqKLuDc5q/"
-       },
-       {
-        "reseau": "Facebook",
-        "url": "https://fb.watch/K4XCoYoq2P/"
-       }
-      ],
-      "etiquette": "Film court"
-     },
-     {
-      "id": "RCP10",
-      "titre": "Thales Onyx",
-      "description": "Film court, partenariat Thales",
-      "duree": "",
-      "liens": [
-       {
-        "reseau": "Instagram",
-        "url": "https://www.instagram.com/reel/DdZMV6Ht0Eu/"
-       },
-       {
-        "reseau": "Facebook",
-        "url": "https://www.facebook.com/share/v/1cWDqm3qax/"
-       }
-      ],
-      "etiquette": "Film court"
-     },
-     {
-      "id": "RCP11",
-      "titre": "Thales PR4G",
-      "description": "Film court, partenariat Thales",
-      "duree": "",
-      "liens": [
-       {
-        "reseau": "Instagram",
-        "url": "https://www.instagram.com/reel/Ddjk7LEtpA-/"
-       },
-       {
-        "reseau": "Facebook",
-        "url": "https://fb.watch/K4XMnJgb3P/"
-       }
-      ],
-      "etiquette": "Film court"
-     }
+    "onglets": [
+      {
+        "cle": "doc",
+        "ancre": "documentaires",
+        "titre": "Documentaires et reportages",
+        "texte": "Des films d'auteur pour la télévision, tournés au plus près de ceux qu'ils racontent.",
+        "blocs": [
+          {
+            "docs": [
+              {
+                "id": "c4xGjV6-sNg",
+                "etiquette": "France 4 · 2010 · 52 minutes",
+                "titre": "Chroniques du 93",
+                "texte": "Une immersion dans la CSI 93, en Seine-Saint-Denis, au cœur des violences urbaines. Un documentaire d'auteur de 52 minutes pour France 4, tourné au plus près de ceux qui y font face.",
+                "boutons": [
+                  {
+                    "texte": "Voir le film",
+                    "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
+                    "style": "contour"
+                  }
+                ]
+              },
+              {
+                "id": "DOIkFS4peF8",
+                "etiquette": "W9 · 2008 · 6 parties",
+                "titre": "La nuit leur appartient, BAC Paris",
+                "texte": "Réalisé pour la centième d'Enquête d'action, sur W9 : une plongée dans la nuit parisienne aux côtés de la BAC. Le film est visible en six parties.",
+                "boutons": [
+                  {
+                    "texte": "Partie 1",
+                    "url": "https://www.youtube.com/watch?v=DOIkFS4peF8",
+                    "style": "contour"
+                  },
+                  {
+                    "texte": "Partie 2",
+                    "url": "https://www.youtube.com/watch?v=MvaTPwqZSe8",
+                    "style": "contour"
+                  }
+                ]
+              },
+              {
+                "id": "yzubFqyXDmk",
+                "etiquette": "Avec Pierre Bayle · 43 minutes",
+                "titre": "Voix d'Amazonie",
+                "texte": "Co-réalisé avec Pierre Bayle : les communautés indigènes d'Équateur face à l'extraction minière et pétrolière. Une version espagnole, « Voces de la Amazonia », existe aussi.",
+                "boutons": [
+                  {
+                    "texte": "Voir le film",
+                    "url": "https://www.youtube.com/watch?v=yzubFqyXDmk",
+                    "style": "contour"
+                  },
+                  {
+                    "texte": "Versión española",
+                    "url": "https://www.youtube.com/watch?v=1AAnV-5CKx4",
+                    "style": "contour"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cle": "defense",
+        "ancre": "defense",
+        "titre": "Défense et sécurité",
+        "texte": "Industriels, salons, régiments : filmer la défense de l'intérieur.",
+        "blocs": [
+          {
+            "titre": "Industriels",
+            "texte": "Des films de présentation tournés en conditions réelles, avec les utilisateurs : la série réalisée pour TDA Armements (aujourd'hui Thales) et le reportage d'Arquus à Milipol 2021.",
+            "films": [
+              "QMFdHoR7FxM",
+              "A1yfSvxryKg",
+              "bNW6-rmkwSk",
+              "QxnCk8AzNmE",
+              "x0FG7S3E070",
+              "QdW01BdD24k"
+            ]
+          },
+          {
+            "titre": "Partenariats avec le 1er RCP",
+            "texte": "Des films courts réalisés avec des industriels pour le régiment et publiés sur ses pages officielles : l'UNAC, Texelis (aujourd'hui KNDS France) et Thales.",
+            "films": [
+              "RCP3",
+              "RCP9",
+              "RCP10",
+              "RCP11"
+            ],
+            "boutons": [
+              {
+                "texte": "1er RCP sur Instagram",
+                "url": "https://www.instagram.com/1er_rcp/"
+              },
+              {
+                "texte": "1er RCP sur Facebook",
+                "url": "https://www.facebook.com/1erRCP"
+              },
+              {
+                "texte": "1er RCP sur X",
+                "url": "https://x.com/1erRCP"
+              }
+            ]
+          },
+          {
+            "titre": "Vie du régiment",
+            "texte": "Les journées portes ouvertes 2025 du 1er RCP, en deux parties.",
+            "films": [
+              "RCP1",
+              "RCP2"
+            ]
+          },
+          {
+            "titre": "Salons",
+            "texte": "Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon. Quatre épisodes, quatre écritures : cinématique, pop-rock avec un plan-séquence de près de deux minutes, électro, puis un retour au cinéma. L'équivalent d'un 52 minutes tourné et monté en une dizaine de jours.",
+            "films": [
+              "bhsuc7c241k",
+              "AcNQO-oy2UA",
+              "S3CpTXKa7iA",
+              "4PUFyZn7TV8"
+            ],
+            "boutons": [
+              {
+                "texte": "Tous les films Eurosatory 2022",
+                "url": "https://www.youtube.com/playlist?list=PLpV-5U4pNRWlCMZO7UaqWA7eWqIAEeJV3"
+              }
+            ]
+          },
+          {
+            "titre": "Entretiens et analyses",
+            "texte": "Des responsables politiques, des chercheurs et des généraux face caméra.",
+            "films": [
+              "gPRFbBvnD_c",
+              "88Tojjmake4",
+              "2YGZr_pob0c",
+              "QUhc5drglAs",
+              "J-EwxwK9gIQ"
+            ]
+          }
+        ]
+      },
+      {
+        "cle": "memoire",
+        "ancre": "memoire",
+        "titre": "Mémoire combattante",
+        "texte": "Le 1er RCP, ses anciens et les opérations : transmettre ce qui a été vécu.",
+        "blocs": [
+          {
+            "titre": "Histoire du 1er RCP",
+            "texte": "L'histoire du régiment en chapitres, publiée sur les pages officielles du 1er RCP.",
+            "films": [
+              "RCP4",
+              "RCP5",
+              "RCP6",
+              "RCP7",
+              "RCP8"
+            ],
+            "boutons": [
+              {
+                "texte": "1er RCP sur Instagram",
+                "url": "https://www.instagram.com/1er_rcp/"
+              },
+              {
+                "texte": "1er RCP sur Facebook",
+                "url": "https://www.facebook.com/1erRCP"
+              },
+              {
+                "texte": "1er RCP sur X",
+                "url": "https://x.com/1erRCP"
+              }
+            ]
+          },
+          {
+            "titre": "Témoins",
+            "texte": "Portraits et témoignages d'anciens, dont deux réalisés avec l'amicale du 1er RCP.",
+            "films": [
+              "MX1rXj52K88",
+              "uF7zqXfUsjc",
+              "AZERIB9ymiE"
+            ]
+          },
+          {
+            "titre": "Commémorations",
+            "texte": "Films de mémoire et de cérémonie.",
+            "films": [
+              "hAsRJtDXMSY",
+              "iyuX_UN7ABY"
+            ]
+          },
+          {
+            "titre": "Opération Serval, Mali 2013",
+            "texte": "Dix-huit films montés au rythme des opérations, vus plus de deux millions de fois et repris par la presse nationale et internationale, et trois hommages à des soldats morts pour la France.",
+            "boutons": [
+              {
+                "texte": "Lire l'histoire de la série",
+                "url": "/defense-et-securite/#serval",
+                "style": "contour"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cle": "entreprise",
+        "ancre": "entreprises",
+        "titre": "Entreprises et fondations",
+        "texte": "Pour la Fondation Résilience et FA3R, la Fondation Safran, Europorte : des films de formation, de présentation et de communication.",
+        "blocs": [
+          {
+            "films": [
+              "NFZDGtgBNIk",
+              "Dw4gb7rz2Vo",
+              "-6Spc96VcUY",
+              "TA-o8ZS0wr8",
+              "_YsZuKmk1PE"
+            ]
+          }
+        ]
+      },
+      {
+        "cle": "clip",
+        "ancre": "creations",
+        "titre": "Créations",
+        "texte": "Films libres, clips et expériences, dont les premiers films de LAKELAB.",
+        "blocs": [
+          {
+            "films": [
+              "iJQCmkrEMuU",
+              "6FrZTiHyWsk",
+              "rWCRZ3bxfi8",
+              "nV6w78VdXkI",
+              "LZjgeTSqBXA",
+              "CbSYRM0fGcU",
+              "dwlq_LhiSDc"
+            ]
+          }
+        ]
+      }
     ],
-    "liens": [
-     {
-      "texte": "1er RCP sur Instagram",
-      "url": "https://www.instagram.com/1er_rcp/"
-     },
-     {
-      "texte": "1er RCP sur Facebook",
-      "url": "https://www.facebook.com/1erRCP"
-     },
-     {
-      "texte": "1er RCP sur X",
-      "url": "https://x.com/1erRCP"
-     }
-    ],
-    "lienSerie": false
-   },
-   {
-    "cle": "memoire",
-    "titre": "Mémoire",
-    "texte": "Portraits de témoins et films de commémoration.",
-    "films": [
-     {
-      "id": "MX1rXj52K88",
-      "titre": "Capitaine Raymond Locci",
-      "description": "Brevet para 12204 · réalisé avec l'amicale du 1er RCP · septembre 2025 · plus de 33 000 vues",
-      "duree": "1:35:39",
-      "youtube": "https://www.youtube.com/watch?v=MX1rXj52K88"
-     },
-     {
-      "id": "uF7zqXfUsjc",
-      "titre": "Commandant Everrard",
-      "description": "Commande de l'amicale du 1er RCP, offerte au régiment · juin 2025 · plus de 40 000 vues",
-      "duree": "34:23",
-      "liens": [
-       {
-        "reseau": "YouTube",
-        "url": "https://www.youtube.com/watch?v=uF7zqXfUsjc"
-       },
-       {
-        "reseau": "Relais du régiment sur X",
-        "url": "https://x.com/1erRCP/status/1938606377661874421"
-       }
+    "documentaires_detail": {
+      "surtitre": "Documentaires",
+      "titre": "Mes documentaires",
+      "films": [
+        {
+          "id": "c4xGjV6-sNg",
+          "etiquette": "France 4 · 2010 · 52 minutes",
+          "titre": "Chroniques du 93",
+          "texte": "Une immersion dans la CSI 93, en Seine-Saint-Denis, au cœur des violences urbaines. Un documentaire d'auteur de 52 minutes pour France 4, tourné au plus près de ceux qui y font face.",
+          "boutons": [
+            {
+              "texte": "Voir le film",
+              "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
+              "style": "contour"
+            }
+          ]
+        },
+        {
+          "id": "DOIkFS4peF8",
+          "etiquette": "W9 · 2008 · 6 parties",
+          "titre": "La nuit leur appartient, BAC Paris",
+          "texte": "Réalisé pour la centième d'Enquête d'action, sur W9 : une plongée dans la nuit parisienne aux côtés de la BAC. Le film est visible en six parties.",
+          "boutons": [
+            {
+              "texte": "Partie 1",
+              "url": "https://www.youtube.com/watch?v=DOIkFS4peF8",
+              "style": "contour"
+            },
+            {
+              "texte": "Partie 2",
+              "url": "https://www.youtube.com/watch?v=MvaTPwqZSe8",
+              "style": "contour"
+            }
+          ]
+        },
+        {
+          "id": "yzubFqyXDmk",
+          "etiquette": "Avec Pierre Bayle · 43 minutes",
+          "titre": "Voix d'Amazonie",
+          "texte": "Co-réalisé avec Pierre Bayle : les communautés indigènes d'Équateur face à l'extraction minière et pétrolière. Une version espagnole, « Voces de la Amazonia », existe aussi.",
+          "boutons": [
+            {
+              "texte": "Voir le film",
+              "url": "https://www.youtube.com/watch?v=yzubFqyXDmk",
+              "style": "contour"
+            },
+            {
+              "texte": "Versión española",
+              "url": "https://www.youtube.com/watch?v=1AAnV-5CKx4",
+              "style": "contour"
+            }
+          ]
+        }
       ]
-     },
-     {
-      "id": "hAsRJtDXMSY",
-      "titre": "70 ans de Diên Biên Phu au 1er RCP",
-      "description": "Film de mémoire",
-      "duree": "7:00",
-      "youtube": "https://www.youtube.com/watch?v=hAsRJtDXMSY"
-     },
-     {
-      "id": "iyuX_UN7ABY",
-      "titre": "Drakkar, 40e anniversaire",
-      "description": "Commémoration de l'attentat",
-      "duree": "11:23",
-      "youtube": "https://www.youtube.com/watch?v=iyuX_UN7ABY"
-     }
-    ],
-    "liens": [],
-    "lienSerie": false
-   },
-   {
-    "cle": "serval",
-    "titre": "Série Serval",
-    "texte": "Mali, 2013 : dix-huit films montés au rythme des opérations et trois hommages.",
-    "films": [
-     {
-      "id": "YurOVRWhpz8",
-      "titre": "Combats dans l'Adrar des Ifhôgas",
-      "description": "Du 9 février au 1er mars 2013",
-      "duree": "13:26",
-      "youtube": "https://www.youtube.com/watch?v=YurOVRWhpz8"
-     },
-     {
-      "id": "0ynsZ42MuU4",
-      "titre": "Forces spéciales et 1er RCP à Tessalit",
-      "description": "8 février 2013",
-      "duree": "2:32",
-      "youtube": "https://www.youtube.com/watch?v=0ynsZ42MuU4"
-     },
-     {
-      "id": "zGDIDGMcbaM",
-      "titre": "La Légion saute sur Tombouctou",
-      "description": "Version longue · 28 janvier 2013",
-      "duree": "6:27",
-      "youtube": "https://www.youtube.com/watch?v=zGDIDGMcbaM"
-     }
-    ],
-    "liens": [],
-    "lienSerie": true
-   },
-   {
-    "cle": "entreprise",
-    "titre": "Entreprises et institutions",
-    "texte": "Films de formation, de présentation et de communication.",
-    "films": [
-     {
-      "id": "NFZDGtgBNIk",
-      "titre": "FA3R et Résilience pour Europorte",
-      "description": "Novembre 2025",
-      "duree": "2:33",
-      "youtube": "https://www.youtube.com/watch?v=NFZDGtgBNIk"
-     },
-     {
-      "id": "-6Spc96VcUY",
-      "titre": "Formation Europorte",
-      "description": "Film de formation",
-      "duree": "3:11",
-      "youtube": "https://www.youtube.com/watch?v=-6Spc96VcUY"
-     },
-     {
-      "id": "Dw4gb7rz2Vo",
-      "titre": "Nos vétérans",
-      "description": "Promotion Fondation Safran 2026",
-      "duree": "1:46",
-      "youtube": "https://www.youtube.com/watch?v=Dw4gb7rz2Vo"
-     },
-     {
-      "id": "A1yfSvxryKg",
-      "titre": "TDA, mortier tracté rayé de 120 mm",
-      "description": "Présentation du matériel",
-      "duree": "6:00",
-      "youtube": "https://www.youtube.com/watch?v=A1yfSvxryKg"
-     },
-     {
-      "id": "x0FG7S3E070",
-      "titre": "TDA, systèmes de roquettes à induction",
-      "description": "Telson et Aculeus",
-      "duree": "4:37",
-      "youtube": "https://www.youtube.com/watch?v=x0FG7S3E070"
-     },
-     {
-      "id": "uKmk7onujpo",
-      "titre": "Tanguy Dépannages",
-      "description": "Film d'entreprise",
-      "duree": "2:14",
-      "youtube": "https://www.youtube.com/watch?v=uKmk7onujpo"
-     },
-     {
-      "id": "TA-o8ZS0wr8",
-      "titre": "La nouvelle Citroën C4",
-      "description": "Sur les routes de Pierre-Percée",
-      "duree": "1:12",
-      "youtube": "https://www.youtube.com/watch?v=TA-o8ZS0wr8"
-     },
-     {
-      "id": "_YsZuKmk1PE",
-      "titre": "International Competitive Intelligence Conference",
-      "description": "Captation de conférence",
-      "duree": "7:05",
-      "youtube": "https://www.youtube.com/watch?v=_YsZuKmk1PE"
-     }
-    ],
-    "liens": [],
-    "lienSerie": false
-   },
-   {
-    "cle": "salon",
-    "titre": "Salons et défense",
-    "texte": "Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon. Quatre épisodes, quatre écritures : cinématique, pop-rock avec un plan-séquence de près de deux minutes, électro, puis un retour au cinéma. L'équivalent d'un 52 minutes tourné et monté en une dizaine de jours. Avec aussi des reportages sur HELPED, le parcours consacré à la réponse aux crises, illustrés en post-production.",
-    "films": [
-     {
-      "id": "bhsuc7c241k",
-      "titre": "EDR Show Daily, épisode 1",
-      "description": "Eurosatory 2022",
-      "duree": "5:49",
-      "youtube": "https://www.youtube.com/watch?v=bhsuc7c241k"
-     },
-     {
-      "id": "AcNQO-oy2UA",
-      "titre": "EDR Show Daily, épisode 2",
-      "description": "Eurosatory 2022",
-      "duree": "3:49",
-      "youtube": "https://www.youtube.com/watch?v=AcNQO-oy2UA"
-     },
-     {
-      "id": "S3CpTXKa7iA",
-      "titre": "EDR Show Daily, épisode 3",
-      "description": "Eurosatory 2022",
-      "duree": "2:56",
-      "youtube": "https://www.youtube.com/watch?v=S3CpTXKa7iA"
-     },
-     {
-      "id": "4PUFyZn7TV8",
-      "titre": "EDR Show Daily, épisode 4",
-      "description": "Eurosatory 2022",
-      "duree": "2:52",
-      "youtube": "https://www.youtube.com/watch?v=4PUFyZn7TV8"
-     },
-     {
-      "id": "gPRFbBvnD_c",
-      "titre": "Christian Cambon",
-      "description": "Entrevue · Commission de la Défense du Sénat",
-      "duree": "7:26",
-      "youtube": "https://www.youtube.com/watch?v=gPRFbBvnD_c"
-     },
-     {
-      "id": "88Tojjmake4",
-      "titre": "Charles Beaudouin",
-      "description": "Entrevue · directeur général de COGES",
-      "duree": "9:21",
-      "youtube": "https://www.youtube.com/watch?v=88Tojjmake4"
-     }
-    ],
-    "liens": [
-     {
-      "texte": "Tous les films Eurosatory 2022",
-      "url": "https://www.youtube.com/playlist?list=PLpV-5U4pNRWlCMZO7UaqWA7eWqIAEeJV3"
-     }
-    ],
-    "lienSerie": false
-   },
-   {
-    "cle": "entretien",
-    "titre": "Entretiens",
-    "texte": "Des experts, des chercheurs et des généraux face caméra.",
-    "films": [
-     {
-      "id": "2YGZr_pob0c",
-      "titre": "Méditerranée orientale, du gaz dans l'eau",
-      "description": "Entretien avec Nicolas Mazzucchi, Fondation pour la recherche stratégique · pour ExMergere",
-      "duree": "19:41",
-      "youtube": "https://www.youtube.com/watch?v=2YGZr_pob0c"
-     },
-     {
-      "id": "QUhc5drglAs",
-      "titre": "Guerre en milieu urbain",
-      "description": "Entretien avec Pierre Santoni, co-auteur de « L'ultime champ de bataille »",
-      "duree": "17:09",
-      "youtube": "https://www.youtube.com/watch?v=QUhc5drglAs"
-     },
-     {
-      "id": "J-EwxwK9gIQ",
-      "titre": "Armée française, seuil critique ?",
-      "description": "Entretien avec le général Pinard Legry, président de l'ASAF",
-      "duree": "14:20",
-      "youtube": "https://www.youtube.com/watch?v=J-EwxwK9gIQ"
-     }
-    ],
-    "liens": [],
-    "lienSerie": false
-   },
-   {
-    "cle": "clip",
-    "titre": "Clips et créations",
-    "texte": "Films libres, clips et expériences, dont les premiers de LAKELAB.",
-    "films": [
-     {
-      "id": "iJQCmkrEMuU",
-      "titre": "État d'urgence",
-      "description": "Premier film LAKELAB",
-      "duree": "2:50",
-      "youtube": "https://www.youtube.com/watch?v=iJQCmkrEMuU"
-     },
-     {
-      "id": "6FrZTiHyWsk",
-      "titre": "État naturel",
-      "description": "LAKELAB",
-      "duree": "4:04",
-      "youtube": "https://www.youtube.com/watch?v=6FrZTiHyWsk"
-     },
-     {
-      "id": "rWCRZ3bxfi8",
-      "titre": "Barbatoro",
-      "description": "Museumotel",
-      "duree": "3:33",
-      "youtube": "https://www.youtube.com/watch?v=rWCRZ3bxfi8"
-     },
-     {
-      "id": "nV6w78VdXkI",
-      "titre": "L'œuf ou la poule ?",
-      "description": "Museumotel · Pâques 2015",
-      "duree": "5:00",
-      "youtube": "https://www.youtube.com/watch?v=nV6w78VdXkI"
-     },
-     {
-      "id": "LZjgeTSqBXA",
-      "titre": "Jean-Michel Aubry",
-      "description": "Teaser d'exposition · Museumotel",
-      "duree": "1:08",
-      "youtube": "https://www.youtube.com/watch?v=LZjgeTSqBXA"
-     },
-     {
-      "id": "CbSYRM0fGcU",
-      "titre": "Gipsy Family, SeaStars",
-      "description": "Clip",
-      "duree": "5:41",
-      "youtube": "https://www.youtube.com/watch?v=CbSYRM0fGcU"
-     },
-     {
-      "id": "dwlq_LhiSDc",
-      "titre": "Gipsy Family, Die Electro",
-      "description": "Clip",
-      "duree": "6:06",
-      "youtube": "https://www.youtube.com/watch?v=dwlq_LhiSDc"
-     }
-    ],
-    "liens": [],
-    "lienSerie": false
-   }
-  ],
-  "une": [
-   {
-    "id": "c4xGjV6-sNg",
-    "titre": "Chroniques du 93",
-    "description": "2010",
-    "duree": "52:21",
-    "etiquette": "Documentaire",
-    "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg"
-   },
-   {
-    "id": "MX1rXj52K88",
-    "titre": "Capitaine Raymond Locci",
-    "description": "Vosges 1943, Indochine 1946",
-    "duree": "1:35:39",
-    "etiquette": "Portrait",
-    "url": "https://www.youtube.com/watch?v=MX1rXj52K88"
-   },
-   {
-    "id": "uF7zqXfUsjc",
-    "titre": "Commandant Everrard",
-    "description": "Indochine 1946, 1er RCP",
-    "duree": "34:23",
-    "etiquette": "Portrait",
-    "url": "https://www.youtube.com/watch?v=uF7zqXfUsjc"
-   },
-   {
-    "id": "SERVAL",
-    "titre": "Opération Serval",
-    "description": "Mali 2013 · plus de 2 millions de vues",
-    "duree": "",
-    "etiquette": "Série",
-    "url": "/serie-serval/"
-   },
-   {
-    "id": "JEB",
-    "titre": "Les 80 ans de Jebsheim",
-    "description": "Le 1er RCP et la libération de l'Alsace",
-    "duree": "",
-    "etiquette": "Mémoire",
-    "url": "https://www.instagram.com/reel/DS0Fuk-DXkT/"
-   },
-   {
-    "id": "iJQCmkrEMuU",
-    "titre": "État d'urgence",
-    "description": "Premier film LAKELAB",
-    "duree": "2:50",
-    "etiquette": "Film",
-    "url": "https://www.youtube.com/watch?v=iJQCmkrEMuU"
-   }
-  ],
-  "serval": [
-   {
-    "id": "pLcKlKHWYHY",
-    "date": "12 janvier",
-    "titre": "L'armée française au Mali",
-    "duree": "8:03",
-    "youtube": "https://www.youtube.com/watch?v=pLcKlKHWYHY"
-   },
-   {
-    "id": "kPuuU75zw7Y",
-    "date": "13 janvier",
-    "titre": "Les Rafale s'envolent vers le Mali",
-    "duree": "2:02",
-    "youtube": "https://www.youtube.com/watch?v=kPuuU75zw7Y"
-   },
-   {
-    "id": "w1fyoCd3pvY",
-    "date": "14 janvier",
-    "titre": "C-17, Antonov 124 et Mirage F1CR",
-    "duree": "3:16",
-    "youtube": "https://www.youtube.com/watch?v=w1fyoCd3pvY"
-   },
-   {
-    "id": "1nsHAeT5_kE",
-    "date": "15 janvier",
-    "titre": "Le ministre de la Défense aux opérations aériennes",
-    "duree": "2:02",
-    "youtube": "https://www.youtube.com/watch?v=1nsHAeT5_kE"
-   },
-   {
-    "id": "iLkc71IaTcs",
-    "date": "15 janvier",
-    "titre": "SGTIA au Mali, Sagaie et Rafale",
-    "duree": "7:04",
-    "youtube": "https://www.youtube.com/watch?v=iLkc71IaTcs"
-   },
-   {
-    "id": "V0VSMZOMV10",
-    "date": "16 janvier",
-    "titre": "Montée en puissance",
-    "duree": "5:43",
-    "youtube": "https://www.youtube.com/watch?v=V0VSMZOMV10"
-   },
-   {
-    "id": "FA2aRxFO9Ps",
-    "date": "18 janvier",
-    "titre": "Markala, bloc chirurgical et Mirage 2000",
-    "duree": "3:52",
-    "youtube": "https://www.youtube.com/watch?v=FA2aRxFO9Ps"
-   },
-   {
-    "id": "AWs06tqScYQ",
-    "date": "19 janvier",
-    "titre": "Hélicoptères Puma et pont aérien",
-    "duree": "2:42",
-    "youtube": "https://www.youtube.com/watch?v=AWs06tqScYQ"
-   },
-   {
-    "id": "9rfgWcye9ME",
-    "date": "21 janvier",
-    "titre": "Région de Sévaré-Mopti",
-    "duree": "3:11",
-    "youtube": "https://www.youtube.com/watch?v=9rfgWcye9ME"
-   },
-   {
-    "id": "jMsHVbO5iFc",
-    "date": "23 janvier",
-    "titre": "SGTIA Mopti, armée tchadienne et BPC Dixmude",
-    "duree": "3:54",
-    "youtube": "https://www.youtube.com/watch?v=jMsHVbO5iFc"
-   },
-   {
-    "id": "2S8XpTEGSH0",
-    "date": "27 janvier",
-    "titre": "Gao libérée",
-    "duree": "2:20",
-    "youtube": "https://www.youtube.com/watch?v=2S8XpTEGSH0"
-   },
-   {
-    "id": "p5W9PKR6FdU",
-    "date": "28 janvier",
-    "titre": "La Légion saute sur Tombouctou",
-    "duree": "1:16",
-    "youtube": "https://www.youtube.com/watch?v=p5W9PKR6FdU"
-   },
-   {
-    "id": "zGDIDGMcbaM",
-    "date": "28 janvier",
-    "titre": "La Légion saute sur Tombouctou, version longue",
-    "duree": "6:27",
-    "youtube": "https://www.youtube.com/watch?v=zGDIDGMcbaM"
-   },
-   {
-    "id": "8vFV_OeewSk",
-    "date": "29 janvier",
-    "titre": "Le 17 saute sur Tombouctou",
-    "duree": "6:26",
-    "youtube": "https://www.youtube.com/watch?v=8vFV_OeewSk"
-   },
-   {
-    "id": "btHYEMY4nfA",
-    "date": "28 janvier au 5 février",
-    "titre": "De Bamako à Kidal",
-    "duree": "5:52",
-    "youtube": "https://www.youtube.com/watch?v=btHYEMY4nfA"
-   },
-   {
-    "id": "Pojj5b2P_GM",
-    "date": "30 janvier au 5 février",
-    "titre": "NEDEX, fleuve Niger et Mirage 2000",
-    "duree": "10:55",
-    "youtube": "https://www.youtube.com/watch?v=Pojj5b2P_GM"
-   },
-   {
-    "id": "0ynsZ42MuU4",
-    "date": "8 février",
-    "titre": "Forces spéciales et 1er RCP à Tessalit",
-    "duree": "2:32",
-    "youtube": "https://www.youtube.com/watch?v=0ynsZ42MuU4"
-   },
-   {
-    "id": "YurOVRWhpz8",
-    "date": "9 février au 1er mars",
-    "titre": "Combats dans l'Adrar des Ifhôgas",
-    "duree": "13:26",
-    "youtube": "https://www.youtube.com/watch?v=YurOVRWhpz8"
-   }
-  ],
-  "hommages": [
-   {
-    "id": "SZR7eUvBGXc",
-    "date": "2 mars 2013",
-    "titre": "Caporal-chef Cédric Charenton, 1er RCP",
-    "duree": "8:40",
-    "youtube": "https://www.youtube.com/watch?v=SZR7eUvBGXc"
-   },
-   {
-    "id": "miAknLoN2Gc",
-    "date": "16 mars 2013",
-    "titre": "Caporal Alexandre van Dooren, 1er RIMa",
-    "duree": "1:57",
-    "youtube": "https://www.youtube.com/watch?v=miAknLoN2Gc"
-   },
-   {
-    "id": "yqJ7XW-rdTw",
-    "date": "29 avril 2013",
-    "titre": "Caporal-chef Stéphane Duval, 1er RPIMa",
-    "duree": "1:25",
-    "youtube": "https://www.youtube.com/watch?v=yqJ7XW-rdTw"
-   }
-  ]
- },
- "descriptions": {
-  "accueil": "Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.",
-  "films": "Documentaires pour la télévision, portraits de témoins, films de mémoire, reportages, films pour entreprises et clips. Chaque vignette ouvre le film.",
-  "serie-serval": "Les images de l'armée française, sélectionnées et montées au rythme des opérations, diffusées dans la presse nationale et internationale.",
-  "a-propos": "Auteur-réalisateur documentaire depuis vingt ans. Défense, mémoire combattante et transmission.",
-  "defense-et-securite": "Ancien combattant de l'infanterie parachutiste et officier de réserve, je connais le terrain, le vocabulaire et les contraintes de la communication de défense. Je réalise des films pour des régiments, des industriels et des salons.",
-  "lakelab": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général.",
-  "contact": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement."
- }
+    }
+  },
+  "descriptions": {
+    "accueil": "Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les industriels de la défense.",
+    "films": "Documentaires pour la télévision, portraits de témoins, films de mémoire, films de défense et d'entreprise, clips. Chaque vignette ouvre le film.",
+    "a-propos": "Auteur-réalisateur documentaire depuis vingt ans. Défense, mémoire combattante et transmission.",
+    "defense-et-securite": "Ancien combattant de l'infanterie parachutiste et officier de réserve, je connais le terrain, le vocabulaire et les contraintes de la communication de défense. Je réalise des films pour des régiments, des industriels et des salons.",
+    "lakelab": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général.",
+    "contact": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement."
+  }
 }

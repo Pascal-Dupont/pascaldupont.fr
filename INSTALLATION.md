@@ -1,10 +1,10 @@
 # Installer le nouveau site sur WordPress (OVH)
 
-Durée : environ 15 minutes. Vous n'avez rien à coder. Ce parcours a été rejoué de bout en bout, par l'interface d'administration, sur un WordPress neuf : les 9 pages s'affichent et s'ouvrent sans erreur dans l'éditeur.
+Durée : environ 15 minutes. Vous n'avez rien à coder. Ce parcours a été rejoué de bout en bout, par l'interface d'administration, sur un WordPress neuf : les 8 pages s'affichent et s'ouvrent sans erreur dans l'éditeur.
 
 ## Fichiers à récupérer sur GitHub (dossier `dist/`)
 - `kadence-pascal.zip` : le thème enfant de Kadence (couleurs, polices, en-tête, pied de page, formulaire de contact).
-- `pages-pascaldupont.xml` : les 9 pages du site, en blocs Kadence éditables (Accueil, Films, Série Serval, À propos, Défense et sécurité, LAKELAB, Devis et contact, Mentions légales, Confidentialité).
+- `pages-pascaldupont.xml` : les 8 pages du site, en blocs Kadence éditables (Accueil, Films, À propos, Défense et sécurité, LAKELAB, Devis et contact, Mentions légales, Confidentialité).
 
 Pour chacun : ouvrez le fichier sur GitHub, puis cliquez sur l'icône « Download raw file » (flèche vers le bas, en haut à droite du fichier).
 
@@ -23,16 +23,14 @@ Il n'est pas nécessaire de sauvegarder l'ancien site si vous n'y tenez pas. À 
 
 ## Après l'installation
 - **Les vignettes de films** viennent de YouTube et s'affichent automatiquement.
-- **Icône du site (favicon)** : *Apparence, Personnaliser, Identité du site, Icône du site* (image carrée d'au moins 512 pixels).
+- **Icône du site (favicon)** : la silhouette de montagnes est déjà incluse dans le thème. Rien à faire.
 - **Portrait** : sur la page À propos, remplacez le cadre « Portrait à ajouter » (bloc *Couverture*, bouton *Remplacer*).
 - **Modifier un texte** : ouvrez la page dans *Pages*, cliquez sur le texte et tapez, comme dans un traitement de texte.
-- **Mentions légales** : complétez le statut, le SIRET et l'adresse (repérés en pointillés).
-- **Politique de confidentialité** : à faire relire.
 
 ## Si quelque chose ne va pas
 - **L'ancien design s'affiche encore** : *Apparence, Thèmes* et vérifiez que « Pascal Dupont (Kadence, thème enfant) » est actif. Videz le cache du navigateur.
 - **Le menu est vide ou l'accueil est une liste d'articles** : *Réglages, Lecture*, choisissez « Une page statique » avec « Accueil ». *Apparence, Menus*, assignez « Menu principal » à l'emplacement principal.
-- **Le message du formulaire n'arrive pas** : regardez les courriers indésirables. Si besoin, installez l'extension gratuite « WP Mail SMTP » pour fiabiliser l'envoi.
+- **Le message du formulaire n'arrive pas** : regardez les courriers indésirables. Les messages sont envoyés à contact@pascaldupont.fr. Si besoin, installez l'extension gratuite « WP Mail SMTP » (serveur ssl0.ovh.net, port 465, SSL, identifiant contact@pascaldupont.fr) pour fiabiliser l'envoi.
 - **Dans tous les cas** : envoyez-moi une capture d'écran, je corrige ici, vous renvoyez le zip.
 
 ## Pour les modifications futures (maintenance par Claude)

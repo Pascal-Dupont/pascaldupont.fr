@@ -71,7 +71,7 @@ add_shortcode(
 			'ok'      => array( 'ok', 'Merci, votre message est bien parti. Je vous réponds personnellement.' ),
 			'erreur'  => array( 'erreur', 'Le formulaire n\'a pas pu être envoyé. Vérifiez les champs et réessayez.' ),
 			'attente' => array( 'erreur', 'Un message vient d\'être envoyé depuis votre connexion. Patientez une minute avant d\'en envoyer un autre.' ),
-			'echec'   => array( 'erreur', 'Le message n\'a pas pu être remis. Écrivez-moi directement à creationvideo@live.fr.' ),
+			'echec'   => array( 'erreur', 'Le message n\'a pas pu être remis. Écrivez-moi directement à contact@pascaldupont.fr.' ),
 		);
 		$t = time();
 
@@ -149,7 +149,7 @@ function pd_traiter_contact() {
 
 	set_transient( $cle, 1, MINUTE_IN_SECONDS );
 
-	$destinataire = apply_filters( 'pd_destinataire', 'creationvideo@live.fr' );
+	$destinataire = apply_filters( 'pd_destinataire', 'contact@pascaldupont.fr' );
 	$nom_propre   = trim( str_replace( array( '<', '>', '"', ',', ';' ), '', $nom ) );
 	$sujet        = '[pascaldupont.fr] ' . $type . ' : ' . $nom_propre;
 	$corps        = "Nom : $nom_propre\nE-mail : $mail\nType de projet : $type\n\n$message\n";
@@ -239,7 +239,7 @@ function pd_creer_menu( $nom, $elements ) {
 }
 
 function pd_installer_site() {
-	$cles = array( 'accueil', 'films', 'serie-serval', 'a-propos', 'defense-et-securite', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
+	$cles = array( 'accueil', 'films', 'a-propos', 'defense-et-securite', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
 	$p    = array();
 	foreach ( $cles as $cle ) {
 		$p[ $cle ] = pd_page_par_cle( $cle );
@@ -270,7 +270,7 @@ function pd_installer_site() {
 		'Menu principal',
 		array(
 			array( 'titre' => 'Films', 'page' => $p['films'] ),
-			array( 'titre' => 'Série Serval', 'page' => $p['serie-serval'] ),
+			array( 'titre' => 'Défense et sécurité', 'page' => $p['defense-et-securite'] ),
 			array( 'titre' => 'À propos', 'page' => $p['a-propos'] ),
 			array( 'titre' => 'Prestations', 'url' => '/#prestations', 'classes' => 'pd-ancre' ),
 			array( 'titre' => 'LAKELAB', 'page' => $p['lakelab'] ),
@@ -280,7 +280,6 @@ function pd_installer_site() {
 	$pied = pd_creer_menu(
 		'Pied de page',
 		array(
-			array( 'titre' => 'Défense et sécurité', 'page' => $p['defense-et-securite'] ),
 			array( 'titre' => 'Mentions légales', 'page' => $p['mentions-legales'] ),
 			array( 'titre' => 'Confidentialité', 'page' => $p['confidentialite'] ),
 		)
@@ -385,4 +384,23 @@ add_filter(
 		}
 		return $classes;
 	}
+);
+
+
+/* ------------------------------------------------------------------ */
+/* Icône du site : celle du thème, tant qu'aucune n'est choisie dans    */
+/* Apparence > Personnaliser > Identité du site                         */
+/* ------------------------------------------------------------------ */
+add_action(
+	'wp_head',
+	function () {
+		if ( has_site_icon() ) {
+			return;
+		}
+		$d = get_stylesheet_directory_uri() . '/assets/';
+		echo '<link rel="icon" href="' . esc_url( $d . 'icone.svg' ) . '" type="image/svg+xml">' . "\n";
+		echo '<link rel="icon" href="' . esc_url( $d . 'icone-32.png' ) . '" sizes="32x32" type="image/png">' . "\n";
+		echo '<link rel="apple-touch-icon" href="' . esc_url( $d . 'icone-180.png' ) . '">' . "\n";
+	},
+	2
 );

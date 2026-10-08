@@ -185,7 +185,7 @@
           {
            "name": "core/paragraph",
            "attributes": {
-            "content": "Pascal Dupont, joignable à l'adresse creationvideo@live.fr.",
+            "content": "Pascal Dupont, joignable à l'adresse contact@pascaldupont.fr.",
             "style": {
              "typography": {
               "fontSize": "1.0625rem",
@@ -389,7 +389,7 @@
           {
            "name": "core/paragraph",
            "attributes": {
-            "content": "Vous pouvez demander l'accès à vos données, leur rectification, leur effacement ou vous opposer à leur traitement, en écrivant à creationvideo@live.fr. En cas de difficulté, vous pouvez saisir la CNIL (cnil.fr).",
+            "content": "Vous pouvez demander l'accès à vos données, leur rectification, leur effacement ou vous opposer à leur traitement, en écrivant à contact@pascaldupont.fr. En cas de difficulté, vous pouvez saisir la CNIL (cnil.fr).",
             "style": {
              "typography": {
               "fontSize": "1.0625rem",

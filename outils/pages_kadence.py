@@ -241,6 +241,11 @@ class Page:
                 'useRatio': True, 'ratio': 'land169', 'link': yt, 'linkTarget': True,
                 'linkTitle': 'Voir « %s » sur YouTube (nouvel onglet)' % f['titre'],
                 'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px', 'marginDesktop': [0, 0, 14, 0], 'marginUnit': 'px'}})
+        elif f['id'].startswith('RCP') and RCP_VIGNETTE and f.get('liens'):
+            enfants.append({'name': 'kadence/image', 'attributes': {
+                'url': RCP_VIGNETTE, 'alt': 'Vignette du film « %s »' % f['titre'], 'useRatio': True, 'ratio': 'land169',
+                'link': f['liens'][0]['url'], 'linkTarget': True, 'linkTitle': 'Voir « %s » sur %s (nouvel onglet)' % (f['titre'], f['liens'][0]['reseau']),
+                'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px', 'marginDesktop': [0, 0, 14, 0], 'marginUnit': 'px'}})
         else:
             s = sum(ord(c) for c in f['id'])
             t = 190 + (s % 70)
@@ -305,6 +310,10 @@ class Page:
 
 
 # ================================================================ pages
+
+_RCP = next((x for x in ('rcp-vignette.jpg', 'rcp-vignette.png') if (DEPOT / 'kadence-pascal' / 'assets' / x).exists()), None)
+RCP_VIGNETTE = '/wp-content/themes/kadence-pascal/assets/' + _RCP if _RCP else None
+
 
 def films_par_id():
     d = {}
@@ -395,23 +404,38 @@ def page_films():
     P = Page('films')
     c = SITE['pages']['films']
     entete = P.entete_page(c['entete'])
-    groupes = SITE['films']['groupes']
-    ancres = {'doc': 'documentaires', 'rcp': '1er-rcp', 'memoire': 'memoire', 'serval': 'serval', 'entreprise': 'entreprises',
-              'salon': 'salons', 'entretien': 'entretiens', 'clip': 'clips'}
-    titres = [{'text': g['titre'], 'icon': '', 'iconSide': 'right', 'onlyIcon': False, 'subText': '', 'anchor': 'films-' + ancres[g['cle']]} for g in groupes]
+    ongl = SITE['films']['onglets']
+    fid = films_par_id()
+    titres = [{'text': o['titre'], 'icon': '', 'iconSide': 'right', 'onlyIcon': False, 'subText': '', 'anchor': 'films-' + o['ancre']} for o in ongl]
     onglets = []
-    for i, g in enumerate(groupes, start=1):
-        enfants = [P.ligne(g['texte'], 1.0625, DOUX, 28, largeur=720)]
-        enfants.append(P.grille([P.carte(f) for f in g['films']], 4))
-        liens = []
-        if g.get('lienSerie'):
-            liens.append({'texte': c['lien_serie']['texte'], 'url': c['lien_serie']['url'], 'style': 'contour'})
-        liens += [{'texte': l['texte'], 'url': l['url'], 'style': 'contour'} for l in g.get('liens', [])]
-        if liens:
-            enfants.append(P.boutons(liens, marge_haut=36))
+    for i, o in enumerate(ongl, start=1):
+        enfants = [P.ligne(o['texte'], 1.0625, DOUX, 8, largeur=720)]
+        for k, bl in enumerate(o['blocs']):
+            haut = 40 if (k or True) else 0
+            if bl.get('docs'):
+                cols = []
+                for x in bl['docs']:
+                    f = dict(fid[x['id']])
+                    f.update({'titre': x['titre'], 'description': '', 'duree': ''})
+                    col = P.carte(f, etiquette=x['etiquette'])
+                    col['innerBlocks'].append(P.paragraphe(x['texte'], DOUX))
+                    col['innerBlocks'].append(P.boutons(x['boutons'], marge_haut=8, petit=True))
+                    cols.append(col)
+                enfants.append(P.grille(cols, 3))
+                continue
+            if bl.get('titre'):
+                h = P.titre(bl['titre'], 3, taille=(1.6, 1.5, 1.4), marge_bas=10)
+                h['attributes']['margin'] = [haut + 8, '', 10, '']
+                enfants.append(h)
+            if bl.get('texte'):
+                enfants.append(P.ligne(bl['texte'], 1.0, DOUX, 24, largeur=720))
+            if bl.get('films'):
+                enfants.append(P.grille([P.carte(fid[x]) for x in bl['films']], 4))
+            if bl.get('boutons'):
+                enfants.append(P.boutons([{'texte': l['texte'], 'url': l['url'], 'style': l.get('style', 'contour')} for l in bl['boutons']], marge_haut=28))
         onglets.append({'name': 'kadence/tab', 'attributes': {'id': i, 'uniqueID': P.uid('o')}, 'innerBlocks': enfants})
     tabs = {'name': 'kadence/tabs', 'attributes': {
-        'uniqueID': P.uid('onglets'), 'tabCount': len(groupes), 'startTab': 1, 'layout': 'tabs', 'tabletLayout': 'inherit', 'mobileLayout': 'inherit',
+        'uniqueID': P.uid('onglets'), 'tabCount': len(ongl), 'startTab': 1, 'layout': 'tabs', 'tabletLayout': 'inherit', 'mobileLayout': 'inherit',
         'tabAlignment': 'left', 'titles': titres,
         'titleColor': HEX[DOUX], 'titleColorHover': HEX[TEXTE], 'titleColorActive': HEX[NUIT],
         'titleBg': 'transparent', 'titleBgHover': 'transparent', 'titleBgActive': HEX[TEXTE],
@@ -421,32 +445,8 @@ def page_films():
         'size': '0.85', 'sizeType': 'rem', 'lineHeight': 1.4, 'lineType': '', 'fontWeight': '500',
         'contentBorderStyles': [{'top': ['', '', 0], 'right': ['', '', 0], 'bottom': ['', '', 0], 'left': ['', '', 0], 'unit': 'px'}],
         'innerPadding': [32, 0, 0, 0], 'innerPaddingType': 'px'}, 'innerBlocks': onglets}
-    corps = P.section([tabs], padding=(24, 24, 16))
+    corps = P.section([tabs], padding=(24, 24, 16), padding_bas=(96, 72, 56))
     return c['titre'], [entete, corps]
-
-
-def page_serval():
-    P = Page('serval')
-    c = SITE['pages']['serie-serval']
-    entete = P.entete_page(c['entete'])
-    chiffres = P.section([P.chiffres(c['chiffres'])], padding=(40, 32, 24), padding_bas=(72, 56, 40))
-    fab, presse = c['fabrication'], c['presse']
-    credits = P.ligne('<br>'.join(fab['credits']), 0.8, DOUX, 0, police=MONO, interligne=1.8)
-    credits['attributes']['borderStyle'] = [{'top': ['', '', ''], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': [HEX[BERET], 'solid', 2], 'unit': 'px'}]
-    credits['attributes']['padding'] = [0, 0, 0, 16]
-    credits['attributes']['paddingType'] = 'px'
-    deux = P.section([P.rangee([
-        P.colonne([P.titre(fab['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=16)] + [P.paragraphe(t, DOUX) for t in fab['paragraphes']] + [credits]),
-        P.colonne([P.titre(presse['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=16), P.liste_dates(presse['lignes'])]),
-    ], layout='equal', gouttiere=[48, 40, 0], gouttiere_v=[0, 0, 40])], padding=(0, 0, 0), padding_bas=(96, 72, 56))
-    ch = c['chronologie']
-    cartes = [P.carte({'id': f['id'], 'titre': f['titre'], 'duree': f['duree'], 'youtube': f['youtube']}, date=f['date']) for f in SITE['films']['serval']]
-    chrono = P.section(P.entete_section(ch['surtitre'], ch['titre'], ch['texte']) + [P.grille(cartes, 3)], padding=(0, 0, 0))
-    hm = c['hommages']
-    cartes_h = [P.carte({'id': f['id'], 'titre': f['titre'], 'duree': f['duree'], 'youtube': f['youtube']}, date=f['date']) for f in SITE['films']['hommages']]
-    hommages = P.section(P.entete_section(hm['surtitre'], hm['titre'], hm['texte']) + [P.grille(cartes_h, 3)], fond=ARDOISE,
-                         bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
-    return c['titre'], [entete, chiffres, deux, chrono, hommages]
 
 
 def page_apropos():
@@ -482,6 +482,11 @@ def page_defense():
     chiffres = P.section([P.chiffres(c['chiffres'])], padding=(40, 32, 24), padding_bas=(72, 56, 40))
     fo = c['formats']
     formats = P.section(P.entete_section(fo['surtitre'], fo['titre'], marge_bas=32) + P.lignes_titre_texte(fo['lignes']), padding=(0, 0, 0))
+    ind = c['industrie']
+    fid0 = films_par_id()
+    industrie = P.section(P.entete_section(ind['surtitre'], ind['titre'], ind['texte'], marge_bas=32)
+                          + [P.grille([P.carte(fid0[i]) for i in ind['films']], 4), P.boutons(ind['boutons'], marge_haut=36)],
+                          padding=(0, 0, 0), padding_bas=(96, 72, 56))
     me, rf = c['methode'], c['references']
     etapes = {'name': 'core/list', 'attributes': {'ordered': True, 'className': 'pd-etapes'},
               'innerBlocks': [{'name': 'core/list-item', 'attributes': {'content': '<strong>%s</strong> %s' % (a, b)}} for a, b in me['etapes']]}
@@ -494,17 +499,20 @@ def page_defense():
     fid = films_par_id()
     cartes = []
     for i in se['films']:
-        if i == 'SERVAL':
-            col = P.carte({'id': 'SERVAL', 'titre': 'Opération Serval', 'description': 'Mali 2013 · plus de 2 millions de vues',
-                           'liens': [{'reseau': 'la série', 'url': '/serie-serval/'}]}, etiquette='Série')
-            for b in col['innerBlocks']:
-                if b['name'] == 'kadence/advancedheading' and 'Voir sur' in b['attributes']['content']:
-                    b['attributes']['content'] = '<a href="/serie-serval/">Voir la série</a>'
-            cartes.append(col)
-        else:
-            cartes.append(P.carte(fid[i]))
+        cartes.append(P.carte(fid[i]))
     selection = P.section(P.entete_section(se['surtitre'], se['titre']) + [P.grille(cartes, 3), P.boutons(se['boutons'], marge_haut=40)])
-    return c['titre'], [entete, chiffres, formats, milieu, selection]
+    sv = c['serval']
+    fab, presse = sv['fabrication'], sv['presse']
+    credits = P.ligne('<br>'.join(fab['credits']), 0.8, DOUX, 0, police=MONO, interligne=1.8)
+    credits['attributes']['borderStyle'] = [{'top': ['', '', ''], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': [HEX[BERET], 'solid', 2], 'unit': 'px'}]
+    credits['attributes']['padding'] = [0, 0, 0, 16]
+    credits['attributes']['paddingType'] = 'px'
+    serval = P.section(P.entete_section(sv['surtitre'], sv['titre'], sv['texte'], marge_bas=32) + [P.chiffres(sv['chiffres']), P.rangee([
+        P.colonne([P.titre(fab['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=16)] + [P.paragraphe(t, DOUX) for t in fab['paragraphes']] + [credits]),
+        P.colonne([P.titre(presse['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=16), P.liste_dates(presse['lignes'])]),
+    ], layout='equal', gouttiere=[48, 40, 0], gouttiere_v=[0, 0, 40], margin=[56, '', 0, ''], marginUnit='px')],
+        fond=ARDOISE, ancre='serval', bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}])
+    return c['titre'], [entete, chiffres, industrie, formats, milieu, selection, serval]
 
 
 def page_lakelab():
@@ -549,7 +557,7 @@ def page_legale(cle):
 
 
 PAGES = {
-    'accueil': page_accueil, 'films': page_films, 'serie-serval': page_serval, 'a-propos': page_apropos,
+    'accueil': page_accueil, 'films': page_films, 'a-propos': page_apropos,
     'defense-et-securite': page_defense, 'lakelab': page_lakelab, 'contact': page_contact,
     'mentions-legales': lambda: page_legale('mentions-legales'), 'confidentialite': lambda: page_legale('confidentialite'),
 }
