@@ -13,7 +13,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-5-s",
+    "uniqueID": "pd-accueil-4-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -50,7 +50,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-6-c",
+      "uniqueID": "pd-accueil-5-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -90,7 +90,8 @@
          20,
          ""
         ],
-        "marginType": "px"
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h1"
        }
       },
       {
@@ -128,7 +129,8 @@
          "",
          ""
         ],
-        "maxWidthType": "px"
+        "maxWidthType": "px",
+        "uniqueID": "pd-accueil-h2"
        }
       },
       {
@@ -161,7 +163,8 @@
          "",
          ""
         ],
-        "maxWidthType": "px"
+        "maxWidthType": "px",
+        "uniqueID": "pd-accueil-h3"
        }
       },
       {
@@ -417,114 +420,6 @@
            }
           ]
          }
-        },
-        {
-         "name": "kadence/singlebtn",
-         "attributes": {
-          "uniqueID": "pd-accueil-4-b",
-          "text": "Chaîne YouTube",
-          "link": "https://www.youtube.com/@PascalDupont",
-          "borderRadius": [
-           2,
-           2,
-           2,
-           2
-          ],
-          "borderRadiusUnit": "px",
-          "padding": [
-           0.9,
-           1.5,
-           0.9,
-           1.5
-          ],
-          "paddingUnit": "rem",
-          "typography": [
-           {
-            "size": [
-             0.95,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "lineHeight": [
-             1.2,
-             "",
-             ""
-            ],
-            "lineType": "",
-            "letterSpacing": [
-             0.04,
-             "",
-             ""
-            ],
-            "letterType": "em",
-            "textTransform": "",
-            "family": "",
-            "google": false,
-            "style": "",
-            "weight": "500",
-            "variant": "",
-            "subset": "",
-            "loadGoogle": false
-           }
-          ],
-          "inheritStyles": "outline",
-          "color": "palette3",
-          "background": "transparent",
-          "colorHover": "palette9",
-          "backgroundHover": "palette3",
-          "borderStyle": [
-           {
-            "top": [
-             "#a9b6c0",
-             "solid",
-             1
-            ],
-            "right": [
-             "#a9b6c0",
-             "solid",
-             1
-            ],
-            "bottom": [
-             "#a9b6c0",
-             "solid",
-             1
-            ],
-            "left": [
-             "#a9b6c0",
-             "solid",
-             1
-            ],
-            "unit": "px"
-           }
-          ],
-          "borderHoverStyle": [
-           {
-            "top": [
-             "#e8e6e1",
-             "solid",
-             1
-            ],
-            "right": [
-             "#e8e6e1",
-             "solid",
-             1
-            ],
-            "bottom": [
-             "#e8e6e1",
-             "solid",
-             1
-            ],
-            "left": [
-             "#e8e6e1",
-             "solid",
-             1
-            ],
-            "unit": "px"
-           }
-          ],
-          "target": "_blank"
-         }
         }
        ]
       }
@@ -535,7 +430,304 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-16-s",
+    "uniqueID": "pd-accueil-64-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "#ece8df",
+    "textColor": "#10161c",
+    "padding": [
+     28,
+     "",
+     28,
+     ""
+    ],
+    "tabletPadding": [
+     24,
+     "",
+     24,
+     ""
+    ],
+    "mobilePadding": [
+     24,
+     "",
+     24,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-accueil-65-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-63-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         32,
+         24,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         16
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 24,
+        "secondColumnWidth": 76,
+        "verticalAlignment": "middle"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-61-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Diffuseurs, clients et partenaires",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h4"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-62-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "core/list",
+           "attributes": {
+            "className": "pd-bandeau-noms"
+           },
+           "innerBlocks": [
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "France 4"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "W9"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Fondation Résilience"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "FA3R"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "1er RCP"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "European Defense Review"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Europorte"
+             }
+            }
+           ]
+          },
+          {
+           "name": "core/group",
+           "attributes": {
+            "layout": {
+             "type": "flex",
+             "flexWrap": "wrap",
+             "justifyContent": "left"
+            },
+            "style": {
+             "spacing": {
+              "blockGap": "16px",
+              "margin": {
+               "bottom": "28px"
+              }
+             }
+            }
+           },
+           "innerBlocks": [
+            {
+             "name": "core/group",
+             "attributes": {
+              "style": {
+               "color": {
+                "background": "#010101"
+               },
+               "spacing": {
+                "padding": {
+                 "top": "18px",
+                 "right": "24px",
+                 "bottom": "18px",
+                 "left": "24px"
+                }
+               },
+               "border": {
+                "radius": "3px"
+               }
+              },
+              "layout": {
+               "type": "constrained"
+              }
+             },
+             "innerBlocks": [
+              {
+               "name": "core/image",
+               "attributes": {
+                "url": "/wp-content/themes/kadence-pascal/assets/logos/resilience-blanc.svg",
+                "alt": "Logo Fondation Résilience",
+                "width": "200px",
+                "sizeSlug": "full",
+                "align": "center"
+               }
+              }
+             ]
+            },
+            {
+             "name": "core/group",
+             "attributes": {
+              "style": {
+               "color": {
+                "background": "#f1efe9"
+               },
+               "spacing": {
+                "padding": {
+                 "top": "18px",
+                 "right": "24px",
+                 "bottom": "18px",
+                 "left": "24px"
+                }
+               },
+               "border": {
+                "radius": "3px"
+               }
+              },
+              "layout": {
+               "type": "constrained"
+              }
+             },
+             "innerBlocks": [
+              {
+               "name": "core/image",
+               "attributes": {
+                "url": "/wp-content/themes/kadence-pascal/assets/logos/fa3r.png",
+                "alt": "Logo FA3R",
+                "width": "150px",
+                "sizeSlug": "full",
+                "align": "center"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-accueil-15-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -570,7 +762,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-17-c",
+      "uniqueID": "pd-accueil-16-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -610,7 +802,8 @@
          16,
          ""
         ],
-        "marginType": "px"
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h5"
        }
       },
       {
@@ -640,7 +833,8 @@
          16,
          ""
         ],
-        "marginType": "px"
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h6"
        }
       },
       {
@@ -673,13 +867,14 @@
          "",
          ""
         ],
-        "maxWidthType": "px"
+        "maxWidthType": "px",
+        "uniqueID": "pd-accueil-h7"
        }
       },
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-13-r",
+        "uniqueID": "pd-accueil-12-r",
         "kbVersion": 2,
         "columns": 3,
         "colLayout": "equal",
@@ -716,13 +911,14 @@
          0,
          ""
         ],
-        "marginUnit": "px"
+        "marginUnit": "px",
+        "className": "pd-quinconce"
        },
        "innerBlocks": [
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-7-c",
+          "uniqueID": "pd-accueil-6-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -757,13 +953,14 @@
              14,
              0
             ],
-            "marginUnit": "px"
+            "marginUnit": "px",
+            "uniqueID": "pd-accueil-h8"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Nouveau documentaire",
+            "content": "Fondation Résilience",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -790,7 +987,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h9"
            }
           },
           {
@@ -820,13 +1018,14 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h10"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Pour la Fondation Résilience · novembre 2026 · 26 min",
+            "content": "Documentaire · 26 min · 2026 · 26 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -847,7 +1046,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h11"
            }
           }
          ]
@@ -855,7 +1055,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-8-c",
+          "uniqueID": "pd-accueil-7-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -890,13 +1090,14 @@
              14,
              0
             ],
-            "marginUnit": "px"
+            "marginUnit": "px",
+            "uniqueID": "pd-accueil-h12"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Documentaire",
+            "content": "W9",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -923,7 +1124,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h13"
            }
           },
           {
@@ -953,13 +1155,14 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h14"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "BAC Paris · la centième d'Enquête d'action, W9 · 2008 · 9 min",
+            "content": "La centième d'Enquête d'action · 2008 · 9 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -980,7 +1183,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h15"
            }
           }
          ]
@@ -988,7 +1192,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-9-c",
+          "uniqueID": "pd-accueil-8-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1023,13 +1227,14 @@
              14,
              0
             ],
-            "marginUnit": "px"
+            "marginUnit": "px",
+            "uniqueID": "pd-accueil-h16"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Documentaire",
+            "content": "France 4",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1056,7 +1261,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h17"
            }
           },
           {
@@ -1086,13 +1292,14 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h18"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "France 4 · 2010 · 52 min",
+            "content": "Documentaire · 2010 · 52 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1113,7 +1320,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h19"
            }
           }
          ]
@@ -1121,7 +1329,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-10-c",
+          "uniqueID": "pd-accueil-9-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1156,13 +1364,14 @@
              14,
              0
             ],
-            "marginUnit": "px"
+            "marginUnit": "px",
+            "uniqueID": "pd-accueil-h20"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Documentaire",
+            "content": "Avec Pierre Bayle",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1189,7 +1398,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h21"
            }
           },
           {
@@ -1219,13 +1429,14 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h22"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Avec Pierre Bayle · 44 min",
+            "content": "Équateur · documentaire · 44 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1246,7 +1457,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h23"
            }
           }
          ]
@@ -1254,7 +1466,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-11-c",
+          "uniqueID": "pd-accueil-10-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1289,13 +1501,14 @@
              14,
              0
             ],
-            "marginUnit": "px"
+            "marginUnit": "px",
+            "uniqueID": "pd-accueil-h24"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Création",
+            "content": "LAKELAB",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1322,7 +1535,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h25"
            }
           },
           {
@@ -1352,13 +1566,14 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h26"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Un clip onirique · LAKELAB",
+            "content": "Patrouille de France · clip",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1379,7 +1594,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h27"
            }
           }
          ]
@@ -1387,7 +1603,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-12-c",
+          "uniqueID": "pd-accueil-11-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1422,13 +1638,14 @@
              14,
              0
             ],
-            "marginUnit": "px"
+            "marginUnit": "px",
+            "uniqueID": "pd-accueil-h28"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Portrait",
+            "content": "Amicale du 1er RCP",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1455,7 +1672,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h29"
            }
           },
           {
@@ -1485,13 +1703,14 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h30"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Vosges 1943, Indochine 1946 · 1 h 36",
+            "content": "Portrait · Vosges 1943, Indochine 1946 · 1 h 36",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1512,7 +1731,8 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h31"
            }
           }
          ]
@@ -1522,7 +1742,7 @@
       {
        "name": "kadence/advancedbtn",
        "attributes": {
-        "uniqueID": "pd-accueil-14-g",
+        "uniqueID": "pd-accueil-13-g",
         "hAlign": "left",
         "gap": [
          0.9,
@@ -1558,7 +1778,7 @@
         {
          "name": "kadence/singlebtn",
          "attributes": {
-          "uniqueID": "pd-accueil-15-b",
+          "uniqueID": "pd-accueil-14-b",
           "text": "Tous les films",
           "link": "/films/",
           "borderRadius": [
@@ -1671,7 +1891,2845 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-21-s",
+    "uniqueID": "pd-accueil-81-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette8",
+    "textColor": "palette3",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "territoires",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-accueil-82-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Ce que je filme",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h32"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Du documentaire au terrain militaire",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         32,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h33"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-68-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         28,
+         0,
+         28,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         20
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 66,
+        "secondColumnWidth": 34,
+        "verticalAlignment": "middle",
+        "borderStyle": [
+         {
+          "top": [
+           "#2c3a49",
+           "solid",
+           1
+          ],
+          "right": [
+           "",
+           "",
+           ""
+          ],
+          "bottom": [
+           "#2c3a49",
+           "solid",
+           1
+          ],
+          "left": [
+           "",
+           "",
+           ""
+          ],
+          "unit": "px"
+         }
+        ]
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-66-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "01",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h34"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Documentaires",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             2,
+             1.8,
+             1.6
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.15,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h35"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Des films d'auteur pour la télévision et pour les fondations : la banlieue, la nuit parisienne, l'Amazonie, la reconstruction des blessés.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "maxWidth": [
+             560,
+             "",
+             ""
+            ],
+            "maxWidthType": "px",
+            "uniqueID": "pd-accueil-h36"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "<a href=\"/films/#films-documentaires\">Voir les films →</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.9,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline",
+            "uniqueID": "pd-accueil-h37"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-67-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "className": "pd-territoire-image"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/c4xGjV6-sNg/hqdefault.jpg",
+            "alt": "Image : Documentaires",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "/films/#films-documentaires",
+            "linkTitle": "Voir les films : Documentaires",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-accueil-h38"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-71-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         28,
+         0,
+         28,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         20
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 66,
+        "secondColumnWidth": 34,
+        "verticalAlignment": "middle",
+        "borderStyle": [
+         {
+          "top": [
+           "",
+           "",
+           ""
+          ],
+          "right": [
+           "",
+           "",
+           ""
+          ],
+          "bottom": [
+           "#2c3a49",
+           "solid",
+           1
+          ],
+          "left": [
+           "",
+           "",
+           ""
+          ],
+          "unit": "px"
+         }
+        ]
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-69-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "02",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h39"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Défense et industrie",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             2,
+             1.8,
+             1.6
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.15,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h40"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Salons, matériels et unités : filmer au plus près des utilisateurs, avec les régiments et les industriels.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "maxWidth": [
+             560,
+             "",
+             ""
+            ],
+            "maxWidthType": "px",
+            "uniqueID": "pd-accueil-h41"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "<a href=\"/films/#films-defense\">Voir les films →</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.9,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline",
+            "uniqueID": "pd-accueil-h42"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-70-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "className": "pd-territoire-image"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/bhsuc7c241k/hqdefault.jpg",
+            "alt": "Image : Défense et industrie",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "/films/#films-defense",
+            "linkTitle": "Voir les films : Défense et industrie",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-accueil-h43"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-74-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         28,
+         0,
+         28,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         20
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 66,
+        "secondColumnWidth": 34,
+        "verticalAlignment": "middle",
+        "borderStyle": [
+         {
+          "top": [
+           "",
+           "",
+           ""
+          ],
+          "right": [
+           "",
+           "",
+           ""
+          ],
+          "bottom": [
+           "#2c3a49",
+           "solid",
+           1
+          ],
+          "left": [
+           "",
+           "",
+           ""
+          ],
+          "unit": "px"
+         }
+        ]
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-72-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "03",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h44"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Mémoire combattante",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             2,
+             1.8,
+             1.6
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.15,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h45"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "L'histoire du 1er RCP en chapitres, les portraits des anciens, les commémorations.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "maxWidth": [
+             560,
+             "",
+             ""
+            ],
+            "maxWidthType": "px",
+            "uniqueID": "pd-accueil-h46"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "<a href=\"/films/#films-memoire\">Voir les films →</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.9,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline",
+            "uniqueID": "pd-accueil-h47"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-73-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "className": "pd-territoire-image"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/MX1rXj52K88/hqdefault.jpg",
+            "alt": "Image : Mémoire combattante",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "/films/#films-memoire",
+            "linkTitle": "Voir les films : Mémoire combattante",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-accueil-h48"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-77-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         28,
+         0,
+         28,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         20
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 66,
+        "secondColumnWidth": 34,
+        "verticalAlignment": "middle",
+        "borderStyle": [
+         {
+          "top": [
+           "",
+           "",
+           ""
+          ],
+          "right": [
+           "",
+           "",
+           ""
+          ],
+          "bottom": [
+           "#2c3a49",
+           "solid",
+           1
+          ],
+          "left": [
+           "",
+           "",
+           ""
+          ],
+          "unit": "px"
+         }
+        ]
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-75-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "04",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h49"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Fondations et entreprises",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             2,
+             1.8,
+             1.6
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.15,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h50"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Films de formation, de présentation et de communication, pour la Fondation Résilience, FA3R ou Europorte.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "maxWidth": [
+             560,
+             "",
+             ""
+            ],
+            "maxWidthType": "px",
+            "uniqueID": "pd-accueil-h51"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "<a href=\"/films/#films-entreprises\">Voir les films →</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.9,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline",
+            "uniqueID": "pd-accueil-h52"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-76-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "className": "pd-territoire-image"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/NFZDGtgBNIk/hqdefault.jpg",
+            "alt": "Image : Fondations et entreprises",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "/films/#films-entreprises",
+            "linkTitle": "Voir les films : Fondations et entreprises",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-accueil-h53"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-80-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         28,
+         0,
+         28,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         20
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 66,
+        "secondColumnWidth": 34,
+        "verticalAlignment": "middle",
+        "borderStyle": [
+         {
+          "top": [
+           "",
+           "",
+           ""
+          ],
+          "right": [
+           "",
+           "",
+           ""
+          ],
+          "bottom": [
+           "#2c3a49",
+           "solid",
+           1
+          ],
+          "left": [
+           "",
+           "",
+           ""
+          ],
+          "unit": "px"
+         }
+        ]
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-78-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "05",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h54"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Créations et LAKELAB",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             2,
+             1.8,
+             1.6
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.15,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h55"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Clips, films libres et recherches esthétiques, avec Lucile, au bord du lac.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0625,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "maxWidth": [
+             560,
+             "",
+             ""
+            ],
+            "maxWidthType": "px",
+            "uniqueID": "pd-accueil-h56"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "<a href=\"/films/#films-creations\">Voir les films →</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.9,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline",
+            "uniqueID": "pd-accueil-h57"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-79-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "className": "pd-territoire-image"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/9o5BFBA8Fj4/hqdefault.jpg",
+            "alt": "Image : Créations et LAKELAB",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "/films/#films-creations",
+            "linkTitle": "Voir les films : Créations et LAKELAB",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-accueil-h58"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-accueil-88-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "#ece8df",
+    "textColor": "#10161c",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "cas"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-accueil-89-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Études de cas",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette1",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h59"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Ce que ces films ont produit",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "#10161c",
+        "margin": [
+         0,
+         "",
+         36,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h60"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-accueil-87-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "tabletLayout": "two-grid",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         32,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         48,
+         40,
+         40
+        ],
+        "rowGutterType": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-83-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "borderStyle": [
+           {
+            "top": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "right": [
+             "",
+             "",
+             ""
+            ],
+            "bottom": [
+             "",
+             "",
+             ""
+            ],
+            "left": [
+             "",
+             "",
+             ""
+            ],
+            "unit": "px"
+           }
+          ],
+          "padding": [
+           20,
+           0,
+           0,
+           0
+          ],
+          "paddingType": "px"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Fondation Résilience · 2026",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette1",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h61"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Classe Défense",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.9,
+             1.7,
+             1.5
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.15,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             18,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h62"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le contexte",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h63"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Montrer ce que des soldats blessés transmettent à des collégiens de Trappes, le temps d'un séjour dans un chalet d'altitude.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h64"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Mon intervention",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h65"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Réalisation d'un documentaire de 26 minutes sans voix off et de six formats courts pour les réseaux.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h66"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le résultat",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h67"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Plus de 40 000 vues des extraits en une semaine, 59 heures de visionnage du film, des relais du 13e BCA, du collège et de l'UNC.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h68"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "<a href=\"https://www.youtube.com/watch?v=nPQhUB8pEj8\">Voir le film →</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.9,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "#10161c",
+            "linkHoverColor": "palette1",
+            "linkStyle": "underline",
+            "uniqueID": "pd-accueil-h69"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-84-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "borderStyle": [
+           {
+            "top": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "right": [
+             "",
+             "",
+             ""
+            ],
+            "bottom": [
+             "",
+             "",
+             ""
+            ],
+            "left": [
+             "",
+             "",
+             ""
+            ],
+            "unit": "px"
+           }
+          ],
+          "padding": [
+           20,
+           0,
+           0,
+           0
+          ],
+          "paddingType": "px"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "1er régiment de chasseurs parachutistes · 2025-2026",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette1",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h70"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Les films du régiment",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.9,
+             1.7,
+             1.5
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.15,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             18,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h71"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le contexte",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h72"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Donner au régiment des films à la hauteur de son histoire et de ses missions, publiés sur ses propres pages.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h73"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Mon intervention",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h74"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Dix films depuis mai 2025 : l'histoire du régiment en chapitres, les journées portes ouvertes, des films courts avec des industriels.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h75"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le résultat",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h76"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Environ 900 000 vues cumulées sur Instagram, Facebook et X (relevé du 7 octobre 2026).",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h77"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "<a href=\"/films/#films-memoire\">Voir les films →</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.9,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "#10161c",
+            "linkHoverColor": "palette1",
+            "linkStyle": "underline",
+            "uniqueID": "pd-accueil-h78"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-85-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "borderStyle": [
+           {
+            "top": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "right": [
+             "",
+             "",
+             ""
+            ],
+            "bottom": [
+             "",
+             "",
+             ""
+            ],
+            "left": [
+             "",
+             "",
+             ""
+            ],
+            "unit": "px"
+           }
+          ],
+          "padding": [
+           20,
+           0,
+           0,
+           0
+          ],
+          "paddingType": "px"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "European Defense Review · Eurosatory 2022",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette1",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h79"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le show daily du salon",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.9,
+             1.7,
+             1.5
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.15,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             18,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h80"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le contexte",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h81"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Les films officiels du show daily du partenaire média d'Eurosatory.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h82"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Mon intervention",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h83"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Quatre épisodes, quatre écritures, dont un plan-séquence de près de deux minutes, tournés et montés seul.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h84"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le résultat",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h85"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "L'équivalent d'un 52 minutes en une dizaine de jours.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h86"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "<a href=\"https://www.youtube.com/playlist?list=PLpV-5U4pNRWlCMZO7UaqWA7eWqIAEeJV3\">Voir le film →</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.9,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "#10161c",
+            "linkHoverColor": "palette1",
+            "linkStyle": "underline",
+            "uniqueID": "pd-accueil-h87"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-86-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "borderStyle": [
+           {
+            "top": [
+             "#10161c",
+             "solid",
+             1
+            ],
+            "right": [
+             "",
+             "",
+             ""
+            ],
+            "bottom": [
+             "",
+             "",
+             ""
+            ],
+            "left": [
+             "",
+             "",
+             ""
+            ],
+            "unit": "px"
+           }
+          ],
+          "padding": [
+           20,
+           0,
+           0,
+           0
+          ],
+          "paddingType": "px"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "W9 · 2008",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette1",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h88"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "La nuit leur appartient",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.9,
+             1.7,
+             1.5
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.15,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             18,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h89"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le contexte",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h90"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Un sujet inédit : les BAC de nuit de Paris, jamais filmées jusque-là, à ma connaissance.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h91"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Mon intervention",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h92"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Un film proposé seul à W9, qui en a fait l'une de ses premières productions internes.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h93"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le résultat",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "#4a5663",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h94"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Diffusé pour la centième d'Enquête d'action, puis remis en avant pour les cinq ans de l'émission.",
+            "htmlTag": "p",
+            "fontSize": [
+             1.0,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.55,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             14,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h95"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "<a href=\"https://www.youtube.com/watch?v=DOIkFS4peF8\">Voir le film →</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.9,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "#10161c",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "#10161c",
+            "linkHoverColor": "palette1",
+            "linkStyle": "underline",
+            "uniqueID": "pd-accueil-h96"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-accueil-20-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -1731,7 +4789,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-22-c",
+      "uniqueID": "pd-accueil-21-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -1771,7 +4829,8 @@
          16,
          ""
         ],
-        "marginType": "px"
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h97"
        }
       },
       {
@@ -1801,7 +4860,8 @@
          16,
          ""
         ],
-        "marginType": "px"
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h98"
        }
       },
       {
@@ -1839,13 +4899,14 @@
          ""
         ],
         "maxWidthType": "px",
-        "className": "pd-equilibre"
+        "className": "pd-equilibre",
+        "uniqueID": "pd-accueil-h99"
        }
       },
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-20-r",
+        "uniqueID": "pd-accueil-19-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -1880,7 +4941,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-18-c",
+          "uniqueID": "pd-accueil-17-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1937,7 +4998,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-19-c",
+          "uniqueID": "pd-accueil-18-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2000,213 +5061,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-23-s",
-    "kbVersion": 2,
-    "columns": 1,
-    "colLayout": "equal",
-    "align": "full",
-    "htmlTag": "section",
-    "bgColor": "palette9",
-    "textColor": "palette3",
-    "padding": [
-     80,
-     "",
-     80,
-     ""
-    ],
-    "tabletPadding": [
-     64,
-     "",
-     64,
-     ""
-    ],
-    "mobilePadding": [
-     48,
-     "",
-     48,
-     ""
-    ],
-    "paddingUnit": "px",
-    "maxWidth": 72,
-    "maxWidthUnit": "rem"
-   },
-   "innerBlocks": [
-    {
-     "name": "kadence/column",
-     "attributes": {
-      "uniqueID": "pd-accueil-24-c",
-      "kbVersion": 2,
-      "borderWidth": [
-       "",
-       "",
-       "",
-       ""
-      ]
-     },
-     "innerBlocks": [
-      {
-       "name": "kadence/advancedheading",
-       "attributes": {
-        "content": "Clients et partenaires",
-        "htmlTag": "p",
-        "typography": "IBM Plex Mono",
-        "googleFont": false,
-        "fontWeight": "500",
-        "fontSize": [
-         0.75,
-         "",
-         ""
-        ],
-        "sizeType": "rem",
-        "fontHeight": [
-         1.5,
-         "",
-         ""
-        ],
-        "fontHeightType": "",
-        "letterSpacing": 0.14,
-        "letterSpacingType": "em",
-        "textTransform": "uppercase",
-        "color": "palette5",
-        "margin": [
-         0,
-         "",
-         16,
-         ""
-        ],
-        "marginType": "px"
-       }
-      },
-      {
-       "name": "kadence/advancedheading",
-       "attributes": {
-        "content": "Ils m'ont fait confiance",
-        "level": 2,
-        "typography": "Newsreader",
-        "googleFont": false,
-        "fontWeight": "400",
-        "fontSize": [
-         3.2,
-         2.6,
-         2.1
-        ],
-        "sizeType": "rem",
-        "fontHeight": [
-         1.1,
-         "",
-         ""
-        ],
-        "fontHeightType": "",
-        "color": "palette3",
-        "margin": [
-         0,
-         "",
-         32,
-         ""
-        ],
-        "marginType": "px"
-       }
-      },
-      {
-       "name": "core/group",
-       "attributes": {
-        "layout": {
-         "type": "flex",
-         "flexWrap": "wrap",
-         "justifyContent": "left"
-        },
-        "style": {
-         "spacing": {
-          "blockGap": "16px",
-          "margin": {
-           "bottom": "28px"
-          }
-         }
-        }
-       },
-       "innerBlocks": [
-        {
-         "name": "core/group",
-         "attributes": {
-          "style": {
-           "color": {
-            "background": "#010101"
-           },
-           "spacing": {
-            "padding": {
-             "top": "18px",
-             "right": "24px",
-             "bottom": "18px",
-             "left": "24px"
-            }
-           },
-           "border": {
-            "radius": "3px"
-           }
-          },
-          "layout": {
-           "type": "constrained"
-          }
-         },
-         "innerBlocks": [
-          {
-           "name": "core/image",
-           "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/logos/resilience-blanc.svg",
-            "alt": "Logo Fondation Résilience",
-            "width": "200px",
-            "sizeSlug": "full",
-            "align": "center"
-           }
-          }
-         ]
-        },
-        {
-         "name": "core/group",
-         "attributes": {
-          "style": {
-           "color": {
-            "background": "#f1efe9"
-           },
-           "spacing": {
-            "padding": {
-             "top": "18px",
-             "right": "24px",
-             "bottom": "18px",
-             "left": "24px"
-            }
-           },
-           "border": {
-            "radius": "3px"
-           }
-          },
-          "layout": {
-           "type": "constrained"
-          }
-         },
-         "innerBlocks": [
-          {
-           "name": "core/image",
-           "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/logos/fa3r.png",
-            "alt": "Logo FA3R",
-            "width": "150px",
-            "sizeSlug": "full",
-            "align": "center"
-           }
-          }
-         ]
-        }
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "kadence/rowlayout",
-   "attributes": {
-    "uniqueID": "pd-accueil-43-s",
+    "uniqueID": "pd-accueil-42-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -2241,7 +5096,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-44-c",
+      "uniqueID": "pd-accueil-43-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -2281,7 +5136,8 @@
          16,
          ""
         ],
-        "marginType": "px"
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h100"
        }
       },
       {
@@ -2311,7 +5167,8 @@
          16,
          ""
         ],
-        "marginType": "px"
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h101"
        }
       },
       {
@@ -2344,13 +5201,14 @@
          "",
          ""
         ],
-        "maxWidthType": "px"
+        "maxWidthType": "px",
+        "uniqueID": "pd-accueil-h102"
        }
       },
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-27-r",
+        "uniqueID": "pd-accueil-26-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -2412,7 +5270,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-25-c",
+          "uniqueID": "pd-accueil-24-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2449,7 +5307,8 @@
              0,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h103"
            }
           }
          ]
@@ -2457,7 +5316,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-26-c",
+          "uniqueID": "pd-accueil-25-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2491,7 +5350,8 @@
              0,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h104"
            }
           }
          ]
@@ -2501,7 +5361,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-30-r",
+        "uniqueID": "pd-accueil-29-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -2563,7 +5423,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-28-c",
+          "uniqueID": "pd-accueil-27-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2600,7 +5460,8 @@
              0,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h105"
            }
           }
          ]
@@ -2608,7 +5469,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-29-c",
+          "uniqueID": "pd-accueil-28-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2642,7 +5503,8 @@
              0,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h106"
            }
           }
          ]
@@ -2652,7 +5514,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-33-r",
+        "uniqueID": "pd-accueil-32-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -2714,7 +5576,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-31-c",
+          "uniqueID": "pd-accueil-30-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2751,7 +5613,8 @@
              0,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h107"
            }
           }
          ]
@@ -2759,7 +5622,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-32-c",
+          "uniqueID": "pd-accueil-31-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2793,7 +5656,8 @@
              0,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h108"
            }
           }
          ]
@@ -2803,7 +5667,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-36-r",
+        "uniqueID": "pd-accueil-35-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -2865,7 +5729,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-34-c",
+          "uniqueID": "pd-accueil-33-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2902,7 +5766,8 @@
              0,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h109"
            }
           }
          ]
@@ -2910,7 +5775,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-35-c",
+          "uniqueID": "pd-accueil-34-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2944,7 +5809,8 @@
              0,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h110"
            }
           }
          ]
@@ -2954,7 +5820,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-39-r",
+        "uniqueID": "pd-accueil-38-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -3016,7 +5882,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-37-c",
+          "uniqueID": "pd-accueil-36-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3053,7 +5919,8 @@
              0,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h111"
            }
           }
          ]
@@ -3061,7 +5928,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-38-c",
+          "uniqueID": "pd-accueil-37-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3095,7 +5962,8 @@
              0,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h112"
            }
           }
          ]
@@ -3105,7 +5973,7 @@
       {
        "name": "kadence/advancedbtn",
        "attributes": {
-        "uniqueID": "pd-accueil-40-g",
+        "uniqueID": "pd-accueil-39-g",
         "hAlign": "left",
         "gap": [
          0.9,
@@ -3141,7 +6009,7 @@
         {
          "name": "kadence/singlebtn",
          "attributes": {
-          "uniqueID": "pd-accueil-41-b",
+          "uniqueID": "pd-accueil-40-b",
           "text": "Demander un devis",
           "link": "/contact/",
           "borderRadius": [
@@ -3247,7 +6115,7 @@
         {
          "name": "kadence/singlebtn",
          "attributes": {
-          "uniqueID": "pd-accueil-42-b",
+          "uniqueID": "pd-accueil-41-b",
           "text": "Défense et sécurité",
           "link": "/defense-et-securite/",
           "borderRadius": [
@@ -3360,7 +6228,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-53-s",
+    "uniqueID": "pd-accueil-52-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -3420,7 +6288,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-54-c",
+      "uniqueID": "pd-accueil-53-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -3433,7 +6301,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-52-r",
+        "uniqueID": "pd-accueil-51-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -3470,7 +6338,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-49-c",
+          "uniqueID": "pd-accueil-48-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3510,7 +6378,8 @@
              16,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h113"
            }
           },
           {
@@ -3540,7 +6409,8 @@
              16,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h114"
            }
           },
           {
@@ -3573,13 +6443,14 @@
              "",
              ""
             ],
-            "maxWidthType": "px"
+            "maxWidthType": "px",
+            "uniqueID": "pd-accueil-h115"
            }
           },
           {
            "name": "kadence/advancedbtn",
            "attributes": {
-            "uniqueID": "pd-accueil-45-g",
+            "uniqueID": "pd-accueil-44-g",
             "hAlign": "left",
             "gap": [
              0.5,
@@ -3615,7 +6486,7 @@
             {
              "name": "kadence/singlebtn",
              "attributes": {
-              "uniqueID": "pd-accueil-46-b",
+              "uniqueID": "pd-accueil-45-b",
               "text": "Découvrir LAKELAB",
               "link": "/lakelab/",
               "borderRadius": [
@@ -3722,7 +6593,7 @@
             {
              "name": "kadence/singlebtn",
              "attributes": {
-              "uniqueID": "pd-accueil-47-b",
+              "uniqueID": "pd-accueil-46-b",
               "text": "Instagram LAKELAB",
               "link": "https://www.instagram.com/lake.lab/",
               "borderRadius": [
@@ -3830,7 +6701,7 @@
             {
              "name": "kadence/singlebtn",
              "attributes": {
-              "uniqueID": "pd-accueil-48-b",
+              "uniqueID": "pd-accueil-47-b",
               "text": "Facebook LAKELAB",
               "link": "https://www.facebook.com/lakelab/",
               "borderRadius": [
@@ -3942,7 +6813,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-51-c",
+          "uniqueID": "pd-accueil-50-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3955,7 +6826,7 @@
           {
            "name": "kadence/column",
            "attributes": {
-            "uniqueID": "pd-accueil-50-c",
+            "uniqueID": "pd-accueil-49-c",
             "kbVersion": 2,
             "borderWidth": [
              "",
@@ -3990,7 +6861,8 @@
                14,
                0
               ],
-              "marginUnit": "px"
+              "marginUnit": "px",
+              "uniqueID": "pd-accueil-h116"
              }
             },
             {
@@ -4023,7 +6895,8 @@
                6,
                ""
               ],
-              "marginType": "px"
+              "marginType": "px",
+              "uniqueID": "pd-accueil-h117"
              }
             },
             {
@@ -4053,7 +6926,8 @@
                6,
                ""
               ],
-              "marginType": "px"
+              "marginType": "px",
+              "uniqueID": "pd-accueil-h118"
              }
             },
             {
@@ -4080,7 +6954,8 @@
                6,
                ""
               ],
-              "marginType": "px"
+              "marginType": "px",
+              "uniqueID": "pd-accueil-h119"
              }
             }
            ]
@@ -4096,7 +6971,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-60-s",
+    "uniqueID": "pd-accueil-59-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -4130,7 +7005,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-61-c",
+      "uniqueID": "pd-accueil-60-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -4143,7 +7018,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-59-r",
+        "uniqueID": "pd-accueil-58-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -4178,7 +7053,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-57-c",
+          "uniqueID": "pd-accueil-56-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4218,7 +7093,8 @@
              16,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h120"
            }
           },
           {
@@ -4248,7 +7124,8 @@
              16,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h121"
            }
           },
           {
@@ -4281,13 +7158,14 @@
              "",
              ""
             ],
-            "maxWidthType": "px"
+            "maxWidthType": "px",
+            "uniqueID": "pd-accueil-h122"
            }
           },
           {
            "name": "kadence/advancedbtn",
            "attributes": {
-            "uniqueID": "pd-accueil-55-g",
+            "uniqueID": "pd-accueil-54-g",
             "hAlign": "left",
             "gap": [
              0.9,
@@ -4323,7 +7201,7 @@
             {
              "name": "kadence/singlebtn",
              "attributes": {
-              "uniqueID": "pd-accueil-56-b",
+              "uniqueID": "pd-accueil-55-b",
               "text": "Demander un devis",
               "link": "/contact/",
               "borderRadius": [
@@ -4433,7 +7311,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-58-c",
+          "uniqueID": "pd-accueil-57-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4473,7 +7351,8 @@
              4,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h123"
            }
           },
           {
@@ -4500,7 +7379,8 @@
              18,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h124"
            }
           },
           {
@@ -4533,7 +7413,8 @@
              4,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h125"
            }
           },
           {
@@ -4560,7 +7441,8 @@
              18,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-accueil-h126"
            }
           }
          ]

@@ -61,11 +61,6 @@
             "texte": "Parler d'un projet",
             "url": "/contact/",
             "style": "contour"
-          },
-          {
-            "texte": "Chaîne YouTube",
-            "url": "https://www.youtube.com/@PascalDupont",
-            "style": "contour"
           }
         ]
       },
@@ -195,7 +190,98 @@
           "url": "/contact/",
           "classe": "pd-menu-devis"
         }
-      ]
+      ],
+      "bandeau": {
+        "etiquette": "Diffuseurs, clients et partenaires",
+        "noms": [
+          "France 4",
+          "W9",
+          "Fondation Résilience",
+          "FA3R",
+          "1er RCP",
+          "European Defense Review",
+          "Europorte"
+        ]
+      },
+      "territoires": {
+        "surtitre": "Ce que je filme",
+        "titre": "Du documentaire au terrain militaire",
+        "lignes": [
+          {
+            "num": "01",
+            "titre": "Documentaires",
+            "texte": "Des films d'auteur pour la télévision et pour les fondations : la banlieue, la nuit parisienne, l'Amazonie, la reconstruction des blessés.",
+            "lien": "/films/#films-documentaires",
+            "film": "c4xGjV6-sNg"
+          },
+          {
+            "num": "02",
+            "titre": "Défense et industrie",
+            "texte": "Salons, matériels et unités : filmer au plus près des utilisateurs, avec les régiments et les industriels.",
+            "lien": "/films/#films-defense",
+            "film": "bhsuc7c241k"
+          },
+          {
+            "num": "03",
+            "titre": "Mémoire combattante",
+            "texte": "L'histoire du 1er RCP en chapitres, les portraits des anciens, les commémorations.",
+            "lien": "/films/#films-memoire",
+            "film": "MX1rXj52K88"
+          },
+          {
+            "num": "04",
+            "titre": "Fondations et entreprises",
+            "texte": "Films de formation, de présentation et de communication, pour la Fondation Résilience, FA3R ou Europorte.",
+            "lien": "/films/#films-entreprises",
+            "film": "NFZDGtgBNIk"
+          },
+          {
+            "num": "05",
+            "titre": "Créations et LAKELAB",
+            "texte": "Clips, films libres et recherches esthétiques, avec Lucile, au bord du lac.",
+            "lien": "/films/#films-creations",
+            "film": "9o5BFBA8Fj4"
+          }
+        ]
+      },
+      "cas": {
+        "surtitre": "Études de cas",
+        "titre": "Ce que ces films ont produit",
+        "items": [
+          {
+            "client": "Fondation Résilience · 2026",
+            "titre": "Classe Défense",
+            "contexte": "Montrer ce que des soldats blessés transmettent à des collégiens de Trappes, le temps d'un séjour dans un chalet d'altitude.",
+            "intervention": "Réalisation d'un documentaire de 26 minutes sans voix off et de six formats courts pour les réseaux.",
+            "resultat": "Plus de 40 000 vues des extraits en une semaine, 59 heures de visionnage du film, des relais du 13e BCA, du collège et de l'UNC.",
+            "lien": "https://www.youtube.com/watch?v=nPQhUB8pEj8"
+          },
+          {
+            "client": "1er régiment de chasseurs parachutistes · 2025-2026",
+            "titre": "Les films du régiment",
+            "contexte": "Donner au régiment des films à la hauteur de son histoire et de ses missions, publiés sur ses propres pages.",
+            "intervention": "Dix films depuis mai 2025 : l'histoire du régiment en chapitres, les journées portes ouvertes, des films courts avec des industriels.",
+            "resultat": "Environ 900 000 vues cumulées sur Instagram, Facebook et X (relevé du 7 octobre 2026).",
+            "lien": "/films/#films-memoire"
+          },
+          {
+            "client": "European Defense Review · Eurosatory 2022",
+            "titre": "Le show daily du salon",
+            "contexte": "Les films officiels du show daily du partenaire média d'Eurosatory.",
+            "intervention": "Quatre épisodes, quatre écritures, dont un plan-séquence de près de deux minutes, tournés et montés seul.",
+            "resultat": "L'équivalent d'un 52 minutes en une dizaine de jours.",
+            "lien": "https://www.youtube.com/playlist?list=PLpV-5U4pNRWlCMZO7UaqWA7eWqIAEeJV3"
+          },
+          {
+            "client": "W9 · 2008",
+            "titre": "La nuit leur appartient",
+            "contexte": "Un sujet inédit : les BAC de nuit de Paris, jamais filmées jusque-là, à ma connaissance.",
+            "intervention": "Un film proposé seul à W9, qui en a fait l'une de ses premières productions internes.",
+            "resultat": "Diffusé pour la centième d'Enquête d'action, puis remis en avant pour les cinq ans de l'émission.",
+            "lien": "https://www.youtube.com/watch?v=DOIkFS4peF8"
+          }
+        ]
+      }
     },
     "films": {
       "titre": "Films",
@@ -1178,49 +1264,49 @@
       {
         "id": "nPQhUB8pEj8",
         "titre": "Classe Défense",
-        "description": "Pour la Fondation Résilience · novembre 2026",
+        "description": "Documentaire · 26 min · 2026",
         "duree": "26:00",
-        "etiquette": "Nouveau documentaire",
+        "etiquette": "Fondation Résilience",
         "url": "https://www.youtube.com/watch?v=nPQhUB8pEj8"
       },
       {
         "id": "DOIkFS4peF8",
         "titre": "La nuit leur appartient",
-        "description": "BAC Paris · la centième d'Enquête d'action, W9 · 2008",
+        "description": "La centième d'Enquête d'action · 2008",
         "duree": "8:54",
-        "etiquette": "Documentaire",
+        "etiquette": "W9",
         "url": "https://www.youtube.com/watch?v=DOIkFS4peF8"
       },
       {
         "id": "c4xGjV6-sNg",
         "titre": "Chroniques du 93",
-        "description": "France 4 · 2010",
+        "description": "Documentaire · 2010",
         "duree": "52:21",
-        "etiquette": "Documentaire",
+        "etiquette": "France 4",
         "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg"
       },
       {
         "id": "yzubFqyXDmk",
         "titre": "Voix d'Amazonie",
-        "description": "Avec Pierre Bayle",
+        "description": "Équateur · documentaire",
         "duree": "43:45",
-        "etiquette": "Documentaire",
+        "etiquette": "Avec Pierre Bayle",
         "url": "https://www.youtube.com/watch?v=yzubFqyXDmk"
       },
       {
         "id": "9o5BFBA8Fj4",
         "titre": "La musique de la Patrouille de France",
-        "description": "Un clip onirique · LAKELAB",
+        "description": "Patrouille de France · clip",
         "duree": "",
-        "etiquette": "Création",
+        "etiquette": "LAKELAB",
         "url": "https://www.youtube.com/watch?v=9o5BFBA8Fj4"
       },
       {
         "id": "MX1rXj52K88",
         "titre": "Capitaine Raymond Locci",
-        "description": "Vosges 1943, Indochine 1946",
+        "description": "Portrait · Vosges 1943, Indochine 1946",
         "duree": "1:35:39",
-        "etiquette": "Portrait",
+        "etiquette": "Amicale du 1er RCP",
         "url": "https://www.youtube.com/watch?v=MX1rXj52K88"
       }
     ],

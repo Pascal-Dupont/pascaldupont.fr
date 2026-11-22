@@ -119,7 +119,8 @@
              16,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-mentions-legales-h1"
            }
           },
           {
@@ -149,7 +150,8 @@
              32,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-mentions-legales-h2"
            }
           },
           {
@@ -179,7 +181,8 @@
              10,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-mentions-legales-h3"
            }
           },
           {
@@ -230,7 +233,8 @@
              10,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-mentions-legales-h4"
            }
           },
           {
@@ -281,7 +285,8 @@
              10,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-mentions-legales-h5"
            }
           },
           {
@@ -332,7 +337,8 @@
              10,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-mentions-legales-h6"
            }
           },
           {
@@ -383,7 +389,8 @@
              10,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-mentions-legales-h7"
            }
           },
           {

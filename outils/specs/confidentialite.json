@@ -119,7 +119,8 @@
              16,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-confidentialite-h1"
            }
           },
           {
@@ -149,7 +150,8 @@
              32,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-confidentialite-h2"
            }
           },
           {
@@ -179,7 +181,8 @@
              10,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-confidentialite-h3"
            }
           },
           {
@@ -230,7 +233,8 @@
              10,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-confidentialite-h4"
            }
           },
           {
@@ -281,7 +285,8 @@
              10,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-confidentialite-h5"
            }
           },
           {
@@ -332,7 +337,8 @@
              10,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-confidentialite-h6"
            }
           },
           {
@@ -383,7 +389,8 @@
              10,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-confidentialite-h7"
            }
           },
           {
@@ -434,7 +441,8 @@
              10,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-confidentialite-h8"
            }
           },
           {

@@ -100,3 +100,14 @@ ul.pd-noms li { margin: 0; }
 /* Listes : aucun retrait ni puce hérités du thème */
 .entry-content ul.pd-noms, .entry-content ol.pd-etapes, ul.wp-block-list.pd-noms, ol.wp-block-list.pd-etapes { padding-left: 0; margin-left: 0; margin-bottom: 0; }
 .entry-content ol.pd-etapes li { padding-left: 3rem; }
+
+/* Accueil : bandeau des diffuseurs et clients (liste pd-bandeau-noms) */
+ul.pd-bandeau-noms { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem 2rem; font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace; font-size: .8rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: #10161c; }
+ul.pd-bandeau-noms li { margin: 0; }
+.entry-content ul.pd-bandeau-noms, ul.wp-block-list.pd-bandeau-noms { padding-left: 0; margin-left: 0; }
+.pd-bandeau-noms + .wp-block-group { margin-top: 18px; }
+
+/* Accueil : grille « À la une » en quinconce sur grand écran */
+@media (min-width: 1025px) {
+	.pd-quinconce > .kt-row-column-wrap > .wp-block-kadence-column:nth-child(3n+2) { margin-top: 56px; }
+}

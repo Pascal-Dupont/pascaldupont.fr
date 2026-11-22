@@ -87,7 +87,8 @@
          16,
          ""
         ],
-        "marginType": "px"
+        "marginType": "px",
+        "uniqueID": "pd-a-propos-h1"
        }
       },
       {
@@ -123,7 +124,8 @@
          "",
          ""
         ],
-        "maxWidthType": "px"
+        "maxWidthType": "px",
+        "uniqueID": "pd-a-propos-h2"
        }
       }
      ]
@@ -279,7 +281,8 @@
               "marginType": "px",
               "typography": "IBM Plex Mono",
               "googleFont": false,
-              "fontWeight": "500"
+              "fontWeight": "500",
+              "uniqueID": "pd-a-propos-h3"
              }
             }
            ]
@@ -422,7 +425,8 @@
              0,
              20
             ],
-            "paddingType": "px"
+            "paddingType": "px",
+            "uniqueID": "pd-a-propos-h4"
            }
           },
           {
@@ -832,7 +836,8 @@
              16,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h5"
            }
           },
           {
@@ -994,7 +999,8 @@
              16,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h6"
            }
           },
           {

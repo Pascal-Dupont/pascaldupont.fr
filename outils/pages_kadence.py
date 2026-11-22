@@ -361,7 +361,9 @@ def page_accueil():
             if u['id'] == 'uF7zqXfUsjc':  # Everrard : vignette YouTube à la une
                 f.pop('liens', None)
             cartes.append(P.carte(f, etiquette=u['etiquette']))
-    a_la_une = P.section(P.entete_section(une['surtitre'], une['titre'], une['texte']) + [P.grille(cartes, 3), P.boutons([une['bouton']], marge_haut=40)],
+    grille_une = P.grille(cartes, 3)
+    grille_une['attributes']['className'] = 'pd-quinconce'
+    a_la_une = P.section(P.entete_section(une['surtitre'], une['titre'], une['texte']) + [grille_une, P.boutons([une['bouton']], marge_haut=40)],
                          ancre='a-la-une', padding=(40, 32, 24), padding_bas=(96, 72, 56))
 
     r = c['revivre']
@@ -408,7 +410,44 @@ def page_accueil():
         P.colonne(P.entete_section(ct['surtitre'], ct['titre'], ct['texte'], marge_bas=8) + [P.boutons([ct['bouton']], marge_haut=32)]),
         P.colonne(P.coordonnee('Téléphone', ident['telephone']) + P.coordonnee('E-mail', ident['email'])),
     ], layout='equal', gouttiere=[56, 40, 0], gouttiere_v=[0, 0, 32])])
-    return c['titre'], [hero, a_la_une, revivre, references, prestations, lakelab, contact]
+    bd = c['bandeau']
+    noms_bd = {'name': 'core/list', 'attributes': {'className': 'pd-bandeau-noms'},
+               'innerBlocks': [{'name': 'core/list-item', 'attributes': {'content': n}} for n in bd['noms']]}
+    bandeau = P.section([P.rangee([
+        P.colonne([P.surtitre(bd['etiquette'], couleur=ENCRE_DOUX, marge_bas=0)]),
+        P.colonne([noms_bd] + logos),
+    ], layout='equal', firstColumnWidth=24, secondColumnWidth=76, gouttiere=[32, 24, 0], gouttiere_v=[0, 0, 16], verticalAlignment='middle')],
+        fond=IVOIRE, texte=ENCRE, padding=(28, 24, 24))
+
+    tr = c['territoires']
+    rangs = []
+    for i, l in enumerate(tr['lignes']):
+        bord = {'top': [HEX[LIGNE], 'solid', 1] if i == 0 else ['', '', ''], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}
+        image = {'name': 'kadence/image', 'attributes': {
+            'url': 'https://i.ytimg.com/vi/%s/hqdefault.jpg' % l['film'], 'alt': 'Image : ' + l['titre'], 'useRatio': True, 'ratio': 'land169',
+            'link': l['lien'], 'linkTitle': 'Voir les films : ' + l['titre'], 'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px'}}
+        rangs.append(P.rangee([
+            P.colonne([P.surtitre(l['num'], marge_bas=8), P.titre(l['titre'], 3, taille=(2, 1.8, 1.6), marge_bas=10, interligne=1.15),
+                       P.ligne(l['texte'], 1.0625, DOUX, 14, largeur=560), P.ligne('<a href="%s">Voir les films →</a>' % l['lien'], 0.9, TEXTE, 0, liens=(TEXTE, BERET_VIF))]),
+            P.colonne([image], className='pd-territoire-image'),
+        ], layout='equal', firstColumnWidth=66, secondColumnWidth=34, gouttiere=[48, 32, 0], gouttiere_v=[0, 0, 20], verticalAlignment='middle',
+            borderStyle=[bord], padding=[28, 0, 28, 0], paddingUnit='px'))
+    territoires = P.section(P.entete_section(tr['surtitre'], tr['titre'], marge_bas=32) + rangs, fond=ARDOISE, ancre='territoires',
+                            bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
+
+    cs = c['cas']
+    cols = []
+    for x in cs['items']:
+        enfants = [P.surtitre(x['client'], couleur=BERET, marge_bas=8), P.titre(x['titre'], 3, taille=(1.9, 1.7, 1.5), couleur=ENCRE, marge_bas=18, interligne=1.15)]
+        for etiq, cle in (('Le contexte', 'contexte'), ('Mon intervention', 'intervention'), ('Le résultat', 'resultat')):
+            enfants += [P.surtitre(etiq, couleur=ENCRE_DOUX, marge_bas=4), P.ligne(x[cle], 1.0, ENCRE, 14, interligne=1.55)]
+        enfants.append(P.ligne('<a href="%s">%s →</a>' % (x['lien'], 'Voir les films' if x['lien'].startswith('/') else 'Voir le film'), 0.9, ENCRE, 0, liens=(ENCRE, BERET)))
+        cols.append(P.colonne(enfants, borderStyle=[{'top': [ENCRE, 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}],
+                              padding=[20, 0, 0, 0], paddingType='px'))
+    cas = P.section(P.entete_section(cs['surtitre'], cs['titre'], couleur_titre=ENCRE, couleur_sur=BERET, couleur_texte=ENCRE_DOUX, marge_bas=36)
+                    + [P.rangee(cols, layout='equal', tablette='two-grid', mobile='row', gouttiere=[48, 32, 0], gouttiere_v=[48, 40, 40], columns=2)],
+                    fond=IVOIRE, texte=ENCRE, ancre='cas')
+    return c['titre'], [hero, bandeau, a_la_une, territoires, cas, revivre, prestations, lakelab, contact]
 
 
 def page_films():
@@ -587,10 +626,25 @@ PAGES = {
 }
 
 
+def numeroter(blocs, slug):
+    """Donne un uniqueID aux titres et images Kadence qui n'en ont pas.
+    Sans lui, l'éditeur n'en attribue qu'aux blocs affichés à l'écran : les autres perdent leur mise en forme."""
+    n = [0]
+
+    def parcourir(liste):
+        for b in liste:
+            if b['name'] in ('kadence/advancedheading', 'kadence/image') and not b.get('attributes', {}).get('uniqueID'):
+                n[0] += 1
+                b.setdefault('attributes', {})['uniqueID'] = 'pd-%s-h%d' % (slug, n[0])
+            parcourir(b.get('innerBlocks', []))
+    parcourir(blocs)
+
+
 def ecrire_specs():
     SPECS.mkdir(parents=True, exist_ok=True)
     for slug, fabrique in PAGES.items():
         titre, blocs = fabrique()
+        numeroter(blocs, slug)
         meta = dict(META_PAGE)
         meta['_pd_page'] = slug
         spec = {'titre': titre, 'slug': slug, 'meta': meta, 'blocs': blocs}
