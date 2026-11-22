@@ -7,7 +7,7 @@
 ## Validations
 - [ ] Autorisations du régiment pour SRRI, JPO 2025 et Jebsheim 80 (avant de remettre des liens YouTube pour ces films).
 - [ ] Accord de Label Image (Guillaume), par écrit, avant de nommer la production de REVIVRE. Vérifier aussi la phrase « un 52 minutes sur le stress post-traumatique » de la page À propos.
-- [ ] Accord de Thales, Texelis, TDA et de l'UNAC pour être cités comme références.
+- [ ] Accord de Thales, Texelis et de l'UNAC pour être cités comme références.
 - [ ] Relecture de la page Défense et sécurité par l'officier communication.
 - [ ] Série Serval : modalités de mise en ligne confirmées par l'ECPAD et l'officier communication.
 - [ ] Citations de Pierre Bayle et du colonel Goya : accord avant de les reprendre (non reprises sur le site).
@@ -32,6 +32,6 @@
 - [ ] Film « La musique » : titre exact, année, lien YouTube (ou autre) et deux lignes de présentation, pour le mettre en avant.
 - [ ] « Institut IE » : confirmer le nom exact, l'année et le lien du film pour la page Entreprises.
 - [ ] Documentaires : chiffres et faits pour les textes (La nuit leur appartient : audience, distinctions, « succès à plus d'un titre » ; Chroniques du 93 ; Voix d'Amazonie).
-- [ ] Série TDA : confirmer l'ordre et les titres des films ; accord de TDA/Thales pour la citer (en cours, via le général Barrera).
+- [x] TDA Armements : retiré du site (22 novembre 2026). Les films TDA ne sont plus présentés. Thales : éléments à transmettre par Pascal Dupont.
 - [ ] Série Serval : films en privé ; le contenu (chiffres, fabrication, presse) est dans la page Défense. Miniatures d'audience : en attente de l'accord de l'ECPAD.
 - [ ] Arquus : accord éventuel pour citer Arquus comme client (le film de Milipol 2021 est visible).

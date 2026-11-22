@@ -311,7 +311,7 @@ class Page:
 
 # ================================================================ pages
 
-_RCP = next((x for x in ('rcp-vignette.jpg', 'rcp-vignette.png') if (DEPOT / 'kadence-pascal' / 'assets' / x).exists()), None)
+_RCP = next((x for x in ('rcp-vignette.jpg', 'rcp-vignette.png') if (RACINE / 'kadence-pascal' / 'assets' / x).exists()), None)
 RCP_VIGNETTE = '/wp-content/themes/kadence-pascal/assets/' + _RCP if _RCP else None
 
 

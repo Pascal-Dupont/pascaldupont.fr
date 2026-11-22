@@ -781,7 +781,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Des films de présentation tournés en conditions réelles, au plus près des utilisateurs : la série réalisée pour TDA Armements (aujourd'hui Thales) et le reportage d'Arquus à Milipol 2021.",
+        "content": "Des films de présentation tournés en conditions réelles, au plus près des utilisateurs : le reportage d'Arquus à Milipol 2021 et les films réalisés pour le 1er RCP avec l'UNAC, Texelis (aujourd'hui KNDS France) et Thales.",
         "htmlTag": "p",
         "fontSize": [
          1.0625,
@@ -970,35 +970,74 @@
          },
          "innerBlocks": [
           {
-           "name": "kadence/image",
+           "name": "core/cover",
            "attributes": {
-            "url": "https://i.ytimg.com/vi/A1yfSvxryKg/hqdefault.jpg",
-            "alt": "Vignette du film « TDA, mortier tracté rayé de 120 mm »",
-            "useRatio": true,
-            "ratio": "land169",
-            "link": "https://www.youtube.com/watch?v=A1yfSvxryKg",
-            "linkTarget": true,
-            "linkTitle": "Voir « TDA, mortier tracté rayé de 120 mm » sur YouTube (nouvel onglet)",
-            "borderRadius": [
-             2,
-             2,
-             2,
-             2
+            "customGradient": "linear-gradient(160deg,hsl(190 22% 34%),hsl(190 26% 10%))",
+            "dimRatio": 100,
+            "isDark": true,
+            "contentPosition": "bottom left",
+            "minHeight": 120,
+            "minHeightUnit": "px",
+            "style": {
+             "dimensions": {
+              "aspectRatio": "16/9"
+             },
+             "border": {
+              "radius": "2px"
+             },
+             "spacing": {
+              "margin": {
+               "bottom": "14px"
+              },
+              "padding": {
+               "top": "12px",
+               "right": "14px",
+               "bottom": "12px",
+               "left": "14px"
+              }
+             }
+            },
+            "className": "pd-vignette-vide"
+           },
+           "innerBlocks": []
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Présentation",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
             ],
-            "borderRadiusUnit": "px",
-            "marginDesktop": [
-             0,
-             0,
-             14,
-             0
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
             ],
-            "marginUnit": "px"
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "TDA, mortier tracté rayé de 120 mm",
+            "content": "Section robotique et renseignement",
             "level": 3,
             "typography": "Newsreader",
             "googleFont": false,
@@ -1022,13 +1061,18 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "link": "https://www.instagram.com/reel/DJWFjqas4Ez/",
+            "linkTarget": true,
+            "linkStyle": "hover_underline",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Présentation du matériel · 6 min",
+            "content": "Film issu du partenariat entre l'UNAC et le régiment",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1050,6 +1094,36 @@
              ""
             ],
             "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DJWFjqas4Ez/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/14vBqNnAZHc/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/1920036721569202623\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.85,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline"
            }
           }
          ]
@@ -1070,35 +1144,74 @@
          },
          "innerBlocks": [
           {
-           "name": "kadence/image",
+           "name": "core/cover",
            "attributes": {
-            "url": "https://i.ytimg.com/vi/bNW6-rmkwSk/hqdefault.jpg",
-            "alt": "Vignette du film « TDA, mortier de 120 mm sur le terrain »",
-            "useRatio": true,
-            "ratio": "land169",
-            "link": "https://www.youtube.com/watch?v=bNW6-rmkwSk",
-            "linkTarget": true,
-            "linkTitle": "Voir « TDA, mortier de 120 mm sur le terrain » sur YouTube (nouvel onglet)",
-            "borderRadius": [
-             2,
-             2,
-             2,
-             2
+            "customGradient": "linear-gradient(160deg,hsl(196 22% 34%),hsl(196 26% 10%))",
+            "dimRatio": 100,
+            "isDark": true,
+            "contentPosition": "bottom left",
+            "minHeight": 120,
+            "minHeightUnit": "px",
+            "style": {
+             "dimensions": {
+              "aspectRatio": "16/9"
+             },
+             "border": {
+              "radius": "2px"
+             },
+             "spacing": {
+              "margin": {
+               "bottom": "14px"
+              },
+              "padding": {
+               "top": "12px",
+               "right": "14px",
+               "bottom": "12px",
+               "left": "14px"
+              }
+             }
+            },
+            "className": "pd-vignette-vide"
+           },
+           "innerBlocks": []
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Film court",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
             ],
-            "borderRadiusUnit": "px",
-            "marginDesktop": [
-             0,
-             0,
-             14,
-             0
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
             ],
-            "marginUnit": "px"
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "TDA, mortier de 120 mm sur le terrain",
+            "content": "Camp régimentaire 2025",
             "level": 3,
             "typography": "Newsreader",
             "googleFont": false,
@@ -1122,13 +1235,18 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "link": "https://www.instagram.com/reel/DTnqKLuDc5q/",
+            "linkTarget": true,
+            "linkStyle": "hover_underline",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "En manœuvre, avec l'artillerie · 4 min",
+            "content": "Film court, partenariat Texelis",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1150,6 +1268,36 @@
              ""
             ],
             "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DTnqKLuDc5q/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://fb.watch/K4XCoYoq2P/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.85,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline"
            }
           }
          ]
@@ -1170,35 +1318,74 @@
          },
          "innerBlocks": [
           {
-           "name": "kadence/image",
+           "name": "core/cover",
            "attributes": {
-            "url": "https://i.ytimg.com/vi/x0FG7S3E070/hqdefault.jpg",
-            "alt": "Vignette du film « TDA, systèmes de roquettes à induction »",
-            "useRatio": true,
-            "ratio": "land169",
-            "link": "https://www.youtube.com/watch?v=x0FG7S3E070",
-            "linkTarget": true,
-            "linkTitle": "Voir « TDA, systèmes de roquettes à induction » sur YouTube (nouvel onglet)",
-            "borderRadius": [
-             2,
-             2,
-             2,
-             2
+            "customGradient": "linear-gradient(160deg,hsl(236 22% 34%),hsl(236 26% 10%))",
+            "dimRatio": 100,
+            "isDark": true,
+            "contentPosition": "bottom left",
+            "minHeight": 120,
+            "minHeightUnit": "px",
+            "style": {
+             "dimensions": {
+              "aspectRatio": "16/9"
+             },
+             "border": {
+              "radius": "2px"
+             },
+             "spacing": {
+              "margin": {
+               "bottom": "14px"
+              },
+              "padding": {
+               "top": "12px",
+               "right": "14px",
+               "bottom": "12px",
+               "left": "14px"
+              }
+             }
+            },
+            "className": "pd-vignette-vide"
+           },
+           "innerBlocks": []
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Film court",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
             ],
-            "borderRadiusUnit": "px",
-            "marginDesktop": [
-             0,
-             0,
-             14,
-             0
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
             ],
-            "marginUnit": "px"
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "TDA, systèmes de roquettes à induction",
+            "content": "Thales Onyx",
             "level": 3,
             "typography": "Newsreader",
             "googleFont": false,
@@ -1222,13 +1409,18 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "link": "https://www.instagram.com/reel/DdZMV6Ht0Eu/",
+            "linkTarget": true,
+            "linkStyle": "hover_underline",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Telson et Aculeus · 5 min",
+            "content": "Film court, partenariat Thales",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1250,6 +1442,36 @@
              ""
             ],
             "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DdZMV6Ht0Eu/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1cWDqm3qax/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.85,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline"
            }
           }
          ]
@@ -1638,7 +1860,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "La section robotique et renseignement du 1er RCP, des films courts avec Thales et Texelis, la série pour TDA Armements, Arquus à Milipol 2021.",
+            "content": "La section robotique et renseignement du 1er RCP, des films courts avec Thales et Texelis, Arquus à Milipol 2021.",
             "htmlTag": "p",
             "fontSize": [
              1.0625,
@@ -2526,18 +2748,6 @@
                },
                {
                 "content": "2022",
-                "tag": "td"
-               }
-              ]
-             },
-             {
-              "cells": [
-               {
-                "content": "TDA Armements (aujourd'hui Thales)",
-                "tag": "td"
-               },
-               {
-                "content": "",
                 "tag": "td"
                }
               ]

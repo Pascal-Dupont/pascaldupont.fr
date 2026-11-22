@@ -95,8 +95,7 @@
         "titre": "Ils m'ont fait confiance",
         "noms": [
           "Fondation Résilience",
-          "FA3R",
-          "TDA Armements"
+          "FA3R"
         ]
       },
       "prestations": {
@@ -306,7 +305,7 @@
         "lignes": [
           {
             "titre": "Films de présentation d'une unité ou d'un matériel",
-            "texte": "La section robotique et renseignement du 1er RCP, des films courts avec Thales et Texelis, la série pour TDA Armements, Arquus à Milipol 2021."
+            "texte": "La section robotique et renseignement du 1er RCP, des films courts avec Thales et Texelis, Arquus à Milipol 2021."
           },
           {
             "titre": "Reportages d'événements et de salons",
@@ -359,10 +358,6 @@
             "2022"
           ],
           [
-            "TDA Armements (aujourd'hui Thales)",
-            ""
-          ],
-          [
             "Thales et Texelis (aujourd'hui KNDS France), avec le 1er RCP",
             "2026"
           ],
@@ -403,12 +398,12 @@
       "industrie": {
         "surtitre": "Industrie de défense",
         "titre": "Filmer les matériels et ceux qui les servent",
-        "texte": "Des films de présentation tournés en conditions réelles, au plus près des utilisateurs : la série réalisée pour TDA Armements (aujourd'hui Thales) et le reportage d'Arquus à Milipol 2021.",
+        "texte": "Des films de présentation tournés en conditions réelles, au plus près des utilisateurs : le reportage d'Arquus à Milipol 2021 et les films réalisés pour le 1er RCP avec l'UNAC, Texelis (aujourd'hui KNDS France) et Thales.",
         "films": [
           "QMFdHoR7FxM",
-          "A1yfSvxryKg",
-          "bNW6-rmkwSk",
-          "x0FG7S3E070"
+          "RCP3",
+          "RCP9",
+          "RCP10"
         ],
         "boutons": [
           {
@@ -662,7 +657,7 @@
       {
         "cle": "defense",
         "titre": "Défense et industrie",
-        "texte": "Films de présentation de matériels et reportages de salon pour les industriels de la défense : Arquus à Milipol 2021, TDA Armements (aujourd'hui Thales).",
+        "texte": "Reportages de salon pour les industriels de la défense : Arquus à Milipol 2021.",
         "films": [
           {
             "id": "QMFdHoR7FxM",
@@ -670,41 +665,6 @@
             "description": "Reportage pour OPS TV, tourné en 4K",
             "duree": "1:16",
             "youtube": "https://www.youtube.com/watch?v=QMFdHoR7FxM"
-          },
-          {
-            "id": "A1yfSvxryKg",
-            "titre": "TDA, mortier tracté rayé de 120 mm",
-            "description": "Présentation du matériel",
-            "duree": "6:00",
-            "youtube": "https://www.youtube.com/watch?v=A1yfSvxryKg"
-          },
-          {
-            "id": "bNW6-rmkwSk",
-            "titre": "TDA, mortier de 120 mm sur le terrain",
-            "description": "En manœuvre, avec l'artillerie",
-            "duree": "3:32",
-            "youtube": "https://www.youtube.com/watch?v=bNW6-rmkwSk"
-          },
-          {
-            "id": "QxnCk8AzNmE",
-            "titre": "TDA, mortier de 120 mm avec le 68e RAA",
-            "description": "En manœuvre",
-            "duree": "1:19",
-            "youtube": "https://www.youtube.com/watch?v=QxnCk8AzNmE"
-          },
-          {
-            "id": "x0FG7S3E070",
-            "titre": "TDA, systèmes de roquettes à induction",
-            "description": "Telson et Aculeus",
-            "duree": "4:37",
-            "youtube": "https://www.youtube.com/watch?v=x0FG7S3E070"
-          },
-          {
-            "id": "QdW01BdD24k",
-            "titre": "TDA, roquettes à induction sur Tigre",
-            "description": "Chargement, avec le 1er RHC, à Suippes",
-            "duree": "1:34",
-            "youtube": "https://www.youtube.com/watch?v=QdW01BdD24k"
           }
         ],
         "liens": [],
@@ -1207,12 +1167,12 @@
         "url": "https://www.youtube.com/watch?v=QMFdHoR7FxM"
       },
       {
-        "id": "A1yfSvxryKg",
-        "titre": "TDA, mortier tracté rayé de 120 mm",
-        "description": "Présentation du matériel",
-        "duree": "6:00",
-        "etiquette": "Défense",
-        "url": "https://www.youtube.com/watch?v=A1yfSvxryKg"
+        "id": "RCP4",
+        "titre": "Les 80 ans de Jebsheim",
+        "description": "Le 1er RCP et la libération de l'Alsace",
+        "duree": "",
+        "etiquette": "Mémoire",
+        "url": "https://www.instagram.com/reel/DS0Fuk-DXkT/"
       }
     ],
     "serval": [
@@ -1435,18 +1395,6 @@
         "texte": "Industriels, salons, régiments : filmer la défense de l'intérieur.",
         "blocs": [
           {
-            "titre": "Industriels",
-            "texte": "Des films de présentation tournés en conditions réelles, avec les utilisateurs : la série réalisée pour TDA Armements (aujourd'hui Thales) et le reportage d'Arquus à Milipol 2021.",
-            "films": [
-              "QMFdHoR7FxM",
-              "A1yfSvxryKg",
-              "bNW6-rmkwSk",
-              "QxnCk8AzNmE",
-              "x0FG7S3E070",
-              "QdW01BdD24k"
-            ]
-          },
-          {
             "titre": "Partenariats avec le 1er RCP",
             "texte": "Des films courts réalisés avec des industriels pour le régiment et publiés sur ses pages officielles : l'UNAC, Texelis (aujourd'hui KNDS France) et Thales.",
             "films": [
@@ -1480,8 +1428,9 @@
           },
           {
             "titre": "Salons",
-            "texte": "Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon. Quatre épisodes, quatre écritures : cinématique, pop-rock avec un plan-séquence de près de deux minutes, électro, puis un retour au cinéma. L'équivalent d'un 52 minutes tourné et monté en une dizaine de jours.",
+            "texte": "Eurosatory 2022 : les films officiels du show daily de European Defense Review, partenaire média du salon. Quatre épisodes, quatre écritures : cinématique, pop-rock avec un plan-séquence de près de deux minutes, électro, puis un retour au cinéma. L'équivalent d'un 52 minutes tourné et monté en une dizaine de jours. Et le reportage d'Arquus à Milipol 2021, pour OPS TV.",
             "films": [
+              "QMFdHoR7FxM",
               "bhsuc7c241k",
               "AcNQO-oy2UA",
               "S3CpTXKa7iA",

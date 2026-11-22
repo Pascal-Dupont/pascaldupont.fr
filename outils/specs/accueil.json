@@ -1400,35 +1400,41 @@
          },
          "innerBlocks": [
           {
-           "name": "kadence/image",
+           "name": "core/cover",
            "attributes": {
-            "url": "https://i.ytimg.com/vi/A1yfSvxryKg/hqdefault.jpg",
-            "alt": "Vignette du film « TDA, mortier tracté rayé de 120 mm »",
-            "useRatio": true,
-            "ratio": "land169",
-            "link": "https://www.youtube.com/watch?v=A1yfSvxryKg",
-            "linkTarget": true,
-            "linkTitle": "Voir « TDA, mortier tracté rayé de 120 mm » sur YouTube (nouvel onglet)",
-            "borderRadius": [
-             2,
-             2,
-             2,
-             2
-            ],
-            "borderRadiusUnit": "px",
-            "marginDesktop": [
-             0,
-             0,
-             14,
-             0
-            ],
-            "marginUnit": "px"
-           }
+            "customGradient": "linear-gradient(160deg,hsl(191 22% 34%),hsl(191 26% 10%))",
+            "dimRatio": 100,
+            "isDark": true,
+            "contentPosition": "bottom left",
+            "minHeight": 120,
+            "minHeightUnit": "px",
+            "style": {
+             "dimensions": {
+              "aspectRatio": "16/9"
+             },
+             "border": {
+              "radius": "2px"
+             },
+             "spacing": {
+              "margin": {
+               "bottom": "14px"
+              },
+              "padding": {
+               "top": "12px",
+               "right": "14px",
+               "bottom": "12px",
+               "left": "14px"
+              }
+             }
+            },
+            "className": "pd-vignette-vide"
+           },
+           "innerBlocks": []
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Défense",
+            "content": "Mémoire",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1461,7 +1467,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "TDA, mortier tracté rayé de 120 mm",
+            "content": "Les 80 ans de Jebsheim",
             "level": 3,
             "typography": "Newsreader",
             "googleFont": false,
@@ -1485,13 +1491,18 @@
              6,
              ""
             ],
-            "marginType": "px"
+            "marginType": "px",
+            "link": "https://www.instagram.com/reel/DS0Fuk-DXkT/",
+            "linkTarget": true,
+            "linkStyle": "hover_underline",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2"
            }
           },
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Présentation du matériel · 6 min",
+            "content": "Le 1er RCP et la libération de l'Alsace",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1513,6 +1524,36 @@
              ""
             ],
             "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DS0Fuk-DXkT/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1HsNqid6yr/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2005313606834077905\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.85,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline"
            }
           }
          ]
@@ -2123,12 +2164,6 @@
          "name": "core/list-item",
          "attributes": {
           "content": "FA3R"
-         }
-        },
-        {
-         "name": "core/list-item",
-         "attributes": {
-          "content": "TDA Armements"
          }
         }
        ]
