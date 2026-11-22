@@ -646,7 +646,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Documentaires pour la télévision, portraits de témoins, films de mémoire pour le 1er RCP et films pour l'industrie de défense.",
+        "content": "Documentaires pour la télévision, portraits de témoins, films de mémoire, films pour les fondations et pour l'industrie de défense. Une dizaine de nouveaux projets de documentaires sont en écriture.",
         "htmlTag": "p",
         "fontSize": [
          1.0625,
@@ -737,13 +737,13 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "https://i.ytimg.com/vi/c4xGjV6-sNg/hqdefault.jpg",
-            "alt": "Vignette du film « Chroniques du 93 »",
+            "url": "https://i.ytimg.com/vi/nPQhUB8pEj8/hqdefault.jpg",
+            "alt": "Vignette du film « Classe Défense »",
             "useRatio": true,
             "ratio": "land169",
-            "link": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
+            "link": "https://www.youtube.com/watch?v=nPQhUB8pEj8",
             "linkTarget": true,
-            "linkTitle": "Voir « Chroniques du 93 » sur YouTube (nouvel onglet)",
+            "linkTitle": "Voir « Classe Défense » sur YouTube (nouvel onglet)",
             "borderRadius": [
              2,
              2,
@@ -763,7 +763,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Documentaire",
+            "content": "Nouveau documentaire",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -796,7 +796,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Chroniques du 93",
+            "content": "Classe Défense",
             "level": 3,
             "typography": "Newsreader",
             "googleFont": false,
@@ -826,7 +826,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "France 4 · 2010 · 52 min",
+            "content": "Pour la Fondation Résilience · novembre 2026 · 26 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -1003,6 +1003,139 @@
           {
            "name": "kadence/image",
            "attributes": {
+            "url": "https://i.ytimg.com/vi/c4xGjV6-sNg/hqdefault.jpg",
+            "alt": "Vignette du film « Chroniques du 93 »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
+            "linkTarget": true,
+            "linkTitle": "Voir « Chroniques du 93 » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Documentaire",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Chroniques du 93",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "France 4 · 2010 · 52 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-10-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
             "url": "https://i.ytimg.com/vi/yzubFqyXDmk/hqdefault.jpg",
             "alt": "Vignette du film « Voix d'Amazonie »",
             "useRatio": true,
@@ -1121,7 +1254,140 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-10-c",
+          "uniqueID": "pd-accueil-11-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/9o5BFBA8Fj4/hqdefault.jpg",
+            "alt": "Vignette du film « La musique de la Patrouille de France »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=9o5BFBA8Fj4",
+            "linkTarget": true,
+            "linkTitle": "Voir « La musique de la Patrouille de France » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Création",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "La musique de la Patrouille de France",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Un clip onirique · LAKELAB",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-accueil-12-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1247,313 +1513,6 @@
              ""
             ],
             "marginType": "px"
-           }
-          }
-         ]
-        },
-        {
-         "name": "kadence/column",
-         "attributes": {
-          "uniqueID": "pd-accueil-11-c",
-          "kbVersion": 2,
-          "borderWidth": [
-           "",
-           "",
-           "",
-           ""
-          ],
-          "htmlTag": "article",
-          "className": "pd-carte"
-         },
-         "innerBlocks": [
-          {
-           "name": "kadence/image",
-           "attributes": {
-            "url": "https://i.ytimg.com/vi/QMFdHoR7FxM/hqdefault.jpg",
-            "alt": "Vignette du film « Arquus à Milipol 2021 »",
-            "useRatio": true,
-            "ratio": "land169",
-            "link": "https://www.youtube.com/watch?v=QMFdHoR7FxM",
-            "linkTarget": true,
-            "linkTitle": "Voir « Arquus à Milipol 2021 » sur YouTube (nouvel onglet)",
-            "borderRadius": [
-             2,
-             2,
-             2,
-             2
-            ],
-            "borderRadiusUnit": "px",
-            "marginDesktop": [
-             0,
-             0,
-             14,
-             0
-            ],
-            "marginUnit": "px"
-           }
-          },
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "Défense",
-            "htmlTag": "p",
-            "typography": "IBM Plex Mono",
-            "googleFont": false,
-            "fontWeight": "500",
-            "fontSize": [
-             0.75,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.5,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "letterSpacing": 0.14,
-            "letterSpacingType": "em",
-            "textTransform": "uppercase",
-            "color": "palette5",
-            "margin": [
-             0,
-             "",
-             6,
-             ""
-            ],
-            "marginType": "px"
-           }
-          },
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "Arquus à Milipol 2021",
-            "level": 3,
-            "typography": "Newsreader",
-            "googleFont": false,
-            "fontWeight": "400",
-            "fontSize": [
-             1.35,
-             1.3,
-             1.25
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.2,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "color": "palette3",
-            "margin": [
-             0,
-             "",
-             6,
-             ""
-            ],
-            "marginType": "px"
-           }
-          },
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "Reportage pour OPS TV · 1 min",
-            "htmlTag": "p",
-            "fontSize": [
-             0.92,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.5,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "color": "palette4",
-            "margin": [
-             0,
-             "",
-             6,
-             ""
-            ],
-            "marginType": "px"
-           }
-          }
-         ]
-        },
-        {
-         "name": "kadence/column",
-         "attributes": {
-          "uniqueID": "pd-accueil-12-c",
-          "kbVersion": 2,
-          "borderWidth": [
-           "",
-           "",
-           "",
-           ""
-          ],
-          "htmlTag": "article",
-          "className": "pd-carte"
-         },
-         "innerBlocks": [
-          {
-           "name": "core/cover",
-           "attributes": {
-            "customGradient": "linear-gradient(160deg,hsl(191 22% 34%),hsl(191 26% 10%))",
-            "dimRatio": 100,
-            "isDark": true,
-            "contentPosition": "bottom left",
-            "minHeight": 120,
-            "minHeightUnit": "px",
-            "style": {
-             "dimensions": {
-              "aspectRatio": "16/9"
-             },
-             "border": {
-              "radius": "2px"
-             },
-             "spacing": {
-              "margin": {
-               "bottom": "14px"
-              },
-              "padding": {
-               "top": "12px",
-               "right": "14px",
-               "bottom": "12px",
-               "left": "14px"
-              }
-             }
-            },
-            "className": "pd-vignette-vide"
-           },
-           "innerBlocks": []
-          },
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "Mémoire",
-            "htmlTag": "p",
-            "typography": "IBM Plex Mono",
-            "googleFont": false,
-            "fontWeight": "500",
-            "fontSize": [
-             0.75,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.5,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "letterSpacing": 0.14,
-            "letterSpacingType": "em",
-            "textTransform": "uppercase",
-            "color": "palette5",
-            "margin": [
-             0,
-             "",
-             6,
-             ""
-            ],
-            "marginType": "px"
-           }
-          },
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "Les 80 ans de Jebsheim",
-            "level": 3,
-            "typography": "Newsreader",
-            "googleFont": false,
-            "fontWeight": "400",
-            "fontSize": [
-             1.35,
-             1.3,
-             1.25
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.2,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "color": "palette3",
-            "margin": [
-             0,
-             "",
-             6,
-             ""
-            ],
-            "marginType": "px",
-            "link": "https://www.instagram.com/reel/DS0Fuk-DXkT/",
-            "linkTarget": true,
-            "linkStyle": "hover_underline",
-            "linkColor": "palette3",
-            "linkHoverColor": "palette2"
-           }
-          },
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "Le 1er RCP et la libération de l'Alsace",
-            "htmlTag": "p",
-            "fontSize": [
-             0.92,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.5,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "color": "palette4",
-            "margin": [
-             0,
-             "",
-             6,
-             ""
-            ],
-            "marginType": "px"
-           }
-          },
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DS0Fuk-DXkT/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1HsNqid6yr/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a> · <a href=\"https://x.com/1erRCP/status/2005313606834077905\" target=\"_blank\" rel=\"noreferrer noopener\">X</a>",
-            "htmlTag": "p",
-            "fontSize": [
-             0.85,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.5,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "color": "palette4",
-            "margin": [
-             0,
-             "",
-             0,
-             ""
-            ],
-            "marginType": "px",
-            "linkColor": "palette3",
-            "linkHoverColor": "palette2",
-            "linkStyle": "underline"
            }
           }
          ]
@@ -2149,22 +2108,94 @@
        }
       },
       {
-       "name": "core/list",
+       "name": "core/group",
        "attributes": {
-        "className": "pd-noms"
+        "layout": {
+         "type": "flex",
+         "flexWrap": "wrap",
+         "justifyContent": "left"
+        },
+        "style": {
+         "spacing": {
+          "blockGap": "16px",
+          "margin": {
+           "bottom": "28px"
+          }
+         }
+        }
        },
        "innerBlocks": [
         {
-         "name": "core/list-item",
+         "name": "core/group",
          "attributes": {
-          "content": "Fondation Résilience"
-         }
+          "style": {
+           "color": {
+            "background": "#010101"
+           },
+           "spacing": {
+            "padding": {
+             "top": "18px",
+             "right": "24px",
+             "bottom": "18px",
+             "left": "24px"
+            }
+           },
+           "border": {
+            "radius": "3px"
+           }
+          },
+          "layout": {
+           "type": "constrained"
+          }
+         },
+         "innerBlocks": [
+          {
+           "name": "core/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/logos/resilience-blanc.svg",
+            "alt": "Logo Fondation Résilience",
+            "width": "200px",
+            "sizeSlug": "full",
+            "align": "center"
+           }
+          }
+         ]
         },
         {
-         "name": "core/list-item",
+         "name": "core/group",
          "attributes": {
-          "content": "FA3R"
-         }
+          "style": {
+           "color": {
+            "background": "#f1efe9"
+           },
+           "spacing": {
+            "padding": {
+             "top": "18px",
+             "right": "24px",
+             "bottom": "18px",
+             "left": "24px"
+            }
+           },
+           "border": {
+            "radius": "3px"
+           }
+          },
+          "layout": {
+           "type": "constrained"
+          }
+         },
+         "innerBlocks": [
+          {
+           "name": "core/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/logos/fa3r.png",
+            "alt": "Logo FA3R",
+            "width": "150px",
+            "sizeSlug": "full",
+            "align": "center"
+           }
+          }
+         ]
         }
        ]
       }

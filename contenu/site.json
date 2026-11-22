@@ -72,7 +72,7 @@
       "a_la_une": {
         "surtitre": "À la une",
         "titre": "Des films pour garder la trace",
-        "texte": "Documentaires pour la télévision, portraits de témoins, films de mémoire pour le 1er RCP et films pour l'industrie de défense.",
+        "texte": "Documentaires pour la télévision, portraits de témoins, films de mémoire, films pour les fondations et pour l'industrie de défense. Une dizaine de nouveaux projets de documentaires sont en écriture.",
         "bouton": {
           "texte": "Tous les films",
           "url": "/films/",
@@ -93,9 +93,20 @@
       "references": {
         "surtitre": "Clients et partenaires",
         "titre": "Ils m'ont fait confiance",
-        "noms": [
-          "Fondation Résilience",
-          "FA3R"
+        "noms": [],
+        "logos": [
+          {
+            "nom": "Fondation Résilience",
+            "fichier": "resilience-blanc.svg",
+            "fond": "#010101",
+            "largeur": 200
+          },
+          {
+            "nom": "FA3R",
+            "fichier": "fa3r.png",
+            "fond": "#f1efe9",
+            "largeur": 150
+          }
         ]
       },
       "prestations": {
@@ -613,6 +624,30 @@
         }
       ],
       "a_relire": false
+    },
+    "thales": {
+      "titre": "Thales",
+      "entete": {
+        "surtitre": "Défense · Industrie",
+        "titre": "Thales",
+        "texte": "Des films de présentation réalisés avec Thales et avec le 1er RCP, dans le cadre du partenariat que j'ai initié entre le régiment et l'industriel."
+      },
+      "chiffres": [
+        {
+          "valeur": "23 608",
+          "texte": "vues sur Instagram pour « Thales Onyx » (7 700 sur Facebook)"
+        },
+        {
+          "valeur": "12 393",
+          "texte": "vues sur Instagram pour « Thales PR4G » (4 200 sur Facebook)"
+        }
+      ],
+      "films": [
+        "RCP10",
+        "RCP11"
+      ],
+      "texte": "Films courts réalisés en 2026 pour le 1er RCP, publiés sur les pages officielles du régiment, dans le cadre du partenariat entre Thales et le 1er RCP.",
+      "mention": "Les logos Thales sont utilisés avec l'accord de Thales, sans modification et en lien avec les films concernés."
     }
   },
   "films": {
@@ -622,6 +657,13 @@
         "titre": "Documentaires",
         "texte": "Des films d'auteur diffusés ou prêts pour la télévision.",
         "films": [
+          {
+            "id": "nPQhUB8pEj8",
+            "titre": "Classe Défense",
+            "description": "Pour la Fondation Résilience · novembre 2026",
+            "duree": "26:00",
+            "youtube": "https://www.youtube.com/watch?v=nPQhUB8pEj8"
+          },
           {
             "id": "c4xGjV6-sNg",
             "titre": "Chroniques du 93",
@@ -1072,6 +1114,13 @@
         "texte": "Films libres, clips et expériences, dont les premiers de LAKELAB.",
         "films": [
           {
+            "id": "9o5BFBA8Fj4",
+            "titre": "La musique de la Patrouille de France",
+            "description": "Le moment hors du temps où les pilotes préparent leur vol au sol",
+            "duree": "",
+            "youtube": "https://www.youtube.com/watch?v=9o5BFBA8Fj4"
+          },
+          {
             "id": "iJQCmkrEMuU",
             "titre": "État d'urgence",
             "description": "Premier film LAKELAB",
@@ -1127,12 +1176,12 @@
     ],
     "une": [
       {
-        "id": "c4xGjV6-sNg",
-        "titre": "Chroniques du 93",
-        "description": "France 4 · 2010",
-        "duree": "52:21",
-        "etiquette": "Documentaire",
-        "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg"
+        "id": "nPQhUB8pEj8",
+        "titre": "Classe Défense",
+        "description": "Pour la Fondation Résilience · novembre 2026",
+        "duree": "26:00",
+        "etiquette": "Nouveau documentaire",
+        "url": "https://www.youtube.com/watch?v=nPQhUB8pEj8"
       },
       {
         "id": "DOIkFS4peF8",
@@ -1143,6 +1192,14 @@
         "url": "https://www.youtube.com/watch?v=DOIkFS4peF8"
       },
       {
+        "id": "c4xGjV6-sNg",
+        "titre": "Chroniques du 93",
+        "description": "France 4 · 2010",
+        "duree": "52:21",
+        "etiquette": "Documentaire",
+        "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg"
+      },
+      {
         "id": "yzubFqyXDmk",
         "titre": "Voix d'Amazonie",
         "description": "Avec Pierre Bayle",
@@ -1151,28 +1208,20 @@
         "url": "https://www.youtube.com/watch?v=yzubFqyXDmk"
       },
       {
+        "id": "9o5BFBA8Fj4",
+        "titre": "La musique de la Patrouille de France",
+        "description": "Un clip onirique · LAKELAB",
+        "duree": "",
+        "etiquette": "Création",
+        "url": "https://www.youtube.com/watch?v=9o5BFBA8Fj4"
+      },
+      {
         "id": "MX1rXj52K88",
         "titre": "Capitaine Raymond Locci",
         "description": "Vosges 1943, Indochine 1946",
         "duree": "1:35:39",
         "etiquette": "Portrait",
         "url": "https://www.youtube.com/watch?v=MX1rXj52K88"
-      },
-      {
-        "id": "QMFdHoR7FxM",
-        "titre": "Arquus à Milipol 2021",
-        "description": "Reportage pour OPS TV",
-        "duree": "1:16",
-        "etiquette": "Défense",
-        "url": "https://www.youtube.com/watch?v=QMFdHoR7FxM"
-      },
-      {
-        "id": "RCP4",
-        "titre": "Les 80 ans de Jebsheim",
-        "description": "Le 1er RCP et la libération de l'Alsace",
-        "duree": "",
-        "etiquette": "Mémoire",
-        "url": "https://www.instagram.com/reel/DS0Fuk-DXkT/"
       }
     ],
     "serval": [
@@ -1331,19 +1380,19 @@
         "cle": "doc",
         "ancre": "documentaires",
         "titre": "Documentaires et reportages",
-        "texte": "Des films d'auteur pour la télévision, tournés au plus près de ceux qu'ils racontent.",
+        "texte": "Des films d'auteur pour la télévision et pour les fondations, tournés au plus près de ceux qu'ils racontent. Une dizaine de nouveaux projets sont en écriture.",
         "blocs": [
           {
             "docs": [
               {
-                "id": "c4xGjV6-sNg",
-                "etiquette": "France 4 · 2010 · 52 minutes",
-                "titre": "Chroniques du 93",
-                "texte": "Une immersion dans la CSI 93, en Seine-Saint-Denis, au cœur des violences urbaines. Un documentaire d'auteur de 52 minutes pour France 4, tourné au plus près de ceux qui y font face.",
+                "id": "nPQhUB8pEj8",
+                "etiquette": "Fondation Résilience · 2026 · 26 minutes",
+                "titre": "Classe Défense",
+                "texte": "Un chalet d'altitude, des collégiens de Trappes encadrés par des soldats blessés : une recette simple, la recette de l'espoir. Un documentaire de 26 minutes, sans voix off, réalisé pour la Fondation Résilience. Plus de 40 000 vues des extraits en une semaine, sur cinq réseaux, et des relais du 13e bataillon de chasseurs alpins, du collège Le Village, de sections de l'UNC et de la maison Athos Cœur de Savoie.",
                 "boutons": [
                   {
                     "texte": "Voir le film",
-                    "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
+                    "url": "https://www.youtube.com/watch?v=nPQhUB8pEj8",
                     "style": "contour"
                   }
                 ]
@@ -1352,7 +1401,7 @@
                 "id": "DOIkFS4peF8",
                 "etiquette": "W9 · 2008 · 6 parties",
                 "titre": "La nuit leur appartient, BAC Paris",
-                "texte": "Réalisé pour la centième d'Enquête d'action, sur W9 : une plongée dans la nuit parisienne aux côtés de la BAC. Le film est visible en six parties.",
+                "texte": "Journaliste reporter d'images pour M6, j'ai vite compris que l'actualité n'était pas ma voie. Je suis allé seul proposer ce film à W9, qui s'y est enthousiasmée. Le sujet était inédit : les BAC de nuit de Paris, héritières du mythique commissaire Broussard, n'avaient, à ma connaissance, jamais fait l'objet d'un film. Alors que la chaîne achetait surtout des programmes, ce fut l'une de ses premières productions internes. Le film a été diffusé pour la centième d'Enquête d'action, avec un immense succès, puis remis en avant pour les cinq ans de l'émission.",
                 "boutons": [
                   {
                     "texte": "Partie 1",
@@ -1362,6 +1411,19 @@
                   {
                     "texte": "Partie 2",
                     "url": "https://www.youtube.com/watch?v=MvaTPwqZSe8",
+                    "style": "contour"
+                  }
+                ]
+              },
+              {
+                "id": "c4xGjV6-sNg",
+                "etiquette": "France 4 · 2010 · 52 minutes",
+                "titre": "Chroniques du 93",
+                "texte": "Une immersion dans la CSI 93, en Seine-Saint-Denis, au cœur des violences urbaines. Un documentaire d'auteur de 52 minutes pour France 4, tourné au plus près de ceux qui y font face.",
+                "boutons": [
+                  {
+                    "texte": "Voir le film",
+                    "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
                     "style": "contour"
                   }
                 ]
@@ -1520,16 +1582,37 @@
       {
         "cle": "entreprise",
         "ancre": "entreprises",
-        "titre": "Entreprises et fondations",
-        "texte": "Pour la Fondation Résilience et FA3R, la Fondation Safran, Europorte : des films de formation, de présentation et de communication.",
+        "titre": "Fondations et entreprises",
+        "texte": "Pour la Fondation Résilience, FA3R, Europorte ou la Fondation Safran : des films de formation, de présentation et de communication.",
         "blocs": [
           {
+            "titre": "Fondation Résilience",
+            "texte": "Le documentaire réalisé pour la Fondation.",
+            "films": [
+              "nPQhUB8pEj8"
+            ]
+          },
+          {
+            "titre": "FA3R",
+            "texte": "Des films de présentation et de formation pour FA3R.",
             "films": [
               "NFZDGtgBNIk",
-              "Dw4gb7rz2Vo",
-              "-6Spc96VcUY",
-              "TA-o8ZS0wr8",
+              "-6Spc96VcUY"
+            ]
+          },
+          {
+            "titre": "Intelligence économique",
+            "texte": "La captation de l'International Competitive Intelligence Conference.",
+            "films": [
               "_YsZuKmk1PE"
+            ]
+          },
+          {
+            "titre": "Entreprises et fondations",
+            "texte": "Films de communication et de présentation.",
+            "films": [
+              "Dw4gb7rz2Vo",
+              "TA-o8ZS0wr8"
             ]
           }
         ]
@@ -1541,6 +1624,24 @@
         "texte": "Films libres, clips et expériences, dont les premiers films de LAKELAB.",
         "blocs": [
           {
+            "docs": [
+              {
+                "id": "9o5BFBA8Fj4",
+                "etiquette": "LAKELAB · Clip",
+                "titre": "La musique de la Patrouille de France",
+                "texte": "La « musique » de la Patrouille de France, c'est ce moment hors du temps durant lequel les pilotes préparent leur vol au sol, en reproduisant précisément les gestes qu'ils feront durant leur démonstration. Après un premier film tourné à Ochey en 2007, ce clip onirique vous invite à vous extirper quelques minutes du quotidien pour vous laisser porter par un moment de poésie. Un film de Pascal Dupont · Assisté de Thérèse Dupont et Charlène Floquet · Conseillé par Sébastien Dupont · Musique : Jean Colina · Une production LAKELAB.",
+                "boutons": [
+                  {
+                    "texte": "Voir le film",
+                    "url": "https://www.youtube.com/watch?v=9o5BFBA8Fj4",
+                    "style": "contour"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "titre": "Autres créations",
             "films": [
               "iJQCmkrEMuU",
               "6FrZTiHyWsk",
@@ -1608,6 +1709,18 @@
           ]
         }
       ]
+    },
+    "musique": {
+      "id": "9o5BFBA8Fj4",
+      "titre": "La musique de la Patrouille de France",
+      "texte": "La « musique » de la Patrouille de France, c'est ce moment hors du temps durant lequel les pilotes préparent leur vol au sol, en reproduisant précisément les gestes qu'ils feront durant leur démonstration. Après un premier film tourné à Ochey en 2007, ce clip onirique vous invite à vous extirper quelques minutes du quotidien pour vous laisser porter par un moment de poésie.",
+      "credits": [
+        "Un film de Pascal Dupont",
+        "Assisté de Thérèse Dupont et Charlène Floquet",
+        "Conseillé par Sébastien Dupont",
+        "Musique : Jean Colina",
+        "Une production LAKELAB"
+      ]
     }
   },
   "descriptions": {
@@ -1616,6 +1729,7 @@
     "a-propos": "Auteur-réalisateur documentaire depuis vingt ans. Défense, mémoire combattante et transmission.",
     "defense-et-securite": "Ancien combattant de l'infanterie parachutiste et officier de réserve, je connais le terrain, le vocabulaire et les contraintes de la communication de défense. Je réalise des films pour des régiments, des industriels et des salons.",
     "lakelab": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général.",
-    "contact": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement."
+    "contact": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement.",
+    "thales": "Films de présentation réalisés avec Thales et avec le 1er RCP."
   }
 }

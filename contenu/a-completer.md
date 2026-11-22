@@ -35,3 +35,10 @@
 - [x] TDA Armements : retiré du site (22 novembre 2026). Les films TDA ne sont plus présentés. Thales : éléments à transmettre par Pascal Dupont.
 - [ ] Série Serval : films en privé ; le contenu (chiffres, fabrication, presse) est dans la page Défense. Miniatures d'audience : en attente de l'accord de l'ECPAD.
 - [ ] Arquus : accord éventuel pour citer Arquus comme client (le film de Milipol 2021 est visible).
+
+## Mise à jour du 22 novembre 2026 (échanges Thales, FA3R, Classe Défense)
+- [ ] Thales : envoyer à Sarah Mathieu le lien de la page /thales/ (protégée par mot de passe) avant toute mise en ligne ; elle a répondu « je veux bien le lien en backoffice ».
+- [ ] Thales : liens YouTube des deux films autorisés (« Thales 2R2M, Mai 2018 » et « Thales TDA 120RT Rifled Towed Mortar 120mm ») et lien du film « Thales SLA ».
+- [ ] « La nuit leur appartient » : confirmer le nom exact du magazine (« Médis », de Thomas Hugues ?) et la date de la mise en avant pour les cinq ans de l'émission. Vérifié : Enquête d'action a débuté sur W9 le 20 janvier 2008, et la centième (« BAC de nuit, au cœur de l'action : la 100ème ») a été diffusée le 10 décembre 2008. Non vérifié : Memento, la politique de W9, la mention dans la presse.
+- [ ] FA3R : accord écrit du PDG pour présenter les films avec le nom et le logo de FA3R (courriel du 17 novembre 2026). Demande de mention « Images : Pascal Dupont » sur leur film de présentation en attente de leur part.
+- [ ] Classe Défense : chiffres publiables retenus (40 000 vues des extraits, 59 heures de visionnage, 76 partages, relais) ; ne pas publier le nombre de vues du film ni les citations des messages privés.

@@ -1,10 +1,10 @@
 # Installer le nouveau site sur WordPress (OVH)
 
-Durée : environ 15 minutes. Vous n'avez rien à coder. Ce parcours a été rejoué de bout en bout, par l'interface d'administration, sur un WordPress neuf : les 8 pages s'affichent et s'ouvrent sans erreur dans l'éditeur.
+Durée : environ 15 minutes. Vous n'avez rien à coder. Ce parcours a été rejoué de bout en bout, par l'interface d'administration, sur un WordPress neuf : les 9 pages s'affichent et s'ouvrent sans erreur dans l'éditeur.
 
 ## Fichiers à récupérer sur GitHub (dossier `dist/`)
 - `kadence-pascal.zip` : le thème enfant de Kadence (couleurs, polices, en-tête, pied de page, formulaire de contact).
-- `pages-pascaldupont.xml` : les 8 pages du site, en blocs Kadence éditables (Accueil, Films, À propos, Défense et sécurité, LAKELAB, Devis et contact, Mentions légales, Confidentialité).
+- `pages-pascaldupont.xml` : les 9 pages du site, en blocs Kadence éditables (Accueil, Films, À propos, Défense et sécurité, LAKELAB, Devis et contact, Mentions légales, Confidentialité, plus une page Thales protégée par mot de passe, à ne publier qu'après validation de Thales).
 
 Pour chacun : ouvrez le fichier sur GitHub, puis cliquez sur l'icône « Download raw file » (flèche vers le bas, en haut à droite du fichier).
 
@@ -36,3 +36,6 @@ Il n'est pas nécessaire de sauvegarder l'ancien site si vous n'y tenez pas. À 
 ## Pour les modifications futures (maintenance par Claude)
 - Les textes validés sont dans `contenu/site.json`. Le générateur `outils/pages_kadence.py` en fait les pages. `outils/empaqueter.py` fabrique le zip et le fichier d'import.
 - Les fiches `outils/kadence-reference/*.md` documentent, avec essais à l'appui, tous les réglages de Kadence et de Kadence Blocks utilisés.
+
+## Page Thales (à valider avant mise en ligne)
+La page « Thales » est protégée par le mot de passe `Thales-visionnage-2026` et n'apparaît pas dans le menu. Envoyez son adresse (pascaldupont.fr/thales/) et ce mot de passe à Sarah Mathieu (Thales). Après son accord : dans *Pages*, ouvrez « Thales », retirez le mot de passe (Visibilité : Publique), puis ajoutez la page au menu.

@@ -315,6 +315,9 @@ _RCP = next((x for x in ('rcp-vignette.jpg', 'rcp-vignette.png') if (RACINE / 'k
 RCP_VIGNETTE = '/wp-content/themes/kadence-pascal/assets/' + _RCP if _RCP else None
 
 
+LOGOS = '/wp-content/themes/kadence-pascal/assets/logos/'
+
+
 def films_par_id():
     d = {}
     for g in SITE['films']['groupes']:
@@ -375,7 +378,15 @@ def page_accueil():
     ref = c['references']
     noms = {'name': 'core/list', 'attributes': {'className': 'pd-noms'},
             'innerBlocks': [{'name': 'core/list-item', 'attributes': {'content': n}} for n in ref['noms']]}
-    references = P.section(P.entete_section(ref['surtitre'], ref['titre'], marge_bas=32) + [noms], padding=(80, 64, 48))
+    puces = []
+    for lg in ref.get('logos', []):
+        puces.append({'name': 'core/group', 'attributes': {
+            'style': {'color': {'background': lg['fond']}, 'spacing': {'padding': {'top': '18px', 'right': '24px', 'bottom': '18px', 'left': '24px'}}, 'border': {'radius': '3px'}},
+            'layout': {'type': 'constrained'}},
+            'innerBlocks': [{'name': 'core/image', 'attributes': {'url': LOGOS + lg['fichier'], 'alt': 'Logo ' + lg['nom'], 'width': '%dpx' % lg['largeur'], 'sizeSlug': 'full', 'align': 'center'}}]})
+    logos = [{'name': 'core/group', 'attributes': {'layout': {'type': 'flex', 'flexWrap': 'wrap', 'justifyContent': 'left'},
+                                                   'style': {'spacing': {'blockGap': '16px', 'margin': {'bottom': '28px'}}}}, 'innerBlocks': puces}] if puces else []
+    references = P.section(P.entete_section(ref['surtitre'], ref['titre'], marge_bas=32) + logos + ([noms] if ref['noms'] else []), padding=(80, 64, 48))
 
     pr = c['prestations']
     prestations = P.section(P.entete_section(pr['surtitre'], pr['titre'], pr['texte'], couleur_titre=ENCRE, couleur_sur=BERET, couleur_texte=ENCRE_DOUX)
@@ -409,7 +420,7 @@ def page_films():
     titres = [{'text': o['titre'], 'icon': '', 'iconSide': 'right', 'onlyIcon': False, 'subText': '', 'anchor': 'films-' + o['ancre']} for o in ongl]
     onglets = []
     for i, o in enumerate(ongl, start=1):
-        enfants = [P.ligne(o['texte'], 1.0625, DOUX, 8, largeur=720)]
+        enfants = [P.ligne(o['texte'], 1.0625, DOUX, 28 if not o['blocs'][0].get('titre') else 8, largeur=720)]
         for k, bl in enumerate(o['blocs']):
             haut = 40 if (k or True) else 0
             if bl.get('docs'):
@@ -421,7 +432,7 @@ def page_films():
                     col['innerBlocks'].append(P.paragraphe(x['texte'], DOUX))
                     col['innerBlocks'].append(P.boutons(x['boutons'], marge_haut=8, petit=True))
                     cols.append(col)
-                enfants.append(P.grille(cols, 3))
+                enfants.append(P.grille(cols, 2 if len(cols) == 4 else 3))
                 continue
             if bl.get('titre'):
                 h = P.titre(bl['titre'], 3, taille=(1.6, 1.5, 1.4), marge_bas=10)
@@ -515,6 +526,19 @@ def page_defense():
     return c['titre'], [entete, chiffres, industrie, formats, milieu, selection, serval]
 
 
+def page_thales():
+    P = Page('thales')
+    c = SITE['pages']['thales']
+    entete = P.entete_page(c['entete'])
+    logo = {'name': 'core/group', 'attributes': {'layout': {'type': 'constrained'}, 'style': {'spacing': {'margin': {'bottom': '32px'}}}},
+            'innerBlocks': [{'name': 'core/image', 'attributes': {'url': LOGOS + 'thales-fond-bleu.png', 'alt': 'Logo Thales', 'width': '340px', 'sizeSlug': 'full'}}]}
+    fid = films_par_id()
+    films = P.section([logo, P.ligne(c['texte'], 1.0625, DOUX, 32, largeur=720),
+                       P.grille([P.carte(fid[i]) for i in c['films']], 3), {'name': 'core/spacer', 'attributes': {'height': '56px'}}, P.chiffres(c['chiffres']),
+                       {'name': 'core/spacer', 'attributes': {'height': '40px'}}, P.ligne(c['mention'], 0.85, DOUX, 0, police=MONO)], padding=(24, 24, 16), padding_bas=(96, 72, 56))
+    return c['titre'], [entete, films]
+
+
 def page_lakelab():
     P = Page('lakelab')
     c = SITE['pages']['lakelab']
@@ -558,7 +582,7 @@ def page_legale(cle):
 
 PAGES = {
     'accueil': page_accueil, 'films': page_films, 'a-propos': page_apropos,
-    'defense-et-securite': page_defense, 'lakelab': page_lakelab, 'contact': page_contact,
+    'defense-et-securite': page_defense, 'thales': page_thales, 'lakelab': page_lakelab, 'contact': page_contact,
     'mentions-legales': lambda: page_legale('mentions-legales'), 'confidentialite': lambda: page_legale('confidentialite'),
 }
 

@@ -1,0 +1,973 @@
+{
+ "titre": "Thales",
+ "slug": "thales",
+ "meta": {
+  "_kad_post_layout": "fullwidth",
+  "_kad_post_content_style": "unboxed",
+  "_kad_post_vertical_padding": "hide",
+  "_kad_post_title": "hide",
+  "_kad_post_feature": "hide",
+  "_pd_page": "thales"
+ },
+ "blocs": [
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-thales-1-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     88,
+     "",
+     56,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     48,
+     ""
+    ],
+    "mobilePadding": [
+     48,
+     "",
+     32,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-thales-2-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Défense · Industrie",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Thales",
+        "level": 1,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         4.4,
+         3.4,
+         2.6
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         20,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         880,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Des films de présentation réalisés avec Thales et avec le 1er RCP, dans le cadre du partenariat que j'ai initié entre le régiment et l'industriel.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.15,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         720,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-thales-10-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     24,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     24,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     16,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-thales-11-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "core/group",
+       "attributes": {
+        "layout": {
+         "type": "constrained"
+        },
+        "style": {
+         "spacing": {
+          "margin": {
+           "bottom": "32px"
+          }
+         }
+        }
+       },
+       "innerBlocks": [
+        {
+         "name": "core/image",
+         "attributes": {
+          "url": "/wp-content/themes/kadence-pascal/assets/logos/thales-fond-bleu.png",
+          "alt": "Logo Thales",
+          "width": "340px",
+          "sizeSlug": "full"
+         }
+        }
+       ]
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Films courts réalisés en 2026 pour le 1er RCP, publiés sur les pages officielles du régiment, dans le cadre du partenariat entre Thales et le 1er RCP.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0625,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         32,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         720,
+         "",
+         ""
+        ],
+        "maxWidthType": "px"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-thales-6-r",
+        "kbVersion": 2,
+        "columns": 3,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "tabletLayout": "two-grid",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         24,
+         20,
+         16
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         40,
+         32,
+         28
+        ],
+        "rowGutterType": "px",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-3-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "core/cover",
+           "attributes": {
+            "customGradient": "linear-gradient(160deg,hsl(236 22% 34%),hsl(236 26% 10%))",
+            "dimRatio": 100,
+            "isDark": true,
+            "contentPosition": "bottom left",
+            "minHeight": 120,
+            "minHeightUnit": "px",
+            "style": {
+             "dimensions": {
+              "aspectRatio": "16/9"
+             },
+             "border": {
+              "radius": "2px"
+             },
+             "spacing": {
+              "margin": {
+               "bottom": "14px"
+              },
+              "padding": {
+               "top": "12px",
+               "right": "14px",
+               "bottom": "12px",
+               "left": "14px"
+              }
+             }
+            },
+            "className": "pd-vignette-vide"
+           },
+           "innerBlocks": []
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Film court",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Thales Onyx",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "link": "https://www.instagram.com/reel/DdZMV6Ht0Eu/",
+            "linkTarget": true,
+            "linkStyle": "hover_underline",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Film court, partenariat Thales",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/DdZMV6Ht0Eu/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://www.facebook.com/share/v/1cWDqm3qax/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.85,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-4-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "core/cover",
+           "attributes": {
+            "customGradient": "linear-gradient(160deg,hsl(237 22% 34%),hsl(237 26% 10%))",
+            "dimRatio": 100,
+            "isDark": true,
+            "contentPosition": "bottom left",
+            "minHeight": 120,
+            "minHeightUnit": "px",
+            "style": {
+             "dimensions": {
+              "aspectRatio": "16/9"
+             },
+             "border": {
+              "radius": "2px"
+             },
+             "spacing": {
+              "margin": {
+               "bottom": "14px"
+              },
+              "padding": {
+               "top": "12px",
+               "right": "14px",
+               "bottom": "12px",
+               "left": "14px"
+              }
+             }
+            },
+            "className": "pd-vignette-vide"
+           },
+           "innerBlocks": []
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Film court",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Thales PR4G",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "link": "https://www.instagram.com/reel/Ddjk7LEtpA-/",
+            "linkTarget": true,
+            "linkStyle": "hover_underline",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Film court, partenariat Thales",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Voir sur : <a href=\"https://www.instagram.com/reel/Ddjk7LEtpA-/\" target=\"_blank\" rel=\"noreferrer noopener\">Instagram</a> · <a href=\"https://fb.watch/K4XMnJgb3P/\" target=\"_blank\" rel=\"noreferrer noopener\">Facebook</a>",
+            "htmlTag": "p",
+            "fontSize": [
+             0.85,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
+            "linkStyle": "underline"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-5-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": []
+        }
+       ]
+      },
+      {
+       "name": "core/spacer",
+       "attributes": {
+        "height": "56px"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-thales-9-r",
+        "kbVersion": 2,
+        "columns": 4,
+        "colLayout": "equal",
+        "mobileLayout": "two-grid",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "tabletLayout": "two-grid",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         24,
+         20,
+         16
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         36,
+         28,
+         24
+        ],
+        "rowGutterType": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-7-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "borderStyle": [
+           {
+            "top": [
+             "#c8b287",
+             "solid",
+             1
+            ],
+            "right": [
+             "",
+             "",
+             ""
+            ],
+            "bottom": [
+             "",
+             "",
+             ""
+            ],
+            "left": [
+             "",
+             "",
+             ""
+            ],
+            "unit": "px"
+           }
+          ],
+          "padding": [
+           16,
+           0,
+           0,
+           0
+          ],
+          "paddingType": "px"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "23 608",
+            "htmlTag": "p",
+            "fontSize": [
+             2.8,
+             2.6,
+             2.4
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "vues sur Instagram pour « Thales Onyx » (7 700 sur Facebook)",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-8-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "borderStyle": [
+           {
+            "top": [
+             "#c8b287",
+             "solid",
+             1
+            ],
+            "right": [
+             "",
+             "",
+             ""
+            ],
+            "bottom": [
+             "",
+             "",
+             ""
+            ],
+            "left": [
+             "",
+             "",
+             ""
+            ],
+            "unit": "px"
+           }
+          ],
+          "padding": [
+           16,
+           0,
+           0,
+           0
+          ],
+          "paddingType": "px"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "12 393",
+            "htmlTag": "p",
+            "fontSize": [
+             2.8,
+             2.6,
+             2.4
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             10,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "vues sur Instagram pour « Thales PR4G » (4 200 sur Facebook)",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "core/spacer",
+       "attributes": {
+        "height": "40px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Les logos Thales sont utilisés avec l'accord de Thales, sans modification et en lien avec les films concernés.",
+        "htmlTag": "p",
+        "fontSize": [
+         0.85,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginType": "px",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "400"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "excerpt": "Films de présentation réalisés avec Thales et avec le 1er RCP."
+}

@@ -239,7 +239,7 @@ function pd_creer_menu( $nom, $elements ) {
 }
 
 function pd_installer_site() {
-	$cles = array( 'accueil', 'films', 'a-propos', 'defense-et-securite', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
+	$cles = array( 'accueil', 'films', 'a-propos', 'defense-et-securite', 'thales', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
 	$p    = array();
 	foreach ( $cles as $cle ) {
 		$p[ $cle ] = pd_page_par_cle( $cle );
