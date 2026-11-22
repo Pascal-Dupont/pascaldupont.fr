@@ -238,6 +238,9 @@ function pd_creer_menu( $nom, $elements ) {
 	return (int) $menu_id;
 }
 
+// Changer cette valeur à chaque nouvel envoi des pages : le réglage automatique (accueil, menus) est alors refait.
+const PD_VERSION_INSTALLATION = '2.1.0';
+
 function pd_installer_site() {
 	$cles = array( 'accueil', 'films', 'a-propos', 'defense-et-securite', 'thales', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
 	$p    = array();
@@ -300,11 +303,11 @@ function pd_installer_site() {
 add_action(
 	'admin_init',
 	function () {
-		if ( '1' === get_option( 'pd_installe' ) || ! current_user_can( 'manage_options' ) ) {
+		if ( PD_VERSION_INSTALLATION === get_option( 'pd_installe' ) || ! current_user_can( 'manage_options' ) ) {
 			return;
 		}
 		if ( pd_installer_site() ) {
-			update_option( 'pd_installe', '1' );
+			update_option( 'pd_installe', PD_VERSION_INSTALLATION );
 			set_transient( 'pd_avis', 1, 5 * MINUTE_IN_SECONDS );
 		}
 	}

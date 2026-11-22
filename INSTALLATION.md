@@ -39,3 +39,10 @@ Il n'est pas nécessaire de sauvegarder l'ancien site si vous n'y tenez pas. À 
 
 ## Page Thales (à valider avant mise en ligne)
 La page « Thales » est protégée par le mot de passe `Thales-visionnage-2026` et n'apparaît pas dans le menu. Envoyez son adresse (pascaldupont.fr/thales/) et ce mot de passe à Sarah Mathieu (Thales). Après son accord : dans *Pages*, ouvrez « Thales », retirez le mot de passe (Visibilité : Publique), puis ajoutez la page au menu.
+
+## Mettre à jour un site déjà installé
+1. *Pages* : cochez tout, *Mettre à la corbeille*, puis *Corbeille*, *Vider la corbeille*.
+2. *Apparence, Thèmes, Ajouter, Téléverser un thème* : choisissez le nouveau `kadence-pascal.zip`, puis *Remplacer l'actif par la version téléversée*.
+3. *Outils, Importer, WordPress* : envoyez le nouveau `pages-pascaldupont.xml` (même réglages qu'à l'installation).
+4. Ouvrez le *Tableau de bord* : le message vert confirme que l'accueil et les menus sont refaits.
+5. Une seule fois : *Extensions*, désactivez puis supprimez **Kubio** (reste de l'ancien site), et *Réglages, Général, Langue du site* : **Français**.
