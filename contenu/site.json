@@ -464,8 +464,8 @@
           "RCP1",
           "RCP9",
           "bhsuc7c241k",
-          "MX1rXj52K88",
-          "NFZDGtgBNIk"
+          "QMFdHoR7FxM",
+          "MX1rXj52K88"
         ],
         "boutons": [
           {
@@ -501,7 +501,7 @@
       "serval": {
         "surtitre": "Opération Serval · Mali, janvier à avril 2013",
         "titre": "Une série vue plus de deux millions de fois",
-        "texte": "Les images de l'armée française, sélectionnées et montées au rythme des opérations, diffusées dans la presse nationale et internationale.",
+        "texte": "Mali, janvier à avril 2013 : dix-huit films montés au rythme des opérations, repris par la presse nationale et internationale.",
         "chiffres": [
           {
             "valeur": "2 millions",
@@ -520,21 +520,6 @@
             "texte": "abonnés et plus de 1 000 partages sur Facebook et Twitter entre le 15 janvier et le 15 mars 2013"
           }
         ],
-        "fabrication": {
-          "titre": "Comment ces films ont été faits",
-          "paragraphes": [
-            "À l'époque, le ministère de la Défense ne diffusait pas de films sur les réseaux. Les images étaient fournies à la presse, dont je faisais partie, sous forme de bandes éléments livrées par l'EMA et l'ECPAD.",
-            "J'en ai tiré, de ma propre initiative et en urgence opérationnelle, des films montés quasiment en temps réel des opérations, avec la société de production Studio Beta Prod 32 et la musique de Mathieu Gauriat. Ils ont accompagné l'accélération de la politique de diffusion du ministère pour faire rayonner nos armes."
-          ],
-          "credits": [
-            "Images : EMA / ECPAD",
-            "Diffusion : ECPAD",
-            "Réalisation et montage : Pascal Dupont",
-            "Production : Studio Beta Prod 32",
-            "Musique : Mathieu Gauriat",
-            "Sans utilisation commerciale"
-          ]
-        },
         "presse": {
           "titre": "Repris par la presse",
           "lignes": [
@@ -580,7 +565,38 @@
             ]
           ]
         }
-      }
+      },
+      "cas": {
+        "surtitre": "Études de cas",
+        "titre": "Sur le terrain, et après",
+        "items": [
+          {
+            "client": "1er régiment de chasseurs parachutistes · 2025-2026",
+            "titre": "Les films du régiment",
+            "contexte": "Donner au régiment des films à la hauteur de son histoire et de ses missions, publiés sur ses propres pages.",
+            "intervention": "Dix films depuis mai 2025, dont des films courts avec l'UNAC, Texelis et Thales. Le partenariat avec Thales est né à mon initiative.",
+            "resultat": "Environ 900 000 vues cumulées sur Instagram, Facebook et X (relevé du 7 octobre 2026).",
+            "lien": "/films/#films-defense"
+          },
+          {
+            "client": "European Defense Review · Eurosatory 2022",
+            "titre": "Le show daily du salon",
+            "contexte": "Les films officiels du show daily du partenaire média d'Eurosatory.",
+            "intervention": "Quatre épisodes, quatre écritures, dont un plan-séquence de près de deux minutes, tournés et montés seul.",
+            "resultat": "L'équivalent d'un 52 minutes en une dizaine de jours.",
+            "lien": "https://www.youtube.com/playlist?list=PLpV-5U4pNRWlCMZO7UaqWA7eWqIAEeJV3"
+          },
+          {
+            "client": "Fondation Résilience · 2026",
+            "titre": "Classe Défense",
+            "contexte": "Montrer ce que des soldats blessés transmettent à des collégiens de Trappes, le temps d'un séjour dans un chalet d'altitude.",
+            "intervention": "Réalisation d'un documentaire de 26 minutes sans voix off et de six formats courts pour les réseaux.",
+            "resultat": "Plus de 40 000 vues des extraits en une semaine, 59 heures de visionnage du film, des relais du 13e BCA, du collège et de l'UNC.",
+            "lien": "https://www.youtube.com/watch?v=nPQhUB8pEj8"
+          }
+        ]
+      },
+      "showreel": ""
     },
     "lakelab": {
       "titre": "LAKELAB",
@@ -736,35 +752,40 @@
             "titre": "Classe Défense",
             "description": "Pour la Fondation Résilience · novembre 2026",
             "duree": "26:00",
-            "youtube": "https://www.youtube.com/watch?v=nPQhUB8pEj8"
+            "youtube": "https://www.youtube.com/watch?v=nPQhUB8pEj8",
+            "etiquette": "Fondation Résilience"
           },
           {
             "id": "c4xGjV6-sNg",
             "titre": "Chroniques du 93",
             "description": "Pour France 4 · 2010 · immersion dans la CSI 93, en Seine-Saint-Denis",
             "duree": "52:21",
-            "youtube": "https://www.youtube.com/watch?v=c4xGjV6-sNg"
+            "youtube": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
+            "etiquette": "France 4"
           },
           {
             "id": "DOIkFS4peF8",
             "titre": "La nuit leur appartient, BAC Paris",
             "description": "Pour la centième d'Enquête d'action, sur W9 · 2008 · partie 1 sur 6",
             "duree": "8:54",
-            "youtube": "https://www.youtube.com/watch?v=DOIkFS4peF8"
+            "youtube": "https://www.youtube.com/watch?v=DOIkFS4peF8",
+            "etiquette": "W9"
           },
           {
             "id": "yzubFqyXDmk",
             "titre": "Voix d'Amazonie",
             "description": "Avec Pierre Bayle · les communautés indigènes d'Équateur face à l'extraction minière et pétrolière",
             "duree": "43:45",
-            "youtube": "https://www.youtube.com/watch?v=yzubFqyXDmk"
+            "youtube": "https://www.youtube.com/watch?v=yzubFqyXDmk",
+            "etiquette": "Avec Pierre Bayle"
           },
           {
             "id": "AZERIB9ymiE",
             "titre": "Hélie de Saint Marc, témoin du siècle",
             "description": "Extrait avant-première",
             "duree": "3:26",
-            "youtube": "https://www.youtube.com/watch?v=AZERIB9ymiE"
+            "youtube": "https://www.youtube.com/watch?v=AZERIB9ymiE",
+            "etiquette": "Extrait"
           }
         ],
         "liens": [],
@@ -780,7 +801,8 @@
             "titre": "Arquus à Milipol 2021",
             "description": "Reportage pour OPS TV, tourné en 4K",
             "duree": "1:16",
-            "youtube": "https://www.youtube.com/watch?v=QMFdHoR7FxM"
+            "youtube": "https://www.youtube.com/watch?v=QMFdHoR7FxM",
+            "etiquette": "OPS TV"
           }
         ],
         "liens": [],
@@ -1016,7 +1038,8 @@
             "titre": "Capitaine Raymond Locci",
             "description": "Brevet para 12204 · réalisé avec l'amicale du 1er RCP · septembre 2025 · plus de 33 000 vues",
             "duree": "1:35:39",
-            "youtube": "https://www.youtube.com/watch?v=MX1rXj52K88"
+            "youtube": "https://www.youtube.com/watch?v=MX1rXj52K88",
+            "etiquette": "Amicale du 1er RCP"
           },
           {
             "id": "uF7zqXfUsjc",
@@ -1032,21 +1055,24 @@
                 "reseau": "Relais du régiment sur X",
                 "url": "https://x.com/1erRCP/status/1938606377661874421"
               }
-            ]
+            ],
+            "etiquette": "Amicale du 1er RCP"
           },
           {
             "id": "hAsRJtDXMSY",
             "titre": "70 ans de Diên Biên Phu au 1er RCP",
             "description": "Film de mémoire",
             "duree": "7:00",
-            "youtube": "https://www.youtube.com/watch?v=hAsRJtDXMSY"
+            "youtube": "https://www.youtube.com/watch?v=hAsRJtDXMSY",
+            "etiquette": "1er RCP"
           },
           {
             "id": "iyuX_UN7ABY",
             "titre": "Drakkar, 40e anniversaire",
             "description": "Commémoration de l'attentat",
             "duree": "11:23",
-            "youtube": "https://www.youtube.com/watch?v=iyuX_UN7ABY"
+            "youtube": "https://www.youtube.com/watch?v=iyuX_UN7ABY",
+            "etiquette": "Commémoration"
           }
         ],
         "liens": [],
@@ -1062,7 +1088,8 @@
             "titre": "FA3R et Résilience pour Europorte",
             "description": "Pour FA3R et son client Europorte · novembre 2025",
             "duree": "2:33",
-            "youtube": "https://www.youtube.com/watch?v=NFZDGtgBNIk"
+            "youtube": "https://www.youtube.com/watch?v=NFZDGtgBNIk",
+            "etiquette": "FA3R"
           },
           {
             "id": "Dw4gb7rz2Vo",
@@ -1076,7 +1103,8 @@
             "titre": "Formation Europorte",
             "description": "Film de formation, pour FA3R et son client Europorte",
             "duree": "3:11",
-            "youtube": "https://www.youtube.com/watch?v=-6Spc96VcUY"
+            "youtube": "https://www.youtube.com/watch?v=-6Spc96VcUY",
+            "etiquette": "FA3R"
           },
           {
             "id": "TA-o8ZS0wr8",
@@ -1090,7 +1118,8 @@
             "titre": "International Competitive Intelligence Conference",
             "description": "Captation de conférence",
             "duree": "7:05",
-            "youtube": "https://www.youtube.com/watch?v=_YsZuKmk1PE"
+            "youtube": "https://www.youtube.com/watch?v=_YsZuKmk1PE",
+            "etiquette": "Intelligence économique"
           }
         ],
         "liens": [],
@@ -1106,42 +1135,48 @@
             "titre": "EDR Show Daily, épisode 1",
             "description": "Eurosatory 2022",
             "duree": "5:49",
-            "youtube": "https://www.youtube.com/watch?v=bhsuc7c241k"
+            "youtube": "https://www.youtube.com/watch?v=bhsuc7c241k",
+            "etiquette": "European Defense Review"
           },
           {
             "id": "AcNQO-oy2UA",
             "titre": "EDR Show Daily, épisode 2",
             "description": "Eurosatory 2022",
             "duree": "3:49",
-            "youtube": "https://www.youtube.com/watch?v=AcNQO-oy2UA"
+            "youtube": "https://www.youtube.com/watch?v=AcNQO-oy2UA",
+            "etiquette": "European Defense Review"
           },
           {
             "id": "S3CpTXKa7iA",
             "titre": "EDR Show Daily, épisode 3",
             "description": "Eurosatory 2022",
             "duree": "2:56",
-            "youtube": "https://www.youtube.com/watch?v=S3CpTXKa7iA"
+            "youtube": "https://www.youtube.com/watch?v=S3CpTXKa7iA",
+            "etiquette": "European Defense Review"
           },
           {
             "id": "4PUFyZn7TV8",
             "titre": "EDR Show Daily, épisode 4",
             "description": "Eurosatory 2022",
             "duree": "2:52",
-            "youtube": "https://www.youtube.com/watch?v=4PUFyZn7TV8"
+            "youtube": "https://www.youtube.com/watch?v=4PUFyZn7TV8",
+            "etiquette": "European Defense Review"
           },
           {
             "id": "gPRFbBvnD_c",
             "titre": "Christian Cambon",
             "description": "Entrevue · Commission de la Défense du Sénat",
             "duree": "7:26",
-            "youtube": "https://www.youtube.com/watch?v=gPRFbBvnD_c"
+            "youtube": "https://www.youtube.com/watch?v=gPRFbBvnD_c",
+            "etiquette": "Entretien"
           },
           {
             "id": "88Tojjmake4",
             "titre": "Charles Beaudouin",
             "description": "Entrevue · directeur général de COGES",
             "duree": "9:21",
-            "youtube": "https://www.youtube.com/watch?v=88Tojjmake4"
+            "youtube": "https://www.youtube.com/watch?v=88Tojjmake4",
+            "etiquette": "Entretien"
           }
         ],
         "liens": [
@@ -1162,21 +1197,24 @@
             "titre": "Méditerranée orientale, du gaz dans l'eau",
             "description": "Entretien avec Nicolas Mazzucchi, Fondation pour la recherche stratégique · pour ExMergere",
             "duree": "19:41",
-            "youtube": "https://www.youtube.com/watch?v=2YGZr_pob0c"
+            "youtube": "https://www.youtube.com/watch?v=2YGZr_pob0c",
+            "etiquette": "ExMergere"
           },
           {
             "id": "QUhc5drglAs",
             "titre": "Guerre en milieu urbain",
             "description": "Entretien avec Pierre Santoni, co-auteur de « L'ultime champ de bataille »",
             "duree": "17:09",
-            "youtube": "https://www.youtube.com/watch?v=QUhc5drglAs"
+            "youtube": "https://www.youtube.com/watch?v=QUhc5drglAs",
+            "etiquette": "Entretien"
           },
           {
             "id": "J-EwxwK9gIQ",
             "titre": "Armée française, seuil critique ?",
             "description": "Entretien avec le général Pinard Legry, président de l'ASAF",
             "duree": "14:20",
-            "youtube": "https://www.youtube.com/watch?v=J-EwxwK9gIQ"
+            "youtube": "https://www.youtube.com/watch?v=J-EwxwK9gIQ",
+            "etiquette": "Entretien"
           }
         ],
         "liens": [],
@@ -1192,56 +1230,64 @@
             "titre": "La musique de la Patrouille de France",
             "description": "Le moment hors du temps où les pilotes préparent leur vol au sol",
             "duree": "",
-            "youtube": "https://www.youtube.com/watch?v=9o5BFBA8Fj4"
+            "youtube": "https://www.youtube.com/watch?v=9o5BFBA8Fj4",
+            "etiquette": "LAKELAB"
           },
           {
             "id": "iJQCmkrEMuU",
             "titre": "État d'urgence",
             "description": "Premier film LAKELAB",
             "duree": "2:50",
-            "youtube": "https://www.youtube.com/watch?v=iJQCmkrEMuU"
+            "youtube": "https://www.youtube.com/watch?v=iJQCmkrEMuU",
+            "etiquette": "LAKELAB"
           },
           {
             "id": "6FrZTiHyWsk",
             "titre": "État naturel",
             "description": "LAKELAB",
             "duree": "4:04",
-            "youtube": "https://www.youtube.com/watch?v=6FrZTiHyWsk"
+            "youtube": "https://www.youtube.com/watch?v=6FrZTiHyWsk",
+            "etiquette": "LAKELAB"
           },
           {
             "id": "rWCRZ3bxfi8",
             "titre": "Barbatoro",
             "description": "Museumotel",
             "duree": "3:33",
-            "youtube": "https://www.youtube.com/watch?v=rWCRZ3bxfi8"
+            "youtube": "https://www.youtube.com/watch?v=rWCRZ3bxfi8",
+            "etiquette": "Museumotel"
           },
           {
             "id": "nV6w78VdXkI",
             "titre": "L'œuf ou la poule ?",
             "description": "Museumotel · Pâques 2015",
             "duree": "5:00",
-            "youtube": "https://www.youtube.com/watch?v=nV6w78VdXkI"
+            "youtube": "https://www.youtube.com/watch?v=nV6w78VdXkI",
+            "etiquette": "Museumotel"
           },
           {
             "id": "LZjgeTSqBXA",
             "titre": "Jean-Michel Aubry",
             "description": "Teaser d'exposition · Museumotel",
             "duree": "1:08",
-            "youtube": "https://www.youtube.com/watch?v=LZjgeTSqBXA"
+            "youtube": "https://www.youtube.com/watch?v=LZjgeTSqBXA",
+            "etiquette": "Museumotel"
           },
           {
             "id": "CbSYRM0fGcU",
             "titre": "Gipsy Family, SeaStars",
             "description": "Clip",
             "duree": "5:41",
-            "youtube": "https://www.youtube.com/watch?v=CbSYRM0fGcU"
+            "youtube": "https://www.youtube.com/watch?v=CbSYRM0fGcU",
+            "etiquette": "Gipsy Family"
           },
           {
             "id": "dwlq_LhiSDc",
             "titre": "Gipsy Family, Die Electro",
             "description": "Clip",
             "duree": "6:06",
-            "youtube": "https://www.youtube.com/watch?v=dwlq_LhiSDc"
+            "youtube": "https://www.youtube.com/watch?v=dwlq_LhiSDc",
+            "etiquette": "Gipsy Family"
           }
         ],
         "liens": [],

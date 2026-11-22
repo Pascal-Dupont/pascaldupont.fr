@@ -721,6 +721,40 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
+            "content": "LAKELAB",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-lakelab-h8"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
             "content": "État d'urgence",
             "level": 3,
             "typography": "Newsreader",
@@ -746,7 +780,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-lakelab-h8"
+            "uniqueID": "pd-lakelab-h9"
            }
           },
           {
@@ -774,7 +808,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-lakelab-h9"
+            "uniqueID": "pd-lakelab-h10"
            }
           }
          ]
@@ -818,7 +852,41 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-lakelab-h10"
+            "uniqueID": "pd-lakelab-h11"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "LAKELAB",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-lakelab-h12"
            }
           },
           {
@@ -849,7 +917,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-lakelab-h11"
+            "uniqueID": "pd-lakelab-h13"
            }
           },
           {
@@ -877,7 +945,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-lakelab-h12"
+            "uniqueID": "pd-lakelab-h14"
            }
           }
          ]

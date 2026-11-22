@@ -44,5 +44,5 @@ La page « Thales » est protégée par le mot de passe `Thales-visionnage-2026`
 1. *Pages* : cochez tout, *Mettre à la corbeille*, puis *Corbeille*, *Vider la corbeille*.
 2. *Apparence, Thèmes, Ajouter, Téléverser un thème* : choisissez le nouveau `kadence-pascal.zip`, puis *Remplacer l'actif par la version téléversée*.
 3. *Outils, Importer, WordPress* : envoyez le nouveau `pages-pascaldupont.xml` (même réglages qu'à l'installation).
-4. Ouvrez le *Tableau de bord* : le message vert confirme que l'accueil et les menus sont refaits.
+4. Ouvrez le *Tableau de bord* (indispensable, **après** l'import) : le message vert confirme que l'accueil et les menus sont refaits. Les pages reprennent aussi leur adresse prévue (par exemple /lakelab/) si un ancien contenu l'occupait.
 5. Une seule fois : *Extensions*, désactivez puis supprimez **Kubio** (reste de l'ancien site), et *Réglages, Général, Langue du site* : **Français**.

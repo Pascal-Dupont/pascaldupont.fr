@@ -2015,7 +2015,7 @@
         "tabletGutter": "custom",
         "mobileGutter": "custom",
         "customGutter": [
-         48,
+         40,
          32,
          0
         ],

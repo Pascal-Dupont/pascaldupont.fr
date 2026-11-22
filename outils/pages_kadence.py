@@ -286,7 +286,7 @@ class Page:
         return self.rangee(cols, layout='equal', tablette='two-grid', mobile='two-grid', gouttiere=[24, 20, 16], gouttiere_v=[36, 28, 24],
                            columns=4)
 
-    def lignes_titre_texte(self, lignes, clair=False):
+    def lignes_titre_texte(self, lignes, clair=False, numeros=False):
         """Liste à deux colonnes (titre | texte) séparées par un filet : prestations, formats."""
         filet = LIGNE_CLAIRE if clair else HEX[LIGNE]
         rangs = []
@@ -295,7 +295,8 @@ class Page:
             if i == 0:
                 bord['top'] = [ENCRE if clair else HEX[LIGNE], 'solid', 1]
             rangs.append(self.rangee([
-                self.colonne([self.titre(l['titre'], 3, taille=(1.6, 1.45, 1.3), couleur=ENCRE if clair else TEXTE, marge_bas=0, interligne=1.2)]),
+                self.colonne(([self.surtitre('%02d' % (i + 1), marge_bas=6)] if numeros else [])
+                             + [self.titre(l['titre'], 3, taille=(1.6, 1.45, 1.3), couleur=ENCRE if clair else TEXTE, marge_bas=0, interligne=1.2)]),
                 self.colonne([self.ligne(l['texte'], 1.0625, ENCRE_DOUX if clair else DOUX, 0, interligne=1.6)]),
             ], layout='equal', firstColumnWidth=40, secondColumnWidth=60, mobile='row', gouttiere=[48, 32, 8], gouttiere_v=[8, 8, 8], borderStyle=[bord],
                 padding=[24, 0, 24, 0], paddingUnit='px'))
@@ -324,6 +325,22 @@ def films_par_id():
         for f in g['films']:
             d[f['id']] = f
     return d
+
+
+def section_cas(P, cs):
+    """Études de cas : contexte, intervention, résultat (fond clair)."""
+    cols = []
+    for x in cs['items']:
+        enfants = [P.surtitre(x['client'], couleur=BERET, marge_bas=8), P.titre(x['titre'], 3, taille=(1.9, 1.7, 1.5), couleur=ENCRE, marge_bas=18, interligne=1.15)]
+        for etiq, cle in (('Le contexte', 'contexte'), ('Mon intervention', 'intervention'), ('Le résultat', 'resultat')):
+            enfants += [P.surtitre(etiq, couleur=ENCRE_DOUX, marge_bas=4), P.ligne(x[cle], 1.0, ENCRE, 14, interligne=1.55)]
+        enfants.append(P.ligne('<a href="%s">%s →</a>' % (x['lien'], 'Voir les films' if x['lien'].startswith('/') else 'Voir le film'), 0.9, ENCRE, 0, liens=(ENCRE, BERET)))
+        cols.append(P.colonne(enfants, borderStyle=[{'top': [ENCRE, 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}],
+                              padding=[20, 0, 0, 0], paddingType='px'))
+    n = 3 if len(cols) == 3 else 2
+    return P.section(P.entete_section(cs['surtitre'], cs['titre'], couleur_titre=ENCRE, couleur_sur=BERET, couleur_texte=ENCRE_DOUX, marge_bas=36)
+                     + [P.rangee(cols, layout='equal', tablette='row' if n == 3 else 'two-grid', mobile='row', gouttiere=[40, 32, 0], gouttiere_v=[48, 40, 40], columns=n)],
+                     fond=IVOIRE, texte=ENCRE, ancre='cas')
 
 
 def page_accueil():
@@ -424,18 +441,7 @@ def page_accueil():
     territoires = P.section(P.entete_section(tr['surtitre'], tr['titre'], marge_bas=32) + rangs, fond=ARDOISE, ancre='territoires',
                             bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
 
-    cs = c['cas']
-    cols = []
-    for x in cs['items']:
-        enfants = [P.surtitre(x['client'], couleur=BERET, marge_bas=8), P.titre(x['titre'], 3, taille=(1.9, 1.7, 1.5), couleur=ENCRE, marge_bas=18, interligne=1.15)]
-        for etiq, cle in (('Le contexte', 'contexte'), ('Mon intervention', 'intervention'), ('Le résultat', 'resultat')):
-            enfants += [P.surtitre(etiq, couleur=ENCRE_DOUX, marge_bas=4), P.ligne(x[cle], 1.0, ENCRE, 14, interligne=1.55)]
-        enfants.append(P.ligne('<a href="%s">%s →</a>' % (x['lien'], 'Voir les films' if x['lien'].startswith('/') else 'Voir le film'), 0.9, ENCRE, 0, liens=(ENCRE, BERET)))
-        cols.append(P.colonne(enfants, borderStyle=[{'top': [ENCRE, 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}],
-                              padding=[20, 0, 0, 0], paddingType='px'))
-    cas = P.section(P.entete_section(cs['surtitre'], cs['titre'], couleur_titre=ENCRE, couleur_sur=BERET, couleur_texte=ENCRE_DOUX, marge_bas=36)
-                    + [P.rangee(cols, layout='equal', tablette='two-grid', mobile='row', gouttiere=[48, 32, 0], gouttiere_v=[48, 40, 40], columns=2)],
-                    fond=IVOIRE, texte=ENCRE, ancre='cas')
+    cas = section_cas(P, c['cas'])
     return c['titre'], [hero, bandeau, a_la_une, cas, territoires, prestations, lakelab, contact]
 
 
@@ -463,7 +469,7 @@ def page_films():
                 enfants.append(P.grille(cols, 2 if len(cols) == 4 else 3))
                 continue
             if bl.get('titre'):
-                h = P.titre(bl['titre'], 3, taille=(1.6, 1.5, 1.4), marge_bas=10)
+                h = P.titre(bl['titre'], 2, taille=(1.6, 1.5, 1.4), marge_bas=10)
                 h['attributes']['margin'] = [haut + 8, '', 10, '']
                 enfants.append(h)
             if bl.get('texte'):
@@ -518,40 +524,39 @@ def page_defense():
     P = Page('defense')
     c = SITE['pages']['defense-et-securite']
     entete = P.entete_page(c['entete'])
-    chiffres = P.section([P.chiffres(c['chiffres'])], padding=(40, 32, 24), padding_bas=(72, 56, 40))
+    blocs = [entete]
+    if c.get('showreel'):
+        blocs.append(P.section([{'name': 'core/embed', 'attributes': {
+            'url': YT + c['showreel'], 'type': 'video', 'providerNameSlug': 'youtube', 'responsive': True,
+            'className': 'wp-embed-aspect-16-9 wp-has-aspect-ratio'}}], padding=(0, 0, 0), padding_bas=(56, 40, 32)))
+    blocs.append(P.section([P.chiffres(c['chiffres'])], padding=(16, 16, 8), padding_bas=(72, 56, 40)))
+    blocs.append(section_cas(P, c['cas']))
     fo = c['formats']
-    formats = P.section(P.entete_section(fo['surtitre'], fo['titre'], marge_bas=32) + P.lignes_titre_texte(fo['lignes']), padding=(0, 0, 0))
+    blocs.append(P.section(P.entete_section(fo['surtitre'], fo['titre'], marge_bas=32) + P.lignes_titre_texte(fo['lignes'], numeros=True)))
     ind = c['industrie']
-    fid0 = films_par_id()
-    industrie = P.section(P.entete_section(ind['surtitre'], ind['titre'], ind['texte'], marge_bas=32)
-                          + [P.grille([P.carte(fid0[i]) for i in ind['films']], 4), P.boutons(ind['boutons'], marge_haut=36)],
-                          padding=(0, 0, 0), padding_bas=(96, 72, 56))
+    fid = films_par_id()
+    blocs.append(P.section(P.entete_section(ind['surtitre'], ind['titre'], ind['texte'], marge_bas=32)
+                           + [P.grille([P.carte(fid[i]) for i in ind['films']], 4), P.boutons(ind['boutons'], marge_haut=36)],
+                           padding=(0, 0, 0), padding_bas=(96, 72, 56)))
     me, rf = c['methode'], c['references']
     etapes = {'name': 'core/list', 'attributes': {'ordered': True, 'className': 'pd-etapes'},
               'innerBlocks': [{'name': 'core/list-item', 'attributes': {'content': '<strong>%s</strong> %s' % (a, b)}} for a, b in me['etapes']]}
-    milieu = P.section([P.rangee([
+    blocs.append(P.section([P.rangee([
         P.colonne([P.titre(me['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=16), etapes]),
         P.colonne([P.titre(rf['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=16), P.liste_dates(rf['lignes'])]),
     ], layout='equal', gouttiere=[48, 40, 0], gouttiere_v=[0, 0, 40])], fond=ARDOISE,
-        bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
+        bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}]))
     se = c['selection']
-    fid = films_par_id()
-    cartes = []
-    for i in se['films']:
-        cartes.append(P.carte(fid[i]))
-    selection = P.section(P.entete_section(se['surtitre'], se['titre']) + [P.grille(cartes, 3), P.boutons(se['boutons'], marge_haut=40)])
+    grille = P.grille([P.carte(fid[i]) for i in se['films']], 3)
+    grille['attributes']['className'] = 'pd-quinconce'
+    blocs.append(P.section(P.entete_section(se['surtitre'], se['titre']) + [grille, P.boutons(se['boutons'], marge_haut=40)]))
     sv = c['serval']
-    fab, presse = sv['fabrication'], sv['presse']
-    credits = P.ligne('<br>'.join(fab['credits']), 0.8, DOUX, 0, police=MONO, interligne=1.8)
-    credits['attributes']['borderStyle'] = [{'top': ['', '', ''], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': [HEX[BERET], 'solid', 2], 'unit': 'px'}]
-    credits['attributes']['padding'] = [0, 0, 0, 16]
-    credits['attributes']['paddingType'] = 'px'
-    serval = P.section(P.entete_section(sv['surtitre'], sv['titre'], sv['texte'], marge_bas=32) + [P.chiffres(sv['chiffres']), P.rangee([
-        P.colonne([P.titre(fab['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=16)] + [P.paragraphe(t, DOUX) for t in fab['paragraphes']] + [credits]),
-        P.colonne([P.titre(presse['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=16), P.liste_dates(presse['lignes'])]),
-    ], layout='equal', gouttiere=[48, 40, 0], gouttiere_v=[0, 0, 40], margin=[56, '', 0, ''], marginUnit='px')],
-        fond=ARDOISE, ancre='serval', bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}])
-    return c['titre'], [entete, chiffres, industrie, formats, milieu, selection, serval]
+    blocs.append(P.section(P.entete_section(sv['surtitre'], sv['titre'], sv['texte'], marge_bas=32) + [P.chiffres(sv['chiffres']),
+        {'name': 'core/spacer', 'attributes': {'height': '48px'}},
+        P.rangee([P.colonne([P.titre(sv['presse']['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=16), P.liste_dates(sv['presse']['lignes'])])],
+                 layout='equal')],
+        fond=ARDOISE, ancre='serval', bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}]))
+    return c['titre'], blocs
 
 
 def page_thales():

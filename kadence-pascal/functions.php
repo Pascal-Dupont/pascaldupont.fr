@@ -207,6 +207,9 @@ function pd_creer_menu( $nom, $elements ) {
 		return 0;
 	}
 	foreach ( $elements as $element ) {
+		if ( array_key_exists( 'page', $element ) && empty( $element['page'] ) ) {
+			continue; // page absente (supprimée) : pas d'entrée de menu
+		}
 		$classes = isset( $element['classes'] ) ? $element['classes'] : '';
 		if ( ! empty( $element['page'] ) ) {
 			wp_update_nav_menu_item(
@@ -239,7 +242,7 @@ function pd_creer_menu( $nom, $elements ) {
 }
 
 // Changer cette valeur à chaque nouvel envoi des pages : le réglage automatique (accueil, menus) est alors refait.
-const PD_VERSION_INSTALLATION = '2.1.0';
+const PD_VERSION_INSTALLATION = '2.2.0';
 
 function pd_installer_site() {
 	$cles = array( 'accueil', 'films', 'a-propos', 'defense-et-securite', 'thales', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
@@ -247,13 +250,28 @@ function pd_installer_site() {
 	foreach ( $cles as $cle ) {
 		$p[ $cle ] = pd_page_par_cle( $cle );
 	}
-	if ( in_array( 0, $p, true ) ) {
-		return false; // toutes les pages ne sont pas encore importées
+	if ( ! $p['accueil'] ) {
+		return false; // les pages ne sont pas encore importées
+	}
+
+	// Chaque page reprend l'adresse prévue (ex. /lakelab/) si un ancien contenu l'occupait (brouillon, image…).
+	global $wpdb;
+	foreach ( $p as $cle => $id ) {
+		if ( ! $id || get_post_field( 'post_name', $id ) === $cle ) {
+			continue;
+		}
+		$gene = $wpdb->get_col( $wpdb->prepare( "SELECT ID FROM {$wpdb->posts} WHERE post_name = %s AND ID <> %d", $cle, $id ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+		foreach ( $gene as $autre ) {
+			$wpdb->update( $wpdb->posts, array( 'post_name' => $cle . '-ancien-' . $autre ), array( 'ID' => $autre ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+			clean_post_cache( $autre );
+		}
+		$wpdb->update( $wpdb->posts, array( 'post_name' => $cle ), array( 'ID' => $id ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+		clean_post_cache( $id );
 	}
 
 	// Sécurité : si l'importeur a réécrit les liens d'ancre (#films-…) en /#films-…, les remettre
 	// tels que Kadence les écrit, sinon le bloc d'onglets est signalé comme modifié dans l'éditeur.
-	foreach ( $p as $id ) {
+	foreach ( array_filter( $p ) as $id ) {
 		$contenu = get_post_field( 'post_content', $id, 'raw' );
 		if ( false !== strpos( $contenu, 'href="/#' ) ) {
 			wp_update_post( array( 'ID' => $id, 'post_content' => wp_slash( str_replace( 'href="/#', 'href="#', $contenu ) ) ) );
@@ -352,6 +370,29 @@ add_action(
 		printf( '<meta property="og:description" content="%s">' . "\n", esc_attr( $description ) );
 		printf( '<meta property="og:url" content="%s">' . "\n", esc_url( get_permalink() ) );
 		printf( '<meta property="og:locale" content="fr_FR">' . "\n" );
+		// Image d'aperçu lors d'un partage : la vignette de « Classe Défense », à défaut d'une photo choisie.
+		printf( '<meta property="og:image" content="%s">' . "\n", esc_url( 'https://i.ytimg.com/vi/nPQhUB8pEj8/hqdefault.jpg' ) );
+		printf( '<meta name="twitter:card" content="summary_large_image">' . "\n" );
+		if ( is_front_page() ) {
+			// Fiche « personne » pour les moteurs de recherche.
+			$fiche = array(
+				'@context'  => 'https://schema.org',
+				'@type'     => 'Person',
+				'name'      => 'Pascal Dupont',
+				'jobTitle'  => 'Auteur-réalisateur documentaire',
+				'url'       => home_url( '/' ),
+				'email'     => 'mailto:contact@pascaldupont.fr',
+				'telephone' => '+33686311596',
+				'sameAs'    => array(
+					'https://www.youtube.com/@PascalDupont',
+					'https://www.linkedin.com/in/pascal-dupont-7932037b/',
+					'https://www.instagram.com/pascal_dupont_/',
+					'https://www.facebook.com/Pascal.Dupont',
+					'https://x.com/PascalDupont',
+				),
+			);
+			echo '<script type="application/ld+json">' . wp_json_encode( $fiche, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . '</script>' . "\n";
+		}
 	},
 	2
 );
