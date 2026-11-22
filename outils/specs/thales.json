@@ -169,7 +169,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-thales-10-s",
+    "uniqueID": "pd-thales-13-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -203,7 +203,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-thales-11-c",
+      "uniqueID": "pd-thales-14-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -242,6 +242,280 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
+        "content": "Films réalisés pour Thales",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         1.9,
+         1.75,
+         1.6
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         24,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-thales-h4"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-thales-5-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "tabletLayout": "row",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         32,
+         24,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         32,
+         32,
+         32
+        ],
+        "rowGutterType": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-3-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "core/embed",
+           "attributes": {
+            "url": "https://www.youtube.com/watch?v=zWWyW-lMcnw",
+            "type": "video",
+            "providerNameSlug": "youtube",
+            "responsive": true,
+            "className": "wp-embed-aspect-16-9 wp-has-aspect-ratio"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Thales 120RT Rifled Towed Mortar 120mm",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h5"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le mortier rayé tracté de 120 mm, filmé en conditions réelles.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h6"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-4-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "core/embed",
+           "attributes": {
+            "url": "https://www.youtube.com/watch?v=8yt6AzOWHPk",
+            "type": "video",
+            "providerNameSlug": "youtube",
+            "responsive": true,
+            "className": "wp-embed-aspect-16-9 wp-has-aspect-ratio"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Thales 2R2M Eurosatory 2018",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h7"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le mortier 2R2M, film réalisé pour le salon Eurosatory 2018.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h8"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "core/spacer",
+       "attributes": {
+        "height": "64px"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Avec le 1er RCP",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         1.9,
+         1.75,
+         1.6
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-thales-h9"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
         "content": "Films courts réalisés en 2026 pour le 1er RCP, publiés sur les pages officielles du régiment, dans le cadre du partenariat entre Thales et le 1er RCP.",
         "htmlTag": "p",
         "fontSize": [
@@ -270,13 +544,13 @@
          ""
         ],
         "maxWidthType": "px",
-        "uniqueID": "pd-thales-h4"
+        "uniqueID": "pd-thales-h10"
        }
       },
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-thales-6-r",
+        "uniqueID": "pd-thales-9-r",
         "kbVersion": 2,
         "columns": 3,
         "colLayout": "equal",
@@ -319,7 +593,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-thales-3-c",
+          "uniqueID": "pd-thales-6-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -394,7 +668,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h5"
+            "uniqueID": "pd-thales-h11"
            }
           },
           {
@@ -430,7 +704,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-thales-h6"
+            "uniqueID": "pd-thales-h12"
            }
           },
           {
@@ -458,7 +732,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h7"
+            "uniqueID": "pd-thales-h13"
            }
           },
           {
@@ -489,7 +763,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-thales-h8"
+            "uniqueID": "pd-thales-h14"
            }
           }
          ]
@@ -497,7 +771,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-thales-4-c",
+          "uniqueID": "pd-thales-7-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -572,7 +846,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h9"
+            "uniqueID": "pd-thales-h15"
            }
           },
           {
@@ -608,7 +882,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-thales-h10"
+            "uniqueID": "pd-thales-h16"
            }
           },
           {
@@ -636,7 +910,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h11"
+            "uniqueID": "pd-thales-h17"
            }
           },
           {
@@ -667,7 +941,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-thales-h12"
+            "uniqueID": "pd-thales-h18"
            }
           }
          ]
@@ -675,7 +949,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-thales-5-c",
+          "uniqueID": "pd-thales-8-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -697,7 +971,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-thales-9-r",
+        "uniqueID": "pd-thales-12-r",
         "kbVersion": 2,
         "columns": 4,
         "colLayout": "equal",
@@ -733,7 +1007,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-thales-7-c",
+          "uniqueID": "pd-thales-10-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -803,7 +1077,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-thales-h13"
+            "uniqueID": "pd-thales-h19"
            }
           },
           {
@@ -831,7 +1105,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h14"
+            "uniqueID": "pd-thales-h20"
            }
           }
          ]
@@ -839,7 +1113,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-thales-8-c",
+          "uniqueID": "pd-thales-11-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -909,7 +1183,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-thales-h15"
+            "uniqueID": "pd-thales-h21"
            }
           },
           {
@@ -937,7 +1211,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h16"
+            "uniqueID": "pd-thales-h22"
            }
           }
          ]
@@ -978,7 +1252,7 @@
         "typography": "IBM Plex Mono",
         "googleFont": false,
         "fontWeight": "400",
-        "uniqueID": "pd-thales-h17"
+        "uniqueID": "pd-thales-h23"
        }
       }
      ]

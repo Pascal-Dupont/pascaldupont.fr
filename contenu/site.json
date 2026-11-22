@@ -596,7 +596,8 @@
           }
         ]
       },
-      "showreel": ""
+      "showreel": "iUGtVSS_B7U",
+      "showreel_legende": "Showreel Eurosatory 2022 : images tournées avec les industriels et les forces, dont le CAESAR tirant des obus Junghans T2M."
     },
     "lakelab": {
       "titre": "LAKELAB",
@@ -737,7 +738,20 @@
         "RCP11"
       ],
       "texte": "Films courts réalisés en 2026 pour le 1er RCP, publiés sur les pages officielles du régiment, dans le cadre du partenariat entre Thales et le 1er RCP.",
-      "mention": "Les logos Thales sont utilisés avec l'accord de Thales, sans modification et en lien avec les films concernés."
+      "mention": "Les logos Thales sont utilisés avec l'accord de Thales, sans modification et en lien avec les films concernés.",
+      "videos": [
+        {
+          "id": "zWWyW-lMcnw",
+          "titre": "Thales 120RT Rifled Towed Mortar 120mm",
+          "texte": "Le mortier rayé tracté de 120 mm, filmé en conditions réelles."
+        },
+        {
+          "id": "8yt6AzOWHPk",
+          "titre": "Thales 2R2M Eurosatory 2018",
+          "texte": "Le mortier 2R2M, film réalisé pour le salon Eurosatory 2018."
+        }
+      ],
+      "videos_titre": "Films réalisés pour Thales"
     }
   },
   "films": {

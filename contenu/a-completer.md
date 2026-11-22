@@ -45,3 +45,9 @@
 - [ ] « La nuit leur appartient » : article de L'Express à transmettre (lien ou PDF) pour le citer.
 - [ ] Chroniques du 93 : la case « Nouveaux regards » de France 4 n'a pas pu être vérifiée en ligne ; compléter l'histoire du film.
 - [ ] Site en ligne : version du 7 octobre (« TDA Armements » à l'accueil, menu « Série Serval ») ; réinstaller les fichiers actuels, désactiver et supprimer l'extension Kubio, régler la langue du site sur Français.
+
+## Mise à jour du 23 novembre 2026
+- [x] Vidéos non répertoriées intégrées : showreel Eurosatory 2022 (tête de la page Défense), Thales 120RT et Thales 2R2M Eurosatory 2018 (page Thales, protégée).
+- [ ] Thales 2R2M : Sarah a autorisé « Thales 2R2M, Mai 2018 » ; le lien fourni s'intitule « Thales 2R2M Eurosatory 2018 ». Vérifier qu'il s'agit bien du film autorisé (elle verra la page avant publication).
+- [ ] Miniatures des films du 1er RCP : à déposer dans a-integrer/vignettes/ (noms dans a-integrer/LISEZMOI.md).
+- [ ] Photos : à déposer dans a-integrer/photos/.

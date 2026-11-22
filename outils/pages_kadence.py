@@ -235,7 +235,15 @@ class Page:
         if yt and liens:
             liens = [x for x in liens if x['url'] != yt] or None
         enfants = []
-        if yt:
+        perso = next((x for x in ('jpg', 'png', 'webp') if (RACINE / 'kadence-pascal' / 'assets' / 'vignettes' / ('%s.%s' % (f['id'].lower(), x))).exists()), None)
+        if perso:
+            lien = yt or (liens[0]['url'] if liens else None)
+            img = {'url': '/wp-content/themes/kadence-pascal/assets/vignettes/%s.%s' % (f['id'].lower(), perso), 'alt': 'Vignette du film « %s »' % f['titre'],
+                   'useRatio': True, 'ratio': 'land169', 'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px', 'marginDesktop': [0, 0, 14, 0], 'marginUnit': 'px'}
+            if lien:
+                img.update({'link': lien, 'linkTarget': True, 'linkTitle': 'Voir « %s » (nouvel onglet)' % f['titre']})
+            enfants.append({'name': 'kadence/image', 'attributes': img})
+        elif yt:
             enfants.append({'name': 'kadence/image', 'attributes': {
                 'url': 'https://i.ytimg.com/vi/%s/hqdefault.jpg' % f['id'], 'alt': 'Vignette du film « %s »' % f['titre'],
                 'useRatio': True, 'ratio': 'land169', 'link': yt, 'linkTarget': True,
@@ -325,6 +333,13 @@ def films_par_id():
         for f in g['films']:
             d[f['id']] = f
     return d
+
+
+def video(id_, legende=None):
+    """Vidéo YouTube intégrée (lecture sur la page)."""
+    b = [{'name': 'core/embed', 'attributes': {'url': YT + id_, 'type': 'video', 'providerNameSlug': 'youtube', 'responsive': True,
+                                              'className': 'wp-embed-aspect-16-9 wp-has-aspect-ratio'}}]
+    return b
 
 
 def section_cas(P, cs):
@@ -526,9 +541,8 @@ def page_defense():
     entete = P.entete_page(c['entete'])
     blocs = [entete]
     if c.get('showreel'):
-        blocs.append(P.section([{'name': 'core/embed', 'attributes': {
-            'url': YT + c['showreel'], 'type': 'video', 'providerNameSlug': 'youtube', 'responsive': True,
-            'className': 'wp-embed-aspect-16-9 wp-has-aspect-ratio'}}], padding=(0, 0, 0), padding_bas=(56, 40, 32)))
+        blocs.append(P.section(video(c['showreel']) + ([P.ligne(c['showreel_legende'], 0.85, DOUX, 0, police=MONO)] if c.get('showreel_legende') else []),
+                               padding=(0, 0, 0), padding_bas=(56, 40, 32)))
     blocs.append(P.section([P.chiffres(c['chiffres'])], padding=(16, 16, 8), padding_bas=(72, 56, 40)))
     blocs.append(section_cas(P, c['cas']))
     fo = c['formats']
@@ -566,7 +580,15 @@ def page_thales():
     logo = {'name': 'core/group', 'attributes': {'layout': {'type': 'constrained'}, 'style': {'spacing': {'margin': {'bottom': '32px'}}}},
             'innerBlocks': [{'name': 'core/image', 'attributes': {'url': LOGOS + 'thales-fond-bleu.png', 'alt': 'Logo Thales', 'width': '340px', 'sizeSlug': 'full'}}]}
     fid = films_par_id()
-    films = P.section([logo, P.ligne(c['texte'], 1.0625, DOUX, 32, largeur=720),
+    vids = []
+    for v in c.get('videos', []):
+        vids.append(P.colonne(video(v['id']) + [P.titre(v['titre'], 3, taille=(1.35, 1.3, 1.25), marge_bas=6, interligne=1.2),
+                                                P.ligne(v['texte'], 0.92, DOUX, 0, interligne=1.5)]))
+    if vids:
+        vids = [P.titre(c['videos_titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=24),
+                P.rangee(vids, layout='equal', tablette='row', mobile='row', gouttiere=[32, 24, 0], gouttiere_v=[32, 32, 32], columns=2),
+                {'name': 'core/spacer', 'attributes': {'height': '64px'}}, P.titre('Avec le 1er RCP', 2, taille=(1.9, 1.75, 1.6), marge_bas=16)]
+    films = P.section([logo] + vids + [P.ligne(c['texte'], 1.0625, DOUX, 32, largeur=720),
                        P.grille([P.carte(fid[i]) for i in c['films']], 3), {'name': 'core/spacer', 'attributes': {'height': '56px'}}, P.chiffres(c['chiffres']),
                        {'name': 'core/spacer', 'attributes': {'height': '40px'}}, P.ligne(c['mention'], 0.85, DOUX, 0, police=MONO)], padding=(24, 24, 16), padding_bas=(96, 72, 56))
     return c['titre'], [entete, films]
