@@ -74,17 +74,6 @@
           "style": "contour"
         }
       },
-      "revivre": {
-        "surtitre": "En développement · Documentaire, 52 minutes",
-        "titre": "REVIVRE",
-        "question": "Que devient-on quand on ne peut plus être celui qu'on était ?",
-        "paragraphes": [
-          "Militaires, gendarmes, policiers, pompiers, soignants : ceux qui servent portent parfois des blessures qui ne se voient pas. Le stress post-traumatique touche bien plus de monde qu'on ne le croit, et il se vit souvent en silence.",
-          "REVIVRE suit quelques parcours de femmes et d'hommes qui ont fait de leur blessure autre chose qu'une fin. Le film ne raconte ni des exploits ni des défis. Il raconte des combats réels, menés avec lenteur, avec leurs rechutes et leurs relèvements, et ce qu'ils décident d'en faire une fois debout.",
-          "Le dernier mouvement du film est tourné vers la transmission : ce que ceux qui se sont relevés donnent à des jeunes en rupture, et ce que cela dit du lien entre l'Armée et la Nation.",
-          "Un documentaire d'auteur, tourné avec les personnes concernées, dans le respect de chacune et sans mise en scène de la douleur."
-        ]
-      },
       "references": {
         "surtitre": "Clients et partenaires",
         "titre": "Ils m'ont fait confiance",
@@ -112,7 +101,7 @@
         "lignes": [
           {
             "titre": "Films institutionnels et documentaires",
-            "texte": "Du repérage à la livraison. <strong>Références : 1er RCP, Europorte.</strong> Un récit sobre, fidèle à ceux que l'on filme."
+            "texte": "Du repérage à la livraison. <strong>Références : 1er RCP, Fondation Résilience, FA3R.</strong> Un récit sobre, fidèle à ceux que l'on filme."
           },
           {
             "titre": "Portraits filmés",
@@ -199,8 +188,7 @@
           "Fondation Résilience",
           "FA3R",
           "1er RCP",
-          "European Defense Review",
-          "Europorte"
+          "European Defense Review"
         ]
       },
       "territoires": {
@@ -231,7 +219,7 @@
           {
             "num": "04",
             "titre": "Fondations et entreprises",
-            "texte": "Films de formation, de présentation et de communication, pour la Fondation Résilience, FA3R ou Europorte.",
+            "texte": "Films de formation, de présentation et de communication, pour la Fondation Résilience et pour FA3R.",
             "lien": "/films/#films-entreprises",
             "film": "NFZDGtgBNIk"
           },
@@ -301,7 +289,7 @@
         "texte_provisoire": "Portrait à ajouter"
       },
       "paragraphes": [
-        "Auteur-réalisateur documentaire depuis vingt ans. « Chroniques du 93 » pour France 4, « La nuit leur appartient » pour la centième d'Enquête d'action sur W9, le cycle mémoire du 1er Régiment de Chasseurs Parachutistes. Aujourd'hui, un 52 minutes sur le stress post-traumatique et sur ce que les blessés transmettent à des jeunes en rupture.",
+        "Auteur-réalisateur documentaire depuis vingt ans. « Chroniques du 93 » pour France 4, « La nuit leur appartient » pour la centième d'Enquête d'action sur W9, le cycle mémoire du 1er Régiment de Chasseurs Parachutistes, et en 2026 « Classe Défense » pour la Fondation Résilience. Une dizaine de nouveaux projets de documentaires sont en écriture.",
         "Ancien combattant de l'infanterie parachutiste, officier de réserve opérationnelle au 1er RCP. C'est ce qui me permet de filmer là où la caméra est d'ordinaire tolérée plutôt qu'attendue : je connais le terrain, le vocabulaire, et le temps qu'il faut pour qu'un homme accepte de parler.",
         "Sociétaire de la SCAM. Je travaille avec des maisons de production et des diffuseurs nationaux, du développement à la livraison."
       ],
@@ -354,8 +342,8 @@
             "depuis août 2025"
           ],
           [
-            "REVIVRE, documentaire de 52 minutes",
-            "en développement"
+            "Classe Défense, pour la Fondation Résilience",
+            "2026"
           ]
         ]
       },
@@ -1067,12 +1055,12 @@
       {
         "cle": "entreprise",
         "titre": "Entreprises et institutions",
-        "texte": "Pour la Fondation Résilience et FA3R, la Fondation Safran, Europorte : des films de formation, de présentation et de communication.",
+        "texte": "Pour la Fondation Résilience et FA3R : des films de formation, de présentation et de communication.",
         "films": [
           {
             "id": "NFZDGtgBNIk",
             "titre": "FA3R et Résilience pour Europorte",
-            "description": "Novembre 2025",
+            "description": "Pour FA3R et son client Europorte · novembre 2025",
             "duree": "2:33",
             "youtube": "https://www.youtube.com/watch?v=NFZDGtgBNIk"
           },
@@ -1086,7 +1074,7 @@
           {
             "id": "-6Spc96VcUY",
             "titre": "Formation Europorte",
-            "description": "Film de formation",
+            "description": "Film de formation, pour FA3R et son client Europorte",
             "duree": "3:11",
             "youtube": "https://www.youtube.com/watch?v=-6Spc96VcUY"
           },
@@ -1669,7 +1657,7 @@
         "cle": "entreprise",
         "ancre": "entreprises",
         "titre": "Fondations et entreprises",
-        "texte": "Pour la Fondation Résilience, FA3R, Europorte ou la Fondation Safran : des films de formation, de présentation et de communication.",
+        "texte": "Pour la Fondation Résilience et FA3R : des films de formation, de présentation et de communication.",
         "blocs": [
           {
             "titre": "Fondation Résilience",
@@ -1680,7 +1668,7 @@
           },
           {
             "titre": "FA3R",
-            "texte": "Des films de présentation et de formation pour FA3R.",
+            "texte": "Des films de présentation et de formation pour FA3R, dont certains pour son client Europorte.",
             "films": [
               "NFZDGtgBNIk",
               "-6Spc96VcUY"
@@ -1694,7 +1682,7 @@
             ]
           },
           {
-            "titre": "Entreprises et fondations",
+            "titre": "Autres films",
             "texte": "Films de communication et de présentation.",
             "films": [
               "Dw4gb7rz2Vo",

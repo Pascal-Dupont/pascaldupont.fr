@@ -366,17 +366,6 @@ def page_accueil():
     a_la_une = P.section(P.entete_section(une['surtitre'], une['titre'], une['texte']) + [grille_une, P.boutons([une['bouton']], marge_haut=40)],
                          ancre='a-la-une', padding=(40, 32, 24), padding_bas=(96, 72, 56))
 
-    r = c['revivre']
-    moitie = len(r['paragraphes']) // 2
-    revivre = P.section([
-        P.surtitre(r['surtitre']),
-        P.titre(r['titre'], 2, taille=(3.2, 2.6, 2.1), marge_bas=16),
-        P.ligne(r['question'], (1.9, 1.7, 1.45), TEXTE, 32, police=SERIF, italique=True, largeur=640, interligne=1.25, classe='pd-equilibre'),
-        P.rangee([P.colonne([P.paragraphe(t, DOUX) for t in r['paragraphes'][:moitie]]),
-                  P.colonne([P.paragraphe(t, DOUX) for t in r['paragraphes'][moitie:]])], gouttiere=[40, 32, 0], gouttiere_v=[0, 0, 0]),
-    ], fond=ARDOISE, ancre='revivre',
-        bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
-
     ref = c['references']
     noms = {'name': 'core/list', 'attributes': {'className': 'pd-noms'},
             'innerBlocks': [{'name': 'core/list-item', 'attributes': {'content': n}} for n in ref['noms']]}
@@ -447,7 +436,7 @@ def page_accueil():
     cas = P.section(P.entete_section(cs['surtitre'], cs['titre'], couleur_titre=ENCRE, couleur_sur=BERET, couleur_texte=ENCRE_DOUX, marge_bas=36)
                     + [P.rangee(cols, layout='equal', tablette='two-grid', mobile='row', gouttiere=[48, 32, 0], gouttiere_v=[48, 40, 40], columns=2)],
                     fond=IVOIRE, texte=ENCRE, ancre='cas')
-    return c['titre'], [hero, bandeau, a_la_une, territoires, cas, revivre, prestations, lakelab, contact]
+    return c['titre'], [hero, bandeau, a_la_une, cas, territoires, prestations, lakelab, contact]
 
 
 def page_films():

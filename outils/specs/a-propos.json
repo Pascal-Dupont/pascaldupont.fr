@@ -305,7 +305,7 @@
           {
            "name": "core/paragraph",
            "attributes": {
-            "content": "Auteur-réalisateur documentaire depuis vingt ans. « Chroniques du 93 » pour France 4, « La nuit leur appartient » pour la centième d'Enquête d'action sur W9, le cycle mémoire du 1er Régiment de Chasseurs Parachutistes. Aujourd'hui, un 52 minutes sur le stress post-traumatique et sur ce que les blessés transmettent à des jeunes en rupture.",
+            "content": "Auteur-réalisateur documentaire depuis vingt ans. « Chroniques du 93 » pour France 4, « La nuit leur appartient » pour la centième d'Enquête d'action sur W9, le cycle mémoire du 1er Régiment de Chasseurs Parachutistes, et en 2026 « Classe Défense » pour la Fondation Résilience. Une dizaine de nouveaux projets de documentaires sont en écriture.",
             "style": {
              "typography": {
               "fontSize": "1.2rem",
@@ -943,11 +943,11 @@
              {
               "cells": [
                {
-                "content": "REVIVRE, documentaire de 52 minutes",
+                "content": "Classe Défense, pour la Fondation Résilience",
                 "tag": "td"
                },
                {
-                "content": "en développement",
+                "content": "2026",
                 "tag": "td"
                }
               ]

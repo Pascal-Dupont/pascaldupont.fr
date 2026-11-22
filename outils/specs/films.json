@@ -7263,7 +7263,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Pour la Fondation Résilience, FA3R, Europorte ou la Fondation Safran : des films de formation, de présentation et de communication.",
+            "content": "Pour la Fondation Résilience et FA3R : des films de formation, de présentation et de communication.",
             "htmlTag": "p",
             "fontSize": [
              1.0625,
@@ -7583,7 +7583,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Des films de présentation et de formation pour FA3R.",
+            "content": "Des films de présentation et de formation pour FA3R, dont certains pour son client Europorte.",
             "htmlTag": "p",
             "fontSize": [
              1.0,
@@ -7733,7 +7733,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Novembre 2025 · 3 min",
+                "content": "Pour FA3R et son client Europorte · novembre 2025 · 3 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -7836,7 +7836,7 @@
               {
                "name": "kadence/advancedheading",
                "attributes": {
-                "content": "Film de formation · 3 min",
+                "content": "Film de formation, pour FA3R et son client Europorte · 3 min",
                 "htmlTag": "p",
                 "fontSize": [
                  0.92,
@@ -8151,7 +8151,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Entreprises et fondations",
+            "content": "Autres films",
             "level": 3,
             "typography": "Newsreader",
             "googleFont": false,
