@@ -686,9 +686,27 @@ def page_documentaires():
         blocs.append(P.section([P.rangee([P.colonne([image]), P.colonne(texte)], layout='equal', firstColumnWidth=55, secondColumnWidth=45,
                                          gouttiere=[56, 40, 0], gouttiere_v=[0, 0, 28], verticalAlignment='middle')],
                                fond=ARDOISE if i % 2 else NUIT, padding=(72, 56, 40), bordures=bord, ancre='film-%d' % (i + 1)))
+    pj = c.get('projet')
+    if pj:
+        imgs = []
+        for im in pj['images']:
+            imgs.append(P.colonne([{'name': 'kadence/image', 'attributes': {'url': PHOTOS + im['fichier'], 'alt': '%s. %s' % (im['lieu'], im['legende']),
+                                                                          'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px', 'marginDesktop': [0, 0, 10, 0], 'marginUnit': 'px'}},
+                                   P.surtitre(im['lieu'], marge_bas=4), P.ligne(im['legende'], 0.9, DOUX, 0, interligne=1.5)]))
+        une = imgs[0]
+        bord = [{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}]
+        blocs.append(P.section([P.rangee([
+            une,
+            P.colonne([P.surtitre(pj['surtitre'], marge_bas=8), P.titre(pj['titre'], 2, taille=(3.2, 2.6, 2.1), marge_bas=8),
+                       P.ligne(pj['soustitre'], (1.3, 1.2, 1.1), TEXTE, 24, police=SERIF, italique=True)]
+                      + [P.paragraphe(t, DOUX) for t in pj['paragraphes']] + citations(P, [pj['extrait']])),
+        ], layout='equal', firstColumnWidth=38, secondColumnWidth=62, gouttiere=[56, 40, 0], gouttiere_v=[0, 0, 32], verticalAlignment='top'),
+            {'name': 'core/spacer', 'attributes': {'height': '48px'}},
+            P.rangee(imgs[1:], layout='equal', tablette='two-grid', mobile='row', gouttiere=[24, 20, 0], gouttiere_v=[32, 28, 28], columns=4)],
+            fond=NUIT if len(c['films']) % 2 else ARDOISE, ancre='carnets-d-exil', bordures=bord))
     e = c['ecriture']
     blocs.append(P.section(P.entete_section(e['surtitre'], e['titre'], e['texte'], marge_bas=8) + [P.boutons([e['bouton']], marge_haut=32)],
-                           fond=ARDOISE if len(c['films']) % 2 else NUIT,
+                           fond=(NUIT if len(c['films']) % 2 else ARDOISE) if c.get('projet') else (ARDOISE if len(c['films']) % 2 else NUIT),
                            bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}]))
     return c['titre'], blocs
 

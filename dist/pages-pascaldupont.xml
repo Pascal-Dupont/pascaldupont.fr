@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1.5" created="2026-11-23 10:40" -->
+	<!-- generator="WordPress/7.1.5" created="2026-11-23 10:54" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Pascal Dupont</title>
 	<link>https://pascaldupont.fr</link>
 	<description>Auteur-réalisateur documentaire</description>
-	<pubDate>Mon, 23 Nov 2026 10:40:19 +0000</pubDate>
+	<pubDate>Mon, 23 Nov 2026 10:54:22 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url></wp:base_site_url>
@@ -3980,8 +3980,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 		<wp:post_id>32</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:38:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:38:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 11:40:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 10:40:18]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 11:54:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 10:54:21]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[thales]]></wp:post_name>
@@ -4349,22 +4349,138 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"pd-documentaires-48-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"borderStyle":[{"top":["#2c3a49","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-documentaires-54-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette8","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"borderStyle":[{"top":["#2c3a49","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"anchor":"carnets-d-exil","kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-documentaires-55-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-documentaires-55-c"><div class="kt-inside-inner-col"><!-- wp:kadence/rowlayout {"uniqueID":"pd-documentaires-52-r","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[0,0,32],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[56,40,0],"colLayout":"equal","firstColumnWidth":38,"secondColumnWidth":62,"padding":[0,0,0,0],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-documentaires-46-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-documentaires-46-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"uniqueID":"pd-documentaires-h24","marginDesktop":[0,0,10,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-documentaires-h24"><img src="/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-portrait.jpg" alt="Jean Raoul. Photographie d'identité, restaurée." class="kb-img"/></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h25","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h25 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h25">Jean Raoul</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h26","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.9,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h26 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h26">Photographie d'identité, restaurée.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-documentaires-51-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-documentaires-51-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h27","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",8,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h27 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h27">En développement · Documentaire, livre illustré, cinéma</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h28","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",8,""],"fontSize":[3.2,2.6,2.1],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-headingpd-documentaires-h28 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h28">Carnets d'exil</h2>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h29","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","fontStyle":"italic","margin":[0,"",24,""],"htmlTag":"p","fontSize":[1.3,1.2,1.1],"fontHeight":[1.6,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h29 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h29">Jean Raoul, cheminot lorrain requis pour l'Allemagne, 1942-1944</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","lineHeight":"1.65"},"spacing":{"margin":{"top":"0","bottom":"1.1rem"}},"color":{"text":"#a9b6c0"}}} -->
+<p class="has-text-color" style="color:#a9b6c0;margin-top:0;margin-bottom:1.1rem;font-size:1.0625rem;line-height:1.65">Le 13 octobre 1942, vers 15 heures, une affiche est apposée au dépôt de Blainville : la première liste des requis pour l'Allemagne. Sept noms, dont celui de Jean Raoul, ajusteur au dépôt. Le 12 novembre, il quitte Nancy pour le dépôt de Magdebourg.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","lineHeight":"1.65"},"spacing":{"margin":{"top":"0","bottom":"1.1rem"}},"color":{"text":"#a9b6c0"}}} -->
+<p class="has-text-color" style="color:#a9b6c0;margin-top:0;margin-bottom:1.1rem;font-size:1.0625rem;line-height:1.65">Pendant deux ans, il tient un carnet. Les camarades, le travail, les permissions, les prisonniers russes, puis les bombardements de Magdebourg, le débarquement, l'attentat contre Hitler. Une écriture sobre, précise, parfois ironique, au jour le jour, jusqu'au 6 octobre 1944.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","lineHeight":"1.65"},"spacing":{"margin":{"top":"0","bottom":"1.1rem"}},"color":{"text":"#a9b6c0"}}} -->
+<p class="has-text-color" style="color:#a9b6c0;margin-top:0;margin-bottom:1.1rem;font-size:1.0625rem;line-height:1.65">Jean Raoul était mon grand-père. Ses carnets viennent d'être entièrement numérisés et transcrits. J'en fais un documentaire, et pourquoi pas un livre illustré puis un film de cinéma.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h30","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","fontStyle":"italic","margin":[0,"",6,""],"padding":[0,0,0,16],"htmlTag":"p","fontSize":[1.35,1.25,1.15],"fontHeight":[1.35,"",""],"borderStyle":[{"top":["","",""],"right":["","",""],"bottom":["","",""],"left":["#c8b287","solid",2],"unit":"px"}]} -->
+<p class="kt-adv-headingpd-documentaires-h30 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h30">« C'était la 1re liste des requis pour l'Allemagne. Elle comprenait 7 noms dont le mien. Cette fois, plus de doute, c'est bien vrai. »</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h31","color":"palette4","sizeType":"rem","typography":"IBM Plex Mono","fontWeight":"400","margin":[0,"",22,""],"padding":[0,0,0,18],"htmlTag":"p","fontSize":[0.8,"",""],"fontHeight":[1.6,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h31 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h31">Jean Raoul, Carnet d'exil n° 1, novembre 1942</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:spacer {"height":"48px"} -->
+<div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-documentaires-53-r","columns":4,"tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[32,28,28],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,0],"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-documentaires-47-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-documentaires-47-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"uniqueID":"pd-documentaires-h32","marginDesktop":[0,0,10,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-documentaires-h32"><img src="/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-designation-1942.jpg" alt="31 octobre 1942. « En vue d'assurer la relève des prisonniers, vous êtes désigné pour aller travailler en Allemagne. »" class="kb-img"/></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h33","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h33 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h33">31 octobre 1942</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h34","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.9,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h34 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h34">« En vue d'assurer la relève des prisonniers, vous êtes désigné pour aller travailler en Allemagne. »</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-documentaires-48-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-documentaires-48-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"uniqueID":"pd-documentaires-h35","marginDesktop":[0,0,10,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-documentaires-h35"><img src="/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-magdebourg.jpg" alt="Magdebourg. Jean Raoul devant les baraquements." class="kb-img"/></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h36","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h36 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h36">Magdebourg</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h37","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.9,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h37 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h37">Jean Raoul devant les baraquements.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-documentaires-49-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-documentaires-49-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h24","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-documentaires-h24 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h24">En écriture</p>
+<div class="wp-block-kadence-column kadence-columnpd-documentaires-49-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"uniqueID":"pd-documentaires-h38","marginDesktop":[0,0,10,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-documentaires-h38"><img src="/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-camarades-1944.jpg" alt="Magdebourg, 4 août 1944. Jean Raoul et ses camarades." class="kb-img"/></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h39","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h39 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h39">Magdebourg, 4 août 1944</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h25","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[3.2,2.6,2.1],"fontHeight":[1.1,"",""]} -->
-<h2 class="kt-adv-headingpd-documentaires-h25 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h25">Une dizaine de projets</h2>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h40","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.9,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h40 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h40">Jean Raoul et ses camarades.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-documentaires-50-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-documentaires-50-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"uniqueID":"pd-documentaires-h41","marginDesktop":[0,0,10,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-documentaires-h41"><img src="/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-cinq-camarades.jpg" alt="Magdebourg. Entre camarades requis." class="kb-img"/></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h42","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h42 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h42">Magdebourg</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h26","color":"palette4","sizeType":"rem","margin":[0,"",8,""],"htmlTag":"p","fontSize":[1.0625,"",""],"fontHeight":[1.6,"",""],"maxWidth":[672,"",""]} -->
-<p class="kt-adv-headingpd-documentaires-h26 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h26">Ces dernières semaines, une dizaine de projets de documentaires ont pris forme. Producteurs, diffuseurs, fondations : parlons-en.</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h43","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.9,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h43 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h43">Entre camarades requis.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout --></div></div>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-documentaires-58-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette8","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"borderStyle":[{"top":["#2c3a49","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-documentaires-59-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-documentaires-59-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h44","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h44 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h44">En écriture</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"pd-documentaires-46-g","margin":[{"desk":[32,"",0,""],"tablet":["","","",""],"mobile":["","","",""]}],"gap":[0.9,"",""],"gapUnit":"rem"} -->
-<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btnspd-documentaires-46-g"><!-- wp:kadence/singlebtn {"uniqueID":"pd-documentaires-47-b","text":"Parler d'un projet","link":"/contact/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"#ece8df","background":"palette1","colorHover":"#ece8df","backgroundHover":"palette2","borderStyle":[{"top":["#a3302f","solid",1],"right":["#a3302f","solid",1],"bottom":["#a3302f","solid",1],"left":["#a3302f","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#c0403d","solid",1],"right":["#c0403d","solid",1],"bottom":["#c0403d","solid",1],"left":["#c0403d","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /--></div>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h45","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[3.2,2.6,2.1],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-headingpd-documentaires-h45 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h45">Une dizaine de projets</h2>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-documentaires-h46","color":"palette4","sizeType":"rem","margin":[0,"",8,""],"htmlTag":"p","fontSize":[1.0625,"",""],"fontHeight":[1.6,"",""],"maxWidth":[672,"",""]} -->
+<p class="kt-adv-headingpd-documentaires-h46 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-documentaires-h46">Ces dernières semaines, une dizaine de projets de documentaires ont pris forme. Producteurs, diffuseurs, fondations : parlons-en.</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"pd-documentaires-56-g","margin":[{"desk":[32,"",0,""],"tablet":["","","",""],"mobile":["","","",""]}],"gap":[0.9,"",""],"gapUnit":"rem"} -->
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btnspd-documentaires-56-g"><!-- wp:kadence/singlebtn {"uniqueID":"pd-documentaires-57-b","text":"Parler d'un projet","link":"/contact/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"#ece8df","background":"palette1","colorHover":"#ece8df","backgroundHover":"palette2","borderStyle":[{"top":["#a3302f","solid",1],"right":["#a3302f","solid",1],"bottom":["#a3302f","solid",1],"left":["#a3302f","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#c0403d","solid",1],"right":["#c0403d","solid",1],"bottom":["#c0403d","solid",1],"left":["#c0403d","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /--></div>
 <!-- /wp:kadence/advancedbtn --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->]]></content:encoded>
@@ -4372,8 +4488,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 		<wp:post_id>118</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-23 03:51:55]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-23 02:51:55]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 11:24:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 10:24:59]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 11:54:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 10:54:00]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[documentaires]]></wp:post_name>

@@ -1072,6 +1072,47 @@
           "url": "/contact/",
           "style": "plein"
         }
+      },
+      "projet": {
+        "surtitre": "En développement · Documentaire, livre illustré, cinéma",
+        "titre": "Carnets d'exil",
+        "soustitre": "Jean Raoul, cheminot lorrain requis pour l'Allemagne, 1942-1944",
+        "paragraphes": [
+          "Le 13 octobre 1942, vers 15 heures, une affiche est apposée au dépôt de Blainville : la première liste des requis pour l'Allemagne. Sept noms, dont celui de Jean Raoul, ajusteur au dépôt. Le 12 novembre, il quitte Nancy pour le dépôt de Magdebourg.",
+          "Pendant deux ans, il tient un carnet. Les camarades, le travail, les permissions, les prisonniers russes, puis les bombardements de Magdebourg, le débarquement, l'attentat contre Hitler. Une écriture sobre, précise, parfois ironique, au jour le jour, jusqu'au 6 octobre 1944.",
+          "Jean Raoul était mon grand-père. Ses carnets viennent d'être entièrement numérisés et transcrits. J'en fais un documentaire, et pourquoi pas un livre illustré puis un film de cinéma."
+        ],
+        "extrait": {
+          "texte": "C'était la 1re liste des requis pour l'Allemagne. Elle comprenait 7 noms dont le mien. Cette fois, plus de doute, c'est bien vrai.",
+          "source": "Jean Raoul, Carnet d'exil n° 1, novembre 1942"
+        },
+        "images": [
+          {
+            "fichier": "jean-raoul-portrait.jpg",
+            "lieu": "Jean Raoul",
+            "legende": "Photographie d'identité, restaurée."
+          },
+          {
+            "fichier": "jean-raoul-designation-1942.jpg",
+            "lieu": "31 octobre 1942",
+            "legende": "« En vue d'assurer la relève des prisonniers, vous êtes désigné pour aller travailler en Allemagne. »"
+          },
+          {
+            "fichier": "jean-raoul-magdebourg.jpg",
+            "lieu": "Magdebourg",
+            "legende": "Jean Raoul devant les baraquements."
+          },
+          {
+            "fichier": "jean-raoul-camarades-1944.jpg",
+            "lieu": "Magdebourg, 4 août 1944",
+            "legende": "Jean Raoul et ses camarades."
+          },
+          {
+            "fichier": "jean-raoul-cinq-camarades.jpg",
+            "lieu": "Magdebourg",
+            "legende": "Entre camarades requis."
+          }
+        ]
       }
     }
   },
