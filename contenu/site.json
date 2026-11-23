@@ -393,6 +393,43 @@
           "texte": "LAKELAB",
           "url": "/lakelab/"
         }
+      },
+      "parcours": {
+        "surtitre": "Avant la caméra",
+        "titre": "Le terrain, d'abord",
+        "texte": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, Gabon, puis la Côte d'Ivoire en 2002. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
+        "photos": [
+          {
+            "fichier": "parcours-bouake-retroviseur.jpg",
+            "lieu": "Bouaké, Côte d'Ivoire",
+            "legende": "Dans le rétroviseur d'un Marmon."
+          },
+          {
+            "fichier": "parcours-bouake-hecate.jpg",
+            "lieu": "Bouaké, octobre 2002",
+            "legende": "Au-dessus de la ville, avec un PGM Hécate II."
+          },
+          {
+            "fichier": "parcours-gabon-zodiac.jpg",
+            "lieu": "Gabon",
+            "legende": "Sur un Zodiac."
+          },
+          {
+            "fichier": "parcours-collioure.jpg",
+            "lieu": "Collioure",
+            "legende": "Centre d'entraînement commando."
+          },
+          {
+            "fichier": "parcours-commando-corde.jpg",
+            "lieu": "Centre d'entraînement commando",
+            "legende": "Franchissement au-dessus de l'eau."
+          },
+          {
+            "fichier": "parcours-premiers-sauts.jpg",
+            "lieu": "Premiers sauts",
+            "legende": "Tout à gauche, avant le saut."
+          }
+        ]
       }
     },
     "defense-et-securite": {
