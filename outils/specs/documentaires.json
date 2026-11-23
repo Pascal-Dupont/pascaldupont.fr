@@ -2911,7 +2911,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-documentaires-54-s",
+    "uniqueID": "pd-documentaires-56-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -2971,7 +2971,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-documentaires-55-c",
+      "uniqueID": "pd-documentaires-57-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -2984,7 +2984,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-documentaires-52-r",
+        "uniqueID": "pd-documentaires-54-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -3121,7 +3121,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-documentaires-51-c",
+          "uniqueID": "pd-documentaires-53-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3406,9 +3406,9 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-documentaires-53-r",
+        "uniqueID": "pd-documentaires-55-r",
         "kbVersion": 2,
-        "columns": 4,
+        "columns": 3,
         "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
@@ -3432,8 +3432,8 @@
         "tabletRowGutter": "custom",
         "mobileRowGutter": "custom",
         "customRowGutter": [
+         40,
          32,
-         28,
          28
         ],
         "rowGutterType": "px"
@@ -3455,8 +3455,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-designation-1942.jpg",
-            "alt": "31 octobre 1942. « En vue d'assurer la relève des prisonniers, vous êtes désigné pour aller travailler en Allemagne. »",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-carnet-titre.jpg",
+            "alt": "Vendredi 13 novembre 1942. La première page du carnet d'exil n° 1.",
             "borderRadius": [
              2,
              2,
@@ -3477,7 +3477,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "31 octobre 1942",
+            "content": "Vendredi 13 novembre 1942",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -3511,7 +3511,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "« En vue d'assurer la relève des prisonniers, vous êtes désigné pour aller travailler en Allemagne. »",
+            "content": "La première page du carnet d'exil n° 1.",
             "htmlTag": "p",
             "fontSize": [
              0.9,
@@ -3554,8 +3554,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-magdebourg.jpg",
-            "alt": "Magdebourg. Jean Raoul devant les baraquements.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-escadrille.jpg",
+            "alt": "Service militaire. Mécanicien aérien, devant l'insigne de la 4e escadrille : un hibou perché sur un croissant de lune.",
             "borderRadius": [
              2,
              2,
@@ -3576,7 +3576,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Magdebourg",
+            "content": "Service militaire",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -3610,7 +3610,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Jean Raoul devant les baraquements.",
+            "content": "Mécanicien aérien, devant l'insigne de la 4e escadrille : un hibou perché sur un croissant de lune.",
             "htmlTag": "p",
             "fontSize": [
              0.9,
@@ -3653,8 +3653,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-camarades-1944.jpg",
-            "alt": "Magdebourg, 4 août 1944. Jean Raoul et ses camarades.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-designation-1942.jpg",
+            "alt": "31 octobre 1942. « En vue d'assurer la relève des prisonniers, vous êtes désigné pour aller travailler en Allemagne. »",
             "borderRadius": [
              2,
              2,
@@ -3675,7 +3675,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Magdebourg, 4 août 1944",
+            "content": "31 octobre 1942",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -3709,7 +3709,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Jean Raoul et ses camarades.",
+            "content": "« En vue d'assurer la relève des prisonniers, vous êtes désigné pour aller travailler en Allemagne. »",
             "htmlTag": "p",
             "fontSize": [
              0.9,
@@ -3752,8 +3752,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-cinq-camarades.jpg",
-            "alt": "Magdebourg. Entre camarades requis.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-magdebourg.jpg",
+            "alt": "Magdebourg. Jean Raoul devant les baraquements.",
             "borderRadius": [
              2,
              2,
@@ -3808,7 +3808,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Entre camarades requis.",
+            "content": "Jean Raoul devant les baraquements.",
             "htmlTag": "p",
             "fontSize": [
              0.9,
@@ -3834,6 +3834,204 @@
            }
           }
          ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-51-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-camarades-1944.jpg",
+            "alt": "Magdebourg, 4 août 1944. Jean Raoul et ses camarades.",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             10,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-documentaires-h44"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Magdebourg, 4 août 1944",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h45"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Jean Raoul et ses camarades.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.9,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h46"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-52-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/jean-raoul-cinq-camarades.jpg",
+            "alt": "Magdebourg. Entre camarades requis.",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             10,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-documentaires-h47"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Magdebourg",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h48"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Entre camarades requis.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.9,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h49"
+           }
+          }
+         ]
         }
        ]
       }
@@ -3844,7 +4042,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-documentaires-58-s",
+    "uniqueID": "pd-documentaires-60-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -3903,7 +4101,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-documentaires-59-c",
+      "uniqueID": "pd-documentaires-61-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -3944,7 +4142,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-documentaires-h44"
+        "uniqueID": "pd-documentaires-h50"
        }
       },
       {
@@ -3975,7 +4173,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-documentaires-h45"
+        "uniqueID": "pd-documentaires-h51"
        }
       },
       {
@@ -4009,13 +4207,13 @@
          ""
         ],
         "maxWidthType": "px",
-        "uniqueID": "pd-documentaires-h46"
+        "uniqueID": "pd-documentaires-h52"
        }
       },
       {
        "name": "kadence/advancedbtn",
        "attributes": {
-        "uniqueID": "pd-documentaires-56-g",
+        "uniqueID": "pd-documentaires-58-g",
         "hAlign": "left",
         "gap": [
          0.9,
@@ -4051,7 +4249,7 @@
         {
          "name": "kadence/singlebtn",
          "attributes": {
-          "uniqueID": "pd-documentaires-57-b",
+          "uniqueID": "pd-documentaires-59-b",
           "text": "Parler d'un projet",
           "link": "/contact/",
           "borderRadius": [

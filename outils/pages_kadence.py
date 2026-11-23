@@ -610,6 +610,13 @@ def page_defense():
         blocs.append(P.section(video(c['showreel']) + ([P.ligne(c['showreel_legende'], 0.85, DOUX, 0, police=MONO)] if c.get('showreel_legende') else []),
                                padding=(0, 0, 0), padding_bas=(56, 40, 32)))
     blocs.append(P.section([P.chiffres(c['chiffres'])], padding=(16, 16, 8), padding_bas=(72, 56, 40)))
+    hi = c.get('histoire')
+    if hi:
+        fidh = films_par_id()
+        g_h = P.grille([P.carte(fidh[i]) for i in hi['films']], 4)
+        blocs.append(P.section(P.entete_section(hi['surtitre'], hi['titre'], hi['texte'], marge_bas=32) + [g_h, P.boutons(hi['boutons'], marge_haut=36)],
+                               fond=NUIT, ancre='histoire-1er-rcp',
+                               bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}]))
     blocs.append(section_cas(P, c['cas']))
     fo = c['formats']
     blocs.append(P.section(P.entete_section(fo['surtitre'], fo['titre'], marge_bas=32) + P.lignes_titre_texte(fo['lignes'], numeros=True)))
@@ -702,7 +709,7 @@ def page_documentaires():
                       + [P.paragraphe(t, DOUX) for t in pj['paragraphes']] + citations(P, [pj['extrait']])),
         ], layout='equal', firstColumnWidth=38, secondColumnWidth=62, gouttiere=[56, 40, 0], gouttiere_v=[0, 0, 32], verticalAlignment='top'),
             {'name': 'core/spacer', 'attributes': {'height': '48px'}},
-            P.rangee(imgs[1:], layout='equal', tablette='two-grid', mobile='row', gouttiere=[24, 20, 0], gouttiere_v=[32, 28, 28], columns=4)],
+            P.rangee(imgs[1:], layout='equal', tablette='two-grid', mobile='row', gouttiere=[24, 20, 0], gouttiere_v=[40, 32, 28], columns=3)],
             fond=NUIT if len(c['films']) % 2 else ARDOISE, ancre='carnets-d-exil', bordures=bord))
     e = c['ecriture']
     blocs.append(P.section(P.entete_section(e['surtitre'], e['titre'], e['texte'], marge_bas=8) + [P.boutons([e['bouton']], marge_haut=32)],

@@ -818,6 +818,24 @@
             "legende": "Avec Lydéric, au retour d'image."
           }
         ]
+      },
+      "histoire": {
+        "surtitre": "Mémoire du 1er RCP",
+        "titre": "L'histoire du régiment, en chapitres",
+        "texte": "Des précurseurs à l'Indochine, en passant par la libération de l'Alsace : l'histoire du 1er régiment de chasseurs parachutistes racontée en films, publiés sur les pages officielles du régiment. Le chapitre consacré à l'Algérie est en production.",
+        "films": [
+          "RCP5",
+          "RCP6",
+          "RCP7",
+          "RCP4"
+        ],
+        "boutons": [
+          {
+            "texte": "Toute la mémoire combattante",
+            "url": "/films/#films-memoire",
+            "style": "contour"
+          }
+        ]
       }
     },
     "lakelab": {
@@ -1091,6 +1109,16 @@
             "fichier": "jean-raoul-portrait.jpg",
             "lieu": "Jean Raoul",
             "legende": "Photographie d'identité, restaurée."
+          },
+          {
+            "fichier": "jean-raoul-carnet-titre.jpg",
+            "lieu": "Vendredi 13 novembre 1942",
+            "legende": "La première page du carnet d'exil n° 1."
+          },
+          {
+            "fichier": "jean-raoul-escadrille.jpg",
+            "lieu": "Service militaire",
+            "legende": "Mécanicien aérien, devant l'insigne de la 4e escadrille : un hibou perché sur un croissant de lune."
           },
           {
             "fichier": "jean-raoul-designation-1942.jpg",
@@ -1934,6 +1962,67 @@
         ]
       },
       {
+        "cle": "memoire",
+        "ancre": "memoire",
+        "titre": "Mémoire combattante",
+        "texte": "Le 1er RCP, ses anciens et les opérations : transmettre ce qui a été vécu.",
+        "blocs": [
+          {
+            "titre": "Histoire du 1er RCP",
+            "texte": "L'histoire du régiment en chapitres, publiée sur les pages officielles du 1er RCP.",
+            "films": [
+              "RCP4",
+              "RCP5",
+              "RCP6",
+              "RCP7",
+              "RCP8"
+            ],
+            "boutons": [
+              {
+                "texte": "1er RCP sur Instagram",
+                "url": "https://www.instagram.com/1er_rcp/"
+              },
+              {
+                "texte": "1er RCP sur Facebook",
+                "url": "https://www.facebook.com/1erRCP"
+              },
+              {
+                "texte": "1er RCP sur X",
+                "url": "https://x.com/1erRCP"
+              }
+            ]
+          },
+          {
+            "titre": "Témoins",
+            "texte": "Portraits et témoignages d'anciens, dont deux réalisés avec l'amicale du 1er RCP.",
+            "films": [
+              "MX1rXj52K88",
+              "uF7zqXfUsjc",
+              "AZERIB9ymiE"
+            ]
+          },
+          {
+            "titre": "Commémorations",
+            "texte": "Films de mémoire et de cérémonie.",
+            "films": [
+              "hAsRJtDXMSY",
+              "iyuX_UN7ABY"
+            ]
+          },
+          {
+            "titre": "Opération Serval, Mali 2013",
+            "texte": "Dix-huit films montés au rythme des opérations, vus plus de deux millions de fois et repris par la presse nationale et internationale, et trois hommages à des soldats morts pour la France.",
+            "boutons": [
+              {
+                "texte": "Lire l'histoire de la série",
+                "url": "/defense-et-securite/#serval",
+                "style": "contour"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "cle": "defense",
         "ancre": "defense",
         "titre": "Défense et sécurité",
@@ -1996,67 +2085,6 @@
               "88Tojjmake4",
               "QUhc5drglAs",
               "J-EwxwK9gIQ"
-            ]
-          }
-        ]
-      },
-      {
-        "cle": "memoire",
-        "ancre": "memoire",
-        "titre": "Mémoire combattante",
-        "texte": "Le 1er RCP, ses anciens et les opérations : transmettre ce qui a été vécu.",
-        "blocs": [
-          {
-            "titre": "Histoire du 1er RCP",
-            "texte": "L'histoire du régiment en chapitres, publiée sur les pages officielles du 1er RCP.",
-            "films": [
-              "RCP4",
-              "RCP5",
-              "RCP6",
-              "RCP7",
-              "RCP8"
-            ],
-            "boutons": [
-              {
-                "texte": "1er RCP sur Instagram",
-                "url": "https://www.instagram.com/1er_rcp/"
-              },
-              {
-                "texte": "1er RCP sur Facebook",
-                "url": "https://www.facebook.com/1erRCP"
-              },
-              {
-                "texte": "1er RCP sur X",
-                "url": "https://x.com/1erRCP"
-              }
-            ]
-          },
-          {
-            "titre": "Témoins",
-            "texte": "Portraits et témoignages d'anciens, dont deux réalisés avec l'amicale du 1er RCP.",
-            "films": [
-              "MX1rXj52K88",
-              "uF7zqXfUsjc",
-              "AZERIB9ymiE"
-            ]
-          },
-          {
-            "titre": "Commémorations",
-            "texte": "Films de mémoire et de cérémonie.",
-            "films": [
-              "hAsRJtDXMSY",
-              "iyuX_UN7ABY"
-            ]
-          },
-          {
-            "titre": "Opération Serval, Mali 2013",
-            "texte": "Dix-huit films montés au rythme des opérations, vus plus de deux millions de fois et repris par la presse nationale et internationale, et trois hommages à des soldats morts pour la France.",
-            "boutons": [
-              {
-                "texte": "Lire l'histoire de la série",
-                "url": "/defense-et-securite/#serval",
-                "style": "contour"
-              }
             ]
           }
         ]
