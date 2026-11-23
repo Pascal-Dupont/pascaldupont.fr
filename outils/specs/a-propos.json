@@ -649,7 +649,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-apropos-19-s",
+    "uniqueID": "pd-apropos-22-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -709,7 +709,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-apropos-20-c",
+      "uniqueID": "pd-apropos-23-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -856,7 +856,28 @@
           {
            "name": "core/paragraph",
            "attributes": {
-            "content": "Près de 2 000 messages en moins d'un mois, venus du monde entier, imprimés et acheminés jusqu'en Kapisa, et cent CD de chansons enregistrées spécialement pour eux.",
+            "content": "Près de 2 000 messages en moins d'un mois, venus du monde entier, imprimés et acheminés jusqu'en Kapisa. Et une compilation de douze titres, offerts par une douzaine d'artistes, que j'ai coproduite et masterisée : cent exemplaires numérotés, envoyés aux soldats.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Depuis l'Afghanistan, les soldats de montagne de la 27e brigade d'infanterie de montagne ont adressé leurs remerciements à l'opération.",
             "style": {
              "typography": {
               "fontSize": "1.0625rem",
@@ -980,6 +1001,249 @@
          ]
         }
        ]
+      },
+      {
+       "name": "core/spacer",
+       "attributes": {
+        "height": "40px"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-apropos-21-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         32,
+         24,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         28
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 40,
+        "secondColumnWidth": 60
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-19-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/nuntius-jaquette-2011.jpg",
+            "alt": "La compilation, 2011. Production Pascal Dupont et Stéphane Gaudin, conception graphique Theatrum Belli.",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-a-propos-h8"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "La compilation, 2011",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h9"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Production Pascal Dupont et Stéphane Gaudin, conception graphique Theatrum Belli.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h10"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-20-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/nuntius-remerciement-27e-bim.jpg",
+            "alt": "Afghanistan, 2011. Le remerciement des soldats de montagne de la 27e brigade d'infanterie de montagne.",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-a-propos-h11"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Afghanistan, 2011",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h12"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le remerciement des soldats de montagne de la 27e brigade d'infanterie de montagne.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h13"
+           }
+          }
+         ]
+        }
+       ]
       }
      ]
     }
@@ -988,7 +1252,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-apropos-28-s",
+    "uniqueID": "pd-apropos-31-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -1048,7 +1312,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-apropos-29-c",
+      "uniqueID": "pd-apropos-32-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -1089,7 +1353,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-a-propos-h8"
+        "uniqueID": "pd-a-propos-h14"
        }
       },
       {
@@ -1120,7 +1384,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-a-propos-h9"
+        "uniqueID": "pd-a-propos-h15"
        }
       },
       {
@@ -1154,13 +1418,13 @@
          ""
         ],
         "maxWidthType": "px",
-        "uniqueID": "pd-a-propos-h10"
+        "uniqueID": "pd-a-propos-h16"
        }
       },
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-apropos-27-r",
+        "uniqueID": "pd-apropos-30-r",
         "kbVersion": 2,
         "columns": 3,
         "colLayout": "equal",
@@ -1203,7 +1467,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-21-c",
+          "uniqueID": "pd-apropos-24-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1234,7 +1498,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h11"
+            "uniqueID": "pd-a-propos-h17"
            }
           },
           {
@@ -1268,7 +1532,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h12"
+            "uniqueID": "pd-a-propos-h18"
            }
           },
           {
@@ -1296,7 +1560,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h13"
+            "uniqueID": "pd-a-propos-h19"
            }
           }
          ]
@@ -1304,7 +1568,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-22-c",
+          "uniqueID": "pd-apropos-25-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1335,7 +1599,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h14"
+            "uniqueID": "pd-a-propos-h20"
            }
           },
           {
@@ -1369,7 +1633,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h15"
+            "uniqueID": "pd-a-propos-h21"
            }
           },
           {
@@ -1397,7 +1661,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h16"
+            "uniqueID": "pd-a-propos-h22"
            }
           }
          ]
@@ -1405,7 +1669,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-23-c",
+          "uniqueID": "pd-apropos-26-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1436,7 +1700,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h17"
+            "uniqueID": "pd-a-propos-h23"
            }
           },
           {
@@ -1470,7 +1734,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h18"
+            "uniqueID": "pd-a-propos-h24"
            }
           },
           {
@@ -1498,7 +1762,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h19"
+            "uniqueID": "pd-a-propos-h25"
            }
           }
          ]
@@ -1506,7 +1770,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-24-c",
+          "uniqueID": "pd-apropos-27-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1537,7 +1801,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h20"
+            "uniqueID": "pd-a-propos-h26"
            }
           },
           {
@@ -1571,7 +1835,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h21"
+            "uniqueID": "pd-a-propos-h27"
            }
           },
           {
@@ -1599,7 +1863,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h22"
+            "uniqueID": "pd-a-propos-h28"
            }
           }
          ]
@@ -1607,7 +1871,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-25-c",
+          "uniqueID": "pd-apropos-28-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1638,7 +1902,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h23"
+            "uniqueID": "pd-a-propos-h29"
            }
           },
           {
@@ -1672,7 +1936,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h24"
+            "uniqueID": "pd-a-propos-h30"
            }
           },
           {
@@ -1700,7 +1964,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h25"
+            "uniqueID": "pd-a-propos-h31"
            }
           }
          ]
@@ -1708,7 +1972,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-26-c",
+          "uniqueID": "pd-apropos-29-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1739,7 +2003,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h26"
+            "uniqueID": "pd-a-propos-h32"
            }
           },
           {
@@ -1773,7 +2037,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h27"
+            "uniqueID": "pd-a-propos-h33"
            }
           },
           {
@@ -1801,7 +2065,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h28"
+            "uniqueID": "pd-a-propos-h34"
            }
           }
          ]
@@ -1815,7 +2079,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-apropos-37-s",
+    "uniqueID": "pd-apropos-40-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -1875,7 +2139,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-apropos-38-c",
+      "uniqueID": "pd-apropos-41-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -1916,7 +2180,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-a-propos-h29"
+        "uniqueID": "pd-a-propos-h35"
        }
       },
       {
@@ -1947,7 +2211,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-a-propos-h30"
+        "uniqueID": "pd-a-propos-h36"
        }
       },
       {
@@ -1981,13 +2245,13 @@
          ""
         ],
         "maxWidthType": "px",
-        "uniqueID": "pd-a-propos-h31"
+        "uniqueID": "pd-a-propos-h37"
        }
       },
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-apropos-36-r",
+        "uniqueID": "pd-apropos-39-r",
         "kbVersion": 2,
         "columns": 3,
         "colLayout": "equal",
@@ -2030,7 +2294,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-30-c",
+          "uniqueID": "pd-apropos-33-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2061,7 +2325,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h32"
+            "uniqueID": "pd-a-propos-h38"
            }
           },
           {
@@ -2095,7 +2359,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h33"
+            "uniqueID": "pd-a-propos-h39"
            }
           },
           {
@@ -2123,7 +2387,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h34"
+            "uniqueID": "pd-a-propos-h40"
            }
           }
          ]
@@ -2131,7 +2395,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-31-c",
+          "uniqueID": "pd-apropos-34-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2162,7 +2426,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h35"
+            "uniqueID": "pd-a-propos-h41"
            }
           },
           {
@@ -2196,7 +2460,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h36"
+            "uniqueID": "pd-a-propos-h42"
            }
           },
           {
@@ -2224,7 +2488,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h37"
+            "uniqueID": "pd-a-propos-h43"
            }
           }
          ]
@@ -2232,7 +2496,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-32-c",
+          "uniqueID": "pd-apropos-35-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2263,7 +2527,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h38"
+            "uniqueID": "pd-a-propos-h44"
            }
           },
           {
@@ -2297,7 +2561,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h39"
+            "uniqueID": "pd-a-propos-h45"
            }
           },
           {
@@ -2325,7 +2589,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h40"
+            "uniqueID": "pd-a-propos-h46"
            }
           }
          ]
@@ -2333,7 +2597,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-33-c",
+          "uniqueID": "pd-apropos-36-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2364,7 +2628,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h41"
+            "uniqueID": "pd-a-propos-h47"
            }
           },
           {
@@ -2398,7 +2662,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h42"
+            "uniqueID": "pd-a-propos-h48"
            }
           },
           {
@@ -2426,7 +2690,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h43"
+            "uniqueID": "pd-a-propos-h49"
            }
           }
          ]
@@ -2434,7 +2698,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-34-c",
+          "uniqueID": "pd-apropos-37-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2465,7 +2729,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h44"
+            "uniqueID": "pd-a-propos-h50"
            }
           },
           {
@@ -2499,7 +2763,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h45"
+            "uniqueID": "pd-a-propos-h51"
            }
           },
           {
@@ -2527,7 +2791,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h46"
+            "uniqueID": "pd-a-propos-h52"
            }
           }
          ]
@@ -2535,7 +2799,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-apropos-35-c",
+          "uniqueID": "pd-apropos-38-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2566,7 +2830,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-a-propos-h47"
+            "uniqueID": "pd-a-propos-h53"
            }
           },
           {
@@ -2600,7 +2864,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h48"
+            "uniqueID": "pd-a-propos-h54"
            }
           },
           {
@@ -2628,7 +2892,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h49"
+            "uniqueID": "pd-a-propos-h55"
            }
           }
          ]
@@ -2787,7 +3051,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h50"
+            "uniqueID": "pd-a-propos-h56"
            }
           },
           {
@@ -2962,7 +3226,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h51"
+            "uniqueID": "pd-a-propos-h57"
            }
           },
           {

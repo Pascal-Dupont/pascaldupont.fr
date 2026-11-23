@@ -482,7 +482,8 @@
         "titre": "Nuntius Belli, 2011",
         "paragraphes": [
           "En 2011, avec Stéphane Gaudin, j'ai co-animé sur le site Theatrum Belli l'opération Nuntius Belli : recueillir des messages de soutien pour les soldats français engagés en Afghanistan, en dehors de toute considération politique.",
-          "Près de 2 000 messages en moins d'un mois, venus du monde entier, imprimés et acheminés jusqu'en Kapisa, et cent CD de chansons enregistrées spécialement pour eux."
+          "Près de 2 000 messages en moins d'un mois, venus du monde entier, imprimés et acheminés jusqu'en Kapisa. Et une compilation de douze titres, offerts par une douzaine d'artistes, que j'ai coproduite et masterisée : cent exemplaires numérotés, envoyés aux soldats.",
+          "Depuis l'Afghanistan, les soldats de montagne de la 27e brigade d'infanterie de montagne ont adressé leurs remerciements à l'opération."
         ],
         "relais": {
           "titre": "Relayé par",
@@ -504,7 +505,19 @@
               "24 déc. 2011"
             ]
           ]
-        }
+        },
+        "images": [
+          {
+            "fichier": "nuntius-jaquette-2011.jpg",
+            "lieu": "La compilation, 2011",
+            "legende": "Production Pascal Dupont et Stéphane Gaudin, conception graphique Theatrum Belli."
+          },
+          {
+            "fichier": "nuntius-remerciement-27e-bim.jpg",
+            "lieu": "Afghanistan, 2011",
+            "legende": "Le remerciement des soldats de montagne de la 27e brigade d'infanterie de montagne."
+          }
+        ]
       }
     },
     "defense-et-securite": {

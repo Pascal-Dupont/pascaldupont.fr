@@ -587,7 +587,13 @@ def page_apropos():
         blocs.append(P.section([P.rangee([
             P.colonne([P.surtitre(en['surtitre']), P.titre(en['titre'], 2, taille=(2.4, 2.1, 1.8), marge_bas=16)] + [P.paragraphe(t, DOUX) for t in en['paragraphes']]),
             P.colonne([P.titre(en['relais']['titre'], 3, taille=(1.5, 1.4, 1.3), marge_bas=12), P.liste_dates(en['relais']['lignes'])]),
-        ], layout='equal', gouttiere=[48, 40, 0], gouttiere_v=[0, 0, 32])], fond=ARDOISE, ancre='engagement',
+        ], layout='equal', gouttiere=[48, 40, 0], gouttiere_v=[0, 0, 32])] + ([
+            {'name': 'core/spacer', 'attributes': {'height': '40px'}},
+            P.rangee([P.colonne([{'name': 'kadence/image', 'attributes': {'url': PHOTOS + im['fichier'], 'alt': '%s. %s' % (im['lieu'], im['legende']),
+                                                                       'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px', 'marginDesktop': [0, 0, 12, 0], 'marginUnit': 'px'}},
+                                 P.surtitre(im['lieu'], marge_bas=4), P.ligne(im['legende'], 0.95, DOUX, 0, interligne=1.5)]) for im in en['images']],
+                     layout='equal', firstColumnWidth=40, secondColumnWidth=60, gouttiere=[32, 24, 0], gouttiere_v=[0, 0, 28])] if en.get('images') else []),
+            fond=ARDOISE, ancre='engagement',
             bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}]))
     for pa, ancre in ((c.get('tournages'), 'tournages'), (c.get('parcours'), 'parcours')):
         if pa:
