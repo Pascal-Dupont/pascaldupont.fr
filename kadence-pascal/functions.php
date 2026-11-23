@@ -187,7 +187,9 @@ function pd_page_par_cle( $cle ) {
 	$ids = get_posts(
 		array(
 			'post_type'   => 'page',
-			'post_status' => 'publish',
+			// 'any' + trash : si la page a été vidée dans la corbeille, on la retrouve et on la
+			// republie dans pd_synchroniser_pages() plutôt que d'en recréer une en double.
+			'post_status' => array( 'publish', 'draft', 'pending', 'private', 'future', 'trash' ),
 			'meta_key'    => '_pd_page', // phpcs:ignore WordPress.DB.SlowDBQuery
 			'meta_value'  => $cle, // phpcs:ignore WordPress.DB.SlowDBQuery
 			'numberposts' => 1,
@@ -195,6 +197,65 @@ function pd_page_par_cle( $cle ) {
 		)
 	);
 	return $ids ? (int) $ids[0] : 0;
+}
+
+/**
+ * Crée ou met à jour les pages du site à partir de inc/contenu-pages.json, embarqué dans le
+ * thème : plus besoin de passer par Outils > Importer pour une mise à jour de contenu, il suffit
+ * de téléverser le thème. Le contenu de ce fichier a déjà été construit et vérifié dans le vrai
+ * éditeur de blocs (outils/pages_kadence.py puis outils/empaqueter.py), c'est une copie fidèle.
+ * Ne touche jamais le mot de passe d'une page existante (ex. la page Thales) : seule une page
+ * nouvellement créée reçoit celui prévu dans contenu-pages.json.
+ */
+function pd_synchroniser_pages() {
+	$fichier = get_stylesheet_directory() . '/inc/contenu-pages.json';
+	if ( ! file_exists( $fichier ) ) {
+		return array();
+	}
+	$pages = json_decode( (string) file_get_contents( $fichier ), true );
+	if ( ! is_array( $pages ) ) {
+		return array();
+	}
+	$resultat = array();
+	foreach ( $pages as $page ) {
+		$id = pd_page_par_cle( $page['cle'] );
+		if ( $id ) {
+			$args = array(
+				'ID'           => $id,
+				'post_title'   => $page['titre'],
+				'post_name'    => $page['slug'],
+				'post_content' => wp_slash( $page['content'] ),
+				'post_excerpt' => wp_slash( $page['excerpt'] ?? '' ),
+			);
+			if ( 'trash' === get_post_status( $id ) ) {
+				$args['post_status'] = 'publish'; // page republiée après une mise à la corbeille
+			}
+			wp_update_post( $args );
+		} else {
+			// Mot de passe de création, seulement pour une page qui en a besoin par défaut
+			// (la page Thales, tant qu'elle n'a pas été validée) : jamais réappliqué ensuite.
+			$mots_de_passe_initiaux = array( 'thales' => 'Thales-visionnage-2026' );
+			$id                     = wp_insert_post(
+				array(
+					'post_type'     => 'page',
+					'post_status'   => 'publish',
+					'post_title'    => $page['titre'],
+					'post_name'     => $page['slug'],
+					'post_content'  => wp_slash( $page['content'] ),
+					'post_excerpt'  => wp_slash( $page['excerpt'] ?? '' ),
+					'post_password' => $mots_de_passe_initiaux[ $page['cle'] ] ?? '',
+				)
+			);
+		}
+		if ( ! $id || is_wp_error( $id ) ) {
+			continue;
+		}
+		foreach ( (array) ( $page['meta'] ?? array() ) as $cle_meta => $valeur ) {
+			update_post_meta( $id, $cle_meta, $valeur );
+		}
+		$resultat[ $page['cle'] ] = $id;
+	}
+	return $resultat;
 }
 
 function pd_creer_menu( $nom, $elements ) {
@@ -242,16 +303,12 @@ function pd_creer_menu( $nom, $elements ) {
 }
 
 // Changer cette valeur à chaque nouvel envoi des pages : le réglage automatique (accueil, menus) est alors refait.
-const PD_VERSION_INSTALLATION = '2.4.0';
+const PD_VERSION_INSTALLATION = '3.0.0';
 
 function pd_installer_site() {
-	$cles = array( 'accueil', 'documentaires', 'films', 'a-propos', 'defense-et-securite', 'thales', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
-	$p    = array();
-	foreach ( $cles as $cle ) {
-		$p[ $cle ] = pd_page_par_cle( $cle );
-	}
-	if ( ! $p['accueil'] ) {
-		return false; // les pages ne sont pas encore importées
+	$p = pd_synchroniser_pages(); // crée ou met à jour chaque page à partir du thème ; voir plus haut
+	if ( empty( $p['accueil'] ) ) {
+		return false; // le fichier de contenu est absent ou vide (thème mal téléversé)
 	}
 
 	// Chaque page reprend l'adresse prévue (ex. /lakelab/) si un ancien contenu l'occupait (brouillon, image…).

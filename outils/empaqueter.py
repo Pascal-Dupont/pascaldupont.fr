@@ -5,15 +5,19 @@ Prépare les deux fichiers à installer sur le vrai site :
   - dist/pages-pascaldupont.xml : les pages, exportées du WordPress de test où elles ont été construites et vérifiées.
 Usage : python3 outils/empaqueter.py <dossier du wordpress de test> <port>
 """
+import json
 import pathlib
 import re
 import subprocess
 import sys
+import xml.etree.ElementTree as ET
 import zipfile
 
 RACINE = pathlib.Path(__file__).resolve().parent.parent
 THEME = RACINE / 'kadence-pascal'
 DIST = RACINE / 'dist'
+NS = {'wp': 'http://wordpress.org/export/1.2/', 'content': 'http://purl.org/rss/1.0/modules/content/',
+      'excerpt': 'http://wordpress.org/export/1.2/excerpt/'}
 
 
 def zipper():
@@ -52,7 +56,33 @@ def exporter(wp, port):
     print('pages gardées :', xml2.count('<item>'))
 
 
+def generer_contenu_pages():
+    """Extrait de l'export WXR, déjà construit et vérifié dans le vrai éditeur, le contenu de
+    chaque page (titre, extrait, contenu, méta) et l'écrit en JSON dans le thème. Le thème s'en
+    sert pour créer ou mettre à jour ses pages lui-même, à chaque activation : plus besoin de
+    passer par Outils > Importer pour une mise à jour de contenu."""
+    source = DIST / 'pages-pascaldupont.xml'
+    racine = ET.fromstring(source.read_text(encoding='utf-8'))
+    pages = []
+    for item in racine.find('channel').findall('item'):
+        metas = {m.find('wp:meta_key', NS).text: (m.find('wp:meta_value', NS).text or '')
+                 for m in item.findall('wp:postmeta', NS)}
+        cle = metas.get('_pd_page')
+        if not cle:
+            continue
+        titre = (item.findtext('title') or '').strip()
+        slug = (item.findtext('wp:post_name', namespaces=NS) or cle).strip()
+        contenu = item.findtext('content:encoded', namespaces=NS) or ''
+        extrait = item.findtext('excerpt:encoded', namespaces=NS) or ''
+        pages.append({'cle': cle, 'slug': slug, 'titre': titre, 'excerpt': extrait, 'content': contenu, 'meta': metas})
+    pages.sort(key=lambda p: p['cle'])
+    destination = THEME / 'inc' / 'contenu-pages.json'
+    destination.write_text(json.dumps(pages, ensure_ascii=False, indent=1), encoding='utf-8')
+    print('contenu des pages :', destination, '(%d pages)' % len(pages))
+
+
 if __name__ == '__main__':
-    zipper()
     if len(sys.argv) >= 3:
         exporter(sys.argv[1], sys.argv[2])
+        generer_contenu_pages()
+    zipper()
