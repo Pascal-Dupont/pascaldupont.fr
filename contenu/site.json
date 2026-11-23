@@ -359,6 +359,10 @@
             "2010"
           ],
           [
+            "Opération Nuntius Belli, avec Theatrum Belli",
+            "2011"
+          ],
+          [
             "Série Serval, Mali",
             "2013"
           ],
@@ -472,6 +476,35 @@
             "legende": "Avec Raymond Locci, pendant l'entretien."
           }
         ]
+      },
+      "engagement": {
+        "surtitre": "Lien armée-nation",
+        "titre": "Nuntius Belli, 2011",
+        "paragraphes": [
+          "En 2011, avec Stéphane Gaudin, j'ai co-animé sur le site Theatrum Belli l'opération Nuntius Belli : recueillir des messages de soutien pour les soldats français engagés en Afghanistan, en dehors de toute considération politique.",
+          "Près de 2 000 messages en moins d'un mois, venus du monde entier, imprimés et acheminés jusqu'en Kapisa, et cent CD de chansons enregistrées spécialement pour eux."
+        ],
+        "relais": {
+          "titre": "Relayé par",
+          "lignes": [
+            [
+              "Secret Défense (Jean-Dominique Merchet, Marianne)",
+              "5 déc. 2011"
+            ],
+            [
+              "Pensées sur la planète (Pierre Bayle)",
+              "12 déc. 2011"
+            ],
+            [
+              "Lignes de défense (Ouest-France)",
+              "déc. 2011"
+            ],
+            [
+              "L'Est Républicain",
+              "24 déc. 2011"
+            ]
+          ]
+        }
       }
     },
     "defense-et-securite": {
@@ -641,7 +674,7 @@
           "lignes": [
             [
               "Le Figaro",
-              "29 janv. et 5 mars"
+              "29 janv. et 4 mars"
             ],
             [
               "Ouest-France, Lignes de défense",
@@ -678,9 +711,39 @@
             [
               "RP Défense",
               "25 mars"
+            ],
+            [
+              "Le Parisien",
+              "3 mars"
+            ],
+            [
+              "Realpolitik.tv",
+              "févr."
+            ],
+            [
+              "Objectif Défense",
+              "janv. à avril"
+            ],
+            [
+              "Midi Libre",
+              "25 janv."
             ]
           ]
-        }
+        },
+        "citations": [
+          {
+            "texte": "Un très efficace montage vidéo.",
+            "source": "Philippe Chapleau, Lignes de défense (Ouest-France), 29 janvier 2013"
+          },
+          {
+            "texte": "Une vidéo synthétique mais forte, réalisée par le documentariste Pascal Dupont.",
+            "source": "Olivier Berger, Défense globale (La Voix du Nord), 29 janvier 2013"
+          },
+          {
+            "texte": "Deux vidéos, reprises en boucle par les chaînes d'information en continu.",
+            "source": "Le Figaro, 4 mars 2013, à propos de la compilation de 13 minutes sur les combats de l'Adrar des Ifoghas"
+          }
+        ]
       },
       "cas": {
         "surtitre": "Études de cas",
@@ -945,11 +1008,17 @@
           "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
           "etiquette": "France 4 · 2010",
           "titre": "Chroniques du 93",
-          "texte": "En 2010, j'ai décidé de passer la barrière du périphérique : une immersion dans la CSI 93, en Seine-Saint-Denis, au cœur des violences urbaines. Un film qui fait encore aujourd'hui référence sur le sujet.",
+          "texte": "En 2010, j'ai décidé de passer la barrière du périphérique. Caméra à l'épaule, j'ai suivi jour et nuit les policiers de la compagnie d'intervention et de sécurisation de Seine-Saint-Denis, d'Aubervilliers à Bobigny, d'Aulnay-sous-Bois à La Courneuve. Un énorme succès, et un film qui fait encore aujourd'hui référence sur les violences urbaines.",
           "faits": [
-            "52 minutes, pour la case « Nouveaux regards » de France 4",
-            "Un énorme succès d'audience"
-          ]
+            "« Violences urbaines, chronique du 93 », écrit et réalisé par Pascal Dupont",
+            "52 minutes, inédit, dans la case documentaire « Nouveaux regards » de France 4",
+            "Diffusé le 3 décembre 2010 à 20 h 35",
+            "Production Beta Prod, avec la participation de France Télévisions"
+          ],
+          "citation": {
+            "texte": "À la première personne, le réalisateur Pascal Dupont nous fait vivre les jours et les nuits sous tension des policiers du 93.",
+            "source": "France Télévisions, communiqué de presse, 9 novembre 2010"
+          }
         },
         {
           "id": "yzubFqyXDmk",
@@ -1464,7 +1533,7 @@
           {
             "id": "J-EwxwK9gIQ",
             "titre": "Armée française, seuil critique ?",
-            "description": "Entretien avec le général Pinard Legry, président de l'ASAF",
+            "description": "Entretien avec le général Pinard Legry, président de l'ASAF · juin 2012 · relayé par Zone Militaire",
             "duree": "14:20",
             "youtube": "https://www.youtube.com/watch?v=J-EwxwK9gIQ",
             "etiquette": "Entretien"

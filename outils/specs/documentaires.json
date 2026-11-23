@@ -1241,7 +1241,7 @@
           {
            "name": "core/paragraph",
            "attributes": {
-            "content": "En 2010, j'ai décidé de passer la barrière du périphérique : une immersion dans la CSI 93, en Seine-Saint-Denis, au cœur des violences urbaines. Un film qui fait encore aujourd'hui référence sur le sujet.",
+            "content": "En 2010, j'ai décidé de passer la barrière du périphérique. Caméra à l'épaule, j'ai suivi jour et nuit les policiers de la compagnie d'intervention et de sécurisation de Seine-Saint-Denis, d'Aubervilliers à Bobigny, d'Aulnay-sous-Bois à La Courneuve. Un énorme succès, et un film qui fait encore aujourd'hui référence sur les violences urbaines.",
             "style": {
              "typography": {
               "fontSize": "1.0625rem",
@@ -1260,6 +1260,108 @@
            }
           },
           {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "« À la première personne, le réalisateur Pascal Dupont nous fait vivre les jours et les nuits sous tension des policiers du 93. »",
+            "htmlTag": "p",
+            "fontSize": [
+             1.35,
+             1.25,
+             1.15
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.35,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontStyle": "italic",
+            "borderStyle": [
+             {
+              "top": [
+               "",
+               "",
+               ""
+              ],
+              "right": [
+               "",
+               "",
+               ""
+              ],
+              "bottom": [
+               "",
+               "",
+               ""
+              ],
+              "left": [
+               "#c8b287",
+               "solid",
+               2
+              ],
+              "unit": "px"
+             }
+            ],
+            "padding": [
+             0,
+             0,
+             0,
+             16
+            ],
+            "paddingType": "px",
+            "uniqueID": "pd-documentaires-h13"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "France Télévisions, communiqué de presse, 9 novembre 2010",
+            "htmlTag": "p",
+            "fontSize": [
+             0.8,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             22,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "400",
+            "padding": [
+             0,
+             0,
+             0,
+             18
+            ],
+            "paddingType": "px",
+            "uniqueID": "pd-documentaires-h14"
+           }
+          },
+          {
            "name": "core/list",
            "attributes": {
             "className": "pd-faits"
@@ -1268,13 +1370,25 @@
             {
              "name": "core/list-item",
              "attributes": {
-              "content": "52 minutes, pour la case « Nouveaux regards » de France 4"
+              "content": "« Violences urbaines, chronique du 93 », écrit et réalisé par Pascal Dupont"
              }
             },
             {
              "name": "core/list-item",
              "attributes": {
-              "content": "Un énorme succès d'audience"
+              "content": "52 minutes, inédit, dans la case documentaire « Nouveaux regards » de France 4"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Diffusé le 3 décembre 2010 à 20 h 35"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Production Beta Prod, avec la participation de France Télévisions"
              }
             }
            ]
@@ -1573,7 +1687,7 @@
              2
             ],
             "borderRadiusUnit": "px",
-            "uniqueID": "pd-documentaires-h13"
+            "uniqueID": "pd-documentaires-h15"
            }
           }
          ]
@@ -1622,7 +1736,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-documentaires-h14"
+            "uniqueID": "pd-documentaires-h16"
            }
           },
           {
@@ -1653,7 +1767,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-documentaires-h15"
+            "uniqueID": "pd-documentaires-h17"
            }
           },
           {
@@ -2099,7 +2213,7 @@
              2
             ],
             "borderRadiusUnit": "px",
-            "uniqueID": "pd-documentaires-h16"
+            "uniqueID": "pd-documentaires-h18"
            }
           }
          ]
@@ -2148,7 +2262,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-documentaires-h17"
+            "uniqueID": "pd-documentaires-h19"
            }
           },
           {
@@ -2179,7 +2293,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-documentaires-h18"
+            "uniqueID": "pd-documentaires-h20"
            }
           },
           {
@@ -2517,7 +2631,7 @@
              2
             ],
             "borderRadiusUnit": "px",
-            "uniqueID": "pd-documentaires-h19"
+            "uniqueID": "pd-documentaires-h21"
            }
           }
          ]
@@ -2566,7 +2680,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-documentaires-h20"
+            "uniqueID": "pd-documentaires-h22"
            }
           },
           {
@@ -2597,7 +2711,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-documentaires-h21"
+            "uniqueID": "pd-documentaires-h23"
            }
           },
           {
@@ -2897,7 +3011,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-documentaires-h22"
+        "uniqueID": "pd-documentaires-h24"
        }
       },
       {
@@ -2928,7 +3042,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-documentaires-h23"
+        "uniqueID": "pd-documentaires-h25"
        }
       },
       {
@@ -2962,7 +3076,7 @@
          ""
         ],
         "maxWidthType": "px",
-        "uniqueID": "pd-documentaires-h24"
+        "uniqueID": "pd-documentaires-h26"
        }
       },
       {

@@ -365,6 +365,19 @@ def galerie(P, pa, ancre, fond=NUIT):
                      bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}])
 
 
+def citations(P, liste):
+    """Citations de presse : texte en italique, source en petites capitales."""
+    blocs = []
+    for c in liste:
+        q = P.ligne('« %s »' % c['texte'], (1.35, 1.25, 1.15), TEXTE, 6, police=SERIF, italique=True, interligne=1.35)
+        q['attributes'].update({'borderStyle': [{'top': ['', '', ''], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': [HEX[SABLE], 'solid', 2], 'unit': 'px'}],
+                                'padding': [0, 0, 0, 16], 'paddingType': 'px'})
+        src = P.ligne(c['source'], 0.8, DOUX, 22, police=MONO)
+        src['attributes'].update({'padding': [0, 0, 0, 18], 'paddingType': 'px'})
+        blocs += [q, src]
+    return blocs
+
+
 def section_cas(P, cs):
     """Études de cas : contexte, intervention, résultat (fond clair)."""
     cols = []
@@ -569,6 +582,13 @@ def page_apropos():
     ], layout='equal', gouttiere=[48, 40, 0], gouttiere_v=[0, 0, 40])], fond=ARDOISE,
         bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
     blocs = [entete, bloc]
+    en = c.get('engagement')
+    if en:
+        blocs.append(P.section([P.rangee([
+            P.colonne([P.surtitre(en['surtitre']), P.titre(en['titre'], 2, taille=(2.4, 2.1, 1.8), marge_bas=16)] + [P.paragraphe(t, DOUX) for t in en['paragraphes']]),
+            P.colonne([P.titre(en['relais']['titre'], 3, taille=(1.5, 1.4, 1.3), marge_bas=12), P.liste_dates(en['relais']['lignes'])]),
+        ], layout='equal', gouttiere=[48, 40, 0], gouttiere_v=[0, 0, 32])], fond=ARDOISE, ancre='engagement',
+            bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}]))
     for pa, ancre in ((c.get('tournages'), 'tournages'), (c.get('parcours'), 'parcours')):
         if pa:
             blocs.append(galerie(P, pa, ancre))
@@ -609,7 +629,9 @@ def page_defense():
     sv = c['serval']
     blocs.append(P.section(P.entete_section(sv['surtitre'], sv['titre'], sv['texte'], marge_bas=32) + [P.chiffres(sv['chiffres']),
         {'name': 'core/spacer', 'attributes': {'height': '48px'}},
-        P.rangee([P.colonne([P.titre(sv['presse']['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=16), P.liste_dates(sv['presse']['lignes'])])],
+        P.rangee([P.colonne(citations(P, sv.get('citations', []))),
+                  P.colonne([P.titre(sv['presse']['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=16), P.liste_dates(sv['presse']['lignes'])])],
+                 gouttiere=[48, 40, 0], gouttiere_v=[0, 0, 32],
                  layout='equal')],
         fond=ARDOISE, ancre='serval', bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}]))
     return c['titre'], blocs
@@ -653,7 +675,7 @@ def page_documentaires():
         if f.get('autre'):
             boutons.append({'texte': f['autre']['texte'], 'url': f['autre']['url'], 'style': 'contour'})
         texte = [P.surtitre(f['etiquette'], marge_bas=8), P.titre(f['titre'], 2, taille=(2.6, 2.2, 1.9), marge_bas=16),
-                 P.paragraphe(f['texte'], DOUX), faits, P.boutons(boutons, marge_haut=24, petit=True)]
+                 P.paragraphe(f['texte'], DOUX)] + (citations(P, [f['citation']]) if f.get('citation') else []) + [faits, P.boutons(boutons, marge_haut=24, petit=True)]
         bord = [{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}]
         blocs.append(P.section([P.rangee([P.colonne([image]), P.colonne(texte)], layout='equal', firstColumnWidth=55, secondColumnWidth=45,
                                          gouttiere=[56, 40, 0], gouttiere_v=[0, 0, 28], verticalAlignment='middle')],

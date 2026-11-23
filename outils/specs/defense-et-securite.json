@@ -6474,7 +6474,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-defense-77-s",
+    "uniqueID": "pd-defense-78-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -6534,7 +6534,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-defense-78-c",
+      "uniqueID": "pd-defense-79-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -7114,9 +7114,9 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-defense-76-r",
+        "uniqueID": "pd-defense-77-r",
         "kbVersion": 2,
-        "columns": 1,
+        "columns": 2,
         "colLayout": "equal",
         "mobileLayout": "row",
         "padding": [
@@ -7125,13 +7125,352 @@
          0,
          0
         ],
-        "paddingUnit": "px"
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         48,
+         40,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         32
+        ],
+        "rowGutterType": "px"
        },
        "innerBlocks": [
         {
          "name": "kadence/column",
          "attributes": {
           "uniqueID": "pd-defense-75-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "« Un très efficace montage vidéo. »",
+            "htmlTag": "p",
+            "fontSize": [
+             1.35,
+             1.25,
+             1.15
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.35,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontStyle": "italic",
+            "borderStyle": [
+             {
+              "top": [
+               "",
+               "",
+               ""
+              ],
+              "right": [
+               "",
+               "",
+               ""
+              ],
+              "bottom": [
+               "",
+               "",
+               ""
+              ],
+              "left": [
+               "#c8b287",
+               "solid",
+               2
+              ],
+              "unit": "px"
+             }
+            ],
+            "padding": [
+             0,
+             0,
+             0,
+             16
+            ],
+            "paddingType": "px",
+            "uniqueID": "pd-defense-et-securite-h144"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Philippe Chapleau, Lignes de défense (Ouest-France), 29 janvier 2013",
+            "htmlTag": "p",
+            "fontSize": [
+             0.8,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             22,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "400",
+            "padding": [
+             0,
+             0,
+             0,
+             18
+            ],
+            "paddingType": "px",
+            "uniqueID": "pd-defense-et-securite-h145"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "« Une vidéo synthétique mais forte, réalisée par le documentariste Pascal Dupont. »",
+            "htmlTag": "p",
+            "fontSize": [
+             1.35,
+             1.25,
+             1.15
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.35,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontStyle": "italic",
+            "borderStyle": [
+             {
+              "top": [
+               "",
+               "",
+               ""
+              ],
+              "right": [
+               "",
+               "",
+               ""
+              ],
+              "bottom": [
+               "",
+               "",
+               ""
+              ],
+              "left": [
+               "#c8b287",
+               "solid",
+               2
+              ],
+              "unit": "px"
+             }
+            ],
+            "padding": [
+             0,
+             0,
+             0,
+             16
+            ],
+            "paddingType": "px",
+            "uniqueID": "pd-defense-et-securite-h146"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Olivier Berger, Défense globale (La Voix du Nord), 29 janvier 2013",
+            "htmlTag": "p",
+            "fontSize": [
+             0.8,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             22,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "400",
+            "padding": [
+             0,
+             0,
+             0,
+             18
+            ],
+            "paddingType": "px",
+            "uniqueID": "pd-defense-et-securite-h147"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "« Deux vidéos, reprises en boucle par les chaînes d'information en continu. »",
+            "htmlTag": "p",
+            "fontSize": [
+             1.35,
+             1.25,
+             1.15
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.35,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontStyle": "italic",
+            "borderStyle": [
+             {
+              "top": [
+               "",
+               "",
+               ""
+              ],
+              "right": [
+               "",
+               "",
+               ""
+              ],
+              "bottom": [
+               "",
+               "",
+               ""
+              ],
+              "left": [
+               "#c8b287",
+               "solid",
+               2
+              ],
+              "unit": "px"
+             }
+            ],
+            "padding": [
+             0,
+             0,
+             0,
+             16
+            ],
+            "paddingType": "px",
+            "uniqueID": "pd-defense-et-securite-h148"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le Figaro, 4 mars 2013, à propos de la compilation de 13 minutes sur les combats de l'Adrar des Ifoghas",
+            "htmlTag": "p",
+            "fontSize": [
+             0.8,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.6,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             22,
+             ""
+            ],
+            "marginType": "px",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "400",
+            "padding": [
+             0,
+             0,
+             0,
+             18
+            ],
+            "paddingType": "px",
+            "uniqueID": "pd-defense-et-securite-h149"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-76-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -7169,7 +7508,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h144"
+            "uniqueID": "pd-defense-et-securite-h150"
            }
           },
           {
@@ -7183,7 +7522,7 @@
                 "tag": "td"
                },
                {
-                "content": "29 janv. et 5 mars",
+                "content": "29 janv. et 4 mars",
                 "tag": "td"
                }
               ]
@@ -7292,6 +7631,54 @@
                },
                {
                 "content": "25 mars",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Le Parisien",
+                "tag": "td"
+               },
+               {
+                "content": "3 mars",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Realpolitik.tv",
+                "tag": "td"
+               },
+               {
+                "content": "févr.",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Objectif Défense",
+                "tag": "td"
+               },
+               {
+                "content": "janv. à avril",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Midi Libre",
+                "tag": "td"
+               },
+               {
+                "content": "25 janv.",
                 "tag": "td"
                }
               ]
