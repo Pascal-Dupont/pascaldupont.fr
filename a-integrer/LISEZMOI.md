@@ -5,6 +5,15 @@ Déposez ici vos fichiers sur GitHub (bouton *Add file*, puis *Upload files*), p
 ## photos/
 Vos photos (portrait, image d'accueil plein écran, tournages). Format JPG, la plus grande taille possible (moins de 25 Mo par fichier). Le nom du fichier peut être libre ; ajoutez un mot si vous avez une préférence (ex. `portrait-prefere.jpg`, `accueil-option1.jpg`).
 
+## photos/ : rangez-les par sous-dossier
+- `photos/portrait/` : vous (page À propos)
+- `photos/accueil/` : candidates pour la grande image d'accueil (format paysage, image forte)
+- `photos/documentaires/`, `photos/defense/`, `photos/memoire/`, `photos/lakelab/` : photos de tournage par thème
+Ajoutez au nom du fichier ce que l'on ne voit pas sur l'image : lieu, film, année, et le photographe si ce n'est pas vous (ex. `tournage-chroniques-du-93-2010.jpg`, `jpo-2025-photo-lucile.jpg`).
+
+## logos/
+Logos des diffuseurs, clients et partenaires pour le bandeau défilant (SVG de préférence, sinon PNG à fond transparent), avec leur accord.
+
 ## vignettes/
 Les miniatures des films du 1er RCP (format 16/9, par exemple 1280 x 720 pixels, JPG). Nommez chaque fichier exactement comme ci-dessous :
 

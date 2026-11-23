@@ -432,13 +432,17 @@ def page_accueil():
         P.colonne(P.coordonnee('Téléphone', ident['telephone']) + P.coordonnee('E-mail', ident['email'])),
     ], layout='equal', gouttiere=[56, 40, 0], gouttiere_v=[0, 0, 32])])
     bd = c['bandeau']
-    noms_bd = {'name': 'core/list', 'attributes': {'className': 'pd-bandeau-noms'},
-               'innerBlocks': [{'name': 'core/list-item', 'attributes': {'content': n}} for n in bd['noms']]}
-    bandeau = P.section([P.rangee([
-        P.colonne([P.surtitre(bd['etiquette'], couleur=DOUX, marge_bas=0)]),
-        P.colonne([noms_bd] + logos),
-    ], layout='equal', firstColumnWidth=24, secondColumnWidth=76, gouttiere=[32, 24, 0], gouttiere_v=[0, 0, 16], verticalAlignment='middle')],
-        fond=NUIT, padding=(28, 24, 24), bordures=[{'top': ['', '', ''], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
+    def piste(cachee):
+        h = []
+        for e in bd['elements']:
+            if e.get('logo'):
+                h.append('<li><img src="%s%s" alt="%s" height="44" loading="lazy"></li>' % (LOGOS, e['logo'], '' if cachee else 'Logo ' + e['nom']))
+            else:
+                h.append('<li><span>%s</span></li>' % e['nom'])
+        return '<ul class="pd-defilement-piste"%s>%s</ul>' % (' aria-hidden="true"' if cachee else '', ''.join(h))
+    defilement = {'name': 'core/html', 'attributes': {'content': '<div class="pd-defilement">' + piste(False) + piste(True) + '</div>'}}
+    bandeau = P.section([P.surtitre(bd['etiquette'], couleur=DOUX, marge_bas=20), defilement],
+                        fond=NUIT, padding=(32, 28, 24), bordures=[{'top': ['', '', ''], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
 
     tr = c['territoires']
     rangs = []

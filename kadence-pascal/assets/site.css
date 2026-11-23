@@ -111,3 +111,18 @@ ul.pd-bandeau-noms li { margin: 0; }
 @media (min-width: 1025px) {
 	.pd-quinconce > .kt-row-column-wrap > .wp-block-kadence-column:nth-child(3n+2) { margin-top: 56px; }
 }
+
+/* Accueil : bandeau défilant des diffuseurs, clients et partenaires (logos et noms en blanc uniforme) */
+.pd-defilement { display: flex; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+.pd-defilement { align-items: flex-start; }
+.pd-defilement ul.pd-defilement-piste { display: flex; flex: none; align-items: center; height: 56px; margin: 0 !important; padding: 0 !important; list-style: none; animation: pd-defile 36s linear infinite; }
+.pd-defilement-piste li { flex: none; margin: 0 64px 0 0; padding: 0; display: flex; align-items: center; height: 56px; }
+.pd-defilement-piste img { height: 44px; width: auto; max-width: none; opacity: .9; }
+.pd-defilement-piste span { font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace; font-size: .95rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: #e8e6e1; opacity: .9; white-space: nowrap; }
+.pd-defilement:hover .pd-defilement-piste { animation-play-state: paused; }
+@keyframes pd-defile { to { transform: translateX(-100%); } }
+@media (prefers-reduced-motion: reduce) {
+	.pd-defilement { -webkit-mask-image: none; mask-image: none; }
+	.pd-defilement-piste { animation: none; flex-wrap: wrap; row-gap: 16px; }
+	.pd-defilement-piste[aria-hidden="true"] { display: none; }
+}

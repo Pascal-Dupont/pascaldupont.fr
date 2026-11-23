@@ -189,6 +189,28 @@
           "FA3R",
           "1er RCP",
           "European Defense Review"
+        ],
+        "elements": [
+          {
+            "nom": "Fondation Résilience",
+            "logo": "resilience-bandeau.svg"
+          },
+          {
+            "nom": "France 4"
+          },
+          {
+            "nom": "FA3R",
+            "logo": "fa3r-blanc.png"
+          },
+          {
+            "nom": "W9"
+          },
+          {
+            "nom": "1er RCP"
+          },
+          {
+            "nom": "European Defense Review"
+          }
         ]
       },
       "territoires": {

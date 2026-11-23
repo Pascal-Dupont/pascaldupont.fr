@@ -430,7 +430,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-59-s",
+    "uniqueID": "pd-accueil-56-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -439,15 +439,15 @@
     "bgColor": "palette9",
     "textColor": "palette3",
     "padding": [
-     28,
+     32,
      "",
-     28,
+     32,
      ""
     ],
     "tabletPadding": [
-     24,
+     28,
      "",
-     24,
+     28,
      ""
     ],
     "mobilePadding": [
@@ -489,7 +489,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-60-c",
+      "uniqueID": "pd-accueil-57-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -500,244 +500,44 @@
      },
      "innerBlocks": [
       {
-       "name": "kadence/rowlayout",
+       "name": "kadence/advancedheading",
        "attributes": {
-        "uniqueID": "pd-accueil-58-r",
-        "kbVersion": 2,
-        "columns": 2,
-        "colLayout": "equal",
-        "mobileLayout": "row",
-        "padding": [
-         0,
-         0,
-         0,
-         0
+        "content": "Diffuseurs, clients et partenaires",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
         ],
-        "paddingUnit": "px",
-        "columnGutter": "custom",
-        "tabletGutter": "custom",
-        "mobileGutter": "custom",
-        "customGutter": [
-         32,
-         24,
-         0
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
         ],
-        "gutterType": "px",
-        "collapseGutter": "custom",
-        "tabletRowGutter": "custom",
-        "mobileRowGutter": "custom",
-        "customRowGutter": [
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette4",
+        "margin": [
          0,
-         0,
-         16
+         "",
+         20,
+         ""
         ],
-        "rowGutterType": "px",
-        "firstColumnWidth": 24,
-        "secondColumnWidth": 76,
-        "verticalAlignment": "middle"
-       },
-       "innerBlocks": [
-        {
-         "name": "kadence/column",
-         "attributes": {
-          "uniqueID": "pd-accueil-56-c",
-          "kbVersion": 2,
-          "borderWidth": [
-           "",
-           "",
-           "",
-           ""
-          ]
-         },
-         "innerBlocks": [
-          {
-           "name": "kadence/advancedheading",
-           "attributes": {
-            "content": "Diffuseurs, clients et partenaires",
-            "htmlTag": "p",
-            "typography": "IBM Plex Mono",
-            "googleFont": false,
-            "fontWeight": "500",
-            "fontSize": [
-             0.75,
-             "",
-             ""
-            ],
-            "sizeType": "rem",
-            "fontHeight": [
-             1.5,
-             "",
-             ""
-            ],
-            "fontHeightType": "",
-            "letterSpacing": 0.14,
-            "letterSpacingType": "em",
-            "textTransform": "uppercase",
-            "color": "palette4",
-            "margin": [
-             0,
-             "",
-             0,
-             ""
-            ],
-            "marginType": "px",
-            "uniqueID": "pd-accueil-h4"
-           }
-          }
-         ]
-        },
-        {
-         "name": "kadence/column",
-         "attributes": {
-          "uniqueID": "pd-accueil-57-c",
-          "kbVersion": 2,
-          "borderWidth": [
-           "",
-           "",
-           "",
-           ""
-          ]
-         },
-         "innerBlocks": [
-          {
-           "name": "core/list",
-           "attributes": {
-            "className": "pd-bandeau-noms"
-           },
-           "innerBlocks": [
-            {
-             "name": "core/list-item",
-             "attributes": {
-              "content": "France 4"
-             }
-            },
-            {
-             "name": "core/list-item",
-             "attributes": {
-              "content": "W9"
-             }
-            },
-            {
-             "name": "core/list-item",
-             "attributes": {
-              "content": "Fondation Résilience"
-             }
-            },
-            {
-             "name": "core/list-item",
-             "attributes": {
-              "content": "FA3R"
-             }
-            },
-            {
-             "name": "core/list-item",
-             "attributes": {
-              "content": "1er RCP"
-             }
-            },
-            {
-             "name": "core/list-item",
-             "attributes": {
-              "content": "European Defense Review"
-             }
-            }
-           ]
-          },
-          {
-           "name": "core/group",
-           "attributes": {
-            "layout": {
-             "type": "flex",
-             "flexWrap": "wrap",
-             "justifyContent": "left"
-            },
-            "style": {
-             "spacing": {
-              "blockGap": "16px",
-              "margin": {
-               "bottom": "28px"
-              }
-             }
-            }
-           },
-           "innerBlocks": [
-            {
-             "name": "core/group",
-             "attributes": {
-              "style": {
-               "color": {
-                "background": "#010101"
-               },
-               "spacing": {
-                "padding": {
-                 "top": "18px",
-                 "right": "24px",
-                 "bottom": "18px",
-                 "left": "24px"
-                }
-               },
-               "border": {
-                "radius": "3px"
-               }
-              },
-              "layout": {
-               "type": "constrained"
-              }
-             },
-             "innerBlocks": [
-              {
-               "name": "core/image",
-               "attributes": {
-                "url": "/wp-content/themes/kadence-pascal/assets/logos/resilience-blanc.svg",
-                "alt": "Logo Fondation Résilience",
-                "width": "200px",
-                "sizeSlug": "full",
-                "align": "center"
-               }
-              }
-             ]
-            },
-            {
-             "name": "core/group",
-             "attributes": {
-              "style": {
-               "color": {
-                "background": "#ffffff"
-               },
-               "spacing": {
-                "padding": {
-                 "top": "18px",
-                 "right": "24px",
-                 "bottom": "18px",
-                 "left": "24px"
-                }
-               },
-               "border": {
-                "radius": "3px"
-               }
-              },
-              "layout": {
-               "type": "constrained"
-              }
-             },
-             "innerBlocks": [
-              {
-               "name": "core/image",
-               "attributes": {
-                "url": "/wp-content/themes/kadence-pascal/assets/logos/fa3r.png",
-                "alt": "Logo FA3R",
-                "width": "150px",
-                "sizeSlug": "full",
-                "align": "center"
-               }
-              }
-             ]
-            }
-           ]
-          }
-         ]
-        }
-       ]
+        "marginType": "px",
+        "uniqueID": "pd-accueil-h4"
+       }
+      },
+      {
+       "name": "core/html",
+       "attributes": {
+        "content": "<div class=\"pd-defilement\"><ul class=\"pd-defilement-piste\"><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/resilience-bandeau.svg\" alt=\"Logo Fondation Résilience\" height=\"44\" loading=\"lazy\"></li><li><span>France 4</span></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/fa3r-blanc.png\" alt=\"Logo FA3R\" height=\"44\" loading=\"lazy\"></li><li><span>W9</span></li><li><span>1er RCP</span></li><li><span>European Defense Review</span></li></ul><ul class=\"pd-defilement-piste\" aria-hidden=\"true\"><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/resilience-bandeau.svg\" alt=\"\" height=\"44\" loading=\"lazy\"></li><li><span>France 4</span></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/fa3r-blanc.png\" alt=\"\" height=\"44\" loading=\"lazy\"></li><li><span>W9</span></li><li><span>1er RCP</span></li><li><span>European Defense Review</span></li></ul></div>"
+       }
       }
      ]
     }
@@ -1910,7 +1710,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-83-s",
+    "uniqueID": "pd-accueil-80-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -1970,7 +1770,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-84-c",
+      "uniqueID": "pd-accueil-81-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -2048,7 +1848,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-82-r",
+        "uniqueID": "pd-accueil-79-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -2084,7 +1884,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-78-c",
+          "uniqueID": "pd-accueil-75-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2413,7 +2213,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-79-c",
+          "uniqueID": "pd-accueil-76-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -2742,7 +2542,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-80-c",
+          "uniqueID": "pd-accueil-77-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3071,7 +2871,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-81-c",
+          "uniqueID": "pd-accueil-78-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3406,7 +3206,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-accueil-76-s",
+    "uniqueID": "pd-accueil-73-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -3466,7 +3266,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-accueil-77-c",
+      "uniqueID": "pd-accueil-74-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -3544,7 +3344,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-63-r",
+        "uniqueID": "pd-accueil-60-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -3607,7 +3407,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-61-c",
+          "uniqueID": "pd-accueil-58-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3752,7 +3552,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-62-c",
+          "uniqueID": "pd-accueil-59-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3789,7 +3589,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-66-r",
+        "uniqueID": "pd-accueil-63-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -3852,7 +3652,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-64-c",
+          "uniqueID": "pd-accueil-61-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -3997,7 +3797,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-65-c",
+          "uniqueID": "pd-accueil-62-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4034,7 +3834,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-69-r",
+        "uniqueID": "pd-accueil-66-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -4097,7 +3897,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-67-c",
+          "uniqueID": "pd-accueil-64-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4242,7 +4042,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-68-c",
+          "uniqueID": "pd-accueil-65-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4279,7 +4079,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-72-r",
+        "uniqueID": "pd-accueil-69-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -4342,7 +4142,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-70-c",
+          "uniqueID": "pd-accueil-67-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4487,7 +4287,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-71-c",
+          "uniqueID": "pd-accueil-68-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4524,7 +4324,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-accueil-75-r",
+        "uniqueID": "pd-accueil-72-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -4587,7 +4387,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-73-c",
+          "uniqueID": "pd-accueil-70-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4732,7 +4532,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-accueil-74-c",
+          "uniqueID": "pd-accueil-71-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
