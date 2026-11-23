@@ -292,7 +292,7 @@
           {
            "name": "core/paragraph",
            "attributes": {
-            "content": "Les textes, films et photographies de ce site sont la propriété de Pascal Dupont, sauf mention contraire. Les images de l'opération Serval proviennent de l'EMA et sont diffusées par l'ECPAD, sans utilisation commerciale. Toute reproduction sans accord est interdite.",
+            "content": "Les textes, films et photographies de ce site sont la propriété de Pascal Dupont, sauf mention contraire.<br>Les logos des diffuseurs, clients et partenaires appartiennent à leurs propriétaires respectifs.",
             "style": {
              "typography": {
               "fontSize": "1.0625rem",
