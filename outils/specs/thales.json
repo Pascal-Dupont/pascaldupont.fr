@@ -606,36 +606,31 @@
          },
          "innerBlocks": [
           {
-           "name": "core/cover",
+           "name": "kadence/image",
            "attributes": {
-            "customGradient": "linear-gradient(160deg,hsl(236 22% 34%),hsl(236 26% 10%))",
-            "dimRatio": 100,
-            "isDark": true,
-            "contentPosition": "bottom left",
-            "minHeight": 120,
-            "minHeightUnit": "px",
-            "style": {
-             "dimensions": {
-              "aspectRatio": "16/9"
-             },
-             "border": {
-              "radius": "2px"
-             },
-             "spacing": {
-              "margin": {
-               "bottom": "14px"
-              },
-              "padding": {
-               "top": "12px",
-               "right": "14px",
-               "bottom": "12px",
-               "left": "14px"
-              }
-             }
-            },
-            "className": "pd-vignette-vide"
-           },
-           "innerBlocks": []
+            "url": "/wp-content/themes/kadence-pascal/assets/vignettes/rcp10.jpg",
+            "alt": "Vignette du film « Thales Onyx »",
+            "useRatio": true,
+            "ratio": "land169",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "link": "https://www.instagram.com/reel/DdZMV6Ht0Eu/",
+            "linkTarget": true,
+            "linkTitle": "Voir « Thales Onyx » (nouvel onglet)",
+            "uniqueID": "pd-thales-h11"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -668,7 +663,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h11"
+            "uniqueID": "pd-thales-h12"
            }
           },
           {
@@ -704,7 +699,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-thales-h12"
+            "uniqueID": "pd-thales-h13"
            }
           },
           {
@@ -732,7 +727,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h13"
+            "uniqueID": "pd-thales-h14"
            }
           },
           {
@@ -763,7 +758,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-thales-h14"
+            "uniqueID": "pd-thales-h15"
            }
           }
          ]
@@ -784,36 +779,31 @@
          },
          "innerBlocks": [
           {
-           "name": "core/cover",
+           "name": "kadence/image",
            "attributes": {
-            "customGradient": "linear-gradient(160deg,hsl(237 22% 34%),hsl(237 26% 10%))",
-            "dimRatio": 100,
-            "isDark": true,
-            "contentPosition": "bottom left",
-            "minHeight": 120,
-            "minHeightUnit": "px",
-            "style": {
-             "dimensions": {
-              "aspectRatio": "16/9"
-             },
-             "border": {
-              "radius": "2px"
-             },
-             "spacing": {
-              "margin": {
-               "bottom": "14px"
-              },
-              "padding": {
-               "top": "12px",
-               "right": "14px",
-               "bottom": "12px",
-               "left": "14px"
-              }
-             }
-            },
-            "className": "pd-vignette-vide"
-           },
-           "innerBlocks": []
+            "url": "/wp-content/themes/kadence-pascal/assets/vignettes/rcp11.jpg",
+            "alt": "Vignette du film « Thales PR4G »",
+            "useRatio": true,
+            "ratio": "land169",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "link": "https://www.instagram.com/reel/Ddjk7LEtpA-/",
+            "linkTarget": true,
+            "linkTitle": "Voir « Thales PR4G » (nouvel onglet)",
+            "uniqueID": "pd-thales-h16"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -846,7 +836,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h15"
+            "uniqueID": "pd-thales-h17"
            }
           },
           {
@@ -882,7 +872,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-thales-h16"
+            "uniqueID": "pd-thales-h18"
            }
           },
           {
@@ -910,7 +900,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h17"
+            "uniqueID": "pd-thales-h19"
            }
           },
           {
@@ -941,7 +931,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-thales-h18"
+            "uniqueID": "pd-thales-h20"
            }
           }
          ]
@@ -1077,7 +1067,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-thales-h19"
+            "uniqueID": "pd-thales-h21"
            }
           },
           {
@@ -1105,7 +1095,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h20"
+            "uniqueID": "pd-thales-h22"
            }
           }
          ]
@@ -1183,7 +1173,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-thales-h21"
+            "uniqueID": "pd-thales-h23"
            }
           },
           {
@@ -1211,7 +1201,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h22"
+            "uniqueID": "pd-thales-h24"
            }
           }
          ]
@@ -1252,7 +1242,7 @@
         "typography": "IBM Plex Mono",
         "googleFont": false,
         "fontWeight": "400",
-        "uniqueID": "pd-thales-h23"
+        "uniqueID": "pd-thales-h25"
        }
       }
      ]

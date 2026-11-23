@@ -49,5 +49,5 @@
 ## Mise à jour du 23 novembre 2026
 - [x] Vidéos non répertoriées intégrées : showreel Eurosatory 2022 (tête de la page Défense), Thales 120RT et Thales 2R2M Eurosatory 2018 (page Thales, protégée).
 - [ ] Thales 2R2M : Sarah a autorisé « Thales 2R2M, Mai 2018 » ; le lien fourni s'intitule « Thales 2R2M Eurosatory 2018 ». Vérifier qu'il s'agit bien du film autorisé (elle verra la page avant publication).
-- [ ] Miniatures des films du 1er RCP : à déposer dans a-integrer/vignettes/ (noms dans a-integrer/LISEZMOI.md).
+- [x] Miniatures des films du 1er RCP intégrées (10 sur 11 ; rcp8, chapitre 4, quand le film sortira).
 - [ ] Photos : à déposer dans a-integrer/photos/.

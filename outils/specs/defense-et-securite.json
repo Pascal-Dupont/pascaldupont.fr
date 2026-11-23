@@ -3331,36 +3331,31 @@
          },
          "innerBlocks": [
           {
-           "name": "core/cover",
+           "name": "kadence/image",
            "attributes": {
-            "customGradient": "linear-gradient(160deg,hsl(190 22% 34%),hsl(190 26% 10%))",
-            "dimRatio": 100,
-            "isDark": true,
-            "contentPosition": "bottom left",
-            "minHeight": 120,
-            "minHeightUnit": "px",
-            "style": {
-             "dimensions": {
-              "aspectRatio": "16/9"
-             },
-             "border": {
-              "radius": "2px"
-             },
-             "spacing": {
-              "margin": {
-               "bottom": "14px"
-              },
-              "padding": {
-               "top": "12px",
-               "right": "14px",
-               "bottom": "12px",
-               "left": "14px"
-              }
-             }
-            },
-            "className": "pd-vignette-vide"
-           },
-           "innerBlocks": []
+            "url": "/wp-content/themes/kadence-pascal/assets/vignettes/rcp3.jpg",
+            "alt": "Vignette du film « Section robotique et renseignement »",
+            "useRatio": true,
+            "ratio": "land169",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "link": "https://www.instagram.com/reel/DJWFjqas4Ez/",
+            "linkTarget": true,
+            "linkTitle": "Voir « Section robotique et renseignement » (nouvel onglet)",
+            "uniqueID": "pd-defense-et-securite-h66"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -3393,7 +3388,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h66"
+            "uniqueID": "pd-defense-et-securite-h67"
            }
           },
           {
@@ -3429,7 +3424,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-defense-et-securite-h67"
+            "uniqueID": "pd-defense-et-securite-h68"
            }
           },
           {
@@ -3457,7 +3452,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h68"
+            "uniqueID": "pd-defense-et-securite-h69"
            }
           },
           {
@@ -3488,7 +3483,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-defense-et-securite-h69"
+            "uniqueID": "pd-defense-et-securite-h70"
            }
           }
          ]
@@ -3509,36 +3504,31 @@
          },
          "innerBlocks": [
           {
-           "name": "core/cover",
+           "name": "kadence/image",
            "attributes": {
-            "customGradient": "linear-gradient(160deg,hsl(196 22% 34%),hsl(196 26% 10%))",
-            "dimRatio": 100,
-            "isDark": true,
-            "contentPosition": "bottom left",
-            "minHeight": 120,
-            "minHeightUnit": "px",
-            "style": {
-             "dimensions": {
-              "aspectRatio": "16/9"
-             },
-             "border": {
-              "radius": "2px"
-             },
-             "spacing": {
-              "margin": {
-               "bottom": "14px"
-              },
-              "padding": {
-               "top": "12px",
-               "right": "14px",
-               "bottom": "12px",
-               "left": "14px"
-              }
-             }
-            },
-            "className": "pd-vignette-vide"
-           },
-           "innerBlocks": []
+            "url": "/wp-content/themes/kadence-pascal/assets/vignettes/rcp9.jpg",
+            "alt": "Vignette du film « Camp régimentaire 2025 »",
+            "useRatio": true,
+            "ratio": "land169",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "link": "https://www.instagram.com/reel/DTnqKLuDc5q/",
+            "linkTarget": true,
+            "linkTitle": "Voir « Camp régimentaire 2025 » (nouvel onglet)",
+            "uniqueID": "pd-defense-et-securite-h71"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -3571,7 +3561,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h70"
+            "uniqueID": "pd-defense-et-securite-h72"
            }
           },
           {
@@ -3607,7 +3597,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-defense-et-securite-h71"
+            "uniqueID": "pd-defense-et-securite-h73"
            }
           },
           {
@@ -3635,7 +3625,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h72"
+            "uniqueID": "pd-defense-et-securite-h74"
            }
           },
           {
@@ -3666,7 +3656,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-defense-et-securite-h73"
+            "uniqueID": "pd-defense-et-securite-h75"
            }
           }
          ]
@@ -3687,36 +3677,31 @@
          },
          "innerBlocks": [
           {
-           "name": "core/cover",
+           "name": "kadence/image",
            "attributes": {
-            "customGradient": "linear-gradient(160deg,hsl(236 22% 34%),hsl(236 26% 10%))",
-            "dimRatio": 100,
-            "isDark": true,
-            "contentPosition": "bottom left",
-            "minHeight": 120,
-            "minHeightUnit": "px",
-            "style": {
-             "dimensions": {
-              "aspectRatio": "16/9"
-             },
-             "border": {
-              "radius": "2px"
-             },
-             "spacing": {
-              "margin": {
-               "bottom": "14px"
-              },
-              "padding": {
-               "top": "12px",
-               "right": "14px",
-               "bottom": "12px",
-               "left": "14px"
-              }
-             }
-            },
-            "className": "pd-vignette-vide"
-           },
-           "innerBlocks": []
+            "url": "/wp-content/themes/kadence-pascal/assets/vignettes/rcp10.jpg",
+            "alt": "Vignette du film « Thales Onyx »",
+            "useRatio": true,
+            "ratio": "land169",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "link": "https://www.instagram.com/reel/DdZMV6Ht0Eu/",
+            "linkTarget": true,
+            "linkTitle": "Voir « Thales Onyx » (nouvel onglet)",
+            "uniqueID": "pd-defense-et-securite-h76"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -3749,7 +3734,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h74"
+            "uniqueID": "pd-defense-et-securite-h77"
            }
           },
           {
@@ -3785,7 +3770,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-defense-et-securite-h75"
+            "uniqueID": "pd-defense-et-securite-h78"
            }
           },
           {
@@ -3813,7 +3798,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h76"
+            "uniqueID": "pd-defense-et-securite-h79"
            }
           },
           {
@@ -3844,7 +3829,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-defense-et-securite-h77"
+            "uniqueID": "pd-defense-et-securite-h80"
            }
           }
          ]
@@ -4148,7 +4133,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h78"
+            "uniqueID": "pd-defense-et-securite-h81"
            }
           },
           {
@@ -4227,7 +4212,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h79"
+            "uniqueID": "pd-defense-et-securite-h82"
            }
           },
           {
@@ -4385,7 +4370,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-defense-et-securite-h80"
+        "uniqueID": "pd-defense-et-securite-h83"
        }
       },
       {
@@ -4416,7 +4401,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-defense-et-securite-h81"
+        "uniqueID": "pd-defense-et-securite-h84"
        }
       },
       {
@@ -4479,36 +4464,31 @@
          },
          "innerBlocks": [
           {
-           "name": "core/cover",
+           "name": "kadence/image",
            "attributes": {
-            "customGradient": "linear-gradient(160deg,hsl(190 22% 34%),hsl(190 26% 10%))",
-            "dimRatio": 100,
-            "isDark": true,
-            "contentPosition": "bottom left",
-            "minHeight": 120,
-            "minHeightUnit": "px",
-            "style": {
-             "dimensions": {
-              "aspectRatio": "16/9"
-             },
-             "border": {
-              "radius": "2px"
-             },
-             "spacing": {
-              "margin": {
-               "bottom": "14px"
-              },
-              "padding": {
-               "top": "12px",
-               "right": "14px",
-               "bottom": "12px",
-               "left": "14px"
-              }
-             }
-            },
-            "className": "pd-vignette-vide"
-           },
-           "innerBlocks": []
+            "url": "/wp-content/themes/kadence-pascal/assets/vignettes/rcp3.jpg",
+            "alt": "Vignette du film « Section robotique et renseignement »",
+            "useRatio": true,
+            "ratio": "land169",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "link": "https://www.instagram.com/reel/DJWFjqas4Ez/",
+            "linkTarget": true,
+            "linkTitle": "Voir « Section robotique et renseignement » (nouvel onglet)",
+            "uniqueID": "pd-defense-et-securite-h85"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -4541,7 +4521,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h82"
+            "uniqueID": "pd-defense-et-securite-h86"
            }
           },
           {
@@ -4577,7 +4557,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-defense-et-securite-h83"
+            "uniqueID": "pd-defense-et-securite-h87"
            }
           },
           {
@@ -4605,7 +4585,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h84"
+            "uniqueID": "pd-defense-et-securite-h88"
            }
           },
           {
@@ -4636,7 +4616,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-defense-et-securite-h85"
+            "uniqueID": "pd-defense-et-securite-h89"
            }
           }
          ]
@@ -4657,36 +4637,31 @@
          },
          "innerBlocks": [
           {
-           "name": "core/cover",
+           "name": "kadence/image",
            "attributes": {
-            "customGradient": "linear-gradient(160deg,hsl(258 22% 34%),hsl(258 26% 10%))",
-            "dimRatio": 100,
-            "isDark": true,
-            "contentPosition": "bottom left",
-            "minHeight": 120,
-            "minHeightUnit": "px",
-            "style": {
-             "dimensions": {
-              "aspectRatio": "16/9"
-             },
-             "border": {
-              "radius": "2px"
-             },
-             "spacing": {
-              "margin": {
-               "bottom": "14px"
-              },
-              "padding": {
-               "top": "12px",
-               "right": "14px",
-               "bottom": "12px",
-               "left": "14px"
-              }
-             }
-            },
-            "className": "pd-vignette-vide"
-           },
-           "innerBlocks": []
+            "url": "/wp-content/themes/kadence-pascal/assets/vignettes/rcp1.jpg",
+            "alt": "Vignette du film « JPO 2025, première partie »",
+            "useRatio": true,
+            "ratio": "land169",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "link": "https://www.instagram.com/reel/DKbpGcdso3j/",
+            "linkTarget": true,
+            "linkTitle": "Voir « JPO 2025, première partie » (nouvel onglet)",
+            "uniqueID": "pd-defense-et-securite-h90"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -4719,7 +4694,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h86"
+            "uniqueID": "pd-defense-et-securite-h91"
            }
           },
           {
@@ -4755,7 +4730,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-defense-et-securite-h87"
+            "uniqueID": "pd-defense-et-securite-h92"
            }
           },
           {
@@ -4783,7 +4758,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h88"
+            "uniqueID": "pd-defense-et-securite-h93"
            }
           },
           {
@@ -4814,7 +4789,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-defense-et-securite-h89"
+            "uniqueID": "pd-defense-et-securite-h94"
            }
           }
          ]
@@ -4835,36 +4810,31 @@
          },
          "innerBlocks": [
           {
-           "name": "core/cover",
+           "name": "kadence/image",
            "attributes": {
-            "customGradient": "linear-gradient(160deg,hsl(196 22% 34%),hsl(196 26% 10%))",
-            "dimRatio": 100,
-            "isDark": true,
-            "contentPosition": "bottom left",
-            "minHeight": 120,
-            "minHeightUnit": "px",
-            "style": {
-             "dimensions": {
-              "aspectRatio": "16/9"
-             },
-             "border": {
-              "radius": "2px"
-             },
-             "spacing": {
-              "margin": {
-               "bottom": "14px"
-              },
-              "padding": {
-               "top": "12px",
-               "right": "14px",
-               "bottom": "12px",
-               "left": "14px"
-              }
-             }
-            },
-            "className": "pd-vignette-vide"
-           },
-           "innerBlocks": []
+            "url": "/wp-content/themes/kadence-pascal/assets/vignettes/rcp9.jpg",
+            "alt": "Vignette du film « Camp régimentaire 2025 »",
+            "useRatio": true,
+            "ratio": "land169",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "link": "https://www.instagram.com/reel/DTnqKLuDc5q/",
+            "linkTarget": true,
+            "linkTitle": "Voir « Camp régimentaire 2025 » (nouvel onglet)",
+            "uniqueID": "pd-defense-et-securite-h95"
+           }
           },
           {
            "name": "kadence/advancedheading",
@@ -4897,7 +4867,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h90"
+            "uniqueID": "pd-defense-et-securite-h96"
            }
           },
           {
@@ -4933,7 +4903,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-defense-et-securite-h91"
+            "uniqueID": "pd-defense-et-securite-h97"
            }
           },
           {
@@ -4961,7 +4931,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h92"
+            "uniqueID": "pd-defense-et-securite-h98"
            }
           },
           {
@@ -4992,7 +4962,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-defense-et-securite-h93"
+            "uniqueID": "pd-defense-et-securite-h99"
            }
           }
          ]
@@ -5036,7 +5006,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-defense-et-securite-h94"
+            "uniqueID": "pd-defense-et-securite-h100"
            }
           },
           {
@@ -5070,7 +5040,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h95"
+            "uniqueID": "pd-defense-et-securite-h101"
            }
           },
           {
@@ -5101,7 +5071,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h96"
+            "uniqueID": "pd-defense-et-securite-h102"
            }
           },
           {
@@ -5129,7 +5099,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h97"
+            "uniqueID": "pd-defense-et-securite-h103"
            }
           }
          ]
@@ -5173,7 +5143,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-defense-et-securite-h98"
+            "uniqueID": "pd-defense-et-securite-h104"
            }
           },
           {
@@ -5207,7 +5177,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h99"
+            "uniqueID": "pd-defense-et-securite-h105"
            }
           },
           {
@@ -5238,7 +5208,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h100"
+            "uniqueID": "pd-defense-et-securite-h106"
            }
           },
           {
@@ -5266,7 +5236,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h101"
+            "uniqueID": "pd-defense-et-securite-h107"
            }
           }
          ]
@@ -5310,7 +5280,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-defense-et-securite-h102"
+            "uniqueID": "pd-defense-et-securite-h108"
            }
           },
           {
@@ -5344,7 +5314,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h103"
+            "uniqueID": "pd-defense-et-securite-h109"
            }
           },
           {
@@ -5375,7 +5345,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h104"
+            "uniqueID": "pd-defense-et-securite-h110"
            }
           },
           {
@@ -5403,7 +5373,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h105"
+            "uniqueID": "pd-defense-et-securite-h111"
            }
           }
          ]
@@ -5769,7 +5739,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-defense-et-securite-h106"
+        "uniqueID": "pd-defense-et-securite-h112"
        }
       },
       {
@@ -5800,7 +5770,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-defense-et-securite-h107"
+        "uniqueID": "pd-defense-et-securite-h113"
        }
       },
       {
@@ -5834,7 +5804,7 @@
          ""
         ],
         "maxWidthType": "px",
-        "uniqueID": "pd-defense-et-securite-h108"
+        "uniqueID": "pd-defense-et-securite-h114"
        }
       },
       {
@@ -5946,7 +5916,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-defense-et-securite-h109"
+            "uniqueID": "pd-defense-et-securite-h115"
            }
           },
           {
@@ -5974,7 +5944,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h110"
+            "uniqueID": "pd-defense-et-securite-h116"
            }
           }
          ]
@@ -6052,7 +6022,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-defense-et-securite-h111"
+            "uniqueID": "pd-defense-et-securite-h117"
            }
           },
           {
@@ -6080,7 +6050,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h112"
+            "uniqueID": "pd-defense-et-securite-h118"
            }
           }
          ]
@@ -6158,7 +6128,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-defense-et-securite-h113"
+            "uniqueID": "pd-defense-et-securite-h119"
            }
           },
           {
@@ -6186,7 +6156,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h114"
+            "uniqueID": "pd-defense-et-securite-h120"
            }
           }
          ]
@@ -6264,7 +6234,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-defense-et-securite-h115"
+            "uniqueID": "pd-defense-et-securite-h121"
            }
           },
           {
@@ -6292,7 +6262,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h116"
+            "uniqueID": "pd-defense-et-securite-h122"
            }
           }
          ]
@@ -6363,7 +6333,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h117"
+            "uniqueID": "pd-defense-et-securite-h123"
            }
           },
           {
