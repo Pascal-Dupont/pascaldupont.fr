@@ -363,6 +363,10 @@
             "2011"
           ],
           [
+            "Eurosatory, premières captations pour la presse spécialisée",
+            "2012"
+          ],
+          [
             "Série Serval, Mali",
             "2013"
           ],
@@ -414,7 +418,7 @@
       "parcours": {
         "surtitre": "Avant la caméra",
         "titre": "Le terrain, d'abord",
-        "texte": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, le Gabon, la Côte d'Ivoire en 2002, puis la Bosnie en 2003. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
+        "texte": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, le Gabon, la Côte d'Ivoire en 2002 au sein de la Section Mortiers Lourds (SML), puis la Bosnie en 2003. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
         "photos": [
           {
             "fichier": "parcours-collioure.jpg",
@@ -844,6 +848,41 @@
             "style": "contour"
           }
         ]
+      },
+      "medias": {
+        "surtitre": "Salons et médias de défense",
+        "titre": "Collaborations avec les médias de défense",
+        "texte": "Au fil des salons, des collaborations ponctuelles avec des médias de référence du secteur : la relance du canal audiovisuel du magazine Opérationnels, et des captations à Eurosatory depuis 2012.",
+        "chiffres": [
+          {
+            "valeur": "139 000",
+            "texte": "vues pour le film sur la frégate de défense et d'intervention de Naval Group"
+          },
+          {
+            "valeur": "Depuis 2012",
+            "texte": "des captations à Eurosatory, pour la presse spécialisée"
+          }
+        ],
+        "operationnels": {
+          "titre": "Pour le magazine Opérationnels",
+          "films": [
+            "M9cVuGh9AEg",
+            "zrM2IovBxd8",
+            "rkVNQGSf9tE",
+            "cdmiJ98rPck",
+            "ygB4SjvIGg0"
+          ]
+        },
+        "salons": {
+          "titre": "Entretiens et captations de salon",
+          "texte": "Dont deux entretiens avec le dirigeant de PGM Précision, le fabricant du fusil Hécate II que j'ai pu côtoyer sur le terrain, en Côte d'Ivoire.",
+          "films": [
+            "ZU_uP_fc4fY",
+            "F8hEzZFJXyI",
+            "XHaB_xejsi0",
+            "n7ahiCbSb0E"
+          ]
+        }
       }
     },
     "lakelab": {
@@ -1010,7 +1049,8 @@
           "bNW6-rmkwSk",
           "QxnCk8AzNmE",
           "SA07sD4wLHg",
-          "QdW01BdD24k"
+          "QdW01BdD24k",
+          "x0FG7S3E070"
         ]
       }
     },
@@ -1262,6 +1302,83 @@
             "description": "Chargement, avec le 1er RHC, à Suippes",
             "duree": "1:34",
             "youtube": "https://www.youtube.com/watch?v=QdW01BdD24k"
+          },
+          {
+            "id": "x0FG7S3E070",
+            "titre": "TDA, système de roquettes à induction Telson",
+            "description": "108 000 vues, le film le plus vu de la série",
+            "duree": "4:37",
+            "youtube": "https://www.youtube.com/watch?v=x0FG7S3E070"
+          },
+          {
+            "id": "M9cVuGh9AEg",
+            "titre": "Naval Group, la frégate de défense et d'intervention (FDI)",
+            "description": "Pour le magazine Opérationnels · 139 000 vues",
+            "duree": "4:06",
+            "youtube": "https://www.youtube.com/watch?v=M9cVuGh9AEg"
+          },
+          {
+            "id": "zrM2IovBxd8",
+            "titre": "Naval Group, démonstrateur de drone sous-marin océanique",
+            "description": "Pour le magazine Opérationnels",
+            "duree": "1:26",
+            "youtube": "https://www.youtube.com/watch?v=zrM2IovBxd8"
+          },
+          {
+            "id": "rkVNQGSf9tE",
+            "titre": "Drone Safran Patroller, armée de Terre",
+            "description": "Pour le magazine Opérationnels · 19 000 vues",
+            "duree": "2:55",
+            "youtube": "https://www.youtube.com/watch?v=rkVNQGSf9tE"
+          },
+          {
+            "id": "ygB4SjvIGg0",
+            "titre": "La France, Naval Group et l'Australie, retour sur une idylle",
+            "description": "Pour le magazine Opérationnels",
+            "duree": "11:54",
+            "youtube": "https://www.youtube.com/watch?v=ygB4SjvIGg0"
+          },
+          {
+            "id": "cdmiJ98rPck",
+            "titre": "Milipol 2021, sécurisation des Jeux olympiques de Paris 2024",
+            "description": "Conférence de presse, pour le magazine Opérationnels",
+            "duree": "57:02",
+            "youtube": "https://www.youtube.com/watch?v=cdmiJ98rPck"
+          },
+          {
+            "id": "ZU_uP_fc4fY",
+            "titre": "PGM Précision, entretien avec le dirigeant",
+            "description": "Eurosatory 2014",
+            "duree": "7:42",
+            "youtube": "https://www.youtube.com/watch?v=ZU_uP_fc4fY"
+          },
+          {
+            "id": "F8hEzZFJXyI",
+            "titre": "PGM Précision, présentation de l'Ultima Ratio",
+            "description": "Eurosatory 2022 · 22 000 vues, diffusé sur leur propre chaîne",
+            "duree": "25:18",
+            "youtube": "https://www.youtube.com/watch?v=F8hEzZFJXyI"
+          },
+          {
+            "id": "XHaB_xejsi0",
+            "titre": "Le général Vincent Desportes, à propos du Panhard CRAB",
+            "description": "Eurosatory 2012",
+            "duree": "17:31",
+            "youtube": "https://www.youtube.com/watch?v=XHaB_xejsi0"
+          },
+          {
+            "id": "n7ahiCbSb0E",
+            "titre": "Thales à Eurosatory 2012",
+            "description": "Eurosatory 2012",
+            "duree": "15:35",
+            "youtube": "https://www.youtube.com/watch?v=n7ahiCbSb0E"
+          },
+          {
+            "id": "8tBT0AkRxWo",
+            "titre": "La Patrouille de France au meeting de l'armée de l'Air, à Ochey",
+            "description": "2007 · pour M6",
+            "duree": "20:47",
+            "youtube": "https://www.youtube.com/watch?v=8tBT0AkRxWo"
           }
         ],
         "liens": [],
@@ -2194,11 +2311,16 @@
                 "id": "9o5BFBA8Fj4",
                 "etiquette": "LAKELAB · Clip",
                 "titre": "La musique de la Patrouille de France",
-                "texte": "La « musique » de la Patrouille de France, c'est ce moment hors du temps durant lequel les pilotes préparent leur vol au sol, en reproduisant précisément les gestes qu'ils feront durant leur démonstration. Après un premier film tourné à Ochey en 2007, ce clip onirique vous invite à vous extirper quelques minutes du quotidien pour vous laisser porter par un moment de poésie. Un film de Pascal Dupont · Assisté de Thérèse Dupont et Charlène Floquet · Conseillé par Sébastien Dupont · Musique : Jean Colina · Une production LAKELAB.",
+                "texte": "La « musique » de la Patrouille de France, c'est ce moment hors du temps durant lequel les pilotes préparent leur vol au sol, en reproduisant précisément les gestes qu'ils feront durant leur démonstration. En 2007, alors que je travaillais pour M6, j'ai été l'un des premiers civils à filmer ce moment, au meeting de l'armée de l'Air à Ochey : ce premier film, vintage mais sympathique à regarder, est toujours visible. Ce clip onirique, réalisé des années plus tard, vous invite à vous extirper quelques minutes du quotidien pour vous laisser porter par un moment de poésie. Un film de Pascal Dupont · Assisté de Thérèse Dupont et Charlène Floquet · Conseillé par Sébastien Dupont · Musique : Jean Colina · Une production LAKELAB.",
                 "boutons": [
                   {
                     "texte": "Voir le film",
                     "url": "https://www.youtube.com/watch?v=9o5BFBA8Fj4",
+                    "style": "contour"
+                  },
+                  {
+                    "texte": "Le film de 2007, à Ochey",
+                    "url": "https://www.youtube.com/watch?v=8tBT0AkRxWo",
                     "style": "contour"
                   }
                 ]
@@ -2278,14 +2400,15 @@
     "musique": {
       "id": "9o5BFBA8Fj4",
       "titre": "La musique de la Patrouille de France",
-      "texte": "La « musique » de la Patrouille de France, c'est ce moment hors du temps durant lequel les pilotes préparent leur vol au sol, en reproduisant précisément les gestes qu'ils feront durant leur démonstration. Après un premier film tourné à Ochey en 2007, ce clip onirique vous invite à vous extirper quelques minutes du quotidien pour vous laisser porter par un moment de poésie.",
+      "texte": "La « musique » de la Patrouille de France, c'est ce moment hors du temps durant lequel les pilotes préparent leur vol au sol, en reproduisant précisément les gestes qu'ils feront durant leur démonstration. En 2007, alors que je travaillais pour M6, j'ai été l'un des premiers civils à filmer ce moment, au meeting de l'armée de l'Air à Ochey. Ce premier film, vintage mais sympathique à regarder, est toujours visible. Ce clip onirique, réalisé des années plus tard, vous invite à vous extirper quelques minutes du quotidien pour vous laisser porter par un moment de poésie.",
       "credits": [
         "Un film de Pascal Dupont",
         "Assisté de Thérèse Dupont et Charlène Floquet",
         "Conseillé par Sébastien Dupont",
         "Musique : Jean Colina",
         "Une production LAKELAB"
-      ]
+      ],
+      "video_ochey": "8tBT0AkRxWo"
     }
   },
   "descriptions": {

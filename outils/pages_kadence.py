@@ -627,6 +627,16 @@ def page_defense():
                            padding=(0, 0, 0), padding_bas=(96, 72, 56)))
     if c.get('coulisses'):
         blocs.append(galerie(P, c['coulisses'], 'coulisses'))
+    md = c.get('medias')
+    if md:
+        op, sa = md['operationnels'], md['salons']
+        blocs.append(P.section(P.entete_section(md['surtitre'], md['titre'], md['texte'], marge_bas=32) + [P.chiffres(md['chiffres']),
+            {'name': 'core/spacer', 'attributes': {'height': '48px'}},
+            P.titre(op['titre'], 3, taille=(1.5, 1.4, 1.3), marge_bas=20), P.grille([P.carte(fid[i]) for i in op['films']], 3),
+            {'name': 'core/spacer', 'attributes': {'height': '48px'}},
+            P.titre(sa['titre'], 3, taille=(1.5, 1.4, 1.3), marge_bas=12), P.ligne(sa['texte'], 1.0, DOUX, 20, largeur=720),
+            P.grille([P.carte(fid[i]) for i in sa['films']], 4)],
+            ancre='medias-defense', bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}]))
     me, rf = c['methode'], c['references']
     etapes = {'name': 'core/list', 'attributes': {'ordered': True, 'className': 'pd-etapes'},
               'innerBlocks': [{'name': 'core/list-item', 'attributes': {'content': '<strong>%s</strong> %s' % (a, b)}} for a, b in me['etapes']]}

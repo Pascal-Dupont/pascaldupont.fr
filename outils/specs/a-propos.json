@@ -2217,7 +2217,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, le Gabon, la Côte d'Ivoire en 2002, puis la Bosnie en 2003. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
+        "content": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, le Gabon, la Côte d'Ivoire en 2002 au sein de la Section Mortiers Lourds (SML), puis la Bosnie en 2003. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
         "htmlTag": "p",
         "fontSize": [
          1.0625,
@@ -3090,6 +3090,18 @@
                },
                {
                 "content": "2011",
+                "tag": "td"
+               }
+              ]
+             },
+             {
+              "cells": [
+               {
+                "content": "Eurosatory, premières captations pour la presse spécialisée",
+                "tag": "td"
+               },
+               {
+                "content": "2012",
                 "tag": "td"
                }
               ]

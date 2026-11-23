@@ -59,3 +59,9 @@
 - [ ] Chroniques du 93 (version complète, c4xGjV6-sNg) : YouTube refuse l'intégration (vidéo privée ou intégration désactivée ?). Vérifier qu'elle est bien publique.
 - [ ] « Méditerranée orientale, du gaz dans l'eau » (2YGZr_pob0c, entretien Mazzucchi) : vidéo introuvable sur YouTube, retirée du site.
 - [ ] Ancien logo « Lakelab » dans l'en-tête : neutralisé par le thème (le nom en texte reste).
+
+## Mise à jour du 23 novembre 2026 (soir)
+- [x] TDA : film des roquettes à induction Telson (x0FG7S3E070, 108 000 vues) ajouté sur la page Thales.
+- [x] Page Défense : nouvelle section « Collaborations avec les médias de défense » (Opérationnels, Canal TB/Theatrum Belli non cités comme partenaires).
+- [x] « La musique » : lien vers le premier film de 2007, à Ochey, pour M6.
+- [ ] « Chevaucher le Tigre » (Eurosatory 2014, Canal TB, 51 000 vues) : lien YouTube manquant, à ajouter si retrouvé.
