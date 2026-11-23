@@ -877,6 +877,7 @@
           "titre": "Entretiens et captations de salon",
           "texte": "Dont deux entretiens avec le dirigeant de PGM Précision, le fabricant du fusil Hécate II que j'ai pu côtoyer sur le terrain, en Côte d'Ivoire.",
           "films": [
+            "ypQIBmMxru8",
             "ZU_uP_fc4fY",
             "F8hEzZFJXyI",
             "XHaB_xejsi0",
@@ -1379,6 +1380,13 @@
             "description": "2007 · pour M6",
             "duree": "20:47",
             "youtube": "https://www.youtube.com/watch?v=8tBT0AkRxWo"
+          },
+          {
+            "id": "ypQIBmMxru8",
+            "titre": "Chevaucher le Tigre",
+            "description": "Eurosatory 2014 · 51 000 vues",
+            "duree": "8:50",
+            "youtube": "https://www.youtube.com/watch?v=ypQIBmMxru8"
           }
         ],
         "liens": [],
@@ -2311,7 +2319,7 @@
                 "id": "9o5BFBA8Fj4",
                 "etiquette": "LAKELAB · Clip",
                 "titre": "La musique de la Patrouille de France",
-                "texte": "La « musique » de la Patrouille de France, c'est ce moment hors du temps durant lequel les pilotes préparent leur vol au sol, en reproduisant précisément les gestes qu'ils feront durant leur démonstration. En 2007, alors que je travaillais pour M6, j'ai été l'un des premiers civils à filmer ce moment, au meeting de l'armée de l'Air à Ochey : ce premier film, vintage mais sympathique à regarder, est toujours visible. Ce clip onirique, réalisé des années plus tard, vous invite à vous extirper quelques minutes du quotidien pour vous laisser porter par un moment de poésie. Un film de Pascal Dupont · Assisté de Thérèse Dupont et Charlène Floquet · Conseillé par Sébastien Dupont · Musique : Jean Colina · Une production LAKELAB.",
+                "texte": "La « musique » de la Patrouille de France, c'est ce moment hors du temps durant lequel les pilotes préparent leur vol au sol, en reproduisant précisément les gestes qu'ils feront durant leur démonstration. En 2007, avec ma caméra personnelle, une Canon XM2, j'ai été l'un des premiers civils à filmer ce moment, au meeting de l'armée de l'Air à Ochey — je travaillais alors à M6, mais ce premier film était une initiative personnelle. Vintage mais sympathique à regarder, il est toujours visible. Ce clip onirique, réalisé des années plus tard, vous invite à vous extirper quelques minutes du quotidien pour vous laisser porter par un moment de poésie. Un film de Pascal Dupont · Assisté de Thérèse Dupont et Charlène Floquet · Conseillé par Sébastien Dupont · Musique : Jean Colina · Une production LAKELAB.",
                 "boutons": [
                   {
                     "texte": "Voir le film",
