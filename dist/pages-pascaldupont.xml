@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1.5" created="2026-11-23 18:52" -->
+	<!-- generator="WordPress/7.1.5" created="2026-11-23 18:59" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Pascal Dupont</title>
 	<link>https://pascaldupont.fr</link>
 	<description>Auteur-réalisateur documentaire</description>
-	<pubDate>Mon, 23 Nov 2026 18:52:29 +0000</pubDate>
+	<pubDate>Mon, 23 Nov 2026 18:59:47 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url></wp:base_site_url>
@@ -704,8 +704,8 @@
 		<wp:post_id>5</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:01:56]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:01:56]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 19:59:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 18:59:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[accueil]]></wp:post_name>
@@ -1886,8 +1886,8 @@
 		<wp:post_id>8</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:12]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 19:52:03]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 18:52:03]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 19:59:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 18:59:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[films]]></wp:post_name>
@@ -2314,8 +2314,8 @@
 		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:27]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:27]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 19:46:23]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 18:46:23]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 19:59:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 18:59:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[a-propos]]></wp:post_name>
@@ -3502,8 +3502,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>12</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:41]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 19:52:21]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 18:52:21]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 19:59:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 18:59:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[defense-et-securite]]></wp:post_name>
@@ -3668,8 +3668,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>14</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:56]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:56]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 19:59:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 18:59:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[lakelab]]></wp:post_name>
@@ -3792,8 +3792,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>16</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:03:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:03:10]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 19:59:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 18:59:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[contact]]></wp:post_name>
@@ -3922,8 +3922,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>18</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:03:24]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:03:24]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 19:59:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 18:59:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[mentions-legales]]></wp:post_name>
@@ -4060,8 +4060,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>20</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:03:38]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:03:38]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 19:59:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 18:59:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[confidentialite]]></wp:post_name>
@@ -4404,8 +4404,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 		<wp:post_id>32</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:38:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:38:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 19:52:29]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 18:52:29]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 19:59:47]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 18:59:47]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[thales]]></wp:post_name>
@@ -4940,8 +4940,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 		<wp:post_id>118</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-23 03:51:55]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-23 02:51:55]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 19:59:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 18:59:39]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[documentaires]]></wp:post_name>

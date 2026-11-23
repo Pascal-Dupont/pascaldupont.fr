@@ -303,7 +303,7 @@ function pd_creer_menu( $nom, $elements ) {
 }
 
 // Changer cette valeur à chaque nouvel envoi des pages : le réglage automatique (accueil, menus) est alors refait.
-const PD_VERSION_INSTALLATION = '3.0.0';
+const PD_VERSION_INSTALLATION = '3.1.0';
 
 function pd_installer_site() {
 	$p = pd_synchroniser_pages(); // crée ou met à jour chaque page à partir du thème ; voir plus haut
@@ -382,15 +382,21 @@ add_action(
 		if ( ! current_user_can( 'manage_options' ) ) {
 			return;
 		}
-		// Refaire le réglage si la version a changé, ou si des pages ont été réimportées
-		// (la page d'accueil réglée n'est plus celle du site, ou le menu principal manque).
-		$accueil = pd_page_par_cle( 'accueil' );
-		$menu    = wp_get_nav_menu_object( 'Menu principal' );
-		if ( PD_VERSION_INSTALLATION === get_option( 'pd_installe' ) && ( ! $accueil || (int) get_option( 'page_on_front' ) === $accueil ) && $menu && wp_get_nav_menu_items( $menu->term_id ) ) {
+		// Refaire le réglage si le contenu du thème a changé depuis la dernière fois (empreinte
+		// du fichier, pas un numéro de version à se souvenir d'incrémenter à la main — un contenu
+		// mis à jour sans bump de version serait sinon silencieusement ignoré), ou si des pages ont
+		// disparu (la page d'accueil réglée n'est plus celle du site, ou le menu principal manque).
+		$fichier   = get_stylesheet_directory() . '/inc/contenu-pages.json';
+		$empreinte = file_exists( $fichier ) ? md5_file( $fichier ) : '';
+		$accueil   = pd_page_par_cle( 'accueil' );
+		$menu      = wp_get_nav_menu_object( 'Menu principal' );
+		if ( $empreinte && $empreinte === get_option( 'pd_contenu_empreinte' )
+			&& ( ! $accueil || (int) get_option( 'page_on_front' ) === $accueil ) && $menu && wp_get_nav_menu_items( $menu->term_id ) ) {
 			return;
 		}
 		if ( pd_installer_site() ) {
 			update_option( 'pd_installe', PD_VERSION_INSTALLATION );
+			update_option( 'pd_contenu_empreinte', $empreinte );
 			set_transient( 'pd_avis', 1, 5 * MINUTE_IN_SECONDS );
 		}
 	}
