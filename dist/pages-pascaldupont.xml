@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1.5" created="2026-11-23 01:51" -->
+	<!-- generator="WordPress/7.1.5" created="2026-11-23 01:57" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Pascal Dupont</title>
 	<link>https://pascaldupont.fr</link>
 	<description>Auteur-réalisateur documentaire</description>
-	<pubDate>Mon, 23 Nov 2026 01:51:58 +0000</pubDate>
+	<pubDate>Mon, 23 Nov 2026 01:57:23 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url></wp:base_site_url>
@@ -47,7 +47,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://pascaldupont.fr/?page_id=5</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"pd-accueil-4-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[96,"",168,""],"maxWidthUnit":"rem","backgroundSettingTab":"gradient","gradient":"linear-gradient(180deg,#131c25 0%,#1b2733 55%,#2a3846 100%)","padding":[120,"",200,""],"mobilePadding":[72,"",136,""],"kbVersion":2,"className":"pd-hero"} -->
+		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"pd-accueil-4-s","columns":1,"colLayout":"equal","currentOverlayTab":"gradient","htmlTag":"section","maxWidth":72,"bgColor":"palette9","bgImg":"/wp-content/themes/kadence-pascal/assets/photos/accueil-tournage-mortier.jpg","bgImgPosition":"60% 40%","overlayOpacity":100,"align":"full","textColor":"palette3","tabletPadding":[96,"",168,""],"maxWidthUnit":"rem","overlayGradient":"linear-gradient(90deg, rgba(13,18,23,0.94) 0%, rgba(13,18,23,0.72) 45%, rgba(13,18,23,0.30) 100%)","padding":[120,"",200,""],"mobilePadding":[72,"",136,""],"kbVersion":2,"className":"pd-hero pd-hero-photo pd-fond-photo"} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-accueil-5-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-accueil-5-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-accueil-h1","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",20,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
 <p class="kt-adv-headingpd-accueil-h1 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-accueil-h1">Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission</p>
@@ -704,8 +704,8 @@
 		<wp:post_id>5</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:01:56]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:01:56]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 02:49:00]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 01:49:00]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 02:56:26]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 01:56:26]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[accueil]]></wp:post_name>
@@ -1991,11 +1991,9 @@
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-10-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-10-c"><div class="kt-inside-inner-col"><!-- wp:kadence/rowlayout {"uniqueID":"pd-apropos-8-r","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[0,0,32],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[56,40,0],"colLayout":"equal","firstColumnWidth":36,"secondColumnWidth":64,"padding":[0,0,0,0],"kbVersion":2} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-3-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-apropos-3-c"><div class="kt-inside-inner-col"><!-- wp:cover {"minHeight":320,"minHeightUnit":"px","customGradient":"linear-gradient(160deg,#46606f,#10181e)","contentPosition":"bottom left","className":"pd-portrait","style":{"dimensions":{"aspectRatio":"4/5"},"spacing":{"padding":{"top":"16px","right":"16px","bottom":"16px","left":"16px"}}}} -->
-<div class="wp-block-cover has-custom-content-position is-position-bottom-left pd-portrait" style="padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px;min-height:320px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient" style="background:linear-gradient(160deg,#46606f,#10181e)"></span><div class="wp-block-cover__inner-container"><!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h3","color":"palette3","sizeType":"rem","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.72,"",""],"fontHeight":[1.6,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h3 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h3">Portrait à ajouter</p>
-<!-- /wp:kadence/advancedheading --></div></div>
-<!-- /wp:cover --></div></div>
+<div class="wp-block-kadence-column kadence-columnpd-apropos-3-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"uniqueID":"pd-a-propos-h3","borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h3"><img src="/wp-content/themes/kadence-pascal/assets/photos/portrait-pascal-dupont.jpg" alt="Pascal Dupont, sur un tournage" class="kb-img"/></figure>
+<!-- /wp:kadence/image --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-7-c","kbVersion":2} -->
@@ -2025,102 +2023,204 @@
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"pd-apropos-23-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"borderStyle":[{"top":["#2c3a49","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"anchor":"parcours","kbVersion":2} -->
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-apropos-23-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"borderStyle":[{"top":["#2c3a49","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"anchor":"tournages","kbVersion":2} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-24-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-24-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h5","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h5 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h5">Avant la caméra</p>
+<p class="kt-adv-headingpd-a-propos-h5 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h5">Sur les tournages</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h6","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[3.2,2.6,2.1],"fontHeight":[1.1,"",""]} -->
-<h2 class="kt-adv-headingpd-a-propos-h6 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h6">Le terrain, d'abord</h2>
+<h2 class="kt-adv-headingpd-a-propos-h6 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h6">La caméra au plus près</h2>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h7","color":"palette4","sizeType":"rem","margin":[0,"",32,""],"htmlTag":"p","fontSize":[1.0625,"",""],"fontHeight":[1.6,"",""],"maxWidth":[672,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h7 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h7">Infanterie parachutiste : centre d'entraînement commando, premiers sauts, Gabon, puis la Côte d'Ivoire en 2002. C'est là que j'ai appris le terrain que je filme aujourd'hui.</p>
+<p class="kt-adv-headingpd-a-propos-h7 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h7">Stabilisateur, grue, trépied dans la neige ou entretien à la table d'un ancien : le dispositif s'adapte au terrain, jamais l'inverse.</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/rowlayout {"uniqueID":"pd-apropos-22-r","columns":3,"tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[40,32,28],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"margin":[0,"",0,""],"kbVersion":2} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-16-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-16-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h8","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h8 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-retroviseur.jpg" alt="Bouaké, Côte d'Ivoire Dans le rétroviseur d'un Marmon." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h8 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-stab-casque.jpg" alt="Sur le terrain Au stabilisateur, casque sur la tête." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h9","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h9 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h9">Bouaké, Côte d'Ivoire</p>
+<p class="kt-adv-headingpd-a-propos-h9 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h9">Sur le terrain</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h10","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h10 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h10">Dans le rétroviseur d'un Marmon.</p>
+<p class="kt-adv-headingpd-a-propos-h10 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h10">Au stabilisateur, casque sur la tête.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-17-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-17-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h11","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h11 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-hecate.jpg" alt="Bouaké, octobre 2002 Au-dessus de la ville, avec un PGM Hécate II." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h11 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-mortier-120.jpg" alt="Mortier de 120 mm, 2016 Au plus près de la pièce." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h12","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h12 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h12">Bouaké, octobre 2002</p>
+<p class="kt-adv-headingpd-a-propos-h12 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h12">Mortier de 120 mm, 2016</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h13","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h13 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h13">Au-dessus de la ville, avec un PGM Hécate II.</p>
+<p class="kt-adv-headingpd-a-propos-h13 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h13">Au plus près de la pièce.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-18-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-18-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h14","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h14 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-gabon-zodiac.jpg" alt="Gabon Sur un Zodiac." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h14 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-avec-lyderic.jpg" alt="Mortier de 120 mm, 2016 Avec Lydéric, au retour d'image." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h15","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h15 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h15">Gabon</p>
+<p class="kt-adv-headingpd-a-propos-h15 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h15">Mortier de 120 mm, 2016</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h16","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h16 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h16">Sur un Zodiac.</p>
+<p class="kt-adv-headingpd-a-propos-h16 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h16">Avec Lydéric, au retour d'image.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-19-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-19-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h17","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h17 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-collioure.jpg" alt="Collioure Centre d'entraînement commando." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h17 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-grue.jpg" alt="2016 Mise en place de la grue de tournage." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h18","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h18 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h18">Collioure</p>
+<p class="kt-adv-headingpd-a-propos-h18 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h18">2016</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h19","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h19 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h19">Centre d'entraînement commando.</p>
+<p class="kt-adv-headingpd-a-propos-h19 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h19">Mise en place de la grue de tournage.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-20-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-20-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h20","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h20 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-commando-corde.jpg" alt="Centre d'entraînement commando Franchissement au-dessus de l'eau." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h20 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-neige.jpg" alt="Février 2015 Trépied dans la neige." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h21","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h21 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h21">Centre d'entraînement commando</p>
+<p class="kt-adv-headingpd-a-propos-h21 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h21">Février 2015</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h22","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h22 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h22">Franchissement au-dessus de l'eau.</p>
+<p class="kt-adv-headingpd-a-propos-h22 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h22">Trépied dans la neige.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-21-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-21-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h23","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h23 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-premiers-sauts.jpg" alt="Premiers sauts Tout à gauche, avant le saut." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h23 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-entretien-raymond.jpg" alt="Entretien Avec Raymond, pendant l'entretien." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h24","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h24 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h24">Premiers sauts</p>
+<p class="kt-adv-headingpd-a-propos-h24 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h24">Entretien</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h25","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h25 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h25">Tout à gauche, avant le saut.</p>
+<p class="kt-adv-headingpd-a-propos-h25 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h25">Avec Raymond, pendant l'entretien.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout --></div></div>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-apropos-32-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"borderStyle":[{"top":["#2c3a49","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"anchor":"parcours","kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-33-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-apropos-33-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h26","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h26 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h26">Avant la caméra</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h27","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[3.2,2.6,2.1],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-headingpd-a-propos-h27 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h27">Le terrain, d'abord</h2>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h28","color":"palette4","sizeType":"rem","margin":[0,"",32,""],"htmlTag":"p","fontSize":[1.0625,"",""],"fontHeight":[1.6,"",""],"maxWidth":[672,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h28 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h28">Infanterie parachutiste : centre d'entraînement commando, premiers sauts, Gabon, puis la Côte d'Ivoire en 2002. C'est là que j'ai appris le terrain que je filme aujourd'hui.</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-apropos-31-r","columns":3,"tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[40,32,28],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"margin":[0,"",0,""],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-25-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-apropos-25-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h29","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h29 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-retroviseur.jpg" alt="Bouaké, Côte d'Ivoire Dans le rétroviseur d'un Marmon." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h30","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h30 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h30">Bouaké, Côte d'Ivoire</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h31","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h31 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h31">Dans le rétroviseur d'un Marmon.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-26-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-apropos-26-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h32","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h32 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-hecate.jpg" alt="Bouaké, octobre 2002 Au-dessus de la ville, avec un PGM Hécate II." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h33","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h33 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h33">Bouaké, octobre 2002</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h34","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h34 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h34">Au-dessus de la ville, avec un PGM Hécate II.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-27-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-apropos-27-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h35","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h35 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-gabon-zodiac.jpg" alt="Gabon Sur un Zodiac." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h36","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h36 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h36">Gabon</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h37","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h37 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h37">Sur un Zodiac.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-28-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-apropos-28-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h38","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h38 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-collioure.jpg" alt="Collioure Centre d'entraînement commando." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h39","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h39 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h39">Collioure</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h40","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h40 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h40">Centre d'entraînement commando.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-29-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-apropos-29-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h41","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h41 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-commando-corde.jpg" alt="Centre d'entraînement commando Franchissement au-dessus de l'eau." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h42","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h42 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h42">Centre d'entraînement commando</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h43","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h43 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h43">Franchissement au-dessus de l'eau.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-30-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-apropos-30-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h44","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h44 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-premiers-sauts.jpg" alt="Premiers sauts Tout à gauche, avant le saut." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h45","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h45 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h45">Premiers sauts</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h46","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-a-propos-h46 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h46">Tout à gauche, avant le saut.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout --></div></div>
@@ -2131,8 +2231,8 @@
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-15-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-15-c"><div class="kt-inside-inner-col"><!-- wp:kadence/rowlayout {"uniqueID":"pd-apropos-13-r","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[0,0,40],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[48,40,0],"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-11-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-apropos-11-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h26","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
-<h2 class="kt-adv-headingpd-a-propos-h26 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h26">Repères</h2>
+<div class="wp-block-kadence-column kadence-columnpd-apropos-11-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h47","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-headingpd-a-propos-h47 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h47">Repères</h2>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:table {"hasFixedLayout":false,"className":"pd-liste"} -->
@@ -2141,8 +2241,8 @@
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-12-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-apropos-12-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h27","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
-<h2 class="kt-adv-headingpd-a-propos-h27 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h27">Avec Lucile Guilloteaux</h2>
+<div class="wp-block-kadence-column kadence-columnpd-apropos-12-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h48","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-headingpd-a-propos-h48 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h48">Avec Lucile Guilloteaux</h2>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"1.0625rem","lineHeight":"1.65"},"spacing":{"margin":{"top":"0","bottom":"1.1rem"}},"color":{"text":"#a9b6c0"}}} -->
@@ -2160,8 +2260,8 @@
 		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:27]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:27]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 02:51:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 01:51:41]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 02:55:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 01:55:18]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[a-propos]]></wp:post_name>
@@ -2231,7 +2331,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://pascaldupont.fr/?page_id=12</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-1-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[72,"",48,""],"maxWidthUnit":"rem","padding":[88,"",56,""],"mobilePadding":[48,"",32,""],"kbVersion":2} -->
+		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-1-s","columns":1,"colLayout":"equal","currentOverlayTab":"gradient","htmlTag":"section","maxWidth":72,"bgColor":"palette9","bgImg":"/wp-content/themes/kadence-pascal/assets/photos/defense-batterie.jpg","overlayOpacity":100,"align":"full","textColor":"palette3","tabletPadding":[104,"",88,""],"maxWidthUnit":"rem","overlayGradient":"linear-gradient(90deg, rgba(13,18,23,0.94) 0%, rgba(13,18,23,0.72) 45%, rgba(13,18,23,0.30) 100%)","padding":[140,"",120,""],"mobilePadding":[72,"",56,""],"kbVersion":2,"className":"pd-fond-photo"} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-2-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-defense-2-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h1","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
 <p class="kt-adv-headingpd-defense-et-securite-h1 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h1">Pour les armées, les industriels et les institutions</p>
@@ -2900,8 +3000,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>12</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:41]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 01:52:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 00:52:41]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 02:56:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 01:56:41]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[defense-et-securite]]></wp:post_name>
@@ -2979,7 +3079,7 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://pascaldupont.fr/?page_id=14</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"pd-lakelab-1-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[72,"",48,""],"maxWidthUnit":"rem","padding":[88,"",56,""],"mobilePadding":[48,"",32,""],"kbVersion":2} -->
+		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"pd-lakelab-1-s","columns":1,"colLayout":"equal","currentOverlayTab":"gradient","htmlTag":"section","maxWidth":72,"bgColor":"palette9","bgImg":"/wp-content/themes/kadence-pascal/assets/photos/lakelab-foret.jpg","overlayOpacity":100,"align":"full","textColor":"palette3","tabletPadding":[104,"",88,""],"maxWidthUnit":"rem","overlayGradient":"linear-gradient(90deg, rgba(13,18,23,0.94) 0%, rgba(13,18,23,0.72) 45%, rgba(13,18,23,0.30) 100%)","padding":[140,"",120,""],"mobilePadding":[72,"",56,""],"kbVersion":2,"className":"pd-fond-photo"} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-lakelab-2-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-lakelab-2-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-lakelab-h1","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
 <p class="kt-adv-headingpd-lakelab-h1 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-lakelab-h1">Recherches esthétiques</p>
@@ -3066,8 +3166,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>14</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:56]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:56]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-22 21:16:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-22 20:16:48]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 02:56:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 01:56:55]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[lakelab]]></wp:post_name>
@@ -3700,8 +3800,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 		<wp:post_id>32</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:38:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:38:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 02:51:57]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 01:51:57]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 02:57:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 01:57:22]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[thales]]></wp:post_name>

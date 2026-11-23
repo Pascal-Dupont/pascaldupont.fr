@@ -62,7 +62,9 @@
             "url": "/contact/",
             "style": "contour"
           }
-        ]
+        ],
+        "image": "accueil-tournage-mortier.jpg",
+        "image_position": "60% 40%"
       },
       "a_la_une": {
         "surtitre": "À la une",
@@ -322,7 +324,9 @@
         "titre": "Je filme l'engagement et ce qu'il laisse."
       },
       "portrait": {
-        "texte_provisoire": "Portrait à ajouter"
+        "texte_provisoire": "Portrait à ajouter",
+        "image": "portrait-pascal-dupont.jpg",
+        "alt": "Pascal Dupont, sur un tournage"
       },
       "paragraphes": [
         "Auteur-réalisateur documentaire depuis vingt ans. « Chroniques du 93 » pour France 4, « La nuit leur appartient » pour la centième d'Enquête d'action sur W9, le cycle mémoire du 1er Régiment de Chasseurs Parachutistes, et en 2026 « Classe Défense » pour la Fondation Résilience. Une dizaine de nouveaux projets de documentaires sont en écriture.",
@@ -430,6 +434,43 @@
             "legende": "Tout à gauche, avant le saut."
           }
         ]
+      },
+      "tournages": {
+        "surtitre": "Sur les tournages",
+        "titre": "La caméra au plus près",
+        "texte": "Stabilisateur, grue, trépied dans la neige ou entretien à la table d'un ancien : le dispositif s'adapte au terrain, jamais l'inverse.",
+        "photos": [
+          {
+            "fichier": "tournage-stab-casque.jpg",
+            "lieu": "Sur le terrain",
+            "legende": "Au stabilisateur, casque sur la tête."
+          },
+          {
+            "fichier": "tournage-mortier-120.jpg",
+            "lieu": "Mortier de 120 mm, 2016",
+            "legende": "Au plus près de la pièce."
+          },
+          {
+            "fichier": "tournage-avec-lyderic.jpg",
+            "lieu": "Mortier de 120 mm, 2016",
+            "legende": "Avec Lydéric, au retour d'image."
+          },
+          {
+            "fichier": "tournage-grue.jpg",
+            "lieu": "2016",
+            "legende": "Mise en place de la grue de tournage."
+          },
+          {
+            "fichier": "tournage-neige.jpg",
+            "lieu": "Février 2015",
+            "legende": "Trépied dans la neige."
+          },
+          {
+            "fichier": "tournage-entretien-raymond.jpg",
+            "lieu": "Entretien",
+            "legende": "Avec Raymond, pendant l'entretien."
+          }
+        ]
       }
     },
     "defense-et-securite": {
@@ -437,7 +478,8 @@
       "entete": {
         "surtitre": "Pour les armées, les industriels et les institutions",
         "titre": "Filmer la défense, de l'intérieur.",
-        "texte": "Ancien combattant de l'infanterie parachutiste et officier de réserve, je connais le terrain, le vocabulaire et les contraintes de la communication de défense. Je réalise des films pour des régiments, des industriels et des salons."
+        "texte": "Ancien combattant de l'infanterie parachutiste et officier de réserve, je connais le terrain, le vocabulaire et les contraintes de la communication de défense. Je réalise des films pour des régiments, des industriels et des salons.",
+        "image": "defense-batterie.jpg"
       },
       "chiffres": [
         {
@@ -677,7 +719,8 @@
       "entete": {
         "surtitre": "Recherches esthétiques",
         "titre": "LAKELAB",
-        "texte": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général."
+        "texte": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général.",
+        "image": "lakelab-foret.jpg"
       },
       "suivre": {
         "titre": "Où nous suivre",

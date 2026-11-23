@@ -210,6 +210,8 @@ class Page:
         if e.get('texte'):
             blocs.append(self.ligne(e['texte'], 1.15, DOUX, 0, largeur=720))
         blocs += enfants_apres or []
+        if e.get('image'):
+            return self.section(blocs, padding=(140, 104, 72), padding_bas=(120, 88, 56), classe='pd-fond-photo', fond_attr=fond_image(e['image'], e.get('image_position', 'center center')))
         return self.section(blocs, padding=(88, 72, 48), padding_bas=(56, 48, 32))
 
     def duree(self, d):
@@ -328,6 +330,13 @@ LOGOS = '/wp-content/themes/kadence-pascal/assets/logos/'
 PHOTOS = '/wp-content/themes/kadence-pascal/assets/photos/'
 
 
+def fond_image(fichier, position='center center'):
+    """Fond photo d'une section, assombri par un dégradé pour la lisibilité du texte."""
+    return {'bgImg': PHOTOS + fichier, 'bgImgSize': 'cover', 'bgImgPosition': position, 'bgImgAttachment': 'scroll', 'bgImgRepeat': 'no-repeat',
+            'currentOverlayTab': 'gradient', 'overlayOpacity': 100,
+            'overlayGradient': 'linear-gradient(90deg, rgba(13,18,23,0.94) 0%, rgba(13,18,23,0.72) 45%, rgba(13,18,23,0.30) 100%)'}
+
+
 def films_par_id():
     d = {}
     for g in SITE['films']['groupes']:
@@ -369,8 +378,9 @@ def page_accueil():
                 accent=SABLE, largeur=880, interligne=1.05, marge_bas=28),
         P.ligne(h['texte'], 1.15, DOUX, 0, largeur=608),
         P.boutons(h['boutons'], marge_haut=36, orientation=['', '', 'column']),
-    ], padding=(120, 96, 72), padding_bas=(200, 168, 136), classe='pd-hero',
-        fond_attr={'backgroundSettingTab': 'gradient', 'gradient': 'linear-gradient(180deg,#131c25 0%,#1b2733 55%,#2a3846 100%)'})
+    ], padding=(120, 96, 72), padding_bas=(200, 168, 136), classe='pd-hero' + (' pd-hero-photo pd-fond-photo' if h.get('image') else ''),
+        fond_attr=fond_image(h['image'], h.get('image_position', 'center center')) if h.get('image') else
+        {'backgroundSettingTab': 'gradient', 'gradient': 'linear-gradient(180deg,#131c25 0%,#1b2733 55%,#2a3846 100%)'})
 
     une = c['a_la_une']
     fid = films_par_id()
@@ -519,11 +529,15 @@ def page_apropos():
     P = Page('apropos')
     c = SITE['pages']['a-propos']
     entete = P.entete_page(c['entete'])
-    portrait = {'name': 'core/cover', 'attributes': {
-        'customGradient': 'linear-gradient(160deg,#46606f,#10181e)', 'dimRatio': 100, 'isDark': True, 'contentPosition': 'bottom left',
-        'minHeight': 320, 'minHeightUnit': 'px', 'className': 'pd-portrait',
-        'style': {'dimensions': {'aspectRatio': '4/5'}, 'spacing': {'padding': {'top': '16px', 'right': '16px', 'bottom': '16px', 'left': '16px'}}}},
-        'innerBlocks': [P.ligne(c['portrait']['texte_provisoire'], 0.72, TEXTE, 0, police=MONO, graisse='500')]}
+    if c['portrait'].get('image'):
+        portrait = {'name': 'kadence/image', 'attributes': {'url': PHOTOS + c['portrait']['image'], 'alt': c['portrait']['alt'],
+                                                           'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px'}}
+    else:
+        portrait = {'name': 'core/cover', 'attributes': {
+            'customGradient': 'linear-gradient(160deg,#46606f,#10181e)', 'dimRatio': 100, 'isDark': True, 'contentPosition': 'bottom left',
+            'minHeight': 320, 'minHeightUnit': 'px', 'className': 'pd-portrait',
+            'style': {'dimensions': {'aspectRatio': '4/5'}, 'spacing': {'padding': {'top': '16px', 'right': '16px', 'bottom': '16px', 'left': '16px'}}}},
+            'innerBlocks': [P.ligne(c['portrait']['texte_provisoire'], 0.72, TEXTE, 0, police=MONO, graisse='500')]}
     texte = [P.paragraphe(t, TEXTE, taille='1.2rem', marge_bas='1.3rem') for t in c['paragraphes']]
     citation = P.ligne(c['citation'], 2, TEXTE, 0, police=SERIF, italique=True, interligne=1.2)
     citation['attributes'].update({'borderStyle': [{'top': ['', '', ''], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': [HEX[BERET_VIF], 'solid', 2], 'unit': 'px'}],
@@ -539,8 +553,9 @@ def page_apropos():
     ], layout='equal', gouttiere=[48, 40, 0], gouttiere_v=[0, 0, 40])], fond=ARDOISE,
         bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
     blocs = [entete, bloc]
-    pa = c.get('parcours')
-    if pa:
+    for pa, ancre in ((c.get('tournages'), 'tournages'), (c.get('parcours'), 'parcours')):
+        if not pa:
+            continue
         cols = []
         for ph in pa['photos']:
             cols.append(P.colonne([
@@ -548,7 +563,7 @@ def page_apropos():
                                                          'useRatio': True, 'ratio': 'land43', 'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px',
                                                          'marginDesktop': [0, 0, 12, 0], 'marginUnit': 'px'}},
                 P.surtitre(ph['lieu'], marge_bas=4), P.ligne(ph['legende'], 0.95, DOUX, 0, interligne=1.5)]))
-        blocs.append(P.section(P.entete_section(pa['surtitre'], pa['titre'], pa['texte'], marge_bas=32) + [P.grille(cols, 3)], ancre='parcours',
+        blocs.append(P.section(P.entete_section(pa['surtitre'], pa['titre'], pa['texte'], marge_bas=32) + [P.grille(cols, 3)], ancre=ancre,
                                bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}]))
     return c['titre'], blocs + [bas]
 

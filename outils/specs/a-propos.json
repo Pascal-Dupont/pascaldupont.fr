@@ -230,62 +230,19 @@
          },
          "innerBlocks": [
           {
-           "name": "core/cover",
+           "name": "kadence/image",
            "attributes": {
-            "customGradient": "linear-gradient(160deg,#46606f,#10181e)",
-            "dimRatio": 100,
-            "isDark": true,
-            "contentPosition": "bottom left",
-            "minHeight": 320,
-            "minHeightUnit": "px",
-            "className": "pd-portrait",
-            "style": {
-             "dimensions": {
-              "aspectRatio": "4/5"
-             },
-             "spacing": {
-              "padding": {
-               "top": "16px",
-               "right": "16px",
-               "bottom": "16px",
-               "left": "16px"
-              }
-             }
-            }
-           },
-           "innerBlocks": [
-            {
-             "name": "kadence/advancedheading",
-             "attributes": {
-              "content": "Portrait à ajouter",
-              "htmlTag": "p",
-              "fontSize": [
-               0.72,
-               "",
-               ""
-              ],
-              "sizeType": "rem",
-              "fontHeight": [
-               1.6,
-               "",
-               ""
-              ],
-              "fontHeightType": "",
-              "color": "palette3",
-              "margin": [
-               0,
-               "",
-               0,
-               ""
-              ],
-              "marginType": "px",
-              "typography": "IBM Plex Mono",
-              "googleFont": false,
-              "fontWeight": "500",
-              "uniqueID": "pd-a-propos-h3"
-             }
-            }
-           ]
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/portrait-pascal-dupont.jpg",
+            "alt": "Pascal Dupont, sur un tournage",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-a-propos-h3"
+           }
           }
          ]
         },
@@ -721,7 +678,7 @@
     "paddingUnit": "px",
     "maxWidth": 72,
     "maxWidthUnit": "rem",
-    "anchor": "parcours",
+    "anchor": "tournages",
     "borderStyle": [
      {
       "top": [
@@ -765,7 +722,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Avant la caméra",
+        "content": "Sur les tournages",
         "htmlTag": "p",
         "typography": "IBM Plex Mono",
         "googleFont": false,
@@ -799,7 +756,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Le terrain, d'abord",
+        "content": "La caméra au plus près",
         "level": 2,
         "typography": "Newsreader",
         "googleFont": false,
@@ -830,7 +787,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, Gabon, puis la Côte d'Ivoire en 2002. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
+        "content": "Stabilisateur, grue, trépied dans la neige ou entretien à la table d'un ancien : le dispositif s'adapte au terrain, jamais l'inverse.",
         "htmlTag": "p",
         "fontSize": [
          1.0625,
@@ -920,8 +877,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-retroviseur.jpg",
-            "alt": "Bouaké, Côte d'Ivoire Dans le rétroviseur d'un Marmon.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-stab-casque.jpg",
+            "alt": "Sur le terrain Au stabilisateur, casque sur la tête.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -944,7 +901,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Bouaké, Côte d'Ivoire",
+            "content": "Sur le terrain",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -978,7 +935,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Dans le rétroviseur d'un Marmon.",
+            "content": "Au stabilisateur, casque sur la tête.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -1021,8 +978,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-hecate.jpg",
-            "alt": "Bouaké, octobre 2002 Au-dessus de la ville, avec un PGM Hécate II.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-mortier-120.jpg",
+            "alt": "Mortier de 120 mm, 2016 Au plus près de la pièce.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -1045,7 +1002,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Bouaké, octobre 2002",
+            "content": "Mortier de 120 mm, 2016",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1079,7 +1036,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Au-dessus de la ville, avec un PGM Hécate II.",
+            "content": "Au plus près de la pièce.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -1122,8 +1079,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-gabon-zodiac.jpg",
-            "alt": "Gabon Sur un Zodiac.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-avec-lyderic.jpg",
+            "alt": "Mortier de 120 mm, 2016 Avec Lydéric, au retour d'image.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -1146,7 +1103,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Gabon",
+            "content": "Mortier de 120 mm, 2016",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1180,7 +1137,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Sur un Zodiac.",
+            "content": "Avec Lydéric, au retour d'image.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -1223,8 +1180,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-collioure.jpg",
-            "alt": "Collioure Centre d'entraînement commando.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-grue.jpg",
+            "alt": "2016 Mise en place de la grue de tournage.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -1247,7 +1204,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Collioure",
+            "content": "2016",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1281,7 +1238,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Centre d'entraînement commando.",
+            "content": "Mise en place de la grue de tournage.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -1324,8 +1281,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-commando-corde.jpg",
-            "alt": "Centre d'entraînement commando Franchissement au-dessus de l'eau.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-neige.jpg",
+            "alt": "Février 2015 Trépied dans la neige.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -1348,7 +1305,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Centre d'entraînement commando",
+            "content": "Février 2015",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1382,7 +1339,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Franchissement au-dessus de l'eau.",
+            "content": "Trépied dans la neige.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -1425,8 +1382,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-premiers-sauts.jpg",
-            "alt": "Premiers sauts Tout à gauche, avant le saut.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-entretien-raymond.jpg",
+            "alt": "Entretien Avec Raymond, pendant l'entretien.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -1449,7 +1406,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Premiers sauts",
+            "content": "Entretien",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1483,7 +1440,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Tout à gauche, avant le saut.",
+            "content": "Avec Raymond, pendant l'entretien.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -1506,6 +1463,833 @@
             ],
             "marginType": "px",
             "uniqueID": "pd-a-propos-h25"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-apropos-32-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "parcours",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "",
+       "",
+       ""
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-apropos-33-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Avant la caméra",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-a-propos-h26"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Le terrain, d'abord",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-a-propos-h27"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, Gabon, puis la Côte d'Ivoire en 2002. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0625,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         32,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         672,
+         "",
+         ""
+        ],
+        "maxWidthType": "px",
+        "uniqueID": "pd-a-propos-h28"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-apropos-31-r",
+        "kbVersion": 2,
+        "columns": 3,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "tabletLayout": "two-grid",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         24,
+         20,
+         16
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         40,
+         32,
+         28
+        ],
+        "rowGutterType": "px",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-25-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-retroviseur.jpg",
+            "alt": "Bouaké, Côte d'Ivoire Dans le rétroviseur d'un Marmon.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-a-propos-h29"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Bouaké, Côte d'Ivoire",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h30"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Dans le rétroviseur d'un Marmon.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h31"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-26-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-hecate.jpg",
+            "alt": "Bouaké, octobre 2002 Au-dessus de la ville, avec un PGM Hécate II.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-a-propos-h32"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Bouaké, octobre 2002",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h33"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Au-dessus de la ville, avec un PGM Hécate II.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h34"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-27-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-gabon-zodiac.jpg",
+            "alt": "Gabon Sur un Zodiac.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-a-propos-h35"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Gabon",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h36"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Sur un Zodiac.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h37"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-28-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-collioure.jpg",
+            "alt": "Collioure Centre d'entraînement commando.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-a-propos-h38"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Collioure",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h39"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Centre d'entraînement commando.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h40"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-29-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-commando-corde.jpg",
+            "alt": "Centre d'entraînement commando Franchissement au-dessus de l'eau.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-a-propos-h41"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Centre d'entraînement commando",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h42"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Franchissement au-dessus de l'eau.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h43"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-apropos-30-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-premiers-sauts.jpg",
+            "alt": "Premiers sauts Tout à gauche, avant le saut.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-a-propos-h44"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Premiers sauts",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h45"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Tout à gauche, avant le saut.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-a-propos-h46"
            }
           }
          ]
@@ -1664,7 +2448,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h26"
+            "uniqueID": "pd-a-propos-h47"
            }
           },
           {
@@ -1827,7 +2611,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-a-propos-h27"
+            "uniqueID": "pd-a-propos-h48"
            }
           },
           {

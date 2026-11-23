@@ -42,9 +42,15 @@
     "paddingUnit": "px",
     "maxWidth": 72,
     "maxWidthUnit": "rem",
-    "className": "pd-hero",
-    "backgroundSettingTab": "gradient",
-    "gradient": "linear-gradient(180deg,#131c25 0%,#1b2733 55%,#2a3846 100%)"
+    "className": "pd-hero pd-hero-photo pd-fond-photo",
+    "bgImg": "/wp-content/themes/kadence-pascal/assets/photos/accueil-tournage-mortier.jpg",
+    "bgImgSize": "cover",
+    "bgImgPosition": "60% 40%",
+    "bgImgAttachment": "scroll",
+    "bgImgRepeat": "no-repeat",
+    "currentOverlayTab": "gradient",
+    "overlayOpacity": 100,
+    "overlayGradient": "linear-gradient(90deg, rgba(13,18,23,0.94) 0%, rgba(13,18,23,0.72) 45%, rgba(13,18,23,0.30) 100%)"
    },
    "innerBlocks": [
     {

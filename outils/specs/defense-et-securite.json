@@ -22,26 +22,35 @@
     "bgColor": "palette9",
     "textColor": "palette3",
     "padding": [
+     140,
+     "",
+     120,
+     ""
+    ],
+    "tabletPadding": [
+     104,
+     "",
      88,
+     ""
+    ],
+    "mobilePadding": [
+     72,
      "",
      56,
      ""
     ],
-    "tabletPadding": [
-     72,
-     "",
-     48,
-     ""
-    ],
-    "mobilePadding": [
-     48,
-     "",
-     32,
-     ""
-    ],
     "paddingUnit": "px",
     "maxWidth": 72,
-    "maxWidthUnit": "rem"
+    "maxWidthUnit": "rem",
+    "className": "pd-fond-photo",
+    "bgImg": "/wp-content/themes/kadence-pascal/assets/photos/defense-batterie.jpg",
+    "bgImgSize": "cover",
+    "bgImgPosition": "center center",
+    "bgImgAttachment": "scroll",
+    "bgImgRepeat": "no-repeat",
+    "currentOverlayTab": "gradient",
+    "overlayOpacity": 100,
+    "overlayGradient": "linear-gradient(90deg, rgba(13,18,23,0.94) 0%, rgba(13,18,23,0.72) 45%, rgba(13,18,23,0.30) 100%)"
    },
    "innerBlocks": [
     {
