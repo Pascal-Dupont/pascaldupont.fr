@@ -455,3 +455,34 @@ add_action(
 // (Un ancien logo réglé dans l'outil de personnalisation ou par l'ancien site s'afficherait sinon.)
 add_filter( 'theme_mod_custom_logo', '__return_false' );
 add_filter( 'pre_option_site_logo', '__return_zero' );
+
+// Fiches « vidéo » pour les moteurs de recherche (page Documentaires) : films dont la date de mise en ligne est connue.
+add_action(
+	'wp_head',
+	function () {
+		if ( ! is_page( 'documentaires' ) ) {
+			return;
+		}
+		$films = array(
+			array( 'nPQhUB8pEj8', 'Classe Défense', 'Un chalet d\'altitude, des collégiens de Trappes encadrés par des soldats blessés : un documentaire de Pascal Dupont pour la Fondation Résilience.', '2026-11-10', 'PT26M' ),
+			array( 'MX1rXj52K88', 'Capitaine Raymond Locci', 'Brevet parachutiste 12204, des Vosges en 1943 à l\'Indochine en 1946 : un portrait réalisé par Pascal Dupont avec l\'amicale du 1er RCP.', '2025-09-11', 'PT1H35M39S' ),
+			array( 'uF7zqXfUsjc', 'Commandant Everrard', 'Brevet parachutiste 12137, l\'Indochine en 1946 : le témoignage du commandant Everrard, réalisé par Pascal Dupont pour l\'amicale du 1er RCP.', '2025-06-27', 'PT34M23S' ),
+		);
+		foreach ( $films as $f ) {
+			$fiche = array(
+				'@context'     => 'https://schema.org',
+				'@type'        => 'VideoObject',
+				'name'         => $f[1],
+				'description'  => $f[2],
+				'thumbnailUrl' => 'https://i.ytimg.com/vi/' . $f[0] . '/hqdefault.jpg',
+				'uploadDate'   => $f[3],
+				'duration'     => $f[4],
+				'contentUrl'   => 'https://www.youtube.com/watch?v=' . $f[0],
+				'embedUrl'     => 'https://www.youtube.com/embed/' . $f[0],
+				'creator'      => array( '@type' => 'Person', 'name' => 'Pascal Dupont' ),
+			);
+			echo '<script type="application/ld+json">' . wp_json_encode( $fiche, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . '</script>' . "\n";
+		}
+	},
+	3
+);
