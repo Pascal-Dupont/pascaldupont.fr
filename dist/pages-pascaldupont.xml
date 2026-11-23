@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1.5" created="2026-11-23 01:10" -->
+	<!-- generator="WordPress/7.1.5" created="2026-11-23 01:49" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Pascal Dupont</title>
 	<link>https://pascaldupont.fr</link>
 	<description>Auteur-réalisateur documentaire</description>
-	<pubDate>Mon, 23 Nov 2026 01:10:40 +0000</pubDate>
+	<pubDate>Mon, 23 Nov 2026 01:49:19 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url></wp:base_site_url>
@@ -47,36 +47,36 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://pascaldupont.fr/?page_id=5</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"5_7929f5-88","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[96,"",168,""],"maxWidthUnit":"rem","backgroundSettingTab":"gradient","gradient":"linear-gradient(180deg,#131c25 0%,#1b2733 55%,#2a3846 100%)","padding":[120,"",200,""],"mobilePadding":[72,"",136,""],"kbVersion":2,"className":"pd-hero"} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"5_443c51-6f","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-column5_443c51-6f"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"5_11edce-11","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",20,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading5_11edce-11 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading5_11edce-11">Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission</p>
+		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"pd-accueil-4-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[96,"",168,""],"maxWidthUnit":"rem","backgroundSettingTab":"gradient","gradient":"linear-gradient(180deg,#131c25 0%,#1b2733 55%,#2a3846 100%)","padding":[120,"",200,""],"mobilePadding":[72,"",136,""],"kbVersion":2,"className":"pd-hero"} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-accueil-5-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-accueil-5-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-accueil-h1","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",20,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-accueil-h1 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-accueil-h1">Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"level":1,"uniqueID":"5_4f01f7-15","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",28,""],"markFontStyle":"italic","markColor":"palette5","fontSize":[5.4,4,2.7],"fontHeight":[1.05,"",""],"maxWidth":[880,"",""]} -->
-<h1 class="kt-adv-heading5_4f01f7-15 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading5_4f01f7-15">Je filme l'engagement et <mark class="kt-highlight">ce qu'il laisse</mark>.</h1>
+<!-- wp:kadence/advancedheading {"level":1,"uniqueID":"pd-accueil-h2","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",28,""],"markFontStyle":"italic","markColor":"palette5","fontSize":[5.4,4,2.7],"fontHeight":[1.05,"",""],"maxWidth":[880,"",""]} -->
+<h1 class="kt-adv-headingpd-accueil-h2 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-accueil-h2">Je filme l'engagement et <mark class="kt-highlight">ce qu'il laisse</mark>.</h1>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"5_344678-96","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[1.15,"",""],"fontHeight":[1.6,"",""],"maxWidth":[608,"",""]} -->
-<p class="kt-adv-heading5_344678-96 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading5_344678-96">Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-accueil-h3","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[1.15,"",""],"fontHeight":[1.6,"",""],"maxWidth":[608,"",""]} -->
+<p class="kt-adv-headingpd-accueil-h3 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-accueil-h3">Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"5_714804-b7","margin":[{"desk":[36,"",0,""],"tablet":["","","",""],"mobile":["","","",""]}],"gap":[0.9,"",""],"gapUnit":"rem","orientation":["","","column"]} -->
-<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns5_714804-b7"><!-- wp:kadence/singlebtn {"uniqueID":"5_e1aa8d-7b","text":"Voir les films","link":"/films/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"#ece8df","background":"palette1","colorHover":"#ece8df","backgroundHover":"palette2","borderStyle":[{"top":["#a3302f","solid",1],"right":["#a3302f","solid",1],"bottom":["#a3302f","solid",1],"left":["#a3302f","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#c0403d","solid",1],"right":["#c0403d","solid",1],"bottom":["#c0403d","solid",1],"left":["#c0403d","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /-->
+<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"pd-accueil-1-g","margin":[{"desk":[36,"",0,""],"tablet":["","","",""],"mobile":["","","",""]}],"gap":[0.9,"",""],"gapUnit":"rem","orientation":["","","column"]} -->
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btnspd-accueil-1-g"><!-- wp:kadence/singlebtn {"uniqueID":"pd-accueil-2-b","text":"Voir les films","link":"/films/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"#ece8df","background":"palette1","colorHover":"#ece8df","backgroundHover":"palette2","borderStyle":[{"top":["#a3302f","solid",1],"right":["#a3302f","solid",1],"bottom":["#a3302f","solid",1],"left":["#a3302f","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#c0403d","solid",1],"right":["#c0403d","solid",1],"bottom":["#c0403d","solid",1],"left":["#c0403d","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /-->
 
-<!-- wp:kadence/singlebtn {"uniqueID":"5_25f951-d7","text":"Parler d'un projet","link":"/contact/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"palette3","background":"transparent","colorHover":"palette9","backgroundHover":"palette3","borderStyle":[{"top":["#a9b6c0","solid",1],"right":["#a9b6c0","solid",1],"bottom":["#a9b6c0","solid",1],"left":["#a9b6c0","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#e8e6e1","solid",1],"right":["#e8e6e1","solid",1],"bottom":["#e8e6e1","solid",1],"left":["#e8e6e1","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"inheritStyles":"outline","typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /--></div>
+<!-- wp:kadence/singlebtn {"uniqueID":"pd-accueil-3-b","text":"Parler d'un projet","link":"/contact/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"palette3","background":"transparent","colorHover":"palette9","backgroundHover":"palette3","borderStyle":[{"top":["#a9b6c0","solid",1],"right":["#a9b6c0","solid",1],"bottom":["#a9b6c0","solid",1],"left":["#a9b6c0","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#e8e6e1","solid",1],"right":["#e8e6e1","solid",1],"bottom":["#e8e6e1","solid",1],"left":["#e8e6e1","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"inheritStyles":"outline","typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /--></div>
 <!-- /wp:kadence/advancedbtn --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
 
 <!-- wp:kadence/rowlayout {"uniqueID":"pd-accueil-56-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[28,"",28,""],"maxWidthUnit":"rem","padding":[32,"",32,""],"mobilePadding":[24,"",24,""],"borderStyle":[{"top":["","",""],"right":["","",""],"bottom":["#2c3a49","solid",1],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-accueil-57-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-accueil-57-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"5_2980f3-69","color":"palette4","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",20,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading5_2980f3-69 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading5_2980f3-69">Diffuseurs, clients et partenaires</p>
+<div class="wp-block-kadence-column kadence-columnpd-accueil-57-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-accueil-h4","color":"palette4","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",20,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-accueil-h4 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-accueil-h4">Diffuseurs, clients et partenaires</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:html -->
-<div class="pd-defilement"><ul class="pd-defilement-piste"><li><img src="/wp-content/themes/kadence-pascal/assets/logos/resilience-bandeau.svg" alt="Logo Fondation Résilience" height="44" loading="lazy"></li><li><span>France 4</span></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/fa3r-blanc.png" alt="Logo FA3R" height="44" loading="lazy"></li><li><span>W9</span></li><li><span>1er RCP</span></li><li><span>European Defense Review</span></li></ul><ul class="pd-defilement-piste" aria-hidden="true"><li><img src="/wp-content/themes/kadence-pascal/assets/logos/resilience-bandeau.svg" alt="" height="44" loading="lazy"></li><li><span>France 4</span></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/fa3r-blanc.png" alt="" height="44" loading="lazy"></li><li><span>W9</span></li><li><span>1er RCP</span></li><li><span>European Defense Review</span></li></ul></div>
+<div class="pd-defilement"><ul class="pd-defilement-piste"><li><img src="/wp-content/themes/kadence-pascal/assets/logos/france4-blanc.png" alt="Logo France 4" height="64" style="height:64px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/resilience-bandeau.svg" alt="Logo Fondation Résilience" height="44" style="height:44px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/w9-blanc.png" alt="Logo W9" height="44" style="height:44px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/fa3r-blanc.png" alt="Logo FA3R" height="44" style="height:44px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/m6-blanc.png" alt="Logo M6" height="44" style="height:44px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/edr-blanc.png" alt="Logo European Defense Review" height="44" style="height:44px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/tv5monde-blanc.png" alt="Logo TV5 Monde" height="44" style="height:44px" loading="lazy"></li><li><span>1er RCP</span></li></ul><ul class="pd-defilement-piste" aria-hidden="true"><li><img src="/wp-content/themes/kadence-pascal/assets/logos/france4-blanc.png" alt="" height="64" style="height:64px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/resilience-bandeau.svg" alt="" height="44" style="height:44px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/w9-blanc.png" alt="" height="44" style="height:44px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/fa3r-blanc.png" alt="" height="44" style="height:44px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/m6-blanc.png" alt="" height="44" style="height:44px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/edr-blanc.png" alt="" height="44" style="height:44px" loading="lazy"></li><li><img src="/wp-content/themes/kadence-pascal/assets/logos/tv5monde-blanc.png" alt="" height="44" style="height:44px" loading="lazy"></li><li><span>1er RCP</span></li></ul></div>
 <!-- /wp:html --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
@@ -704,8 +704,8 @@
 		<wp:post_id>5</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:01:56]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:01:56]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 02:09:07]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 01:09:07]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 02:49:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 01:49:00]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[accueil]]></wp:post_name>
@@ -3598,8 +3598,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 		<wp:post_id>32</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:38:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:38:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 02:10:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 01:10:39]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 02:49:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 01:49:19]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[thales]]></wp:post_name>

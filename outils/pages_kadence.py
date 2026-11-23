@@ -436,7 +436,8 @@ def page_accueil():
         h = []
         for e in bd['elements']:
             if e.get('logo'):
-                h.append('<li><img src="%s%s" alt="%s" height="44" loading="lazy"></li>' % (LOGOS, e['logo'], '' if cachee else 'Logo ' + e['nom']))
+                h.append('<li><img src="%s%s" alt="%s" height="%d" style="height:%dpx" loading="lazy"></li>' % (
+                    LOGOS, e['logo'], '' if cachee else 'Logo ' + e['nom'], e.get('hauteur', 44), e.get('hauteur', 44)))
             else:
                 h.append('<li><span>%s</span></li>' % e['nom'])
         return '<ul class="pd-defilement-piste"%s>%s</ul>' % (' aria-hidden="true"' if cachee else '', ''.join(h))

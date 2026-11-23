@@ -184,32 +184,46 @@
         "etiquette": "Diffuseurs, clients et partenaires",
         "noms": [
           "France 4",
-          "W9",
           "Fondation Résilience",
+          "W9",
           "FA3R",
-          "1er RCP",
-          "European Defense Review"
+          "M6",
+          "European Defense Review",
+          "TV5 Monde",
+          "1er RCP"
         ],
         "elements": [
+          {
+            "nom": "France 4",
+            "logo": "france4-blanc.png",
+            "hauteur": 64
+          },
           {
             "nom": "Fondation Résilience",
             "logo": "resilience-bandeau.svg"
           },
           {
-            "nom": "France 4"
+            "nom": "W9",
+            "logo": "w9-blanc.png"
           },
           {
             "nom": "FA3R",
             "logo": "fa3r-blanc.png"
           },
           {
-            "nom": "W9"
+            "nom": "M6",
+            "logo": "m6-blanc.png"
+          },
+          {
+            "nom": "European Defense Review",
+            "logo": "edr-blanc.png"
+          },
+          {
+            "nom": "TV5 Monde",
+            "logo": "tv5monde-blanc.png"
           },
           {
             "nom": "1er RCP"
-          },
-          {
-            "nom": "European Defense Review"
           }
         ]
       },
