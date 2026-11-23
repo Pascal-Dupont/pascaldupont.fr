@@ -970,7 +970,7 @@
       "entete": {
         "surtitre": "Défense · Industrie",
         "titre": "Thales",
-        "texte": "Des films de présentation réalisés avec Thales et avec le 1er RCP, dans le cadre du partenariat que j'ai initié entre le régiment et l'industriel."
+        "texte": "Des films réalisés pour Thales et avec le 1er RCP, ainsi que des films de présentation pour TDA Armements, aujourd'hui intégré à Thales."
       },
       "chiffres": [
         {
@@ -986,7 +986,7 @@
         "RCP10",
         "RCP11"
       ],
-      "texte": "Films courts réalisés en 2026 pour le 1er RCP, publiés sur les pages officielles du régiment, dans le cadre du partenariat entre Thales et le 1er RCP.",
+      "texte": "Des films réalisés avec le 1er RCP dans le cadre du partenariat entre le régiment et Thales, que j'ai initié, ainsi que des films de présentation de matériels réalisés pour TDA Armements, aujourd'hui intégré à Thales.",
       "mention": "Les logos Thales sont utilisés avec l'accord de Thales, sans modification et en lien avec les films concernés.",
       "videos": [
         {
@@ -1000,7 +1000,19 @@
           "texte": "Le mortier 2R2M, film réalisé pour le salon Eurosatory 2018."
         }
       ],
-      "videos_titre": "Films réalisés pour Thales"
+      "videos_titre": "Films réalisés pour Thales",
+      "tda": {
+        "surtitre": "TDA Armements, aujourd'hui Thales",
+        "titre": "Présentation des matériels",
+        "texte": "Une série de films de présentation tournés en conditions réelles, au plus près des utilisateurs, pour TDA Armements.",
+        "films": [
+          "A1yfSvxryKg",
+          "bNW6-rmkwSk",
+          "QxnCk8AzNmE",
+          "SA07sD4wLHg",
+          "QdW01BdD24k"
+        ]
+      }
     },
     "documentaires": {
       "titre": "Documentaires",
@@ -1215,6 +1227,41 @@
             "duree": "1:16",
             "youtube": "https://www.youtube.com/watch?v=QMFdHoR7FxM",
             "etiquette": "OPS TV"
+          },
+          {
+            "id": "A1yfSvxryKg",
+            "titre": "TDA, mortier tracté rayé de 120 mm",
+            "description": "Présentation du matériel",
+            "duree": "6:00",
+            "youtube": "https://www.youtube.com/watch?v=A1yfSvxryKg"
+          },
+          {
+            "id": "bNW6-rmkwSk",
+            "titre": "TDA, mortier de 120 mm sur le terrain",
+            "description": "En manœuvre, avec l'artillerie",
+            "duree": "3:32",
+            "youtube": "https://www.youtube.com/watch?v=bNW6-rmkwSk"
+          },
+          {
+            "id": "QxnCk8AzNmE",
+            "titre": "TDA, mortier de 120 mm avec le 68e RAA",
+            "description": "En manœuvre",
+            "duree": "1:19",
+            "youtube": "https://www.youtube.com/watch?v=QxnCk8AzNmE"
+          },
+          {
+            "id": "SA07sD4wLHg",
+            "titre": "TDA, mortier de 120 mm avec le 93e RAM",
+            "description": "En manœuvre",
+            "duree": "1:02",
+            "youtube": "https://www.youtube.com/watch?v=SA07sD4wLHg"
+          },
+          {
+            "id": "QdW01BdD24k",
+            "titre": "TDA, roquettes à induction sur Tigre",
+            "description": "Chargement, avec le 1er RHC, à Suippes",
+            "duree": "1:34",
+            "youtube": "https://www.youtube.com/watch?v=QdW01BdD24k"
           }
         ],
         "liens": [],

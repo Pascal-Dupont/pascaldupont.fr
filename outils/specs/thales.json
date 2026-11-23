@@ -131,7 +131,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Des films de présentation réalisés avec Thales et avec le 1er RCP, dans le cadre du partenariat que j'ai initié entre le régiment et l'industriel.",
+        "content": "Des films réalisés pour Thales et avec le 1er RCP, ainsi que des films de présentation pour TDA Armements, aujourd'hui intégré à Thales.",
         "htmlTag": "p",
         "fontSize": [
          1.15,
@@ -169,7 +169,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-thales-13-s",
+    "uniqueID": "pd-thales-19-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -203,7 +203,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-thales-14-c",
+      "uniqueID": "pd-thales-20-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -231,13 +231,47 @@
         {
          "name": "core/image",
          "attributes": {
-          "url": "/wp-content/themes/kadence-pascal/assets/logos/thales-fond-bleu.png",
+          "url": "/wp-content/themes/kadence-pascal/assets/logos/thales-transparent-blanc.png",
           "alt": "Logo Thales",
-          "width": "340px",
+          "width": "300px",
           "sizeSlug": "full"
          }
         }
        ]
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Des films réalisés avec le 1er RCP dans le cadre du partenariat entre le régiment et Thales, que j'ai initié, ainsi que des films de présentation de matériels réalisés pour TDA Armements, aujourd'hui intégré à Thales.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0625,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         32,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         720,
+         "",
+         ""
+        ],
+        "maxWidthType": "px",
+        "uniqueID": "pd-thales-h4"
+       }
       },
       {
        "name": "kadence/advancedheading",
@@ -267,7 +301,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-thales-h4"
+        "uniqueID": "pd-thales-h5"
        }
       },
       {
@@ -357,7 +391,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h5"
+            "uniqueID": "pd-thales-h6"
            }
           },
           {
@@ -385,7 +419,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h6"
+            "uniqueID": "pd-thales-h7"
            }
           }
          ]
@@ -441,7 +475,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h7"
+            "uniqueID": "pd-thales-h8"
            }
           },
           {
@@ -469,7 +503,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h8"
+            "uniqueID": "pd-thales-h9"
            }
           }
          ]
@@ -486,14 +520,14 @@
        "name": "kadence/advancedheading",
        "attributes": {
         "content": "Avec le 1er RCP",
-        "level": 2,
+        "level": 3,
         "typography": "Newsreader",
         "googleFont": false,
         "fontWeight": "400",
         "fontSize": [
-         1.9,
-         1.75,
-         1.6
+         1.35,
+         1.3,
+         1.25
         ],
         "sizeType": "rem",
         "fontHeight": [
@@ -506,51 +540,17 @@
         "margin": [
          0,
          "",
-         16,
+         20,
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-thales-h9"
-       }
-      },
-      {
-       "name": "kadence/advancedheading",
-       "attributes": {
-        "content": "Films courts réalisés en 2026 pour le 1er RCP, publiés sur les pages officielles du régiment, dans le cadre du partenariat entre Thales et le 1er RCP.",
-        "htmlTag": "p",
-        "fontSize": [
-         1.0625,
-         "",
-         ""
-        ],
-        "sizeType": "rem",
-        "fontHeight": [
-         1.6,
-         "",
-         ""
-        ],
-        "fontHeightType": "",
-        "color": "palette4",
-        "margin": [
-         0,
-         "",
-         32,
-         ""
-        ],
-        "marginType": "px",
-        "maxWidth": [
-         720,
-         "",
-         ""
-        ],
-        "maxWidthType": "px",
         "uniqueID": "pd-thales-h10"
        }
       },
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-thales-9-r",
+        "uniqueID": "pd-thales-15-r",
         "kbVersion": 2,
         "columns": 3,
         "colLayout": "equal",
@@ -593,7 +593,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-thales-6-c",
+          "uniqueID": "pd-thales-12-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -766,7 +766,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-thales-7-c",
+          "uniqueID": "pd-thales-13-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -939,7 +939,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-thales-8-c",
+          "uniqueID": "pd-thales-14-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -959,9 +959,674 @@
        }
       },
       {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "TDA Armements, aujourd'hui Thales",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         8,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-thales-h21"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Présentation des matériels",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         1.9,
+         1.75,
+         1.6
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         12,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-thales-h22"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Une série de films de présentation tournés en conditions réelles, au plus près des utilisateurs, pour TDA Armements.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         24,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         720,
+         "",
+         ""
+        ],
+        "maxWidthType": "px",
+        "uniqueID": "pd-thales-h23"
+       }
+      },
+      {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-thales-12-r",
+        "uniqueID": "pd-thales-11-r",
+        "kbVersion": 2,
+        "columns": 3,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "tabletLayout": "two-grid",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         24,
+         20,
+         16
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         40,
+         32,
+         28
+        ],
+        "rowGutterType": "px",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-6-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/A1yfSvxryKg/hqdefault.jpg",
+            "alt": "Vignette du film « TDA, mortier tracté rayé de 120 mm »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=A1yfSvxryKg",
+            "linkTarget": true,
+            "linkTitle": "Voir « TDA, mortier tracté rayé de 120 mm » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-thales-h24"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "TDA, mortier tracté rayé de 120 mm",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h25"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Présentation du matériel · 6 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h26"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-7-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/bNW6-rmkwSk/hqdefault.jpg",
+            "alt": "Vignette du film « TDA, mortier de 120 mm sur le terrain »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=bNW6-rmkwSk",
+            "linkTarget": true,
+            "linkTitle": "Voir « TDA, mortier de 120 mm sur le terrain » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-thales-h27"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "TDA, mortier de 120 mm sur le terrain",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h28"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "En manœuvre, avec l'artillerie · 4 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h29"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-8-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/QxnCk8AzNmE/hqdefault.jpg",
+            "alt": "Vignette du film « TDA, mortier de 120 mm avec le 68e RAA »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=QxnCk8AzNmE",
+            "linkTarget": true,
+            "linkTitle": "Voir « TDA, mortier de 120 mm avec le 68e RAA » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-thales-h30"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "TDA, mortier de 120 mm avec le 68e RAA",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h31"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "En manœuvre · 1 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h32"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-9-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/SA07sD4wLHg/hqdefault.jpg",
+            "alt": "Vignette du film « TDA, mortier de 120 mm avec le 93e RAM »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=SA07sD4wLHg",
+            "linkTarget": true,
+            "linkTitle": "Voir « TDA, mortier de 120 mm avec le 93e RAM » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-thales-h33"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "TDA, mortier de 120 mm avec le 93e RAM",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h34"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "En manœuvre · 1 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h35"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-thales-10-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "htmlTag": "article",
+          "className": "pd-carte"
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/QdW01BdD24k/hqdefault.jpg",
+            "alt": "Vignette du film « TDA, roquettes à induction sur Tigre »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=QdW01BdD24k",
+            "linkTarget": true,
+            "linkTitle": "Voir « TDA, roquettes à induction sur Tigre » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             14,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-thales-h36"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "TDA, roquettes à induction sur Tigre",
+            "level": 3,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             1.35,
+             1.3,
+             1.25
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h37"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Chargement, avec le 1er RHC, à Suippes · 2 min",
+            "htmlTag": "p",
+            "fontSize": [
+             0.92,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             6,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-thales-h38"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "core/spacer",
+       "attributes": {
+        "height": "56px"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-thales-18-r",
         "kbVersion": 2,
         "columns": 4,
         "colLayout": "equal",
@@ -997,7 +1662,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-thales-10-c",
+          "uniqueID": "pd-thales-16-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1067,7 +1732,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-thales-h21"
+            "uniqueID": "pd-thales-h39"
            }
           },
           {
@@ -1095,7 +1760,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h22"
+            "uniqueID": "pd-thales-h40"
            }
           }
          ]
@@ -1103,7 +1768,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-thales-11-c",
+          "uniqueID": "pd-thales-17-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -1173,7 +1838,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-thales-h23"
+            "uniqueID": "pd-thales-h41"
            }
           },
           {
@@ -1201,7 +1866,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-thales-h24"
+            "uniqueID": "pd-thales-h42"
            }
           }
          ]
@@ -1242,7 +1907,7 @@
         "typography": "IBM Plex Mono",
         "googleFont": false,
         "fontWeight": "400",
-        "uniqueID": "pd-thales-h25"
+        "uniqueID": "pd-thales-h43"
        }
       }
      ]

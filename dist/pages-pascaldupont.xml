@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1.5" created="2026-11-23 15:42" -->
+	<!-- generator="WordPress/7.1.5" created="2026-11-23 18:01" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Pascal Dupont</title>
 	<link>https://pascaldupont.fr</link>
 	<description>Auteur-réalisateur documentaire</description>
-	<pubDate>Mon, 23 Nov 2026 15:42:49 +0000</pubDate>
+	<pubDate>Mon, 23 Nov 2026 18:01:34 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url></wp:base_site_url>
@@ -704,8 +704,8 @@
 		<wp:post_id>5</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:01:56]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:01:56]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 14:00:09]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 13:00:09]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[accueil]]></wp:post_name>
@@ -1884,8 +1884,8 @@
 		<wp:post_id>8</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:12]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 12:00:26]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 11:00:26]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[films]]></wp:post_name>
@@ -2312,8 +2312,8 @@
 		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:27]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:27]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 14:17:19]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 13:17:19]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 18:59:46]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:46]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[a-propos]]></wp:post_name>
@@ -3290,8 +3290,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>12</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:41]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 12:00:05]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 11:00:05]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[defense-et-securite]]></wp:post_name>
@@ -3456,8 +3456,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>14</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:56]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:56]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 02:56:55]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 01:56:55]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[lakelab]]></wp:post_name>
@@ -3580,8 +3580,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>16</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:03:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:03:10]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-22 21:17:02]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-22 20:17:02]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[contact]]></wp:post_name>
@@ -3710,8 +3710,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>18</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:03:24]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:03:24]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 03:56:52]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 02:56:52]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[mentions-legales]]></wp:post_name>
@@ -3848,8 +3848,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>20</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:03:38]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:03:38]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-22 21:17:31]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-22 20:17:31]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[confidentialite]]></wp:post_name>
@@ -3919,64 +3919,68 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://pascaldupont.fr/?page_id=32</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"32_4b8a31-41","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[72,"",48,""],"maxWidthUnit":"rem","padding":[88,"",56,""],"mobilePadding":[48,"",32,""],"kbVersion":2} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_b01114-a0","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-column32_b01114-a0"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"32_6111ad-39","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading32_6111ad-39 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_6111ad-39">Défense · Industrie</p>
+		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"32_34cca7-df","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[72,"",48,""],"maxWidthUnit":"rem","padding":[88,"",56,""],"mobilePadding":[48,"",32,""],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_241c89-57","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column32_241c89-57"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"32_a56602-e3","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_a56602-e3 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_a56602-e3">Défense · Industrie</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"level":1,"uniqueID":"32_48fea7-2a","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",20,""],"fontSize":[4.4,3.4,2.6],"fontHeight":[1.1,"",""],"maxWidth":[880,"",""]} -->
-<h1 class="kt-adv-heading32_48fea7-2a wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_48fea7-2a">Thales</h1>
+<!-- wp:kadence/advancedheading {"level":1,"uniqueID":"32_85f550-c3","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",20,""],"fontSize":[4.4,3.4,2.6],"fontHeight":[1.1,"",""],"maxWidth":[880,"",""]} -->
+<h1 class="kt-adv-heading32_85f550-c3 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_85f550-c3">Thales</h1>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_ac0f69-70","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[1.15,"",""],"fontHeight":[1.6,"",""],"maxWidth":[720,"",""]} -->
-<p class="kt-adv-heading32_ac0f69-70 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_ac0f69-70">Des films de présentation réalisés avec Thales et avec le 1er RCP, dans le cadre du partenariat que j'ai initié entre le régiment et l'industriel.</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_253743-86","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[1.15,"",""],"fontHeight":[1.6,"",""],"maxWidth":[720,"",""]} -->
+<p class="kt-adv-heading32_253743-86 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_253743-86">Des films réalisés pour Thales et avec le 1er RCP, ainsi que des films de présentation pour TDA Armements, aujourd'hui intégré à Thales.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"32_506fef-35","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[24,"",72,""],"maxWidthUnit":"rem","padding":[24,"",96,""],"mobilePadding":[16,"",56,""],"kbVersion":2} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_63d090-5a","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-column32_63d090-5a"><div class="kt-inside-inner-col"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"32px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-bottom:32px"><!-- wp:image {"width":"340px","sizeSlug":"full"} -->
-<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/kadence-pascal/assets/logos/thales-fond-bleu.png" alt="Logo Thales" style="width:340px;height:auto" /></figure>
+<!-- wp:kadence/rowlayout {"uniqueID":"32_62ac88-50","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[24,"",72,""],"maxWidthUnit":"rem","padding":[24,"",96,""],"mobilePadding":[16,"",56,""],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_50fae2-36","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column32_50fae2-36"><div class="kt-inside-inner-col"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"32px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-bottom:32px"><!-- wp:image {"width":"300px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/kadence-pascal/assets/logos/thales-transparent-blanc.png" alt="Logo Thales" style="width:300px;height:auto" /></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_9dae6d-2e","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",24,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
-<h2 class="kt-adv-heading32_9dae6d-2e wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_9dae6d-2e">Films réalisés pour Thales</h2>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_241b84-66","color":"palette4","sizeType":"rem","margin":[0,"",32,""],"htmlTag":"p","fontSize":[1.0625,"",""],"fontHeight":[1.6,"",""],"maxWidth":[720,"",""]} -->
+<p class="kt-adv-heading32_241b84-66 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_241b84-66">Des films réalisés avec le 1er RCP dans le cadre du partenariat entre le régiment et Thales, que j'ai initié, ainsi que des films de présentation de matériels réalisés pour TDA Armements, aujourd'hui intégré à Thales.</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"32_f86f0a-25","tabletLayout":"row","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[32,32,32],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[32,24,0],"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_c6c495-3f","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-column32_c6c495-3f"><div class="kt-inside-inner-col"><!-- wp:embed {"url":"https://www.youtube.com/watch?v=zWWyW-lMcnw","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<!-- wp:kadence/advancedheading {"uniqueID":"32_9c77eb-93","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",24,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-heading32_9c77eb-93 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_9c77eb-93">Films réalisés pour Thales</h2>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"32_80b63a-5c","tabletLayout":"row","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[32,32,32],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[32,24,0],"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_d05a8e-67","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column32_d05a8e-67"><div class="kt-inside-inner-col"><!-- wp:embed {"url":"https://www.youtube.com/watch?v=zWWyW-lMcnw","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 https://www.youtube.com/watch?v=zWWyW-lMcnw
 </div></figure>
 <!-- /wp:embed -->
 
-<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_205dbb-ff","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
-<h3 class="kt-adv-heading32_205dbb-ff wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_205dbb-ff">Thales 120RT Rifled Towed Mortar 120mm</h3>
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_0356c8-0b","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<h3 class="kt-adv-heading32_0356c8-0b wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_0356c8-0b">Thales 120RT Rifled Towed Mortar 120mm</h3>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_ca93b4-27","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading32_ca93b4-27 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_ca93b4-27">Le mortier rayé tracté de 120 mm, filmé en conditions réelles.</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_93f4af-49","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_93f4af-49 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_93f4af-49">Le mortier rayé tracté de 120 mm, filmé en conditions réelles.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_5eb34d-b2","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-column32_5eb34d-b2"><div class="kt-inside-inner-col"><!-- wp:embed {"url":"https://www.youtube.com/watch?v=8yt6AzOWHPk","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_5378bd-5f","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column32_5378bd-5f"><div class="kt-inside-inner-col"><!-- wp:embed {"url":"https://www.youtube.com/watch?v=8yt6AzOWHPk","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 https://www.youtube.com/watch?v=8yt6AzOWHPk
 </div></figure>
 <!-- /wp:embed -->
 
-<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_c7e2cb-17","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
-<h3 class="kt-adv-heading32_c7e2cb-17 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_c7e2cb-17">Thales 2R2M Eurosatory 2018</h3>
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_7ad6f8-f0","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<h3 class="kt-adv-heading32_7ad6f8-f0 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_7ad6f8-f0">Thales 2R2M Eurosatory 2018</h3>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_c6f3de-1a","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading32_c6f3de-1a wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_c6f3de-1a">Le mortier 2R2M, film réalisé pour le salon Eurosatory 2018.</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_1dd085-bb","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_1dd085-bb wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_1dd085-bb">Le mortier 2R2M, film réalisé pour le salon Eurosatory 2018.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
@@ -3985,61 +3989,57 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 <div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_2f8df4-4f","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
-<h2 class="kt-adv-heading32_2f8df4-4f wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_2f8df4-4f">Avec le 1er RCP</h2>
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_6e5dad-d3","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",20,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.1,"",""]} -->
+<h3 class="kt-adv-heading32_6e5dad-d3 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_6e5dad-d3">Avec le 1er RCP</h3>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_dbaf51-8f","color":"palette4","sizeType":"rem","margin":[0,"",32,""],"htmlTag":"p","fontSize":[1.0625,"",""],"fontHeight":[1.6,"",""],"maxWidth":[720,"",""]} -->
-<p class="kt-adv-heading32_dbaf51-8f wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_dbaf51-8f">Films courts réalisés en 2026 pour le 1er RCP, publiés sur les pages officielles du régiment, dans le cadre du partenariat entre Thales et le 1er RCP.</p>
-<!-- /wp:kadence/advancedheading -->
-
-<!-- wp:kadence/rowlayout {"uniqueID":"pd-thales-9-r","columns":3,"tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[40,32,28],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"margin":[0,"",0,""],"kbVersion":2} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_fe92a5-67","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
-<article class="wp-block-kadence-column kadence-column32_fe92a5-67 pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.instagram.com/reel/DdZMV6Ht0Eu/","linkTarget":true,"linkTitle":"Voir « Thales Onyx » (nouvel onglet)","uniqueID":"32_b4bc53-4a","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-image32_b4bc53-4a kb-image-is-ratio-size"><a href="https://www.instagram.com/reel/DdZMV6Ht0Eu/" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Thales Onyx » (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/vignettes/rcp10.jpg" alt="Vignette du film « Thales Onyx »" class="kb-img" /></div></a></figure>
+<!-- wp:kadence/rowlayout {"uniqueID":"32_e33700-2e","columns":3,"tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[40,32,28],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"margin":[0,"",0,""],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_e2ec45-c0","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-column32_e2ec45-c0 pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.instagram.com/reel/DdZMV6Ht0Eu/","linkTarget":true,"linkTitle":"Voir « Thales Onyx » (nouvel onglet)","uniqueID":"32_c845a5-46","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-image32_c845a5-46 kb-image-is-ratio-size"><a href="https://www.instagram.com/reel/DdZMV6Ht0Eu/" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Thales Onyx » (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/vignettes/rcp10.jpg" alt="Vignette du film « Thales Onyx »" class="kb-img" /></div></a></figure>
 <!-- /wp:kadence/image -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_d867f6-f4","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading32_d867f6-f4 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_d867f6-f4">Film court</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_1b1b2c-85","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_1b1b2c-85 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_1b1b2c-85">Film court</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_c1c42d-2b","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"link":"https://www.instagram.com/reel/DdZMV6Ht0Eu/","linkTarget":true,"linkStyle":"hover_underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
-<a href="https://www.instagram.com/reel/DdZMV6Ht0Eu/" class="kb-advanced-heading-link kt-adv-heading-link32_c1c42d-2b hls-hover_underline" target="_blank" rel="noopener noreferrer"><h3 class="kt-adv-heading32_c1c42d-2b wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_c1c42d-2b">Thales Onyx</h3></a>
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_e6409c-88","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"link":"https://www.instagram.com/reel/DdZMV6Ht0Eu/","linkTarget":true,"linkStyle":"hover_underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<a href="https://www.instagram.com/reel/DdZMV6Ht0Eu/" class="kb-advanced-heading-link kt-adv-heading-link32_e6409c-88 hls-hover_underline" target="_blank" rel="noopener noreferrer"><h3 class="kt-adv-heading32_e6409c-88 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_e6409c-88">Thales Onyx</h3></a>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_fe63e8-b1","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading32_fe63e8-b1 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_fe63e8-b1">Film court, partenariat Thales</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_6c2f4d-60","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_6c2f4d-60 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_6c2f4d-60">Film court, partenariat Thales</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_3aa2e2-97","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","linkStyle":"underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[0.85,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading32_3aa2e2-97 wp-block-kadence-advancedheading hls-underline" data-kb-block="kb-adv-heading32_3aa2e2-97">Voir sur : <a href="https://www.instagram.com/reel/DdZMV6Ht0Eu/" target="_blank" rel="noreferrer noopener">Instagram</a> · <a href="https://www.facebook.com/share/v/1cWDqm3qax/" target="_blank" rel="noreferrer noopener">Facebook</a></p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_879e78-29","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","linkStyle":"underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[0.85,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_879e78-29 wp-block-kadence-advancedheading hls-underline" data-kb-block="kb-adv-heading32_879e78-29">Voir sur : <a href="https://www.instagram.com/reel/DdZMV6Ht0Eu/" target="_blank" rel="noreferrer noopener">Instagram</a> · <a href="https://www.facebook.com/share/v/1cWDqm3qax/" target="_blank" rel="noreferrer noopener">Facebook</a></p>
 <!-- /wp:kadence/advancedheading --></div></article>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_c060d3-16","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
-<article class="wp-block-kadence-column kadence-column32_c060d3-16 pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.instagram.com/reel/Ddjk7LEtpA-/","linkTarget":true,"linkTitle":"Voir « Thales PR4G » (nouvel onglet)","uniqueID":"32_ade98b-8c","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-image32_ade98b-8c kb-image-is-ratio-size"><a href="https://www.instagram.com/reel/Ddjk7LEtpA-/" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Thales PR4G » (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/vignettes/rcp11.jpg" alt="Vignette du film « Thales PR4G »" class="kb-img" /></div></a></figure>
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_d66fe0-cb","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-column32_d66fe0-cb pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.instagram.com/reel/Ddjk7LEtpA-/","linkTarget":true,"linkTitle":"Voir « Thales PR4G » (nouvel onglet)","uniqueID":"32_02d4c7-46","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-image32_02d4c7-46 kb-image-is-ratio-size"><a href="https://www.instagram.com/reel/Ddjk7LEtpA-/" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Thales PR4G » (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/vignettes/rcp11.jpg" alt="Vignette du film « Thales PR4G »" class="kb-img" /></div></a></figure>
 <!-- /wp:kadence/image -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_d501e5-dc","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading32_d501e5-dc wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_d501e5-dc">Film court</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_c255b1-8a","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_c255b1-8a wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_c255b1-8a">Film court</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_dd0d77-25","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"link":"https://www.instagram.com/reel/Ddjk7LEtpA-/","linkTarget":true,"linkStyle":"hover_underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
-<a href="https://www.instagram.com/reel/Ddjk7LEtpA-/" class="kb-advanced-heading-link kt-adv-heading-link32_dd0d77-25 hls-hover_underline" target="_blank" rel="noopener noreferrer"><h3 class="kt-adv-heading32_dd0d77-25 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_dd0d77-25">Thales PR4G</h3></a>
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_c6af51-92","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"link":"https://www.instagram.com/reel/Ddjk7LEtpA-/","linkTarget":true,"linkStyle":"hover_underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<a href="https://www.instagram.com/reel/Ddjk7LEtpA-/" class="kb-advanced-heading-link kt-adv-heading-link32_c6af51-92 hls-hover_underline" target="_blank" rel="noopener noreferrer"><h3 class="kt-adv-heading32_c6af51-92 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_c6af51-92">Thales PR4G</h3></a>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_e8fc43-98","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading32_e8fc43-98 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_e8fc43-98">Film court, partenariat Thales</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_ef9ced-60","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_ef9ced-60 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_ef9ced-60">Film court, partenariat Thales</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_a3ff2c-7d","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","linkStyle":"underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[0.85,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading32_a3ff2c-7d wp-block-kadence-advancedheading hls-underline" data-kb-block="kb-adv-heading32_a3ff2c-7d">Voir sur : <a href="https://www.instagram.com/reel/Ddjk7LEtpA-/" target="_blank" rel="noreferrer noopener">Instagram</a> · <a href="https://fb.watch/K4XMnJgb3P/" target="_blank" rel="noreferrer noopener">Facebook</a></p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_11f4bd-0f","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","linkStyle":"underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[0.85,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_11f4bd-0f wp-block-kadence-advancedheading hls-underline" data-kb-block="kb-adv-heading32_11f4bd-0f">Voir sur : <a href="https://www.instagram.com/reel/Ddjk7LEtpA-/" target="_blank" rel="noreferrer noopener">Instagram</a> · <a href="https://fb.watch/K4XMnJgb3P/" target="_blank" rel="noreferrer noopener">Facebook</a></p>
 <!-- /wp:kadence/advancedheading --></div></article>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_308d3d-2e","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-column32_308d3d-2e"><div class="kt-inside-inner-col"></div></div>
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_07f025-48","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column32_07f025-48"><div class="kt-inside-inner-col"></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
 
@@ -4047,33 +4047,121 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 <div style="height:56px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"32_ebfb3d-d1","columns":4,"mobileLayout":"two-grid","tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[36,28,24],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_f36d8d-38","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-column32_f36d8d-38"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"32_9dd32d-4c","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
-<p class="kt-adv-heading32_9dd32d-4c wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_9dd32d-4c">23 608</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_b69fd5-a3","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",8,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_b69fd5-a3 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_b69fd5-a3">TDA Armements, aujourd'hui Thales</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"32_71cf3c-c5","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-heading32_71cf3c-c5 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_71cf3c-c5">vues sur Instagram pour « Thales Onyx » (7 700 sur Facebook)</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_9acf2b-35","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",12,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-heading32_9acf2b-35 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_9acf2b-35">Présentation des matériels</h2>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"32_e319cf-0e","color":"palette4","sizeType":"rem","margin":[0,"",24,""],"htmlTag":"p","fontSize":[1,"",""],"fontHeight":[1.6,"",""],"maxWidth":[720,"",""]} -->
+<p class="kt-adv-heading32_e319cf-0e wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_e319cf-0e">Une série de films de présentation tournés en conditions réelles, au plus près des utilisateurs, pour TDA Armements.</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"32_b8b6ff-fa","columns":3,"tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[40,32,28],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"margin":[0,"",0,""],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_ec91f6-5f","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-column32_ec91f6-5f pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.youtube.com/watch?v=A1yfSvxryKg","linkTarget":true,"linkTitle":"Voir « TDA, mortier tracté rayé de 120 mm » sur YouTube (nouvel onglet)","uniqueID":"pd-thales-h24","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-thales-h24 kb-image-is-ratio-size"><a href="https://www.youtube.com/watch?v=A1yfSvxryKg" class="kb-advanced-image-link" target="_blank" aria-label="Voir « TDA, mortier tracté rayé de 120 mm » sur YouTube (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/A1yfSvxryKg/hqdefault.jpg" alt="Vignette du film « TDA, mortier tracté rayé de 120 mm »" class="kb-img" /></div></a></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-thales-h25","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<h3 class="kt-adv-headingpd-thales-h25 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-thales-h25">TDA, mortier tracté rayé de 120 mm</h3>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"32_e10dbf-10","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_e10dbf-10 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_e10dbf-10">Présentation du matériel · 6 min</p>
+<!-- /wp:kadence/advancedheading --></div></article>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_c10c13-d6","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-column32_c10c13-d6 pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.youtube.com/watch?v=bNW6-rmkwSk","linkTarget":true,"linkTitle":"Voir « TDA, mortier de 120 mm sur le terrain » sur YouTube (nouvel onglet)","uniqueID":"32_9514da-a3","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-image32_9514da-a3 kb-image-is-ratio-size"><a href="https://www.youtube.com/watch?v=bNW6-rmkwSk" class="kb-advanced-image-link" target="_blank" aria-label="Voir « TDA, mortier de 120 mm sur le terrain » sur YouTube (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/bNW6-rmkwSk/hqdefault.jpg" alt="Vignette du film « TDA, mortier de 120 mm sur le terrain »" class="kb-img" /></div></a></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_c7a5cb-c3","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<h3 class="kt-adv-heading32_c7a5cb-c3 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_c7a5cb-c3">TDA, mortier de 120 mm sur le terrain</h3>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"32_b270e1-14","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_b270e1-14 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_b270e1-14">En manœuvre, avec l'artillerie · 4 min</p>
+<!-- /wp:kadence/advancedheading --></div></article>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_a8cda1-64","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-column32_a8cda1-64 pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.youtube.com/watch?v=QxnCk8AzNmE","linkTarget":true,"linkTitle":"Voir « TDA, mortier de 120 mm avec le 68e RAA » sur YouTube (nouvel onglet)","uniqueID":"32_43f573-2d","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-image32_43f573-2d kb-image-is-ratio-size"><a href="https://www.youtube.com/watch?v=QxnCk8AzNmE" class="kb-advanced-image-link" target="_blank" aria-label="Voir « TDA, mortier de 120 mm avec le 68e RAA » sur YouTube (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/QxnCk8AzNmE/hqdefault.jpg" alt="Vignette du film « TDA, mortier de 120 mm avec le 68e RAA »" class="kb-img" /></div></a></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_1cb326-eb","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<h3 class="kt-adv-heading32_1cb326-eb wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_1cb326-eb">TDA, mortier de 120 mm avec le 68e RAA</h3>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"32_bfe2b5-88","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_bfe2b5-88 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_bfe2b5-88">En manœuvre · 1 min</p>
+<!-- /wp:kadence/advancedheading --></div></article>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_727768-17","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-column32_727768-17 pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.youtube.com/watch?v=SA07sD4wLHg","linkTarget":true,"linkTitle":"Voir « TDA, mortier de 120 mm avec le 93e RAM » sur YouTube (nouvel onglet)","uniqueID":"32_615db5-80","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-image32_615db5-80 kb-image-is-ratio-size"><a href="https://www.youtube.com/watch?v=SA07sD4wLHg" class="kb-advanced-image-link" target="_blank" aria-label="Voir « TDA, mortier de 120 mm avec le 93e RAM » sur YouTube (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/SA07sD4wLHg/hqdefault.jpg" alt="Vignette du film « TDA, mortier de 120 mm avec le 93e RAM »" class="kb-img" /></div></a></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_f3c810-5f","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<h3 class="kt-adv-heading32_f3c810-5f wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_f3c810-5f">TDA, mortier de 120 mm avec le 93e RAM</h3>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"32_68b496-05","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_68b496-05 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_68b496-05">En manœuvre · 1 min</p>
+<!-- /wp:kadence/advancedheading --></div></article>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_44e1ba-c2","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-column32_44e1ba-c2 pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.youtube.com/watch?v=QdW01BdD24k","linkTarget":true,"linkTitle":"Voir « TDA, roquettes à induction sur Tigre » sur YouTube (nouvel onglet)","uniqueID":"32_ebec78-c8","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-image32_ebec78-c8 kb-image-is-ratio-size"><a href="https://www.youtube.com/watch?v=QdW01BdD24k" class="kb-advanced-image-link" target="_blank" aria-label="Voir « TDA, roquettes à induction sur Tigre » sur YouTube (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/QdW01BdD24k/hqdefault.jpg" alt="Vignette du film « TDA, roquettes à induction sur Tigre »" class="kb-img" /></div></a></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"32_b77cae-40","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<h3 class="kt-adv-heading32_b77cae-40 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_b77cae-40">TDA, roquettes à induction sur Tigre</h3>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"32_db5258-81","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_db5258-81 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_db5258-81">Chargement, avec le 1er RHC, à Suippes · 2 min</p>
+<!-- /wp:kadence/advancedheading --></div></article>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:spacer {"height":"56px"} -->
+<div style="height:56px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"32_cc24ee-6d","columns":4,"mobileLayout":"two-grid","tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[36,28,24],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"32_1d175d-4c","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column32_1d175d-4c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"32_37a9d8-3e","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
+<p class="kt-adv-heading32_37a9d8-3e wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_37a9d8-3e">23 608</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"32_4fe24f-ea","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_4fe24f-ea wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_4fe24f-ea">vues sur Instagram pour « Thales Onyx » (7 700 sur Facebook)</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"id":2,"borderWidth":["","","",""],"uniqueID":"pd-thales-11-c","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-thales-11-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"32_3f218a-cf","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
-<p class="kt-adv-heading32_3f218a-cf wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_3f218a-cf">12 393</p>
+<!-- wp:kadence/column {"id":2,"borderWidth":["","","",""],"uniqueID":"32_3a1223-ab","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column32_3a1223-ab"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"32_349d52-9b","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
+<p class="kt-adv-heading32_349d52-9b wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_349d52-9b">12 393</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-thales-h24","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-thales-h24 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-thales-h24">vues sur Instagram pour « Thales PR4G » (4 200 sur Facebook)</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_52dc34-1c","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading32_52dc34-1c wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_52dc34-1c">vues sur Instagram pour « Thales PR4G » (4 200 sur Facebook)</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"id":3,"borderWidth":["","","",""],"uniqueID":"32_917eb8-59","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-column32_917eb8-59"><div class="kt-inside-inner-col"></div></div>
+<!-- wp:kadence/column {"id":3,"borderWidth":["","","",""],"uniqueID":"32_360f76-60","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column32_360f76-60"><div class="kt-inside-inner-col"></div></div>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"id":4,"borderWidth":["","","",""],"uniqueID":"32_a7f476-dc","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-column32_a7f476-dc"><div class="kt-inside-inner-col"></div></div>
+<!-- wp:kadence/column {"id":4,"borderWidth":["","","",""],"uniqueID":"32_398e6a-cf","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column32_398e6a-cf"><div class="kt-inside-inner-col"></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
 
@@ -4081,8 +4169,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-thales-h25","color":"palette4","sizeType":"rem","typography":"IBM Plex Mono","fontWeight":"400","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.85,"",""],"fontHeight":[1.6,"",""]} -->
-<p class="kt-adv-headingpd-thales-h25 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-thales-h25">Les logos Thales sont utilisés avec l'accord de Thales, sans modification et en lien avec les films concernés.</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"32_35aca7-22","color":"palette4","sizeType":"rem","typography":"IBM Plex Mono","fontWeight":"400","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.85,"",""],"fontHeight":[1.6,"",""]} -->
+<p class="kt-adv-heading32_35aca7-22 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading32_35aca7-22">Les logos Thales sont utilisés avec l'accord de Thales, sans modification et en lien avec les films concernés.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->]]></content:encoded>
@@ -4090,8 +4178,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 		<wp:post_id>32</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:38:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:38:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 16:42:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 15:42:48]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 19:01:34]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 18:01:34]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[thales]]></wp:post_name>
@@ -4626,8 +4714,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 		<wp:post_id>118</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-23 03:51:55]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-23 02:51:55]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 11:59:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 10:59:48]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 18:59:50]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 17:59:50]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[documentaires]]></wp:post_name>

@@ -655,7 +655,7 @@ def page_thales():
     c = SITE['pages']['thales']
     entete = P.entete_page(c['entete'])
     logo = {'name': 'core/group', 'attributes': {'layout': {'type': 'constrained'}, 'style': {'spacing': {'margin': {'bottom': '32px'}}}},
-            'innerBlocks': [{'name': 'core/image', 'attributes': {'url': LOGOS + 'thales-fond-bleu.png', 'alt': 'Logo Thales', 'width': '340px', 'sizeSlug': 'full'}}]}
+            'innerBlocks': [{'name': 'core/image', 'attributes': {'url': LOGOS + 'thales-transparent-blanc.png', 'alt': 'Logo Thales', 'width': '300px', 'sizeSlug': 'full'}}]}
     fid = films_par_id()
     vids = []
     for v in c.get('videos', []):
@@ -664,9 +664,18 @@ def page_thales():
     if vids:
         vids = [P.titre(c['videos_titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=24),
                 P.rangee(vids, layout='equal', tablette='row', mobile='row', gouttiere=[32, 24, 0], gouttiere_v=[32, 32, 32], columns=2),
-                {'name': 'core/spacer', 'attributes': {'height': '64px'}}, P.titre('Avec le 1er RCP', 2, taille=(1.9, 1.75, 1.6), marge_bas=16)]
-    films = P.section([logo] + vids + [P.ligne(c['texte'], 1.0625, DOUX, 32, largeur=720),
-                       P.grille([P.carte(fid[i]) for i in c['films']], 3), {'name': 'core/spacer', 'attributes': {'height': '56px'}}, P.chiffres(c['chiffres']),
+                {'name': 'core/spacer', 'attributes': {'height': '64px'}}]
+    tda = c.get('tda')
+    bloc_tda = []
+    if tda:
+        bloc_tda = [{'name': 'core/spacer', 'attributes': {'height': '56px'}},
+                    P.surtitre(tda['surtitre'], marge_bas=8), P.titre(tda['titre'], 2, taille=(1.9, 1.75, 1.6), marge_bas=12),
+                    P.ligne(tda['texte'], 1.0, DOUX, 24, largeur=720),
+                    P.grille([P.carte(fid[i]) for i in tda['films']], 3)]
+    films = P.section([logo, P.ligne(c['texte'], 1.0625, DOUX, 32, largeur=720)] + vids +
+                      [P.titre('Avec le 1er RCP', 3, taille=(1.35, 1.3, 1.25), marge_bas=20),
+                       P.grille([P.carte(fid[i]) for i in c['films']], 3)] + bloc_tda +
+                      [{'name': 'core/spacer', 'attributes': {'height': '56px'}}, P.chiffres(c['chiffres']),
                        {'name': 'core/spacer', 'attributes': {'height': '40px'}}, P.ligne(c['mention'], 0.85, DOUX, 0, police=MONO)], padding=(24, 24, 16), padding_bas=(96, 72, 56))
     return c['titre'], [entete, films]
 
