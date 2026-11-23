@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1.5" created="2026-11-23 10:26" -->
+	<!-- generator="WordPress/7.1.5" created="2026-11-23 10:32" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Pascal Dupont</title>
 	<link>https://pascaldupont.fr</link>
 	<description>Auteur-réalisateur documentaire</description>
-	<pubDate>Mon, 23 Nov 2026 10:26:12 +0000</pubDate>
+	<pubDate>Mon, 23 Nov 2026 10:32:39 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url></wp:base_site_url>
@@ -3132,7 +3132,7 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:table {"hasFixedLayout":false,"className":"pd-liste"} -->
-<figure class="wp-block-table pd-liste"><table><tbody><tr><td>Le Figaro</td><td>29 janv. et 4 mars</td></tr><tr><td>Ouest-France, Lignes de défense</td><td>29 janv.</td></tr><tr><td>La Voix du Nord</td><td>29 janv.</td></tr><tr><td>Zone Militaire (Opex 360)</td><td>24 janv., 2 et 28 mars</td></tr><tr><td>The Aviationist (États-Unis)</td><td>28 janv.</td></tr><tr><td>Polska Zbrojna (Pologne)</td><td>7 févr., 4 et 27 mars</td></tr><tr><td>Mali Actu</td><td>3 févr., 2 mars</td></tr><tr><td>InfosDéfense</td><td>2 mars</td></tr><tr><td>Sud Ouest</td><td>18 mars</td></tr><tr><td>RP Défense</td><td>25 mars</td></tr><tr><td>Le Parisien</td><td>3 mars</td></tr><tr><td>Realpolitik.tv</td><td>févr.</td></tr><tr><td>Objectif Défense</td><td>janv. à avril</td></tr><tr><td>Midi Libre</td><td>25 janv.</td></tr></tbody></table></figure>
+<figure class="wp-block-table pd-liste"><table><tbody><tr><td>Le Figaro</td><td>29 janv. et 4 mars</td></tr><tr><td>Ouest-France, Lignes de défense</td><td>29 janv.</td></tr><tr><td>La Voix du Nord</td><td>29 janv.</td></tr><tr><td>Zone Militaire (Opex 360)</td><td>24 janv., 2 et 28 mars</td></tr><tr><td>The Aviationist (États-Unis)</td><td>28 janv.</td></tr><tr><td>Polska Zbrojna (Pologne)</td><td>7 févr., 4 et 27 mars</td></tr><tr><td>Mali Actu</td><td>3 févr., 2 mars</td></tr><tr><td>InfosDéfense</td><td>2 mars</td></tr><tr><td>Sud Ouest</td><td>18 mars</td></tr><tr><td>RP Défense</td><td>25 mars</td></tr><tr><td>Le Parisien</td><td>3 mars</td></tr><tr><td>Midi Libre</td><td>25 janv.</td></tr></tbody></table></figure>
 <!-- /wp:table --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout --></div></div>
@@ -3142,8 +3142,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>12</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:41]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 11:25:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 10:25:15]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 11:32:30]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 10:32:30]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[defense-et-securite]]></wp:post_name>
@@ -3942,8 +3942,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 		<wp:post_id>32</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:38:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:38:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 11:26:09]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 10:26:09]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 11:32:38]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 10:32:38]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[thales]]></wp:post_name>
