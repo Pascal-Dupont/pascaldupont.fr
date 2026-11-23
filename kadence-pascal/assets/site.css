@@ -133,3 +133,7 @@ ul.pd-bandeau-noms li { margin: 0; }
 	/* Sur téléphone, le texte passe sur toute la largeur de la photo : voile plus uniforme */
 	.pd-fond-photo > .kt-row-layout-overlay { background-image: linear-gradient(180deg, rgba(13,18,23,0.88) 0%, rgba(13,18,23,0.78) 100%) !important; opacity: 1 !important; }
 }
+
+/* Page Documentaires : repères factuels sous le texte (liste pd-faits) */
+ul.pd-faits, .entry-content ul.pd-faits { list-style: none; margin: 8px 0 0; padding: 0; border-top: 1px solid #2c3a49; }
+ul.pd-faits li { margin: 0; padding: .55rem 0; border-bottom: 1px solid #2c3a49; font-size: .95rem; color: #a9b6c0; }

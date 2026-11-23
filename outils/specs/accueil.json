@@ -43,9 +43,9 @@
     "maxWidth": 72,
     "maxWidthUnit": "rem",
     "className": "pd-hero pd-hero-photo pd-fond-photo",
-    "bgImg": "/wp-content/themes/kadence-pascal/assets/photos/accueil-tournage-mortier.jpg",
+    "bgImg": "/wp-content/themes/kadence-pascal/assets/photos/accueil-entretien-locci.jpg",
     "bgImgSize": "cover",
-    "bgImgPosition": "60% 40%",
+    "bgImgPosition": "center center",
     "bgImgAttachment": "scroll",
     "bgImgRepeat": "no-repeat",
     "currentOverlayTab": "gradient",
@@ -218,8 +218,8 @@
          "name": "kadence/singlebtn",
          "attributes": {
           "uniqueID": "pd-accueil-2-b",
-          "text": "Voir les films",
-          "link": "/films/",
+          "text": "Voir les documentaires",
+          "link": "/documentaires/",
           "borderRadius": [
            2,
            2,
@@ -542,7 +542,7 @@
       {
        "name": "core/html",
        "attributes": {
-        "content": "<div class=\"pd-defilement\"><ul class=\"pd-defilement-piste\"><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/france4-blanc.png\" alt=\"Logo France 4\" height=\"64\" style=\"height:64px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/resilience-bandeau.svg\" alt=\"Logo Fondation Résilience\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/w9-blanc.png\" alt=\"Logo W9\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/fa3r-blanc.png\" alt=\"Logo FA3R\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/m6-blanc.png\" alt=\"Logo M6\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/edr-blanc.png\" alt=\"Logo European Defense Review\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/tv5monde-blanc.png\" alt=\"Logo TV5 Monde\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><span>1er RCP</span></li></ul><ul class=\"pd-defilement-piste\" aria-hidden=\"true\"><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/france4-blanc.png\" alt=\"\" height=\"64\" style=\"height:64px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/resilience-bandeau.svg\" alt=\"\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/w9-blanc.png\" alt=\"\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/fa3r-blanc.png\" alt=\"\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/m6-blanc.png\" alt=\"\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/edr-blanc.png\" alt=\"\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/tv5monde-blanc.png\" alt=\"\" height=\"44\" style=\"height:44px\" loading=\"lazy\"></li><li><span>1er RCP</span></li></ul></div>"
+        "content": "<div class=\"pd-defilement\"><ul class=\"pd-defilement-piste\"><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/france4-blanc.png\" alt=\"Logo France 4\" height=\"64\" style=\"height:64px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/resilience-bandeau.svg\" alt=\"Logo Fondation Résilience\" height=\"44\" style=\"height:44px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/w9-blanc.png\" alt=\"Logo W9\" height=\"44\" style=\"height:44px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/fa3r-blanc.png\" alt=\"Logo FA3R\" height=\"44\" style=\"height:44px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/m6-blanc.png\" alt=\"Logo M6\" height=\"44\" style=\"height:44px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/edr-blanc.png\" alt=\"Logo European Defense Review\" height=\"44\" style=\"height:44px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/tv5monde-blanc.png\" alt=\"Logo TV5 Monde\" height=\"44\" style=\"height:44px\"></li></ul><ul class=\"pd-defilement-piste\" aria-hidden=\"true\"><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/france4-blanc.png\" alt=\"\" height=\"64\" style=\"height:64px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/resilience-bandeau.svg\" alt=\"\" height=\"44\" style=\"height:44px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/w9-blanc.png\" alt=\"\" height=\"44\" style=\"height:44px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/fa3r-blanc.png\" alt=\"\" height=\"44\" style=\"height:44px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/m6-blanc.png\" alt=\"\" height=\"44\" style=\"height:44px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/edr-blanc.png\" alt=\"\" height=\"44\" style=\"height:44px\"></li><li><img src=\"/wp-content/themes/kadence-pascal/assets/logos/tv5monde-blanc.png\" alt=\"\" height=\"44\" style=\"height:44px\"></li></ul></div>"
        }
       }
      ]
@@ -850,7 +850,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Documentaire · 26 min · 2026 · 26 min",
+            "content": "Documentaire · 2026 · 26 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -899,7 +899,7 @@
             "alt": "Vignette du film « La nuit leur appartient »",
             "useRatio": true,
             "ratio": "land169",
-            "link": "https://www.youtube.com/watch?v=DOIkFS4peF8",
+            "link": "https://www.youtube.com/watch?v=DOIkFS4peF8&list=PLJkQiJPLkeXLuPvm5WtKy5oCKN-U52G_l",
             "linkTarget": true,
             "linkTitle": "Voir « La nuit leur appartient » sur YouTube (nouvel onglet)",
             "borderRadius": [
@@ -987,7 +987,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "La centième d'Enquête d'action · 2008 · 9 min",
+            "content": "La centième d'Enquête d'action · 2008 · 52 min",
             "htmlTag": "p",
             "fontSize": [
              0.92,
@@ -3173,7 +3173,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "<a href=\"https://www.youtube.com/watch?v=DOIkFS4peF8\">Voir le film →</a>",
+            "content": "<a href=\"https://www.youtube.com/watch?v=DOIkFS4peF8&list=PLJkQiJPLkeXLuPvm5WtKy5oCKN-U52G_l\">Voir le film →</a>",
             "htmlTag": "p",
             "fontSize": [
              0.9,
@@ -3525,7 +3525,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "<a href=\"/films/#films-documentaires\">Voir les films →</a>",
+            "content": "<a href=\"/documentaires/\">Voir les films →</a>",
             "htmlTag": "p",
             "fontSize": [
              0.9,
@@ -3576,7 +3576,7 @@
             "alt": "Image : Documentaires",
             "useRatio": true,
             "ratio": "land169",
-            "link": "/films/#films-documentaires",
+            "link": "/documentaires/",
             "linkTitle": "Voir les films : Documentaires",
             "borderRadius": [
              2,

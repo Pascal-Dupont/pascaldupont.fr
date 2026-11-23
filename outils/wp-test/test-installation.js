@@ -11,7 +11,7 @@ const fs = require('fs');
 const path = require('path');
 
 const [BASE, ZIP, XML, SORTIE] = process.argv.slice(2);
-const PAGES = ['', 'films', 'a-propos', 'defense-et-securite', 'thales', 'lakelab', 'contact', 'mentions-legales', 'confidentialite'];
+const PAGES = ['', 'documentaires', 'films', 'a-propos', 'defense-et-securite', 'thales', 'lakelab', 'contact', 'mentions-legales', 'confidentialite'];
 const rapport = { etapes: [], pages: {}, erreursJS: [] };
 const note = (etape, ok, detail) => { rapport.etapes.push({ etape, ok, detail }); console.log((ok ? 'OK ' : 'ÉCHEC ') + etape + (detail ? ' : ' + detail : '')); };
 

@@ -53,8 +53,8 @@
         "texte": "Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.",
         "boutons": [
           {
-            "texte": "Voir les films",
-            "url": "/films/",
+            "texte": "Voir les documentaires",
+            "url": "/documentaires/",
             "style": "plein"
           },
           {
@@ -63,8 +63,8 @@
             "style": "contour"
           }
         ],
-        "image": "accueil-tournage-mortier.jpg",
-        "image_position": "60% 40%"
+        "image": "accueil-entretien-locci.jpg",
+        "image_position": "center center"
       },
       "a_la_une": {
         "surtitre": "À la une",
@@ -191,8 +191,7 @@
           "FA3R",
           "M6",
           "European Defense Review",
-          "TV5 Monde",
-          "1er RCP"
+          "TV5 Monde"
         ],
         "elements": [
           {
@@ -223,9 +222,6 @@
           {
             "nom": "TV5 Monde",
             "logo": "tv5monde-blanc.png"
-          },
-          {
-            "nom": "1er RCP"
           }
         ]
       },
@@ -237,7 +233,7 @@
             "num": "01",
             "titre": "Documentaires",
             "texte": "Des films d'auteur pour la télévision et pour les fondations : la banlieue, la nuit parisienne, l'Amazonie, la reconstruction des blessés.",
-            "lien": "/films/#films-documentaires",
+            "lien": "/documentaires/",
             "film": "c4xGjV6-sNg",
             "photo": "territoire-documentaires.jpg"
           },
@@ -309,7 +305,7 @@
             "contexte": "Un sujet inédit : les BAC de nuit de Paris, jamais filmées jusque-là, à ma connaissance.",
             "intervention": "Un film proposé seul à W9, qui en a fait l'une de ses premières productions internes.",
             "resultat": "Diffusé pour la centième d'Enquête d'action, puis remis en avant pour les cinq ans de l'émission.",
-            "lien": "https://www.youtube.com/watch?v=DOIkFS4peF8"
+            "lien": "https://www.youtube.com/watch?v=DOIkFS4peF8&list=PLJkQiJPLkeXLuPvm5WtKy5oCKN-U52G_l"
           }
         ]
       }
@@ -910,6 +906,98 @@
         }
       ],
       "videos_titre": "Films réalisés pour Thales"
+    },
+    "documentaires": {
+      "titre": "Documentaires",
+      "entete": {
+        "surtitre": "Auteur-réalisateur",
+        "titre": "Documentaires",
+        "texte": "Des films d'auteur pour la télévision et pour les fondations, tournés au plus près de ceux qu'ils racontent : la banlieue, la nuit parisienne, l'Amazonie, les blessés qui se relèvent, les derniers témoins."
+      },
+      "films": [
+        {
+          "id": "nPQhUB8pEj8",
+          "url": "https://www.youtube.com/watch?v=nPQhUB8pEj8",
+          "etiquette": "Fondation Résilience · 2026",
+          "titre": "Classe Défense",
+          "texte": "Un chalet d'altitude, des collégiens de Trappes encadrés par des soldats blessés : une recette simple, la recette de l'espoir. Un documentaire sans voix off, au rythme de ceux qu'il filme.",
+          "faits": [
+            "26 minutes, novembre 2026",
+            "Plus de 40 000 vues des extraits en une semaine, sur cinq réseaux",
+            "Relayé par le 13e bataillon de chasseurs alpins, le collège Le Village, l'UNC et la maison Athos Cœur de Savoie"
+          ]
+        },
+        {
+          "id": "DOIkFS4peF8",
+          "url": "https://www.youtube.com/watch?v=DOIkFS4peF8&list=PLJkQiJPLkeXLuPvm5WtKy5oCKN-U52G_l",
+          "etiquette": "W9 · 2008",
+          "titre": "La nuit leur appartient",
+          "texte": "Journaliste reporter d'images pour M6, j'ai vite compris que l'actualité n'était pas ma voie. Je suis allé seul proposer ce film à W9 : les BAC de nuit de Paris, héritières du mythique commissaire Broussard, n'avaient, à ma connaissance, jamais été filmées. La chaîne, qui achetait surtout des programmes, en a fait l'une de ses premières productions internes, un tournant relevé par « Médias, le magazine », sur France 5.",
+          "faits": [
+            "52 minutes, pour la centième d'Enquête d'action",
+            "Remis en avant pour les cinq ans de l'émission",
+            "Sur YouTube en six parties, enchaînées automatiquement"
+          ]
+        },
+        {
+          "id": "c4xGjV6-sNg",
+          "url": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
+          "etiquette": "France 4 · 2010",
+          "titre": "Chroniques du 93",
+          "texte": "En 2010, j'ai décidé de passer la barrière du périphérique : une immersion dans la CSI 93, en Seine-Saint-Denis, au cœur des violences urbaines. Un film qui fait encore aujourd'hui référence sur le sujet.",
+          "faits": [
+            "52 minutes, pour la case « Nouveaux regards » de France 4",
+            "Un énorme succès d'audience"
+          ]
+        },
+        {
+          "id": "yzubFqyXDmk",
+          "url": "https://www.youtube.com/watch?v=yzubFqyXDmk",
+          "etiquette": "Avec Pierre Bayle",
+          "titre": "Voix d'Amazonie",
+          "texte": "Co-réalisé avec Pierre Bayle : les communautés indigènes d'Équateur face à l'extraction minière et pétrolière.",
+          "faits": [
+            "43 minutes",
+            "Version espagnole : « Voces de la Amazonia »"
+          ],
+          "autre": {
+            "texte": "Versión española",
+            "url": "https://www.youtube.com/watch?v=1AAnV-5CKx4"
+          }
+        },
+        {
+          "id": "MX1rXj52K88",
+          "url": "https://www.youtube.com/watch?v=MX1rXj52K88",
+          "etiquette": "Amicale du 1er RCP · 2025",
+          "titre": "Capitaine Raymond Locci",
+          "texte": "Brevet parachutiste n° 12204, des Vosges en 1943 à l'Indochine en 1946 : le capitaine Raymond Locci raconte, face caméra. Un portrait au long cours, réalisé avec l'amicale du 1er RCP.",
+          "faits": [
+            "1 h 36, septembre 2025",
+            "Plus de 33 000 vues"
+          ]
+        },
+        {
+          "id": "uF7zqXfUsjc",
+          "url": "https://www.youtube.com/watch?v=uF7zqXfUsjc",
+          "etiquette": "Amicale du 1er RCP · 2025",
+          "titre": "Commandant Everrard",
+          "texte": "Brevet parachutiste n° 12137, l'Indochine en 1946 : le témoignage du commandant Everrard, commandé par l'amicale du 1er RCP et offert au régiment.",
+          "faits": [
+            "34 minutes, juin 2025",
+            "Plus de 40 000 vues"
+          ]
+        }
+      ],
+      "ecriture": {
+        "surtitre": "En écriture",
+        "titre": "Une dizaine de projets",
+        "texte": "Ces dernières semaines, une dizaine de projets de documentaires ont pris forme. Producteurs, diffuseurs, fondations : parlons-en.",
+        "bouton": {
+          "texte": "Parler d'un projet",
+          "url": "/contact/",
+          "style": "plein"
+        }
+      }
     }
   },
   "films": {
@@ -938,9 +1026,9 @@
           {
             "id": "DOIkFS4peF8",
             "titre": "La nuit leur appartient, BAC Paris",
-            "description": "Pour la centième d'Enquête d'action, sur W9 · 2008 · partie 1 sur 6",
-            "duree": "8:54",
-            "youtube": "https://www.youtube.com/watch?v=DOIkFS4peF8",
+            "description": "Pour la centième d'Enquête d'action, sur W9 · 2008 · en six parties",
+            "duree": "52:00",
+            "youtube": "https://www.youtube.com/watch?v=DOIkFS4peF8&list=PLJkQiJPLkeXLuPvm5WtKy5oCKN-U52G_l",
             "etiquette": "W9"
           },
           {
@@ -1365,14 +1453,6 @@
         "texte": "Des experts, des chercheurs et des généraux face caméra.",
         "films": [
           {
-            "id": "2YGZr_pob0c",
-            "titre": "Méditerranée orientale, du gaz dans l'eau",
-            "description": "Entretien avec Nicolas Mazzucchi, Fondation pour la recherche stratégique · pour ExMergere",
-            "duree": "19:41",
-            "youtube": "https://www.youtube.com/watch?v=2YGZr_pob0c",
-            "etiquette": "ExMergere"
-          },
-          {
             "id": "QUhc5drglAs",
             "titre": "Guerre en milieu urbain",
             "description": "Entretien avec Pierre Santoni, co-auteur de « L'ultime champ de bataille »",
@@ -1470,7 +1550,7 @@
       {
         "id": "nPQhUB8pEj8",
         "titre": "Classe Défense",
-        "description": "Documentaire · 26 min · 2026",
+        "description": "Documentaire · 2026",
         "duree": "26:00",
         "etiquette": "Fondation Résilience",
         "url": "https://www.youtube.com/watch?v=nPQhUB8pEj8"
@@ -1479,9 +1559,9 @@
         "id": "DOIkFS4peF8",
         "titre": "La nuit leur appartient",
         "description": "La centième d'Enquête d'action · 2008",
-        "duree": "8:54",
+        "duree": "52:00",
         "etiquette": "W9",
-        "url": "https://www.youtube.com/watch?v=DOIkFS4peF8"
+        "url": "https://www.youtube.com/watch?v=DOIkFS4peF8&list=PLJkQiJPLkeXLuPvm5WtKy5oCKN-U52G_l"
       },
       {
         "id": "c4xGjV6-sNg",
@@ -1691,18 +1771,13 @@
               },
               {
                 "id": "DOIkFS4peF8",
-                "etiquette": "W9 · 2008 · 6 parties",
+                "etiquette": "W9 · 2008 · 52 minutes",
                 "titre": "La nuit leur appartient, BAC Paris",
-                "texte": "Journaliste reporter d'images pour M6, j'ai vite compris que l'actualité n'était pas ma voie. Je suis allé seul proposer ce film à W9, qui s'y est enthousiasmée. Le sujet était inédit : les BAC de nuit de Paris, héritières du mythique commissaire Broussard, n'avaient, à ma connaissance, jamais fait l'objet d'un film. Alors que la chaîne achetait surtout des programmes, ce fut l'une de ses premières productions internes, un tournant relevé par « Médias, le magazine », sur France 5, comme le signe d'une nouvelle ère. Le film a été diffusé pour la centième d'Enquête d'action, avec un immense succès, puis remis en avant pour les cinq ans de l'émission.",
+                "texte": "Journaliste reporter d'images pour M6, j'ai vite compris que l'actualité n'était pas ma voie. Je suis allé seul proposer ce film à W9, qui s'y est enthousiasmée. Le sujet était inédit : les BAC de nuit de Paris, héritières du mythique commissaire Broussard, n'avaient, à ma connaissance, jamais fait l'objet d'un film. Alors que la chaîne achetait surtout des programmes, ce fut l'une de ses premières productions internes, un tournant relevé par « Médias, le magazine », sur France 5, comme le signe d'une nouvelle ère. Le film a été diffusé pour la centième d'Enquête d'action, avec un immense succès, puis remis en avant pour les cinq ans de l'émission. Le film est visible sur YouTube en six parties, enchaînées automatiquement.",
                 "boutons": [
                   {
-                    "texte": "Partie 1",
-                    "url": "https://www.youtube.com/watch?v=DOIkFS4peF8",
-                    "style": "contour"
-                  },
-                  {
-                    "texte": "Partie 2",
-                    "url": "https://www.youtube.com/watch?v=MvaTPwqZSe8",
+                    "texte": "Voir le film",
+                    "url": "https://www.youtube.com/watch?v=DOIkFS4peF8&list=PLJkQiJPLkeXLuPvm5WtKy5oCKN-U52G_l",
                     "style": "contour"
                   }
                 ]
@@ -1803,7 +1878,6 @@
             "films": [
               "gPRFbBvnD_c",
               "88Tojjmake4",
-              "2YGZr_pob0c",
               "QUhc5drglAs",
               "J-EwxwK9gIQ"
             ]
@@ -2022,6 +2096,7 @@
     "defense-et-securite": "Ancien combattant de l'infanterie parachutiste et officier de réserve, je connais le terrain, le vocabulaire et les contraintes de la communication de défense. Je réalise des films pour des régiments, des industriels et des salons.",
     "lakelab": "LAKELAB est la contraction de « FabLab » et de « lac » : un laboratoire d'expérimentation au bord de l'eau. Lucile et moi y menons nos recherches en photographie, cinéma, musique et culture en général.",
     "contact": "Un film, un portrait, une captation ? Décrivez-moi votre idée, je vous réponds personnellement.",
-    "thales": "Films de présentation réalisés avec Thales et avec le 1er RCP."
+    "thales": "Films de présentation réalisés avec Thales et avec le 1er RCP.",
+    "documentaires": "Documentaires d'auteur pour la télévision et pour les fondations : Classe Défense, La nuit leur appartient, Chroniques du 93, Voix d'Amazonie, portraits d'anciens."
   }
 }

@@ -1,0 +1,3118 @@
+{
+ "titre": "Documentaires",
+ "slug": "documentaires",
+ "meta": {
+  "_kad_post_layout": "fullwidth",
+  "_kad_post_content_style": "unboxed",
+  "_kad_post_vertical_padding": "hide",
+  "_kad_post_title": "hide",
+  "_kad_post_feature": "hide",
+  "_pd_page": "documentaires"
+ },
+ "blocs": [
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-documentaires-1-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     88,
+     "",
+     56,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     48,
+     ""
+    ],
+    "mobilePadding": [
+     48,
+     "",
+     32,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem"
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-documentaires-2-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Auteur-réalisateur",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-documentaires-h1"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Documentaires",
+        "level": 1,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         4.4,
+         3.4,
+         2.6
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         20,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         880,
+         "",
+         ""
+        ],
+        "maxWidthType": "px",
+        "uniqueID": "pd-documentaires-h2"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Des films d'auteur pour la télévision et pour les fondations, tournés au plus près de ceux qu'ils racontent : la banlieue, la nuit parisienne, l'Amazonie, les blessés qui se relèvent, les derniers témoins.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.15,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         720,
+         "",
+         ""
+        ],
+        "maxWidthType": "px",
+        "uniqueID": "pd-documentaires-h3"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-documentaires-8-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "tabletPadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "mobilePadding": [
+     40,
+     "",
+     40,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "film-1",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "",
+       "",
+       ""
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-documentaires-9-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-documentaires-7-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         56,
+         40,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         28
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 55,
+        "secondColumnWidth": 45,
+        "verticalAlignment": "middle"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-5-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/nPQhUB8pEj8/hqdefault.jpg",
+            "alt": "Image du film « Classe Défense »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=nPQhUB8pEj8",
+            "linkTarget": true,
+            "linkTitle": "Voir « Classe Défense » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-documentaires-h4"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-6-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Fondation Résilience · 2026",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h5"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Classe Défense",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             2.6,
+             2.2,
+             1.9
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h6"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Un chalet d'altitude, des collégiens de Trappes encadrés par des soldats blessés : une recette simple, la recette de l'espoir. Un documentaire sans voix off, au rythme de ceux qu'il filme.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/list",
+           "attributes": {
+            "className": "pd-faits"
+           },
+           "innerBlocks": [
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "26 minutes, novembre 2026"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Plus de 40 000 vues des extraits en une semaine, sur cinq réseaux"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Relayé par le 13e bataillon de chasseurs alpins, le collège Le Village, l'UNC et la maison Athos Cœur de Savoie"
+             }
+            }
+           ]
+          },
+          {
+           "name": "kadence/advancedbtn",
+           "attributes": {
+            "uniqueID": "pd-documentaires-3-g",
+            "hAlign": "left",
+            "gap": [
+             0.5,
+             "",
+             ""
+            ],
+            "gapUnit": "rem",
+            "margin": [
+             {
+              "desk": [
+               24,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
+            ],
+            "marginUnit": "px"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-documentaires-4-b",
+              "text": "Voir le film",
+              "link": "https://www.youtube.com/watch?v=nPQhUB8pEj8",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.5,
+               1,
+               0.5,
+               1
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.85,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "color": "#ece8df",
+              "background": "palette1",
+              "colorHover": "#ece8df",
+              "backgroundHover": "palette2",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "target": "_blank"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-documentaires-15-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette8",
+    "textColor": "palette3",
+    "padding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "tabletPadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "mobilePadding": [
+     40,
+     "",
+     40,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "film-2",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "",
+       "",
+       ""
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-documentaires-16-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-documentaires-14-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         56,
+         40,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         28
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 55,
+        "secondColumnWidth": 45,
+        "verticalAlignment": "middle"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-12-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/DOIkFS4peF8/hqdefault.jpg",
+            "alt": "Image du film « La nuit leur appartient »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=DOIkFS4peF8&list=PLJkQiJPLkeXLuPvm5WtKy5oCKN-U52G_l",
+            "linkTarget": true,
+            "linkTitle": "Voir « La nuit leur appartient » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-documentaires-h7"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-13-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "W9 · 2008",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h8"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "La nuit leur appartient",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             2.6,
+             2.2,
+             1.9
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h9"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Journaliste reporter d'images pour M6, j'ai vite compris que l'actualité n'était pas ma voie. Je suis allé seul proposer ce film à W9 : les BAC de nuit de Paris, héritières du mythique commissaire Broussard, n'avaient, à ma connaissance, jamais été filmées. La chaîne, qui achetait surtout des programmes, en a fait l'une de ses premières productions internes, un tournant relevé par « Médias, le magazine », sur France 5.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/list",
+           "attributes": {
+            "className": "pd-faits"
+           },
+           "innerBlocks": [
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "52 minutes, pour la centième d'Enquête d'action"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Remis en avant pour les cinq ans de l'émission"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Sur YouTube en six parties, enchaînées automatiquement"
+             }
+            }
+           ]
+          },
+          {
+           "name": "kadence/advancedbtn",
+           "attributes": {
+            "uniqueID": "pd-documentaires-10-g",
+            "hAlign": "left",
+            "gap": [
+             0.5,
+             "",
+             ""
+            ],
+            "gapUnit": "rem",
+            "margin": [
+             {
+              "desk": [
+               24,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
+            ],
+            "marginUnit": "px"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-documentaires-11-b",
+              "text": "Voir le film",
+              "link": "https://www.youtube.com/watch?v=DOIkFS4peF8&list=PLJkQiJPLkeXLuPvm5WtKy5oCKN-U52G_l",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.5,
+               1,
+               0.5,
+               1
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.85,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "color": "#ece8df",
+              "background": "palette1",
+              "colorHover": "#ece8df",
+              "backgroundHover": "palette2",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "target": "_blank"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-documentaires-22-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "tabletPadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "mobilePadding": [
+     40,
+     "",
+     40,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "film-3",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "",
+       "",
+       ""
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-documentaires-23-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-documentaires-21-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         56,
+         40,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         28
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 55,
+        "secondColumnWidth": 45,
+        "verticalAlignment": "middle"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-19-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/c4xGjV6-sNg/hqdefault.jpg",
+            "alt": "Image du film « Chroniques du 93 »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
+            "linkTarget": true,
+            "linkTitle": "Voir « Chroniques du 93 » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-documentaires-h10"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-20-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "France 4 · 2010",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h11"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Chroniques du 93",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             2.6,
+             2.2,
+             1.9
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h12"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "En 2010, j'ai décidé de passer la barrière du périphérique : une immersion dans la CSI 93, en Seine-Saint-Denis, au cœur des violences urbaines. Un film qui fait encore aujourd'hui référence sur le sujet.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/list",
+           "attributes": {
+            "className": "pd-faits"
+           },
+           "innerBlocks": [
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "52 minutes, pour la case « Nouveaux regards » de France 4"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Un énorme succès d'audience"
+             }
+            }
+           ]
+          },
+          {
+           "name": "kadence/advancedbtn",
+           "attributes": {
+            "uniqueID": "pd-documentaires-17-g",
+            "hAlign": "left",
+            "gap": [
+             0.5,
+             "",
+             ""
+            ],
+            "gapUnit": "rem",
+            "margin": [
+             {
+              "desk": [
+               24,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
+            ],
+            "marginUnit": "px"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-documentaires-18-b",
+              "text": "Voir le film",
+              "link": "https://www.youtube.com/watch?v=c4xGjV6-sNg",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.5,
+               1,
+               0.5,
+               1
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.85,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "color": "#ece8df",
+              "background": "palette1",
+              "colorHover": "#ece8df",
+              "backgroundHover": "palette2",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "target": "_blank"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-documentaires-30-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette8",
+    "textColor": "palette3",
+    "padding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "tabletPadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "mobilePadding": [
+     40,
+     "",
+     40,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "film-4",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "",
+       "",
+       ""
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-documentaires-31-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-documentaires-29-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         56,
+         40,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         28
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 55,
+        "secondColumnWidth": 45,
+        "verticalAlignment": "middle"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-27-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/yzubFqyXDmk/hqdefault.jpg",
+            "alt": "Image du film « Voix d'Amazonie »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=yzubFqyXDmk",
+            "linkTarget": true,
+            "linkTitle": "Voir « Voix d'Amazonie » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-documentaires-h13"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-28-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Avec Pierre Bayle",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h14"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Voix d'Amazonie",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             2.6,
+             2.2,
+             1.9
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h15"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Co-réalisé avec Pierre Bayle : les communautés indigènes d'Équateur face à l'extraction minière et pétrolière.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/list",
+           "attributes": {
+            "className": "pd-faits"
+           },
+           "innerBlocks": [
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "43 minutes"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Version espagnole : « Voces de la Amazonia »"
+             }
+            }
+           ]
+          },
+          {
+           "name": "kadence/advancedbtn",
+           "attributes": {
+            "uniqueID": "pd-documentaires-24-g",
+            "hAlign": "left",
+            "gap": [
+             0.5,
+             "",
+             ""
+            ],
+            "gapUnit": "rem",
+            "margin": [
+             {
+              "desk": [
+               24,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
+            ],
+            "marginUnit": "px"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-documentaires-25-b",
+              "text": "Voir le film",
+              "link": "https://www.youtube.com/watch?v=yzubFqyXDmk",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.5,
+               1,
+               0.5,
+               1
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.85,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "color": "#ece8df",
+              "background": "palette1",
+              "colorHover": "#ece8df",
+              "backgroundHover": "palette2",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "target": "_blank"
+             }
+            },
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-documentaires-26-b",
+              "text": "Versión española",
+              "link": "https://www.youtube.com/watch?v=1AAnV-5CKx4",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.5,
+               1,
+               0.5,
+               1
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.85,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "inheritStyles": "outline",
+              "color": "palette3",
+              "background": "transparent",
+              "colorHover": "palette9",
+              "backgroundHover": "palette3",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a9b6c0",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#e8e6e1",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "target": "_blank"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-documentaires-37-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "tabletPadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "mobilePadding": [
+     40,
+     "",
+     40,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "film-5",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "",
+       "",
+       ""
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-documentaires-38-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-documentaires-36-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         56,
+         40,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         28
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 55,
+        "secondColumnWidth": 45,
+        "verticalAlignment": "middle"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-34-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/MX1rXj52K88/hqdefault.jpg",
+            "alt": "Image du film « Capitaine Raymond Locci »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=MX1rXj52K88",
+            "linkTarget": true,
+            "linkTitle": "Voir « Capitaine Raymond Locci » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-documentaires-h16"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-35-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Amicale du 1er RCP · 2025",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h17"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Capitaine Raymond Locci",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             2.6,
+             2.2,
+             1.9
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h18"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Brevet parachutiste n° 12204, des Vosges en 1943 à l'Indochine en 1946 : le capitaine Raymond Locci raconte, face caméra. Un portrait au long cours, réalisé avec l'amicale du 1er RCP.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/list",
+           "attributes": {
+            "className": "pd-faits"
+           },
+           "innerBlocks": [
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "1 h 36, septembre 2025"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Plus de 33 000 vues"
+             }
+            }
+           ]
+          },
+          {
+           "name": "kadence/advancedbtn",
+           "attributes": {
+            "uniqueID": "pd-documentaires-32-g",
+            "hAlign": "left",
+            "gap": [
+             0.5,
+             "",
+             ""
+            ],
+            "gapUnit": "rem",
+            "margin": [
+             {
+              "desk": [
+               24,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
+            ],
+            "marginUnit": "px"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-documentaires-33-b",
+              "text": "Voir le film",
+              "link": "https://www.youtube.com/watch?v=MX1rXj52K88",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.5,
+               1,
+               0.5,
+               1
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.85,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "color": "#ece8df",
+              "background": "palette1",
+              "colorHover": "#ece8df",
+              "backgroundHover": "palette2",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "target": "_blank"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-documentaires-44-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette8",
+    "textColor": "palette3",
+    "padding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "tabletPadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "mobilePadding": [
+     40,
+     "",
+     40,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "film-6",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "",
+       "",
+       ""
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-documentaires-45-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-documentaires-43-r",
+        "kbVersion": 2,
+        "columns": 2,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         56,
+         40,
+         0
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         0,
+         0,
+         28
+        ],
+        "rowGutterType": "px",
+        "firstColumnWidth": 55,
+        "secondColumnWidth": 45,
+        "verticalAlignment": "middle"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-41-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "https://i.ytimg.com/vi/uF7zqXfUsjc/hqdefault.jpg",
+            "alt": "Image du film « Commandant Everrard »",
+            "useRatio": true,
+            "ratio": "land169",
+            "link": "https://www.youtube.com/watch?v=uF7zqXfUsjc",
+            "linkTarget": true,
+            "linkTitle": "Voir « Commandant Everrard » sur YouTube (nouvel onglet)",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "uniqueID": "pd-documentaires-h19"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-documentaires-42-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Amicale du 1er RCP · 2025",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             8,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h20"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Commandant Everrard",
+            "level": 2,
+            "typography": "Newsreader",
+            "googleFont": false,
+            "fontWeight": "400",
+            "fontSize": [
+             2.6,
+             2.2,
+             1.9
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.1,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette3",
+            "margin": [
+             0,
+             "",
+             16,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-documentaires-h21"
+           }
+          },
+          {
+           "name": "core/paragraph",
+           "attributes": {
+            "content": "Brevet parachutiste n° 12137, l'Indochine en 1946 : le témoignage du commandant Everrard, commandé par l'amicale du 1er RCP et offert au régiment.",
+            "style": {
+             "typography": {
+              "fontSize": "1.0625rem",
+              "lineHeight": "1.65"
+             },
+             "spacing": {
+              "margin": {
+               "top": "0",
+               "bottom": "1.1rem"
+              }
+             },
+             "color": {
+              "text": "#a9b6c0"
+             }
+            }
+           }
+          },
+          {
+           "name": "core/list",
+           "attributes": {
+            "className": "pd-faits"
+           },
+           "innerBlocks": [
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "34 minutes, juin 2025"
+             }
+            },
+            {
+             "name": "core/list-item",
+             "attributes": {
+              "content": "Plus de 40 000 vues"
+             }
+            }
+           ]
+          },
+          {
+           "name": "kadence/advancedbtn",
+           "attributes": {
+            "uniqueID": "pd-documentaires-39-g",
+            "hAlign": "left",
+            "gap": [
+             0.5,
+             "",
+             ""
+            ],
+            "gapUnit": "rem",
+            "margin": [
+             {
+              "desk": [
+               24,
+               "",
+               0,
+               ""
+              ],
+              "tablet": [
+               "",
+               "",
+               "",
+               ""
+              ],
+              "mobile": [
+               "",
+               "",
+               "",
+               ""
+              ]
+             }
+            ],
+            "marginUnit": "px"
+           },
+           "innerBlocks": [
+            {
+             "name": "kadence/singlebtn",
+             "attributes": {
+              "uniqueID": "pd-documentaires-40-b",
+              "text": "Voir le film",
+              "link": "https://www.youtube.com/watch?v=uF7zqXfUsjc",
+              "borderRadius": [
+               2,
+               2,
+               2,
+               2
+              ],
+              "borderRadiusUnit": "px",
+              "padding": [
+               0.5,
+               1,
+               0.5,
+               1
+              ],
+              "paddingUnit": "rem",
+              "typography": [
+               {
+                "size": [
+                 0.85,
+                 "",
+                 ""
+                ],
+                "sizeType": "rem",
+                "lineHeight": [
+                 1.2,
+                 "",
+                 ""
+                ],
+                "lineType": "",
+                "letterSpacing": [
+                 0.04,
+                 "",
+                 ""
+                ],
+                "letterType": "em",
+                "textTransform": "",
+                "family": "",
+                "google": false,
+                "style": "",
+                "weight": "500",
+                "variant": "",
+                "subset": "",
+                "loadGoogle": false
+               }
+              ],
+              "color": "#ece8df",
+              "background": "palette1",
+              "colorHover": "#ece8df",
+              "backgroundHover": "palette2",
+              "borderStyle": [
+               {
+                "top": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#a3302f",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "borderHoverStyle": [
+               {
+                "top": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "right": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "bottom": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "left": [
+                 "#c0403d",
+                 "solid",
+                 1
+                ],
+                "unit": "px"
+               }
+              ],
+              "target": "_blank"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-documentaires-48-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "",
+       "",
+       ""
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-documentaires-49-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "En écriture",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-documentaires-h22"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Une dizaine de projets",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-documentaires-h23"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Ces dernières semaines, une dizaine de projets de documentaires ont pris forme. Producteurs, diffuseurs, fondations : parlons-en.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0625,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         8,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         672,
+         "",
+         ""
+        ],
+        "maxWidthType": "px",
+        "uniqueID": "pd-documentaires-h24"
+       }
+      },
+      {
+       "name": "kadence/advancedbtn",
+       "attributes": {
+        "uniqueID": "pd-documentaires-46-g",
+        "hAlign": "left",
+        "gap": [
+         0.9,
+         "",
+         ""
+        ],
+        "gapUnit": "rem",
+        "margin": [
+         {
+          "desk": [
+           32,
+           "",
+           0,
+           ""
+          ],
+          "tablet": [
+           "",
+           "",
+           "",
+           ""
+          ],
+          "mobile": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         }
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/singlebtn",
+         "attributes": {
+          "uniqueID": "pd-documentaires-47-b",
+          "text": "Parler d'un projet",
+          "link": "/contact/",
+          "borderRadius": [
+           2,
+           2,
+           2,
+           2
+          ],
+          "borderRadiusUnit": "px",
+          "padding": [
+           0.9,
+           1.5,
+           0.9,
+           1.5
+          ],
+          "paddingUnit": "rem",
+          "typography": [
+           {
+            "size": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "lineHeight": [
+             1.2,
+             "",
+             ""
+            ],
+            "lineType": "",
+            "letterSpacing": [
+             0.04,
+             "",
+             ""
+            ],
+            "letterType": "em",
+            "textTransform": "",
+            "family": "",
+            "google": false,
+            "style": "",
+            "weight": "500",
+            "variant": "",
+            "subset": "",
+            "loadGoogle": false
+           }
+          ],
+          "color": "#ece8df",
+          "background": "palette1",
+          "colorHover": "#ece8df",
+          "backgroundHover": "palette2",
+          "borderStyle": [
+           {
+            "top": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "right": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "left": [
+             "#a3302f",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ],
+          "borderHoverStyle": [
+           {
+            "top": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "right": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "bottom": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "left": [
+             "#c0403d",
+             "solid",
+             1
+            ],
+            "unit": "px"
+           }
+          ]
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "excerpt": "Documentaires d'auteur pour la télévision et pour les fondations : Classe Défense, La nuit leur appartient, Chroniques du 93, Voix d'Amazonie, portraits d'anciens."
+}

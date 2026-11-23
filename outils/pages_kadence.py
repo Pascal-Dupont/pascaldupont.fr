@@ -460,7 +460,7 @@ def page_accueil():
         h = []
         for e in bd['elements']:
             if e.get('logo'):
-                h.append('<li><img src="%s%s" alt="%s" height="%d" style="height:%dpx" loading="lazy"></li>' % (
+                h.append('<li><img src="%s%s" alt="%s" height="%d" style="height:%dpx"></li>' % (
                     LOGOS, e['logo'], '' if cachee else 'Logo ' + e['nom'], e.get('hauteur', 44), e.get('hauteur', 44)))
             else:
                 h.append('<li><span>%s</span></li>' % e['nom'])
@@ -507,6 +507,9 @@ def page_films():
                     f = dict(fid[x['id']])
                     f.update({'titre': x['titre'], 'description': '', 'duree': ''})
                     col = P.carte(f, etiquette=x['etiquette'])
+                    for blk in col['innerBlocks']:
+                        if blk['name'] == 'kadence/advancedheading' and blk['attributes'].get('level') == 3:
+                            blk['attributes']['level'] = 2
                     col['innerBlocks'].append(P.paragraphe(x['texte'], DOUX))
                     col['innerBlocks'].append(P.boutons(x['boutons'], marge_haut=8, petit=True))
                     cols.append(col)
@@ -633,6 +636,35 @@ def page_thales():
     return c['titre'], [entete, films]
 
 
+def page_documentaires():
+    P = Page('documentaires')
+    c = SITE['pages']['documentaires']
+    blocs = [P.entete_page(c['entete'])]
+    for i, f in enumerate(c['films']):
+        perso = next((x for x in ('jpg', 'png', 'webp') if (RACINE / 'kadence-pascal' / 'assets' / 'vignettes' / ('%s.%s' % (f['id'].lower(), x))).exists()), None)
+        url_img = ('/wp-content/themes/kadence-pascal/assets/vignettes/%s.%s' % (f['id'].lower(), perso)) if perso else 'https://i.ytimg.com/vi/%s/hqdefault.jpg' % f['id']
+        image = {'name': 'kadence/image', 'attributes': {
+            'url': url_img, 'alt': 'Image du film « %s »' % f['titre'], 'useRatio': True, 'ratio': 'land169',
+            'link': f['url'], 'linkTarget': True, 'linkTitle': 'Voir « %s » sur YouTube (nouvel onglet)' % f['titre'],
+            'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px'}}
+        faits = {'name': 'core/list', 'attributes': {'className': 'pd-faits'},
+                 'innerBlocks': [{'name': 'core/list-item', 'attributes': {'content': x}} for x in f['faits']]}
+        boutons = [{'texte': 'Voir le film', 'url': f['url'], 'style': 'plein'}]
+        if f.get('autre'):
+            boutons.append({'texte': f['autre']['texte'], 'url': f['autre']['url'], 'style': 'contour'})
+        texte = [P.surtitre(f['etiquette'], marge_bas=8), P.titre(f['titre'], 2, taille=(2.6, 2.2, 1.9), marge_bas=16),
+                 P.paragraphe(f['texte'], DOUX), faits, P.boutons(boutons, marge_haut=24, petit=True)]
+        bord = [{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}]
+        blocs.append(P.section([P.rangee([P.colonne([image]), P.colonne(texte)], layout='equal', firstColumnWidth=55, secondColumnWidth=45,
+                                         gouttiere=[56, 40, 0], gouttiere_v=[0, 0, 28], verticalAlignment='middle')],
+                               fond=ARDOISE if i % 2 else NUIT, padding=(72, 56, 40), bordures=bord, ancre='film-%d' % (i + 1)))
+    e = c['ecriture']
+    blocs.append(P.section(P.entete_section(e['surtitre'], e['titre'], e['texte'], marge_bas=8) + [P.boutons([e['bouton']], marge_haut=32)],
+                           fond=ARDOISE if len(c['films']) % 2 else NUIT,
+                           bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}]))
+    return c['titre'], blocs
+
+
 def page_lakelab():
     P = Page('lakelab')
     c = SITE['pages']['lakelab']
@@ -675,7 +707,7 @@ def page_legale(cle):
 
 
 PAGES = {
-    'accueil': page_accueil, 'films': page_films, 'a-propos': page_apropos,
+    'accueil': page_accueil, 'documentaires': page_documentaires, 'films': page_films, 'a-propos': page_apropos,
     'defense-et-securite': page_defense, 'thales': page_thales, 'lakelab': page_lakelab, 'contact': page_contact,
     'mentions-legales': lambda: page_legale('mentions-legales'), 'confidentialite': lambda: page_legale('confidentialite'),
 }

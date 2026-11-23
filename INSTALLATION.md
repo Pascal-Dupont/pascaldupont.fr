@@ -1,10 +1,10 @@
 # Installer le nouveau site sur WordPress (OVH)
 
-Durée : environ 15 minutes. Vous n'avez rien à coder. Ce parcours a été rejoué de bout en bout, par l'interface d'administration, sur un WordPress neuf : les 9 pages s'affichent et s'ouvrent sans erreur dans l'éditeur.
+Durée : environ 15 minutes. Vous n'avez rien à coder. Ce parcours a été rejoué de bout en bout, par l'interface d'administration, sur un WordPress neuf : les 10 pages s'affichent et s'ouvrent sans erreur dans l'éditeur.
 
 ## Fichiers à récupérer sur GitHub (dossier `dist/`)
 - `kadence-pascal.zip` : le thème enfant de Kadence (couleurs, polices, en-tête, pied de page, formulaire de contact).
-- `pages-pascaldupont.xml` : les 9 pages du site, en blocs Kadence éditables (Accueil, Films, À propos, Défense et sécurité, LAKELAB, Devis et contact, Mentions légales, Confidentialité, plus une page Thales protégée par mot de passe, à ne publier qu'après validation de Thales).
+- `pages-pascaldupont.xml` : les 10 pages du site, en blocs Kadence éditables (Accueil, Films, À propos, Défense et sécurité, LAKELAB, Devis et contact, Mentions légales, Confidentialité, plus une page Thales protégée par mot de passe, à ne publier qu'après validation de Thales).
 
 Pour chacun : ouvrez le fichier sur GitHub, puis cliquez sur l'icône « Download raw file » (flèche vers le bas, en haut à droite du fichier).
 

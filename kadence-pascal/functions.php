@@ -242,10 +242,10 @@ function pd_creer_menu( $nom, $elements ) {
 }
 
 // Changer cette valeur à chaque nouvel envoi des pages : le réglage automatique (accueil, menus) est alors refait.
-const PD_VERSION_INSTALLATION = '2.2.0';
+const PD_VERSION_INSTALLATION = '2.3.0';
 
 function pd_installer_site() {
-	$cles = array( 'accueil', 'films', 'a-propos', 'defense-et-securite', 'thales', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
+	$cles = array( 'accueil', 'documentaires', 'films', 'a-propos', 'defense-et-securite', 'thales', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
 	$p    = array();
 	foreach ( $cles as $cle ) {
 		$p[ $cle ] = pd_page_par_cle( $cle );
@@ -290,10 +290,10 @@ function pd_installer_site() {
 	$principal = pd_creer_menu(
 		'Menu principal',
 		array(
+			array( 'titre' => 'Documentaires', 'page' => $p['documentaires'] ),
 			array( 'titre' => 'Films', 'page' => $p['films'] ),
 			array( 'titre' => 'Défense et sécurité', 'page' => $p['defense-et-securite'] ),
 			array( 'titre' => 'À propos', 'page' => $p['a-propos'] ),
-			array( 'titre' => 'Prestations', 'url' => '/#prestations', 'classes' => 'pd-ancre' ),
 			array( 'titre' => 'LAKELAB', 'page' => $p['lakelab'] ),
 			array( 'titre' => 'Devis', 'page' => $p['contact'], 'classes' => 'pd-menu-devis' ),
 		)
@@ -301,6 +301,7 @@ function pd_installer_site() {
 	$pied = pd_creer_menu(
 		'Pied de page',
 		array(
+			array( 'titre' => 'Prestations', 'url' => '/#prestations', 'classes' => 'pd-ancre' ),
 			array( 'titre' => 'Mentions légales', 'page' => $p['mentions-legales'] ),
 			array( 'titre' => 'Confidentialité', 'page' => $p['confidentialite'] ),
 		)
@@ -448,3 +449,9 @@ add_action(
 	},
 	2
 );
+
+
+// Pas de logo image dans l'en-tête : le nom « Pascal Dupont » en texte suffit.
+// (Un ancien logo réglé dans l'outil de personnalisation ou par l'ancien site s'afficherait sinon.)
+add_filter( 'theme_mod_custom_logo', '__return_false' );
+add_filter( 'pre_option_site_logo', '__return_zero' );

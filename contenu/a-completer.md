@@ -51,3 +51,11 @@
 - [ ] Thales 2R2M : Sarah a autorisé « Thales 2R2M, Mai 2018 » ; le lien fourni s'intitule « Thales 2R2M Eurosatory 2018 ». Vérifier qu'il s'agit bien du film autorisé (elle verra la page avant publication).
 - [x] Miniatures des films du 1er RCP intégrées (10 sur 11 ; rcp8, chapitre 4, quand le film sortira).
 - [ ] Photos : à déposer dans a-integrer/photos/.
+
+## Mise à jour du 24 novembre 2026
+- [x] Page Documentaires créée, en tête du menu ; Prestations passe dans le pied de page.
+- [x] Accueil : photo de l'entretien avec Raymond Locci ; bouton « Voir les documentaires » ; 1er RCP retiré du bandeau.
+- [x] La nuit leur appartient : 52 minutes, lien vers la liste de lecture (les six parties s'enchaînent).
+- [ ] Chroniques du 93 (version complète, c4xGjV6-sNg) : YouTube refuse l'intégration (vidéo privée ou intégration désactivée ?). Vérifier qu'elle est bien publique.
+- [ ] « Méditerranée orientale, du gaz dans l'eau » (2YGZr_pob0c, entretien Mazzucchi) : vidéo introuvable sur YouTube, retirée du site.
+- [ ] Ancien logo « Lakelab » dans l'en-tête : neutralisé par le thème (le nom en texte reste).
