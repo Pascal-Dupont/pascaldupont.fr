@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1.5" created="2026-11-23 01:57" -->
+	<!-- generator="WordPress/7.1.5" created="2026-11-23 02:16" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Pascal Dupont</title>
 	<link>https://pascaldupont.fr</link>
 	<description>Auteur-réalisateur documentaire</description>
-	<pubDate>Mon, 23 Nov 2026 01:57:23 +0000</pubDate>
+	<pubDate>Mon, 23 Nov 2026 02:16:38 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url></wp:base_site_url>
@@ -47,32 +47,32 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://pascaldupont.fr/?page_id=5</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"pd-accueil-4-s","columns":1,"colLayout":"equal","currentOverlayTab":"gradient","htmlTag":"section","maxWidth":72,"bgColor":"palette9","bgImg":"/wp-content/themes/kadence-pascal/assets/photos/accueil-tournage-mortier.jpg","bgImgPosition":"60% 40%","overlayOpacity":100,"align":"full","textColor":"palette3","tabletPadding":[96,"",168,""],"maxWidthUnit":"rem","overlayGradient":"linear-gradient(90deg, rgba(13,18,23,0.94) 0%, rgba(13,18,23,0.72) 45%, rgba(13,18,23,0.30) 100%)","padding":[120,"",200,""],"mobilePadding":[72,"",136,""],"kbVersion":2,"className":"pd-hero pd-hero-photo pd-fond-photo"} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-accueil-5-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-accueil-5-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-accueil-h1","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",20,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-accueil-h1 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-accueil-h1">Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission</p>
+		<content:encoded><![CDATA[<!-- wp:kadence/rowlayout {"uniqueID":"5_446ff7-c4","columns":1,"colLayout":"equal","currentOverlayTab":"gradient","htmlTag":"section","maxWidth":72,"bgColor":"palette9","bgImg":"/wp-content/themes/kadence-pascal/assets/photos/accueil-tournage-mortier.jpg","bgImgPosition":"60% 40%","overlayOpacity":100,"align":"full","textColor":"palette3","tabletPadding":[96,"",168,""],"maxWidthUnit":"rem","overlayGradient":"linear-gradient(90deg, rgba(13,18,23,0.94) 0%, rgba(13,18,23,0.72) 45%, rgba(13,18,23,0.30) 100%)","padding":[120,"",200,""],"mobilePadding":[72,"",136,""],"kbVersion":2,"className":"pd-hero pd-hero-photo pd-fond-photo"} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"5_3366c0-80","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column5_3366c0-80"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"5_42a0ed-d8","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",20,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading5_42a0ed-d8 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading5_42a0ed-d8">Auteur-réalisateur documentaire · Défense, mémoire combattante et transmission</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"level":1,"uniqueID":"pd-accueil-h2","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",28,""],"markFontStyle":"italic","markColor":"palette5","fontSize":[5.4,4,2.7],"fontHeight":[1.05,"",""],"maxWidth":[880,"",""]} -->
-<h1 class="kt-adv-headingpd-accueil-h2 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-accueil-h2">Je filme l'engagement et <mark class="kt-highlight">ce qu'il laisse</mark>.</h1>
+<!-- wp:kadence/advancedheading {"level":1,"uniqueID":"5_a00b3a-8d","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",28,""],"markFontStyle":"italic","markColor":"palette5","fontSize":[5.4,4,2.7],"fontHeight":[1.05,"",""],"maxWidth":[880,"",""]} -->
+<h1 class="kt-adv-heading5_a00b3a-8d wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading5_a00b3a-8d">Je filme l'engagement et <mark class="kt-highlight">ce qu'il laisse</mark>.</h1>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-accueil-h3","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[1.15,"",""],"fontHeight":[1.6,"",""],"maxWidth":[608,"",""]} -->
-<p class="kt-adv-headingpd-accueil-h3 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-accueil-h3">Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"5_a3a534-bf","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[1.15,"",""],"fontHeight":[1.6,"",""],"maxWidth":[608,"",""]} -->
+<p class="kt-adv-heading5_a3a534-bf wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading5_a3a534-bf">Documentaires pour la télévision, portraits de témoins, films de mémoire. Je réalise aussi des films pour les institutions et les entreprises, notamment dans la défense et la sécurité.</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"pd-accueil-1-g","margin":[{"desk":[36,"",0,""],"tablet":["","","",""],"mobile":["","","",""]}],"gap":[0.9,"",""],"gapUnit":"rem","orientation":["","","column"]} -->
-<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btnspd-accueil-1-g"><!-- wp:kadence/singlebtn {"uniqueID":"pd-accueil-2-b","text":"Voir les films","link":"/films/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"#ece8df","background":"palette1","colorHover":"#ece8df","backgroundHover":"palette2","borderStyle":[{"top":["#a3302f","solid",1],"right":["#a3302f","solid",1],"bottom":["#a3302f","solid",1],"left":["#a3302f","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#c0403d","solid",1],"right":["#c0403d","solid",1],"bottom":["#c0403d","solid",1],"left":["#c0403d","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /-->
+<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"5_dc7e87-80","margin":[{"desk":[36,"",0,""],"tablet":["","","",""],"mobile":["","","",""]}],"gap":[0.9,"",""],"gapUnit":"rem","orientation":["","","column"]} -->
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns5_dc7e87-80"><!-- wp:kadence/singlebtn {"uniqueID":"5_6b4575-23","text":"Voir les films","link":"/films/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"#ece8df","background":"palette1","colorHover":"#ece8df","backgroundHover":"palette2","borderStyle":[{"top":["#a3302f","solid",1],"right":["#a3302f","solid",1],"bottom":["#a3302f","solid",1],"left":["#a3302f","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#c0403d","solid",1],"right":["#c0403d","solid",1],"bottom":["#c0403d","solid",1],"left":["#c0403d","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /-->
 
-<!-- wp:kadence/singlebtn {"uniqueID":"pd-accueil-3-b","text":"Parler d'un projet","link":"/contact/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"palette3","background":"transparent","colorHover":"palette9","backgroundHover":"palette3","borderStyle":[{"top":["#a9b6c0","solid",1],"right":["#a9b6c0","solid",1],"bottom":["#a9b6c0","solid",1],"left":["#a9b6c0","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#e8e6e1","solid",1],"right":["#e8e6e1","solid",1],"bottom":["#e8e6e1","solid",1],"left":["#e8e6e1","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"inheritStyles":"outline","typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /--></div>
+<!-- wp:kadence/singlebtn {"uniqueID":"5_f40f0f-42","text":"Parler d'un projet","link":"/contact/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"palette3","background":"transparent","colorHover":"palette9","backgroundHover":"palette3","borderStyle":[{"top":["#a9b6c0","solid",1],"right":["#a9b6c0","solid",1],"bottom":["#a9b6c0","solid",1],"left":["#a9b6c0","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#e8e6e1","solid",1],"right":["#e8e6e1","solid",1],"bottom":["#e8e6e1","solid",1],"left":["#e8e6e1","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"inheritStyles":"outline","typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /--></div>
 <!-- /wp:kadence/advancedbtn --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
 
 <!-- wp:kadence/rowlayout {"uniqueID":"pd-accueil-56-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[28,"",28,""],"maxWidthUnit":"rem","padding":[32,"",32,""],"mobilePadding":[24,"",24,""],"borderStyle":[{"top":["","",""],"right":["","",""],"bottom":["#2c3a49","solid",1],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-accueil-57-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-accueil-57-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-accueil-h4","color":"palette4","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",20,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-accueil-h4 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-accueil-h4">Diffuseurs, clients et partenaires</p>
+<div class="wp-block-kadence-column kadence-columnpd-accueil-57-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"5_f93182-6f","color":"palette4","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",20,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-heading5_f93182-6f wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading5_f93182-6f">Diffuseurs, clients et partenaires</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:html -->
@@ -408,7 +408,7 @@
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-accueil-59-c","kbVersion":2,"className":"pd-territoire-image"} -->
 <div class="wp-block-kadence-column kadence-columnpd-accueil-59-c pd-territoire-image"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"/films/#films-documentaires","linkTitle":"Voir les films : Documentaires","uniqueID":"pd-accueil-h76","borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-accueil-h76 kb-image-is-ratio-size"><a href="/films/#films-documentaires" class="kb-advanced-image-link" aria-label="Voir les films : Documentaires"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/c4xGjV6-sNg/hqdefault.jpg" alt="Image : Documentaires" class="kb-img"/></div></a></figure>
+<figure class="wp-block-kadence-image kb-imagepd-accueil-h76 kb-image-is-ratio-size"><a href="/films/#films-documentaires" class="kb-advanced-image-link" aria-label="Voir les films : Documentaires"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/photos/territoire-documentaires.jpg" alt="Image : Documentaires" class="kb-img"/></div></a></figure>
 <!-- /wp:kadence/image --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
@@ -434,7 +434,7 @@
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-accueil-62-c","kbVersion":2,"className":"pd-territoire-image"} -->
 <div class="wp-block-kadence-column kadence-columnpd-accueil-62-c pd-territoire-image"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"/films/#films-defense","linkTitle":"Voir les films : Défense et industrie","uniqueID":"pd-accueil-h81","borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-accueil-h81 kb-image-is-ratio-size"><a href="/films/#films-defense" class="kb-advanced-image-link" aria-label="Voir les films : Défense et industrie"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/bhsuc7c241k/hqdefault.jpg" alt="Image : Défense et industrie" class="kb-img"/></div></a></figure>
+<figure class="wp-block-kadence-image kb-imagepd-accueil-h81 kb-image-is-ratio-size"><a href="/films/#films-defense" class="kb-advanced-image-link" aria-label="Voir les films : Défense et industrie"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/photos/coulisses-canjuers-tir.jpg" alt="Image : Défense et industrie" class="kb-img"/></div></a></figure>
 <!-- /wp:kadence/image --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
@@ -460,7 +460,7 @@
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-accueil-65-c","kbVersion":2,"className":"pd-territoire-image"} -->
 <div class="wp-block-kadence-column kadence-columnpd-accueil-65-c pd-territoire-image"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"/films/#films-memoire","linkTitle":"Voir les films : Mémoire combattante","uniqueID":"pd-accueil-h86","borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-accueil-h86 kb-image-is-ratio-size"><a href="/films/#films-memoire" class="kb-advanced-image-link" aria-label="Voir les films : Mémoire combattante"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/MX1rXj52K88/hqdefault.jpg" alt="Image : Mémoire combattante" class="kb-img"/></div></a></figure>
+<figure class="wp-block-kadence-image kb-imagepd-accueil-h86 kb-image-is-ratio-size"><a href="/films/#films-memoire" class="kb-advanced-image-link" aria-label="Voir les films : Mémoire combattante"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-lucile-raymond-locci.jpg" alt="Image : Mémoire combattante" class="kb-img"/></div></a></figure>
 <!-- /wp:kadence/image --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
@@ -486,7 +486,7 @@
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-accueil-68-c","kbVersion":2,"className":"pd-territoire-image"} -->
 <div class="wp-block-kadence-column kadence-columnpd-accueil-68-c pd-territoire-image"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"/films/#films-entreprises","linkTitle":"Voir les films : Fondations et entreprises","uniqueID":"pd-accueil-h91","borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-accueil-h91 kb-image-is-ratio-size"><a href="/films/#films-entreprises" class="kb-advanced-image-link" aria-label="Voir les films : Fondations et entreprises"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/NFZDGtgBNIk/hqdefault.jpg" alt="Image : Fondations et entreprises" class="kb-img"/></div></a></figure>
+<figure class="wp-block-kadence-image kb-imagepd-accueil-h91 kb-image-is-ratio-size"><a href="/films/#films-entreprises" class="kb-advanced-image-link" aria-label="Voir les films : Fondations et entreprises"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-suge-fa3r.jpg" alt="Image : Fondations et entreprises" class="kb-img"/></div></a></figure>
 <!-- /wp:kadence/image --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
@@ -512,7 +512,7 @@
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-accueil-71-c","kbVersion":2,"className":"pd-territoire-image"} -->
 <div class="wp-block-kadence-column kadence-columnpd-accueil-71-c pd-territoire-image"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"/films/#films-creations","linkTitle":"Voir les films : Créations et LAKELAB","uniqueID":"pd-accueil-h96","borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-accueil-h96 kb-image-is-ratio-size"><a href="/films/#films-creations" class="kb-advanced-image-link" aria-label="Voir les films : Créations et LAKELAB"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/9o5BFBA8Fj4/hqdefault.jpg" alt="Image : Créations et LAKELAB" class="kb-img"/></div></a></figure>
+<figure class="wp-block-kadence-image kb-imagepd-accueil-h96 kb-image-is-ratio-size"><a href="/films/#films-creations" class="kb-advanced-image-link" aria-label="Voir les films : Créations et LAKELAB"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-fs7-stab.jpg" alt="Image : Créations et LAKELAB" class="kb-img"/></div></a></figure>
 <!-- /wp:kadence/image --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout --></div></div>
@@ -704,8 +704,8 @@
 		<wp:post_id>5</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:01:56]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:01:56]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 02:56:26]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 01:56:26]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 03:15:47]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 02:15:47]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[accueil]]></wp:post_name>
@@ -2034,7 +2034,7 @@
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h7","color":"palette4","sizeType":"rem","margin":[0,"",32,""],"htmlTag":"p","fontSize":[1.0625,"",""],"fontHeight":[1.6,"",""],"maxWidth":[672,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h7 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h7">Stabilisateur, grue, trépied dans la neige ou entretien à la table d'un ancien : le dispositif s'adapte au terrain, jamais l'inverse.</p>
+<p class="kt-adv-headingpd-a-propos-h7 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h7">Stabilisateur, éclairage d'entretien, trépied dans la neige ou table d'un ancien : le dispositif s'adapte au terrain, jamais l'inverse.</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/rowlayout {"uniqueID":"pd-apropos-22-r","columns":3,"tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[40,32,28],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"margin":[0,"",0,""],"kbVersion":2} -->
@@ -2054,43 +2054,43 @@
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-17-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-17-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h11","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h11 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-mortier-120.jpg" alt="Mortier de 120 mm, 2016 Au plus près de la pièce." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h11 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-suge-fa3r.jpg" alt="SUGE, pour FA3R, décembre 2023 En gare, au plus près des agents." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h12","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h12 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h12">Mortier de 120 mm, 2016</p>
+<p class="kt-adv-headingpd-a-propos-h12 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h12">SUGE, pour FA3R, décembre 2023</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h13","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h13 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h13">Au plus près de la pièce.</p>
+<p class="kt-adv-headingpd-a-propos-h13 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h13">En gare, au plus près des agents.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-18-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-18-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h14","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h14 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-avec-lyderic.jpg" alt="Mortier de 120 mm, 2016 Avec Lydéric, au retour d'image." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h14 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-lucile-raymond-locci.jpg" alt="Juin 2026 Avec Lucile et Raymond Locci." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h15","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h15 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h15">Mortier de 120 mm, 2016</p>
+<p class="kt-adv-headingpd-a-propos-h15 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h15">Juin 2026</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h16","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h16 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h16">Avec Lydéric, au retour d'image.</p>
+<p class="kt-adv-headingpd-a-propos-h16 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h16">Avec Lucile et Raymond Locci.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-19-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-19-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h17","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h17 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-grue.jpg" alt="2016 Mise en place de la grue de tournage." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h17 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-fs7-stab.jpg" alt="Juillet 2015 La FS7 sur un grand stabilisateur." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h18","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h18 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h18">2016</p>
+<p class="kt-adv-headingpd-a-propos-h18 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h18">Juillet 2015</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h19","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h19 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h19">Mise en place de la grue de tournage.</p>
+<p class="kt-adv-headingpd-a-propos-h19 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h19">La FS7 sur un grand stabilisateur.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
@@ -2110,7 +2110,7 @@
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-21-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-21-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h23","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h23 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-entretien-raymond.jpg" alt="Entretien Avec Raymond, pendant l'entretien." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h23 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/tournage-entretien-raymond.jpg" alt="Entretien Avec Raymond Locci, pendant l'entretien." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h24","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
@@ -2118,7 +2118,7 @@
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h25","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h25 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h25">Avec Raymond, pendant l'entretien.</p>
+<p class="kt-adv-headingpd-a-propos-h25 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h25">Avec Raymond Locci, pendant l'entretien.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout --></div></div>
@@ -2260,8 +2260,8 @@
 		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:27]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:27]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 02:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 01:55:18]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 03:16:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 02:16:00]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[a-propos]]></wp:post_name>
@@ -2743,12 +2743,114 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-47-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette8","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"borderStyle":[{"top":["#2c3a49","solid",1],"right":["","",""],"bottom":["#2c3a49","solid",1],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-48-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-defense-48-c"><div class="kt-inside-inner-col"><!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-46-r","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[0,0,40],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[48,40,0],"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-51-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"borderStyle":[{"top":["#2c3a49","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"anchor":"coulisses","kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-52-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-52-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h81","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h81 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h81">En coulisses</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h82","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[3.2,2.6,2.1],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-headingpd-defense-et-securite-h82 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h82">Des salons au champ de tir</h2>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h83","color":"palette4","sizeType":"rem","margin":[0,"",32,""],"htmlTag":"p","fontSize":[1.0625,"",""],"fontHeight":[1.6,"",""],"maxWidth":[672,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h83 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h83">Conférences, tables rondes et tirs réels : la même exigence d'image, du plateau au terrain.</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-50-r","columns":3,"tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[40,32,28],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"margin":[0,"",0,""],"kbVersion":2} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-44-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-defense-44-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h81","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
-<h2 class="kt-adv-headingpd-defense-et-securite-h81 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h81">Ma méthode</h2>
+<div class="wp-block-kadence-column kadence-columnpd-defense-44-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-defense-et-securite-h84","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h84 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/coulisses-fed-2021.jpg" alt="FED 2021 Captation d'une conférence." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h85","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h85 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h85">FED 2021</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h86","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h86 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h86">Captation d'une conférence.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-45-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-45-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-defense-et-securite-h87","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h87 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/coulisses-fed-2021-barrera.jpg" alt="FED 2021 Le général Barrera à la tribune." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h88","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h88 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h88">FED 2021</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h89","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h89 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h89">Le général Barrera à la tribune.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-46-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-46-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-defense-et-securite-h90","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h90 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/coulisses-gicat-2021.jpg" alt="GICAT, octobre 2021 Table ronde filmée." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h91","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h91 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h91">GICAT, octobre 2021</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h92","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h92 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h92">Table ronde filmée.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-47-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-47-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-defense-et-securite-h93","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h93 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/coulisses-canjuers-tir.jpg" alt="Canjuers, 2016 Tir au mortier de 120 mm." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h94","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h94 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h94">Canjuers, 2016</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h95","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h95 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h95">Tir au mortier de 120 mm.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-48-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-48-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-defense-et-securite-h96","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h96 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/coulisses-canjuers-servants.jpg" alt="Canjuers, 2016 Au milieu des servants." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h97","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h97 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h97">Canjuers, 2016</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h98","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h98 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h98">Au milieu des servants.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-49-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-49-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-defense-et-securite-h99","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h99 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/coulisses-canjuers-lyderic.jpg" alt="Canjuers, 2016 Avec Lydéric, au retour d'image." class="kb-img"/></div></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h100","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h100 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h100">Canjuers, 2016</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h101","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h101 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h101">Avec Lydéric, au retour d'image.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout --></div></div>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-56-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette8","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"borderStyle":[{"top":["#2c3a49","solid",1],"right":["","",""],"bottom":["#2c3a49","solid",1],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-57-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-57-c"><div class="kt-inside-inner-col"><!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-55-r","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[0,0,40],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[48,40,0],"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-53-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-53-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h102","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-headingpd-defense-et-securite-h102 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h102">Ma méthode</h2>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:list {"ordered":true,"className":"pd-etapes"} -->
@@ -2770,9 +2872,9 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 <!-- /wp:list --></div></div>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-45-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-defense-45-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h82","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
-<h2 class="kt-adv-headingpd-defense-et-securite-h82 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h82">Références</h2>
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-54-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-54-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h103","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-headingpd-defense-et-securite-h103 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h103">Références</h2>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:table {"hasFixedLayout":false,"className":"pd-liste"} -->
@@ -2783,198 +2885,198 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-59-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"kbVersion":2} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-60-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-defense-60-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h83","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h83 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h83">À voir</p>
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-68-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette9","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-69-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-69-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h104","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h104 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h104">À voir</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h84","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",40,""],"fontSize":[3.2,2.6,2.1],"fontHeight":[1.1,"",""]} -->
-<h2 class="kt-adv-headingpd-defense-et-securite-h84 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h84">Quelques films</h2>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h105","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",40,""],"fontSize":[3.2,2.6,2.1],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-headingpd-defense-et-securite-h105 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h105">Quelques films</h2>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-55-r","columns":3,"tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[40,32,28],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"margin":[0,"",0,""],"kbVersion":2,"className":"pd-quinconce"} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-49-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
-<article class="wp-block-kadence-column kadence-columnpd-defense-49-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.instagram.com/reel/DJWFjqas4Ez/","linkTarget":true,"linkTitle":"Voir « Section robotique et renseignement » (nouvel onglet)","uniqueID":"pd-defense-et-securite-h85","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h85 kb-image-is-ratio-size"><a href="https://www.instagram.com/reel/DJWFjqas4Ez/" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Section robotique et renseignement » (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/vignettes/rcp3.jpg" alt="Vignette du film « Section robotique et renseignement »" class="kb-img"/></div></a></figure>
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-64-r","columns":3,"tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[40,32,28],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"margin":[0,"",0,""],"kbVersion":2,"className":"pd-quinconce"} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-58-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-columnpd-defense-58-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.instagram.com/reel/DJWFjqas4Ez/","linkTarget":true,"linkTitle":"Voir « Section robotique et renseignement » (nouvel onglet)","uniqueID":"pd-defense-et-securite-h106","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h106 kb-image-is-ratio-size"><a href="https://www.instagram.com/reel/DJWFjqas4Ez/" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Section robotique et renseignement » (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/vignettes/rcp3.jpg" alt="Vignette du film « Section robotique et renseignement »" class="kb-img"/></div></a></figure>
 <!-- /wp:kadence/image -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h86","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h86 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h86">Présentation</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h107","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h107 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h107">Présentation</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h87","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"link":"https://www.instagram.com/reel/DJWFjqas4Ez/","linkTarget":true,"linkStyle":"hover_underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
-<a href="https://www.instagram.com/reel/DJWFjqas4Ez/" class="kb-advanced-heading-link kt-adv-heading-linkpd-defense-et-securite-h87 hls-hover_underline" target="_blank" rel="noopener noreferrer"><h3 class="kt-adv-headingpd-defense-et-securite-h87 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h87">Section robotique et renseignement</h3></a>
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h108","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"link":"https://www.instagram.com/reel/DJWFjqas4Ez/","linkTarget":true,"linkStyle":"hover_underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<a href="https://www.instagram.com/reel/DJWFjqas4Ez/" class="kb-advanced-heading-link kt-adv-heading-linkpd-defense-et-securite-h108 hls-hover_underline" target="_blank" rel="noopener noreferrer"><h3 class="kt-adv-headingpd-defense-et-securite-h108 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h108">Section robotique et renseignement</h3></a>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h88","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h88 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h88">Film issu du partenariat entre l'UNAC et le régiment</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h109","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h109 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h109">Film issu du partenariat entre l'UNAC et le régiment</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h89","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","linkStyle":"underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[0.85,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h89 wp-block-kadence-advancedheading hls-underline" data-kb-block="kb-adv-headingpd-defense-et-securite-h89">Voir sur : <a href="https://www.instagram.com/reel/DJWFjqas4Ez/" target="_blank" rel="noreferrer noopener">Instagram</a> · <a href="https://www.facebook.com/share/v/14vBqNnAZHc/" target="_blank" rel="noreferrer noopener">Facebook</a> · <a href="https://x.com/1erRCP/status/1920036721569202623" target="_blank" rel="noreferrer noopener">X</a></p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h110","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","linkStyle":"underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[0.85,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h110 wp-block-kadence-advancedheading hls-underline" data-kb-block="kb-adv-headingpd-defense-et-securite-h110">Voir sur : <a href="https://www.instagram.com/reel/DJWFjqas4Ez/" target="_blank" rel="noreferrer noopener">Instagram</a> · <a href="https://www.facebook.com/share/v/14vBqNnAZHc/" target="_blank" rel="noreferrer noopener">Facebook</a> · <a href="https://x.com/1erRCP/status/1920036721569202623" target="_blank" rel="noreferrer noopener">X</a></p>
 <!-- /wp:kadence/advancedheading --></div></article>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-50-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
-<article class="wp-block-kadence-column kadence-columnpd-defense-50-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.instagram.com/reel/DKbpGcdso3j/","linkTarget":true,"linkTitle":"Voir « JPO 2025, première partie » (nouvel onglet)","uniqueID":"pd-defense-et-securite-h90","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h90 kb-image-is-ratio-size"><a href="https://www.instagram.com/reel/DKbpGcdso3j/" class="kb-advanced-image-link" target="_blank" aria-label="Voir « JPO 2025, première partie » (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/vignettes/rcp1.jpg" alt="Vignette du film « JPO 2025, première partie »" class="kb-img"/></div></a></figure>
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-59-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-columnpd-defense-59-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.instagram.com/reel/DKbpGcdso3j/","linkTarget":true,"linkTitle":"Voir « JPO 2025, première partie » (nouvel onglet)","uniqueID":"pd-defense-et-securite-h111","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h111 kb-image-is-ratio-size"><a href="https://www.instagram.com/reel/DKbpGcdso3j/" class="kb-advanced-image-link" target="_blank" aria-label="Voir « JPO 2025, première partie » (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/vignettes/rcp1.jpg" alt="Vignette du film « JPO 2025, première partie »" class="kb-img"/></div></a></figure>
 <!-- /wp:kadence/image -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h91","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h91 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h91">Reportage</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h112","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h112 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h112">Reportage</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h92","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"link":"https://www.instagram.com/reel/DKbpGcdso3j/","linkTarget":true,"linkStyle":"hover_underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
-<a href="https://www.instagram.com/reel/DKbpGcdso3j/" class="kb-advanced-heading-link kt-adv-heading-linkpd-defense-et-securite-h92 hls-hover_underline" target="_blank" rel="noopener noreferrer"><h3 class="kt-adv-headingpd-defense-et-securite-h92 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h92">JPO 2025, première partie</h3></a>
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h113","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"link":"https://www.instagram.com/reel/DKbpGcdso3j/","linkTarget":true,"linkStyle":"hover_underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<a href="https://www.instagram.com/reel/DKbpGcdso3j/" class="kb-advanced-heading-link kt-adv-heading-linkpd-defense-et-securite-h113 hls-hover_underline" target="_blank" rel="noopener noreferrer"><h3 class="kt-adv-headingpd-defense-et-securite-h113 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h113">JPO 2025, première partie</h3></a>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h93","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h93 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h93">Journées portes ouvertes du régiment</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h114","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h114 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h114">Journées portes ouvertes du régiment</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h94","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","linkStyle":"underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[0.85,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h94 wp-block-kadence-advancedheading hls-underline" data-kb-block="kb-adv-headingpd-defense-et-securite-h94">Voir sur : <a href="https://www.instagram.com/reel/DKbpGcdso3j/" target="_blank" rel="noreferrer noopener">Instagram</a> · <a href="https://www.facebook.com/share/v/1HcxhUaZkf/" target="_blank" rel="noreferrer noopener">Facebook</a></p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h115","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","linkStyle":"underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[0.85,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h115 wp-block-kadence-advancedheading hls-underline" data-kb-block="kb-adv-headingpd-defense-et-securite-h115">Voir sur : <a href="https://www.instagram.com/reel/DKbpGcdso3j/" target="_blank" rel="noreferrer noopener">Instagram</a> · <a href="https://www.facebook.com/share/v/1HcxhUaZkf/" target="_blank" rel="noreferrer noopener">Facebook</a></p>
 <!-- /wp:kadence/advancedheading --></div></article>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-51-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
-<article class="wp-block-kadence-column kadence-columnpd-defense-51-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.instagram.com/reel/DTnqKLuDc5q/","linkTarget":true,"linkTitle":"Voir « Camp régimentaire 2025 » (nouvel onglet)","uniqueID":"pd-defense-et-securite-h95","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h95 kb-image-is-ratio-size"><a href="https://www.instagram.com/reel/DTnqKLuDc5q/" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Camp régimentaire 2025 » (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/vignettes/rcp9.jpg" alt="Vignette du film « Camp régimentaire 2025 »" class="kb-img"/></div></a></figure>
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-60-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-columnpd-defense-60-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.instagram.com/reel/DTnqKLuDc5q/","linkTarget":true,"linkTitle":"Voir « Camp régimentaire 2025 » (nouvel onglet)","uniqueID":"pd-defense-et-securite-h116","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h116 kb-image-is-ratio-size"><a href="https://www.instagram.com/reel/DTnqKLuDc5q/" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Camp régimentaire 2025 » (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="/wp-content/themes/kadence-pascal/assets/vignettes/rcp9.jpg" alt="Vignette du film « Camp régimentaire 2025 »" class="kb-img"/></div></a></figure>
 <!-- /wp:kadence/image -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h96","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h96 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h96">Film court</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h117","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h117 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h117">Film court</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h97","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"link":"https://www.instagram.com/reel/DTnqKLuDc5q/","linkTarget":true,"linkStyle":"hover_underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
-<a href="https://www.instagram.com/reel/DTnqKLuDc5q/" class="kb-advanced-heading-link kt-adv-heading-linkpd-defense-et-securite-h97 hls-hover_underline" target="_blank" rel="noopener noreferrer"><h3 class="kt-adv-headingpd-defense-et-securite-h97 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h97">Camp régimentaire 2025</h3></a>
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h118","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"link":"https://www.instagram.com/reel/DTnqKLuDc5q/","linkTarget":true,"linkStyle":"hover_underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<a href="https://www.instagram.com/reel/DTnqKLuDc5q/" class="kb-advanced-heading-link kt-adv-heading-linkpd-defense-et-securite-h118 hls-hover_underline" target="_blank" rel="noopener noreferrer"><h3 class="kt-adv-headingpd-defense-et-securite-h118 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h118">Camp régimentaire 2025</h3></a>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h98","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h98 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h98">Film court, partenariat Texelis</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h119","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h119 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h119">Film court, partenariat Texelis</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h99","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","linkStyle":"underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[0.85,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h99 wp-block-kadence-advancedheading hls-underline" data-kb-block="kb-adv-headingpd-defense-et-securite-h99">Voir sur : <a href="https://www.instagram.com/reel/DTnqKLuDc5q/" target="_blank" rel="noreferrer noopener">Instagram</a> · <a href="https://fb.watch/K4XCoYoq2P/" target="_blank" rel="noreferrer noopener">Facebook</a></p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h120","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","linkStyle":"underline","linkColor":"palette3","linkHoverColor":"palette2","fontSize":[0.85,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h120 wp-block-kadence-advancedheading hls-underline" data-kb-block="kb-adv-headingpd-defense-et-securite-h120">Voir sur : <a href="https://www.instagram.com/reel/DTnqKLuDc5q/" target="_blank" rel="noreferrer noopener">Instagram</a> · <a href="https://fb.watch/K4XCoYoq2P/" target="_blank" rel="noreferrer noopener">Facebook</a></p>
 <!-- /wp:kadence/advancedheading --></div></article>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-52-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
-<article class="wp-block-kadence-column kadence-columnpd-defense-52-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.youtube.com/watch?v=bhsuc7c241k","linkTarget":true,"linkTitle":"Voir « EDR Show Daily, épisode 1 » sur YouTube (nouvel onglet)","uniqueID":"pd-defense-et-securite-h100","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h100 kb-image-is-ratio-size"><a href="https://www.youtube.com/watch?v=bhsuc7c241k" class="kb-advanced-image-link" target="_blank" aria-label="Voir « EDR Show Daily, épisode 1 » sur YouTube (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/bhsuc7c241k/hqdefault.jpg" alt="Vignette du film « EDR Show Daily, épisode 1 »" class="kb-img"/></div></a></figure>
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-61-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-columnpd-defense-61-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.youtube.com/watch?v=bhsuc7c241k","linkTarget":true,"linkTitle":"Voir « EDR Show Daily, épisode 1 » sur YouTube (nouvel onglet)","uniqueID":"pd-defense-et-securite-h121","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h121 kb-image-is-ratio-size"><a href="https://www.youtube.com/watch?v=bhsuc7c241k" class="kb-advanced-image-link" target="_blank" aria-label="Voir « EDR Show Daily, épisode 1 » sur YouTube (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/bhsuc7c241k/hqdefault.jpg" alt="Vignette du film « EDR Show Daily, épisode 1 »" class="kb-img"/></div></a></figure>
 <!-- /wp:kadence/image -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h101","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h101 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h101">European Defense Review</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h122","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h122 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h122">European Defense Review</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h102","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
-<h3 class="kt-adv-headingpd-defense-et-securite-h102 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h102">EDR Show Daily, épisode 1</h3>
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h123","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<h3 class="kt-adv-headingpd-defense-et-securite-h123 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h123">EDR Show Daily, épisode 1</h3>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h103","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h103 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h103">Eurosatory 2022 · 6 min</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h124","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h124 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h124">Eurosatory 2022 · 6 min</p>
 <!-- /wp:kadence/advancedheading --></div></article>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-53-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
-<article class="wp-block-kadence-column kadence-columnpd-defense-53-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.youtube.com/watch?v=QMFdHoR7FxM","linkTarget":true,"linkTitle":"Voir « Arquus à Milipol 2021 » sur YouTube (nouvel onglet)","uniqueID":"pd-defense-et-securite-h104","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h104 kb-image-is-ratio-size"><a href="https://www.youtube.com/watch?v=QMFdHoR7FxM" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Arquus à Milipol 2021 » sur YouTube (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/QMFdHoR7FxM/hqdefault.jpg" alt="Vignette du film « Arquus à Milipol 2021 »" class="kb-img"/></div></a></figure>
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-62-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-columnpd-defense-62-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.youtube.com/watch?v=QMFdHoR7FxM","linkTarget":true,"linkTitle":"Voir « Arquus à Milipol 2021 » sur YouTube (nouvel onglet)","uniqueID":"pd-defense-et-securite-h125","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h125 kb-image-is-ratio-size"><a href="https://www.youtube.com/watch?v=QMFdHoR7FxM" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Arquus à Milipol 2021 » sur YouTube (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/QMFdHoR7FxM/hqdefault.jpg" alt="Vignette du film « Arquus à Milipol 2021 »" class="kb-img"/></div></a></figure>
 <!-- /wp:kadence/image -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h105","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h105 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h105">OPS TV</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h126","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h126 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h126">OPS TV</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h106","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
-<h3 class="kt-adv-headingpd-defense-et-securite-h106 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h106">Arquus à Milipol 2021</h3>
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h127","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<h3 class="kt-adv-headingpd-defense-et-securite-h127 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h127">Arquus à Milipol 2021</h3>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h107","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h107 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h107">Reportage pour OPS TV, tourné en 4K · 1 min</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h128","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h128 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h128">Reportage pour OPS TV, tourné en 4K · 1 min</p>
 <!-- /wp:kadence/advancedheading --></div></article>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-54-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
-<article class="wp-block-kadence-column kadence-columnpd-defense-54-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.youtube.com/watch?v=MX1rXj52K88","linkTarget":true,"linkTitle":"Voir « Capitaine Raymond Locci » sur YouTube (nouvel onglet)","uniqueID":"pd-defense-et-securite-h108","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h108 kb-image-is-ratio-size"><a href="https://www.youtube.com/watch?v=MX1rXj52K88" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Capitaine Raymond Locci » sur YouTube (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/MX1rXj52K88/hqdefault.jpg" alt="Vignette du film « Capitaine Raymond Locci »" class="kb-img"/></div></a></figure>
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-63-c","htmlTag":"article","kbVersion":2,"className":"pd-carte"} -->
+<article class="wp-block-kadence-column kadence-columnpd-defense-63-c pd-carte"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land169","useRatio":true,"link":"https://www.youtube.com/watch?v=MX1rXj52K88","linkTarget":true,"linkTitle":"Voir « Capitaine Raymond Locci » sur YouTube (nouvel onglet)","uniqueID":"pd-defense-et-securite-h129","marginDesktop":[0,0,14,0],"borderRadius":[2,2,2,2]} -->
+<figure class="wp-block-kadence-image kb-imagepd-defense-et-securite-h129 kb-image-is-ratio-size"><a href="https://www.youtube.com/watch?v=MX1rXj52K88" class="kb-advanced-image-link" target="_blank" aria-label="Voir « Capitaine Raymond Locci » sur YouTube (nouvel onglet)" rel="noopener noreferrer"><div class="kb-is-ratio-image kb-image-ratio-land169"><img src="https://i.ytimg.com/vi/MX1rXj52K88/hqdefault.jpg" alt="Vignette du film « Capitaine Raymond Locci »" class="kb-img"/></div></a></figure>
 <!-- /wp:kadence/image -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h109","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h109 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h109">Amicale du 1er RCP</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h130","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",6,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h130 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h130">Amicale du 1er RCP</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h110","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
-<h3 class="kt-adv-headingpd-defense-et-securite-h110 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h110">Capitaine Raymond Locci</h3>
+<!-- wp:kadence/advancedheading {"level":3,"uniqueID":"pd-defense-et-securite-h131","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",6,""],"fontSize":[1.35,1.3,1.25],"fontHeight":[1.2,"",""]} -->
+<h3 class="kt-adv-headingpd-defense-et-securite-h131 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h131">Capitaine Raymond Locci</h3>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h111","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h111 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h111">Brevet para 12204 · réalisé avec l'amicale du 1er RCP · septembre 2025 · plus de 33 000 vues · 1 h 36</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h132","color":"palette4","sizeType":"rem","margin":[0,"",6,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h132 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h132">Brevet para 12204 · réalisé avec l'amicale du 1er RCP · septembre 2025 · plus de 33 000 vues · 1 h 36</p>
 <!-- /wp:kadence/advancedheading --></div></article>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
 
-<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"pd-defense-56-g","margin":[{"desk":[40,"",0,""],"tablet":["","","",""],"mobile":["","","",""]}],"gap":[0.9,"",""],"gapUnit":"rem"} -->
-<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btnspd-defense-56-g"><!-- wp:kadence/singlebtn {"uniqueID":"pd-defense-57-b","text":"Demander un devis","link":"/contact/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"#ece8df","background":"palette1","colorHover":"#ece8df","backgroundHover":"palette2","borderStyle":[{"top":["#a3302f","solid",1],"right":["#a3302f","solid",1],"bottom":["#a3302f","solid",1],"left":["#a3302f","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#c0403d","solid",1],"right":["#c0403d","solid",1],"bottom":["#c0403d","solid",1],"left":["#c0403d","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /-->
+<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"pd-defense-65-g","margin":[{"desk":[40,"",0,""],"tablet":["","","",""],"mobile":["","","",""]}],"gap":[0.9,"",""],"gapUnit":"rem"} -->
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btnspd-defense-65-g"><!-- wp:kadence/singlebtn {"uniqueID":"pd-defense-66-b","text":"Demander un devis","link":"/contact/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"#ece8df","background":"palette1","colorHover":"#ece8df","backgroundHover":"palette2","borderStyle":[{"top":["#a3302f","solid",1],"right":["#a3302f","solid",1],"bottom":["#a3302f","solid",1],"left":["#a3302f","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#c0403d","solid",1],"right":["#c0403d","solid",1],"bottom":["#c0403d","solid",1],"left":["#c0403d","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /-->
 
-<!-- wp:kadence/singlebtn {"uniqueID":"pd-defense-58-b","text":"Tous les films","link":"/films/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"palette3","background":"transparent","colorHover":"palette9","backgroundHover":"palette3","borderStyle":[{"top":["#a9b6c0","solid",1],"right":["#a9b6c0","solid",1],"bottom":["#a9b6c0","solid",1],"left":["#a9b6c0","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#e8e6e1","solid",1],"right":["#e8e6e1","solid",1],"bottom":["#e8e6e1","solid",1],"left":["#e8e6e1","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"inheritStyles":"outline","typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /--></div>
+<!-- wp:kadence/singlebtn {"uniqueID":"pd-defense-67-b","text":"Tous les films","link":"/films/","padding":[0.9,1.5,0.9,1.5],"paddingUnit":"rem","color":"palette3","background":"transparent","colorHover":"palette9","backgroundHover":"palette3","borderStyle":[{"top":["#a9b6c0","solid",1],"right":["#a9b6c0","solid",1],"bottom":["#a9b6c0","solid",1],"left":["#a9b6c0","solid",1],"unit":"px"}],"borderHoverStyle":[{"top":["#e8e6e1","solid",1],"right":["#e8e6e1","solid",1],"bottom":["#e8e6e1","solid",1],"left":["#e8e6e1","solid",1],"unit":"px"}],"borderRadius":[2,2,2,2],"inheritStyles":"outline","typography":[{"size":[0.95,"",""],"sizeType":"rem","lineHeight":[1.2,"",""],"lineType":"","letterSpacing":[0.04,"",""],"letterType":"em","textTransform":"","family":"","google":false,"style":"","weight":"500","variant":"","subset":"","loadGoogle":false}]} /--></div>
 <!-- /wp:kadence/advancedbtn --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-68-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette8","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"borderStyle":[{"top":["#2c3a49","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"anchor":"serval","kbVersion":2} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-69-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-defense-69-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h112","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h112 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h112">Opération Serval · Mali, janvier à avril 2013</p>
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-77-s","columns":1,"colLayout":"equal","htmlTag":"section","maxWidth":72,"bgColor":"palette8","align":"full","textColor":"palette3","tabletPadding":[72,"",72,""],"maxWidthUnit":"rem","padding":[96,"",96,""],"mobilePadding":[56,"",56,""],"borderStyle":[{"top":["#2c3a49","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"anchor":"serval","kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-78-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-78-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h133","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",16,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h133 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h133">Opération Serval · Mali, janvier à avril 2013</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h113","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[3.2,2.6,2.1],"fontHeight":[1.1,"",""]} -->
-<h2 class="kt-adv-headingpd-defense-et-securite-h113 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h113">Une série vue plus de deux millions de fois</h2>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h134","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[3.2,2.6,2.1],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-headingpd-defense-et-securite-h134 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h134">Une série vue plus de deux millions de fois</h2>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h114","color":"palette4","sizeType":"rem","margin":[0,"",32,""],"htmlTag":"p","fontSize":[1.0625,"",""],"fontHeight":[1.6,"",""],"maxWidth":[672,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h114 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h114">Mali, janvier à avril 2013 : dix-huit films montés au rythme des opérations, repris par la presse nationale et internationale.</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h135","color":"palette4","sizeType":"rem","margin":[0,"",32,""],"htmlTag":"p","fontSize":[1.0625,"",""],"fontHeight":[1.6,"",""],"maxWidth":[672,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h135 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h135">Mali, janvier à avril 2013 : dix-huit films montés au rythme des opérations, repris par la presse nationale et internationale.</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-65-r","columns":4,"mobileLayout":"two-grid","tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[36,28,24],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-61-c","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-defense-61-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h115","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h115 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h115">2 millions</p>
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-74-r","columns":4,"mobileLayout":"two-grid","tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[36,28,24],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-70-c","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-70-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h136","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h136 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h136">2 millions</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h116","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h116 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h116">de vues sur YouTube, pour les dix-huit films de la série</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h137","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h137 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h137">de vues sur YouTube, pour les dix-huit films de la série</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-62-c","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-defense-62-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h117","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h117 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h117">625 000</p>
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-71-c","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-71-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h138","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h138 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h138">625 000</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h118","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h118 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h118">vues pour « Montée en puissance », le film le plus vu</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h139","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h139 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h139">vues pour « Montée en puissance », le film le plus vu</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-63-c","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-defense-63-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h119","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h119 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h119">345 000</p>
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-72-c","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-72-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h140","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h140 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h140">345 000</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h120","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h120 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h120">vues pour « Combats dans l'Adrar des Ifhôgas », mis en ligne le 2 mars 2013</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h141","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h141 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h141">vues pour « Combats dans l'Adrar des Ifhôgas », mis en ligne le 2 mars 2013</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-64-c","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-defense-64-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h121","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h121 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h121">+ 1 000</p>
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-73-c","padding":[16,0,0,0],"borderStyle":[{"top":["#c8b287","solid",1],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}],"kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-73-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h142","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",10,""],"htmlTag":"p","fontSize":[2.8,2.6,2.4],"fontHeight":[1,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h142 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h142">+ 1 000</p>
 <!-- /wp:kadence/advancedheading -->
 
-<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h122","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-defense-et-securite-h122 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h122">abonnés et plus de 1 000 partages sur Facebook et Twitter entre le 15 janvier et le 15 mars 2013</p>
+<!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h143","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.92,"",""],"fontHeight":[1.5,"",""]} -->
+<p class="kt-adv-headingpd-defense-et-securite-h143 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h143">abonnés et plus de 1 000 partages sur Facebook et Twitter entre le 15 janvier et le 15 mars 2013</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout -->
@@ -2983,10 +3085,10 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-67-r","columns":1,"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
-<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-66-c","kbVersion":2} -->
-<div class="wp-block-kadence-column kadence-columnpd-defense-66-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h123","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
-<h2 class="kt-adv-headingpd-defense-et-securite-h123 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h123">Repris par la presse</h2>
+<!-- wp:kadence/rowlayout {"uniqueID":"pd-defense-76-r","columns":1,"colLayout":"equal","padding":[0,0,0,0],"kbVersion":2} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-defense-75-c","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-columnpd-defense-75-c"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"pd-defense-et-securite-h144","color":"palette3","sizeType":"rem","typography":"Newsreader","fontWeight":"400","margin":[0,"",16,""],"fontSize":[1.9,1.75,1.6],"fontHeight":[1.1,"",""]} -->
+<h2 class="kt-adv-headingpd-defense-et-securite-h144 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-defense-et-securite-h144">Repris par la presse</h2>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:table {"hasFixedLayout":false,"className":"pd-liste"} -->
@@ -3000,8 +3102,8 @@ https://www.youtube.com/watch?v=iUGtVSS_B7U
 		<wp:post_id>12</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:41]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 02:56:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 01:56:41]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 03:16:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 02:16:15]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[defense-et-securite]]></wp:post_name>
@@ -3800,8 +3902,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 		<wp:post_id>32</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:38:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:38:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 02:57:22]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 01:57:22]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 03:16:37]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 02:16:37]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[thales]]></wp:post_name>

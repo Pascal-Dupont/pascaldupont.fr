@@ -3572,7 +3572,7 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "https://i.ytimg.com/vi/c4xGjV6-sNg/hqdefault.jpg",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/territoire-documentaires.jpg",
             "alt": "Image : Documentaires",
             "useRatio": true,
             "ratio": "land169",
@@ -3817,7 +3817,7 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "https://i.ytimg.com/vi/bhsuc7c241k/hqdefault.jpg",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/coulisses-canjuers-tir.jpg",
             "alt": "Image : Défense et industrie",
             "useRatio": true,
             "ratio": "land169",
@@ -4062,7 +4062,7 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "https://i.ytimg.com/vi/MX1rXj52K88/hqdefault.jpg",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-lucile-raymond-locci.jpg",
             "alt": "Image : Mémoire combattante",
             "useRatio": true,
             "ratio": "land169",
@@ -4307,7 +4307,7 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "https://i.ytimg.com/vi/NFZDGtgBNIk/hqdefault.jpg",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-suge-fa3r.jpg",
             "alt": "Image : Fondations et entreprises",
             "useRatio": true,
             "ratio": "land169",
@@ -4552,7 +4552,7 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "https://i.ytimg.com/vi/9o5BFBA8Fj4/hqdefault.jpg",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-fs7-stab.jpg",
             "alt": "Image : Créations et LAKELAB",
             "useRatio": true,
             "ratio": "land169",

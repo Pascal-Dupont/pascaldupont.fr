@@ -3997,7 +3997,834 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-defense-47-s",
+    "uniqueID": "pd-defense-51-s",
+    "kbVersion": 2,
+    "columns": 1,
+    "colLayout": "equal",
+    "align": "full",
+    "htmlTag": "section",
+    "bgColor": "palette9",
+    "textColor": "palette3",
+    "padding": [
+     96,
+     "",
+     96,
+     ""
+    ],
+    "tabletPadding": [
+     72,
+     "",
+     72,
+     ""
+    ],
+    "mobilePadding": [
+     56,
+     "",
+     56,
+     ""
+    ],
+    "paddingUnit": "px",
+    "maxWidth": 72,
+    "maxWidthUnit": "rem",
+    "anchor": "coulisses",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "",
+       "",
+       ""
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
+   },
+   "innerBlocks": [
+    {
+     "name": "kadence/column",
+     "attributes": {
+      "uniqueID": "pd-defense-52-c",
+      "kbVersion": 2,
+      "borderWidth": [
+       "",
+       "",
+       "",
+       ""
+      ]
+     },
+     "innerBlocks": [
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "En coulisses",
+        "htmlTag": "p",
+        "typography": "IBM Plex Mono",
+        "googleFont": false,
+        "fontWeight": "500",
+        "fontSize": [
+         0.75,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.5,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "letterSpacing": 0.14,
+        "letterSpacingType": "em",
+        "textTransform": "uppercase",
+        "color": "palette5",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-defense-et-securite-h81"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Des salons au champ de tir",
+        "level": 2,
+        "typography": "Newsreader",
+        "googleFont": false,
+        "fontWeight": "400",
+        "fontSize": [
+         3.2,
+         2.6,
+         2.1
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.1,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette3",
+        "margin": [
+         0,
+         "",
+         16,
+         ""
+        ],
+        "marginType": "px",
+        "uniqueID": "pd-defense-et-securite-h82"
+       }
+      },
+      {
+       "name": "kadence/advancedheading",
+       "attributes": {
+        "content": "Conférences, tables rondes et tirs réels : la même exigence d'image, du plateau au terrain.",
+        "htmlTag": "p",
+        "fontSize": [
+         1.0625,
+         "",
+         ""
+        ],
+        "sizeType": "rem",
+        "fontHeight": [
+         1.6,
+         "",
+         ""
+        ],
+        "fontHeightType": "",
+        "color": "palette4",
+        "margin": [
+         0,
+         "",
+         32,
+         ""
+        ],
+        "marginType": "px",
+        "maxWidth": [
+         672,
+         "",
+         ""
+        ],
+        "maxWidthType": "px",
+        "uniqueID": "pd-defense-et-securite-h83"
+       }
+      },
+      {
+       "name": "kadence/rowlayout",
+       "attributes": {
+        "uniqueID": "pd-defense-50-r",
+        "kbVersion": 2,
+        "columns": 3,
+        "colLayout": "equal",
+        "mobileLayout": "row",
+        "padding": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "paddingUnit": "px",
+        "tabletLayout": "two-grid",
+        "columnGutter": "custom",
+        "tabletGutter": "custom",
+        "mobileGutter": "custom",
+        "customGutter": [
+         24,
+         20,
+         16
+        ],
+        "gutterType": "px",
+        "collapseGutter": "custom",
+        "tabletRowGutter": "custom",
+        "mobileRowGutter": "custom",
+        "customRowGutter": [
+         40,
+         32,
+         28
+        ],
+        "rowGutterType": "px",
+        "margin": [
+         0,
+         "",
+         0,
+         ""
+        ],
+        "marginUnit": "px"
+       },
+       "innerBlocks": [
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-44-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/coulisses-fed-2021.jpg",
+            "alt": "FED 2021 Captation d'une conférence.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-defense-et-securite-h84"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "FED 2021",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h85"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Captation d'une conférence.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h86"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-45-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/coulisses-fed-2021-barrera.jpg",
+            "alt": "FED 2021 Le général Barrera à la tribune.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-defense-et-securite-h87"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "FED 2021",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h88"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Le général Barrera à la tribune.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h89"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-46-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/coulisses-gicat-2021.jpg",
+            "alt": "GICAT, octobre 2021 Table ronde filmée.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-defense-et-securite-h90"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "GICAT, octobre 2021",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h91"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Table ronde filmée.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h92"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-47-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/coulisses-canjuers-tir.jpg",
+            "alt": "Canjuers, 2016 Tir au mortier de 120 mm.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-defense-et-securite-h93"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Canjuers, 2016",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h94"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Tir au mortier de 120 mm.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h95"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-48-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/coulisses-canjuers-servants.jpg",
+            "alt": "Canjuers, 2016 Au milieu des servants.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-defense-et-securite-h96"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Canjuers, 2016",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h97"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Au milieu des servants.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h98"
+           }
+          }
+         ]
+        },
+        {
+         "name": "kadence/column",
+         "attributes": {
+          "uniqueID": "pd-defense-49-c",
+          "kbVersion": 2,
+          "borderWidth": [
+           "",
+           "",
+           "",
+           ""
+          ]
+         },
+         "innerBlocks": [
+          {
+           "name": "kadence/image",
+           "attributes": {
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/coulisses-canjuers-lyderic.jpg",
+            "alt": "Canjuers, 2016 Avec Lydéric, au retour d'image.",
+            "useRatio": true,
+            "ratio": "land43",
+            "borderRadius": [
+             2,
+             2,
+             2,
+             2
+            ],
+            "borderRadiusUnit": "px",
+            "marginDesktop": [
+             0,
+             0,
+             12,
+             0
+            ],
+            "marginUnit": "px",
+            "uniqueID": "pd-defense-et-securite-h99"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Canjuers, 2016",
+            "htmlTag": "p",
+            "typography": "IBM Plex Mono",
+            "googleFont": false,
+            "fontWeight": "500",
+            "fontSize": [
+             0.75,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "letterSpacing": 0.14,
+            "letterSpacingType": "em",
+            "textTransform": "uppercase",
+            "color": "palette5",
+            "margin": [
+             0,
+             "",
+             4,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h100"
+           }
+          },
+          {
+           "name": "kadence/advancedheading",
+           "attributes": {
+            "content": "Avec Lydéric, au retour d'image.",
+            "htmlTag": "p",
+            "fontSize": [
+             0.95,
+             "",
+             ""
+            ],
+            "sizeType": "rem",
+            "fontHeight": [
+             1.5,
+             "",
+             ""
+            ],
+            "fontHeightType": "",
+            "color": "palette4",
+            "margin": [
+             0,
+             "",
+             0,
+             ""
+            ],
+            "marginType": "px",
+            "uniqueID": "pd-defense-et-securite-h101"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "kadence/rowlayout",
+   "attributes": {
+    "uniqueID": "pd-defense-56-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -4056,7 +4883,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-defense-48-c",
+      "uniqueID": "pd-defense-57-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -4069,7 +4896,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-defense-46-r",
+        "uniqueID": "pd-defense-55-r",
         "kbVersion": 2,
         "columns": 2,
         "colLayout": "equal",
@@ -4104,7 +4931,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-44-c",
+          "uniqueID": "pd-defense-53-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4142,7 +4969,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h81"
+            "uniqueID": "pd-defense-et-securite-h102"
            }
           },
           {
@@ -4183,7 +5010,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-45-c",
+          "uniqueID": "pd-defense-54-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4221,7 +5048,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h82"
+            "uniqueID": "pd-defense-et-securite-h103"
            }
           },
           {
@@ -4304,7 +5131,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-defense-59-s",
+    "uniqueID": "pd-defense-68-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -4338,7 +5165,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-defense-60-c",
+      "uniqueID": "pd-defense-69-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -4379,7 +5206,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-defense-et-securite-h83"
+        "uniqueID": "pd-defense-et-securite-h104"
        }
       },
       {
@@ -4410,13 +5237,13 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-defense-et-securite-h84"
+        "uniqueID": "pd-defense-et-securite-h105"
        }
       },
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-defense-55-r",
+        "uniqueID": "pd-defense-64-r",
         "kbVersion": 2,
         "columns": 3,
         "colLayout": "equal",
@@ -4460,7 +5287,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-49-c",
+          "uniqueID": "pd-defense-58-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4496,7 +5323,7 @@
             "link": "https://www.instagram.com/reel/DJWFjqas4Ez/",
             "linkTarget": true,
             "linkTitle": "Voir « Section robotique et renseignement » (nouvel onglet)",
-            "uniqueID": "pd-defense-et-securite-h85"
+            "uniqueID": "pd-defense-et-securite-h106"
            }
           },
           {
@@ -4530,7 +5357,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h86"
+            "uniqueID": "pd-defense-et-securite-h107"
            }
           },
           {
@@ -4566,7 +5393,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-defense-et-securite-h87"
+            "uniqueID": "pd-defense-et-securite-h108"
            }
           },
           {
@@ -4594,7 +5421,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h88"
+            "uniqueID": "pd-defense-et-securite-h109"
            }
           },
           {
@@ -4625,7 +5452,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-defense-et-securite-h89"
+            "uniqueID": "pd-defense-et-securite-h110"
            }
           }
          ]
@@ -4633,7 +5460,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-50-c",
+          "uniqueID": "pd-defense-59-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4669,7 +5496,7 @@
             "link": "https://www.instagram.com/reel/DKbpGcdso3j/",
             "linkTarget": true,
             "linkTitle": "Voir « JPO 2025, première partie » (nouvel onglet)",
-            "uniqueID": "pd-defense-et-securite-h90"
+            "uniqueID": "pd-defense-et-securite-h111"
            }
           },
           {
@@ -4703,7 +5530,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h91"
+            "uniqueID": "pd-defense-et-securite-h112"
            }
           },
           {
@@ -4739,7 +5566,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-defense-et-securite-h92"
+            "uniqueID": "pd-defense-et-securite-h113"
            }
           },
           {
@@ -4767,7 +5594,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h93"
+            "uniqueID": "pd-defense-et-securite-h114"
            }
           },
           {
@@ -4798,7 +5625,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-defense-et-securite-h94"
+            "uniqueID": "pd-defense-et-securite-h115"
            }
           }
          ]
@@ -4806,7 +5633,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-51-c",
+          "uniqueID": "pd-defense-60-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -4842,7 +5669,7 @@
             "link": "https://www.instagram.com/reel/DTnqKLuDc5q/",
             "linkTarget": true,
             "linkTitle": "Voir « Camp régimentaire 2025 » (nouvel onglet)",
-            "uniqueID": "pd-defense-et-securite-h95"
+            "uniqueID": "pd-defense-et-securite-h116"
            }
           },
           {
@@ -4876,7 +5703,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h96"
+            "uniqueID": "pd-defense-et-securite-h117"
            }
           },
           {
@@ -4912,7 +5739,7 @@
             "linkStyle": "hover_underline",
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
-            "uniqueID": "pd-defense-et-securite-h97"
+            "uniqueID": "pd-defense-et-securite-h118"
            }
           },
           {
@@ -4940,7 +5767,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h98"
+            "uniqueID": "pd-defense-et-securite-h119"
            }
           },
           {
@@ -4971,7 +5798,7 @@
             "linkColor": "palette3",
             "linkHoverColor": "palette2",
             "linkStyle": "underline",
-            "uniqueID": "pd-defense-et-securite-h99"
+            "uniqueID": "pd-defense-et-securite-h120"
            }
           }
          ]
@@ -4979,7 +5806,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-52-c",
+          "uniqueID": "pd-defense-61-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -5015,7 +5842,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-defense-et-securite-h100"
+            "uniqueID": "pd-defense-et-securite-h121"
            }
           },
           {
@@ -5049,7 +5876,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h101"
+            "uniqueID": "pd-defense-et-securite-h122"
            }
           },
           {
@@ -5080,7 +5907,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h102"
+            "uniqueID": "pd-defense-et-securite-h123"
            }
           },
           {
@@ -5108,7 +5935,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h103"
+            "uniqueID": "pd-defense-et-securite-h124"
            }
           }
          ]
@@ -5116,7 +5943,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-53-c",
+          "uniqueID": "pd-defense-62-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -5152,7 +5979,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-defense-et-securite-h104"
+            "uniqueID": "pd-defense-et-securite-h125"
            }
           },
           {
@@ -5186,7 +6013,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h105"
+            "uniqueID": "pd-defense-et-securite-h126"
            }
           },
           {
@@ -5217,7 +6044,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h106"
+            "uniqueID": "pd-defense-et-securite-h127"
            }
           },
           {
@@ -5245,7 +6072,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h107"
+            "uniqueID": "pd-defense-et-securite-h128"
            }
           }
          ]
@@ -5253,7 +6080,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-54-c",
+          "uniqueID": "pd-defense-63-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -5289,7 +6116,7 @@
              0
             ],
             "marginUnit": "px",
-            "uniqueID": "pd-defense-et-securite-h108"
+            "uniqueID": "pd-defense-et-securite-h129"
            }
           },
           {
@@ -5323,7 +6150,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h109"
+            "uniqueID": "pd-defense-et-securite-h130"
            }
           },
           {
@@ -5354,7 +6181,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h110"
+            "uniqueID": "pd-defense-et-securite-h131"
            }
           },
           {
@@ -5382,7 +6209,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h111"
+            "uniqueID": "pd-defense-et-securite-h132"
            }
           }
          ]
@@ -5392,7 +6219,7 @@
       {
        "name": "kadence/advancedbtn",
        "attributes": {
-        "uniqueID": "pd-defense-56-g",
+        "uniqueID": "pd-defense-65-g",
         "hAlign": "left",
         "gap": [
          0.9,
@@ -5428,7 +6255,7 @@
         {
          "name": "kadence/singlebtn",
          "attributes": {
-          "uniqueID": "pd-defense-57-b",
+          "uniqueID": "pd-defense-66-b",
           "text": "Demander un devis",
           "link": "/contact/",
           "borderRadius": [
@@ -5534,7 +6361,7 @@
         {
          "name": "kadence/singlebtn",
          "attributes": {
-          "uniqueID": "pd-defense-58-b",
+          "uniqueID": "pd-defense-67-b",
           "text": "Tous les films",
           "link": "/films/",
           "borderRadius": [
@@ -5647,7 +6474,7 @@
   {
    "name": "kadence/rowlayout",
    "attributes": {
-    "uniqueID": "pd-defense-68-s",
+    "uniqueID": "pd-defense-77-s",
     "kbVersion": 2,
     "columns": 1,
     "colLayout": "equal",
@@ -5707,7 +6534,7 @@
     {
      "name": "kadence/column",
      "attributes": {
-      "uniqueID": "pd-defense-69-c",
+      "uniqueID": "pd-defense-78-c",
       "kbVersion": 2,
       "borderWidth": [
        "",
@@ -5748,7 +6575,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-defense-et-securite-h112"
+        "uniqueID": "pd-defense-et-securite-h133"
        }
       },
       {
@@ -5779,7 +6606,7 @@
          ""
         ],
         "marginType": "px",
-        "uniqueID": "pd-defense-et-securite-h113"
+        "uniqueID": "pd-defense-et-securite-h134"
        }
       },
       {
@@ -5813,13 +6640,13 @@
          ""
         ],
         "maxWidthType": "px",
-        "uniqueID": "pd-defense-et-securite-h114"
+        "uniqueID": "pd-defense-et-securite-h135"
        }
       },
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-defense-65-r",
+        "uniqueID": "pd-defense-74-r",
         "kbVersion": 2,
         "columns": 4,
         "colLayout": "equal",
@@ -5855,7 +6682,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-61-c",
+          "uniqueID": "pd-defense-70-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -5925,7 +6752,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-defense-et-securite-h115"
+            "uniqueID": "pd-defense-et-securite-h136"
            }
           },
           {
@@ -5953,7 +6780,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h116"
+            "uniqueID": "pd-defense-et-securite-h137"
            }
           }
          ]
@@ -5961,7 +6788,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-62-c",
+          "uniqueID": "pd-defense-71-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -6031,7 +6858,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-defense-et-securite-h117"
+            "uniqueID": "pd-defense-et-securite-h138"
            }
           },
           {
@@ -6059,7 +6886,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h118"
+            "uniqueID": "pd-defense-et-securite-h139"
            }
           }
          ]
@@ -6067,7 +6894,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-63-c",
+          "uniqueID": "pd-defense-72-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -6137,7 +6964,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-defense-et-securite-h119"
+            "uniqueID": "pd-defense-et-securite-h140"
            }
           },
           {
@@ -6165,7 +6992,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h120"
+            "uniqueID": "pd-defense-et-securite-h141"
            }
           }
          ]
@@ -6173,7 +7000,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-64-c",
+          "uniqueID": "pd-defense-73-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -6243,7 +7070,7 @@
             "typography": "Newsreader",
             "googleFont": false,
             "fontWeight": "400",
-            "uniqueID": "pd-defense-et-securite-h121"
+            "uniqueID": "pd-defense-et-securite-h142"
            }
           },
           {
@@ -6271,7 +7098,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h122"
+            "uniqueID": "pd-defense-et-securite-h143"
            }
           }
          ]
@@ -6287,7 +7114,7 @@
       {
        "name": "kadence/rowlayout",
        "attributes": {
-        "uniqueID": "pd-defense-67-r",
+        "uniqueID": "pd-defense-76-r",
         "kbVersion": 2,
         "columns": 1,
         "colLayout": "equal",
@@ -6304,7 +7131,7 @@
         {
          "name": "kadence/column",
          "attributes": {
-          "uniqueID": "pd-defense-66-c",
+          "uniqueID": "pd-defense-75-c",
           "kbVersion": 2,
           "borderWidth": [
            "",
@@ -6342,7 +7169,7 @@
              ""
             ],
             "marginType": "px",
-            "uniqueID": "pd-defense-et-securite-h123"
+            "uniqueID": "pd-defense-et-securite-h144"
            }
           },
           {

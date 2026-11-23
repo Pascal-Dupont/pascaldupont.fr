@@ -238,35 +238,40 @@
             "titre": "Documentaires",
             "texte": "Des films d'auteur pour la télévision et pour les fondations : la banlieue, la nuit parisienne, l'Amazonie, la reconstruction des blessés.",
             "lien": "/films/#films-documentaires",
-            "film": "c4xGjV6-sNg"
+            "film": "c4xGjV6-sNg",
+            "photo": "territoire-documentaires.jpg"
           },
           {
             "num": "02",
             "titre": "Défense et industrie",
             "texte": "Salons, matériels et unités : filmer au plus près des utilisateurs, avec les régiments et les industriels.",
             "lien": "/films/#films-defense",
-            "film": "bhsuc7c241k"
+            "film": "bhsuc7c241k",
+            "photo": "coulisses-canjuers-tir.jpg"
           },
           {
             "num": "03",
             "titre": "Mémoire combattante",
             "texte": "L'histoire du 1er RCP en chapitres, les portraits des anciens, les commémorations.",
             "lien": "/films/#films-memoire",
-            "film": "MX1rXj52K88"
+            "film": "MX1rXj52K88",
+            "photo": "tournage-lucile-raymond-locci.jpg"
           },
           {
             "num": "04",
             "titre": "Fondations et entreprises",
             "texte": "Films de formation, de présentation et de communication, pour la Fondation Résilience et pour FA3R.",
             "lien": "/films/#films-entreprises",
-            "film": "NFZDGtgBNIk"
+            "film": "NFZDGtgBNIk",
+            "photo": "tournage-suge-fa3r.jpg"
           },
           {
             "num": "05",
             "titre": "Créations et LAKELAB",
             "texte": "Clips, films libres et recherches esthétiques, avec Lucile, au bord du lac.",
             "lien": "/films/#films-creations",
-            "film": "9o5BFBA8Fj4"
+            "film": "9o5BFBA8Fj4",
+            "photo": "tournage-fs7-stab.jpg"
           }
         ]
       },
@@ -438,7 +443,7 @@
       "tournages": {
         "surtitre": "Sur les tournages",
         "titre": "La caméra au plus près",
-        "texte": "Stabilisateur, grue, trépied dans la neige ou entretien à la table d'un ancien : le dispositif s'adapte au terrain, jamais l'inverse.",
+        "texte": "Stabilisateur, éclairage d'entretien, trépied dans la neige ou table d'un ancien : le dispositif s'adapte au terrain, jamais l'inverse.",
         "photos": [
           {
             "fichier": "tournage-stab-casque.jpg",
@@ -446,19 +451,19 @@
             "legende": "Au stabilisateur, casque sur la tête."
           },
           {
-            "fichier": "tournage-mortier-120.jpg",
-            "lieu": "Mortier de 120 mm, 2016",
-            "legende": "Au plus près de la pièce."
+            "fichier": "tournage-suge-fa3r.jpg",
+            "lieu": "SUGE, pour FA3R, décembre 2023",
+            "legende": "En gare, au plus près des agents."
           },
           {
-            "fichier": "tournage-avec-lyderic.jpg",
-            "lieu": "Mortier de 120 mm, 2016",
-            "legende": "Avec Lydéric, au retour d'image."
+            "fichier": "tournage-lucile-raymond-locci.jpg",
+            "lieu": "Juin 2026",
+            "legende": "Avec Lucile et Raymond Locci."
           },
           {
-            "fichier": "tournage-grue.jpg",
-            "lieu": "2016",
-            "legende": "Mise en place de la grue de tournage."
+            "fichier": "tournage-fs7-stab.jpg",
+            "lieu": "Juillet 2015",
+            "legende": "La FS7 sur un grand stabilisateur."
           },
           {
             "fichier": "tournage-neige.jpg",
@@ -468,7 +473,7 @@
           {
             "fichier": "tournage-entretien-raymond.jpg",
             "lieu": "Entretien",
-            "legende": "Avec Raymond, pendant l'entretien."
+            "legende": "Avec Raymond Locci, pendant l'entretien."
           }
         ]
       }
@@ -712,7 +717,44 @@
         ]
       },
       "showreel": "iUGtVSS_B7U",
-      "showreel_legende": "Showreel Eurosatory 2022 : images tournées avec les industriels et les forces, dont le CAESAR tirant des obus Junghans T2M."
+      "showreel_legende": "Showreel Eurosatory 2022 : images tournées avec les industriels et les forces, dont le CAESAR tirant des obus Junghans T2M.",
+      "coulisses": {
+        "surtitre": "En coulisses",
+        "titre": "Des salons au champ de tir",
+        "texte": "Conférences, tables rondes et tirs réels : la même exigence d'image, du plateau au terrain.",
+        "photos": [
+          {
+            "fichier": "coulisses-fed-2021.jpg",
+            "lieu": "FED 2021",
+            "legende": "Captation d'une conférence."
+          },
+          {
+            "fichier": "coulisses-fed-2021-barrera.jpg",
+            "lieu": "FED 2021",
+            "legende": "Le général Barrera à la tribune."
+          },
+          {
+            "fichier": "coulisses-gicat-2021.jpg",
+            "lieu": "GICAT, octobre 2021",
+            "legende": "Table ronde filmée."
+          },
+          {
+            "fichier": "coulisses-canjuers-tir.jpg",
+            "lieu": "Canjuers, 2016",
+            "legende": "Tir au mortier de 120 mm."
+          },
+          {
+            "fichier": "coulisses-canjuers-servants.jpg",
+            "lieu": "Canjuers, 2016",
+            "legende": "Au milieu des servants."
+          },
+          {
+            "fichier": "coulisses-canjuers-lyderic.jpg",
+            "lieu": "Canjuers, 2016",
+            "legende": "Avec Lydéric, au retour d'image."
+          }
+        ]
+      }
     },
     "lakelab": {
       "titre": "LAKELAB",

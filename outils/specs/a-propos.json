@@ -787,7 +787,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Stabilisateur, grue, trépied dans la neige ou entretien à la table d'un ancien : le dispositif s'adapte au terrain, jamais l'inverse.",
+        "content": "Stabilisateur, éclairage d'entretien, trépied dans la neige ou table d'un ancien : le dispositif s'adapte au terrain, jamais l'inverse.",
         "htmlTag": "p",
         "fontSize": [
          1.0625,
@@ -978,8 +978,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-mortier-120.jpg",
-            "alt": "Mortier de 120 mm, 2016 Au plus près de la pièce.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-suge-fa3r.jpg",
+            "alt": "SUGE, pour FA3R, décembre 2023 En gare, au plus près des agents.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -1002,7 +1002,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Mortier de 120 mm, 2016",
+            "content": "SUGE, pour FA3R, décembre 2023",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1036,7 +1036,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Au plus près de la pièce.",
+            "content": "En gare, au plus près des agents.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -1079,8 +1079,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-avec-lyderic.jpg",
-            "alt": "Mortier de 120 mm, 2016 Avec Lydéric, au retour d'image.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-lucile-raymond-locci.jpg",
+            "alt": "Juin 2026 Avec Lucile et Raymond Locci.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -1103,7 +1103,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Mortier de 120 mm, 2016",
+            "content": "Juin 2026",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1137,7 +1137,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Avec Lydéric, au retour d'image.",
+            "content": "Avec Lucile et Raymond Locci.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -1180,8 +1180,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-grue.jpg",
-            "alt": "2016 Mise en place de la grue de tournage.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-fs7-stab.jpg",
+            "alt": "Juillet 2015 La FS7 sur un grand stabilisateur.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -1204,7 +1204,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "2016",
+            "content": "Juillet 2015",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -1238,7 +1238,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Mise en place de la grue de tournage.",
+            "content": "La FS7 sur un grand stabilisateur.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -1383,7 +1383,7 @@
            "name": "kadence/image",
            "attributes": {
             "url": "/wp-content/themes/kadence-pascal/assets/photos/tournage-entretien-raymond.jpg",
-            "alt": "Entretien Avec Raymond, pendant l'entretien.",
+            "alt": "Entretien Avec Raymond Locci, pendant l'entretien.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -1440,7 +1440,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Avec Raymond, pendant l'entretien.",
+            "content": "Avec Raymond Locci, pendant l'entretien.",
             "htmlTag": "p",
             "fontSize": [
              0.95,

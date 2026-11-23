@@ -352,6 +352,19 @@ def video(id_, legende=None):
     return b
 
 
+def galerie(P, pa, ancre, fond=NUIT):
+    """Galerie de photos légendées (3 colonnes)."""
+    cols = []
+    for ph in pa['photos']:
+        cols.append(P.colonne([
+            {'name': 'kadence/image', 'attributes': {'url': PHOTOS + ph['fichier'], 'alt': '%s %s' % (ph['lieu'], ph['legende']),
+                                                     'useRatio': True, 'ratio': 'land43', 'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px',
+                                                     'marginDesktop': [0, 0, 12, 0], 'marginUnit': 'px'}},
+            P.surtitre(ph['lieu'], marge_bas=4), P.ligne(ph['legende'], 0.95, DOUX, 0, interligne=1.5)]))
+    return P.section(P.entete_section(pa['surtitre'], pa['titre'], pa['texte'], marge_bas=32) + [P.grille(cols, 3)], ancre=ancre, fond=fond,
+                     bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}])
+
+
 def section_cas(P, cs):
     """Études de cas : contexte, intervention, résultat (fond clair)."""
     cols = []
@@ -461,7 +474,7 @@ def page_accueil():
     for i, l in enumerate(tr['lignes']):
         bord = {'top': [HEX[LIGNE], 'solid', 1] if i == 0 else ['', '', ''], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}
         image = {'name': 'kadence/image', 'attributes': {
-            'url': 'https://i.ytimg.com/vi/%s/hqdefault.jpg' % l['film'], 'alt': 'Image : ' + l['titre'], 'useRatio': True, 'ratio': 'land169',
+            'url': (PHOTOS + l['photo']) if l.get('photo') else 'https://i.ytimg.com/vi/%s/hqdefault.jpg' % l['film'], 'alt': 'Image : ' + l['titre'], 'useRatio': True, 'ratio': 'land169',
             'link': l['lien'], 'linkTitle': 'Voir les films : ' + l['titre'], 'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px'}}
         rangs.append(P.rangee([
             P.colonne([P.surtitre(l['num'], marge_bas=8), P.titre(l['titre'], 3, taille=(2, 1.8, 1.6), marge_bas=10, interligne=1.15),
@@ -554,17 +567,8 @@ def page_apropos():
         bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
     blocs = [entete, bloc]
     for pa, ancre in ((c.get('tournages'), 'tournages'), (c.get('parcours'), 'parcours')):
-        if not pa:
-            continue
-        cols = []
-        for ph in pa['photos']:
-            cols.append(P.colonne([
-                {'name': 'kadence/image', 'attributes': {'url': PHOTOS + ph['fichier'], 'alt': '%s %s' % (ph['lieu'], ph['legende']),
-                                                         'useRatio': True, 'ratio': 'land43', 'borderRadius': [2, 2, 2, 2], 'borderRadiusUnit': 'px',
-                                                         'marginDesktop': [0, 0, 12, 0], 'marginUnit': 'px'}},
-                P.surtitre(ph['lieu'], marge_bas=4), P.ligne(ph['legende'], 0.95, DOUX, 0, interligne=1.5)]))
-        blocs.append(P.section(P.entete_section(pa['surtitre'], pa['titre'], pa['texte'], marge_bas=32) + [P.grille(cols, 3)], ancre=ancre,
-                               bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}]))
+        if pa:
+            blocs.append(galerie(P, pa, ancre))
     return c['titre'], blocs + [bas]
 
 
@@ -585,6 +589,8 @@ def page_defense():
     blocs.append(P.section(P.entete_section(ind['surtitre'], ind['titre'], ind['texte'], marge_bas=32)
                            + [P.grille([P.carte(fid[i]) for i in ind['films']], 4), P.boutons(ind['boutons'], marge_haut=36)],
                            padding=(0, 0, 0), padding_bas=(96, 72, 56)))
+    if c.get('coulisses'):
+        blocs.append(galerie(P, c['coulisses'], 'coulisses'))
     me, rf = c['methode'], c['references']
     etapes = {'name': 'core/list', 'attributes': {'ordered': True, 'className': 'pd-etapes'},
               'innerBlocks': [{'name': 'core/list-item', 'attributes': {'content': '<strong>%s</strong> %s' % (a, b)}} for a, b in me['etapes']]}
