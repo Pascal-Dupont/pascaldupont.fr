@@ -414,12 +414,22 @@
       "parcours": {
         "surtitre": "Avant la caméra",
         "titre": "Le terrain, d'abord",
-        "texte": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, la Bosnie, le Gabon, puis la Côte d'Ivoire en 2002. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
+        "texte": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, le Gabon, la Côte d'Ivoire en 2002, puis la Bosnie en 2003. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
         "photos": [
           {
-            "fichier": "parcours-bosnie-vab.jpg",
-            "lieu": "Bosnie",
-            "legende": "Dans la zone des Serbes de Bosnie, à mon poste de radiographiste, dans le VAB transmissions."
+            "fichier": "parcours-collioure.jpg",
+            "lieu": "Collioure",
+            "legende": "Centre d'entraînement commando."
+          },
+          {
+            "fichier": "parcours-premiers-sauts.jpg",
+            "lieu": "Premiers sauts",
+            "legende": "Tout à gauche, avant le saut."
+          },
+          {
+            "fichier": "parcours-gabon-zodiac.jpg",
+            "lieu": "Gabon",
+            "legende": "Sur un Zodiac."
           },
           {
             "fichier": "parcours-bouake-retroviseur.jpg",
@@ -432,19 +442,9 @@
             "legende": "Au-dessus de la ville, avec un PGM Hécate II."
           },
           {
-            "fichier": "parcours-gabon-zodiac.jpg",
-            "lieu": "Gabon",
-            "legende": "Sur un Zodiac."
-          },
-          {
-            "fichier": "parcours-collioure.jpg",
-            "lieu": "Collioure",
-            "legende": "Centre d'entraînement commando."
-          },
-          {
-            "fichier": "parcours-premiers-sauts.jpg",
-            "lieu": "Premiers sauts",
-            "legende": "Tout à gauche, avant le saut."
+            "fichier": "parcours-bosnie-vab.jpg",
+            "lieu": "Bosnie, 2003",
+            "legende": "Dans la zone des Serbes de Bosnie, à mon poste de radiographiste, dans le VAB transmissions."
           }
         ]
       },

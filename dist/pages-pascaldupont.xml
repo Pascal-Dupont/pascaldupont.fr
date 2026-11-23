@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/7.1.5" created="2026-11-23 13:12" -->
+	<!-- generator="WordPress/7.1.5" created="2026-11-23 13:17" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Pascal Dupont</title>
 	<link>https://pascaldupont.fr</link>
 	<description>Auteur-réalisateur documentaire</description>
-	<pubDate>Mon, 23 Nov 2026 13:12:41 +0000</pubDate>
+	<pubDate>Mon, 23 Nov 2026 13:17:28 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url></wp:base_site_url>
@@ -2188,91 +2188,91 @@
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h37","color":"palette4","sizeType":"rem","margin":[0,"",32,""],"htmlTag":"p","fontSize":[1.0625,"",""],"fontHeight":[1.6,"",""],"maxWidth":[672,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h37 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h37">Infanterie parachutiste : centre d'entraînement commando, premiers sauts, la Bosnie, le Gabon, puis la Côte d'Ivoire en 2002. C'est là que j'ai appris le terrain que je filme aujourd'hui.</p>
+<p class="kt-adv-headingpd-a-propos-h37 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h37">Infanterie parachutiste : centre d'entraînement commando, premiers sauts, le Gabon, la Côte d'Ivoire en 2002, puis la Bosnie en 2003. C'est là que j'ai appris le terrain que je filme aujourd'hui.</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/rowlayout {"uniqueID":"pd-apropos-39-r","columns":3,"tabletLayout":"two-grid","collapseGutter":"custom","tabletRowGutter":"custom","mobileRowGutter":"custom","customRowGutter":[40,32,28],"columnGutter":"custom","tabletGutter":"custom","mobileGutter":"custom","customGutter":[24,20,16],"colLayout":"equal","padding":[0,0,0,0],"margin":[0,"",0,""],"kbVersion":2} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-33-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-33-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h38","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h38 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-bosnie-vab.jpg" alt="Bosnie Dans la zone des Serbes de Bosnie, à mon poste de radiographiste, dans le VAB transmissions." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h38 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-collioure.jpg" alt="Collioure Centre d'entraînement commando." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h39","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h39 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h39">Bosnie</p>
+<p class="kt-adv-headingpd-a-propos-h39 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h39">Collioure</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h40","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h40 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h40">Dans la zone des Serbes de Bosnie, à mon poste de radiographiste, dans le VAB transmissions.</p>
+<p class="kt-adv-headingpd-a-propos-h40 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h40">Centre d'entraînement commando.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-34-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-34-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h41","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h41 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-retroviseur.jpg" alt="Bouaké, Côte d'Ivoire Dans le rétroviseur d'un Marmon." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h41 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-premiers-sauts.jpg" alt="Premiers sauts Tout à gauche, avant le saut." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h42","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h42 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h42">Bouaké, Côte d'Ivoire</p>
+<p class="kt-adv-headingpd-a-propos-h42 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h42">Premiers sauts</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h43","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h43 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h43">Dans le rétroviseur d'un Marmon.</p>
+<p class="kt-adv-headingpd-a-propos-h43 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h43">Tout à gauche, avant le saut.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-35-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-35-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h44","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h44 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-hecate.jpg" alt="Bouaké, octobre 2002 Au-dessus de la ville, avec un PGM Hécate II." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h44 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-gabon-zodiac.jpg" alt="Gabon Sur un Zodiac." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h45","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h45 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h45">Bouaké, octobre 2002</p>
+<p class="kt-adv-headingpd-a-propos-h45 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h45">Gabon</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h46","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h46 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h46">Au-dessus de la ville, avec un PGM Hécate II.</p>
+<p class="kt-adv-headingpd-a-propos-h46 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h46">Sur un Zodiac.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-36-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-36-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h47","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h47 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-gabon-zodiac.jpg" alt="Gabon Sur un Zodiac." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h47 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-retroviseur.jpg" alt="Bouaké, Côte d'Ivoire Dans le rétroviseur d'un Marmon." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h48","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h48 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h48">Gabon</p>
+<p class="kt-adv-headingpd-a-propos-h48 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h48">Bouaké, Côte d'Ivoire</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h49","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h49 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h49">Sur un Zodiac.</p>
+<p class="kt-adv-headingpd-a-propos-h49 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h49">Dans le rétroviseur d'un Marmon.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-37-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-37-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h50","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h50 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-collioure.jpg" alt="Collioure Centre d'entraînement commando." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h50 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-hecate.jpg" alt="Bouaké, octobre 2002 Au-dessus de la ville, avec un PGM Hécate II." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h51","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h51 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h51">Collioure</p>
+<p class="kt-adv-headingpd-a-propos-h51 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h51">Bouaké, octobre 2002</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h52","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h52 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h52">Centre d'entraînement commando.</p>
+<p class="kt-adv-headingpd-a-propos-h52 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h52">Au-dessus de la ville, avec un PGM Hécate II.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"pd-apropos-38-c","kbVersion":2} -->
 <div class="wp-block-kadence-column kadence-columnpd-apropos-38-c"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"ratio":"land43","useRatio":true,"uniqueID":"pd-a-propos-h53","marginDesktop":[0,0,12,0],"borderRadius":[2,2,2,2]} -->
-<figure class="wp-block-kadence-image kb-imagepd-a-propos-h53 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-premiers-sauts.jpg" alt="Premiers sauts Tout à gauche, avant le saut." class="kb-img"/></div></figure>
+<figure class="wp-block-kadence-image kb-imagepd-a-propos-h53 kb-image-is-ratio-size"><div class="kb-is-ratio-image kb-image-ratio-land43"><img src="/wp-content/themes/kadence-pascal/assets/photos/parcours-bosnie-vab.jpg" alt="Bosnie, 2003 Dans la zone des Serbes de Bosnie, à mon poste de radiographiste, dans le VAB transmissions." class="kb-img"/></div></figure>
 <!-- /wp:kadence/image -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h54","color":"palette5","sizeType":"rem","letterSpacing":0.14,"letterSpacingType":"em","typography":"IBM Plex Mono","fontWeight":"500","margin":[0,"",4,""],"textTransform":"uppercase","htmlTag":"p","fontSize":[0.75,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h54 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h54">Premiers sauts</p>
+<p class="kt-adv-headingpd-a-propos-h54 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h54">Bosnie, 2003</p>
 <!-- /wp:kadence/advancedheading -->
 
 <!-- wp:kadence/advancedheading {"uniqueID":"pd-a-propos-h55","color":"palette4","sizeType":"rem","margin":[0,"",0,""],"htmlTag":"p","fontSize":[0.95,"",""],"fontHeight":[1.5,"",""]} -->
-<p class="kt-adv-headingpd-a-propos-h55 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h55">Tout à gauche, avant le saut.</p>
+<p class="kt-adv-headingpd-a-propos-h55 wp-block-kadence-advancedheading" data-kb-block="kb-adv-headingpd-a-propos-h55">Dans la zone des Serbes de Bosnie, à mon poste de radiographiste, dans le VAB transmissions.</p>
 <!-- /wp:kadence/advancedheading --></div></div>
 <!-- /wp:kadence/column -->
 <!-- /wp:kadence/rowlayout --></div></div>
@@ -2312,8 +2312,8 @@
 		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:02:27]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:02:27]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 14:12:33]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 13:12:33]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 14:17:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 13:17:19]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[a-propos]]></wp:post_name>
@@ -4090,8 +4090,8 @@ https://www.youtube.com/watch?v=8yt6AzOWHPk
 		<wp:post_id>32</wp:post_id>
 		<wp:post_date><![CDATA[2026-11-22 19:38:14]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2026-11-22 18:38:14]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2026-11-23 14:12:40]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2026-11-23 13:12:40]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2026-11-23 14:17:27]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2026-11-23 13:17:27]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[thales]]></wp:post_name>
