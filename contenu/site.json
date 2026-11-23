@@ -414,8 +414,13 @@
       "parcours": {
         "surtitre": "Avant la caméra",
         "titre": "Le terrain, d'abord",
-        "texte": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, Gabon, puis la Côte d'Ivoire en 2002. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
+        "texte": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, la Bosnie, le Gabon, puis la Côte d'Ivoire en 2002. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
         "photos": [
+          {
+            "fichier": "parcours-bosnie-vab.jpg",
+            "lieu": "Bosnie",
+            "legende": "Dans la zone des Serbes de Bosnie, à mon poste de radiographiste, dans le VAB transmissions."
+          },
           {
             "fichier": "parcours-bouake-retroviseur.jpg",
             "lieu": "Bouaké, Côte d'Ivoire",
@@ -435,11 +440,6 @@
             "fichier": "parcours-collioure.jpg",
             "lieu": "Collioure",
             "legende": "Centre d'entraînement commando."
-          },
-          {
-            "fichier": "parcours-commando-corde.jpg",
-            "lieu": "Centre d'entraînement commando",
-            "legende": "Franchissement au-dessus de l'eau."
           },
           {
             "fichier": "parcours-premiers-sauts.jpg",

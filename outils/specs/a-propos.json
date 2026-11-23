@@ -2217,7 +2217,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, Gabon, puis la Côte d'Ivoire en 2002. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
+        "content": "Infanterie parachutiste : centre d'entraînement commando, premiers sauts, la Bosnie, le Gabon, puis la Côte d'Ivoire en 2002. C'est là que j'ai appris le terrain que je filme aujourd'hui.",
         "htmlTag": "p",
         "fontSize": [
          1.0625,
@@ -2307,8 +2307,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-retroviseur.jpg",
-            "alt": "Bouaké, Côte d'Ivoire Dans le rétroviseur d'un Marmon.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-bosnie-vab.jpg",
+            "alt": "Bosnie Dans la zone des Serbes de Bosnie, à mon poste de radiographiste, dans le VAB transmissions.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -2331,7 +2331,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Bouaké, Côte d'Ivoire",
+            "content": "Bosnie",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -2365,7 +2365,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Dans le rétroviseur d'un Marmon.",
+            "content": "Dans la zone des Serbes de Bosnie, à mon poste de radiographiste, dans le VAB transmissions.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -2408,8 +2408,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-hecate.jpg",
-            "alt": "Bouaké, octobre 2002 Au-dessus de la ville, avec un PGM Hécate II.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-retroviseur.jpg",
+            "alt": "Bouaké, Côte d'Ivoire Dans le rétroviseur d'un Marmon.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -2432,7 +2432,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Bouaké, octobre 2002",
+            "content": "Bouaké, Côte d'Ivoire",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -2466,7 +2466,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Au-dessus de la ville, avec un PGM Hécate II.",
+            "content": "Dans le rétroviseur d'un Marmon.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -2509,8 +2509,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-gabon-zodiac.jpg",
-            "alt": "Gabon Sur un Zodiac.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-bouake-hecate.jpg",
+            "alt": "Bouaké, octobre 2002 Au-dessus de la ville, avec un PGM Hécate II.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -2533,7 +2533,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Gabon",
+            "content": "Bouaké, octobre 2002",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -2567,7 +2567,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Sur un Zodiac.",
+            "content": "Au-dessus de la ville, avec un PGM Hécate II.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -2610,8 +2610,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-collioure.jpg",
-            "alt": "Collioure Centre d'entraînement commando.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-gabon-zodiac.jpg",
+            "alt": "Gabon Sur un Zodiac.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -2634,7 +2634,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Collioure",
+            "content": "Gabon",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -2668,7 +2668,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Centre d'entraînement commando.",
+            "content": "Sur un Zodiac.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
@@ -2711,8 +2711,8 @@
           {
            "name": "kadence/image",
            "attributes": {
-            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-commando-corde.jpg",
-            "alt": "Centre d'entraînement commando Franchissement au-dessus de l'eau.",
+            "url": "/wp-content/themes/kadence-pascal/assets/photos/parcours-collioure.jpg",
+            "alt": "Collioure Centre d'entraînement commando.",
             "useRatio": true,
             "ratio": "land43",
             "borderRadius": [
@@ -2735,7 +2735,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Centre d'entraînement commando",
+            "content": "Collioure",
             "htmlTag": "p",
             "typography": "IBM Plex Mono",
             "googleFont": false,
@@ -2769,7 +2769,7 @@
           {
            "name": "kadence/advancedheading",
            "attributes": {
-            "content": "Franchissement au-dessus de l'eau.",
+            "content": "Centre d'entraînement commando.",
             "htmlTag": "p",
             "fontSize": [
              0.95,
