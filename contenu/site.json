@@ -63,8 +63,8 @@
             "style": "contour"
           }
         ],
-        "image": "accueil-entretien-locci.jpg",
-        "image_position": "center center"
+        "image": "accueil-tournage-plateau.jpg",
+        "image_position": "65% 60%"
       },
       "a_la_une": {
         "surtitre": "À la une",
