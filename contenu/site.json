@@ -88,7 +88,7 @@
           {
             "nom": "FA3R",
             "fichier": "fa3r.png",
-            "fond": "#f1efe9",
+            "fond": "#ffffff",
             "largeur": 150
           }
         ]
@@ -129,7 +129,7 @@
           {
             "texte": "Défense et sécurité",
             "url": "/defense-et-securite/",
-            "style": "contour-sombre"
+            "style": "contour"
           }
         ]
       },

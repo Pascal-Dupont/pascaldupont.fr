@@ -346,16 +346,16 @@ def section_cas(P, cs):
     """Études de cas : contexte, intervention, résultat (fond clair)."""
     cols = []
     for x in cs['items']:
-        enfants = [P.surtitre(x['client'], couleur=BERET, marge_bas=8), P.titre(x['titre'], 3, taille=(1.9, 1.7, 1.5), couleur=ENCRE, marge_bas=18, interligne=1.15)]
+        enfants = [P.surtitre(x['client'], marge_bas=8), P.titre(x['titre'], 3, taille=(1.9, 1.7, 1.5), marge_bas=18, interligne=1.15)]
         for etiq, cle in (('Le contexte', 'contexte'), ('Mon intervention', 'intervention'), ('Le résultat', 'resultat')):
-            enfants += [P.surtitre(etiq, couleur=ENCRE_DOUX, marge_bas=4), P.ligne(x[cle], 1.0, ENCRE, 14, interligne=1.55)]
-        enfants.append(P.ligne('<a href="%s">%s →</a>' % (x['lien'], 'Voir les films' if x['lien'].startswith('/') else 'Voir le film'), 0.9, ENCRE, 0, liens=(ENCRE, BERET)))
-        cols.append(P.colonne(enfants, borderStyle=[{'top': [ENCRE, 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}],
+            enfants += [P.surtitre(etiq, couleur=DOUX, marge_bas=4), P.ligne(x[cle], 1.0, TEXTE, 14, interligne=1.55)]
+        enfants.append(P.ligne('<a href="%s">%s →</a>' % (x['lien'], 'Voir les films' if x['lien'].startswith('/') else 'Voir le film'), 0.9, TEXTE, 0, liens=(TEXTE, BERET_VIF)))
+        cols.append(P.colonne(enfants, borderStyle=[{'top': [HEX[SABLE], 'solid', 1], 'right': ['', '', ''], 'bottom': ['', '', ''], 'left': ['', '', ''], 'unit': 'px'}],
                               padding=[20, 0, 0, 0], paddingType='px'))
     n = 3 if len(cols) == 3 else 2
-    return P.section(P.entete_section(cs['surtitre'], cs['titre'], couleur_titre=ENCRE, couleur_sur=BERET, couleur_texte=ENCRE_DOUX, marge_bas=36)
+    return P.section(P.entete_section(cs['surtitre'], cs['titre'], marge_bas=36)
                      + [P.rangee(cols, layout='equal', tablette='row' if n == 3 else 'two-grid', mobile='row', gouttiere=[40, 32, 0], gouttiere_v=[48, 40, 40], columns=n)],
-                     fond=IVOIRE, texte=ENCRE, ancre='cas')
+                     fond=ARDOISE, ancre='cas', bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
 
 
 def page_accueil():
@@ -412,9 +412,9 @@ def page_accueil():
     references = P.section(P.entete_section(ref['surtitre'], ref['titre'], marge_bas=32) + logos + ([noms] if ref['noms'] else []), padding=(80, 64, 48))
 
     pr = c['prestations']
-    prestations = P.section(P.entete_section(pr['surtitre'], pr['titre'], pr['texte'], couleur_titre=ENCRE, couleur_sur=BERET, couleur_texte=ENCRE_DOUX)
-                            + P.lignes_titre_texte(pr['lignes'], clair=True) + [P.boutons(pr['boutons'], marge_haut=40)],
-                            fond=IVOIRE, texte=ENCRE, ancre='prestations')
+    prestations = P.section(P.entete_section(pr['surtitre'], pr['titre'], pr['texte'])
+                            + P.lignes_titre_texte(pr['lignes']) + [P.boutons(pr['boutons'], marge_haut=40)],
+                            fond=ARDOISE, ancre='prestations', bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
 
     lk = c['lakelab']
     reseaux_lk = [{'texte': r['reseau'], 'url': r['url'], 'style': 'contour'} for r in SITE['identite']['reseaux_lakelab']]
@@ -422,7 +422,7 @@ def page_accueil():
         P.colonne([P.surtitre(lk['surtitre']), P.titre(lk['titre'], 2, marge_bas=16), P.ligne(lk['texte'], 1.0625, DOUX, 0, largeur=544),
                    P.boutons([lk['bouton']] + reseaux_lk, marge_haut=28, petit=True)]),
         P.colonne([P.carte(fid['6FrZTiHyWsk'], etiquette='LAKELAB')]),
-    ], layout='equal', tabletLayout='row', gouttiere=[48, 40, 0], gouttiere_v=[0, 24, 40], verticalAlignment='middle')], fond=ARDOISE, ancre='lakelab',
+    ], layout='equal', tabletLayout='row', gouttiere=[48, 40, 0], gouttiere_v=[0, 24, 40], verticalAlignment='middle')], fond=NUIT, ancre='lakelab',
         bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
 
     ct = c['contact']
@@ -435,10 +435,10 @@ def page_accueil():
     noms_bd = {'name': 'core/list', 'attributes': {'className': 'pd-bandeau-noms'},
                'innerBlocks': [{'name': 'core/list-item', 'attributes': {'content': n}} for n in bd['noms']]}
     bandeau = P.section([P.rangee([
-        P.colonne([P.surtitre(bd['etiquette'], couleur=ENCRE_DOUX, marge_bas=0)]),
+        P.colonne([P.surtitre(bd['etiquette'], couleur=DOUX, marge_bas=0)]),
         P.colonne([noms_bd] + logos),
     ], layout='equal', firstColumnWidth=24, secondColumnWidth=76, gouttiere=[32, 24, 0], gouttiere_v=[0, 0, 16], verticalAlignment='middle')],
-        fond=IVOIRE, texte=ENCRE, padding=(28, 24, 24))
+        fond=NUIT, padding=(28, 24, 24), bordures=[{'top': ['', '', ''], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
 
     tr = c['territoires']
     rangs = []
@@ -453,7 +453,7 @@ def page_accueil():
             P.colonne([image], className='pd-territoire-image'),
         ], layout='equal', firstColumnWidth=66, secondColumnWidth=34, gouttiere=[48, 32, 0], gouttiere_v=[0, 0, 20], verticalAlignment='middle',
             borderStyle=[bord], padding=[28, 0, 28, 0], paddingUnit='px'))
-    territoires = P.section(P.entete_section(tr['surtitre'], tr['titre'], marge_bas=32) + rangs, fond=ARDOISE, ancre='territoires',
+    territoires = P.section(P.entete_section(tr['surtitre'], tr['titre'], marge_bas=32) + rangs, fond=NUIT, ancre='territoires',
                             bordures=[{'top': [HEX[LIGNE], 'solid', 1], 'right': ['', '', ''], 'bottom': [HEX[LIGNE], 'solid', 1], 'left': ['', '', ''], 'unit': 'px'}])
 
     cas = section_cas(P, c['cas'])

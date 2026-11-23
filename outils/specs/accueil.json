@@ -436,8 +436,8 @@
     "colLayout": "equal",
     "align": "full",
     "htmlTag": "section",
-    "bgColor": "#ece8df",
-    "textColor": "#10161c",
+    "bgColor": "palette9",
+    "textColor": "palette3",
     "padding": [
      28,
      "",
@@ -458,7 +458,32 @@
     ],
     "paddingUnit": "px",
     "maxWidth": 72,
-    "maxWidthUnit": "rem"
+    "maxWidthUnit": "rem",
+    "borderStyle": [
+     {
+      "top": [
+       "",
+       "",
+       ""
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
    },
    "innerBlocks": [
     {
@@ -548,7 +573,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -677,7 +702,7 @@
              "attributes": {
               "style": {
                "color": {
-                "background": "#f1efe9"
+                "background": "#ffffff"
                },
                "spacing": {
                 "padding": {
@@ -1891,8 +1916,8 @@
     "colLayout": "equal",
     "align": "full",
     "htmlTag": "section",
-    "bgColor": "#ece8df",
-    "textColor": "#10161c",
+    "bgColor": "palette8",
+    "textColor": "palette3",
     "padding": [
      96,
      "",
@@ -1914,7 +1939,32 @@
     "paddingUnit": "px",
     "maxWidth": 72,
     "maxWidthUnit": "rem",
-    "anchor": "cas"
+    "anchor": "cas",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
    },
    "innerBlocks": [
     {
@@ -1953,7 +2003,7 @@
         "letterSpacing": 0.14,
         "letterSpacingType": "em",
         "textTransform": "uppercase",
-        "color": "palette1",
+        "color": "palette5",
         "margin": [
          0,
          "",
@@ -1984,7 +2034,7 @@
          ""
         ],
         "fontHeightType": "",
-        "color": "#10161c",
+        "color": "palette3",
         "margin": [
          0,
          "",
@@ -2045,7 +2095,7 @@
           "borderStyle": [
            {
             "top": [
-             "#10161c",
+             "#c8b287",
              "solid",
              1
             ],
@@ -2099,7 +2149,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "palette1",
+            "color": "palette5",
             "margin": [
              0,
              "",
@@ -2130,7 +2180,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2164,7 +2214,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -2192,7 +2242,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2226,7 +2276,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -2254,7 +2304,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2288,7 +2338,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -2316,7 +2366,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2344,7 +2394,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2352,8 +2402,8 @@
              ""
             ],
             "marginType": "px",
-            "linkColor": "#10161c",
-            "linkHoverColor": "palette1",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
             "linkStyle": "underline",
             "uniqueID": "pd-accueil-h42"
            }
@@ -2374,7 +2424,7 @@
           "borderStyle": [
            {
             "top": [
-             "#10161c",
+             "#c8b287",
              "solid",
              1
             ],
@@ -2428,7 +2478,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "palette1",
+            "color": "palette5",
             "margin": [
              0,
              "",
@@ -2459,7 +2509,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2493,7 +2543,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -2521,7 +2571,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2555,7 +2605,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -2583,7 +2633,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2617,7 +2667,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -2645,7 +2695,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2673,7 +2723,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2681,8 +2731,8 @@
              ""
             ],
             "marginType": "px",
-            "linkColor": "#10161c",
-            "linkHoverColor": "palette1",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
             "linkStyle": "underline",
             "uniqueID": "pd-accueil-h51"
            }
@@ -2703,7 +2753,7 @@
           "borderStyle": [
            {
             "top": [
-             "#10161c",
+             "#c8b287",
              "solid",
              1
             ],
@@ -2757,7 +2807,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "palette1",
+            "color": "palette5",
             "margin": [
              0,
              "",
@@ -2788,7 +2838,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2822,7 +2872,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -2850,7 +2900,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2884,7 +2934,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -2912,7 +2962,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -2946,7 +2996,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -2974,7 +3024,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -3002,7 +3052,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -3010,8 +3060,8 @@
              ""
             ],
             "marginType": "px",
-            "linkColor": "#10161c",
-            "linkHoverColor": "palette1",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
             "linkStyle": "underline",
             "uniqueID": "pd-accueil-h60"
            }
@@ -3032,7 +3082,7 @@
           "borderStyle": [
            {
             "top": [
-             "#10161c",
+             "#c8b287",
              "solid",
              1
             ],
@@ -3086,7 +3136,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "palette1",
+            "color": "palette5",
             "margin": [
              0,
              "",
@@ -3117,7 +3167,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -3151,7 +3201,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -3179,7 +3229,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -3213,7 +3263,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -3241,7 +3291,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -3275,7 +3325,7 @@
             "letterSpacing": 0.14,
             "letterSpacingType": "em",
             "textTransform": "uppercase",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -3303,7 +3353,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -3331,7 +3381,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -3339,8 +3389,8 @@
              ""
             ],
             "marginType": "px",
-            "linkColor": "#10161c",
-            "linkHoverColor": "palette1",
+            "linkColor": "palette3",
+            "linkHoverColor": "palette2",
             "linkStyle": "underline",
             "uniqueID": "pd-accueil-h69"
            }
@@ -3362,7 +3412,7 @@
     "colLayout": "equal",
     "align": "full",
     "htmlTag": "section",
-    "bgColor": "palette8",
+    "bgColor": "palette9",
     "textColor": "palette3",
     "padding": [
      96,
@@ -4729,8 +4779,8 @@
     "colLayout": "equal",
     "align": "full",
     "htmlTag": "section",
-    "bgColor": "#ece8df",
-    "textColor": "#10161c",
+    "bgColor": "palette8",
+    "textColor": "palette3",
     "padding": [
      96,
      "",
@@ -4752,7 +4802,32 @@
     "paddingUnit": "px",
     "maxWidth": 72,
     "maxWidthUnit": "rem",
-    "anchor": "prestations"
+    "anchor": "prestations",
+    "borderStyle": [
+     {
+      "top": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "right": [
+       "",
+       "",
+       ""
+      ],
+      "bottom": [
+       "#2c3a49",
+       "solid",
+       1
+      ],
+      "left": [
+       "",
+       "",
+       ""
+      ],
+      "unit": "px"
+     }
+    ]
    },
    "innerBlocks": [
     {
@@ -4791,7 +4866,7 @@
         "letterSpacing": 0.14,
         "letterSpacingType": "em",
         "textTransform": "uppercase",
-        "color": "palette1",
+        "color": "palette5",
         "margin": [
          0,
          "",
@@ -4822,7 +4897,7 @@
          ""
         ],
         "fontHeightType": "",
-        "color": "#10161c",
+        "color": "palette3",
         "margin": [
          0,
          "",
@@ -4850,7 +4925,7 @@
          ""
         ],
         "fontHeightType": "",
-        "color": "#4a5663",
+        "color": "palette4",
         "margin": [
          0,
          "",
@@ -4905,7 +4980,7 @@
         "borderStyle": [
          {
           "top": [
-           "#10161c",
+           "#2c3a49",
            "solid",
            1
           ],
@@ -4915,7 +4990,7 @@
            ""
           ],
           "bottom": [
-           "#c9c4b8",
+           "#2c3a49",
            "solid",
            1
           ],
@@ -4962,7 +5037,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -5005,7 +5080,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -5068,7 +5143,7 @@
            ""
           ],
           "bottom": [
-           "#c9c4b8",
+           "#2c3a49",
            "solid",
            1
           ],
@@ -5115,7 +5190,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -5158,7 +5233,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -5221,7 +5296,7 @@
            ""
           ],
           "bottom": [
-           "#c9c4b8",
+           "#2c3a49",
            "solid",
            1
           ],
@@ -5268,7 +5343,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -5311,7 +5386,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -5374,7 +5449,7 @@
            ""
           ],
           "bottom": [
-           "#c9c4b8",
+           "#2c3a49",
            "solid",
            1
           ],
@@ -5421,7 +5496,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -5464,7 +5539,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -5527,7 +5602,7 @@
            ""
           ],
           "bottom": [
-           "#c9c4b8",
+           "#2c3a49",
            "solid",
            1
           ],
@@ -5574,7 +5649,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#10161c",
+            "color": "palette3",
             "margin": [
              0,
              "",
@@ -5617,7 +5692,7 @@
              ""
             ],
             "fontHeightType": "",
-            "color": "#4a5663",
+            "color": "palette4",
             "margin": [
              0,
              "",
@@ -5825,29 +5900,29 @@
            }
           ],
           "inheritStyles": "outline",
-          "color": "#10161c",
+          "color": "palette3",
           "background": "transparent",
-          "colorHover": "#ece8df",
-          "backgroundHover": "#10161c",
+          "colorHover": "palette9",
+          "backgroundHover": "palette3",
           "borderStyle": [
            {
             "top": [
-             "#10161c",
+             "#a9b6c0",
              "solid",
              1
             ],
             "right": [
-             "#10161c",
+             "#a9b6c0",
              "solid",
              1
             ],
             "bottom": [
-             "#10161c",
+             "#a9b6c0",
              "solid",
              1
             ],
             "left": [
-             "#10161c",
+             "#a9b6c0",
              "solid",
              1
             ],
@@ -5857,22 +5932,22 @@
           "borderHoverStyle": [
            {
             "top": [
-             "#10161c",
+             "#e8e6e1",
              "solid",
              1
             ],
             "right": [
-             "#10161c",
+             "#e8e6e1",
              "solid",
              1
             ],
             "bottom": [
-             "#10161c",
+             "#e8e6e1",
              "solid",
              1
             ],
             "left": [
-             "#10161c",
+             "#e8e6e1",
              "solid",
              1
             ],
@@ -5896,7 +5971,7 @@
     "colLayout": "equal",
     "align": "full",
     "htmlTag": "section",
-    "bgColor": "palette8",
+    "bgColor": "palette9",
     "textColor": "palette3",
     "padding": [
      96,
