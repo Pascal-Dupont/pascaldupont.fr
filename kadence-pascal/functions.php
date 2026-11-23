@@ -242,7 +242,7 @@ function pd_creer_menu( $nom, $elements ) {
 }
 
 // Changer cette valeur à chaque nouvel envoi des pages : le réglage automatique (accueil, menus) est alors refait.
-const PD_VERSION_INSTALLATION = '2.3.0';
+const PD_VERSION_INSTALLATION = '2.4.0';
 
 function pd_installer_site() {
 	$cles = array( 'accueil', 'documentaires', 'films', 'a-propos', 'defense-et-securite', 'thales', 'lakelab', 'contact', 'mentions-legales', 'confidentialite' );
@@ -322,7 +322,14 @@ function pd_installer_site() {
 add_action(
 	'admin_init',
 	function () {
-		if ( PD_VERSION_INSTALLATION === get_option( 'pd_installe' ) || ! current_user_can( 'manage_options' ) ) {
+		if ( ! current_user_can( 'manage_options' ) ) {
+			return;
+		}
+		// Refaire le réglage si la version a changé, ou si des pages ont été réimportées
+		// (la page d'accueil réglée n'est plus celle du site, ou le menu principal manque).
+		$accueil = pd_page_par_cle( 'accueil' );
+		$menu    = wp_get_nav_menu_object( 'Menu principal' );
+		if ( PD_VERSION_INSTALLATION === get_option( 'pd_installe' ) && ( ! $accueil || (int) get_option( 'page_on_front' ) === $accueil ) && $menu && wp_get_nav_menu_items( $menu->term_id ) ) {
 			return;
 		}
 		if ( pd_installer_site() ) {
