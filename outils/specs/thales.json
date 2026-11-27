@@ -131,7 +131,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Des films réalisés pour Thales et avec le 1er RCP, ainsi que des films de présentation pour TDA Armements, aujourd'hui intégré à Thales.",
+        "content": "Des films réalisés pour Thales et avec le 1er RCP, ainsi que des films de présentation pour TDA Armements, aujourd'hui Thales.",
         "htmlTag": "p",
         "fontSize": [
          1.15,
@@ -242,7 +242,7 @@
       {
        "name": "kadence/advancedheading",
        "attributes": {
-        "content": "Des films réalisés avec le 1er RCP dans le cadre du partenariat entre le régiment et Thales, que j'ai initié, ainsi que des films de présentation de matériels réalisés pour TDA Armements, aujourd'hui intégré à Thales.",
+        "content": "Des films réalisés avec le 1er RCP dans le cadre du partenariat entre le régiment et Thales, que j'ai initié, ainsi que des films de présentation de matériels réalisés pour TDA Armements, aujourd'hui Thales.",
         "htmlTag": "p",
         "fontSize": [
          1.0625,
