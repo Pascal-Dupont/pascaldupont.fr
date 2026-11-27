@@ -189,6 +189,7 @@
           "Fondation Résilience",
           "W9",
           "FA3R",
+          "Thales",
           "M6",
           "European Defense Review",
           "TV5 Monde"
@@ -210,6 +211,11 @@
           {
             "nom": "FA3R",
             "logo": "fa3r-blanc.png"
+          },
+          {
+            "nom": "Thales",
+            "logo": "thales-transparent-blanc.png",
+            "hauteur": 48
           },
           {
             "nom": "M6",
@@ -1027,7 +1033,7 @@
         "RCP11"
       ],
       "texte": "Des films réalisés avec le 1er RCP dans le cadre du partenariat entre le régiment et Thales, que j'ai initié, ainsi que des films de présentation de matériels réalisés pour TDA Armements, aujourd'hui Thales.",
-      "mention": "Les logos Thales sont utilisés avec l'accord de Thales, sans modification et en lien avec les films concernés.",
+      "mention": "Le logo Thales est utilisé avec l'accord de Thales, sans modification.",
       "videos": [
         {
           "id": "zWWyW-lMcnw",
