@@ -34,7 +34,8 @@
 - [ ] Documentaires : chiffres et faits pour les textes (La nuit leur appartient : audience, distinctions, « succès à plus d'un titre » ; Chroniques du 93 ; Voix d'Amazonie).
 - [x] TDA Armements : retiré du site (22 novembre 2026). Les films TDA ne sont plus présentés. Thales : éléments à transmettre par Pascal Dupont.
 - [ ] Série Serval : films en privé ; le contenu (chiffres, fabrication, presse) est dans la page Défense. Miniatures d'audience : en attente de l'accord de l'ECPAD.
-- [ ] Arquus : accord éventuel pour citer Arquus comme client (le film de Milipol 2021 est visible).
+- [~] Arquus : accord verbal de Charles Maisonneuve (« OK pour moi ») pour citer Arquus au titre du film Milipol 2021. Il renvoie vers Camille Pageault (communication externe) pour entériner et pour les conditions d'usage du logo. Message à Camille en préparation (24 nov. 2026).
+- [ ] Arquus : dossier de partenariat « La force est dans la meute » (La Ferme des Résilients, Grande Odyssée Savoie Mont Blanc, janvier) proposé à Charles, resté sans suite. À reproposer à Camille ou à la bonne personne RSE/sponsoring.
 
 ## Mise à jour du 22 novembre 2026 (échanges Thales, FA3R, Classe Défense)
 - [ ] Thales : envoyer à Sarah Mathieu le lien de la page /thales/ (protégée par mot de passe) avant toute mise en ligne ; elle a répondu « je veux bien le lien en backoffice ».
